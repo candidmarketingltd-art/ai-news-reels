@@ -4,7 +4,8 @@
    or the article itself when it's on the company's site), falling back to the company homepage's share image, plus the
    company logo. Companies publish these for press coverage.
 2. STOCK B-ROLL from Pexels (free for commercial use, no attribution required, no Content-ID claims): short portrait clips
-   for the visual ideas the script writer suggests ("data center servers", "robot arm", "phone screen").
+   for the visual ideas the script writer suggests ("data center servers", "robot arm", "phone screen"), found through the
+   Apify actor memo23/pexels-scraper with the same APIFY_TOKEN as Paisa Decode (or the Pexels API if PEXELS_API_KEY is set).
 
 Deliberately NOT used: clips from company YouTube videos, news-agency photos (Reuters/Getty/AP) or photos of people —
 those get reels muted/removed or the account copyright strikes.
@@ -95,15 +96,39 @@ def logo(domain, path):
     return False
 
 
-def pexels_video(query, path, used):
+PEXELS_ACTOR = os.environ.get("PEXELS_ACTOR") or "memo23~pexels-scraper"
+
+
+def _pexels_search(query):
+    """Portrait Pexels videos for a query -> [{id, duration, files:[{width,height,link}], by, page}].
+    Uses Apify (APIFY_TOKEN, same as Paisa Decode; ~$0.003 per clip, no Pexels key needed); falls back to the
+    official Pexels API when PEXELS_API_KEY is set instead."""
+    tok = os.environ.get("APIFY_TOKEN")
+    if tok:
+        r = requests.post(f"https://api.apify.com/v2/acts/{PEXELS_ACTOR}/run-sync-get-dataset-items",
+                          params={"token": tok, "timeout": 120},
+                          json={"mode": "search", "searchQuery": query, "mediaType": "videos", "maxItems": 6,
+                                "orientation": "portrait", "minDuration": 4, "maxDuration": 40}, timeout=180)
+        r.raise_for_status()
+        return [{"id": v.get("id"), "duration": v.get("duration") or 0, "files": v.get("videoFiles") or [],
+                 "by": v.get("photographer", ""), "page": v.get("url", ""), "license": v.get("license", "")}
+                for v in r.json() if v.get("type", "video") == "video"]
     key = os.environ.get("PEXELS_API_KEY")
-    if not key: return None
-    r = requests.get("https://api.pexels.com/videos/search", headers={"Authorization": key},
-                     params={"query": query, "orientation": "portrait", "size": "medium", "per_page": 8}, timeout=30)
-    r.raise_for_status()
-    for v in r.json().get("videos", []):
-        if v["id"] in used or v.get("duration", 0) < 4: continue
-        files = [f for f in v.get("video_files", []) if f.get("file_type") == "video/mp4" and f.get("width") and f.get("height")]
+    if key:
+        r = requests.get("https://api.pexels.com/videos/search", headers={"Authorization": key},
+                         params={"query": query, "orientation": "portrait", "size": "medium", "per_page": 8}, timeout=30)
+        r.raise_for_status()
+        return [{"id": v["id"], "duration": v.get("duration", 0), "files": v.get("video_files", []),
+                 "by": (v.get("user") or {}).get("name", ""), "page": v.get("url", ""), "license": "Pexels"}
+                for v in r.json().get("videos", [])]
+    return []
+
+
+def pexels_video(query, path, used):
+    for v in _pexels_search(query):
+        if v["id"] in used or v["duration"] < 4: continue
+        if v.get("license") and "pexels" not in str(v["license"]).lower(): continue
+        files = [f for f in v["files"] if (f.get("fileType") or f.get("file_type")) == "video/mp4" and f.get("width") and f.get("height")]
         files = [f for f in files if f["height"] >= f["width"]] or files
         if not files: continue
         f = min(files, key=lambda f: abs(f["height"] - 1280))          # ~720p portrait is plenty for the panel
@@ -112,7 +137,7 @@ def pexels_video(query, path, used):
             with open(path, "wb") as out:
                 for chunk in resp.iter_content(1 << 20): out.write(chunk)
         used.add(v["id"])
-        return {"pexels_id": v["id"], "by": (v.get("user") or {}).get("name", ""), "page": v.get("url", "")}
+        return {"pexels_id": v["id"], "by": v["by"], "page": v["page"]}
     return None
 
 
