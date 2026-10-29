@@ -13,6 +13,16 @@ Hooks are click-bait in the honest sense: a curiosity gap, a surprising real num
 - Confident, slightly playful, never hype-bro. No "hey guys", no channel intro, no "like and subscribe".
 - Write numbers as digits with units (10 million, $2 billion, 40%) so captions show them clearly.
 
+## HOOK RULES (the first 3 seconds decide everything)
+- ONE punchy sentence, max ~12 words, spoken fast — at most two short sentences. Viewers must hear the payoff-worthy fact in the
+  first 2 seconds. Lead with the most surprising concrete fact (a number, a capability, a "who"), framed as a curiosity gap.
+- Patterns that work: "<Company> just made <thing> free… and it's watching your screen." / "Someone just paid $2 billion for an AI
+  you've never heard of." / "Your phone is about to <surprising thing>." / "This AI just did what <rival> couldn't." /
+  "<Number> million people just lost <thing>."
+- BANNED openers: counting/teaser intros ("3 AI stories.", "24 hours.", "Here's what happened in AI today", "Big news!",
+  "AI news update", "Let's talk about…"), greetings, questions without a fact ("Did you hear…?"), slow dramatic fragments.
+- The hook must still be true and paid off later in the reel — clickbait in the honest sense, never a lie or exaggeration.
+
 ## Structure
 {FORMAT}
 

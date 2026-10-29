@@ -1,6 +1,6 @@
 {
  "_note": "FORMAT EXAMPLE ONLY. Nova Labs, Pixel Mind and every figure here are invented. Never reuse these facts.",
- "voiceover": "[slow, deep, dramatic] 3 AI stories. 24 hours. And one of them changes your phone.\n\n[intrigued, building energy] Story 1. Nova Labs just launched Nova 5, and it is free for everyone. The company says it is 40% faster than the old version and it can now see your screen while you work.\n\n[excited, fast] Story 2. Pixel Mind raised $2 billion. That is the biggest AI funding round this month, according to Reuters. [amused] Investors are still very, very hungry.\n\n[serious] Story 3. Europe's new AI rules start today. Chatbots must now tell you when you are talking to a machine. [punchy] No more pretending.\n\n[confident] So: try Nova 5 if you want a free assistant, watch Pixel Mind, and expect more \"I am an AI\" labels.\n\n[playful, warm] Send this to the friend who still thinks AI news is boring.",
+ "voiceover": "[urgent, fast] A free AI just learned to watch your screen. [punchy] And someone paid $2 billion for another one!\n\n[intrigued, building energy] Story 1. Nova Labs just launched Nova 5, and it is free for everyone. The company says it is 40% faster than the old version and it can now see your screen while you work.\n\n[excited, fast] Story 2. Pixel Mind raised $2 billion. That is the biggest AI funding round this month, according to Reuters. [amused] Investors are still very, very hungry.\n\n[serious] Story 3. Europe's new AI rules start today. Chatbots must now tell you when you are talking to a machine. [punchy] No more pretending.\n\n[confident] So: try Nova 5 if you want a free assistant, watch Pixel Mind, and expect more \"I am an AI\" labels.\n\n[playful, warm] Send this to the friend who still thinks AI news is boring.",
  "ig_caption": "3 AI stories from the last 24 hours, in 60 seconds ⚡\nNova 5 goes free, Pixel Mind raises $2 billion, and Europe's chatbot labels kick in.\nSend this to the friend who is always last to hear about AI.\nFollow @youraccount for AI news every day\nSources: Nova Labs, Reuters",
  "hashtags": [
   "#AI",
@@ -11,20 +11,20 @@
   "#AIregulation"
  ],
  "series_tag": "ROUNDUP.AI",
- "title_line1": "3 AI stories,",
- "title_line2": "in *24 hours*",
+ "title_line1": "This AI watches",
+ "title_line2": "your *screen* now",
  "cold_open": [
   {
-   "text": "3 AI stories.",
-   "at": "3 AI stories."
+   "text": "FREE AI",
+   "at": "A free AI"
   },
   {
-   "text": "24 hours.",
-   "at": "24 hours."
+   "text": "YOUR SCREEN",
+   "at": "watch your screen."
   },
   {
-   "text": "One changes your phone.",
-   "at": "changes your phone."
+   "text": "$2 BILLION",
+   "at": "paid $2 billion"
   }
  ],
  "scenes": [

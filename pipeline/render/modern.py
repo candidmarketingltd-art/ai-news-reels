@@ -273,6 +273,37 @@ class ModernReel(Reel):
                 self.chunks.append(cur); cur = []
         if cur: self.chunks.append(cur)
         self.blobs = [(VIOLET, 360, 0.0), (CYAN, 300, 2.1), (PINK, 260, 4.2)]
+        self._hook_setup()
+
+    # -------------------------------------------------------------- fast hook
+    def _hook_setup(self):
+        """The hook = every word up to the end of the sentence holding the last cold_open cue.
+        Split into 1–2 word beats that slam on screen exactly when spoken."""
+        words = self.words
+        if not self.open or not words:
+            self.beats = []; return
+        last = self.tl.at(self.open[-1].get("at")) or 0.0
+        i = next((k for k, w in enumerate(words) if w[1] >= last - 1e-6), 0)
+        while i < len(words) - 1 and not words[i][0].endswith((".", "!", "?")):
+            i += 1
+        end_i = i
+        nxt = words[end_i + 1][1] if end_i + 1 < len(words) else words[end_i][2] + 0.2
+        self.open_end = max(words[end_i][2] + 0.02, nxt - 0.06)
+        self.cuts[0] = self.open_end
+        self.keys = set()
+        for ln in self.open:
+            for tok in str(ln.get("text", "")).split():
+                n = _norm(tok)
+                if n: self.keys.add(n)
+        self.beats, cur = [], []
+        for k in range(end_i + 1):
+            cur.append(k)
+            w = words[k][0]
+            is_key = _norm(w) in self.keys
+            nxt_key = k + 1 <= end_i and _norm(words[k + 1][0]) in self.keys
+            if len(cur) >= 2 or w.endswith((".", "!", "?", ",", "…")) or (is_key and not nxt_key) or (nxt_key and not is_key):
+                self.beats.append(cur); cur = []
+        if cur: self.beats.append(cur)
 
     # -------------------------------------------------------------- frame
     def frame(self, i):
@@ -295,8 +326,8 @@ class ModernReel(Reel):
         else:
             self.chrome(img, t, acc, acc2)
             lay, pos = panel_shell(acc)
-            a = ease((t - self.open_end) / 0.5)
-            paste(img, lay, pos, "lt", alpha=a, dy=(1 - a) * 60)
+            a = ease((t - self.open_end) / 0.28)
+            paste(img, lay, pos, "lt", alpha=a, dy=(1 - a) * 80)
             if sc: self.card(img, sc, t, acc, acc2)
             self.host_cam(img, t, acc, acc2)
             self.captions(img, t, acc)
@@ -325,7 +356,6 @@ class ModernReel(Reel):
         if p.get("episode"):
             ImageDraw.Draw(img).text((WIDTH - M, TOP), f"EP {int(p['episode']):02d}", font=F("mono", 28), fill=MUTED + (255,), anchor="rm")
         l1 = p.get("title_line1") or ""; l2 = p.get("title_line2") or ""
-        a = ease((t - self.open_end) / 0.55)
         d = ImageDraw.Draw(img)
         size = 96
         for s_ in (l1, l2):
@@ -334,7 +364,7 @@ class ModernReel(Reel):
         f = F("black", size)
         for k, s_ in enumerate((l1, l2)):
             if not s_: continue
-            ak = ease((t - self.open_end - 0.08 * k) / 0.55)
+            ak = ease((t - self.open_end - 0.06 * k) / 0.3)
             x = M; y = TOP + 76 + k * (size * 1.08)
             for part in re.split(r"(\*[^*]+\*)", s_):
                 if not part: continue
@@ -347,7 +377,7 @@ class ModernReel(Reel):
     # -------------------------------------------------------------- host cam
     def host_cam(self, img, t, acc, acc2):
         x0, y0, x1, y1 = CAM
-        a = ease((t - self.open_end - 0.15) / 0.5)
+        a = ease((t - self.open_end - 0.08) / 0.3)
         if a <= 0: return
         _, md, point = self.mood(t)
         v = self.viseme(t)
@@ -407,22 +437,60 @@ class ModernReel(Reel):
 
     # -------------------------------------------------------------- cold open
     def cold_open(self, img, t, acc, acc2):
+        """Kinetic hook: each 1–2 word beat slams in on the beat it is spoken (punch-zoom, RGB split, flash);
+        key words (numbers, names, FREE…) are huge in the accent gradient."""
         d = ImageDraw.Draw(img)
-        d.rectangle((0, 0, WIDTH, HEIGHT), fill=BG + (150,))
-        lines = self.open[:3]; n = len(lines)
-        y0 = 960 - (n - 1) * 95
-        for k, ln in enumerate(lines):
-            t0 = self.tl.at(ln.get("at")) if ln.get("at") is not None else k * 1.4
-            if t0 is None or t < t0: continue
-            s = ln.get("text", "")
-            f = fit(d, s, "black", 116, WIDTH - 2 * M)
-            last = k == n - 1
-            lay = grad_text(s, f, acc, acc2) if last else text_layer(s, f, WHITE + (255,))
-            p = ease((t - t0) / 0.45)
-            sc = 1.08 - 0.08 * p
-            paste(img, lay, (540, y0 + k * 190), "mm", alpha=p, dy=(1 - p) * 40, scale=sc, glow=acc if last else None, glow_r=24)
-        pill(img, (540, 1560), "AI NEWS · " + HANDLE.lstrip("@").upper() if HANDLE.startswith("@") else "AI NEWS", F("mono", 24),
-             MUTED + (255,), (255, 255, 255, 14), pad=(22, 12), border=(255, 255, 255, 30))
+        d.rectangle((0, 0, WIDTH, HEIGHT), fill=BG + (120,))
+        beat = None
+        for k, bt in enumerate(self.beats):
+            st = self.words[bt[0]][1] - 0.04
+            en = self.words[self.beats[k + 1][0]][1] - 0.04 if k + 1 < len(self.beats) else self.open_end
+            if st <= t < en: beat = (k, bt, st)
+        pill(img, (540, 300), "BREAKING · AI", F("mono", 30), WHITE + (255,), RED + (220,), pad=(26, 14),
+             dot=WHITE + (int(255 * (0.5 + 0.5 * math.sin(t * 9))),))
+        if beat is None: return
+        k, bt, st = beat
+        dt = t - st
+        toks = [self.words[i][0].strip("\"“”") for i in bt]
+        key = any(_norm(x) in self.keys for x in toks)
+        txt = " ".join(toks)
+        if key: txt = txt.upper().rstrip(".,!?")
+        size = 200 if key else 150
+        f = fit(d, txt, "black", size, WIDTH - 2 * M)
+        lay = grad_text(txt, f, acc, acc2) if key else text_layer(txt, f, WHITE + (255,))
+        if lay.width > WIDTH - 2 * M:
+            lay = lay.resize((WIDTH - 2 * M, int(lay.height * (WIDTH - 2 * M) / lay.width)), Image.BICUBIC)
+        punch = 1.0 + 0.32 * (1 - ease(dt / 0.14))
+        sh = (10 * math.sin(t * 70) * max(0, 1 - dt / 0.18)) if key else 0
+        cy = 900 + (0 if k % 2 == 0 else 40)
+        # flash on every beat
+        fl = max(0.0, 1 - dt / 0.12)
+        if fl > 0:
+            img.alpha_composite(Image.new("RGBA", img.size, (acc if key else (255, 255, 255)) + (int(70 * fl),)))
+        # RGB split for the first frames of a beat
+        if dt < 0.09:
+            for off, tint in ((-14, (255, 40, 90)), (14, (40, 220, 255))):
+                ghost = text_layer(txt, f, tint + (150,))
+                if ghost.width > WIDTH - 2 * M:
+                    ghost = ghost.resize((WIDTH - 2 * M, int(ghost.height * (WIDTH - 2 * M) / ghost.width)), Image.BICUBIC)
+                paste(img, ghost, (540 + off + sh, cy), "mm", alpha=0.8, scale=punch)
+        paste(img, lay, (540 + sh, cy), "mm", scale=punch, glow=acc if key else None, glow_r=30)
+        # Rohan reacting under the words (shocked on key beats), round cam with a speaking ring
+        v = self.viseme(t)
+        hm = host("shocked" if key else "smirk", v or "O", None, "down")
+        r = 150
+        circ = Image.new("RGBA", (2 * r, 2 * r), (0, 0, 0, 0))
+        bgc = gradient(2 * r, 2 * r, tuple(int(c * 0.5) for c in acc), tuple(int(c * 0.3) for c in acc2), 1.0).convert("RGBA")
+        circ.alpha_composite(bgc)
+        circ.alpha_composite(hm, (0, 6))
+        m = Image.new("L", (2 * r, 2 * r), 0); ImageDraw.Draw(m).ellipse((0, 0, 2 * r - 1, 2 * r - 1), fill=255)
+        circ.putalpha(m)
+        ImageDraw.Draw(circ).ellipse((2, 2, 2 * r - 3, 2 * r - 3), outline=acc + (255,), width=5)
+        pop = 1.0 + 0.06 * (1 - ease(dt / 0.14)) * (1 if key else 0)
+        paste(img, circ, (540, 1330), "mm", scale=pop, glow=acc, glow_r=22)
+        if self.open_end - t < 0.35:
+            a = ease((t - (self.open_end - 0.35)) / 0.3)
+            d.rectangle((0, 0, WIDTH, HEIGHT), fill=BG + (int(160 * a),))
 
     # -------------------------------------------------------------- cards
     def card(self, img, sc, t, acc, acc2):

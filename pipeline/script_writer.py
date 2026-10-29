@@ -14,13 +14,14 @@ HANDLE = "@" + (os.environ.get("IG_HANDLE") or "youraccount").lstrip("@")
 
 FORMATS = {
     "single": """ONE story, told properly (45–60 seconds spoken; ~110–150 words).
-1. **Cold open (0–4s)**: 2–3 ultra-short dramatic fragments, each a stated fact from the sources. Start the voiceover with `[slow, deep, dramatic]`.
-2. **What happened (4–15s)**: who did what, in one or two sentences, with the most striking number. `[intrigued, building energy]`.
+1. **Hook (0–3s)**: see HOOK RULES. Start the voiceover with `[urgent, fast]`.
+2. **What happened (3–15s)**: who did what, in one or two sentences, with the most striking number. `[intrigued, building energy]`.
 3. **The details**: 2–3 fast beats — what it can do / how much / who it affects. Tags like `[excited, fast]`, `[serious]`, `[punchy]`, `[amused]`.
 4. **Why it matters to YOU**: the practical consequence for a normal viewer (their job, their phone, their money, their privacy). `[confident]`.
 5. **Share trigger (last line)**: "Send this to the friend who …" naming someone specific to the topic. `[playful, warm]`.""",
     "roundup": """A combined reel of {N} stories (55–70 seconds spoken; ~140–180 words).
-1. **Cold open (0–4s)**: 2–3 ultra-short fragments teasing the stories ("{N} AI stories. 24 hours. …"). Start with `[slow, deep, dramatic]`.
+1. **Hook (0–3s)**: see HOOK RULES — built from the most shocking fact among the stories (optionally a second punch from another story).
+   Start with `[urgent, fast]`. Then go straight into "Story 1." — no "here are 3 stories" line.
 2. **Story 1 … Story {N}**: start each with "Story 1." / "Story 2." …, then what happened + the one number or detail that makes it interesting,
    in 2–3 sentences. Most important first. Vary the tags (`[excited, fast]`, `[serious]`, `[amused]`, `[punchy]`).
 3. **So what**: one line tying them together or telling the viewer what to do / try / watch. `[confident]`.
@@ -147,6 +148,20 @@ def _check_cues(plan, voiceover):
         raise ValueError("these cue words are not in the voiceover exactly as written: " + " | ".join(bad[:8]))
 
 
+BANNED_HOOK = re.compile(r"^(\d+\s+(ai\s+)?(stories|updates|news|things)|\d+\s+hours|here'?s|here is|big news|breaking news|ai news|"
+                         r"let'?s talk|today in ai|in today'?s|welcome|hey|hi\b|did you (hear|know))", re.I)
+
+
+def check_hook(voiceover):
+    """The first paragraph is the hook: short, fast, starts with a fact, no counting/teaser intro."""
+    first = re.sub(r"\[[^\]]*\]", " ", voiceover.strip().split("\n\n")[0]).strip()
+    n = len(first.split())
+    if BANNED_HOOK.search(first):
+        raise ValueError(f"the hook starts with a banned slow/teaser opener ('{first[:40]}…'). Open with the most surprising concrete fact")
+    if n > 18:
+        raise ValueError(f"the hook (first paragraph) is {n} words; it must be at most ~12–16 words so it lands in under 3 seconds")
+
+
 # ----------------------------------------------------------------------------- 2) script, 3) edit
 def write(decision, pack):
     """decision: output of select(); pack: news.fetch_articles() output. Returns the full plan."""
@@ -165,6 +180,7 @@ def write(decision, pack):
 
     def check1(d):
         if not d.get("voiceover"): raise ValueError("missing 'voiceover'")
+        check_hook(d["voiceover"])
         fact_check({"voiceover": d["voiceover"]}, sources)
     script = _ask_json(SCRIPT_MODEL, sys1, user1, check1)
 
