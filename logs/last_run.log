@@ -1,0 +1,38 @@
+  ANTHROPIC_API_KEY: set
+  ELEVENLABS_API_KEY: set
+  BUFFER_API_KEY: set
+  BUFFER_CHANNEL_ID: set
+  IG_HANDLE: MISSING
+  PEXELS_API_KEY: MISSING
+slot 2026-10-29-10 | topic=ai (AI) | must_post=True | dry_run=True
+[1/6] news — last 8h
+      trends: 30/30 countries read, 10 AI trending searches
+      (feed https://venturebeat.com/category/ai/feed/ failed: 429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/)
+      feeds: 11/12 read, 20 AI stories in window
+[2/6] editor — 30 candidates (attempt 1)
+      decision: single — Anthropic's S-1 filing to go public on Nasdaq is a landmark AI-industry event (IPO of a top lab) covered in depth by multiple outlets today, so it gets a full reel.
+      • [9] Anthropic files S-1 to go public on Nasdaq, asking Wall Street to bet on AGI
+[3/6] reading articles + writing script
+      2 article(s) read for: Anthropic files S-1 to go public on Nasdaq, asking Wall Street to bet on AGI
+      media: s1_image, s1_logo, s1_broll1, s1_broll2
+[4/6] voice
+      [eleven] subscription: 401 {"detail":{"type":"authentication_error","code":"unauthorized","message":"The API key you used is missing the permission user_read to execute this operation.","status":"missing_permissions","request_id":"926a5df60a1906b2fe1d25a50dd035aa"}}
+      [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
+      179 words, 66.6s, voice eleven_v4
+[5/6] render
+  frame 0/2025
+  frame 300/2025
+  frame 600/2025
+  frame 900/2025
+  frame 1200/2025
+  frame 1500/2025
+  frame 1800/2025
+DRY RUN — reel at /home/runner/work/ai-news-reels/ai-news-reels/out/2026-10-29_2241.mp4
+--- caption ---
+Anthropic just filed to go public, at up to a $2 trillion valuation 👀
+Revenue grew fourteen times to $16.3 billion, but the company also has around $850 billion in compute commitments to cover.
+Send this to the friend who uses Claude every single day.
+Follow @ihackgrowth for daily AI & tech news
+Sources: The Verge
+
+#AI #AInews #Anthropic #Claude #IPO #Nasdaq #ArtificialIntelligence

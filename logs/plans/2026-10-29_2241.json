@@ -1,0 +1,337 @@
+{
+ "voiceover": "[excited, conversational] Okay, so Claude's maker, Anthropic, could go public at up to a $2 trillion valuation. [curious] That's according to The Verge. Anthropic just filed its S-1 to list on the Nasdaq, and it could start trading as soon as next month, at between $1.5 trillion and $2 trillion.\n\n[intrigued, building energy] The filing finally shows the money inside. Revenue grew fourteen times to $16.3 billion in the first half of 2026. And adjusted income was $1.62 billion.\n\n[serious] But here's the catch. The Verge adds up Anthropic's compute commitments at around $850 billion over the next 20 years. That's about a trillion dollars if pending deals count. One analyst puts it bluntly: \"Growth is not optional for this company.\"\n\n[amused] Fun detail: it names only OpenAI and Google as rivals.\n\n[confident] Why it matters to you: for years people asked if AI can pay for itself. For now, at least for this company, the numbers say yes. Whether that keeps going is the big question.\n\n[playful, warm] Send this to the friend who uses Claude all day and has no idea it's about to be a public company.",
+ "ig_caption": "Anthropic just filed to go public, at up to a $2 trillion valuation 👀\nRevenue grew fourteen times to $16.3 billion, but the company also has around $850 billion in compute commitments to cover.\nSend this to the friend who uses Claude every single day.\nFollow @ihackgrowth for daily AI & tech news\nSources: The Verge",
+ "hashtags": [
+  "#AI",
+  "#AInews",
+  "#Anthropic",
+  "#Claude",
+  "#IPO",
+  "#Nasdaq",
+  "#ArtificialIntelligence"
+ ],
+ "numbers": [
+  "$1.5 trillion",
+  "$2 trillion",
+  "fourteen times",
+  "$16.3 billion",
+  "first half of 2026",
+  "$1.62 billion",
+  "around $850 billion",
+  "20 years",
+  "about a trillion dollars"
+ ],
+ "media_hints": [
+  {
+   "story": 1,
+   "company": "Anthropic",
+   "domain": "anthropic.com",
+   "broll": [
+    "stock market trading screen",
+    "data center servers"
+   ]
+  }
+ ],
+ "cold_open": [
+  {
+   "text": "ANTHROPIC IPO",
+   "at": "Claude's maker, Anthropic,"
+  },
+  {
+   "text": "GOING PUBLIC",
+   "at": "could go public"
+  },
+  {
+   "text": "$2 TRILLION",
+   "at": "$2 trillion valuation."
+  }
+ ],
+ "scenes": [
+  {
+   "at": "That's according to",
+   "mood": "neutral",
+   "point": true,
+   "tint": "cold",
+   "card": {
+    "type": "news",
+    "tag": "BREAKING",
+    "tag_at": "That's according to",
+    "title": "Anthropic files S-1 to go public on the Nasdaq",
+    "at": "That's according to",
+    "source": "via The Verge",
+    "source_at": "according to The",
+    "bg_media": "s1_image",
+    "logo": "s1_logo"
+   }
+  },
+  {
+   "at": "Anthropic just filed",
+   "mood": "neutral",
+   "point": false,
+   "tint": "cold",
+   "card": {
+    "type": "footage",
+    "media": "s1_broll1",
+    "at": "Anthropic just filed",
+    "caption": "Next stop: the Nasdaq",
+    "caption_at": "list on the"
+   }
+  },
+  {
+   "at": "and it could start",
+   "mood": "shocked",
+   "point": true,
+   "tint": "cold",
+   "card": {
+    "type": "split",
+    "title": "IPO valuation range",
+    "title_at": "and it could start",
+    "left": {
+     "text": "$1.5T",
+     "at": "between $1.5 trillion",
+     "color": "blue"
+    },
+    "right": {
+     "text": "$2T",
+     "at": "and $2 trillion.",
+     "color": "gold"
+    },
+    "result": "Trading next month",
+    "result_at": "and $2 trillion."
+   }
+  },
+  {
+   "at": "The filing finally",
+   "mood": "neutral",
+   "point": true,
+   "tint": "green",
+   "card": {
+    "type": "headline",
+    "title": "The money inside",
+    "at": "The filing finally",
+    "sub": "S-1 opens the books",
+    "sub_at": "money inside.",
+    "color": "white",
+    "sub_color": "green",
+    "icon": "coin"
+   }
+  },
+  {
+   "at": "Revenue grew fourteen",
+   "mood": "shocked",
+   "point": false,
+   "tint": "green",
+   "card": {
+    "type": "big_number",
+    "label": "First-half revenue",
+    "value": "$16.3B",
+    "value_at": "to $16.3 billion",
+    "note": "first half of 2026",
+    "note_at": "first half of",
+    "color": "green"
+   }
+  },
+  {
+   "at": "And adjusted income",
+   "mood": "neutral",
+   "point": true,
+   "tint": "green",
+   "card": {
+    "type": "big_number",
+    "label": "Adjusted income",
+    "value": "$1.62B",
+    "value_at": "was $1.62 billion.",
+    "note": "in the black",
+    "note_at": "was $1.62 billion.",
+    "color": "gold"
+   }
+  },
+  {
+   "at": "But here's the",
+   "mood": "serious",
+   "point": false,
+   "tint": "red",
+   "card": {
+    "type": "title_slam",
+    "title": "THE CATCH",
+    "at": "here's the catch.",
+    "color": "red"
+   }
+  },
+  {
+   "at": "The Verge adds",
+   "mood": "serious",
+   "point": true,
+   "tint": "red",
+   "card": {
+    "type": "footage",
+    "media": "s1_broll2",
+    "at": "The Verge adds",
+    "caption": "Compute isn't cheap",
+    "caption_at": "compute commitments at"
+   }
+  },
+  {
+   "at": "around $850 billion",
+   "mood": "shocked",
+   "point": false,
+   "tint": "red",
+   "card": {
+    "type": "big_number",
+    "label": "Compute commitments",
+    "value": "$850B",
+    "value_at": "around $850 billion",
+    "note": "over the next 20 years",
+    "note_at": "next 20 years.",
+    "color": "red"
+   }
+  },
+  {
+   "at": "That's about a",
+   "mood": "shocked",
+   "point": false,
+   "tint": "red",
+   "card": {
+    "type": "big_number",
+    "label": "With pending deals",
+    "value": "~$1T",
+    "value_at": "a trillion dollars",
+    "note": "if pending deals count",
+    "note_at": "pending deals count.",
+    "color": "red"
+   }
+  },
+  {
+   "at": "One analyst puts",
+   "mood": "serious",
+   "point": true,
+   "tint": "red",
+   "card": {
+    "type": "headline",
+    "title": "\"Growth is not optional\"",
+    "at": "Growth is not",
+    "sub": "— one analyst",
+    "sub_at": "optional for this",
+    "color": "white",
+    "sub_color": "muted"
+   }
+  },
+  {
+   "at": "Fun detail: it",
+   "mood": "smirk",
+   "point": true,
+   "card": {
+    "type": "split",
+    "title": "Named rivals",
+    "title_at": "Fun detail: it",
+    "left": {
+     "text": "OpenAI",
+     "at": "only OpenAI and",
+     "color": "ice"
+    },
+    "right": {
+     "text": "Google",
+     "at": "and Google as",
+     "color": "gold"
+    },
+    "result": "That's the list",
+    "result_at": "as rivals."
+   }
+  },
+  {
+   "at": "Why it matters",
+   "mood": "neutral",
+   "point": true,
+   "tint": "green",
+   "card": {
+    "type": "compare_arrow",
+    "title": "Can AI pay for itself?",
+    "from_text": "Years of doubt",
+    "from_at": "for years people",
+    "to_text": "Numbers say yes",
+    "to_at": "numbers say yes.",
+    "result": "Can it last?",
+    "result_at": "the big question."
+   }
+  },
+  {
+   "at": "Send this to",
+   "mood": "smirk",
+   "point": false,
+   "tint": "green",
+   "card": {
+    "type": "cta",
+    "line1": "Send this to",
+    "line1_at": "Send this to",
+    "line2": "the daily Claude user",
+    "line2_at": "a public company."
+   }
+  }
+ ],
+ "series_tag": "IPO.AI",
+ "title_line1": "Claude's maker IPO",
+ "title_line2": "worth *$2 trillion*?",
+ "decision": {
+  "decision": "single",
+  "reason": "Anthropic's S-1 filing to go public on Nasdaq is a landmark AI-industry event (IPO of a top lab) covered in depth by multiple outlets today, so it gets a full reel.",
+  "stories": [
+   {
+    "headline": "Anthropic files S-1 to go public on Nasdaq, asking Wall Street to bet on AGI",
+    "importance": 9,
+    "why": "One of the biggest AI labs is heading to the public market, and its filing shows how much it plans to spend on compute and how it justifies building toward AGI.",
+    "candidate_ids": [
+     "079251699e",
+     "0b3918620b"
+    ]
+   }
+  ]
+ },
+ "sources": [
+  {
+   "story": "Anthropic files S-1 to go public on Nasdaq, asking Wall Street to bet on AGI",
+   "urls": [
+    "https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview",
+    "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive"
+   ]
+  }
+ ],
+ "media": [
+  {
+   "id": "s1_image",
+   "kind": "image",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-29_2241/s1_image.png",
+   "credit": "Image: anthropic.com",
+   "desc": "official image from Anthropic (homepage)"
+  },
+  {
+   "id": "s1_logo",
+   "kind": "logo",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-29_2241/s1_logo.png",
+   "credit": "",
+   "desc": "Anthropic logo"
+  },
+  {
+   "id": "s1_broll1",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-29_2241/s1_broll1.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: stock market trading screen (8s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s1_broll2",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-29_2241/s1_broll2.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: data center servers (8s) — generic, NOT the company's own footage"
+  }
+ ],
+ "topic": "ai",
+ "models": {
+  "select": "claude-sonnet-5-5",
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 1
+}
