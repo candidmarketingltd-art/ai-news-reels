@@ -1,3 +1,5 @@
 run_at_ist,decision,stories,status,note
 2026-10-29 22:45,single,"Anthropic files S-1 to go public on Nasdaq, asking Wall Street to bet on AGI [9]",dry_run,/home/runner/work/ai-news-reels/ai-news-reels/out/2026-10-29_2241.mp4
 2026-10-29 22:50,single,Apple unveils its first-ever touchscreen MacBook Pro with the M6 chip and a new PROLED XDR display [9],dry_run,/home/runner/work/ai-news-reels/ai-news-reels/out/2026-10-29_2248.mp4
+2026-10-29 22:56,single,"Anthropic files S-1 to go public on Nasdaq, betting Wall Street will back its push toward AGI [9]",skipped_factcheck,claude-sonnet-5-5 output rejected after 3 attempts: numbers not found in the sources: 14
+2026-10-29 22:59,single,"Google launches Gemini 4 Carbon, promising a 'significant leap' in AI coding and cybersecurity [8]",posted,6ae3827b145e9f24d45a04bf https://github.com/candidmarketingltd-art/ai-news-reels/releases/download/reel-2026-10-29_2256/2026-10-29_2256.mp4

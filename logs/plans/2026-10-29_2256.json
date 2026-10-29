@@ -1,0 +1,261 @@
+{
+ "voiceover": "[excited, conversational] Okay, so Google just beat GPT-6 Astra and Claude Opus 5.5 on a benchmark. [curious] It's called Gemini 4 Carbon, and that's according to Google's own numbers. It scored 59 on the AA Index v5.0, a general AI test, just ahead of both rivals.\n\n[excited, fast] Google says Carbon nearly sweeps categories like agentic coding and science and math. But the big flex is cybersecurity. Google claims it finds vulnerabilities and fixes the root cause. [surprised] It's also twice as likely to write secure code compared to Argon, which launched two weeks ago.\n\n[serious] Here's the catch. You can't use it yet. It goes to select cybersecurity defense companies first, then trusted partners, then a wide release.\n\n[confident] So if you code or work in security, watch this one.\n\n[playful, warm] Send this to the developer friend who says their code is always perfectly secure.",
+ "ig_caption": "Google's Gemini 4 Carbon just topped Claude Opus 5.5 and GPT-6 Astra on a key AI benchmark 👀\nGoogle says it's a 'significant leap' in coding and cybersecurity. It's twice as likely to write secure code as Argon, and it's rolling out to select security companies first.\nSend this to the developer friend who thinks their code is always secure.\nFollow @ihackgrowth for daily AI & tech news\nSources: Engadget, Google",
+ "hashtags": [
+  "#AI",
+  "#AInews",
+  "#Google",
+  "#Gemini",
+  "#Cybersecurity",
+  "#Coding",
+  "#ArtificialIntelligence"
+ ],
+ "numbers": [
+  "59",
+  "AA Index v5.0",
+  "twice as likely",
+  "two weeks ago",
+  "Gemini 4 Carbon",
+  "Gemini 4 Argon",
+  "Claude Opus 5.5",
+  "GPT-6 Astra"
+ ],
+ "media_hints": [
+  {
+   "story": 1,
+   "company": "Google",
+   "domain": "google.com",
+   "broll": [
+    "typing code laptop",
+    "cybersecurity digital lock",
+    "data center servers"
+   ]
+  }
+ ],
+ "cold_open": [
+  {
+   "text": "BEAT GPT-6",
+   "at": "Google just beat"
+  },
+  {
+   "text": "& CLAUDE",
+   "at": "and Claude Opus"
+  }
+ ],
+ "scenes": [
+  {
+   "at": "It's called Gemini",
+   "mood": "neutral",
+   "point": true,
+   "tint": "cold",
+   "card": {
+    "type": "news",
+    "tag": "NEW MODEL",
+    "tag_at": "It's called Gemini",
+    "title": "Google launches Gemini 4 Carbon, its new flagship model",
+    "at": "It's called Gemini",
+    "source": "via Google",
+    "source_at": "Google's own numbers.",
+    "logo": "s1_logo"
+   }
+  },
+  {
+   "at": "It scored 59",
+   "mood": "shocked",
+   "point": false,
+   "tint": "cold",
+   "card": {
+    "type": "big_number",
+    "label": "AA Index v5.0",
+    "value": "59",
+    "value_at": "scored 59 on",
+    "note": "Just ahead of both",
+    "note_at": "just ahead of",
+    "color": "ice"
+   }
+  },
+  {
+   "at": "Google says Carbon",
+   "mood": "neutral",
+   "point": true,
+   "tint": "cold",
+   "card": {
+    "type": "footage",
+    "media": "s1_broll1",
+    "at": "Google says Carbon",
+    "caption": "Agentic coding, science, math",
+    "caption_at": "like agentic coding"
+   }
+  },
+  {
+   "at": "But the big",
+   "mood": "shocked",
+   "point": false,
+   "tint": "cold",
+   "card": {
+    "type": "title_slam",
+    "title": "CYBERSECURITY",
+    "at": "flex is cybersecurity.",
+    "color": "ice"
+   }
+  },
+  {
+   "at": "Google claims it",
+   "mood": "neutral",
+   "point": true,
+   "tint": "cold",
+   "card": {
+    "type": "footage",
+    "media": "s1_broll2",
+    "at": "Google claims it",
+    "caption": "Finds flaws, fixes the cause",
+    "caption_at": "fixes the root"
+   }
+  },
+  {
+   "at": "It's also twice",
+   "mood": "shocked",
+   "point": false,
+   "tint": "green",
+   "card": {
+    "type": "big_number",
+    "label": "Secure code vs Argon",
+    "value": "2x",
+    "value_at": "twice as likely",
+    "note": "Argon: two weeks old",
+    "note_at": "launched two weeks",
+    "color": "green"
+   }
+  },
+  {
+   "at": "Here's the catch.",
+   "mood": "serious",
+   "point": false,
+   "tint": "red",
+   "card": {
+    "type": "warning",
+    "title": "THE CATCH",
+    "sub": "Not available yet",
+    "sub_at": "use it yet.",
+    "chips": [],
+    "big": "NOT YET",
+    "big_at": "You can't use",
+    "big_color": "red"
+   }
+  },
+  {
+   "at": "It goes to",
+   "mood": "serious",
+   "point": true,
+   "tint": "red",
+   "card": {
+    "type": "strike_list",
+    "title": "Rollout order",
+    "color": "white",
+    "items": [
+     {
+      "text": "Cyber defense firms",
+      "at": "select cybersecurity defense",
+      "strike": false
+     },
+     {
+      "text": "Trusted partners",
+      "at": "then trusted partners,",
+      "strike": false
+     },
+     {
+      "text": "Wide release",
+      "at": "a wide release.",
+      "strike": false
+     }
+    ]
+   }
+  },
+  {
+   "at": "So if you",
+   "mood": "neutral",
+   "point": true,
+   "tint": "cold",
+   "card": {
+    "type": "headline",
+    "title": "Coders & security",
+    "at": "So if you",
+    "sub": "Watch this one",
+    "sub_at": "watch this one.",
+    "color": "white",
+    "sub_color": "ice",
+    "icon": "chip"
+   }
+  },
+  {
+   "at": "Send this to",
+   "mood": "smirk",
+   "point": false,
+   "tint": "green",
+   "card": {
+    "type": "cta",
+    "line1": "Send this to",
+    "line1_at": "Send this to",
+    "line2": "your 'secure' dev pal",
+    "line2_at": "perfectly secure."
+   }
+  }
+ ],
+ "series_tag": "LAUNCH.AI",
+ "title_line1": "Google just beat",
+ "title_line2": "*GPT-6* & Claude?",
+ "decision": {
+  "decision": "single",
+  "reason": "Google's Gemini 4 Carbon is a flagship model launch from a big lab, which makes it the one blockbuster; the Mistral, Nvidia and Google earnings stories can be picked up in later runs.",
+  "stories": [
+   {
+    "headline": "Google launches Gemini 4 Carbon, promising a 'significant leap' in AI coding and cybersecurity",
+    "importance": 8,
+    "why": "A new flagship Gemini model from Google with top benchmark scores in coding and cybersecurity. It affects the products and developer tools of hundreds of millions of users and sets the pace in the model race.",
+    "candidate_ids": [
+     "5e883185ce"
+    ]
+   }
+  ]
+ },
+ "sources": [
+  {
+   "story": "Google launches Gemini 4 Carbon, promising a 'significant leap' in AI coding and cybersecurity",
+   "urls": [
+    "https://www.engadget.com/2300677/google-gemini-carbon-promises-significant-leap-in-ai-coding-and-cybersecurity/"
+   ]
+  }
+ ],
+ "media": [
+  {
+   "id": "s1_logo",
+   "kind": "logo",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-29_2256/s1_logo.png",
+   "credit": "",
+   "desc": "Google logo"
+  },
+  {
+   "id": "s1_broll1",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-29_2256/s1_broll1.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: typing code laptop (8s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s1_broll2",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-29_2256/s1_broll2.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: cybersecurity digital lock (8s) — generic, NOT the company's own footage"
+  }
+ ],
+ "topic": "ai",
+ "models": {
+  "select": "claude-sonnet-5-5",
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 1
+}

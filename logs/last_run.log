@@ -4,33 +4,34 @@
   BUFFER_CHANNEL_ID: set
   IG_HANDLE: MISSING
   PEXELS_API_KEY: MISSING
-slot 2026-10-29-10 | topic=tech (Tech & Business) | must_post=True | dry_run=True
+slot 2026-10-29-10 | topic=ai (AI) | must_post=True | dry_run=False
 [1/6] news — last 8h
-      trends: 30/30 countries read, 25 Tech & Business trending searches
-      feeds: 16/16 read, 72 Tech & Business stories in window
-[2/6] editor — 60 candidates (attempt 1)
-      decision: single — Apple's first touchscreen MacBook Pro (M6, PROLED XDR display) is a landmark product launch for a 100M+ user ecosystem and is the clear top story; other news, like the Alphabet drop and the ADT deal, can be covered in later runs.
-      • [9] Apple unveils its first-ever touchscreen MacBook Pro with the M6 chip and a new PROLED XDR display
+      trends: 30/30 countries read, 7 AI trending searches
+      (feed https://venturebeat.com/category/ai/feed/ failed: 429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/)
+      feeds: 11/12 read, 20 AI stories in window
+[2/6] editor — 27 candidates (attempt 1)
+      decision: single — Anthropic's S-1 filing to go public on Nasdaq is a landmark AI-industry event (IPO, huge compute spending), and multiple outlets are digging into it; other stories can be picked up next run.
+      • [9] Anthropic files S-1 to go public on Nasdaq, betting Wall Street will back its push toward AGI
 [3/6] reading articles + writing script
-      3 article(s) read for: Apple unveils its first-ever touchscreen MacBook Pro with the M6 chip and a new PROLED XDR display
-      media: s1_image, s1_logo, s1_broll1, s1_broll2
+      2 article(s) read for: Anthropic files S-1 to go public on Nasdaq, betting Wall Street will back its push toward AGI
+      fact-check failed, trying the next best story: claude-sonnet-5-5 output rejected after 3 attempts: numbers not found in the sources: 14
+[2/6] editor — 25 candidates (attempt 2)
+      decision: single — Google's Gemini 4 Carbon is a flagship model launch from a big lab, which makes it the one blockbuster; the Mistral, Nvidia and Google earnings stories can be picked up in later runs.
+      • [8] Google launches Gemini 4 Carbon, promising a 'significant leap' in AI coding and cybersecurity
+[3/6] reading articles + writing script
+      1 article(s) read for: Google launches Gemini 4 Carbon, promising a 'significant leap' in AI coding and cybersecurity
+      media: s1_logo, s1_broll1, s1_broll2
 [4/6] voice
-      [eleven] subscription: 401 {"detail":{"type":"authentication_error","code":"unauthorized","message":"The API key you used is missing the permission user_read to execute this operation.","status":"missing_permissions","request_id":"7ec3f2e7d835701ccc3c340601207128"}}
+      [eleven] subscription: 401 {"detail":{"type":"authentication_error","code":"unauthorized","message":"The API key you used is missing the permission user_read to execute this operation.","status":"missing_permissions","request_id":"c23b94dd1d9b280609abe74660538944"}}
       [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
-      136 words, 54.0s, voice eleven_v4
+      137 words, 50.1s, voice eleven_v4
 [5/6] render
-  frame 0/1648
-  frame 300/1648
-  frame 600/1648
-  frame 900/1648
-  frame 1200/1648
-  frame 1500/1648
-DRY RUN — reel at /home/runner/work/ai-news-reels/ai-news-reels/out/2026-10-29_2248.mp4
---- caption ---
-Apple spent years dismissing touchscreen Macs. Now it just launched one 👀
-The new MacBook Pro with PROLED XDR Display starts at $2,899 and ships November 6, with pre-orders already open.
-Send this to the friend who swore Macs would never get touch.
-Follow @ihackgrowth for daily AI & tech news
-Sources: CNN, WIRED, 9to5Mac, Apple
-
-#TechNews #Business #Apple #MacBookPro #Touchscreen #macOS #Gadgets
+  frame 0/1530
+  frame 300/1530
+  frame 600/1530
+  frame 900/1530
+  frame 1200/1530
+  frame 1500/1530
+[6/6] publish
+      [buffer] created post 6ae3827b145e9f24d45a04bf (customScheduled)
+POSTED 6ae3827b145e9f24d45a04bf https://github.com/candidmarketingltd-art/ai-news-reels/releases/download/reel-2026-10-29_2256/2026-10-29_2256.mp4
