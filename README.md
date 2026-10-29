@@ -71,9 +71,10 @@ never used — those trigger Instagram copyright matching (muted or removed reel
 
 ### 2. The new Instagram account in Buffer (free plan)
 1. Switch the new Instagram account to **Professional (Creator or Business)**.
-2. In Buffer → *Connect channel* → Instagram → the new account. (Buffer's free plan allows 3 channels.)
+2. Use a **separate Buffer account** for @ihackgrowth (not the Paisa Decode one): sign up free → *Connect channel* → Instagram → @ihackgrowth.
 3. Open that channel in Buffer — the URL shows `.../channels/<ID>/...` → variable **`BUFFER_CHANNEL_ID`**.
-4. Secret **`BUFFER_API_KEY`** (you can reuse the Paisa Decode key — it's per Buffer account).
+4. In that Buffer account: publish.buffer.com/settings/api → create an API key → secret **`BUFFER_API_KEY`** in this repo.
+   Keys are per Buffer account, so this repo can only post to @ihackgrowth and Paisa Decode is untouched.
 5. The reels post to **@ihackgrowth** (set variable **`IG_HANDLE`** only if that changes).
 
 Reels go out **3 minutes after they're made** (news shouldn't wait in a queue), so the free plan's queue limit never comes into play.
