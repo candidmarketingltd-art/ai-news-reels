@@ -13,13 +13,13 @@ ROUNDUP_MIN = int(os.environ.get("ROUNDUP_MIN_IMPORTANCE") or 5)
 HANDLE = "@" + (os.environ.get("IG_HANDLE") or "ihackgrowth").lstrip("@")
 
 FORMATS = {
-    "single": """ONE story, told properly (45–60 seconds spoken; ~110–150 words).
+    "single": """ONE story, told properly (40–55 seconds spoken; 110–145 words — hard limit 150).
 1. **Hook (0–3s)**: see HOOK RULES. It is the first sentence of the first paragraph; the story continues in the SAME paragraph.
 2. **What happened (3–15s)**: who did what, in one or two sentences, with the most striking number. `[intrigued, building energy]`.
 3. **The details**: 2–3 fast beats — what it can do / how much / who it affects. Tags like `[excited, fast]`, `[serious]`, `[punchy]`, `[amused]`.
 4. **Why it matters to YOU**: the practical consequence for a normal viewer (their job, their phone, their money, their privacy). `[confident]`.
 5. **Share trigger (last line)**: "Send this to the friend who …" naming someone specific to the topic. `[playful, warm]`.""",
-    "roundup": """A combined reel of {N} stories (55–70 seconds spoken; ~140–180 words).
+    "roundup": """A combined reel of {N} stories (50–65 seconds spoken; 140–170 words — hard limit 175).
 1. **Hook (0–3s)**: see HOOK RULES — about the FIRST (most important) story, and that story continues right after it in the
    same paragraph. No "here are {N} stories" line, ever.
 2. **The {N} stories**: one paragraph each, most important first: what happened + the one number or detail that makes it
@@ -28,6 +28,9 @@ FORMATS = {
 3. **So what**: one line tying them together or telling the viewer what to do / try / watch. `[confident]`.
 4. **Share trigger (last line)**: "Send this to the friend who …". `[playful, warm]`.""",
 }
+
+
+MAX_WORDS = {"single": int(os.environ.get("MAX_WORDS_SINGLE") or 150), "roundup": int(os.environ.get("MAX_WORDS_ROUNDUP") or 175)}
 
 
 class FactCheckError(Exception):
@@ -221,6 +224,11 @@ def write(decision, pack, get_media=None, topic="ai"):
     def check1(d):
         if not d.get("voiceover"): raise ValueError("missing 'voiceover'")
         check_hook(d["voiceover"])
+        n_words = len(re.sub(r"\[[^\]]*\]", " ", d["voiceover"]).split())
+        limit = MAX_WORDS[decision["decision"]]
+        if n_words > limit:
+            raise ValueError(f"the voiceover is {n_words} words (~{n_words / 2.7:.0f} s); keep it under {limit} words — cut the weakest "
+                             "detail, keep the hook, the key numbers and the share line")
         fact_check({"voiceover": d["voiceover"]}, sources)
     script = _ask_json(SCRIPT_MODEL, sys1, user1, check1)
     media = []
