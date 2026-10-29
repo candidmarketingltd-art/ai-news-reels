@@ -10,7 +10,7 @@ SCRIPT_MODEL = os.environ.get("SCRIPT_MODEL") or "claude-sonnet-5-5"   # writes 
 EDIT_MODEL = os.environ.get("EDIT_MODEL") or "claude-opus-5-5"         # edits the video: scenes, cards, timing, mascot
 SINGLE_MIN = int(os.environ.get("SINGLE_MIN_IMPORTANCE") or 8)
 ROUNDUP_MIN = int(os.environ.get("ROUNDUP_MIN_IMPORTANCE") or 5)
-HANDLE = "@" + (os.environ.get("IG_HANDLE") or "youraccount").lstrip("@")
+HANDLE = "@" + (os.environ.get("IG_HANDLE") or "ihackgrowth").lstrip("@")
 
 FORMATS = {
     "single": """ONE story, told properly (45–60 seconds spoken; ~110–150 words).

@@ -74,7 +74,7 @@ never used — those trigger Instagram copyright matching (muted or removed reel
 2. In Buffer → *Connect channel* → Instagram → the new account. (Buffer's free plan allows 3 channels.)
 3. Open that channel in Buffer — the URL shows `.../channels/<ID>/...` → variable **`BUFFER_CHANNEL_ID`**.
 4. Secret **`BUFFER_API_KEY`** (you can reuse the Paisa Decode key — it's per Buffer account).
-5. Variable **`IG_HANDLE`** = the new account's handle (shown in the reels and captions).
+5. The reels post to **@ihackgrowth** (set variable **`IG_HANDLE`** only if that changes).
 
 Reels go out **3 minutes after they're made** (news shouldn't wait in a queue), so the free plan's queue limit never comes into play.
 Prefer Buffer's posting schedule instead? Variable `BUFFER_MODE` = `queue`.
