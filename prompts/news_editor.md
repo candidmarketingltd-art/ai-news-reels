@@ -18,8 +18,9 @@ genuinely new development (then say what is new).
 If there is one blockbuster AND other notable news, choose **single** for the blockbuster (the others can be picked up next run).
 
 ## Importance (1–10)
-10 = everyone will talk about it today (GPT/Gemini/Claude-class flagship launch, $10B+ deal, landmark law).
-8 = big for AI followers (notable model release, major feature in a product with 100M+ users, big funding, big lawsuit).
+10 = everyone will talk about it today (GPT/Gemini/Claude-class flagship launch, new iPhone-scale launch, $10B+ deal, landmark law).
+8 = big for followers of this topic (notable model/product release, major feature in a product with 100M+ users, big funding,
+    big acquisition or IPO, big lawsuit, market-moving earnings).
 6 = interesting and shareable (new tool, research result with clear impact, notable exec move, viral demo).
 4 or less = minor updates, opinion pieces, listicles, stock-price chatter, rumours with no source, ads, how-to guides.
 Trending in several countries raises importance. Merge candidates that are the same story (different outlets) into one.
