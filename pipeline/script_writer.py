@@ -147,8 +147,24 @@ def _scaled(s):
     return out
 
 
+_WORDNUM = {w: i for i, w in enumerate("zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen "
+                                         "fifteen sixteen seventeen eighteen nineteen twenty".split())}
+_WORDNUM.update({"thirty": 30, "forty": 40, "fifty": 50, "sixty": 60, "seventy": 70, "eighty": 80, "ninety": 90, "hundred": 100,
+                 "thousand": 1000, "half": 50, "double": 2, "twice": 2, "triple": 3, "tenfold": 10})
+
+
+def _word_numbers(s):
+    """Numbers written as words in the sources ("fourteen times", "twenty-five") -> digits, so "14x" in a script still matches."""
+    out = set()
+    for m in re.finditer(r"\b(twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety)[- ](one|two|three|four|five|six|seven|eight|nine)\b", s, re.I):
+        out.add(str(_WORDNUM[m.group(1).lower()] + _WORDNUM[m.group(2).lower()]))
+    for w in re.findall(r"[A-Za-z]+", s):
+        if w.lower() in _WORDNUM: out.add(str(_WORDNUM[w.lower()]))
+    return out
+
+
 def fact_check(plan, sources):
-    src = _digits(sources) | _scaled(sources)
+    src = _digits(sources) | _scaled(sources) | _word_numbers(sources)
     year = dt.datetime.now().year
     allowed = src | {str(i) for i in range(0, 11)} | {"24", "60", str(year)}  # counting words, "24 hours", "60 seconds"
     used = _digits(plan.get("voiceover", "")) | _digits(json.dumps(plan.get("scenes", []), ensure_ascii=False)) \
