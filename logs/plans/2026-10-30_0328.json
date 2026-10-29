@@ -1,0 +1,299 @@
+{
+ "voiceover": "[excited, conversational] Okay, so Google lost $500 billion in one day, and AI is part of why. [curious] Alphabet's stock fell nearly 13% on Thursday, its worst day since going public in 2004, according to CNBC.\n\n[intrigued, building energy] Here's the twist: revenue actually grew 25%. But search ads, its biggest business, missed expectations. Google now shows AI summaries by default, and the BBC says that cut into the ads it sold.\n\n[serious] It also burned cash. Free cash flow was negative $9.07 billion, far worse than the $2.7 billion analysts expected. [punchy] Mostly AI spending.\n\n[confident] Why should you care? Analysts call it the first real sign AI is biting into search. One analyst says it's \"not a sea change,\" though. Still, Alphabet is big enough that it dragged the S&P 500 down on its own.\n\n[playful, warm] Send this to the friend who still googles everything.",
+ "ig_caption": "Google lost $500 billion in one day, and AI is part of the story 👀\nAlphabet's stock had its worst day since going public in 2004, after AI summaries cut into search ad sales.\nSend this to the friend who still googles everything.\nFollow @ihackgrowth for daily AI & tech news\nSources: BBC News, Fortune, CNBC",
+ "hashtags": [
+  "#TechNews",
+  "#Business",
+  "#Google",
+  "#Alphabet",
+  "#AI",
+  "#StockMarket",
+  "#AInews"
+ ],
+ "numbers": [
+  "$500 billion",
+  "nearly 13%",
+  "2004",
+  "25%",
+  "$9.07 billion",
+  "$2.7 billion"
+ ],
+ "media_hints": [
+  {
+   "story": 1,
+   "company": "Alphabet",
+   "domain": "abc.xyz",
+   "broll": [
+    "stock market falling",
+    "typing on laptop"
+   ]
+  }
+ ],
+ "cold_open": [
+  {
+   "text": "$500 BILLION",
+   "at": "lost $500 billion"
+  },
+  {
+   "text": "IN ONE DAY",
+   "at": "in one day,"
+  },
+  {
+   "text": "AI'S FAULT?",
+   "at": "and AI is"
+  }
+ ],
+ "scenes": [
+  {
+   "at": "Alphabet's stock fell",
+   "mood": "serious",
+   "point": false,
+   "tint": "red",
+   "card": {
+    "type": "news",
+    "tag": "BUSINESS",
+    "tag_at": "Alphabet's stock fell",
+    "tag_color": "red",
+    "title": "Alphabet loses $500B in a day after earnings miss",
+    "at": "Alphabet's stock fell",
+    "source": "via CNBC",
+    "source_at": "according to CNBC."
+   }
+  },
+  {
+   "at": "nearly 13% on",
+   "mood": "shocked",
+   "point": false,
+   "tint": "red",
+   "card": {
+    "type": "big_number",
+    "label": "Alphabet stock, Thursday",
+    "value": "-13%",
+    "value_at": "nearly 13% on",
+    "note": "Worst day ever",
+    "note_at": "its worst day",
+    "color": "red"
+   }
+  },
+  {
+   "at": "going public in",
+   "mood": "serious",
+   "point": false,
+   "tint": "red",
+   "card": {
+    "type": "footage",
+    "media": "s1_broll1",
+    "at": "going public in",
+    "caption": "Worst day since 2004",
+    "caption_at": "in 2004, according"
+   }
+  },
+  {
+   "at": "Here's the twist:",
+   "mood": "smirk",
+   "point": false,
+   "tint": "cold",
+   "card": {
+    "type": "big_number",
+    "label": "Revenue growth",
+    "value": "+25%",
+    "value_at": "grew 25%.",
+    "note": "Revenue actually grew",
+    "note_at": "revenue actually grew",
+    "color": "green"
+   }
+  },
+  {
+   "at": "But search ads,",
+   "mood": "serious",
+   "point": true,
+   "tint": "cold",
+   "card": {
+    "type": "split",
+    "title": "Search ads",
+    "title_at": "But search ads,",
+    "left": {
+     "text": "Biggest business",
+     "at": "its biggest business,",
+     "color": "blue"
+    },
+    "right": {
+     "text": "Missed",
+     "at": "missed expectations.",
+     "color": "red"
+    },
+    "result": "Below expectations",
+    "result_at": "missed expectations."
+   }
+  },
+  {
+   "at": "Google now shows",
+   "mood": "neutral",
+   "point": true,
+   "tint": "cold",
+   "card": {
+    "type": "footage",
+    "media": "s1_broll2",
+    "at": "Google now shows",
+    "caption": "AI answers by default",
+    "caption_at": "AI summaries by"
+   }
+  },
+  {
+   "at": "and the BBC",
+   "mood": "neutral",
+   "point": true,
+   "tint": "cold",
+   "card": {
+    "type": "headline",
+    "title": "Fewer ads sold",
+    "at": "cut into the",
+    "sub": "per the BBC",
+    "sub_at": "and the BBC",
+    "color": "white",
+    "sub_color": "muted"
+   }
+  },
+  {
+   "at": "It also burned",
+   "mood": "serious",
+   "point": false,
+   "tint": "red",
+   "card": {
+    "type": "big_number",
+    "label": "Free cash flow",
+    "value": "-$9.07B",
+    "value_at": "negative $9.07 billion,",
+    "note": "vs $2.7B expected",
+    "note_at": "the $2.7 billion",
+    "color": "red"
+   }
+  },
+  {
+   "at": "Mostly AI spending.",
+   "mood": "smirk",
+   "point": false,
+   "tint": "red",
+   "card": {
+    "type": "title_slam",
+    "title": "AI SPENDING",
+    "at": "Mostly AI spending.",
+    "color": "gold"
+   }
+  },
+  {
+   "at": "Why should you",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "headline",
+    "title": "First real sign",
+    "at": "first real sign",
+    "sub": "AI biting into search",
+    "sub_at": "biting into search.",
+    "color": "gold",
+    "sub_color": "white",
+    "icon": "robot"
+   }
+  },
+  {
+   "at": "One analyst says",
+   "mood": "smirk",
+   "point": false,
+   "card": {
+    "type": "headline",
+    "title": "\"Not a sea change\"",
+    "at": "not a sea change,",
+    "sub": "says one analyst",
+    "sub_at": "One analyst says",
+    "color": "white",
+    "sub_color": "muted"
+   }
+  },
+  {
+   "at": "Still, Alphabet is",
+   "mood": "serious",
+   "point": false,
+   "tint": "red",
+   "card": {
+    "type": "headline",
+    "title": "S&P 500 dragged down",
+    "at": "S&P 500 down",
+    "sub": "by Alphabet alone",
+    "sub_at": "on its own.",
+    "color": "red",
+    "sub_color": "white",
+    "icon": "globe"
+   }
+  },
+  {
+   "at": "Send this to",
+   "mood": "smirk",
+   "point": false,
+   "tint": "green",
+   "card": {
+    "type": "cta",
+    "line1": "Send this to",
+    "line1_at": "Send this to",
+    "line2": "your Google-it friend",
+    "line2_at": "googles everything."
+   }
+  }
+ ],
+ "series_tag": "EARNINGS.BIZ",
+ "title_line1": "Google just lost",
+ "title_line2": "*$500B* in one day",
+ "decision": {
+  "decision": "single",
+  "reason": "Alphabet's roughly 12-13% drop, its worst day in over 20 years that wiped about $500B off its value, is a market-moving earnings story with an importance of 9. It beats the other notable stories (Amazon miss, DoorDash-Instacart, Binance outflow, Intel plunge, Apple's OLED MacBook Pro), which can be picked up next run.",
+  "stories": [
+   {
+    "headline": "Alphabet loses $500B in a day: Google's worst stock drop in over 20 years after an earnings miss",
+    "importance": 9,
+    "why": "Google's core search revenue came in weaker than expected as AI search summaries eat into ad revenue, and free cash flow was more negative than analysts forecast. The stock hit a six-month low and dragged the S&P 500 to its first loss in four days. It is the first real sign that AI is cutting into Google's search business, which matters to anyone who uses Google or invests.",
+    "candidate_ids": [
+     "b8abd60f90",
+     "7ec55c05be",
+     "e90ed2d9d1",
+     "fefc90361f",
+     "ed7e8685d8"
+    ]
+   }
+  ]
+ },
+ "sources": [
+  {
+   "story": "Alphabet loses $500B in a day: Google's worst stock drop in over 20 years after an earnings miss",
+   "urls": [
+    "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss",
+    "https://fortune.com/2026/10/29/alphabet-stock-worst-day-sp-500-nasdaq-dow/",
+    "https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html"
+   ]
+  }
+ ],
+ "media": [
+  {
+   "id": "s1_broll1",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_0328/s1_broll1.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: stock market falling (8s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s1_broll2",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_0328/s1_broll2.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: typing on laptop (8s) — generic, NOT the company's own footage"
+  }
+ ],
+ "topic": "tech",
+ "models": {
+  "select": "claude-sonnet-5-5",
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 2
+}
