@@ -1,7 +1,7 @@
 {
  "_note": "FORMAT EXAMPLE ONLY. Nova Labs, Pixel Mind and every figure here are invented. Never reuse these facts.",
- "voiceover": "[urgent, fast] A free AI just learned to watch your screen. [punchy] And someone paid $2 billion for another one!\n\n[intrigued, building energy] Story 1. Nova Labs just launched Nova 5, and it is free for everyone. The company says it is 40% faster than the old version and it can now see your screen while you work.\n\n[excited, fast] Story 2. Pixel Mind raised $2 billion. That is the biggest AI funding round this month, according to Reuters. [amused] Investors are still very, very hungry.\n\n[serious] Story 3. Europe's new AI rules start today. Chatbots must now tell you when you are talking to a machine. [punchy] No more pretending.\n\n[confident] So: try Nova 5 if you want a free assistant, watch Pixel Mind, and expect more \"I am an AI\" labels.\n\n[playful, warm] Send this to the friend who still thinks AI news is boring.",
- "ig_caption": "3 AI stories from the last 24 hours, in 60 seconds ⚡\nNova 5 goes free, Pixel Mind raises $2 billion, and Europe's chatbot labels kick in.\nSend this to the friend who is always last to hear about AI.\nFollow @youraccount for AI news every day\nSources: Nova Labs, Reuters",
+ "voiceover": "[excited, conversational] Okay, so this AI just went free, and it can literally see your screen. [curious] It's called Nova 5, from Nova Labs. The company says it's 40% faster than the old version, and it watches your screen while you work.\n\n[amused] Meanwhile, Pixel Mind just raised $2 billion. That's the biggest AI funding round this month, according to Reuters. Investors are still very, very hungry.\n\n[serious] And in Europe, new AI rules start today. Chatbots now have to tell you when you're talking to a machine. [playful] No more pretending.\n\n[confident] So, try Nova 5 if you want a free assistant, keep an eye on Pixel Mind, and get ready for more \"I'm an AI\" labels.\n\n[playful, warm] Send this to the friend who still thinks AI news is boring.",
+ "ig_caption": "This AI just went free — and it can see your screen 👀\nNova 5 goes free, Pixel Mind raises $2 billion, and Europe's chatbot labels kick in.\nSend this to the friend who is always last to hear about AI.\nFollow @youraccount for AI news every day\nSources: Nova Labs, Reuters",
  "hashtags": [
   "#AI",
   "#AInews",
@@ -11,42 +11,39 @@
   "#AIregulation"
  ],
  "series_tag": "ROUNDUP.AI",
- "title_line1": "This AI watches",
- "title_line2": "your *screen* now",
+ "title_line1": "This AI went free",
+ "title_line2": "& sees your *screen*",
  "cold_open": [
   {
    "text": "FREE AI",
-   "at": "A free AI"
+   "at": "just went free,"
   },
   {
-   "text": "YOUR SCREEN",
-   "at": "watch your screen."
-  },
-  {
-   "text": "$2 BILLION",
-   "at": "paid $2 billion"
+   "text": "SEES YOUR SCREEN",
+   "at": "see your screen."
   }
  ],
  "scenes": [
   {
-   "at": "Story 1. Nova",
+   "at": "It's called Nova",
    "mood": "neutral",
    "point": true,
    "tint": "cold",
    "card": {
     "type": "news",
     "tag": "AI UPDATE 1/3",
-    "tag_at": "Story 1.",
-    "title": "Nova Labs launches Nova 5 — free for everyone",
-    "at": "just launched Nova",
+    "tag_at": "It's called Nova",
+    "title": "Nova Labs makes Nova 5 free for everyone",
+    "at": "It's called Nova",
     "source": "via Nova Labs",
-    "source_at": "free for everyone."
+    "source_at": "from Nova Labs."
    }
   },
   {
    "at": "The company says",
    "mood": "shocked",
    "point": false,
+   "tint": "cold",
    "card": {
     "type": "big_number",
     "label": "Nova 5 vs old version",
@@ -57,44 +54,45 @@
    }
   },
   {
-   "at": "it can now",
+   "at": "and it watches",
    "mood": "neutral",
    "point": true,
+   "tint": "cold",
    "card": {
     "type": "headline",
     "title": "It sees your screen",
-    "at": "see your screen",
+    "at": "watches your screen",
     "sub": "while you work",
     "sub_at": "while you work.",
     "icon": "phone"
    }
   },
   {
-   "at": "Story 2. Pixel",
+   "at": "Meanwhile, Pixel Mind",
    "mood": "neutral",
    "point": false,
    "tint": "green",
    "card": {
     "type": "news",
     "tag": "AI UPDATE 2/3",
-    "tag_at": "Story 2.",
+    "tag_at": "Meanwhile, Pixel Mind",
     "title": "Pixel Mind raises $2 billion",
-    "at": "Pixel Mind raised",
+    "at": "Pixel Mind just",
     "source": "via Reuters",
-    "source_at": "according to Reuters."
+    "source_at": "just raised $2"
    }
   },
   {
-   "at": "That is the",
+   "at": "That's the biggest",
    "mood": "shocked",
    "point": false,
    "tint": "green",
    "card": {
     "type": "money_rain",
     "line1": "$2 billion",
-    "line1_at": "That is the",
+    "line1_at": "That's the biggest",
     "line2": "biggest this month",
-    "line2_at": "biggest AI funding",
+    "line2_at": "AI funding round",
     "symbol": "$"
    }
   },
@@ -110,14 +108,14 @@
    }
   },
   {
-   "at": "Story 3. Europe's",
+   "at": "And in Europe,",
    "mood": "serious",
    "point": false,
    "tint": "red",
    "card": {
     "type": "news",
     "tag": "AI UPDATE 3/3",
-    "tag_at": "Story 3.",
+    "tag_at": "And in Europe,",
     "title": "Europe's new AI rules start today",
     "at": "new AI rules",
     "source": "EU AI rules",
@@ -125,14 +123,14 @@
    }
   },
   {
-   "at": "Chatbots must now",
+   "at": "Chatbots now have",
    "mood": "serious",
    "point": true,
    "tint": "red",
    "card": {
     "type": "split",
     "title": "Talking to…",
-    "title_at": "Chatbots must now",
+    "title_at": "Chatbots now have",
     "left": {
      "text": "a human?",
      "at": "tell you when",
@@ -148,7 +146,7 @@
    }
   },
   {
-   "at": "So: try Nova",
+   "at": "So, try Nova",
    "mood": "neutral",
    "point": true,
    "card": {
@@ -157,15 +155,15 @@
     "items": [
      {
       "text": "Try Nova 5 free",
-      "at": "So: try Nova"
+      "at": "So, try Nova"
      },
      {
       "text": "Watch Pixel Mind",
-      "at": "watch Pixel Mind,"
+      "at": "keep an eye"
      },
      {
       "text": "Expect AI labels",
-      "at": "expect more"
+      "at": "get ready for"
      }
     ],
     "final": "Stay ahead",

@@ -14,14 +14,22 @@ Hooks are click-bait in the honest sense: a curiosity gap, a surprising real num
 - Write numbers as digits with units (10 million, $2 billion, 40%) so captions show them clearly.
 
 ## HOOK RULES (the first 3 seconds decide everything)
-- ONE punchy sentence, max ~12 words, spoken fast — at most two short sentences. Viewers must hear the payoff-worthy fact in the
-  first 2 seconds. Lead with the most surprising concrete fact (a number, a capability, a "who"), framed as a curiosity gap.
-- Patterns that work: "<Company> just made <thing> free… and it's watching your screen." / "Someone just paid $2 billion for an AI
-  you've never heard of." / "Your phone is about to <surprising thing>." / "This AI just did what <rival> couldn't." /
-  "<Number> million people just lost <thing>."
-- BANNED openers: counting/teaser intros ("3 AI stories.", "24 hours.", "Here's what happened in AI today", "Big news!",
-  "AI news update", "Let's talk about…"), greetings, questions without a fact ("Did you hear…?"), slow dramatic fragments.
-- The hook must still be true and paid off later in the reel — clickbait in the honest sense, never a lie or exaggeration.
+- The hook is the FIRST SENTENCE of the voiceover: max ~14 words, the most surprising concrete fact (a number, a capability, a "who"),
+  said like Rohan is telling a friend something wild he just read — NOT like a news anchor or a trailer voice.
+  A natural spoken opener is fine but keep it to 1–2 words ("Okay, so…", "Wait —"); the key fact must be spoken within ~2 seconds.
+- The hook is about the first story and flows straight into it in the same paragraph ("…and it can see your screen. It's called
+  Nova 5, from Nova Labs…"). The viewer must never feel a jump from intro to content.
+- Patterns that work: "Okay, so <Company> just made <thing> free, and it can <surprising capability>." / "Someone just paid
+  $2 billion for an AI you've never heard of." / "Wait — your phone can now <surprising thing>." / "This AI just did what <rival> couldn't."
+- BANNED: counting/teaser intros ("3 AI stories.", "24 hours.", "Here's what happened in AI today", "Big news!", "AI news update",
+  "Let's talk about…"), greetings, fact-less questions ("Did you hear…?"), dramatic trailer fragments, and story labels
+  ("Story 1.", "Story 2."). Never use announcer tags like [urgent], [dramatic], [deep, slow].
+- The hook must still be true and paid off right after — clickbait in the honest sense, never a lie or exaggeration.
+
+## Voice & delivery tags
+Rohan should sound like a real person talking to a friend. Start with `[excited, conversational]` or `[curious]`. Use light,
+natural tags: `[curious]`, `[amused]`, `[laughs softly]`, `[serious]`, `[playful]`, `[confident]`, `[surprised]`. Contractions always
+("it's", "you're", "that's"). Vary sentence length; no list-like robotic rhythm.
 
 ## Structure
 {FORMAT}

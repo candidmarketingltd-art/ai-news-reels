@@ -5,6 +5,8 @@ import requests
 
 API = "https://api.elevenlabs.io/v1"
 VOICE = (os.environ.get("ELEVENLABS_VOICE_ID") or "dVIifp6W0jifqeThgNN0")  # "Rohan"
+# "Natural" delivery: mid stability lets Rohan sound conversational instead of flat. Set ELEVENLABS_STABILITY="" to send no settings.
+STABILITY = os.environ.get("ELEVENLABS_STABILITY", "0.5")
 MODELS = [m for m in ((os.environ.get("ELEVENLABS_MODEL") or "eleven_v4"), "eleven_v3", "eleven_multilingual_v2") if m]
 
 
@@ -126,13 +128,28 @@ def _diagnose():
         print(f"      [eleven] diagnose failed: {e}", flush=True)
 
 
+def _payload(text, model, with_settings=True):
+    js = {"text": text, "model_id": model}
+    if with_settings and STABILITY not in ("", None):
+        js["voice_settings"] = {"stability": float(STABILITY), "similarity_boost": 0.8, "use_speaker_boost": True}
+    return js
+
+
+def _post(url, text, model, **kw):
+    """POST with voice settings; if the model rejects the settings, retry once without them."""
+    r = requests.post(url, headers=_hdr(), json=_payload(text, model), timeout=600, **kw)
+    if r.status_code in (400, 422) and "voice_settings" in _payload(text, model) and not _quota_error(r.status_code, r.text):
+        print(f"      [eleven] {model} rejected voice settings ({r.text[:120]}); retrying without", flush=True)
+        r = requests.post(url, headers=_hdr(), json=_payload(text, model, False), timeout=600, **kw)
+    return r
+
+
 def _eleven(text, mp3_path):
     last = None
     vid = _voice_id()
     _diagnose()
     for model in MODELS:
-        r = requests.post(f"{API}/text-to-speech/{vid}/with-timestamps", params={"output_format": "mp3_44100_128"},
-                          headers=_hdr(), json={"text": text, "model_id": model}, timeout=600)
+        r = _post(f"{API}/text-to-speech/{vid}/with-timestamps", text, model, params={"output_format": "mp3_44100_128"})
         if r.status_code >= 400:
             last = f"{model}: {r.status_code} {r.text[:300]}"
             print(f"      [eleven] with-timestamps {model}: {r.status_code} {r.text[:200]}", flush=True)
@@ -148,8 +165,7 @@ def _eleven(text, mp3_path):
             words = _stt_words(mp3_path)
         return words, model
     for model in MODELS:  # fallback: standard endpoint (no timestamps), timings via speech-to-text
-        r = requests.post(f"{API}/text-to-speech/{vid}", params={"output_format": "mp3_44100_128"},
-                          headers=_hdr(), json={"text": text, "model_id": model}, timeout=600)
+        r = _post(f"{API}/text-to-speech/{vid}", text, model, params={"output_format": "mp3_44100_128"})
         print(f"      [eleven] plain TTS {model}: {r.status_code} {'' if r.ok else r.text[:200]}", flush=True)
         if r.ok:
             with open(mp3_path, "wb") as f: f.write(r.content)

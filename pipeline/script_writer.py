@@ -14,16 +14,17 @@ HANDLE = "@" + (os.environ.get("IG_HANDLE") or "youraccount").lstrip("@")
 
 FORMATS = {
     "single": """ONE story, told properly (45–60 seconds spoken; ~110–150 words).
-1. **Hook (0–3s)**: see HOOK RULES. Start the voiceover with `[urgent, fast]`.
+1. **Hook (0–3s)**: see HOOK RULES. It is the first sentence of the first paragraph; the story continues in the SAME paragraph.
 2. **What happened (3–15s)**: who did what, in one or two sentences, with the most striking number. `[intrigued, building energy]`.
 3. **The details**: 2–3 fast beats — what it can do / how much / who it affects. Tags like `[excited, fast]`, `[serious]`, `[punchy]`, `[amused]`.
 4. **Why it matters to YOU**: the practical consequence for a normal viewer (their job, their phone, their money, their privacy). `[confident]`.
 5. **Share trigger (last line)**: "Send this to the friend who …" naming someone specific to the topic. `[playful, warm]`.""",
     "roundup": """A combined reel of {N} stories (55–70 seconds spoken; ~140–180 words).
-1. **Hook (0–3s)**: see HOOK RULES — built from the most shocking fact among the stories (optionally a second punch from another story).
-   Start with `[urgent, fast]`. Then go straight into "Story 1." — no "here are 3 stories" line.
-2. **Story 1 … Story {N}**: start each with "Story 1." / "Story 2." …, then what happened + the one number or detail that makes it interesting,
-   in 2–3 sentences. Most important first. Vary the tags (`[excited, fast]`, `[serious]`, `[amused]`, `[punchy]`).
+1. **Hook (0–3s)**: see HOOK RULES — about the FIRST (most important) story, and that story continues right after it in the
+   same paragraph. No "here are {N} stories" line, ever.
+2. **The {N} stories**: one paragraph each, most important first: what happened + the one number or detail that makes it
+   interesting, in 2–3 sentences. Move between stories like a person talking — "Meanwhile, …", "And over at Google, …",
+   "And in Europe, …" — NEVER "Story 1." / "Story 2." / "Next story". Vary the tags (`[amused]`, `[serious]`, `[curious]`, `[playful]`).
 3. **So what**: one line tying them together or telling the viewer what to do / try / watch. `[confident]`.
 4. **Share trigger (last line)**: "Send this to the friend who …". `[playful, warm]`.""",
 }
@@ -148,18 +149,25 @@ def _check_cues(plan, voiceover):
         raise ValueError("these cue words are not in the voiceover exactly as written: " + " | ".join(bad[:8]))
 
 
+STORY_LABEL = re.compile(r"\b(story|update|news)\s*(#|no\.?|number)?\s*(\d|one|two|three|four)\b[.:]", re.I)
+BANNED_TAGS = re.compile(r"\[[^\]]*\b(urgent|dramatic|deep|announcer|robotic|news anchor)\b[^\]]*\]", re.I)
 BANNED_HOOK = re.compile(r"^(\d+\s+(ai\s+)?(stories|updates|news|things)|\d+\s+hours|here'?s|here is|big news|breaking news|ai news|"
                          r"let'?s talk|today in ai|in today'?s|welcome|hey|hi\b|did you (hear|know))", re.I)
 
 
 def check_hook(voiceover):
     """The first paragraph is the hook: short, fast, starts with a fact, no counting/teaser intro."""
-    first = re.sub(r"\[[^\]]*\]", " ", voiceover.strip().split("\n\n")[0]).strip()
+    if STORY_LABEL.search(voiceover):
+        raise ValueError("don't label stories ('Story 1.', 'Story 2.'); move between stories naturally ('Meanwhile, …', 'And in Europe, …')")
+    if BANNED_TAGS.search(voiceover):
+        raise ValueError("don't use announcer tags like [urgent]/[dramatic]/[deep]; use natural ones like [excited, conversational], [curious], [amused]")
+    para = re.sub(r"\[[^\]]*\]", " ", voiceover.strip().split("\n\n")[0]).strip()
+    first = re.split(r"(?<=[.!?])\s", para)[0]
     n = len(first.split())
     if BANNED_HOOK.search(first):
         raise ValueError(f"the hook starts with a banned slow/teaser opener ('{first[:40]}…'). Open with the most surprising concrete fact")
     if n > 18:
-        raise ValueError(f"the hook (first paragraph) is {n} words; it must be at most ~12–16 words so it lands in under 3 seconds")
+        raise ValueError(f"the hook (first sentence) is {n} words; it must be at most ~12–16 words so it lands in under 3 seconds")
 
 
 # ----------------------------------------------------------------------------- 2) script, 3) edit

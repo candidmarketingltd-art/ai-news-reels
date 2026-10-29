@@ -277,33 +277,48 @@ class ModernReel(Reel):
 
     # -------------------------------------------------------------- fast hook
     def _hook_setup(self):
-        """The hook = every word up to the end of the sentence holding the last cold_open cue.
-        Split into 1–2 word beats that slam on screen exactly when spoken."""
+        """No separate intro screen: the reel is in its normal layout from frame 1. The hook = first sentence; its key words
+        (cold_open items) slam inside the panel until the first scene starts."""
         words = self.words
-        if not self.open or not words:
-            self.beats = []; return
-        last = self.tl.at(self.open[-1].get("at")) or 0.0
-        i = next((k for k, w in enumerate(words) if w[1] >= last - 1e-6), 0)
-        while i < len(words) - 1 and not words[i][0].endswith((".", "!", "?")):
-            i += 1
-        end_i = i
-        nxt = words[end_i + 1][1] if end_i + 1 < len(words) else words[end_i][2] + 0.2
-        self.open_end = max(words[end_i][2] + 0.02, nxt - 0.06)
-        self.cuts[0] = self.open_end
-        self.keys = set()
-        for ln in self.open:
-            for tok in str(ln.get("text", "")).split():
-                n = _norm(tok)
-                if n: self.keys.add(n)
-        self.beats, cur = [], []
-        for k in range(end_i + 1):
-            cur.append(k)
-            w = words[k][0]
-            is_key = _norm(w) in self.keys
-            nxt_key = k + 1 <= end_i and _norm(words[k + 1][0]) in self.keys
-            if len(cur) >= 2 or w.endswith((".", "!", "?", ",", "…")) or (is_key and not nxt_key) or (nxt_key and not is_key):
-                self.beats.append(cur); cur = []
-        if cur: self.beats.append(cur)
+        self.hook_end = self.scenes[0]["_t"] if self.scenes else 0.0
+        self.hook_items = []
+        for k, ln in enumerate(self.open[:3]):
+            at = 0.0 if k == 0 else self.tl.at(ln.get("at"))
+            if at is None: continue
+            self.hook_items.append((max(0.0, at - 0.05), str(ln.get("text", "")).upper()))
+        self.hook_items.sort()
+        self.open_end = 0.0
+        if self.cuts: self.cuts[0] = 0.0
+        self.moods = sorted([(0.0, "shocked", False)] + [m for m in self.moods if m[0] > 0.05])
+
+    def hook_card(self, img, t, acc, acc2):
+        if not self.hook_items: return
+        cur = [h for h in self.hook_items if h[0] <= t] or self.hook_items[:1]
+        t0, txt = cur[-1]
+        dt = t - t0 if t0 > 0 else t + 0.5  # the first item is fully on screen at frame 1 (cover)
+        x0, y0, x1, y1 = PANEL; cx, cy = (x0 + x1) / 2, (y0 + y1) / 2
+        d = ImageDraw.Draw(img)
+        pill(img, (cx, y0 + 90), "JUST IN", F("mono", 30), WHITE + (255,), RED + (230,), pad=(24, 14), radius=14,
+             dot=WHITE + (int(255 * (0.5 + 0.5 * math.sin(t * 9))),))
+        f = fit(d, txt, "black", 170, x1 - x0 - 100)
+        lines = [txt]
+        if d.textlength(txt, font=F("black", 170)) > (x1 - x0 - 100) * 1.25 and " " in txt:
+            ws = txt.split(); h = (len(ws) + 1) // 2
+            lines = [" ".join(ws[:h]), " ".join(ws[h:])]
+            f = F("black", min(170, min(170 * (x1 - x0 - 100) / max(1, d.textlength(l, font=F("black", 170))) for l in lines)))
+        punch = 1.0 + 0.28 * (1 - ease(dt / 0.14))
+        fl = max(0.0, 1 - dt / 0.12)
+        if fl > 0:
+            m = Image.new("RGBA", (x1 - x0, y1 - y0), acc + (int(60 * fl),))
+            mk = Image.new("L", m.size, 0); ImageDraw.Draw(mk).rounded_rectangle((0, 0, m.width - 1, m.height - 1), 52, fill=int(60 * fl))
+            m.putalpha(mk); img.alpha_composite(m, (x0, y0))
+        lh = f.size * 1.05
+        for k, ln in enumerate(lines):
+            yy = cy + 20 + (k - (len(lines) - 1) / 2) * lh
+            if dt < 0.09:
+                for off, tint in ((-12, (255, 40, 90)), (12, (40, 220, 255))):
+                    paste(img, text_layer(ln, f, tint + (150,)), (cx + off, yy), "mm", alpha=0.8, scale=punch)
+            paste(img, grad_text(ln, f, acc, acc2), (cx, yy), "mm", scale=punch, glow=acc, glow_r=30)
 
     # -------------------------------------------------------------- frame
     def frame(self, i):
@@ -326,9 +341,9 @@ class ModernReel(Reel):
         else:
             self.chrome(img, t, acc, acc2)
             lay, pos = panel_shell(acc)
-            a = ease((t - self.open_end) / 0.28)
-            paste(img, lay, pos, "lt", alpha=a, dy=(1 - a) * 80)
+            paste(img, lay, pos, "lt")
             if sc: self.card(img, sc, t, acc, acc2)
+            elif t < self.hook_end: self.hook_card(img, t, acc, acc2)
             self.host_cam(img, t, acc, acc2)
             self.captions(img, t, acc)
         # progress bar
@@ -364,7 +379,7 @@ class ModernReel(Reel):
         f = F("black", size)
         for k, s_ in enumerate((l1, l2)):
             if not s_: continue
-            ak = ease((t - self.open_end - 0.06 * k) / 0.3)
+            ak = 1.0
             x = M; y = TOP + 76 + k * (size * 1.08)
             for part in re.split(r"(\*[^*]+\*)", s_):
                 if not part: continue
@@ -377,8 +392,7 @@ class ModernReel(Reel):
     # -------------------------------------------------------------- host cam
     def host_cam(self, img, t, acc, acc2):
         x0, y0, x1, y1 = CAM
-        a = ease((t - self.open_end - 0.08) / 0.3)
-        if a <= 0: return
+        a = 1.0
         _, md, point = self.mood(t)
         v = self.viseme(t)
         ph = (t + 0.7) % 3.4
