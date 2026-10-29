@@ -1,6 +1,6 @@
-# AI News — automated Instagram Reels
+# AI & Tech News — automated Instagram Reels
 
-Every 6 hours this repo checks what's new in AI worldwide and posts one reel about it — 4 reels a day, no one touching anything.
+Every 2 hours this repo checks what's new worldwide and posts one reel — alternating AI and Tech & Business, 12 a day, no one touching anything.
 Built from the [paisadecode-reels](https://github.com/candidmarketingltd-art/paisadecode-reels) pipeline (same Rohan mascot,
 ElevenLabs voice, sound design, Claude Sonnet + Opus, Buffer free plan), with a new news source and a new look.
 
@@ -11,16 +11,24 @@ AI news feeds + lab blogs ────┴─▶ Claude picks: single story or ro
       ─▶ render (modern glass UI, Rohan host cam, word-by-word captions) ─▶ theme music + mix ─▶ Buffer ─▶ Instagram
 ```
 
-## 4 reels a day — one every 6 hours
-| Window (IST) | Main run | Backup run |
-|---|---|---|
-| 07:00 – 13:00 | 07:11 | 08:26 |
-| 13:00 – 19:00 | 13:11 | 14:26 |
-| 19:00 – 01:00 | 19:11 | 20:26 |
-| 01:00 – 07:00 | 01:11 (US evening) | 02:26 |
+## 12 reels a day — one every 2 hours, alternating AI ↔ Tech & Business
+| IST | Topic | | IST | Topic |
+|---|---|---|---|---|
+| 01:11 | AI | | 13:11 | AI |
+| 03:11 | Tech & Business | | 15:11 | Tech & Business |
+| 05:11 | AI | | 17:11 | AI |
+| 07:11 | Tech & Business | | 19:11 | Tech & Business |
+| 09:11 | AI | | 21:11 | AI |
+| 11:11 | Tech & Business | | 23:11 | Tech & Business |
 
-Every window gets exactly **one** reel, posted the moment it's made. `logs/slots.json` records which windows are done, so the
-backup run only does something if the main run failed (GitHub hiccup, ElevenLabs/Buffer error, a story that couldn't be fact-checked).
+**AI reels:** models, AI products, AI companies & funding, AI rules. **Tech & Business reels:** big-tech launches (phones,
+gadgets, apps, EVs, space), startups & funding, IPOs, acquisitions, earnings, layoffs, outages/hacks, Indian startup news
+with global interest — stories that are *not* mainly about AI. Each topic has its own Google Trends filter and news feeds
+(Tech & Business: TechCrunch, The Verge, CNBC Tech/Business, BBC, Guardian, Fortune, Inc42, YourStory, 9to5Mac, Electrek…).
+
+Every 2-hour window gets exactly **one** reel, posted the moment it's made. `logs/slots.json` records which windows are done;
+a backup run 1 hour later only works if the main run failed (otherwise it exits in seconds).
+Change the pace with variable `SLOT_HOURS` (3 = 8 a day, 6 = 4 a day) and the mix with `TOPIC_ROTATION` (e.g. `ai,ai,tech`).
 
 ## How each run picks the story
 | Situation | What gets posted |
@@ -77,7 +85,7 @@ Prefer Buffer's posting schedule instead? Variable `BUFFER_MODE` = `queue`.
 
 ## Everyday controls
 - **Pause:** Actions → *AI news reel* → ⋯ → *Disable workflow*.
-- **Run right now:** edit `triggers/run-now.txt` on GitHub (any change) and commit.
+- **Run right now:** edit `triggers/run-now.txt` on GitHub (any change) and commit, or *Actions → Run workflow* (pick a topic).
 - **Single vs roundup:** variables `SINGLE_MIN_IMPORTANCE` (default 8) and `ROUNDUP_MIN_IMPORTANCE` (default 5); `MIN_IMPORTANCE` (default 3) is the floor.
 - **Change countries:** variable `TREND_GEOS`, e.g. `US,IN,GB,CA,AU`.
 - **Change the news judgement / script / edit:** plain-English prompts in `prompts/news_editor.md`, `prompts/script_writer.md`, `prompts/video_editor.md`.
@@ -85,10 +93,12 @@ Prefer Buffer's posting schedule instead? Variable `BUFFER_MODE` = `queue`.
 - **Fact-check:** if the script uses a number that isn't in the articles, Claude is asked to fix it; if it still fails the run is
   logged as `skipped_factcheck` and nothing is posted.
 
-## Costs
-GitHub (public), Google Trends, RSS feeds, Buffer free plan, the Microsoft fallback voice: free.
-Paid per use: Claude API — 1 small call per run to pick the news, plus 2 calls (Sonnet + Opus) only when a reel is made.
-ElevenLabs stays within your plan's credits.
+## Costs (at 12 reels a day ≈ 360 a month)
+- **Free:** GitHub (public repo), Google Trends, news feeds, Buffer free plan, official images/logos, the Microsoft fallback voice.
+- **ElevenLabs:** a ~45 s reel uses ~750 credits → ~9,000 a day, **~270,000 a month**. That needs a plan with that many credits
+  (shared with Paisa Decode). When credits run out, reels keep posting with the free Microsoft voice until they refill.
+- **Claude API:** 3 calls per reel (pick the news, Sonnet script, Opus edit), billed per use.
+- **Apify:** ~2–6 Pexels clips per reel at ~$0.003 each → roughly $3–6 a month.
 
 ## Layout
 ```

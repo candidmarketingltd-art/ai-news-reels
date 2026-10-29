@@ -24,11 +24,22 @@ WIDEN = [int(x) for x in (os.environ.get("WIDEN_HOURS") or "24,48").split(",") i
 MAX_TRIES = 3
 
 
+SLOT_HOURS = int(os.environ.get("SLOT_HOURS") or 2)                 # 2 -> 12 reels a day
+ROTATION = [t.strip() for t in (os.environ.get("TOPIC_ROTATION") or "ai,tech").split(",") if t.strip()]
+
+
 def slot_key(now=None):
-    """The 6-hour window this run belongs to (IST): 01–07, 07–13, 13–19, 19–01. Windows start at 01:00 IST."""
+    """The window this run belongs to (IST). Windows are SLOT_HOURS long and start at 01:00 IST
+    (2h: 01–03, 03–05, … 23–01 → 12 a day)."""
     now = now or dt.datetime.now(IST)
     shifted = now - dt.timedelta(hours=1)
-    return f"{shifted:%Y-%m-%d}-{'ABCD'[shifted.hour // 6]}"
+    return f"{shifted:%Y-%m-%d}-{shifted.hour // SLOT_HOURS:02d}"
+
+
+def slot_topic(key):
+    """Alternate topics by window: ai, tech, ai, tech, … (TOPIC_ROTATION); TOPIC overrides."""
+    if os.environ.get("TOPIC"): return os.environ["TOPIC"]
+    return ROTATION[int(key.rsplit("-", 1)[1]) % len(ROTATION)]
 
 
 def load_slots():
@@ -38,7 +49,7 @@ def load_slots():
 
 def save_slot(key, info):
     sl = load_slots(); sl[key] = info
-    keep = sorted(sl)[-60:]                       # ~2 weeks
+    keep = sorted(sl)[-200:]                      # ~2 weeks
     SLOTS.parent.mkdir(parents=True, exist_ok=True)
     SLOTS.write_text(json.dumps({k: sl[k] for k in keep}, indent=1))
 IST = ZoneInfo("Asia/Kolkata")
@@ -122,7 +133,8 @@ def main():
     key = slot_key()
     if os.environ.get("SLOT_GUARD") == "1" and load_slots().get(key, {}).get("status") == "posted" and not dry:
         print(f"slot {key} already has its reel ({load_slots()[key].get('at')}) — nothing to do"); return
-    print(f"slot {key} | must_post={MUST_POST} | dry_run={dry}", flush=True)
+    topic = slot_topic(key)
+    print(f"slot {key} | topic={topic} ({news.TOPICS.get(topic, topic)}) | must_post={MUST_POST} | dry_run={dry}", flush=True)
     covered = load_covered()
     skip_ids = {c["id"] for c in covered}
     recent = [c["headline"] for c in covered if c.get("at", "") >= (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=3)).isoformat()]
@@ -138,7 +150,7 @@ def main():
     plan = decision = None
     for hours in [LOOKBACK] + (WIDEN if MUST_POST else []):
         print(f"[1/6] news — last {hours}h", flush=True)
-        cands = news.candidates(hours, skip_ids)
+        cands = news.candidates(hours, skip_ids, topic=topic)
         if not cands:
             print("      nothing new in this window", flush=True); continue
         by_id = {c["id"]: c for c in cands}
@@ -146,7 +158,7 @@ def main():
             pool = [c for c in cands if c["id"] not in skip_ids]
             if not pool: break
             print(f"[2/6] editor — {len(pool)} candidates (attempt {attempt + 1})", flush=True)
-            decision = script_writer.select(pool, recent, must_post=MUST_POST)
+            decision = script_writer.select(pool, recent, must_post=MUST_POST, topic=topic)
             print(f"      decision: {decision['decision']} — {decision.get('reason', '')}", flush=True)
             for st in decision.get("stories", []):
                 print(f"      • [{st.get('importance')}] {st['headline']}", flush=True)
@@ -157,7 +169,7 @@ def main():
                 print(f"      {p['articles_read']} article(s) read for: {p['story']}", flush=True)
             try:
                 mdir = str(OUT / "media" / stamp)
-                plan = script_writer.write(decision, pack,
+                plan = script_writer.write(decision, pack, topic=topic,
                                            get_media=lambda script: media.collect(script.get("media_hints"), pack, mdir)); break
             except script_writer.FactCheckError as e:
                 # couldn't write it without unsupported facts -> drop these stories and pick the next best
@@ -194,7 +206,7 @@ def main():
             traceback.print_exc(); log(decision, "publish_error", str(e)[:300]); sys.exit(1)
     mark(decision, "posted")
     EPISODE.write_text(json.dumps({"last": plan["episode"]}))
-    save_slot(key, {"status": "posted", "at": dt.datetime.now(IST).strftime("%Y-%m-%d %H:%M"), "post": str(pid),
+    save_slot(key, {"status": "posted", "topic": topic, "at": dt.datetime.now(IST).strftime("%Y-%m-%d %H:%M"), "post": str(pid),
                     "decision": decision["decision"], "stories": [st["headline"] for st in decision["stories"]]})
     log(decision, "posted", f"{pid} {link}")
     print(f"POSTED {pid} {link}")

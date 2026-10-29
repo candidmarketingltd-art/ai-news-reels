@@ -36,6 +36,35 @@ FEEDS = [u.strip() for u in (os.environ.get("NEWS_FEEDS") or "\n".join([
     "https://www.engadget.com/rss.xml",
 ])).replace(",", "\n").split("\n") if u.strip()]
 
+TECH_FEEDS = [u.strip() for u in (os.environ.get("TECH_FEEDS") or "\n".join([
+    "https://techcrunch.com/feed/",
+    "https://www.theverge.com/rss/index.xml",
+    "https://feeds.arstechnica.com/arstechnica/index",
+    "https://www.engadget.com/rss.xml",
+    "https://www.wired.com/feed/rss",
+    "https://www.cnbc.com/id/19854910/device/rss/rss.html",      # CNBC technology
+    "https://www.cnbc.com/id/10001147/device/rss/rss.html",      # CNBC business
+    "https://feeds.bbci.co.uk/news/technology/rss.xml",
+    "https://feeds.bbci.co.uk/news/business/rss.xml",
+    "https://www.theguardian.com/uk/technology/rss",
+    "https://www.theguardian.com/business/rss",
+    "https://fortune.com/feed/",
+    "https://inc42.com/feed/",
+    "https://yourstory.com/feed",
+    "https://9to5mac.com/feed/",
+    "https://electrek.co/feed/",
+])).replace(",", "\n").split("\n") if u.strip()]
+
+TECH_RE = re.compile(r"""(\btech|startup|unicorn|funding|raises?\b|valuation|\bIPO\b|acquisition|acquires?|merger|layoffs?|
+    earnings|revenue|profit|quarter|shares?|stock|market cap|investors?|\bCEO\b|founder|billion|million|
+    Apple|iPhone|Google|Alphabet|Microsoft|Amazon|Meta\b|Facebook|Instagram|WhatsApp|Netflix|Tesla|SpaceX|Starlink|Musk|
+    Nvidia|\bAMD\b|Intel|Samsung|Sony|Xiaomi|OnePlus|Qualcomm|TSMC|chip|semiconductor|smartphone|laptop|gadget|
+    \bEVs?\b|electric vehicle|battery|satellite|rocket|crypto|bitcoin|fintech|\bUPI\b|Reliance|Jio|Tata|Infosys|Zomato|
+    Swiggy|Flipkart|Paytm|Uber|Airbnb|TikTok|ByteDance|X\.com|Twitter|YouTube|app\b|software|cyber|hack|outage|antitrust|tariff)""",
+    re.I | re.X)
+
+TOPICS = {"ai": "AI", "tech": "Tech & Business"}
+
 # Pre-filter only. Claude makes the real "is this AI news, and does it matter" call.
 AI_RE = re.compile(r"""(\bA\.?I\b|\bAGI\b|artificial intelligence|machine learning|\bLLMs?\b|chatbot|generative|
     \bGPT[- ]?\d|ChatGPT|OpenAI|Sam Altman|Anthropic|\bClaude\b|Gemini|DeepMind|Demis Hassabis|Copilot|\bGrok\b|\bxAI\b|
@@ -89,15 +118,16 @@ def trends_geo(geo):
     return out
 
 
-def trends():
-    """AI-related trending searches across countries, merged by search term."""
+def trends(topic="ai"):
+    """AI-related (or tech/business-related) trending searches across countries, merged by search term."""
+    pat = AI_RE if topic == "ai" else TECH_RE
     with ThreadPoolExecutor(8) as ex:
         res = list(ex.map(lambda g: _safe(trends_geo, g), GEOS))
     merged = {}
     for geo, items in zip(GEOS, res):
         for it in items or []:
             blob = it["query"] + " " + " ".join(n["title"] for n in it["news"])
-            if not AI_RE.search(blob): continue
+            if not pat.search(blob): continue
             k = it["query"].lower()
             m = merged.setdefault(k, {"query": it["query"], "geos": [], "traffic": 0, "news": {}, "time": it["time"]})
             m["geos"].append(geo); m["traffic"] += it["traffic"]
@@ -105,7 +135,7 @@ def trends():
                 if n["url"]: m["news"].setdefault(n["url"], n)
             if it["time"] and (not m["time"] or it["time"] > m["time"]): m["time"] = it["time"]
     ok = sum(1 for r in res if r is not None)
-    print(f"      trends: {ok}/{len(GEOS)} countries read, {len(merged)} AI-related trending searches", flush=True)
+    print(f"      trends: {ok}/{len(GEOS)} countries read, {len(merged)} {TOPICS[topic]} trending searches", flush=True)
     return sorted(merged.values(), key=lambda m: (len(m["geos"]), m["traffic"]), reverse=True)
 
 
@@ -135,9 +165,10 @@ def _safe(fn, *a):
         return None
 
 
-def feeds(since):
+def feeds(since, topic="ai"):
+    urls = FEEDS if topic == "ai" else TECH_FEEDS
     with ThreadPoolExecutor(8) as ex:
-        res = list(ex.map(lambda u: _safe(feed, u), FEEDS))
+        res = list(ex.map(lambda u: _safe(feed, u), urls))
     items = []
     for r in res:
         for it in r or []:
@@ -145,21 +176,25 @@ def feeds(since):
             if not it["time"]: continue
             blob = it["title"] + " " + it["summary"]
             # lab blogs are always AI; general tech feeds are filtered
-            if AI_RE.search(blob) or any(k in it["url"] for k in ("openai.com", "deepmind", "blog.google/technology/ai", "huggingface.co")):
+            if topic == "ai":
+                if AI_RE.search(blob) or any(k in it["url"] for k in ("openai.com", "deepmind", "blog.google/technology/ai", "huggingface.co")):
+                    items.append(it)
+            elif TECH_RE.search(blob):
+                it["ai_led"] = bool(AI_RE.search(it["title"]))   # the tech slot prefers stories that aren't mainly about AI
                 items.append(it)
-    print(f"      feeds: {sum(1 for r in res if r is not None)}/{len(FEEDS)} read, {len(items)} AI stories in window", flush=True)
+    print(f"      feeds: {sum(1 for r in res if r is not None)}/{len(urls)} read, {len(items)} {TOPICS[topic]} stories in window", flush=True)
     return items
 
 
 # ----------------------------------------------------------------------------- candidates
-def candidates(lookback_hours=8, covered=()):
+def candidates(lookback_hours=8, covered=(), topic="ai"):
     """Everything the editor gets to choose from, newest/most-trending first.
     Each candidate: id, headline, source, url, time, summary, trend {geos, traffic, query} (or None), links[]."""
     now = dt.datetime.now(dt.timezone.utc)
     since = now - dt.timedelta(hours=lookback_hours)
     covered = set(covered)
     out = {}
-    for t in trends():
+    for t in trends(topic):
         if t["time"] and t["time"] < now - dt.timedelta(hours=lookback_hours + 16):  # trending items linger; allow a day
             continue
         news = list(t["news"].values())
@@ -170,7 +205,7 @@ def candidates(lookback_hours=8, covered=()):
              "trend": {"query": t["query"], "countries": t["geos"], "approx_searches": t["traffic"]},
              "links": [n["url"] for n in news[:4]]}
         if c["id"] not in covered: out[c["id"]] = c
-    for f in feeds(since):
+    for f in feeds(since, topic):
         c = {"id": sid(f["url"], f["title"]), "headline": f["title"], "source": f["source"], "url": f["url"],
              "time": f["time"].isoformat(), "summary": f["summary"][:400], "trend": None, "links": [f["url"]]}
         if c["id"] not in covered and c["id"] not in out: out[c["id"]] = c

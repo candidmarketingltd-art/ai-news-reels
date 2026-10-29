@@ -1,12 +1,12 @@
-name: AI news reel (4 a day — one every 6 hours)
+name: News reel (12 a day — every 2 hours, AI ↔ Tech & Business)
 
-# Every 6 hours: check what's new in AI (Google Trends across 30 countries + AI news feeds), let Claude pick the best
-# story (or a combined roundup when several matter), make the reel and post it via Buffer right away.
-# Exactly one reel per 6-hour window: a backup run ~75 min later only works if the first run didn't post.
+# Every 2 hours: one reel. Windows alternate AI and Tech & Business (6 + 6 a day). Each run checks Google Trends across
+# 30 countries + news feeds for its topic, lets Claude pick the best story (or a roundup), makes the reel and posts it via Buffer.
+# A backup run 1 hour later only works if the window's reel wasn't posted (it exits in seconds otherwise).
 on:
   schedule:
-    - cron: "41 1,7,13,19 * * *"   # main runs:   07:11, 13:11, 19:11, 01:11 IST
-    - cron: "56 2,8,14,20 * * *"   # backup runs: 08:26, 14:26, 20:26, 02:26 IST (skip themselves if the window already posted)
+    - cron: "41 1-23/2 * * *"   # main runs:   01:11, 03:11, 05:11 … 23:11 IST
+    - cron: "41 0-22/2 * * *"   # backup runs: 02:11, 04:11, 06:11 … 00:11 IST
   push:
     paths: ["triggers/run-now.txt"]  # edit this file on GitHub to start a run immediately
   workflow_dispatch:
@@ -15,12 +15,16 @@ on:
         description: "Render only, don't post"
         type: boolean
         default: true
+      topic:
+        description: "Force a topic: ai or tech (blank = by time slot)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
 
 concurrency:
-  group: ai-news-reels
+  group: news-reels
   cancel-in-progress: false
 
 jobs:
@@ -29,20 +33,39 @@ jobs:
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
+      - name: Already posted in this window?
+        id: slot
+        if: github.event_name == 'schedule'
+        run: |
+          python3 - <<'PY'
+          import datetime as dt, json, os
+          ist = dt.datetime.now(dt.timezone(dt.timedelta(hours=5, minutes=30))) - dt.timedelta(hours=1)
+          key = f"{ist:%Y-%m-%d}-{ist.hour // int(os.environ.get('SLOT_HOURS') or 2):02d}"
+          try: done = json.load(open("logs/slots.json")).get(key, {}).get("status") == "posted"
+          except Exception: done = False
+          print(f"window {key}: {'already posted' if done else 'needs a reel'}")
+          open(os.environ["GITHUB_OUTPUT"], "a").write(f"skip={'true' if done else 'false'}\n")
+          PY
+        env:
+          SLOT_HOURS: ${{ vars.SLOT_HOURS }}
       - uses: actions/setup-python@v5
+        if: steps.slot.outputs.skip != 'true'
         with:
           python-version: "3.12"
           cache: pip
       - name: System packages
+        if: steps.slot.outputs.skip != 'true'
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y -qq ffmpeg libraqm0 libfribidi0 libcairo2 fontconfig
           mkdir -p ~/.local/share/fonts && cp pipeline/render/fonts/*.ttf ~/.local/share/fonts/ && fc-cache -f
       - name: Python packages
+        if: steps.slot.outputs.skip != 'true'
         run: |
           pip install -q -r requirements.txt
           python -c "from PIL import features; assert features.check('raqm'), 'text shaping (raqm) missing'"
       - name: Check the news, make & post a reel
+        if: steps.slot.outputs.skip != 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
@@ -74,6 +97,9 @@ jobs:
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || vars.DRY_RUN }}
           SLOT_GUARD: ${{ github.event_name == 'schedule' && '1' || '0' }}
           MUST_POST: ${{ vars.MUST_POST }}
+          SLOT_HOURS: ${{ vars.SLOT_HOURS }}
+          TOPIC_ROTATION: ${{ vars.TOPIC_ROTATION }}
+          TOPIC: ${{ inputs.topic }}
         run: python -m pipeline.run
       - name: Keep the reel (7 days)
         if: always()

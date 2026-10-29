@@ -70,8 +70,18 @@ MUST_POST_NOTE = """
 - Never re-cover a RECENTLY COVERED story unless there is a genuinely new development."""
 
 
-def select(candidates, recently_covered, must_post=True):
-    sys0 = (ROOT / "prompts" / "news_editor.md").read_text(encoding="utf-8")
+TOPIC_BRIEF = {
+    "ai": ("AI", "AI news: models, AI products and features, AI companies, chips/compute for AI, AI funding, AI rules and safety."),
+    "tech": ("Tech & Business", "tech and business news that is NOT mainly about AI (AI gets its own reels): big-tech products and "
+             "launches (phones, gadgets, apps, EVs, space), startups and funding, IPOs, acquisitions, earnings and market-moving "
+             "company news, layoffs, founders/CEOs' business moves, outages and hacks, tech policy, Indian startup/business news "
+             "with global interest. No general stock tips, no politics without a tech/business angle."),
+}
+
+
+def select(candidates, recently_covered, must_post=True, topic="ai"):
+    name, brief = TOPIC_BRIEF.get(topic, TOPIC_BRIEF["ai"])
+    sys0 = (ROOT / "prompts" / "news_editor.md").read_text(encoding="utf-8").replace("{TOPIC}", name).replace("{TOPIC_BRIEF}", brief)
     if must_post: sys0 += MUST_POST_NOTE
     sys0 = sys0.replace("{SINGLE_MIN}", str(SINGLE_MIN)).replace("{ROUNDUP_MIN}", str(ROUNDUP_MIN)).replace("{FLOOR}", str(FLOOR))
     now = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
@@ -192,14 +202,14 @@ def check_hook(voiceover):
 
 
 # ----------------------------------------------------------------------------- 2) script, 3) edit
-def write(decision, pack, get_media=None):
+def write(decision, pack, get_media=None, topic="ai"):
     """decision: output of select(); pack: news.fetch_articles() output.
     get_media(script) -> media list (official images, logos, stock clips) the editor can cut in. Returns the full plan."""
     example = json.loads((ROOT / "prompts" / "example_plan.json").read_text(encoding="utf-8"))
     n = len(decision["stories"])
     fmt = FORMATS[decision["decision"]].replace("{N}", str(n))
     sys1 = (ROOT / "prompts" / "script_writer.md").read_text(encoding="utf-8") \
-        .replace("{FORMAT}", fmt).replace("{HANDLE}", HANDLE) \
+        .replace("{FORMAT}", fmt).replace("{HANDLE}", HANDLE).replace("{TOPIC}", TOPIC_BRIEF.get(topic, TOPIC_BRIEF["ai"])[0]) \
         .replace("{EXAMPLE}", json.dumps({k: example[k] for k in ("voiceover", "ig_caption", "hashtags")}, ensure_ascii=False, indent=1))
     sources = "\n\n".join(f"=== STORY {i + 1}: {p['story']}\n{p['text']}" for i, p in enumerate(pack))
     stories = "\n".join(f"{i + 1}. {s['headline']} — {s.get('why', '')}" for i, s in enumerate(decision["stories"]))
@@ -222,7 +232,8 @@ def write(decision, pack, get_media=None):
     ids = {m["id"] for m in media}
     menu = "\n".join(f"- {m['id']} ({m['kind']}): {m['desc']}" for m in media) or "- (none — use cards only)"
 
-    sys2 = (ROOT / "prompts" / "video_editor.md").read_text(encoding="utf-8").replace(
+    sys2 = (ROOT / "prompts" / "video_editor.md").read_text(encoding="utf-8") \
+        .replace("{TAG_SUFFIX}", ".AI" if topic == "ai" else ".TECH or .BIZ").replace(
         "{EXAMPLE}", json.dumps({k: example[k] for k in ("voiceover", "series_tag", "title_line1", "title_line2", "cold_open", "scenes")}, ensure_ascii=False, indent=1))
     user2 = (f"FORMAT: {decision['decision']} ({n} stor{'y' if n == 1 else 'ies'})\nSTORIES:\n{stories}\n\n"
              f"VOICEOVER (already recorded — cue words must match it exactly):\n{script['voiceover']}\n\n"
@@ -247,5 +258,5 @@ def write(decision, pack, get_media=None):
     return {**script, "cold_open": edit["cold_open"], "scenes": edit["scenes"],
             "series_tag": edit.get("series_tag") or "AI NEWS", "title_line1": edit["title_line1"], "title_line2": edit["title_line2"],
             "decision": decision, "sources": [{"story": p["story"], "urls": p["urls"]} for p in pack],
-            "media": media, "media_hints": script.get("media_hints", []),
+            "media": media, "media_hints": script.get("media_hints", []), "topic": topic,
             "models": {"select": SELECT_MODEL, "script": SCRIPT_MODEL, "edit": EDIT_MODEL}}
