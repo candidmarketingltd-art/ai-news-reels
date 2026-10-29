@@ -156,6 +156,16 @@ def fact_check(plan, sources):
     bad = sorted(n for n in used if n not in allowed)
     if bad:
         raise FactCheckError(f"numbers not found in the sources: {', '.join(bad)}")
+    # model / product names with small numbers ("M5", "GPT-5", "Gemini 3", "iPhone 17") must match the sources exactly
+    norm = lambda x: re.sub(r"[\s\-]", "", x).lower()
+    src_n = norm(sources)
+    text = " ".join([plan.get("voiceover", ""), json.dumps(plan.get("scenes", []), ensure_ascii=False),
+                     json.dumps(plan.get("cold_open", []), ensure_ascii=False), json.dumps(plan.get("title", []), ensure_ascii=False)])
+    names = {m.group(0) for m in re.finditer(r"\b(?:[A-Z][A-Za-z]{0,9}|i[A-Z][a-z]+)[- ]?\d{1,3}\b", text)}
+    names = {n for n in names if not re.match(r"(?i)(story|update|part|ep|top|in|by|on|at|and|for|of|the|from|to|up)[- ]?\d", n)}
+    wrong = sorted(n for n in names if norm(n) not in src_n)
+    if wrong:
+        raise FactCheckError(f"names/versions not found in the sources (check the exact model/chip/version): {', '.join(wrong)}")
 
 
 def _spoken(voiceover):
