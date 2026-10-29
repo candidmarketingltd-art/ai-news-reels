@@ -11,7 +11,7 @@ from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
-from pipeline import news, script_writer, voice, publish  # noqa: E402
+from pipeline import news, script_writer, voice, publish, media  # noqa: E402
 from pipeline.render import engine, audio  # noqa: E402
 
 OUT = ROOT / "out"; PLANS = ROOT / "logs" / "plans"
@@ -116,7 +116,7 @@ def main():
     _log = open(ROOT / "logs" / "last_run.log", "w", encoding="utf-8")
     sys.stdout = _Tee(sys.__stdout__, _log); sys.stderr = _Tee(sys.__stderr__, _log)
     dry = "--dry-run" in sys.argv or os.environ.get("DRY_RUN", "").lower() in ("1", "true", "yes")
-    for k in ("ANTHROPIC_API_KEY", "ELEVENLABS_API_KEY", "BUFFER_API_KEY", "BUFFER_CHANNEL_ID", "IG_HANDLE"):
+    for k in ("ANTHROPIC_API_KEY", "ELEVENLABS_API_KEY", "BUFFER_API_KEY", "BUFFER_CHANNEL_ID", "IG_HANDLE", "PEXELS_API_KEY"):
         print(f"  {k}: {'set' if os.environ.get(k) else 'MISSING'}", flush=True)
     stamp = dt.datetime.now(IST).strftime("%Y-%m-%d_%H%M")
     key = slot_key()
@@ -156,7 +156,9 @@ def main():
             for p in pack:
                 print(f"      {p['articles_read']} article(s) read for: {p['story']}", flush=True)
             try:
-                plan = script_writer.write(decision, pack); break
+                mdir = str(OUT / "media" / stamp)
+                plan = script_writer.write(decision, pack,
+                                           get_media=lambda script: media.collect(script.get("media_hints"), pack, mdir)); break
             except script_writer.FactCheckError as e:
                 # couldn't write it without unsupported facts -> drop these stories and pick the next best
                 print("      fact-check failed, trying the next best story:", str(e)[:200], flush=True)

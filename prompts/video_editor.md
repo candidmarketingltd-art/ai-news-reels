@@ -13,6 +13,11 @@ that lights up while he talks, and bold word-by-word captions next to him (you d
 - Big reveals (the shocking number, the twist) get their own scene with `big_number`, `title_slam` or `warning`.
 - Rohan's mood follows the voice: shocked on big reveals, smirk on irony/jokes, serious on risks/losses, neutral + point when explaining.
 - Use `tint: "cold"` for tech/explainer moments or a twist, `"red"` for risks/bad news, `"green"` for wins; default warm.
+- FOOTAGE: you get AVAILABLE MEDIA (official company images, logos, stock video clips). Show, don't just tell:
+  use 2–4 `footage` scenes per reel (roughly one every 8–12 s), typically right after a story's `news` card or when the voice
+  describes something visual. Give each story's `news` card its official image as `bg_media` and its logo as `logo` when available.
+  Stock clips are generic — their caption must never claim they show the company ("Inside OpenAI's lab" on a stock clip is
+  wrong; "Built for this kind of work" is fine). Never use the same clip twice. No media listed → cards only.
 - The last scene is always a `cta` with the share line.
 - Every `at` / `*_at` value MUST be words copied exactly from the voiceover (2–3 consecutive words, exactly as written,
   including capitalisation of names), spoken at the moment the element should appear. Scenes must be in voiceover order.
@@ -32,7 +37,10 @@ that lights up while he talks, and bold word-by-word captions next to him (you d
   "point": true/false (Rohan raises a finger — use for explanations/lists), "tint": warm|cold|red|green (optional),
   "beats": optional [{"at": words, "mood": ..., "point": ...}] for mid-scene reaction changes, "card": {...}}`
 - Card types (all `*_at` / `at` values are exact words from the voiceover; the element appears when those words are spoken):
-  - `news`: tag, tag_at, tag_color(optional, default red), title (the headline, ≤70 chars), at, source (e.g. "via The Verge"), source_at, icon(optional)
+  - `news`: tag, tag_at, tag_color(optional, default red), title (the headline, ≤70 chars), at, source (e.g. "via The Verge"), source_at,
+    bg_media (optional official image id, shown darkened behind the headline), logo (optional logo id, shown next to the source)
+  - `footage`: media (an id from AVAILABLE MEDIA), at, caption (optional, ≤ 32 chars, appears over the footage), caption_at
+    — fills the panel with the clip/image (images get a slow zoom); the credit line is added automatically.
   - `headline`: title, at, sub, sub_at, color, sub_color, icon(optional)
   - `big_number`: label, value (e.g. "$2B", "40%", "10M"), value_at, note, note_at, color
   - `split`: title, title_at, left{text,at,color}, right{text,at,color}, result, result_at, icon(optional)

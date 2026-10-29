@@ -47,6 +47,10 @@ natural tags: `[curious]`, `[amused]`, `[laughs softly]`, `[serious]`, `[playful
   "Sources: <outlet names>". Max 2 emojis.
 - `hashtags`: 5–8 relevant hashtags (#AI #AInews + specific ones like #OpenAI #ChatGPT when relevant).
 - `numbers`: every number used anywhere, as written in the sources.
+- `media_hints`: one item per story, for finding footage: `{"story": 1, "company": "OpenAI", "domain": "openai.com",
+  "broll": ["2–3 word stock-video search", "another"]}`. `domain` = the official website of the company the story is about
+  (empty if there isn't one). `broll` = 2 generic, filmable visuals that match what you say (e.g. "data center servers",
+  "typing on laptop", "robot arm factory", "smartphone screen scrolling", "city traffic night") — no brand names, no people's names.
 
 ## Example of an approved script (format only — the facts in it are made up for the example; never reuse them)
 {EXAMPLE}

@@ -36,7 +36,9 @@
     "title": "Nova Labs makes Nova 5 free for everyone",
     "at": "It's called Nova",
     "source": "via Nova Labs",
-    "source_at": "from Nova Labs."
+    "source_at": "from Nova Labs.",
+    "bg_media": "s1_image",
+    "logo": "s1_logo"
    }
   },
   {
@@ -59,12 +61,11 @@
    "point": true,
    "tint": "cold",
    "card": {
-    "type": "headline",
-    "title": "It sees your screen",
-    "at": "watches your screen",
-    "sub": "while you work",
-    "sub_at": "while you work.",
-    "icon": "phone"
+    "type": "footage",
+    "media": "s1_broll1",
+    "at": "and it watches",
+    "caption": "It watches your screen",
+    "caption_at": "watches your screen"
    }
   },
   {
@@ -79,7 +80,8 @@
     "title": "Pixel Mind raises $2 billion",
     "at": "Pixel Mind just",
     "source": "via Reuters",
-    "source_at": "just raised $2"
+    "source_at": "just raised $2",
+    "logo": "s2_logo"
    }
   },
   {
@@ -88,12 +90,11 @@
    "point": false,
    "tint": "green",
    "card": {
-    "type": "money_rain",
-    "line1": "$2 billion",
-    "line1_at": "That's the biggest",
-    "line2": "biggest this month",
-    "line2_at": "AI funding round",
-    "symbol": "$"
+    "type": "footage",
+    "media": "s2_broll1",
+    "at": "That's the biggest",
+    "caption": "Biggest round this month",
+    "caption_at": "AI funding round"
    }
   },
   {
@@ -182,6 +183,35 @@
     "line2": "your AI-skeptic friend",
     "line2_at": "AI news is boring."
    }
+  }
+ ],
+ "media_hints": [
+  {
+   "story": 1,
+   "company": "Nova Labs",
+   "domain": "novalabs.example",
+   "broll": [
+    "typing on laptop",
+    "computer screen code"
+   ]
+  },
+  {
+   "story": 2,
+   "company": "Pixel Mind",
+   "domain": "pixelmind.example",
+   "broll": [
+    "data center servers",
+    "stock market screen"
+   ]
+  },
+  {
+   "story": 3,
+   "company": "European Commission",
+   "domain": "commission.europa.eu",
+   "broll": [
+    "european parliament building",
+    "smartphone chat app"
+   ]
   }
  ]
 }

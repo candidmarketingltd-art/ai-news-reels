@@ -52,6 +52,14 @@ and public repos get unlimited free Actions minutes. Secrets stay private.
 - **`ELEVENLABS_API_KEY`** (secret) — every reel is voiced by your cloned **Rohan** voice (`dVIifp6W0jifqeThgNN0`, Eleven v4 with emotion tags), speaking English;
   create the key in the same ElevenLabs workspace as the voice. Falls back to Microsoft's free `en-IN-PrabhatNeural` when credits run out.
 
+### 1b. Footage — Pexels (free)
+pexels.com/api → sign up → copy your API key → secret **`PEXELS_API_KEY`**. Used for stock B-roll clips (free for commercial use,
+no copyright claims). Official company images and logos need no key. Without the key, reels use official images + cards only.
+
+**What footage is used:** the company's own announcement/share image and logo (found via links in the news articles, never
+news-agency photos), plus generic Pexels clips matching what Rohan says. Company YouTube videos and Reuters/Getty/AP photos are
+never used — those trigger Instagram copyright matching (muted or removed reels, strikes on the account).
+
 ### 2. The new Instagram account in Buffer (free plan)
 1. Switch the new Instagram account to **Professional (Creator or Business)**.
 2. In Buffer → *Connect channel* → Instagram → the new account. (Buffer's free plan allows 3 channels.)

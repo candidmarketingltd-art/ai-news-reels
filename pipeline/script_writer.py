@@ -192,8 +192,9 @@ def check_hook(voiceover):
 
 
 # ----------------------------------------------------------------------------- 2) script, 3) edit
-def write(decision, pack):
-    """decision: output of select(); pack: news.fetch_articles() output. Returns the full plan."""
+def write(decision, pack, get_media=None):
+    """decision: output of select(); pack: news.fetch_articles() output.
+    get_media(script) -> media list (official images, logos, stock clips) the editor can cut in. Returns the full plan."""
     example = json.loads((ROOT / "prompts" / "example_plan.json").read_text(encoding="utf-8"))
     n = len(decision["stories"])
     fmt = FORMATS[decision["decision"]].replace("{N}", str(n))
@@ -212,16 +213,32 @@ def write(decision, pack):
         check_hook(d["voiceover"])
         fact_check({"voiceover": d["voiceover"]}, sources)
     script = _ask_json(SCRIPT_MODEL, sys1, user1, check1)
+    media = []
+    if get_media:
+        try:
+            media = get_media(script) or []
+        except Exception as e:
+            print(f"      (media step failed, continuing without footage: {str(e)[:150]})", flush=True)
+    ids = {m["id"] for m in media}
+    menu = "\n".join(f"- {m['id']} ({m['kind']}): {m['desc']}" for m in media) or "- (none — use cards only)"
 
     sys2 = (ROOT / "prompts" / "video_editor.md").read_text(encoding="utf-8").replace(
         "{EXAMPLE}", json.dumps({k: example[k] for k in ("voiceover", "series_tag", "title_line1", "title_line2", "cold_open", "scenes")}, ensure_ascii=False, indent=1))
     user2 = (f"FORMAT: {decision['decision']} ({n} stor{'y' if n == 1 else 'ies'})\nSTORIES:\n{stories}\n\n"
              f"VOICEOVER (already recorded — cue words must match it exactly):\n{script['voiceover']}\n\n"
+             f"AVAILABLE MEDIA (use only these ids):\n{menu}\n\n"
              "Return only the JSON with `series_tag`, `title_line1`, `title_line2`, `cold_open` and `scenes`.")
 
     def check2(d):
         if not d.get("scenes") or not d.get("cold_open"): raise ValueError("missing 'scenes' or 'cold_open'")
         _check_cues(d, script["voiceover"])
+        for sc in d["scenes"]:
+            c = sc.get("card") or {}
+            for k in ("media", "bg_media", "logo"):
+                if c.get(k) and c[k] not in ids:
+                    raise ValueError(f"card uses media '{c[k]}' which is not in AVAILABLE MEDIA ({', '.join(sorted(ids)) or 'none'})")
+            if c.get("type") == "footage" and not c.get("media"):
+                raise ValueError("a footage card needs a `media` id")
         if not d.get("title_line1") or not d.get("title_line2"): raise ValueError("missing title_line1 / title_line2")
         fact_check({"voiceover": script["voiceover"], "scenes": d["scenes"], "cold_open": d["cold_open"],
                     "title": [d.get("title_line1"), d.get("title_line2")]}, sources)
@@ -230,4 +247,5 @@ def write(decision, pack):
     return {**script, "cold_open": edit["cold_open"], "scenes": edit["scenes"],
             "series_tag": edit.get("series_tag") or "AI NEWS", "title_line1": edit["title_line1"], "title_line2": edit["title_line2"],
             "decision": decision, "sources": [{"story": p["story"], "urls": p["urls"]} for p in pack],
+            "media": media, "media_hints": script.get("media_hints", []),
             "models": {"select": SELECT_MODEL, "script": SCRIPT_MODEL, "edit": EDIT_MODEL}}

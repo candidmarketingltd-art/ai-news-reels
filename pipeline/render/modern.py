@@ -260,6 +260,85 @@ def host(md, mouth, eyes, arm):
     return big.crop((x0, 40, x0 + 300, 340))
 
 
+# ------------------------------------------------------------------ footage (official images, logos, stock clips)
+@functools.lru_cache(None)
+def panel_mask():
+    x0, y0, x1, y1 = PANEL
+    m = Image.new("L", (x1 - x0, y1 - y0), 0)
+    ImageDraw.Draw(m).rounded_rectangle((0, 0, x1 - x0 - 1, y1 - y0 - 1), 52, fill=255)
+    return m
+
+
+@functools.lru_cache(None)
+def _image(path):
+    return Image.open(path).convert("RGB")
+
+
+@functools.lru_cache(None)
+def _video(path, frames):
+    pw, ph = PANEL[2] - PANEL[0], PANEL[3] - PANEL[1]
+    return np.memmap(path, dtype=np.uint8, mode="r", shape=(frames, ph, pw, 3))
+
+
+@functools.lru_cache(None)
+def _bottom_shade(h_frac=0.55, strength=230):
+    pw, ph = PANEL[2] - PANEL[0], PANEL[3] - PANEL[1]
+    a = np.zeros((ph, pw), np.uint8)
+    start = int(ph * (1 - h_frac))
+    a[start:] = (np.linspace(0, 1, ph - start) ** 1.4 * strength).astype(np.uint8)[:, None]
+    sh = Image.new("RGBA", (pw, ph), BG + (0,)); sh.putalpha(Image.fromarray(a))
+    return sh
+
+
+def media_frame(item, t_rel, span):
+    """RGB image of the panel size for a media item at t_rel seconds into its scene (span = scene length)."""
+    pw, ph = PANEL[2] - PANEL[0], PANEL[3] - PANEL[1]
+    if item["kind"] == "video":
+        mm = _video(item["path"], int(item["frames"]))
+        n = len(mm); i = int(t_rel * FPS)
+        i = i % (2 * n - 2) if n > 2 else 0          # ping-pong instead of a hard loop jump
+        if i >= n: i = 2 * n - 2 - i
+        return Image.fromarray(np.asarray(mm[i]))
+    im = _image(item["path"])
+    # cover-crop, then a slow Ken Burns push-in with a gentle drift
+    sc = max(pw / im.width, ph / im.height) * 1.12
+    w, h = im.width * sc, im.height * sc
+    p = ease_io(clamp(t_rel / max(1.0, span)))
+    z = 1.0 + 0.10 * p
+    cw, ch = pw / z, ph / z
+    cx = w / 2 + (w - cw) * 0.18 * (p - 0.5); cy = h / 2
+    box = ((cx - cw / 2) / sc, (cy - ch / 2) / sc, (cx + cw / 2) / sc, (cy + ch / 2) / sc)
+    return im.resize((pw, ph), Image.BICUBIC, box=box)
+
+
+def draw_media(img, item, t_rel, span, alpha=1.0, dim=0.0, scale=1.0):
+    x0, y0, x1, y1 = PANEL
+    fr = media_frame(item, t_rel, span).convert("RGBA")
+    if dim > 0:
+        fr.alpha_composite(Image.new("RGBA", fr.size, BG + (int(255 * dim),)))
+    if scale != 1.0:
+        w, h = fr.size
+        fr = fr.resize((int(w * scale), int(h * scale)), Image.BICUBIC).crop(
+            (int((w * scale - w) / 2), int((h * scale - h) / 2), int((w * scale - w) / 2) + w, int((h * scale - h) / 2) + h))
+    m = panel_mask()
+    if alpha < 1: m = m.point(lambda v: int(v * alpha))
+    fr.putalpha(m)
+    img.alpha_composite(fr, (x0, y0))
+
+
+@functools.lru_cache(None)
+def _logo_disc(path, size):
+    lg = Image.open(path).convert("RGBA")
+    disc = Image.new("RGBA", (size, size), (0, 0, 0, 0))
+    ImageDraw.Draw(disc).ellipse((0, 0, size - 1, size - 1), fill=(255, 255, 255, 255))
+    inner = int(size * 0.66)
+    lg = lg.resize((inner, inner), Image.LANCZOS)
+    disc.alpha_composite(lg, ((size - inner) // 2, (size - inner) // 2))
+    m = Image.new("L", (size, size), 0); ImageDraw.Draw(m).ellipse((0, 0, size - 1, size - 1), fill=255)
+    disc.putalpha(Image.fromarray(np.minimum(np.array(disc.getchannel("A")), np.array(m))))
+    return disc
+
+
 # ------------------------------------------------------------------ the renderer
 class ModernReel(Reel):
     def __init__(self, plan, words, duration):
@@ -273,6 +352,7 @@ class ModernReel(Reel):
                 self.chunks.append(cur); cur = []
         if cur: self.chunks.append(cur)
         self.blobs = [(VIOLET, 360, 0.0), (CYAN, 300, 2.1), (PINK, 260, 4.2)]
+        self.media = {m["id"]: m for m in plan.get("media", []) if m.get("path") and os.path.exists(m["path"])}
         self._hook_setup()
 
     # -------------------------------------------------------------- fast hook
@@ -519,7 +599,29 @@ class ModernReel(Reel):
         else:
             top = y0 + 110
 
+        if typ == "footage":
+            item = self.media.get(c.get("media"))
+            if item:
+                span = sc["_end"] - t0
+                a = ease((t - t0) / 0.25)
+                draw_media(img, item, t - t0, span, alpha=a, scale=1.04 - 0.04 * a)
+                img.alpha_composite(_bottom_shade(), (x0, y0))
+                if item.get("credit"):
+                    pill(img, (R + 30, y0 + 40), item["credit"].upper(), F("monom", 18), SOFT + (255,), (8, 10, 20, 170),
+                         anchor="rm", pad=(14, 8))
+                if c.get("caption"):
+                    ca = c.get("caption_at", t0)
+                    rise(img, (L, y1 - 80), c["caption"], fit(d, c["caption"], "black", 64, W), WHITE, ca, t, anchor="lm", glow=None)
+                return
+            typ = "headline"; c = dict(c, title=c.get("caption", ""))     # media missing -> fall back to text
+
         if typ == "news":
+            bg = self.media.get(c.get("bg_media"))
+            if bg:
+                draw_media(img, bg, t - t0, sc["_end"] - t0, alpha=ease((t - t0) / 0.3), dim=0.62)
+                img.alpha_composite(_bottom_shade(1.0, 200), (x0, y0))
+                if bg.get("credit"):
+                    pill(img, (R + 30, y0 + 40), bg["credit"].upper(), F("monom", 18), SOFT + (255,), (8, 10, 20, 170), anchor="rm", pad=(14, 8))
             pill(img, (L, y0 + 76), str(c.get("tag") or "AI NEWS").upper(), F("mono", 30), WHITE + (255,),
                  col(c.get("tag_color"), RED) + (230,), c.get("tag_at", t0), t, anchor="lm", pad=(24, 14), radius=14)
             ha = c.get("at", t0)
@@ -534,8 +636,12 @@ class ModernReel(Reel):
                 src = str(c.get("source", "")).replace("via ", "")
                 yy = y1 - 110
                 lay = Image.new("RGBA", (W, 90), (0, 0, 0, 0)); ld = ImageDraw.Draw(lay)
-                ld.ellipse((0, 13, 64, 77), fill=acc + (255,))
-                ld.text((32, 45), (src[:1] or "•").upper(), font=F("black", 34), fill=BG, anchor="mm")
+                lg = self.media.get(c.get("logo"))
+                if lg:
+                    lay.alpha_composite(_logo_disc(lg["path"], 64), (0, 13))
+                else:
+                    ld.ellipse((0, 13, 64, 77), fill=acc + (255,))
+                    ld.text((32, 45), (src[:1] or "•").upper(), font=F("black", 34), fill=BG, anchor="mm")
                 ld.text((86, 30), src, font=F("bold", 36), fill=WHITE, anchor="lm")
                 ld.text((86, 66), "SOURCE · VERIFIED REPORT", font=F("monom", 20), fill=MUTED, anchor="lm")
                 paste(img, lay, (L, yy), "lm", alpha=p, dy=(1 - p) * 20)
