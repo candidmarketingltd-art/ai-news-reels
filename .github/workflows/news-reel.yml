@@ -1,0 +1,86 @@
+name: AI news reel (every 6 hours)
+
+# Every 6 hours: check what's new in AI (Google Trends across 30 countries + AI news feeds),
+# let Claude decide single story / combined roundup / skip, make the reel and post it via Buffer right away.
+on:
+  schedule:
+    - cron: "41 1,7,13,19 * * *"   # 07:11, 13:11, 19:11, 01:11 IST (morning / lunch / evening India; evening US)
+  push:
+    paths: ["triggers/run-now.txt"]  # edit this file on GitHub to start a run immediately
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Render only, don't post"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ai-news-reels
+  cancel-in-progress: false
+
+jobs:
+  reel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: System packages
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg libraqm0 libfribidi0 libcairo2 fontconfig
+          mkdir -p ~/.local/share/fonts && cp pipeline/render/fonts/*.ttf ~/.local/share/fonts/ && fc-cache -f
+      - name: Python packages
+        run: |
+          pip install -q -r requirements.txt
+          python -c "from PIL import features; assert features.check('raqm'), 'text shaping (raqm) missing'"
+      - name: Check the news, make & post a reel
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          BUFFER_CHANNEL_ID: ${{ vars.BUFFER_CHANNEL_ID }}
+          BUFFER_ORG_ID: ${{ vars.BUFFER_ORG_ID }}
+          BUFFER_MODE: ${{ vars.BUFFER_MODE }}
+          POSTING_MODE: ${{ vars.POSTING_MODE }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          MEDIA_REPO: ${{ vars.MEDIA_REPO }}
+          MEDIA_TOKEN: ${{ secrets.MEDIA_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          IG_HANDLE: ${{ vars.IG_HANDLE }}
+          SELECT_MODEL: ${{ vars.SELECT_MODEL }}
+          SCRIPT_MODEL: ${{ vars.SCRIPT_MODEL }}
+          EDIT_MODEL: ${{ vars.EDIT_MODEL }}
+          SINGLE_MIN_IMPORTANCE: ${{ vars.SINGLE_MIN_IMPORTANCE }}
+          ROUNDUP_MIN_IMPORTANCE: ${{ vars.ROUNDUP_MIN_IMPORTANCE }}
+          LOOKBACK_HOURS: ${{ vars.LOOKBACK_HOURS }}
+          TREND_GEOS: ${{ vars.TREND_GEOS }}
+          VOICE_PROVIDER: ${{ vars.VOICE_PROVIDER }}
+          EDGE_VOICE: ${{ vars.EDGE_VOICE }}
+          ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
+          MASCOT_BADGE: ${{ vars.MASCOT_BADGE }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || vars.DRY_RUN }}
+        run: python -m pipeline.run
+      - name: Keep the reel (7 days)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: reel-${{ github.run_number }}
+          path: out/*.mp4
+          if-no-files-found: ignore
+          retention-days: 7
+      - name: Save logs
+        if: always()
+        run: |
+          git config user.name "ainews-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add logs
+          git diff --cached --quiet || git commit -m "news run ${{ github.run_number }}"
+          git pull --rebase -q && git push -q || echo "nothing to push"

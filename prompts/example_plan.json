@@ -1,0 +1,189 @@
+{
+ "_note": "FORMAT EXAMPLE ONLY. Nova Labs, Pixel Mind and every figure here are invented. Never reuse these facts.",
+ "voiceover": "[slow, deep, dramatic] 3 AI stories. 24 hours. And one of them changes your phone.\n\n[intrigued, building energy] Story 1. Nova Labs just launched Nova 5, and it is free for everyone. The company says it is 40% faster than the old version and it can now see your screen while you work.\n\n[excited, fast] Story 2. Pixel Mind raised $2 billion. That is the biggest AI funding round this month, according to Reuters. [amused] Investors are still very, very hungry.\n\n[serious] Story 3. Europe's new AI rules start today. Chatbots must now tell you when you are talking to a machine. [punchy] No more pretending.\n\n[confident] So: try Nova 5 if you want a free assistant, watch Pixel Mind, and expect more \"I am an AI\" labels.\n\n[playful, warm] Send this to the friend who still thinks AI news is boring.",
+ "ig_caption": "3 AI stories from the last 24 hours, in 60 seconds ⚡\nNova 5 goes free, Pixel Mind raises $2 billion, and Europe's chatbot labels kick in.\nSend this to the friend who is always last to hear about AI.\nFollow @youraccount for AI news every day\nSources: Nova Labs, Reuters",
+ "hashtags": [
+  "#AI",
+  "#AInews",
+  "#ArtificialIntelligence",
+  "#TechNews",
+  "#Chatbots",
+  "#AIregulation"
+ ],
+ "series_tag": "ROUNDUP.AI",
+ "title_line1": "3 AI stories,",
+ "title_line2": "in *24 hours*",
+ "cold_open": [
+  {
+   "text": "3 AI stories.",
+   "at": "3 AI stories."
+  },
+  {
+   "text": "24 hours.",
+   "at": "24 hours."
+  },
+  {
+   "text": "One changes your phone.",
+   "at": "changes your phone."
+  }
+ ],
+ "scenes": [
+  {
+   "at": "Story 1. Nova",
+   "mood": "neutral",
+   "point": true,
+   "tint": "cold",
+   "card": {
+    "type": "news",
+    "tag": "AI UPDATE 1/3",
+    "tag_at": "Story 1.",
+    "title": "Nova Labs launches Nova 5 — free for everyone",
+    "at": "just launched Nova",
+    "source": "via Nova Labs",
+    "source_at": "free for everyone."
+   }
+  },
+  {
+   "at": "The company says",
+   "mood": "shocked",
+   "point": false,
+   "card": {
+    "type": "big_number",
+    "label": "Nova 5 vs old version",
+    "value": "40%",
+    "value_at": "40% faster",
+    "note": "faster",
+    "note_at": "than the old"
+   }
+  },
+  {
+   "at": "it can now",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "headline",
+    "title": "It sees your screen",
+    "at": "see your screen",
+    "sub": "while you work",
+    "sub_at": "while you work.",
+    "icon": "phone"
+   }
+  },
+  {
+   "at": "Story 2. Pixel",
+   "mood": "neutral",
+   "point": false,
+   "tint": "green",
+   "card": {
+    "type": "news",
+    "tag": "AI UPDATE 2/3",
+    "tag_at": "Story 2.",
+    "title": "Pixel Mind raises $2 billion",
+    "at": "Pixel Mind raised",
+    "source": "via Reuters",
+    "source_at": "according to Reuters."
+   }
+  },
+  {
+   "at": "That is the",
+   "mood": "shocked",
+   "point": false,
+   "tint": "green",
+   "card": {
+    "type": "money_rain",
+    "line1": "$2 billion",
+    "line1_at": "That is the",
+    "line2": "biggest this month",
+    "line2_at": "biggest AI funding",
+    "symbol": "$"
+   }
+  },
+  {
+   "at": "Investors are still",
+   "mood": "smirk",
+   "point": false,
+   "card": {
+    "type": "title_slam",
+    "title": "HUNGRY",
+    "at": "very, very hungry.",
+    "color": "gold"
+   }
+  },
+  {
+   "at": "Story 3. Europe's",
+   "mood": "serious",
+   "point": false,
+   "tint": "red",
+   "card": {
+    "type": "news",
+    "tag": "AI UPDATE 3/3",
+    "tag_at": "Story 3.",
+    "title": "Europe's new AI rules start today",
+    "at": "new AI rules",
+    "source": "EU AI rules",
+    "source_at": "start today."
+   }
+  },
+  {
+   "at": "Chatbots must now",
+   "mood": "serious",
+   "point": true,
+   "tint": "red",
+   "card": {
+    "type": "split",
+    "title": "Talking to…",
+    "title_at": "Chatbots must now",
+    "left": {
+     "text": "a human?",
+     "at": "tell you when",
+     "color": "blue"
+    },
+    "right": {
+     "text": "a machine",
+     "at": "to a machine.",
+     "color": "gold"
+    },
+    "result": "Must be labelled",
+    "result_at": "No more pretending."
+   }
+  },
+  {
+   "at": "So: try Nova",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "checklist",
+    "title": "What to do",
+    "items": [
+     {
+      "text": "Try Nova 5 free",
+      "at": "So: try Nova"
+     },
+     {
+      "text": "Watch Pixel Mind",
+      "at": "watch Pixel Mind,"
+     },
+     {
+      "text": "Expect AI labels",
+      "at": "expect more"
+     }
+    ],
+    "final": "Stay ahead",
+    "final_at": "labels."
+   }
+  },
+  {
+   "at": "Send this to",
+   "mood": "smirk",
+   "point": false,
+   "tint": "green",
+   "card": {
+    "type": "cta",
+    "line1": "Send this to",
+    "line1_at": "Send this to",
+    "line2": "your AI-skeptic friend",
+    "line2_at": "AI news is boring."
+   }
+  }
+ ]
+}
