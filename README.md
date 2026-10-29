@@ -1,29 +1,41 @@
 # AI News — automated Instagram Reels
 
-Every 6 hours this repo checks what's new in AI worldwide and, if something is worth it, posts a reel — no one touching anything.
+Every 6 hours this repo checks what's new in AI worldwide and posts one reel about it — 4 reels a day, no one touching anything.
 Built from the [paisadecode-reels](https://github.com/candidmarketingltd-art/paisadecode-reels) pipeline (same Rohan mascot,
 ElevenLabs voice, sound design, Claude Sonnet + Opus, Buffer free plan), with a new news source and a new look.
 
 ```
 Google Trends (30 countries) ─┐
-AI news feeds + lab blogs ────┴─▶ Claude picks: single / roundup / skip ─▶ read the articles ─▶ Sonnet writes the script
+AI news feeds + lab blogs ────┴─▶ Claude picks: single story or roundup ─▶ read the articles ─▶ Sonnet writes the script
       ─▶ Opus edits (scene plan) ─▶ fact-check every number against the articles ─▶ ElevenLabs "Rohan" voiceover (+ word timings)
       ─▶ render (modern glass UI, Rohan host cam, word-by-word captions) ─▶ theme music + mix ─▶ Buffer ─▶ Instagram
 ```
 
-## How each run decides
+## 4 reels a day — one every 6 hours
+| Window (IST) | Main run | Backup run |
+|---|---|---|
+| 07:00 – 13:00 | 07:11 | 08:26 |
+| 13:00 – 19:00 | 13:11 | 14:26 |
+| 19:00 – 01:00 | 19:11 | 20:26 |
+| 01:00 – 07:00 | 01:11 (US evening) | 02:26 |
+
+Every window gets exactly **one** reel, posted the moment it's made. `logs/slots.json` records which windows are done, so the
+backup run only does something if the main run failed (GitHub hiccup, ElevenLabs/Buffer error, a story that couldn't be fact-checked).
+
+## How each run picks the story
 | Situation | What gets posted |
 |---|---|
-| One story with importance ≥ 8 (big launch, $B deal, landmark law, trending in many countries) | **single** — one-story reel, ~45–60 s |
-| No blockbuster, but 2–4 notable stories (importance ≥ 5) | **roundup** — "3 AI stories in 24 hours", ~55–70 s |
-| Nothing new or notable | **skip** — nothing is posted (no filler) |
+| One story with importance ≥ 8 (big launch, $B deal, landmark law, trending in many countries) | **single** — one-story reel, ~40–60 s |
+| No blockbuster | **roundup** of the 2–4 best stories, ~45–70 s |
+| A quiet news cycle | the best story not yet covered, as an explainer; if the last 8 h are empty it looks back 24 h, then 48 h |
+
+If the script for a story fails the fact-check, it's dropped and the next best story is used (up to 3 tries).
+Stories never repeat (7-day memory in `logs/covered.json`). Anything below importance 3 is never posted.
+Want posts only when there's real news instead? Set variable `MUST_POST` = `0`.
 
 Google has no worldwide "trending now" feed, so the bot builds one: it reads Trending Now in 30 countries and an AI story
 trending in many of them ranks higher. AI outlets (TechCrunch, The Verge, Ars, MIT Tech Review, Wired, VentureBeat, The Decoder)
 and lab blogs (OpenAI, Google, DeepMind, Hugging Face) catch stories before they become mass searches.
-Stories already covered are remembered for 7 days (`logs/covered.json`), so the same news is never posted twice.
-
-Runs at **07:11, 13:11, 19:11 and 01:11 IST** (covers India's day and the US evening). At most 4 reels a day.
 
 ---
 
@@ -57,7 +69,7 @@ Prefer Buffer's posting schedule instead? Variable `BUFFER_MODE` = `queue`.
 ## Everyday controls
 - **Pause:** Actions → *AI news reel* → ⋯ → *Disable workflow*.
 - **Run right now:** edit `triggers/run-now.txt` on GitHub (any change) and commit.
-- **Post more / less often:** variables `SINGLE_MIN_IMPORTANCE` (default 8) and `ROUNDUP_MIN_IMPORTANCE` (default 5). Lower = more reels.
+- **Single vs roundup:** variables `SINGLE_MIN_IMPORTANCE` (default 8) and `ROUNDUP_MIN_IMPORTANCE` (default 5); `MIN_IMPORTANCE` (default 3) is the floor.
 - **Change countries:** variable `TREND_GEOS`, e.g. `US,IN,GB,CA,AU`.
 - **Change the news judgement / script / edit:** plain-English prompts in `prompts/news_editor.md`, `prompts/script_writer.md`, `prompts/video_editor.md`.
 - **Look:** `RENDER_STYLE` = `modern` (default: glass panel, gradient accents, Rohan host cam), `panel` (flat samjho-style) or `classic` (Paisa Decode cinematic look). `MASCOT_BADGE` = text on Rohan's t-shirt (default `AI`).

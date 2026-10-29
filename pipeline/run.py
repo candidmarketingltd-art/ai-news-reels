@@ -18,6 +18,29 @@ OUT = ROOT / "out"; PLANS = ROOT / "logs" / "plans"
 RUNLOG = ROOT / "logs" / "runs.csv"
 COVERED = ROOT / "logs" / "covered.json"
 EPISODE = ROOT / "logs" / "episode.json"
+SLOTS = ROOT / "logs" / "slots.json"
+MUST_POST = (os.environ.get("MUST_POST") or "1") != "0"          # 1 reel every 6 hours = 4 a day
+WIDEN = [int(x) for x in (os.environ.get("WIDEN_HOURS") or "24,48").split(",") if x.strip()]
+MAX_TRIES = 3
+
+
+def slot_key(now=None):
+    """The 6-hour window this run belongs to (IST): 01–07, 07–13, 13–19, 19–01. Windows start at 01:00 IST."""
+    now = now or dt.datetime.now(IST)
+    shifted = now - dt.timedelta(hours=1)
+    return f"{shifted:%Y-%m-%d}-{'ABCD'[shifted.hour // 6]}"
+
+
+def load_slots():
+    try: return json.loads(SLOTS.read_text())
+    except Exception: return {}
+
+
+def save_slot(key, info):
+    sl = load_slots(); sl[key] = info
+    keep = sorted(sl)[-60:]                       # ~2 weeks
+    SLOTS.parent.mkdir(parents=True, exist_ok=True)
+    SLOTS.write_text(json.dumps({k: sl[k] for k in keep}, indent=1))
 IST = ZoneInfo("Asia/Kolkata")
 LOOKBACK = int(os.environ.get("LOOKBACK_HOURS") or 8)   # a little more than the 6-hour cadence, so nothing falls between runs
 
@@ -96,41 +119,58 @@ def main():
     for k in ("ANTHROPIC_API_KEY", "ELEVENLABS_API_KEY", "BUFFER_API_KEY", "BUFFER_CHANNEL_ID", "IG_HANDLE"):
         print(f"  {k}: {'set' if os.environ.get(k) else 'MISSING'}", flush=True)
     stamp = dt.datetime.now(IST).strftime("%Y-%m-%d_%H%M")
+    key = slot_key()
+    if os.environ.get("SLOT_GUARD") == "1" and load_slots().get(key, {}).get("status") == "posted" and not dry:
+        print(f"slot {key} already has its reel ({load_slots()[key].get('at')}) — nothing to do"); return
+    print(f"slot {key} | must_post={MUST_POST} | dry_run={dry}", flush=True)
     covered = load_covered()
-
-    print(f"[1/6] news — last {LOOKBACK}h | dry_run={dry}", flush=True)
-    cands = news.candidates(LOOKBACK, [c["id"] for c in covered])
-    if not cands:
-        print("no new AI stories found"); log({}, "skip", "no candidates"); return
-    by_id = {c["id"]: c for c in cands}
-
-    print(f"[2/6] editor — {len(cands)} candidates", flush=True)
+    skip_ids = {c["id"] for c in covered}
     recent = [c["headline"] for c in covered if c.get("at", "") >= (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=3)).isoformat()]
-    decision = script_writer.select(cands, recent)
-    print(f"      decision: {decision['decision']} — {decision.get('reason', '')}", flush=True)
-    for s in decision.get("stories", []):
-        print(f"      • [{s.get('importance')}] {s['headline']}", flush=True)
-    if decision["decision"] == "skip":
-        log(decision, "skip", decision.get("reason", "")[:300]); return
-
-    print("[3/6] reading articles + writing script", flush=True)
-    pack = news.fetch_articles(decision["stories"], by_id)
-    for p in pack:
-        print(f"      {p['articles_read']} article(s) read for: {p['story']}", flush=True)
     now = dt.datetime.now(dt.timezone.utc).isoformat()
 
-    def mark(status):
-        for s in decision["stories"]:
-            for cid in s.get("candidate_ids", []):
-                covered.append({"id": cid, "headline": s["headline"], "at": now, "status": status})
+    def mark(decision, status):
+        for st in decision["stories"]:
+            for cid in st.get("candidate_ids", []):
+                covered.append({"id": cid, "headline": st["headline"], "at": now, "status": status})
         save_covered(covered)
 
-    try:
-        plan = script_writer.write(decision, pack)
-    except script_writer.FactCheckError as e:
-        print("SKIPPED (fact-check):", e); log(decision, "skipped_factcheck", str(e)[:300])
-        if not dry: mark("skipped_factcheck")
+    # find news: normal window first, then widen (24h, 48h) so a reel is always possible
+    plan = decision = None
+    for hours in [LOOKBACK] + (WIDEN if MUST_POST else []):
+        print(f"[1/6] news — last {hours}h", flush=True)
+        cands = news.candidates(hours, skip_ids)
+        if not cands:
+            print("      nothing new in this window", flush=True); continue
+        by_id = {c["id"]: c for c in cands}
+        for attempt in range(MAX_TRIES):
+            pool = [c for c in cands if c["id"] not in skip_ids]
+            if not pool: break
+            print(f"[2/6] editor — {len(pool)} candidates (attempt {attempt + 1})", flush=True)
+            decision = script_writer.select(pool, recent, must_post=MUST_POST)
+            print(f"      decision: {decision['decision']} — {decision.get('reason', '')}", flush=True)
+            for st in decision.get("stories", []):
+                print(f"      • [{st.get('importance')}] {st['headline']}", flush=True)
+            if decision["decision"] == "skip": break
+            print("[3/6] reading articles + writing script", flush=True)
+            pack = news.fetch_articles(decision["stories"], by_id)
+            for p in pack:
+                print(f"      {p['articles_read']} article(s) read for: {p['story']}", flush=True)
+            try:
+                plan = script_writer.write(decision, pack); break
+            except script_writer.FactCheckError as e:
+                # couldn't write it without unsupported facts -> drop these stories and pick the next best
+                print("      fact-check failed, trying the next best story:", str(e)[:200], flush=True)
+                log(decision, "skipped_factcheck", str(e)[:300])
+                for st in decision["stories"]: skip_ids.update(st.get("candidate_ids", []))
+                if not dry: mark(decision, "skipped_factcheck")
+                decision = None
+        if plan or (decision and decision["decision"] == "skip" and not MUST_POST): break
+    if not plan:
+        msg = "no usable AI story found in the last %dh" % max([LOOKBACK] + WIDEN)
+        print(("::error::" if MUST_POST else "") + msg); log(decision or {}, "skip", msg)
+        if MUST_POST and not dry: sys.exit(1)       # red run -> the backup run in this window tries again
         return
+
     try: ep = json.loads(EPISODE.read_text())["last"] + 1
     except Exception: ep = int(os.environ.get("FIRST_EPISODE") or 1)
     plan["episode"] = ep
@@ -150,8 +190,10 @@ def main():
             pid, link = post(mp4, caption, stamp)
         except Exception as e:
             traceback.print_exc(); log(decision, "publish_error", str(e)[:300]); sys.exit(1)
-    mark("posted")
+    mark(decision, "posted")
     EPISODE.write_text(json.dumps({"last": plan["episode"]}))
+    save_slot(key, {"status": "posted", "at": dt.datetime.now(IST).strftime("%Y-%m-%d %H:%M"), "post": str(pid),
+                    "decision": decision["decision"], "stories": [st["headline"] for st in decision["stories"]]})
     log(decision, "posted", f"{pid} {link}")
     print(f"POSTED {pid} {link}")
 

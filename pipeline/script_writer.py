@@ -58,9 +58,22 @@ def _ask_json(model, system, user, check, attempts=3):
 
 
 # ----------------------------------------------------------------------------- 1) pick the news
-def select(candidates, recently_covered):
-    sys0 = (ROOT / "prompts" / "news_editor.md").read_text(encoding="utf-8") \
-        .replace("{SINGLE_MIN}", str(SINGLE_MIN)).replace("{ROUNDUP_MIN}", str(ROUNDUP_MIN))
+FLOOR = int(os.environ.get("MIN_IMPORTANCE") or 3)   # never post anything weaker than this, even when a reel is required
+
+MUST_POST_NOTE = """
+
+## THIS RUN MUST PRODUCE A REEL ("skip" is not allowed — the account posts every 6 hours)
+- A story with importance >= {SINGLE_MIN} → `single`.
+- Otherwise → `roundup` of the 2–4 best stories (prefer importance >= {ROUNDUP_MIN}; if fewer qualify, use the best available
+  with importance >= {FLOOR}).
+- Only one decent story at all → `single` on it, told as a useful explainer (what it is, why it matters to the viewer).
+- Never re-cover a RECENTLY COVERED story unless there is a genuinely new development."""
+
+
+def select(candidates, recently_covered, must_post=True):
+    sys0 = (ROOT / "prompts" / "news_editor.md").read_text(encoding="utf-8")
+    if must_post: sys0 += MUST_POST_NOTE
+    sys0 = sys0.replace("{SINGLE_MIN}", str(SINGLE_MIN)).replace("{ROUNDUP_MIN}", str(ROUNDUP_MIN)).replace("{FLOOR}", str(FLOOR))
     now = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     slim = [{k: c[k] for k in ("id", "headline", "source", "time", "summary", "trend")} for c in candidates]
     user = (f"NOW: {now}\n\nRECENTLY COVERED (last 3 days):\n" + ("\n".join(f"- {h}" for h in recently_covered) or "- (nothing yet)")
@@ -69,6 +82,8 @@ def select(candidates, recently_covered):
 
     def check(d):
         if d.get("decision") not in ("single", "roundup", "skip"): raise ValueError("decision must be single, roundup or skip")
+        if must_post and d["decision"] == "skip" and candidates:
+            raise ValueError("skip is not allowed in this run — pick the best single story or a roundup")
         st = d.get("stories") or []
         if d["decision"] == "single" and len(st) != 1: raise ValueError("single needs exactly 1 story")
         if d["decision"] == "roundup" and not 2 <= len(st) <= 4: raise ValueError("roundup needs 2-4 stories")
@@ -76,16 +91,22 @@ def select(candidates, recently_covered):
             bad = [x for x in s.get("candidate_ids", []) if x not in ids]
             if bad or not s.get("candidate_ids"): raise ValueError(f"unknown or missing candidate_ids {bad}")
     d = _ask_json(SELECT_MODEL, sys0, user, check)
-    # enforce the thresholds in code too, so a generous model can't post filler
     imp = lambda s: int(s.get("importance") or 0)
-    if d["decision"] == "single" and imp(d["stories"][0]) < SINGLE_MIN:
-        d["decision"], d["reason"] = "skip", f"single story only importance {imp(d['stories'][0])} (< {SINGLE_MIN}); " + d.get("reason", "")
-    if d["decision"] == "roundup":
-        d["stories"] = [s for s in d["stories"] if imp(s) >= ROUNDUP_MIN]
-        if len(d["stories"]) == 1:
-            d["decision"] = "single" if imp(d["stories"][0]) >= SINGLE_MIN else "skip"
-        elif not d["stories"]:
-            d["decision"] = "skip"
+    if must_post:
+        # a reel is required: keep the editor's choice, only drop real junk (below FLOOR)
+        d["stories"] = [s for s in d.get("stories") or [] if imp(s) >= FLOOR]
+        if d["decision"] == "roundup" and len(d["stories"]) == 1: d["decision"] = "single"
+        if not d["stories"]: d["decision"] = "skip"
+    else:
+        # optional mode (MUST_POST=0): enforce the thresholds so a generous model can't post filler
+        if d["decision"] == "single" and imp(d["stories"][0]) < SINGLE_MIN:
+            d["decision"], d["reason"] = "skip", f"single story only importance {imp(d['stories'][0])} (< {SINGLE_MIN}); " + d.get("reason", "")
+        if d["decision"] == "roundup":
+            d["stories"] = [s for s in d["stories"] if imp(s) >= ROUNDUP_MIN]
+            if len(d["stories"]) == 1:
+                d["decision"] = "single" if imp(d["stories"][0]) >= SINGLE_MIN else "skip"
+            elif not d["stories"]:
+                d["decision"] = "skip"
     if d["decision"] == "skip": d["stories"] = []
     return d
 

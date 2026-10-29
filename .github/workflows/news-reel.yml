@@ -1,10 +1,12 @@
-name: AI news reel (every 6 hours)
+name: AI news reel (4 a day — one every 6 hours)
 
-# Every 6 hours: check what's new in AI (Google Trends across 30 countries + AI news feeds),
-# let Claude decide single story / combined roundup / skip, make the reel and post it via Buffer right away.
+# Every 6 hours: check what's new in AI (Google Trends across 30 countries + AI news feeds), let Claude pick the best
+# story (or a combined roundup when several matter), make the reel and post it via Buffer right away.
+# Exactly one reel per 6-hour window: a backup run ~75 min later only works if the first run didn't post.
 on:
   schedule:
-    - cron: "41 1,7,13,19 * * *"   # 07:11, 13:11, 19:11, 01:11 IST (morning / lunch / evening India; evening US)
+    - cron: "41 1,7,13,19 * * *"   # main runs:   07:11, 13:11, 19:11, 01:11 IST
+    - cron: "56 2,8,14,20 * * *"   # backup runs: 08:26, 14:26, 20:26, 02:26 IST (skip themselves if the window already posted)
   push:
     paths: ["triggers/run-now.txt"]  # edit this file on GitHub to start a run immediately
   workflow_dispatch:
@@ -68,6 +70,8 @@ jobs:
           MASCOT_BADGE: ${{ vars.MASCOT_BADGE }}
           RENDER_STYLE: ${{ vars.RENDER_STYLE }}
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || vars.DRY_RUN }}
+          SLOT_GUARD: ${{ github.event_name == 'schedule' && '1' || '0' }}
+          MUST_POST: ${{ vars.MUST_POST }}
         run: python -m pipeline.run
       - name: Keep the reel (7 days)
         if: always()
