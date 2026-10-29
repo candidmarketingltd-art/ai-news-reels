@@ -7,8 +7,8 @@ ElevenLabs voice, sound design, Claude Sonnet + Opus, Buffer free plan), with a 
 ```
 Google Trends (30 countries) ─┐
 AI news feeds + lab blogs ────┴─▶ Claude picks: single / roundup / skip ─▶ read the articles ─▶ Sonnet writes the script
-      ─▶ Opus edits (scene plan) ─▶ fact-check every number against the articles ─▶ ElevenLabs "Rohan" voice
-      ─▶ render (dark tech-explainer panel style, Rohan in the corner, captions) ─▶ theme music + mix ─▶ Buffer ─▶ Instagram
+      ─▶ Opus edits (scene plan) ─▶ fact-check every number against the articles ─▶ ElevenLabs "Rohan" voiceover (+ word timings)
+      ─▶ render (modern glass UI, Rohan host cam, word-by-word captions) ─▶ theme music + mix ─▶ Buffer ─▶ Instagram
 ```
 
 ## How each run decides
@@ -37,7 +37,8 @@ and public repos get unlimited free Actions minutes. Secrets stay private.
 
 ### 1. Keys (same ones as Paisa Decode work)
 - **`ANTHROPIC_API_KEY`** (secret) — Sonnet picks the news + writes, Opus 5.5 edits.
-- **`ELEVENLABS_API_KEY`** (secret) — Rohan's voice, speaking English. Falls back to Microsoft's free `en-IN-PrabhatNeural` when credits run out.
+- **`ELEVENLABS_API_KEY`** (secret) — every reel is voiced by your cloned **Rohan** voice (`dVIifp6W0jifqeThgNN0`, Eleven v4 with emotion tags), speaking English;
+  create the key in the same ElevenLabs workspace as the voice. Falls back to Microsoft's free `en-IN-PrabhatNeural` when credits run out.
 
 ### 2. The new Instagram account in Buffer (free plan)
 1. Switch the new Instagram account to **Professional (Creator or Business)**.
@@ -59,7 +60,7 @@ Prefer Buffer's posting schedule instead? Variable `BUFFER_MODE` = `queue`.
 - **Post more / less often:** variables `SINGLE_MIN_IMPORTANCE` (default 8) and `ROUNDUP_MIN_IMPORTANCE` (default 5). Lower = more reels.
 - **Change countries:** variable `TREND_GEOS`, e.g. `US,IN,GB,CA,AU`.
 - **Change the news judgement / script / edit:** plain-English prompts in `prompts/news_editor.md`, `prompts/script_writer.md`, `prompts/video_editor.md`.
-- **Look:** `RENDER_STYLE` = `panel` (default, tech-explainer look) or `classic` (Paisa Decode cinematic look). `MASCOT_BADGE` = text on Rohan's t-shirt (default `AI`).
+- **Look:** `RENDER_STYLE` = `modern` (default: glass panel, gradient accents, Rohan host cam), `panel` (flat samjho-style) or `classic` (Paisa Decode cinematic look). `MASCOT_BADGE` = text on Rohan's t-shirt (default `AI`).
 - **Fact-check:** if the script uses a number that isn't in the articles, Claude is asked to fix it; if it still fails the run is
   logged as `skipped_factcheck` and nothing is posted.
 

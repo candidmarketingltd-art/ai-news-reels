@@ -251,7 +251,7 @@ MOOD_REST = {"neutral": "smile", "smirk": "smirk", "shocked": "O", "serious": "c
 # =====================================================================  "panel" style
 # Minimal dark explainer look: category tag + episode number on top, a bold two-line hook with an accent word,
 # the visual inside a framed glowing panel, a small mascot in the bottom-right corner, wordmark at the bottom.
-STYLE = (os.environ.get("RENDER_STYLE") or "panel").lower()     # "panel" (default) or "classic" (Paisa Decode look)
+STYLE = (os.environ.get("RENDER_STYLE") or "modern").lower()    # "modern" (default), "panel" or "classic" (Paisa Decode look)
 ACCENT = {"warm": GOLD, "cold": BLUE, "red": RED, "green": GREEN}
 PANEL = (64, 470, 1016, 1330)                                    # x0, y0, x1, y1
 CARD_CROP = (0, 80, 1080, 1000)                                  # region of a classic card that goes into the panel
@@ -657,8 +657,17 @@ class Reel:
 
 
 _REEL = None
+
+
+def make_reel(plan, words, duration):
+    if STYLE == "modern":
+        from modern import ModernReel
+        return ModernReel(plan, words, duration)
+    return Reel(plan, words, duration)
+
+
 def _init(plan, words, duration):
-    global _REEL; _REEL = Reel(plan, words, duration)
+    global _REEL; _REEL = make_reel(plan, words, duration)
 def _frame(i): return _REEL.frame(i)
 
 
@@ -680,7 +689,7 @@ def indian(v, to):
 
 
 def render(plan, words, duration, out_path, workers=None):
-    reel = Reel(plan, words, duration)
+    reel = make_reel(plan, words, duration)
     n = int(math.ceil((duration + 0.9) * FPS))
     ff = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{WIDTH}x{HEIGHT}", "-r", str(FPS),
                            "-i", "-", "-c:v", "libx264", "-preset", "veryfast", "-crf", "19", "-pix_fmt", "yuv420p", out_path], stdin=subprocess.PIPE)
@@ -694,7 +703,7 @@ def render(plan, words, duration, out_path, workers=None):
 
 
 def preview(plan, words, duration, times, out_dir):
-    reel = Reel(plan, words, duration)
+    reel = make_reel(plan, words, duration)
     os.makedirs(out_dir, exist_ok=True)
     for t in times:
         Image.frombytes("RGB", (WIDTH, HEIGHT), reel.frame(int(t * FPS))).save(os.path.join(out_dir, f"t{t:05.1f}.png"))

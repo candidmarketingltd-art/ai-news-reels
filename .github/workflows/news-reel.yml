@@ -66,6 +66,7 @@ jobs:
           EDGE_VOICE: ${{ vars.EDGE_VOICE }}
           ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
           MASCOT_BADGE: ${{ vars.MASCOT_BADGE }}
+          RENDER_STYLE: ${{ vars.RENDER_STYLE }}
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || vars.DRY_RUN }}
         run: python -m pipeline.run
       - name: Keep the reel (7 days)
