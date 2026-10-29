@@ -1,0 +1,292 @@
+{
+ "voiceover": "[excited, conversational] Wait — Apple spent years dismissing touchscreen Macs, and it just launched one. [curious] It's the MacBook Pro with PROLED XDR Display, Apple's first laptop with a touch screen. Apple says the touch sensor is built into the display itself, which should cut lag.\n\n[intrigued, building energy] It comes in 14-inch and 16-inch versions, starting at $2,899 and $3,399. It runs on an M5 Pro or M5 Max chip, ships November 6, and pre-orders are open.\n\n[amused] Back in 2016, Apple's Phil Schiller told WIRED you \"can't optimize for both\" touch and a trackpad. [serious] Now Apple says many existing apps work right away, because touches register as clicks. And it says it's \"only getting started\" on macOS touch.\n\n[confident] If you're a designer, musician or developer, this one's aimed at you.\n\n[playful, warm] Send this to the friend who swore Macs would never get touch.",
+ "ig_caption": "Apple spent years dismissing touchscreen Macs. Now it just launched one 👀\nThe new MacBook Pro with PROLED XDR Display starts at $2,899 and ships November 6, with pre-orders already open.\nSend this to the friend who swore Macs would never get touch.\nFollow @ihackgrowth for daily AI & tech news\nSources: CNN, WIRED, 9to5Mac, Apple",
+ "hashtags": [
+  "#TechNews",
+  "#Business",
+  "#Apple",
+  "#MacBookPro",
+  "#Touchscreen",
+  "#macOS",
+  "#Gadgets"
+ ],
+ "numbers": [
+  "14-inch",
+  "16-inch",
+  "$2,899",
+  "$3,399",
+  "M5 Pro",
+  "M5 Max",
+  "November 6",
+  "2016"
+ ],
+ "media_hints": [
+  {
+   "story": 1,
+   "company": "Apple",
+   "domain": "apple.com",
+   "broll": [
+    "laptop touchscreen",
+    "designer drawing tablet"
+   ]
+  }
+ ],
+ "cold_open": [
+  {
+   "text": "TOUCHSCREEN MAC",
+   "at": "Apple spent years"
+  },
+  {
+   "text": "JUST LAUNCHED",
+   "at": "just launched one."
+  }
+ ],
+ "scenes": [
+  {
+   "at": "It's the MacBook",
+   "mood": "shocked",
+   "point": false,
+   "tint": "cold",
+   "beats": [
+    {
+     "at": "Apple's first laptop",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "card": {
+    "type": "news",
+    "tag": "NEW LAPTOP",
+    "tag_at": "It's the MacBook",
+    "title": "Apple launches its first touchscreen MacBook Pro",
+    "at": "It's the MacBook",
+    "source": "via Apple",
+    "source_at": "Apple's first laptop",
+    "bg_media": "s1_image",
+    "logo": "s1_logo"
+   }
+  },
+  {
+   "at": "the touch sensor",
+   "mood": "neutral",
+   "point": true,
+   "tint": "cold",
+   "card": {
+    "type": "footage",
+    "media": "s1_broll1",
+    "at": "the touch sensor",
+    "caption": "Touch inside the display",
+    "caption_at": "built into the display"
+   }
+  },
+  {
+   "at": "which should cut",
+   "mood": "smirk",
+   "point": false,
+   "tint": "cold",
+   "card": {
+    "type": "title_slam",
+    "title": "LESS LAG",
+    "at": "should cut lag.",
+    "color": "ice"
+   }
+  },
+  {
+   "at": "It comes in",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "split",
+    "title": "Two sizes",
+    "title_at": "It comes in",
+    "left": {
+     "text": "14-inch",
+     "at": "14-inch and",
+     "color": "blue"
+    },
+    "right": {
+     "text": "16-inch",
+     "at": "16-inch versions,",
+     "color": "gold"
+    },
+    "result": "Both with touch",
+    "result_at": "16-inch versions,"
+   }
+  },
+  {
+   "at": "starting at $2,899",
+   "mood": "shocked",
+   "point": false,
+   "card": {
+    "type": "big_number",
+    "label": "14-inch starts at",
+    "value": "$2,899",
+    "value_at": "starting at $2,899",
+    "note": "16-inch: $3,399",
+    "note_at": "and $3,399.",
+    "color": "gold"
+   }
+  },
+  {
+   "at": "It runs on",
+   "mood": "neutral",
+   "point": true,
+   "tint": "cold",
+   "card": {
+    "type": "checklist",
+    "title": "The specs",
+    "items": [
+     {
+      "text": "M5 Pro or M5 Max",
+      "at": "It runs on"
+     },
+     {
+      "text": "Ships November 6",
+      "at": "ships November 6,"
+     },
+     {
+      "text": "Pre-orders open",
+      "at": "pre-orders are open."
+     }
+    ],
+    "final": "Order today",
+    "final_at": "pre-orders are open."
+   }
+  },
+  {
+   "at": "Back in 2016,",
+   "mood": "smirk",
+   "point": false,
+   "card": {
+    "type": "headline",
+    "title": "Phil Schiller, 2016",
+    "at": "Back in 2016,",
+    "sub": "\"Can't optimize for both\"",
+    "sub_at": "optimize for both\"",
+    "color": "gold",
+    "sub_color": "white"
+   }
+  },
+  {
+   "at": "Now Apple says",
+   "mood": "serious",
+   "point": true,
+   "tint": "cold",
+   "card": {
+    "type": "headline",
+    "title": "Apps work right away",
+    "at": "many existing apps",
+    "sub": "Touches = clicks",
+    "sub_at": "touches register as",
+    "color": "white",
+    "sub_color": "ice",
+    "icon": "chip"
+   }
+  },
+  {
+   "at": "And it says",
+   "mood": "serious",
+   "point": false,
+   "tint": "cold",
+   "card": {
+    "type": "title_slam",
+    "title": "JUST STARTING",
+    "at": "only getting started\"",
+    "color": "ice"
+   }
+  },
+  {
+   "at": "If you're a",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "footage",
+    "media": "s1_broll2",
+    "at": "If you're a",
+    "caption": "Designers, musicians, devs",
+    "caption_at": "designer, musician or"
+   }
+  },
+  {
+   "at": "Send this to",
+   "mood": "smirk",
+   "point": false,
+   "tint": "green",
+   "card": {
+    "type": "cta",
+    "line1": "Send this to",
+    "line1_at": "Send this to",
+    "line2": "your 'never touch' friend",
+    "line2_at": "never get touch."
+   }
+  }
+ ],
+ "series_tag": "LAUNCH.TECH",
+ "title_line1": "Apple said no…",
+ "title_line2": "now a *touch* Mac?",
+ "decision": {
+  "decision": "single",
+  "reason": "Apple's first touchscreen MacBook Pro (M6, PROLED XDR display) is a landmark product launch for a 100M+ user ecosystem and is the clear top story; other news, like the Alphabet drop and the ADT deal, can be covered in later runs.",
+  "stories": [
+   {
+    "headline": "Apple unveils its first-ever touchscreen MacBook Pro with the M6 chip and a new PROLED XDR display",
+    "importance": 9,
+    "why": "After years of Apple saying Mac touchscreens were pointless, it has reversed course. macOS is getting touch optimizations, Apple says it is 'only getting started', and pre-orders are already open. The launch changes what a laptop looks like for millions of buyers.",
+    "candidate_ids": [
+     "be82c6e67f",
+     "2c067f7803",
+     "3ae6e46c1d"
+    ]
+   }
+  ]
+ },
+ "sources": [
+  {
+   "story": "Apple unveils its first-ever touchscreen MacBook Pro with the M6 chip and a new PROLED XDR display",
+   "urls": [
+    "https://edition.cnn.com/2026/10/28/tech/apple-macbook-pro-touchscreen",
+    "https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
+    "https://www.wired.com/story/the-inside-story-of-why-apple-finally-brought-a-touch-display-to-the-mac/"
+   ]
+  }
+ ],
+ "media": [
+  {
+   "id": "s1_image",
+   "kind": "image",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-29_2248/s1_image.png",
+   "credit": "Image: apple.com",
+   "desc": "official image from Apple (announcement page)"
+  },
+  {
+   "id": "s1_logo",
+   "kind": "logo",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-29_2248/s1_logo.png",
+   "credit": "",
+   "desc": "Apple logo"
+  },
+  {
+   "id": "s1_broll1",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-29_2248/s1_broll1.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: laptop touchscreen (8s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s1_broll2",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-29_2248/s1_broll2.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: designer drawing tablet (8s) — generic, NOT the company's own footage"
+  }
+ ],
+ "topic": "tech",
+ "models": {
+  "select": "claude-sonnet-5-5",
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 1
+}
