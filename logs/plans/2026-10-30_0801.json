@@ -1,0 +1,293 @@
+{
+ "voiceover": "[excited, conversational] Wait — Binance just froze around $3 billion in crypto after a suspected hack. [curious] Binance is the world's largest crypto exchange. It paused all deposits and withdrawals while it investigates, according to the BBC.\n\n[intrigued, building energy] Binance hasn't said how much was stolen. But some crypto experts put it at over $5 billion. Its former boss, Changpeng Zhao, said on X, \"It does look like a hack.\"\n\n[serious] Tether and Circle froze funds linked to it too. And Bitcoin fell below $78,000, according to CNBC.\n\n[confident] Binance says user funds are safe and it will \"cover all losses.\" If you use it, stick to official Binance channels and ignore unofficial links. Scammers love moments like this.\n\n[playful, warm] Send this to the friend who keeps all their crypto on one exchange.",
+ "ig_caption": "Binance just froze around $3 billion after a suspected hack, and Bitcoin dropped below $78,000 👀\nWithdrawals are paused. Some experts say over $5 billion may be affected. Binance says user funds are safe.\nSend this to the friend who keeps all their crypto on one exchange.\nFollow @ihackgrowth for daily AI & tech news\nSources: BBC, CNBC, TechCrunch",
+ "hashtags": [
+  "#TechNews",
+  "#Business",
+  "#Binance",
+  "#Crypto",
+  "#Bitcoin",
+  "#Cybersecurity",
+  "#Cryptocurrency"
+ ],
+ "numbers": [
+  "$3bn",
+  "$5bn",
+  "$78,000"
+ ],
+ "media_hints": [
+  {
+   "story": 1,
+   "company": "Binance",
+   "domain": "binance.com",
+   "broll": [
+    "bitcoin price chart",
+    "hacker typing dark"
+   ]
+  }
+ ],
+ "cold_open": [
+  {
+   "text": "$3B FROZEN",
+   "at": "Binance just froze"
+  },
+  {
+   "text": "SUSPECTED HACK",
+   "at": "a suspected hack."
+  }
+ ],
+ "scenes": [
+  {
+   "at": "Binance is the",
+   "mood": "neutral",
+   "point": true,
+   "tint": "red",
+   "card": {
+    "type": "news",
+    "tag": "BREAKING",
+    "tag_at": "Binance is the",
+    "title": "Binance pauses withdrawals after suspected hack",
+    "at": "world's largest crypto",
+    "source": "via BBC",
+    "source_at": "to the BBC.",
+    "logo": "s1_logo"
+   }
+  },
+  {
+   "at": "It paused all",
+   "mood": "serious",
+   "point": true,
+   "tint": "red",
+   "card": {
+    "type": "strike_list",
+    "title": "Paused at Binance",
+    "color": "red",
+    "items": [
+     {
+      "text": "Deposits",
+      "at": "all deposits and",
+      "strike": true
+     },
+     {
+      "text": "Withdrawals",
+      "at": "and withdrawals while",
+      "strike": true
+     },
+     {
+      "text": "Under investigation",
+      "at": "while it investigates,",
+      "strike": false
+     }
+    ]
+   }
+  },
+  {
+   "at": "Binance hasn't said",
+   "mood": "serious",
+   "point": false,
+   "tint": "cold",
+   "card": {
+    "type": "footage",
+    "media": "s1_broll2",
+    "at": "Binance hasn't said",
+    "caption": "Amount stolen: unknown",
+    "caption_at": "how much was"
+   }
+  },
+  {
+   "at": "But some crypto",
+   "mood": "shocked",
+   "point": false,
+   "tint": "red",
+   "card": {
+    "type": "big_number",
+    "label": "Experts' estimate",
+    "value": "$5B+",
+    "value_at": "over $5 billion.",
+    "note": "possibly stolen",
+    "note_at": "over $5 billion."
+   }
+  },
+  {
+   "at": "Its former boss,",
+   "mood": "serious",
+   "point": true,
+   "tint": "cold",
+   "card": {
+    "type": "headline",
+    "title": "Changpeng Zhao",
+    "at": "Changpeng Zhao, said",
+    "sub": "It does look like a hack",
+    "sub_at": "It does look",
+    "color": "white",
+    "sub_color": "gold"
+   }
+  },
+  {
+   "at": "Tether and Circle",
+   "mood": "serious",
+   "point": true,
+   "tint": "red",
+   "card": {
+    "type": "headline",
+    "title": "Tether + Circle",
+    "at": "Tether and Circle",
+    "sub": "Froze linked funds",
+    "sub_at": "froze funds linked",
+    "color": "white",
+    "sub_color": "red",
+    "icon": "coin"
+   }
+  },
+  {
+   "at": "And Bitcoin fell",
+   "mood": "serious",
+   "point": false,
+   "tint": "red",
+   "card": {
+    "type": "footage",
+    "media": "s1_broll1",
+    "at": "And Bitcoin fell",
+    "caption": "Bitcoin under pressure",
+    "caption_at": "And Bitcoin fell"
+   }
+  },
+  {
+   "at": "below $78,000, according",
+   "mood": "shocked",
+   "point": false,
+   "tint": "red",
+   "card": {
+    "type": "big_number",
+    "label": "Bitcoin fell below",
+    "value": "$78K",
+    "value_at": "below $78,000, according",
+    "note": "via CNBC",
+    "note_at": "according to CNBC."
+   }
+  },
+  {
+   "at": "Binance says user",
+   "mood": "neutral",
+   "point": true,
+   "tint": "green",
+   "card": {
+    "type": "headline",
+    "title": "Funds are safe",
+    "at": "user funds are",
+    "sub": "Will cover all losses",
+    "sub_at": "cover all losses.",
+    "color": "green",
+    "sub_color": "white"
+   }
+  },
+  {
+   "at": "If you use",
+   "mood": "serious",
+   "point": true,
+   "tint": "red",
+   "beats": [
+    {
+     "at": "Scammers love moments",
+     "mood": "smirk",
+     "point": false
+    }
+   ],
+   "card": {
+    "type": "warning",
+    "title": "Stay safe",
+    "sub": "Official channels only",
+    "sub_at": "stick to official",
+    "chips": [
+     {
+      "text": "Official app only",
+      "at": "official Binance channels",
+      "color": "green"
+     },
+     {
+      "text": "No random links",
+      "at": "ignore unofficial links.",
+      "color": "red"
+     }
+    ],
+    "big": "SCAMMERS",
+    "big_at": "Scammers love moments",
+    "big_color": "red"
+   }
+  },
+  {
+   "at": "Send this to",
+   "mood": "smirk",
+   "point": false,
+   "tint": "green",
+   "card": {
+    "type": "cta",
+    "line1": "Send this to",
+    "line1_at": "Send this to",
+    "line2": "your one-exchange friend",
+    "line2_at": "on one exchange."
+   }
+  }
+ ],
+ "series_tag": "CRYPTO.BIZ",
+ "title_line1": "Binance just froze",
+ "title_line2": "*$3 billion*?",
+ "decision": {
+  "decision": "single",
+  "reason": "A suspected Binance hack with billions in crypto frozen and withdrawals paused is the biggest tech/business story right now, covered by BBC, CNBC and TechCrunch, and Bitcoin fell below $78K on the news.",
+  "stories": [
+   {
+    "headline": "Binance pauses withdrawals after suspected hack: billions in crypto frozen, Bitcoin drops below $78K",
+    "importance": 9,
+    "why": "Binance is the world's largest crypto exchange. Estimates of stolen funds run from $3B to over $5B, and the incident is already moving markets and putting millions of users' funds at risk.",
+    "candidate_ids": [
+     "086ff372ea",
+     "3957844ea4",
+     "87fbeeb86a"
+    ]
+   }
+  ]
+ },
+ "sources": [
+  {
+   "story": "Binance pauses withdrawals after suspected hack: billions in crypto frozen, Bitcoin drops below $78K",
+   "urls": [
+    "https://www.bbc.com/news/articles/cwg7xp8kx4v5o",
+    "https://www.cnbc.com/2026/10/30/bitcoin-ether-price-binance-security-scare-rattles-crypto-markets.html",
+    "https://techcrunch.com/2026/10/29/binance-pauses-withdrawals-as-hackers-suspected-of-stealing-billions-in-crypto/"
+   ]
+  }
+ ],
+ "media": [
+  {
+   "id": "s1_logo",
+   "kind": "logo",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_0801/s1_logo.png",
+   "credit": "",
+   "desc": "Binance logo"
+  },
+  {
+   "id": "s1_broll1",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_0801/s1_broll1.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: bitcoin price chart (8s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s1_broll2",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_0801/s1_broll2.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: hacker typing dark (8s) — generic, NOT the company's own footage"
+  }
+ ],
+ "topic": "tech",
+ "models": {
+  "select": "claude-sonnet-5-5",
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 3
+}

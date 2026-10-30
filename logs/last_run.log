@@ -4,27 +4,26 @@
   BUFFER_CHANNEL_ID: set
   IG_HANDLE: MISSING
   PEXELS_API_KEY: MISSING
-slot 2026-10-30-01 | topic=tech (Tech & Business) | must_post=True | dry_run=False
+slot 2026-10-30-03 | topic=tech (Tech & Business) | must_post=True | dry_run=False
 [1/6] news — last 8h
-      trends: 30/30 countries read, 29 Tech & Business trending searches
-      feeds: 16/16 read, 88 Tech & Business stories in window
+      trends: 30/30 countries read, 36 Tech & Business trending searches
+      feeds: 16/16 read, 71 Tech & Business stories in window
 [2/6] editor — 60 candidates (attempt 1)
-      decision: single — Alphabet's roughly 12-13% drop, its worst day in over 20 years that wiped about $500B off its value, is a market-moving earnings story with an importance of 9. It beats the other notable stories (Amazon miss, DoorDash-Instacart, Binance outflow, Intel plunge, Apple's OLED MacBook Pro), which can be picked up next run.
-      • [9] Alphabet loses $500B in a day: Google's worst stock drop in over 20 years after an earnings miss
+      decision: single — A suspected Binance hack with billions in crypto frozen and withdrawals paused is the biggest tech/business story right now, covered by BBC, CNBC and TechCrunch, and Bitcoin fell below $78K on the news.
+      • [9] Binance pauses withdrawals after suspected hack: billions in crypto frozen, Bitcoin drops below $78K
 [3/6] reading articles + writing script
-      3 article(s) read for: Alphabet loses $500B in a day: Google's worst stock drop in over 20 years after an earnings miss
-      media: s1_broll1, s1_broll2
+      3 article(s) read for: Binance pauses withdrawals after suspected hack: billions in crypto frozen, Bitcoin drops below $78K
+      media: s1_logo, s1_broll1, s1_broll2
 [4/6] voice
-      [eleven] subscription: 401 {"detail":{"type":"authentication_error","code":"unauthorized","message":"The API key you used is missing the permission user_read to execute this operation.","status":"missing_permissions","request_id":"64d6434e01f1416624f3bfee0e67f347"}}
+      [eleven] subscription: 401 {"detail":{"type":"authentication_error","code":"unauthorized","message":"The API key you used is missing the permission user_read to execute this operation.","status":"missing_permissions","request_id":"ee6df41467ccdd23e180aabb7b8c70b7"}}
       [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
-      137 words, 55.7s, voice eleven_v4
+      124 words, 47.5s, voice eleven_v4
 [5/6] render
-  frame 0/1698
-  frame 300/1698
-  frame 600/1698
-  frame 900/1698
-  frame 1200/1698
-  frame 1500/1698
+  frame 0/1454
+  frame 300/1454
+  frame 600/1454
+  frame 900/1454
+  frame 1200/1454
 [6/6] publish
-      [buffer] created post 6ae3c226d62dd708c6dd0d16 (customScheduled)
-POSTED 6ae3c226d62dd708c6dd0d16 https://github.com/candidmarketingltd-art/ai-news-reels/releases/download/reel-2026-10-30_0328/2026-10-30_0328.mp4
+      [buffer] created post 6ae4020ea83a7fb63c8dd6ae (customScheduled)
+POSTED 6ae4020ea83a7fb63c8dd6ae https://github.com/candidmarketingltd-art/ai-news-reels/releases/download/reel-2026-10-30_0801/2026-10-30_0801.mp4
