@@ -4,38 +4,31 @@
   BUFFER_CHANNEL_ID: set
   IG_HANDLE: MISSING
   PEXELS_API_KEY: MISSING
-slot 2026-10-30-06 | topic=ai (AI) | must_post=True | dry_run=False
+slot 2026-10-30-06 | topic=ai (AI) | must_post=True | dry_run=True
 [1/6] news — last 8h
-      trends: 30/30 countries read, 7 AI trending searches
+      trends: 30/30 countries read, 9 AI trending searches
       (feed https://venturebeat.com/category/ai/feed/ failed: 429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/)
-      feeds: 11/12 read, 2 AI stories in window
-[2/6] editor — 8 candidates (attempt 1)
-      decision: roundup — No blockbuster in this batch, but Anthropic's unreleased model exploit demo, AI-driven chip-equipment demand and a viral workplace-AI story make a decent roundup.
-      • [7] Anthropic's unreleased AI model chains software flaws into working exploits for Chrome, Safari, Windows and Linux, including a 9.8-severity Linux kernel TCP bug
-      • [5] Tokyo Electron's profit jumps 27% on AI chip demand, with a ¥150 billion buyback
-      • [5] A US university administrator won a religious exemption from using AI at work, and you don't need to believe in a god to get one
-      • [4] Zwift launches Zwift Plus, a pricier tier with an AI coach, adaptive training plans and real-road video
+      feeds: 11/12 read, 1 AI stories in window
+[2/6] editor — 7 candidates (attempt 1)
+      decision: single — Anthropic's IPO filing, with its growth numbers and spending plans, is a major AI-company and funding story that hasn't been covered yet; the other candidates are minor, off-topic, or already covered.
+      • [9] Anthropic's IPO filing reveals skyrocketing growth and huge spending plans, but The Economist says big profits are still far off
 [3/6] reading articles + writing script
-      (article https://www.investing.com/news/earnings/tokyo-electron-q2-profit-jumps-27-as-ai- unreadable: 403 Client Error: Forbidden for url: https://www.investing.com/news/earnings/tok)
-      3 article(s) read for: Anthropic's unreleased AI model chains software flaws into working exploits for Chrome, Safari, Windows and Linux, including a 9.8-severity Linux kernel TCP bug
-      1 article(s) read for: Tokyo Electron's profit jumps 27% on AI chip demand, with a ¥150 billion buyback
-      1 article(s) read for: A US university administrator won a religious exemption from using AI at work, and you don't need to believe in a god to get one
-      3 article(s) read for: Zwift launches Zwift Plus, a pricier tier with an AI coach, adaptive training plans and real-road video
-      (media: https://tel.com/ -> HTTPSConnectionPool(host='tel.com', port=443): Max retries exceeded with url: / )
-      (media: https://uky.edu/ -> HTTPSConnectionPool(host='uky.edu', port=443): Max retries exceeded with url: / )
-      media: s1_image, s1_logo, s1_broll1, s1_broll2, s2_broll1, s2_broll2, s3_logo, s3_broll1, s3_broll2, s4_image, s4_logo, s4_broll1, s4_broll2
+      (article https://www.economist.com/business/2026/10/26/dont-expect-supersize-profits-from unreadable: 403 Client Error: Forbidden for url: https://www.economist.com/business/2026/10/)
+      (article https://www.nytimes.com/2026/10/26/technology/anthropic-ipo-finances.html unreadable: 403 Client Error: Forbidden for url: https://www.nytimes.com/2026/10/26/technolo)
+      1 article(s) read for: Anthropic's IPO filing reveals skyrocketing growth and huge spending plans, but The Economist says big profits are still far off
+      media: s1_image, s1_logo, s1_broll1, s1_broll2
 [4/6] voice
-      [eleven] subscription: 401 {"detail":{"type":"authentication_error","code":"unauthorized","message":"The API key you used is missing the permission user_read to execute this operation.","status":"missing_permissions","request_id":"c65c88f74a8bd298f76c91eae7f8ca87"}}
+      [eleven] subscription: 401 {"detail":{"type":"authentication_error","code":"unauthorized","message":"The API key you used is missing the permission user_read to execute this operation.","status":"missing_permissions","request_id":"2cc2fad23436afb4306cc15808059dbf"}}
       [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
-      156 words, 62.6s, voice eleven_v4
+      120 words, 48.7s, voice eleven_v4
 [5/6] render
-  frame 0/1905
-  frame 300/1905
-  frame 600/1905
-  frame 900/1905
-  frame 1200/1905
-  frame 1500/1905
-  frame 1800/1905
-[6/6] publish
-      [buffer] created post 6ae44b4d56e01b976392bd7b (customScheduled)
-POSTED 6ae44b4d56e01b976392bd7b https://github.com/candidmarketingltd-art/ai-news-reels/releases/download/reel-2026-10-30_1311/2026-10-30_1311.mp4
+      remotion: src/index.ts Reel /tmp/tmputj9kp2l/video_only.mp4
+DRY RUN — reel at /home/runner/work/ai-news-reels/ai-news-reels/out/2026-10-30_1414.mp4
+--- caption ---
+Anthropic's first-half revenue jumped from $1.1 billion to $16.3 billion 👀
+Its IPO filing also shows an $80.7 billion net loss, and The Economist says big profits are still far off.
+Send this to the friend who keeps asking if AI is a bubble.
+Follow @ihackgrowth for daily AI & tech news
+Sources: The Economist, The New York Times, Yahoo Finance
+
+#AI #AInews #Anthropic #IPO #ArtificialIntelligence #OpenAI #TechNews

@@ -1,0 +1,308 @@
+{
+ "voiceover": "[excited, conversational] Wait — Anthropic's first-half revenue just jumped from $1.1 billion to $16.3 billion. [curious] That's from its IPO filing, the first real look inside one of the top AI labs. Robinhood's CFO called the growth \"pretty incredible.\"\n\n[intrigued, building energy] It has more than $131 billion in cash. And bankers are reportedly aiming for a $1.5 trillion to $2 trillion valuation.\n\n[serious] But here's the catch. The same filing shows an $80.7 billion net loss in six months. That's aggressive AI spending. And The Economist says don't expect supersize profits soon.\n\n[confident] Anthropic plans to list on the Nasdaq as ANT, possibly before the end of November. So regular investors could soon trade it.\n\n[playful, warm] Send this to the friend who keeps asking if AI is a bubble.",
+ "ig_caption": "Anthropic's first-half revenue jumped from $1.1 billion to $16.3 billion 👀\nIts IPO filing also shows an $80.7 billion net loss, and The Economist says big profits are still far off.\nSend this to the friend who keeps asking if AI is a bubble.\nFollow @ihackgrowth for daily AI & tech news\nSources: The Economist, The New York Times, Yahoo Finance",
+ "hashtags": [
+  "#AI",
+  "#AInews",
+  "#Anthropic",
+  "#IPO",
+  "#ArtificialIntelligence",
+  "#OpenAI",
+  "#TechNews"
+ ],
+ "numbers": [
+  "$1.1 billion",
+  "$16.3 billion",
+  "$131 billion",
+  "$1.5 trillion to $2 trillion",
+  "$80.7 billion",
+  "ANT",
+  "end of November",
+  "first-half 2026"
+ ],
+ "media_hints": [
+  {
+   "story": 1,
+   "company": "Anthropic",
+   "domain": "anthropic.com",
+   "broll": [
+    "stock market trading screen",
+    "data center servers"
+   ]
+  }
+ ],
+ "cold_open": [
+  {
+   "text": "$16.3B REVENUE",
+   "at": "Anthropic's first-half revenue"
+  },
+  {
+   "text": "$1.1B",
+   "at": "from $1.1 billion"
+  },
+  {
+   "text": "$16.3B",
+   "at": "to $16.3 billion."
+  }
+ ],
+ "scenes": [
+  {
+   "at": "That's from its",
+   "mood": "neutral",
+   "point": true,
+   "tint": "cold",
+   "card": {
+    "type": "news",
+    "tag": "BUSINESS",
+    "tag_at": "That's from its",
+    "title": "Anthropic's IPO filing reveals skyrocketing growth",
+    "at": "That's from its",
+    "source": "via IPO filing",
+    "source_at": "from its IPO",
+    "bg_media": "s1_image",
+    "logo": "s1_logo"
+   }
+  },
+  {
+   "at": "the first real",
+   "mood": "neutral",
+   "point": true,
+   "tint": "cold",
+   "card": {
+    "type": "headline",
+    "title": "First real look",
+    "at": "the first real",
+    "sub": "inside a top AI lab",
+    "sub_at": "one of the",
+    "color": "white",
+    "sub_color": "ice",
+    "icon": "robot"
+   }
+  },
+  {
+   "at": "Robinhood's CFO called",
+   "mood": "smirk",
+   "point": false,
+   "tint": "cold",
+   "card": {
+    "type": "headline",
+    "title": "\"Pretty incredible\"",
+    "at": "called the growth",
+    "sub": "— Robinhood's CFO",
+    "sub_at": "Robinhood's CFO called",
+    "color": "gold",
+    "sub_color": "muted"
+   }
+  },
+  {
+   "at": "It has more",
+   "mood": "shocked",
+   "point": false,
+   "tint": "green",
+   "card": {
+    "type": "big_number",
+    "label": "Cash on hand",
+    "value": "$131B",
+    "value_at": "$131 billion in",
+    "note": "in cash",
+    "note_at": "in cash.",
+    "color": "green"
+   }
+  },
+  {
+   "at": "And bankers are",
+   "mood": "neutral",
+   "point": true,
+   "tint": "green",
+   "card": {
+    "type": "footage",
+    "media": "s1_broll1",
+    "at": "And bankers are",
+    "caption": "Bankers are aiming high",
+    "caption_at": "reportedly aiming for"
+   }
+  },
+  {
+   "at": "a $1.5 trillion",
+   "mood": "shocked",
+   "point": false,
+   "tint": "green",
+   "card": {
+    "type": "big_number",
+    "label": "Target valuation",
+    "value": "$1.5T–$2T",
+    "value_at": "a $1.5 trillion",
+    "note": "reported target",
+    "note_at": "$2 trillion valuation.",
+    "color": "gold"
+   }
+  },
+  {
+   "at": "But here's the",
+   "mood": "serious",
+   "point": false,
+   "tint": "red",
+   "card": {
+    "type": "title_slam",
+    "title": "THE CATCH",
+    "at": "But here's the",
+    "color": "red"
+   }
+  },
+  {
+   "at": "The same filing",
+   "mood": "shocked",
+   "point": false,
+   "tint": "red",
+   "card": {
+    "type": "big_number",
+    "label": "Net loss",
+    "value": "$80.7B",
+    "value_at": "$80.7 billion net",
+    "note": "in six months",
+    "note_at": "in six months.",
+    "color": "red"
+   }
+  },
+  {
+   "at": "That's aggressive AI",
+   "mood": "serious",
+   "point": false,
+   "tint": "red",
+   "card": {
+    "type": "footage",
+    "media": "s1_broll2",
+    "at": "That's aggressive AI",
+    "caption": "AI compute isn't cheap",
+    "caption_at": "aggressive AI spending."
+   }
+  },
+  {
+   "at": "And The Economist",
+   "mood": "serious",
+   "point": true,
+   "tint": "red",
+   "card": {
+    "type": "warning",
+    "title": "Big profits?",
+    "sub": "The Economist's verdict",
+    "sub_at": "The Economist says",
+    "chips": [
+     {
+      "text": "Huge spending",
+      "at": "don't expect supersize",
+      "color": "red"
+     }
+    ],
+    "big": "NOT SOON",
+    "big_at": "supersize profits soon.",
+    "big_color": "red"
+   }
+  },
+  {
+   "at": "Anthropic plans to",
+   "mood": "neutral",
+   "point": true,
+   "tint": "cold",
+   "card": {
+    "type": "checklist",
+    "title": "The IPO plan",
+    "items": [
+     {
+      "text": "Nasdaq listing",
+      "at": "list on the Nasdaq"
+     },
+     {
+      "text": "Ticker: ANT",
+      "at": "as ANT, possibly"
+     },
+     {
+      "text": "Before end of Nov.",
+      "at": "before the end"
+     }
+    ],
+    "final": "You could trade it",
+    "final_at": "could soon trade"
+   }
+  },
+  {
+   "at": "Send this to",
+   "mood": "smirk",
+   "point": false,
+   "tint": "green",
+   "card": {
+    "type": "cta",
+    "line1": "Send this to",
+    "line1_at": "Send this to",
+    "line2": "your AI-bubble friend",
+    "line2_at": "AI is a bubble."
+   }
+  }
+ ],
+ "series_tag": "EARNINGS.BIZ",
+ "title_line1": "Anthropic just hit",
+ "title_line2": "*$16.3B* revenue?",
+ "decision": {
+  "decision": "single",
+  "reason": "Anthropic's IPO filing, with its growth numbers and spending plans, is a major AI-company and funding story that hasn't been covered yet; the other candidates are minor, off-topic, or already covered.",
+  "stories": [
+   {
+    "headline": "Anthropic's IPO filing reveals skyrocketing growth and huge spending plans, but The Economist says big profits are still far off",
+    "importance": 9,
+    "why": "A public filing from one of the top AI labs shows real revenue, growth and spending figures for the first time, and it signals that the AI race is heading to public markets. Viewers get a look at how much it costs to compete with OpenAI and Google, and whether the business pays off.",
+    "candidate_ids": [
+     "41da513ecc"
+    ]
+   }
+  ]
+ },
+ "sources": [
+  {
+   "story": "Anthropic's IPO filing reveals skyrocketing growth and huge spending plans, but The Economist says big profits are still far off",
+   "urls": [
+    "https://www.economist.com/business/2026/10/26/dont-expect-supersize-profits-from-anthropic-soon",
+    "https://www.nytimes.com/2026/10/26/technology/anthropic-ipo-finances.html",
+    "https://finance.yahoo.com/markets/article/what-robinhoods-cfo-found-interesting-about-anthropics-ipo-prospectus-223910657.html"
+   ]
+  }
+ ],
+ "media": [
+  {
+   "id": "s1_image",
+   "kind": "image",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_1414/s1_image.png",
+   "credit": "Image: anthropic.com",
+   "desc": "official image from Anthropic (homepage)"
+  },
+  {
+   "id": "s1_logo",
+   "kind": "logo",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_1414/s1_logo.png",
+   "credit": "",
+   "desc": "Anthropic logo"
+  },
+  {
+   "id": "s1_broll1",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_1414/s1_broll1.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: stock market trading screen (8s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s1_broll2",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_1414/s1_broll2.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: data center servers (8s) — generic, NOT the company's own footage"
+  }
+ ],
+ "topic": "ai",
+ "models": {
+  "select": "claude-sonnet-5-5",
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 7
+}
