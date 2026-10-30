@@ -114,7 +114,7 @@ jobs:
           EDGE_VOICE: ${{ vars.EDGE_VOICE }}
           ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
           MASCOT_BADGE: ${{ vars.MASCOT_BADGE }}
-          RENDER_STYLE: ${{ inputs.style || vars.RENDER_STYLE }}
+          RENDER_STYLE: ${{ inputs.style || vars.RENDER_STYLE || 'remotion' }}
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || vars.DRY_RUN }}
           SLOT_GUARD: ${{ (github.event_name == 'schedule' || inputs.guard == '1') && '1' || '0' }}
           MUST_POST: ${{ vars.MUST_POST }}

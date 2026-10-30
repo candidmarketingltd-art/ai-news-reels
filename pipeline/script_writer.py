@@ -60,6 +60,25 @@ def _ask_json(model, system, user, check, attempts=3):
     raise FactCheckError(f"{model} output rejected after {attempts} attempts: {err}")
 
 
+LOOKS = {
+    "remotion": ("A renderer turns your JSON into a 1080x1920 editorial motion-graphics reel: cream graph-paper canvas, small mono section "
+                 "labels, the spoken sentence itself shown big at the top (names and numbers in red italic serif — so cards must NOT just repeat "
+                 "the sentence; they add the visual), and one animated object in the middle: a browser-window news card with a red stamp tag, a dark "
+                 "analytics card with a count-up number and a drawn chart (big_number/counter), a gauge (percent), framed footage with a red "
+                 "label, huge red condensed slogans (title_slam, short and punchy), VS cards, 1-2-3 step boxes, stamps. A small lip-synced Rohan "
+                 "sticker sits bottom-left. `tint` is ignored in this look."),
+    "modern": ("A renderer turns your JSON into a 1080x1920 reel in a modern tech look: deep navy canvas with slow colour glows, a LIVE pill + "
+               "category tag, a big two-line hook title (stays on screen the whole reel — it is also the cover), your cards inside one "
+               "frosted-glass panel, Rohan in a rounded host cam bottom-left and word-by-word captions next to him. "
+               "`tint` changes the accent colours: warm = violet/pink, cold = cyan/blue, red = red/orange, green = green/cyan."),
+}
+
+
+def _look():
+    st = (os.environ.get("RENDER_STYLE") or "remotion").lower()
+    return LOOKS["remotion" if st == "remotion" else "modern"]
+
+
 # ----------------------------------------------------------------------------- 1) pick the news
 FLOOR = int(os.environ.get("MIN_IMPORTANCE") or 3)   # never post anything weaker than this, even when a reel is required
 
@@ -243,7 +262,9 @@ def write(decision, pack, get_media=None, topic="ai"):
     sources = "\n\n".join(f"=== STORY {i + 1}: {p['story']}\n{p['text']}" for i, p in enumerate(pack))
     stories = "\n".join(f"{i + 1}. {s['headline']} — {s.get('why', '')}" for i, s in enumerate(decision["stories"]))
     user1 = (f"FORMAT: {decision['decision']} ({n} stor{'y' if n == 1 else 'ies'})\n\nSTORIES (in this order):\n{stories}\n\n"
-             f"SOURCES (the only facts you may use):\n{sources}\n\nReturn only the JSON.")
+             f"SOURCES (the only facts you may use):\n{sources}\n\n"
+             "Caption rule: in 'Sources:' list ONLY outlets whose full ARTICLE text appears above (not ones that only appear as a HEADLINE line). "
+             "Hashtags: only companies/products that are actually in this story.\n\nReturn only the JSON.")
     # translate the user-facing handle so captions/scripts mention the right account
     sys1 = sys1.replace("@youraccount", HANDLE)
 
@@ -267,7 +288,7 @@ def write(decision, pack, get_media=None, topic="ai"):
     menu = "\n".join(f"- {m['id']} ({m['kind']}): {m['desc']}" for m in media) or "- (none — use cards only)"
 
     sys2 = (ROOT / "prompts" / "video_editor.md").read_text(encoding="utf-8") \
-        .replace("{TAG_SUFFIX}", ".AI" if topic == "ai" else ".TECH or .BIZ").replace(
+        .replace("{TAG_SUFFIX}", ".AI" if topic == "ai" else ".TECH or .BIZ").replace("{LOOK}", _look()).replace(
         "{EXAMPLE}", json.dumps({k: example[k] for k in ("voiceover", "series_tag", "title_line1", "title_line2", "cold_open", "scenes")}, ensure_ascii=False, indent=1))
     user2 = (f"FORMAT: {decision['decision']} ({n} stor{'y' if n == 1 else 'ies'})\nSTORIES:\n{stories}\n\n"
              f"VOICEOVER (already recorded — cue words must match it exactly):\n{script['voiceover']}\n\n"

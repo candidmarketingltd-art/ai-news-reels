@@ -94,7 +94,7 @@ Prefer Buffer's posting schedule instead? Variable `BUFFER_MODE` = `queue`.
 - **Single vs roundup:** variables `SINGLE_MIN_IMPORTANCE` (default 8) and `ROUNDUP_MIN_IMPORTANCE` (default 5); `MIN_IMPORTANCE` (default 3) is the floor.
 - **Change countries:** variable `TREND_GEOS`, e.g. `US,IN,GB,CA,AU`.
 - **Change the news judgement / script / edit:** plain-English prompts in `prompts/news_editor.md`, `prompts/script_writer.md`, `prompts/video_editor.md`.
-- **Look:** `RENDER_STYLE` = `modern` (default: glass panel, gradient accents, Rohan host cam), `panel` (flat samjho-style) or `classic` (Paisa Decode cinematic look). `MASCOT_BADGE` = text on Rohan's t-shirt (default `AI`).
+- **Look:** `RENDER_STYLE` = `remotion` (default: editorial motion graphics built in Remotion — paper canvas, spoken-sentence headline, animated cards), `modern` (navy glass look), `panel` or `classic`. Code: `remotion/src`. `MASCOT_BADGE` = text on Rohan's t-shirt (default `AI`).
 - **Fact-check:** if the script uses a number that isn't in the articles, Claude is asked to fix it; if it still fails the run is
   logged as `skipped_factcheck` and nothing is posted.
 
