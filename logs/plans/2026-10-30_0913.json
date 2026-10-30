@@ -1,0 +1,519 @@
+{
+ "voiceover": "[excited, conversational] Wait — an OpenAI-backed company just bought home security giant ADT for $15.3 billion. [curious] It's Thrive Holdings, which buys companies and revamps them with AI. No new products announced yet.\n\n[amused] Meanwhile, Reddit says it's going logged-in only, because Google's AI answers are killing its search traffic. Referrals dropped by over 1 million a week in October. Tests start outside the US, and shares fell over 15%.\n\n[playful] And OpenAI just doubled usage limits on its Pro 100 and Pro 500 plans. A planned Pro 200 cut was reversed after pushback. It lands just ahead of Anthropic's IPO.\n\n[serious] And Amazon's CEO says AWS could hit $1 trillion in yearly revenue within 5 to 10 years. But Amazon still expects about $220 billion in spending this year, and meaningfully more in 2027.\n\n[confident] So AI money is flowing everywhere, from your front door to giant data centers.\n\n[playful, warm] Send this to the friend who thinks AI is just a chatbot.",
+ "ig_caption": "An OpenAI-backed company just bought ADT for $15.3 billion 👀\nReddit is moving to logged-in only as AI hits its search traffic, OpenAI doubles Pro plan limits, and Amazon plans about $220 billion in spending this year.\nSend this to the friend who thinks AI is just a chatbot.\nFollow @ihackgrowth for daily AI & tech news\nSources: TechCrunch, Ars Technica, CNBC, The Decoder",
+ "hashtags": [
+  "#AI",
+  "#AInews",
+  "#OpenAI",
+  "#Reddit",
+  "#Amazon",
+  "#AWS",
+  "#Anthropic",
+  "#TechNews"
+ ],
+ "numbers": [
+  "$15.3 billion",
+  "more than 1 million referrals on average per week",
+  "over 15%",
+  "Pro 100",
+  "Pro 200",
+  "Pro 500",
+  "$1 trillion",
+  "5 to 10 years (five to 10 years)",
+  "approximately $220 billion",
+  "2026",
+  "2027"
+ ],
+ "media_hints": [
+  {
+   "story": 1,
+   "company": "Thrive Holdings",
+   "domain": "thriveholdings.com",
+   "broll": [
+    "home security camera",
+    "smart home door"
+   ]
+  },
+  {
+   "story": 2,
+   "company": "Reddit",
+   "domain": "reddit.com",
+   "broll": [
+    "smartphone screen scrolling",
+    "typing on laptop"
+   ]
+  },
+  {
+   "story": 3,
+   "company": "OpenAI",
+   "domain": "openai.com",
+   "broll": [
+    "typing on laptop",
+    "data center servers"
+   ]
+  },
+  {
+   "story": 4,
+   "company": "Amazon Web Services",
+   "domain": "aws.amazon.com",
+   "broll": [
+    "data center servers",
+    "warehouse aerial view"
+   ]
+  }
+ ],
+ "cold_open": [
+  {
+   "text": "OPENAI-BACKED",
+   "at": "an OpenAI-backed company"
+  },
+  {
+   "text": "BUYS ADT",
+   "at": "security giant ADT"
+  },
+  {
+   "text": "$15.3B",
+   "at": "$15.3 billion."
+  }
+ ],
+ "scenes": [
+  {
+   "at": "It's Thrive Holdings,",
+   "mood": "neutral",
+   "point": true,
+   "tint": "cold",
+   "card": {
+    "type": "news",
+    "tag": "AI UPDATE 1/4",
+    "tag_at": "It's Thrive Holdings,",
+    "title": "OpenAI-backed Thrive Holdings buys ADT for $15.3B",
+    "at": "It's Thrive Holdings,",
+    "source": "via Thrive Holdings",
+    "source_at": "which buys companies",
+    "bg_media": "s1_image",
+    "logo": "s1_logo"
+   }
+  },
+  {
+   "at": "and revamps them",
+   "mood": "neutral",
+   "point": true,
+   "tint": "cold",
+   "beats": [
+    {
+     "at": "No new products",
+     "mood": "smirk",
+     "point": false
+    }
+   ],
+   "card": {
+    "type": "footage",
+    "media": "s1_broll1",
+    "at": "and revamps them",
+    "caption": "No new products yet",
+    "caption_at": "No new products"
+   }
+  },
+  {
+   "at": "Meanwhile, Reddit says",
+   "mood": "smirk",
+   "point": false,
+   "tint": "red",
+   "card": {
+    "type": "news",
+    "tag": "AI UPDATE 2/4",
+    "tag_at": "Meanwhile, Reddit says",
+    "title": "Reddit goes logged-in only as AI kills its search traffic",
+    "at": "Meanwhile, Reddit says",
+    "source": "Reddit",
+    "source_at": "logged-in only,",
+    "logo": "s2_logo"
+   }
+  },
+  {
+   "at": "because Google's AI",
+   "mood": "neutral",
+   "point": true,
+   "tint": "red",
+   "card": {
+    "type": "footage",
+    "media": "s2_broll1",
+    "at": "because Google's AI",
+    "caption": "AI answers steal clicks",
+    "caption_at": "killing its search"
+   }
+  },
+  {
+   "at": "Referrals dropped by",
+   "mood": "shocked",
+   "point": false,
+   "tint": "red",
+   "card": {
+    "type": "big_number",
+    "label": "Weekly referrals lost",
+    "value": "1M+",
+    "value_at": "over 1 million",
+    "note": "in October",
+    "note_at": "in October.",
+    "color": "red"
+   }
+  },
+  {
+   "at": "Tests start outside",
+   "mood": "serious",
+   "point": false,
+   "tint": "red",
+   "card": {
+    "type": "warning",
+    "title": "Reddit's rough week",
+    "sub": "Shares fell",
+    "sub_at": "shares fell over",
+    "chips": [
+     {
+      "text": "Tests outside US",
+      "at": "Tests start outside",
+      "color": "gold"
+     }
+    ],
+    "big": "-15%",
+    "big_at": "over 15%.",
+    "big_color": "red"
+   }
+  },
+  {
+   "at": "And OpenAI just",
+   "mood": "neutral",
+   "point": false,
+   "tint": "green",
+   "card": {
+    "type": "news",
+    "tag": "AI UPDATE 3/4",
+    "tag_at": "And OpenAI just",
+    "title": "OpenAI doubles usage limits on its paid Pro plans",
+    "at": "And OpenAI just",
+    "source": "OpenAI",
+    "source_at": "doubled usage limits",
+    "bg_media": "s3_image",
+    "logo": "s3_logo"
+   }
+  },
+  {
+   "at": "on its Pro",
+   "mood": "neutral",
+   "point": true,
+   "tint": "green",
+   "card": {
+    "type": "split",
+    "title": "Limits doubled",
+    "title_at": "on its Pro",
+    "left": {
+     "text": "Pro 100",
+     "at": "Pro 100 and",
+     "color": "blue"
+    },
+    "right": {
+     "text": "Pro 500",
+     "at": "Pro 500 plans.",
+     "color": "gold"
+    },
+    "result": "More capacity",
+    "result_at": "Pro 500 plans."
+   }
+  },
+  {
+   "at": "A planned Pro",
+   "mood": "smirk",
+   "point": false,
+   "tint": "green",
+   "card": {
+    "type": "strike_list",
+    "title": "After pushback",
+    "color": "green",
+    "items": [
+     {
+      "text": "Pro 200 cut",
+      "at": "A planned Pro",
+      "strike": true
+     },
+     {
+      "text": "Reversed",
+      "at": "reversed after pushback.",
+      "strike": false
+     }
+    ]
+   }
+  },
+  {
+   "at": "It lands just",
+   "mood": "smirk",
+   "point": false,
+   "tint": "cold",
+   "card": {
+    "type": "footage",
+    "media": "s3_broll1",
+    "at": "It lands just",
+    "caption": "Just ahead of Anthropic's IPO",
+    "caption_at": "Anthropic's IPO."
+   }
+  },
+  {
+   "at": "And Amazon's CEO",
+   "mood": "serious",
+   "point": false,
+   "tint": "cold",
+   "card": {
+    "type": "news",
+    "tag": "AI UPDATE 4/4",
+    "tag_at": "And Amazon's CEO",
+    "title": "Jassy: AWS could be a $1 trillion business",
+    "at": "And Amazon's CEO",
+    "source": "Amazon CEO",
+    "source_at": "says AWS could",
+    "logo": "s4_logo"
+   }
+  },
+  {
+   "at": "hit $1 trillion",
+   "mood": "shocked",
+   "point": false,
+   "tint": "cold",
+   "card": {
+    "type": "big_number",
+    "label": "AWS yearly revenue",
+    "value": "$1T",
+    "value_at": "$1 trillion in",
+    "note": "within 5–10 years",
+    "note_at": "5 to 10",
+    "color": "gold"
+   }
+  },
+  {
+   "at": "But Amazon still",
+   "mood": "serious",
+   "point": true,
+   "tint": "red",
+   "card": {
+    "type": "counter",
+    "label": "AI spending this year",
+    "prefix": "$",
+    "to": 220,
+    "suffix": "B",
+    "at": "about $220 billion",
+    "done_text": "More in 2027",
+    "done_at": "more in 2027."
+   }
+  },
+  {
+   "at": "So AI money",
+   "mood": "neutral",
+   "point": true,
+   "tint": "green",
+   "card": {
+    "type": "footage",
+    "media": "s4_broll1",
+    "at": "So AI money",
+    "caption": "From front door to data centers",
+    "caption_at": "giant data centers."
+   }
+  },
+  {
+   "at": "Send this to",
+   "mood": "smirk",
+   "point": false,
+   "tint": "green",
+   "card": {
+    "type": "cta",
+    "line1": "Send this to",
+    "line1_at": "Send this to",
+    "line2": "AI ≠ just a chatbot",
+    "line2_at": "just a chatbot."
+   }
+  }
+ ],
+ "series_tag": "ROUNDUP.AI",
+ "title_line1": "OpenAI-backed firm",
+ "title_line2": "buys *ADT* for $15.3B",
+ "decision": {
+  "decision": "roundup",
+  "reason": "No new blockbuster beyond the already-covered Gemini 4 Carbon and Alphabet stories, but there are several notable AI business and product stories.",
+  "stories": [
+   {
+    "headline": "OpenAI-backed Thrive Holdings buys ADT in a $15.3B deal to bring AI to home security",
+    "importance": 7,
+    "why": "A huge AI-driven acquisition that shows AI investors moving into traditional industries like home security.",
+    "candidate_ids": [
+     "4db20898e9"
+    ]
+   },
+   {
+    "headline": "Reddit will require logins as AI kills its search traffic",
+    "importance": 7,
+    "why": "One of the biggest sites on the web is dropping its open-web model because AI answers are cutting Google traffic. Tests start outside the US, and shares fell on weak guidance.",
+    "candidate_ids": [
+     "f4ac694130",
+     "bdf18976e8",
+     "1e09943a42"
+    ]
+   },
+   {
+    "headline": "OpenAI doubles usage limits on its paid Pro plans as the rivalry with Anthropic heats up",
+    "importance": 6,
+    "why": "Paying users get more capacity, and a planned cut to the Pro 200 quota was reversed after pushback. It comes just ahead of Anthropic's IPO.",
+    "candidate_ids": [
+     "a3ff9c6ea8"
+    ]
+   },
+   {
+    "headline": "Amazon's Jassy: AWS will be a $1 trillion business, but the AI capex spending spree continues",
+    "importance": 6,
+    "why": "It shows how much money big tech is pouring into AI cloud compute.",
+    "candidate_ids": [
+     "720b04b8c5"
+    ]
+   }
+  ]
+ },
+ "sources": [
+  {
+   "story": "OpenAI-backed Thrive Holdings buys ADT in a $15.3B deal to bring AI to home security",
+   "urls": [
+    "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/"
+   ]
+  },
+  {
+   "story": "Reddit will require logins as AI kills its search traffic",
+   "urls": [
+    "https://arstechnica.com/gadgets/2026/10/reddit-will-require-you-to-log-in-eventually-ceo-confirms/",
+    "https://www.cnbc.com/2026/10/29/reddit-rddt-q3-2026.html",
+    "https://www.axios.com/2026/10/29/reddit-logged-in-ai-search-incognito"
+   ]
+  },
+  {
+   "story": "OpenAI doubles usage limits on its paid Pro plans as the rivalry with Anthropic heats up",
+   "urls": [
+    "https://the-decoder.com/openai-doubles-usage-limits-on-pro-plans-as-competition-with-anthropic-heats-up/"
+   ]
+  },
+  {
+   "story": "Amazon's Jassy: AWS will be a $1 trillion business, but the AI capex spending spree continues",
+   "urls": [
+    "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/"
+   ]
+  }
+ ],
+ "media": [
+  {
+   "id": "s1_image",
+   "kind": "image",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_0913/s1_image.png",
+   "credit": "Image: thriveholdings.com",
+   "desc": "official image from Thrive Holdings (homepage)"
+  },
+  {
+   "id": "s1_logo",
+   "kind": "logo",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_0913/s1_logo.png",
+   "credit": "",
+   "desc": "Thrive Holdings logo"
+  },
+  {
+   "id": "s1_broll1",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_0913/s1_broll1.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: home security camera (8s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s1_broll2",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_0913/s1_broll2.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: smart home door (8s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s2_logo",
+   "kind": "logo",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_0913/s2_logo.png",
+   "credit": "",
+   "desc": "Reddit logo"
+  },
+  {
+   "id": "s2_broll1",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_0913/s2_broll1.rgb",
+   "frames": 179,
+   "credit": "Video: Pexels",
+   "desc": "stock video: smartphone screen scrolling (6s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s2_broll2",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_0913/s2_broll2.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: typing on laptop (8s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s3_image",
+   "kind": "image",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_0913/s3_image.png",
+   "credit": "Image: openai.com",
+   "desc": "official image from OpenAI (homepage)"
+  },
+  {
+   "id": "s3_logo",
+   "kind": "logo",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_0913/s3_logo.png",
+   "credit": "",
+   "desc": "OpenAI logo"
+  },
+  {
+   "id": "s3_broll1",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_0913/s3_broll1.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: typing on laptop (8s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s3_broll2",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_0913/s3_broll2.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: data center servers (8s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s4_logo",
+   "kind": "logo",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_0913/s4_logo.png",
+   "credit": "",
+   "desc": "Amazon Web Services logo"
+  },
+  {
+   "id": "s4_broll1",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_0913/s4_broll1.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: data center servers (8s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s4_broll2",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_0913/s4_broll2.rgb",
+   "frames": 212,
+   "credit": "Video: Pexels",
+   "desc": "stock video: warehouse aerial view (7s) — generic, NOT the company's own footage"
+  }
+ ],
+ "topic": "ai",
+ "models": {
+  "select": "claude-sonnet-5-5",
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 4
+}
