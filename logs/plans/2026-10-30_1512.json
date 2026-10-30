@@ -1,0 +1,283 @@
+{
+ "voiceover": "[excited, conversational] Okay, so Intel is down 25% in premarket trading, and Amazon is down 7%. [curious] That's after earnings, according to CNBC. Intel gave weaker-than-expected guidance, citing a soft PC market.\n\n[intrigued, building energy] Amazon missed on sales and profit, and it's still planning to spend $220 billion this year. Its free cash flow, the cash left after the bills, was negative for the second quarter in a row.\n\n[serious] The day before, Alphabet closed 13% lower. That's its worst single-day drop ever. Microsoft, though, rose, because its cash flow stayed positive.\n\n[confident] The big fear is simple: will all this AI spending pay off? One strategist at Raymond James says this isn't \"a moment of reckoning.\" The Nasdaq is even still up more than 12% this year. If you own tech stocks, your screen may look red.\n\n[playful, warm] Send this to the friend who keeps refreshing their stock app.",
+ "ig_caption": "Intel is down 25% and Amazon is down 7% in premarket trading 📉\nBoth fell after earnings, extending a rough week for big tech as investors worry whether AI spending will pay off.\nSend this to the friend who keeps refreshing their stock app.\nFollow @ihackgrowth for daily AI & tech news\nSources: CNBC, Yahoo Finance",
+ "hashtags": [
+  "#TechNews",
+  "#Business",
+  "#StockMarket",
+  "#Intel",
+  "#Amazon",
+  "#Alphabet",
+  "#Nasdaq",
+  "#AI"
+ ],
+ "numbers": [
+  "25%",
+  "7%",
+  "$220 billion",
+  "second consecutive quarter",
+  "13%",
+  "more than 12%"
+ ],
+ "media_hints": [
+  {
+   "story": 1,
+   "company": "Intel",
+   "domain": "intel.com",
+   "broll": [
+    "stock market screen red",
+    "computer chip closeup"
+   ]
+  }
+ ],
+ "cold_open": [
+  {
+   "text": "INTEL −25%",
+   "at": "Intel is down"
+  },
+  {
+   "text": "AMAZON −7%",
+   "at": "Amazon is down"
+  }
+ ],
+ "scenes": [
+  {
+   "at": "That's after earnings,",
+   "mood": "neutral",
+   "point": true,
+   "tint": "red",
+   "card": {
+    "type": "news",
+    "tag": "BUSINESS",
+    "tag_at": "That's after earnings,",
+    "title": "Intel plunges 25%, Amazon drops 7% premarket after earnings",
+    "at": "That's after earnings,",
+    "source": "via CNBC",
+    "source_at": "according to CNBC."
+   }
+  },
+  {
+   "at": "Intel gave weaker-than-expected",
+   "mood": "serious",
+   "point": true,
+   "tint": "cold",
+   "card": {
+    "type": "footage",
+    "media": "s1_broll2",
+    "at": "Intel gave weaker-than-expected",
+    "caption": "Weak guidance, soft PCs",
+    "caption_at": "soft PC market."
+   }
+  },
+  {
+   "at": "Amazon missed on",
+   "mood": "serious",
+   "point": true,
+   "tint": "red",
+   "card": {
+    "type": "strike_list",
+    "title": "Amazon missed",
+    "color": "red",
+    "items": [
+     {
+      "text": "Sales",
+      "at": "missed on sales",
+      "strike": true
+     },
+     {
+      "text": "Profit",
+      "at": "and profit,",
+      "strike": true
+     }
+    ]
+   }
+  },
+  {
+   "at": "and it's still",
+   "mood": "shocked",
+   "point": false,
+   "card": {
+    "type": "big_number",
+    "label": "Amazon's spending plan",
+    "value": "$220B",
+    "value_at": "$220 billion this",
+    "note": "this year",
+    "note_at": "this year.",
+    "color": "gold"
+   }
+  },
+  {
+   "at": "Its free cash",
+   "mood": "serious",
+   "point": true,
+   "tint": "red",
+   "card": {
+    "type": "headline",
+    "title": "Free cash flow: negative",
+    "at": "was negative for",
+    "sub": "2nd quarter in a row",
+    "sub_at": "second quarter in",
+    "color": "red",
+    "sub_color": "muted",
+    "icon": "coin"
+   }
+  },
+  {
+   "at": "The day before,",
+   "mood": "shocked",
+   "point": false,
+   "tint": "red",
+   "card": {
+    "type": "big_number",
+    "label": "Alphabet at close",
+    "value": "-13%",
+    "value_at": "closed 13% lower.",
+    "note": "Worst day ever",
+    "note_at": "worst single-day drop",
+    "color": "red"
+   }
+  },
+  {
+   "at": "Microsoft, though, rose,",
+   "mood": "smirk",
+   "point": true,
+   "tint": "cold",
+   "card": {
+    "type": "split",
+    "title": "Who held up?",
+    "title_at": "Microsoft, though, rose,",
+    "left": {
+     "text": "Alphabet ↓",
+     "at": "Microsoft, though, rose,",
+     "color": "red"
+    },
+    "right": {
+     "text": "Microsoft ↑",
+     "at": "because its cash",
+     "color": "green"
+    },
+    "result": "Cash flow positive",
+    "result_at": "stayed positive."
+   }
+  },
+  {
+   "at": "The big fear",
+   "mood": "serious",
+   "point": false,
+   "tint": "cold",
+   "card": {
+    "type": "title_slam",
+    "title": "WILL AI PAY OFF?",
+    "at": "will all this",
+    "color": "red"
+   }
+  },
+  {
+   "at": "One strategist at",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "headline",
+    "title": "“Not a reckoning”",
+    "at": "a moment of",
+    "sub": "Raymond James strategist",
+    "sub_at": "Raymond James says",
+    "color": "white",
+    "sub_color": "muted"
+   }
+  },
+  {
+   "at": "The Nasdaq is",
+   "mood": "smirk",
+   "point": false,
+   "tint": "green",
+   "card": {
+    "type": "big_number",
+    "label": "Nasdaq this year",
+    "value": "+12%",
+    "value_at": "more than 12%",
+    "note": "still up",
+    "note_at": "this year.",
+    "color": "green"
+   }
+  },
+  {
+   "at": "If you own",
+   "mood": "serious",
+   "point": false,
+   "tint": "red",
+   "card": {
+    "type": "footage",
+    "media": "s1_broll1",
+    "at": "If you own",
+    "caption": "Your screen may look red",
+    "caption_at": "may look red."
+   }
+  },
+  {
+   "at": "Send this to",
+   "mood": "smirk",
+   "point": false,
+   "tint": "green",
+   "card": {
+    "type": "cta",
+    "line1": "Send this to",
+    "line1_at": "Send this to",
+    "line2": "your app-refresher",
+    "line2_at": "their stock app."
+   }
+  }
+ ],
+ "series_tag": "EARNINGS.BIZ",
+ "title_line1": "Why did Intel just",
+ "title_line2": "*drop 25%*?",
+ "decision": {
+  "decision": "single",
+  "reason": "Intel falling about 25% and Amazon about 7% premarket after earnings is fresh, market-moving big-tech news that hasn't been covered. The Binance hack and the Alphabet drop were already covered several times, so they can wait.",
+  "stories": [
+   {
+    "headline": "Intel plunges 25% and Amazon drops 7% premarket after earnings, extending the tech selloff",
+    "importance": 8,
+    "why": "It is one of the biggest single-day drops for Intel in years, and it comes right after Alphabet's $500B loss. It shows how nervous Wall Street has become about big-tech earnings and AI spending, and it hits the portfolios and pensions of millions of investors.",
+    "candidate_ids": [
+     "945642cb40"
+    ]
+   }
+  ]
+ },
+ "sources": [
+  {
+   "story": "Intel plunges 25% and Amazon drops 7% premarket after earnings, extending the tech selloff",
+   "urls": [
+    "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html",
+    "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-30-2026",
+    "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-29-dow-sp-500-nasdaq-alphabet-microsoft-081708101.html"
+   ]
+  }
+ ],
+ "media": [
+  {
+   "id": "s1_broll1",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_1512/s1_broll1.rgb",
+   "frames": 209,
+   "credit": "Video: Pexels",
+   "desc": "stock video: stock market screen red (7s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s1_broll2",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_1512/s1_broll2.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: computer chip closeup (8s) — generic, NOT the company's own footage"
+  }
+ ],
+ "topic": "tech",
+ "models": {
+  "select": "claude-sonnet-5-5",
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 7
+}
