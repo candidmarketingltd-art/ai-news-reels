@@ -1,0 +1,327 @@
+{
+ "voiceover": "[excited, conversational] Okay, so Apple just made a touchscreen MacBook Pro, something Steve Jobs was famously against. [curious] It's the first time Touch has ever come to a Mac.\n\n[intrigued, building energy] The screen is a new tandem OLED display Apple calls PROLED XDR. It hits up to 2000 nits of brightness, with a 10,000,000:1 contrast ratio. Ars Technica says the OLED steals the show.\n\n[excited, fast] The Dynamic Island now comes to Mac too. It runs M5 Pro and M5 Max chips, with up to 24 hours of battery. [amused] Apple also showed an OLED iPad mini and an M6 iMac.\n\n[confident] If you edit photos or video, that screen is aimed right at you. According to 9to5Mac, TrendForce expects up to 1.5 million of these to ship in 2027. Pre-orders are open now, and they arrive November 6.\n\n[playful, warm] Send this to the friend who swore Apple would never make a touchscreen Mac.",
+ "ig_caption": "Apple just made its first touchscreen MacBook Pro 👀\nIt has a new OLED PROLED XDR display, the Dynamic Island on Mac, and M5 Pro and M5 Max chips. An OLED iPad mini and an M6 iMac came along too.\nSend this to the friend who swore Apple would never make a touchscreen Mac.\nFollow @ihackgrowth for daily AI & tech news\nSources: Apple, Ars Technica, PCMag, 9to5Mac, CNN",
+ "hashtags": [
+  "#TechNews",
+  "#Business",
+  "#Apple",
+  "#MacBookPro",
+  "#OLED",
+  "#iPad",
+  "#iMac"
+ ],
+ "numbers": [
+  "1.5 million",
+  "2027",
+  "2000 nits",
+  "10,000,000:1",
+  "24 hours",
+  "November 6",
+  "October 28",
+  "M5 Pro",
+  "M5 Max",
+  "M6"
+ ],
+ "media_hints": [
+  {
+   "story": 1,
+   "company": "Apple",
+   "domain": "apple.com",
+   "broll": [
+    "laptop touchscreen close-up",
+    "typing on laptop"
+   ]
+  }
+ ],
+ "cold_open": [
+  {
+   "text": "TOUCHSCREEN MAC",
+   "at": "a touchscreen MacBook"
+  },
+  {
+   "text": "STEVE JOBS",
+   "at": "something Steve Jobs"
+  },
+  {
+   "text": "SAID NO",
+   "at": "was famously against."
+  }
+ ],
+ "scenes": [
+  {
+   "at": "It's the first",
+   "mood": "shocked",
+   "point": false,
+   "tint": "cold",
+   "card": {
+    "type": "news",
+    "tag": "BREAKING",
+    "tag_at": "It's the first",
+    "title": "Apple unveils its first-ever touchscreen MacBook Pro",
+    "at": "It's the first",
+    "source": "via Apple",
+    "source_at": "come to a Mac.",
+    "bg_media": "s1_image",
+    "logo": "s1_logo"
+   }
+  },
+  {
+   "at": "The screen is",
+   "mood": "neutral",
+   "point": true,
+   "tint": "cold",
+   "card": {
+    "type": "footage",
+    "media": "s1_broll1",
+    "at": "The screen is",
+    "caption": "Touch meets OLED",
+    "caption_at": "new tandem OLED"
+   }
+  },
+  {
+   "at": "Apple calls PROLED",
+   "mood": "neutral",
+   "point": false,
+   "tint": "cold",
+   "card": {
+    "type": "title_slam",
+    "title": "PROLED XDR",
+    "at": "Apple calls PROLED",
+    "color": "ice"
+   }
+  },
+  {
+   "at": "It hits up",
+   "mood": "shocked",
+   "point": false,
+   "tint": "cold",
+   "card": {
+    "type": "big_number",
+    "label": "Peak brightness",
+    "value": "2000",
+    "value_at": "2000 nits of",
+    "note": "nits",
+    "note_at": "of brightness,",
+    "color": "gold"
+   }
+  },
+  {
+   "at": "with a 10,000,000:1",
+   "mood": "shocked",
+   "point": false,
+   "tint": "cold",
+   "card": {
+    "type": "big_number",
+    "label": "Contrast ratio",
+    "value": "10,000,000:1",
+    "value_at": "with a 10,000,000:1",
+    "note": "contrast",
+    "note_at": "contrast ratio.",
+    "color": "ice"
+   }
+  },
+  {
+   "at": "Ars Technica says",
+   "mood": "smirk",
+   "point": false,
+   "card": {
+    "type": "headline",
+    "title": "OLED steals the show",
+    "at": "the OLED steals",
+    "sub": "via Ars Technica",
+    "sub_at": "Ars Technica says",
+    "color": "white",
+    "sub_color": "muted"
+   }
+  },
+  {
+   "at": "The Dynamic Island",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "headline",
+    "title": "Dynamic Island",
+    "at": "The Dynamic Island",
+    "sub": "now on Mac too",
+    "sub_at": "comes to Mac",
+    "color": "gold",
+    "sub_color": "white",
+    "icon": "phone"
+   }
+  },
+  {
+   "at": "It runs M5",
+   "mood": "neutral",
+   "point": true,
+   "tint": "cold",
+   "card": {
+    "type": "checklist",
+    "title": "Under the hood",
+    "items": [
+     {
+      "text": "M5 Pro chip",
+      "at": "M5 Pro and"
+     },
+     {
+      "text": "M5 Max chip",
+      "at": "M5 Max chips,"
+     },
+     {
+      "text": "Up to 24h battery",
+      "at": "24 hours of"
+     }
+    ],
+    "final": "All-day power",
+    "final_at": "of battery."
+   }
+  },
+  {
+   "at": "Apple also showed",
+   "mood": "smirk",
+   "point": true,
+   "card": {
+    "type": "split",
+    "title": "Also new",
+    "title_at": "Apple also showed",
+    "left": {
+     "text": "OLED iPad mini",
+     "at": "OLED iPad mini",
+     "color": "blue"
+    },
+    "right": {
+     "text": "M6 iMac",
+     "at": "an M6 iMac.",
+     "color": "gold"
+    },
+    "result": "Big launch day",
+    "result_at": "an M6 iMac."
+   }
+  },
+  {
+   "at": "If you edit",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "footage",
+    "media": "s1_broll2",
+    "at": "If you edit",
+    "caption": "Made for creators",
+    "caption_at": "aimed right at"
+   }
+  },
+  {
+   "at": "According to 9to5Mac,",
+   "mood": "shocked",
+   "point": false,
+   "tint": "green",
+   "card": {
+    "type": "big_number",
+    "label": "TrendForce forecast",
+    "value": "1.5M",
+    "value_at": "1.5 million of",
+    "note": "shipping in 2027",
+    "note_at": "ship in 2027.",
+    "color": "green"
+   }
+  },
+  {
+   "at": "Pre-orders are open",
+   "mood": "neutral",
+   "point": true,
+   "tint": "green",
+   "card": {
+    "type": "headline",
+    "title": "Pre-orders open now",
+    "at": "Pre-orders are open",
+    "sub": "Arrives November 6",
+    "sub_at": "arrive November 6.",
+    "color": "white",
+    "sub_color": "gold"
+   }
+  },
+  {
+   "at": "Send this to",
+   "mood": "smirk",
+   "point": false,
+   "tint": "green",
+   "card": {
+    "type": "cta",
+    "line1": "Send this to",
+    "line1_at": "Send this to",
+    "line2": "your \"never\" friend",
+    "line2_at": "touchscreen Mac."
+   }
+  }
+ ],
+ "series_tag": "LAUNCH.TECH",
+ "title_line1": "Apple just made a",
+ "title_line2": "*touchscreen* Mac?",
+ "decision": {
+  "decision": "single",
+  "reason": "Apple's first touchscreen Mac, an OLED MacBook Pro, is the biggest new tech story of the run and is trending in several countries. The iPad mini and iMac updates can be folded into the same reel. The Binance hack was already covered, and Intel's 22% drop can wait for the next run.",
+  "stories": [
+   {
+    "headline": "Apple unveils its first-ever touchscreen MacBook Pro with a PROLED XDR display, plus an OLED iPad mini and an M6 iMac",
+    "importance": 9,
+    "why": "Touch on a Mac is a big shift for Apple's laptop line, which has avoided it for decades. Viewers want to know what is new (OLED display, touch input, upgrades elsewhere), and TrendForce expects up to 1.5M OLED touchscreen MacBook Pros to ship in 2027.",
+    "candidate_ids": [
+     "d8103b8af5",
+     "be82c6e67f",
+     "ebb1291fc0",
+     "7df8fa0947",
+     "600aa607ec",
+     "89c17d9031"
+    ]
+   }
+  ]
+ },
+ "sources": [
+  {
+   "story": "Apple unveils its first-ever touchscreen MacBook Pro with a PROLED XDR display, plus an OLED iPad mini and an M6 iMac",
+   "urls": [
+    "https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/",
+    "https://arstechnica.com/apple/2026/10/touchscreen-macbook-pro-hands-on-oled-looks-great-on-a-mac/",
+    "https://www.pcmag.com/news/first-look-apple-imac-m6-apple-event"
+   ]
+  }
+ ],
+ "media": [
+  {
+   "id": "s1_image",
+   "kind": "image",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_1111/s1_image.png",
+   "credit": "Image: apple.com",
+   "desc": "official image from Apple (announcement page)"
+  },
+  {
+   "id": "s1_logo",
+   "kind": "logo",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_1111/s1_logo.png",
+   "credit": "",
+   "desc": "Apple logo"
+  },
+  {
+   "id": "s1_broll1",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_1111/s1_broll1.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: laptop touchscreen close-up (8s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s1_broll2",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_1111/s1_broll2.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: typing on laptop (8s) — generic, NOT the company's own footage"
+  }
+ ],
+ "topic": "tech",
+ "models": {
+  "select": "claude-sonnet-5-5",
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 5
+}

@@ -4,37 +4,28 @@
   BUFFER_CHANNEL_ID: set
   IG_HANDLE: MISSING
   PEXELS_API_KEY: MISSING
-slot 2026-10-30-04 | topic=ai (AI) | must_post=True | dry_run=False
+slot 2026-10-30-05 | topic=tech (Tech & Business) | must_post=True | dry_run=False
 [1/6] news — last 8h
-      trends: 30/30 countries read, 9 AI trending searches
-      (feed https://venturebeat.com/category/ai/feed/ failed: 429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/)
-      feeds: 11/12 read, 9 AI stories in window
-[2/6] editor — 17 candidates (attempt 1)
-      decision: roundup — No new blockbuster beyond the already-covered Gemini 4 Carbon and Alphabet stories, but there are several notable AI business and product stories.
-      • [7] OpenAI-backed Thrive Holdings buys ADT in a $15.3B deal to bring AI to home security
-      • [7] Reddit will require logins as AI kills its search traffic
-      • [6] OpenAI doubles usage limits on its paid Pro plans as the rivalry with Anthropic heats up
-      • [6] Amazon's Jassy: AWS will be a $1 trillion business, but the AI capex spending spree continues
+      trends: 30/30 countries read, 43 Tech & Business trending searches
+      (feed https://inc42.com/feed/ failed: 404 Client Error: Not Found for url: https://inc42.com/feed/)
+      feeds: 15/16 read, 35 Tech & Business stories in window
+[2/6] editor — 60 candidates (attempt 1)
+      decision: single — Apple's first touchscreen Mac, an OLED MacBook Pro, is the biggest new tech story of the run and is trending in several countries. The iPad mini and iMac updates can be folded into the same reel. The Binance hack was already covered, and Intel's 22% drop can wait for the next run.
+      • [9] Apple unveils its first-ever touchscreen MacBook Pro with a PROLED XDR display, plus an OLED iPad mini and an M6 iMac
 [3/6] reading articles + writing script
-      (article https://www.axios.com/2026/10/29/reddit-logged-in-ai-search-incognito unreadable: 403 Client Error: Forbidden for url: https://www.axios.com/2026/10/29/reddit-log)
-      1 article(s) read for: OpenAI-backed Thrive Holdings buys ADT in a $15.3B deal to bring AI to home security
-      2 article(s) read for: Reddit will require logins as AI kills its search traffic
-      1 article(s) read for: OpenAI doubles usage limits on its paid Pro plans as the rivalry with Anthropic heats up
-      1 article(s) read for: Amazon's Jassy: AWS will be a $1 trillion business, but the AI capex spending spree continues
-      (media: https://reddit.com/ -> 403 Client Error: Blocked for url: https://www.reddit.com/)
-      media: s1_image, s1_logo, s1_broll1, s1_broll2, s2_logo, s2_broll1, s2_broll2, s3_image, s3_logo, s3_broll1, s3_broll2, s4_logo, s4_broll1, s4_broll2
+      3 article(s) read for: Apple unveils its first-ever touchscreen MacBook Pro with a PROLED XDR display, plus an OLED iPad mini and an M6 iMac
+      media: s1_image, s1_logo, s1_broll1, s1_broll2
 [4/6] voice
-      [eleven] subscription: 401 {"detail":{"type":"authentication_error","code":"unauthorized","message":"The API key you used is missing the permission user_read to execute this operation.","status":"missing_permissions","request_id":"12cd66c6da85be63b1510f7b57b9f295"}}
+      [eleven] subscription: 401 {"detail":{"type":"authentication_error","code":"unauthorized","message":"The API key you used is missing the permission user_read to execute this operation.","status":"missing_permissions","request_id":"1568b17387d114bfb93946efcc8f270d"}}
       [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
-      154 words, 61.9s, voice eleven_v4
+      144 words, 51.8s, voice eleven_v4
 [5/6] render
-  frame 0/1883
-  frame 300/1883
-  frame 600/1883
-  frame 900/1883
-  frame 1200/1883
-  frame 1500/1883
-  frame 1800/1883
+  frame 0/1581
+  frame 300/1581
+  frame 600/1581
+  frame 900/1581
+  frame 1200/1581
+  frame 1500/1581
 [6/6] publish
-      [buffer] created post 6ae4135a6385db216a225853 (customScheduled)
-POSTED 6ae4135a6385db216a225853 https://github.com/candidmarketingltd-art/ai-news-reels/releases/download/reel-2026-10-30_0913/2026-10-30_0913.mp4
+      [buffer] created post 6ae42ecfa83a7fb63c97b513 (customScheduled)
+POSTED 6ae42ecfa83a7fb63c97b513 https://github.com/candidmarketingltd-art/ai-news-reels/releases/download/reel-2026-10-30_1111/2026-10-30_1111.mp4
