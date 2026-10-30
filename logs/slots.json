@@ -51,5 +51,18 @@
   "stories": [
    "Apple unveils its first-ever touchscreen MacBook Pro with a PROLED XDR display, plus an OLED iPad mini and an M6 iMac"
   ]
+ },
+ "2026-10-30-06": {
+  "status": "posted",
+  "topic": "ai",
+  "at": "2026-10-30 13:16",
+  "post": "6ae44b4d56e01b976392bd7b",
+  "decision": "roundup",
+  "stories": [
+   "Anthropic's unreleased AI model chains software flaws into working exploits for Chrome, Safari, Windows and Linux, including a 9.8-severity Linux kernel TCP bug",
+   "Tokyo Electron's profit jumps 27% on AI chip demand, with a \u00a5150 billion buyback",
+   "A US university administrator won a religious exemption from using AI at work, and you don't need to believe in a god to get one",
+   "Zwift launches Zwift Plus, a pricier tier with an AI coach, adaptive training plans and real-road video"
+  ]
  }
 }

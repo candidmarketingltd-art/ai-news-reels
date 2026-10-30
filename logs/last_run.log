@@ -4,28 +4,38 @@
   BUFFER_CHANNEL_ID: set
   IG_HANDLE: MISSING
   PEXELS_API_KEY: MISSING
-slot 2026-10-30-05 | topic=tech (Tech & Business) | must_post=True | dry_run=False
+slot 2026-10-30-06 | topic=ai (AI) | must_post=True | dry_run=False
 [1/6] news — last 8h
-      trends: 30/30 countries read, 43 Tech & Business trending searches
-      (feed https://inc42.com/feed/ failed: 404 Client Error: Not Found for url: https://inc42.com/feed/)
-      feeds: 15/16 read, 35 Tech & Business stories in window
-[2/6] editor — 60 candidates (attempt 1)
-      decision: single — Apple's first touchscreen Mac, an OLED MacBook Pro, is the biggest new tech story of the run and is trending in several countries. The iPad mini and iMac updates can be folded into the same reel. The Binance hack was already covered, and Intel's 22% drop can wait for the next run.
-      • [9] Apple unveils its first-ever touchscreen MacBook Pro with a PROLED XDR display, plus an OLED iPad mini and an M6 iMac
+      trends: 30/30 countries read, 7 AI trending searches
+      (feed https://venturebeat.com/category/ai/feed/ failed: 429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/)
+      feeds: 11/12 read, 2 AI stories in window
+[2/6] editor — 8 candidates (attempt 1)
+      decision: roundup — No blockbuster in this batch, but Anthropic's unreleased model exploit demo, AI-driven chip-equipment demand and a viral workplace-AI story make a decent roundup.
+      • [7] Anthropic's unreleased AI model chains software flaws into working exploits for Chrome, Safari, Windows and Linux, including a 9.8-severity Linux kernel TCP bug
+      • [5] Tokyo Electron's profit jumps 27% on AI chip demand, with a ¥150 billion buyback
+      • [5] A US university administrator won a religious exemption from using AI at work, and you don't need to believe in a god to get one
+      • [4] Zwift launches Zwift Plus, a pricier tier with an AI coach, adaptive training plans and real-road video
 [3/6] reading articles + writing script
-      3 article(s) read for: Apple unveils its first-ever touchscreen MacBook Pro with a PROLED XDR display, plus an OLED iPad mini and an M6 iMac
-      media: s1_image, s1_logo, s1_broll1, s1_broll2
+      (article https://www.investing.com/news/earnings/tokyo-electron-q2-profit-jumps-27-as-ai- unreadable: 403 Client Error: Forbidden for url: https://www.investing.com/news/earnings/tok)
+      3 article(s) read for: Anthropic's unreleased AI model chains software flaws into working exploits for Chrome, Safari, Windows and Linux, including a 9.8-severity Linux kernel TCP bug
+      1 article(s) read for: Tokyo Electron's profit jumps 27% on AI chip demand, with a ¥150 billion buyback
+      1 article(s) read for: A US university administrator won a religious exemption from using AI at work, and you don't need to believe in a god to get one
+      3 article(s) read for: Zwift launches Zwift Plus, a pricier tier with an AI coach, adaptive training plans and real-road video
+      (media: https://tel.com/ -> HTTPSConnectionPool(host='tel.com', port=443): Max retries exceeded with url: / )
+      (media: https://uky.edu/ -> HTTPSConnectionPool(host='uky.edu', port=443): Max retries exceeded with url: / )
+      media: s1_image, s1_logo, s1_broll1, s1_broll2, s2_broll1, s2_broll2, s3_logo, s3_broll1, s3_broll2, s4_image, s4_logo, s4_broll1, s4_broll2
 [4/6] voice
-      [eleven] subscription: 401 {"detail":{"type":"authentication_error","code":"unauthorized","message":"The API key you used is missing the permission user_read to execute this operation.","status":"missing_permissions","request_id":"1568b17387d114bfb93946efcc8f270d"}}
+      [eleven] subscription: 401 {"detail":{"type":"authentication_error","code":"unauthorized","message":"The API key you used is missing the permission user_read to execute this operation.","status":"missing_permissions","request_id":"c65c88f74a8bd298f76c91eae7f8ca87"}}
       [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
-      144 words, 51.8s, voice eleven_v4
+      156 words, 62.6s, voice eleven_v4
 [5/6] render
-  frame 0/1581
-  frame 300/1581
-  frame 600/1581
-  frame 900/1581
-  frame 1200/1581
-  frame 1500/1581
+  frame 0/1905
+  frame 300/1905
+  frame 600/1905
+  frame 900/1905
+  frame 1200/1905
+  frame 1500/1905
+  frame 1800/1905
 [6/6] publish
-      [buffer] created post 6ae42ecfa83a7fb63c97b513 (customScheduled)
-POSTED 6ae42ecfa83a7fb63c97b513 https://github.com/candidmarketingltd-art/ai-news-reels/releases/download/reel-2026-10-30_1111/2026-10-30_1111.mp4
+      [buffer] created post 6ae44b4d56e01b976392bd7b (customScheduled)
+POSTED 6ae44b4d56e01b976392bd7b https://github.com/candidmarketingltd-art/ai-news-reels/releases/download/reel-2026-10-30_1311/2026-10-30_1311.mp4

@@ -1,0 +1,500 @@
+{
+ "voiceover": "[excited, conversational] Wait — Anthropic's unreleased AI just built working hacks for Chrome, Safari, Windows and Linux. [serious] It happened in a lab, and every flaw was reported first. The worst is a Linux bug rated 9.8 out of 10. Anthropic's AI used it to get root control, no password needed. Ubuntu and Red Hat had no fix as of October 29.\n\n[amused] Meanwhile, Tokyo Electron's profit jumped 27% on AI chip demand. It makes chip-making equipment, and it announced a ¥150 billion buyback.\n\n[curious] And in Kentucky, university administrator David Durman won a religious exemption from using AI at work. He's a nontheistic humanist. [playful] No god required.\n\n[playful] And Zwift launched Zwift Plus, with an AI coach and real-road video. In the US, it's $29.99 a month, $10 more than standard.\n\n[confident] So AI is hacking, building chips, and coaching your workouts. If you run Linux servers, check your patches.\n\n[playful, warm] Send this to the friend who still says AI can't do real work.",
+ "ig_caption": "Anthropic's unreleased AI built working hacks for Chrome, Safari, Windows and Linux 👀\nPlus: Tokyo Electron's profit jumps 27% on AI chips, a humanist wins an AI exemption at work, and Zwift adds a $29.99 AI coach tier.\nSend this to the friend who still thinks AI can't do real work.\nFollow @ihackgrowth for daily AI & tech news\nSources: The Hacker News, ASCII.jp, Investing.com, TradingView, TechCrunch, Cyclingnews, Bicycling",
+ "hashtags": [
+  "#AI",
+  "#AInews",
+  "#Anthropic",
+  "#Cybersecurity",
+  "#Linux",
+  "#TokyoElectron",
+  "#Zwift",
+  "#TechNews"
+ ],
+ "numbers": [
+  "9.8 out of 10",
+  "October 29",
+  "27%",
+  "¥150 billion",
+  "$29.99 a month",
+  "$10 more than the standard Zwift membership"
+ ],
+ "media_hints": [
+  {
+   "story": 1,
+   "company": "Anthropic",
+   "domain": "anthropic.com",
+   "broll": [
+    "hacker typing code",
+    "server room"
+   ]
+  },
+  {
+   "story": 2,
+   "company": "Tokyo Electron",
+   "domain": "tel.com",
+   "broll": [
+    "semiconductor factory",
+    "computer chip closeup"
+   ]
+  },
+  {
+   "story": 3,
+   "company": "University of Kentucky",
+   "domain": "uky.edu",
+   "broll": [
+    "office worker laptop",
+    "university campus"
+   ]
+  },
+  {
+   "story": 4,
+   "company": "Zwift",
+   "domain": "zwift.com",
+   "broll": [
+    "indoor cycling trainer",
+    "mountain road cycling"
+   ]
+  }
+ ],
+ "cold_open": [
+  {
+   "text": "AI BUILT HACKS",
+   "at": "Anthropic's unreleased AI"
+  },
+  {
+   "text": "CHROME · LINUX",
+   "at": "Windows and Linux."
+  }
+ ],
+ "scenes": [
+  {
+   "at": "It happened in",
+   "mood": "serious",
+   "point": false,
+   "tint": "red",
+   "card": {
+    "type": "news",
+    "tag": "AI UPDATE 1/4",
+    "tag_at": "It happened in",
+    "title": "Anthropic's unreleased AI builds working exploits for Chrome & Linux",
+    "at": "It happened in",
+    "source": "via Anthropic",
+    "source_at": "every flaw was",
+    "bg_media": "s1_image",
+    "logo": "s1_logo"
+   }
+  },
+  {
+   "at": "The worst is",
+   "mood": "shocked",
+   "point": false,
+   "tint": "red",
+   "card": {
+    "type": "big_number",
+    "label": "Linux bug severity",
+    "value": "9.8",
+    "value_at": "rated 9.8 out",
+    "note": "out of 10",
+    "note_at": "out of 10.",
+    "color": "red"
+   }
+  },
+  {
+   "at": "Anthropic's AI used",
+   "mood": "serious",
+   "point": true,
+   "tint": "red",
+   "card": {
+    "type": "footage",
+    "media": "s1_broll1",
+    "at": "Anthropic's AI used",
+    "caption": "Root control, no password",
+    "caption_at": "get root control,"
+   }
+  },
+  {
+   "at": "Ubuntu and Red",
+   "mood": "serious",
+   "point": false,
+   "tint": "red",
+   "card": {
+    "type": "warning",
+    "title": "No fix yet",
+    "sub": "as of October 29",
+    "sub_at": "as of October",
+    "chips": [
+     {
+      "text": "Ubuntu",
+      "at": "Ubuntu and Red",
+      "color": "red"
+     },
+     {
+      "text": "Red Hat",
+      "at": "Red Hat had",
+      "color": "red"
+     }
+    ],
+    "big": "UNPATCHED",
+    "big_at": "no fix as",
+    "big_color": "red"
+   }
+  },
+  {
+   "at": "Meanwhile, Tokyo Electron's",
+   "mood": "smirk",
+   "point": false,
+   "tint": "green",
+   "card": {
+    "type": "news",
+    "tag": "AI UPDATE 2/4",
+    "tag_at": "Meanwhile, Tokyo Electron's",
+    "title": "Tokyo Electron profit jumps 27% on AI chip demand",
+    "at": "Tokyo Electron's profit",
+    "source": "Tokyo Electron results",
+    "source_at": "on AI chip"
+   }
+  },
+  {
+   "at": "It makes chip-making",
+   "mood": "neutral",
+   "point": true,
+   "tint": "green",
+   "card": {
+    "type": "footage",
+    "media": "s2_broll1",
+    "at": "It makes chip-making",
+    "caption": "Machines that make chips",
+    "caption_at": "chip-making equipment,"
+   }
+  },
+  {
+   "at": "and it announced",
+   "mood": "shocked",
+   "point": false,
+   "tint": "green",
+   "card": {
+    "type": "money_rain",
+    "line1": "¥150 billion",
+    "line1_at": "a ¥150 billion",
+    "line2": "share buyback",
+    "line2_at": "billion buyback.",
+    "symbol": "¥"
+   }
+  },
+  {
+   "at": "And in Kentucky,",
+   "mood": "neutral",
+   "point": false,
+   "tint": "cold",
+   "card": {
+    "type": "news",
+    "tag": "AI UPDATE 3/4",
+    "tag_at": "And in Kentucky,",
+    "title": "Kentucky administrator wins religious exemption from using AI",
+    "at": "university administrator David",
+    "source": "University of Kentucky",
+    "source_at": "David Durman won",
+    "logo": "s3_logo"
+   }
+  },
+  {
+   "at": "from using AI",
+   "mood": "neutral",
+   "point": true,
+   "tint": "cold",
+   "card": {
+    "type": "footage",
+    "media": "s3_broll1",
+    "at": "from using AI",
+    "caption": "Opted out of AI at work",
+    "caption_at": "AI at work."
+   }
+  },
+  {
+   "at": "He's a nontheistic",
+   "mood": "smirk",
+   "point": false,
+   "tint": "cold",
+   "card": {
+    "type": "headline",
+    "title": "Nontheistic humanist",
+    "at": "He's a nontheistic",
+    "sub": "No god required",
+    "sub_at": "No god required.",
+    "color": "white",
+    "sub_color": "gold"
+   }
+  },
+  {
+   "at": "And Zwift launched",
+   "mood": "neutral",
+   "point": false,
+   "tint": "green",
+   "card": {
+    "type": "news",
+    "tag": "AI UPDATE 4/4",
+    "tag_at": "And Zwift launched",
+    "title": "Zwift launches Zwift Plus with an AI coach",
+    "at": "launched Zwift Plus,",
+    "source": "via Zwift",
+    "source_at": "with an AI",
+    "bg_media": "s4_image",
+    "logo": "s4_logo"
+   }
+  },
+  {
+   "at": "and real-road video.",
+   "mood": "smirk",
+   "point": false,
+   "tint": "green",
+   "card": {
+    "type": "footage",
+    "media": "s4_broll1",
+    "at": "and real-road video.",
+    "caption": "AI coaching for your rides",
+    "caption_at": "and real-road video."
+   }
+  },
+  {
+   "at": "In the US,",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "compare_arrow",
+    "title": "Zwift Plus (US)",
+    "from_text": "Standard",
+    "from_at": "In the US,",
+    "to_text": "$29.99/month",
+    "to_at": "$29.99 a month,",
+    "result": "+$10 a month",
+    "result_at": "$10 more than"
+   }
+  },
+  {
+   "at": "So AI is",
+   "mood": "neutral",
+   "point": true,
+   "beats": [
+    {
+     "at": "If you run",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "card": {
+    "type": "checklist",
+    "title": "AI this week",
+    "items": [
+     {
+      "text": "Hacking",
+      "at": "AI is hacking,"
+     },
+     {
+      "text": "Building chips",
+      "at": "building chips,"
+     },
+     {
+      "text": "Coaching workouts",
+      "at": "coaching your workouts."
+     }
+    ],
+    "final": "Patch Linux servers",
+    "final_at": "check your patches."
+   }
+  },
+  {
+   "at": "Send this to",
+   "mood": "smirk",
+   "point": false,
+   "tint": "green",
+   "card": {
+    "type": "cta",
+    "line1": "Send this to",
+    "line1_at": "Send this to",
+    "line2": "your AI-doubter friend",
+    "line2_at": "do real work."
+   }
+  }
+ ],
+ "series_tag": "ROUNDUP.AI",
+ "title_line1": "Anthropic's AI",
+ "title_line2": "built *working hacks*",
+ "decision": {
+  "decision": "roundup",
+  "reason": "No blockbuster in this batch, but Anthropic's unreleased model exploit demo, AI-driven chip-equipment demand and a viral workplace-AI story make a decent roundup.",
+  "stories": [
+   {
+    "headline": "Anthropic's unreleased AI model chains software flaws into working exploits for Chrome, Safari, Windows and Linux, including a 9.8-severity Linux kernel TCP bug",
+    "importance": 7,
+    "why": "It shows how far AI hacking ability has come, and it affects Ubuntu, Red Hat and other widely used systems. This is a major AI safety and cybersecurity issue.",
+    "candidate_ids": [
+     "649ecf4a57"
+    ]
+   },
+   {
+    "headline": "Tokyo Electron's profit jumps 27% on AI chip demand, with a ¥150 billion buyback",
+    "importance": 5,
+    "why": "The company makes chip-manufacturing equipment, and its record results and higher guidance show the AI hardware boom is still going.",
+    "candidate_ids": [
+     "9272f598d1"
+    ]
+   },
+   {
+    "headline": "A US university administrator won a religious exemption from using AI at work, and you don't need to believe in a god to get one",
+    "importance": 5,
+    "why": "It's a new twist on the workplace AI mandate debate, and it could affect how employers push AI tools on staff.",
+    "candidate_ids": [
+     "3f421dfac0"
+    ]
+   },
+   {
+    "headline": "Zwift launches Zwift Plus, a pricier tier with an AI coach, adaptive training plans and real-road video",
+    "importance": 4,
+    "why": "It shows AI coaching moving into everyday fitness apps, and it comes with a higher subscription price.",
+    "candidate_ids": [
+     "a233608e81"
+    ]
+   }
+  ]
+ },
+ "sources": [
+  {
+   "story": "Anthropic's unreleased AI model chains software flaws into working exploits for Chrome, Safari, Windows and Linux, including a 9.8-severity Linux kernel TCP bug",
+   "urls": [
+    "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
+    "https://ascii.jp/en/elem/000/004/447/4447103/",
+    "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html"
+   ]
+  },
+  {
+   "story": "Tokyo Electron's profit jumps 27% on AI chip demand, with a ¥150 billion buyback",
+   "urls": [
+    "https://www.investing.com/news/earnings/tokyo-electron-q2-profit-jumps-27-as-ai-demand-drives-outlook-150-bln-buyback-4985886",
+    "https://www.tradingview.com/news/urn:summary_document_slides:quartr.com:4258373:0-tokyo-electron-record-h1-results-and-rising-ai-driven-demand-underpin-higher-fy2027-guidance/"
+   ]
+  },
+  {
+   "story": "A US university administrator won a religious exemption from using AI at work, and you don't need to believe in a god to get one",
+   "urls": [
+    "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/"
+   ]
+  },
+  {
+   "story": "Zwift launches Zwift Plus, a pricier tier with an AI coach, adaptive training plans and real-road video",
+   "urls": [
+    "https://www.cyclingnews.com/cycling-culture/training/zwift-plus-subscription-tier-ai-coach-adaptive-training-plans-real-world-video/",
+    "https://www.bicycleretailer.com/announcements/2026/10/29/zwift-launches-zwift-plus-subscription-zwifters-who-want-more",
+    "https://www.bicycling.com/training/a74264117/zwift-plus-review-coach-video-routes-price/"
+   ]
+  }
+ ],
+ "media": [
+  {
+   "id": "s1_image",
+   "kind": "image",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_1311/s1_image.png",
+   "credit": "Image: anthropic.com",
+   "desc": "official image from Anthropic (announcement page)"
+  },
+  {
+   "id": "s1_logo",
+   "kind": "logo",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_1311/s1_logo.png",
+   "credit": "",
+   "desc": "Anthropic logo"
+  },
+  {
+   "id": "s1_broll1",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_1311/s1_broll1.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: hacker typing code (8s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s1_broll2",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_1311/s1_broll2.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: server room (8s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s2_broll1",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_1311/s2_broll1.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: semiconductor factory (8s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s2_broll2",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_1311/s2_broll2.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: computer chip closeup (8s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s3_logo",
+   "kind": "logo",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_1311/s3_logo.png",
+   "credit": "",
+   "desc": "University of Kentucky logo"
+  },
+  {
+   "id": "s3_broll1",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_1311/s3_broll1.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: office worker laptop (8s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s3_broll2",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_1311/s3_broll2.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: university campus (8s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s4_image",
+   "kind": "image",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_1311/s4_image.png",
+   "credit": "Image: zwift.com",
+   "desc": "official image from Zwift (announcement page)"
+  },
+  {
+   "id": "s4_logo",
+   "kind": "logo",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_1311/s4_logo.png",
+   "credit": "",
+   "desc": "Zwift logo"
+  },
+  {
+   "id": "s4_broll1",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_1311/s4_broll1.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: indoor cycling trainer (8s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s4_broll2",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_1311/s4_broll2.rgb",
+   "frames": 156,
+   "credit": "Video: Pexels",
+   "desc": "stock video: mountain road cycling (5s) — generic, NOT the company's own footage"
+  }
+ ],
+ "topic": "ai",
+ "models": {
+  "select": "claude-sonnet-5-5",
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 6
+}
