@@ -19,6 +19,10 @@ on:
         description: "Force a topic: ai or tech (blank = by time slot)"
         required: false
         default: ""
+      guard:
+        description: "1 = skip if this 2-hour window already posted (used by the Scheduler)"
+        required: false
+        default: "0"
 
 permissions:
   contents: write
@@ -35,7 +39,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Already posted in this window?
         id: slot
-        if: github.event_name == 'schedule'
+        if: github.event_name == 'schedule' || inputs.guard == '1'
         run: |
           python3 - <<'PY'
           import datetime as dt, json, os
@@ -95,7 +99,7 @@ jobs:
           MASCOT_BADGE: ${{ vars.MASCOT_BADGE }}
           RENDER_STYLE: ${{ vars.RENDER_STYLE }}
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || vars.DRY_RUN }}
-          SLOT_GUARD: ${{ github.event_name == 'schedule' && '1' || '0' }}
+          SLOT_GUARD: ${{ (github.event_name == 'schedule' || inputs.guard == '1') && '1' || '0' }}
           MUST_POST: ${{ vars.MUST_POST }}
           SLOT_HOURS: ${{ vars.SLOT_HOURS }}
           TOPIC_ROTATION: ${{ vars.TOPIC_ROTATION }}

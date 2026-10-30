@@ -1,0 +1,83 @@
+name: Scheduler (keeps the 2-hour posting clock)
+
+# GitHub's own cron is "best effort" and silently drops many runs on young repos. This job is the real clock:
+# it stays awake for ~5h40m, checks every minute which 2-hour window we're in, and starts "News reel" for any window
+# that hasn't posted yet (retrying every 50 minutes inside the window if a run failed). Before it ends it starts the
+# next Scheduler, so the clock never stops. The hourly cron below is only a backstop that restarts it if needed.
+# Free: public repos have unlimited Actions minutes.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+
+permissions:
+  actions: write
+  contents: read
+
+concurrency:
+  group: scheduler
+  cancel-in-progress: false
+
+jobs:
+  clock:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - name: Keep the clock
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          SLOT_HOURS: ${{ vars.SLOT_HOURS }}
+          START_AFTER_MIN: ${{ vars.START_AFTER_MIN }}
+        run: |
+          python3 - <<'PY'
+          import base64, datetime as dt, json, os, subprocess, time
+          REPO = os.environ["REPO"]
+          SLOT = int(os.environ.get("SLOT_HOURS") or 2)
+          AFTER = int(os.environ.get("START_AFTER_MIN") or 11)       # start each window's reel 11 min in
+          IST = dt.timezone(dt.timedelta(hours=5, minutes=30))
+          RUN_FOR = 5 * 3600 + 40 * 60
+          t_start = time.time()
+
+          def gh(*args):
+              r = subprocess.run(["gh", *args], capture_output=True, text=True)
+              if r.returncode: print("  gh error:", r.stderr.strip()[:200], flush=True)
+              return r.stdout
+
+          def window(now):
+              s = now - dt.timedelta(hours=1)
+              idx = s.hour // SLOT
+              start = (s.replace(hour=idx * SLOT, minute=0, second=0, microsecond=0) + dt.timedelta(hours=1))
+              return f"{s:%Y-%m-%d}-{idx:02d}", start
+
+          def posted(key):
+              out = gh("api", f"repos/{REPO}/contents/logs/slots.json", "--jq", ".content")
+              try: return json.loads(base64.b64decode(out)).get(key, {}).get("status") == "posted"
+              except Exception: return False
+
+          def reel_running():
+              for st in ("in_progress", "queued"):
+                  out = gh("run", "list", "-R", REPO, "--workflow", "news-reel.yml", "--status", st, "--json", "databaseId")
+                  try:
+                      if json.loads(out or "[]"): return True
+                  except Exception: pass
+              return False
+
+          last = {}
+          print(f"clock started {dt.datetime.now(IST):%Y-%m-%d %H:%M} IST — {24 // SLOT} reels a day", flush=True)
+          while time.time() - t_start < RUN_FOR:
+              now = dt.datetime.now(IST)
+              key, start = window(now)
+              if now >= start + dt.timedelta(minutes=AFTER) and time.time() - last.get(key, 0) > 50 * 60:
+                  if posted(key):
+                      last[key] = time.time() + 10 ** 9           # done for this window
+                  elif reel_running():
+                      pass
+                  else:
+                      print(f"{now:%H:%M} IST: window {key} has no reel yet -> starting News reel", flush=True)
+                      gh("workflow", "run", "news-reel.yml", "-R", REPO, "-f", "dry_run=false", "-f", "guard=1")
+                      last[key] = time.time()
+              time.sleep(60)
+          print("handing over to the next clock", flush=True)
+          gh("workflow", "run", "scheduler.yml", "-R", REPO)
+          PY

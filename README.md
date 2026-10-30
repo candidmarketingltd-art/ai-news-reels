@@ -26,6 +26,10 @@ gadgets, apps, EVs, space), startups & funding, IPOs, acquisitions, earnings, la
 with global interest — stories that are *not* mainly about AI. Each topic has its own Google Trends filter and news feeds
 (Tech & Business: TechCrunch, The Verge, CNBC Tech/Business, BBC, Guardian, Fortune, Inc42, YourStory, 9to5Mac, Electrek…).
 
+**The clock:** GitHub's own cron drops many runs on young repos, so the *Scheduler* workflow is the real clock — it stays
+awake (~6 h at a time, then hands over to the next one), checks every minute, and starts *News reel* 11 minutes into each
+window that hasn't posted yet, retrying every 50 minutes if a run failed. Free on public repos.
+
 Every 2-hour window gets exactly **one** reel, posted the moment it's made. `logs/slots.json` records which windows are done;
 a backup run 1 hour later only works if the main run failed (otherwise it exits in seconds).
 Change the pace with variable `SLOT_HOURS` (3 = 8 a day, 6 = 4 a day) and the mix with `TOPIC_ROTATION` (e.g. `ai,ai,tech`).
