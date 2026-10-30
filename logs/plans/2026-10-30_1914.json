@@ -1,0 +1,324 @@
+{
+ "voiceover": "[excited, conversational] Okay, so Binance just got hit by a $6.3 billion hack. [curious] Experts say North Korea did it, and it's the biggest crypto heist ever recorded. About $3 billion has been located so far. The company hasn't updated on the other $3.3 billion.\n\n[serious] Analysts at TRM and Chainalysis blame TraderTraitor, North Korea's elite hacking unit. Binance says it may have started with one engineer's hacked laptop. [surprised] One laptop. Binance has 335 million registered users, and it has paused all deposits and withdrawals for now.\n\n[punchy] Bitcoin dropped more than 3% to $76,368. Tether froze nearly $1.57 billion, and Circle froze more than $800 million.\n\n[confident] And what about your money? Binance co-CEO Richard Teng says, \"your money is safe, and we're covering every loss.\" Still, one analyst says investors may now rethink keeping money on exchanges.\n\n[playful, warm] Send this to the friend who keeps all their crypto on one app.",
+ "ig_caption": "Binance was hit by a record $6.3 billion hack, and experts blame North Korea 👀\nAbout $3 billion has been located so far. Binance says it will cover every loss.\nSend this to the friend who keeps all their crypto on one app.\nFollow @ihackgrowth for daily AI & tech news\nSources: The Guardian",
+ "hashtags": [
+  "#TechNews",
+  "#Business",
+  "#Binance",
+  "#Crypto",
+  "#Bitcoin",
+  "#CryptoHack",
+  "#NorthKorea",
+  "#Cybersecurity"
+ ],
+ "numbers": [
+  "$6.3bn",
+  "$3bn",
+  "$3.3bn",
+  "335 million registered users",
+  "more than 3%",
+  "$76,368",
+  "nearly $1.57bn",
+  "more than $800m"
+ ],
+ "media_hints": [
+  {
+   "story": 1,
+   "company": "Binance",
+   "domain": "binance.com",
+   "broll": [
+    "hacker typing dark room",
+    "bitcoin price chart falling"
+   ]
+  }
+ ],
+ "cold_open": [
+  {
+   "text": "$6.3B HACK",
+   "at": "got hit by"
+  },
+  {
+   "text": "BINANCE",
+   "at": "$6.3 billion hack."
+  }
+ ],
+ "scenes": [
+  {
+   "at": "Experts say North",
+   "mood": "serious",
+   "point": false,
+   "tint": "red",
+   "card": {
+    "type": "news",
+    "tag": "BREAKING",
+    "tag_at": "Experts say North",
+    "title": "Binance hit by record $6.3bn hack, North Korea blamed",
+    "at": "Experts say North",
+    "source": "Binance",
+    "source_at": "biggest crypto heist",
+    "logo": "s1_logo"
+   }
+  },
+  {
+   "at": "About $3 billion",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "big_number",
+    "label": "Located so far",
+    "value": "$3B",
+    "value_at": "About $3 billion",
+    "note": "of $6.3B stolen",
+    "note_at": "located so far.",
+    "color": "gold"
+   }
+  },
+  {
+   "at": "The company hasn't",
+   "mood": "serious",
+   "point": false,
+   "tint": "red",
+   "card": {
+    "type": "headline",
+    "title": "$3.3B: no update",
+    "at": "The company hasn't",
+    "sub": "Still unaccounted for",
+    "sub_at": "other $3.3 billion.",
+    "color": "red",
+    "sub_color": "muted"
+   }
+  },
+  {
+   "at": "Analysts at TRM",
+   "mood": "serious",
+   "point": false,
+   "tint": "cold",
+   "card": {
+    "type": "footage",
+    "media": "s1_broll1",
+    "at": "Analysts at TRM",
+    "caption": "Blamed: TraderTraitor",
+    "caption_at": "blame TraderTraitor,"
+   }
+  },
+  {
+   "at": "Binance says it",
+   "mood": "neutral",
+   "point": true,
+   "tint": "cold",
+   "card": {
+    "type": "headline",
+    "title": "Where it began",
+    "at": "Binance says it",
+    "sub": "An engineer's laptop",
+    "sub_at": "engineer's hacked laptop.",
+    "color": "white",
+    "sub_color": "red",
+    "icon": "chip"
+   }
+  },
+  {
+   "at": "One laptop.",
+   "mood": "shocked",
+   "point": false,
+   "card": {
+    "type": "title_slam",
+    "title": "ONE LAPTOP",
+    "at": "One laptop.",
+    "color": "red"
+   }
+  },
+  {
+   "at": "Binance has 335",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "counter",
+    "label": "Binance users",
+    "prefix": "",
+    "to": 335,
+    "suffix": "M",
+    "at": "335 million registered",
+    "done_text": "Registered users",
+    "done_at": "registered users,"
+   }
+  },
+  {
+   "at": "and it has paused",
+   "mood": "serious",
+   "point": false,
+   "tint": "red",
+   "card": {
+    "type": "warning",
+    "title": "Frozen for now",
+    "sub": "Binance pauses all",
+    "sub_at": "has paused all",
+    "chips": [
+     {
+      "text": "Deposits",
+      "at": "all deposits",
+      "color": "red"
+     },
+     {
+      "text": "Withdrawals",
+      "at": "and withdrawals",
+      "color": "red"
+     }
+    ],
+    "big": "PAUSED",
+    "big_at": "for now.",
+    "big_color": "red"
+   }
+  },
+  {
+   "at": "Bitcoin dropped more",
+   "mood": "serious",
+   "point": false,
+   "tint": "red",
+   "card": {
+    "type": "footage",
+    "media": "s1_broll2",
+    "at": "Bitcoin dropped more",
+    "caption": "Bitcoin down 3%+",
+    "caption_at": "more than 3%"
+   }
+  },
+  {
+   "at": "to $76,368.",
+   "mood": "shocked",
+   "point": false,
+   "tint": "red",
+   "card": {
+    "type": "big_number",
+    "label": "Bitcoin price",
+    "value": "$76,368",
+    "value_at": "to $76,368.",
+    "note": "down more than 3%",
+    "note_at": "to $76,368.",
+    "color": "red"
+   }
+  },
+  {
+   "at": "Tether froze nearly",
+   "mood": "neutral",
+   "point": true,
+   "tint": "green",
+   "card": {
+    "type": "split",
+    "title": "Funds frozen",
+    "title_at": "Tether froze nearly",
+    "left": {
+     "text": "Tether $1.57B",
+     "at": "nearly $1.57 billion,",
+     "color": "green"
+    },
+    "right": {
+     "text": "Circle $800M+",
+     "at": "more than $800",
+     "color": "blue"
+    },
+    "result": "Frozen",
+    "result_at": "$800 million."
+   }
+  },
+  {
+   "at": "And what about",
+   "mood": "neutral",
+   "point": false,
+   "tint": "green",
+   "card": {
+    "type": "headline",
+    "title": "\"Your money is safe\"",
+    "at": "your money is safe,",
+    "sub": "Every loss covered",
+    "sub_at": "covering every loss.",
+    "color": "white",
+    "sub_color": "green"
+   }
+  },
+  {
+   "at": "Still, one analyst",
+   "mood": "serious",
+   "point": true,
+   "card": {
+    "type": "headline",
+    "title": "Rethink exchanges?",
+    "at": "may now rethink",
+    "sub": "Says one analyst",
+    "sub_at": "Still, one analyst",
+    "color": "red",
+    "sub_color": "muted"
+   }
+  },
+  {
+   "at": "Send this to",
+   "mood": "smirk",
+   "point": false,
+   "tint": "green",
+   "card": {
+    "type": "cta",
+    "line1": "Send this to",
+    "line1_at": "Send this to",
+    "line2": "your all-on-one-app friend",
+    "line2_at": "on one app."
+   }
+  }
+ ],
+ "series_tag": "CRYPTO.BIZ",
+ "title_line1": "Binance hacked for",
+ "title_line2": "*$6.3 billion*?",
+ "decision": {
+  "decision": "single",
+  "reason": "The Binance hack has a major new development: it is now put at $6.3bn, the biggest crypto heist ever, and a North Korean group is blamed. Binance has also said it will cover the losses. The earlier reel only covered the withdrawal pause.",
+  "stories": [
+   {
+    "headline": "Binance hit by record $6.3bn hack, North Korean group blamed, exchange says it will cover losses",
+    "importance": 9,
+    "why": "It is the largest crypto heist in history at the world's biggest exchange. About $3bn has been located so far, Binance says users will be made whole, and the attribution to North Korea raises the stakes for crypto security and markets.",
+    "candidate_ids": [
+     "b5f849ef90"
+    ]
+   }
+  ]
+ },
+ "sources": [
+  {
+   "story": "Binance hit by record $6.3bn hack, North Korean group blamed, exchange says it will cover losses",
+   "urls": [
+    "https://www.theguardian.com/business/2026/oct/29/binance-crypto-exchange-hack"
+   ]
+  }
+ ],
+ "media": [
+  {
+   "id": "s1_logo",
+   "kind": "logo",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_1914/s1_logo.png",
+   "credit": "",
+   "desc": "Binance logo"
+  },
+  {
+   "id": "s1_broll1",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_1914/s1_broll1.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: hacker typing dark room (8s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s1_broll2",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_1914/s1_broll2.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: bitcoin price chart falling (8s) — generic, NOT the company's own footage"
+  }
+ ],
+ "topic": "tech",
+ "models": {
+  "select": "claude-sonnet-5-5",
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 9
+}
