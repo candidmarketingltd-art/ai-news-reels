@@ -2,3 +2,6 @@ out/
 __pycache__/
 *.pyc
 .env
+remotion/node_modules/
+remotion/public/run/
+remotion/out/

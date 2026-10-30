@@ -103,7 +103,11 @@ def make_reel(plan, stamp, workdir):
     print(f"      {len(words)} words, {dur:.1f}s, voice {model}", flush=True)
     print("[5/6] render", flush=True)
     vid_only = f"{workdir}/video_only.mp4"
-    cues = engine.render(plan, words, dur, vid_only)
+    if (os.environ.get("RENDER_STYLE") or "").lower() == "remotion":
+        from pipeline.render import remotion_render      # editorial motion-graphics look (React/Remotion)
+        cues = remotion_render.render(plan, words, dur, vid_only, workdir)
+    else:
+        cues = engine.render(plan, words, dur, vid_only)
     cues["music"] = bool(audio.theme_path())
     sfx = f"{workdir}/sfx.wav"; audio.build_sfx(cues, sfx)
     OUT.mkdir(exist_ok=True)
