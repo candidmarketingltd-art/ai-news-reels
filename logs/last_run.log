@@ -4,24 +4,33 @@
   BUFFER_CHANNEL_ID: set
   IG_HANDLE: MISSING
   PEXELS_API_KEY: MISSING
-slot 2026-10-30-07 | topic=tech (Tech & Business) | must_post=True | dry_run=False
+slot 2026-10-30-08 | topic=ai (AI) | must_post=True | dry_run=False
 [1/6] news — last 8h
-      trends: 30/30 countries read, 35 Tech & Business trending searches
-      feeds: 16/16 read, 36 Tech & Business stories in window
-[2/6] editor — 60 candidates (attempt 1)
-      decision: single — Intel falling about 25% and Amazon about 7% premarket after earnings is fresh, market-moving big-tech news that hasn't been covered. The Binance hack and the Alphabet drop were already covered several times, so they can wait.
-      • [8] Intel plunges 25% and Amazon drops 7% premarket after earnings, extending the tech selloff
+      trends: 30/30 countries read, 8 AI trending searches
+      (feed https://venturebeat.com/category/ai/feed/ failed: 429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/)
+      feeds: 11/12 read, 4 AI stories in window
+[2/6] editor — 12 candidates (attempt 1)
+      decision: roundup — No blockbuster AI story right now, but there are several notable, shareable ones: an AI research breakthrough, Google's AI election answers, Meta AI glasses privacy scrutiny, and a landmark AI copyright stance.
+      • [7] AI breakthrough upends decades of computer science research, scientists react with shock and vindication
+      • [6] Google's AI Mode won't say who won the 2020 US election, though it does in other countries
+      • [6] US senators press Meta over 'serious privacy risks' of its AI glasses
+      • [5] Wikimedia warns a bad AI copyright ruling could threaten the open web
 [3/6] reading articles + writing script
-      (article https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-30-2026 unreadable: 401 Client Error: HTTP Forbidden for url: https://www.wsj.com/livecoverage/stock)
-      2 article(s) read for: Intel plunges 25% and Amazon drops 7% premarket after earnings, extending the tech selloff
-      (media: https://intel.com/ -> 403 Client Error: Forbidden for url: https://www.intel.com/)
-      media: s1_broll1, s1_broll2
+      (article https://www.usatoday.com/story/tech/2026/10/29/google-wont-say-who-won-2020-elec unreadable: 402 Client Error: Payment Required for url: https://www.usatoday.com/story/tech/)
+      (article https://www.fastcompany.com/91631521/googles-ai-mode-wont-say-biden-won-the-2020 unreadable: 403 Client Error: Forbidden for url: https://www.fastcompany.com/91631521/google)
+      (article https://www.theatlantic.com/technology/2026/10/google-search-ai-2020-election-tr unreadable: 403 Client Error: Forbidden for url: https://www.theatlantic.com/technology/2026)
+      3 article(s) read for: AI breakthrough upends decades of computer science research, scientists react with shock and vindication
+      0 article(s) read for: Google's AI Mode won't say who won the 2020 US election, though it does in other countries
+      1 article(s) read for: US senators press Meta over 'serious privacy risks' of its AI glasses
+      1 article(s) read for: Wikimedia warns a bad AI copyright ruling could threaten the open web
+      (media: https://meta.com/ -> 400 Client Error: Bad Request for url: https://www.meta.com/)
+      media: s1_image, s1_logo, s1_broll1, s1_broll2, s2_logo, s2_broll1, s2_broll2, s3_logo, s3_broll1, s3_broll2, s4_image, s4_logo, s4_broll1, s4_broll2
 [4/6] voice
-      [eleven] subscription: 401 {"detail":{"type":"authentication_error","code":"unauthorized","message":"The API key you used is missing the permission user_read to execute this operation.","status":"missing_permissions","request_id":"db8646cc0e127ca5921d9abf49a58610"}}
+      [eleven] subscription: 401 {"detail":{"type":"authentication_error","code":"unauthorized","message":"The API key you used is missing the permission user_read to execute this operation.","status":"missing_permissions","request_id":"2c1ffadb14cec1707e6817f584e30972"}}
       [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
-      142 words, 53.1s, voice eleven_v4
+      152 words, 57.9s, voice eleven_v4
 [5/6] render
-      remotion: src/index.ts Reel /tmp/tmpmpbldu77/video_only.mp4
+      remotion: src/index.ts Reel /tmp/tmpst4ih11j/video_only.mp4
 [6/6] publish
-      [buffer] created post 6ae46721c2427e8527ca1c1a (customScheduled)
-POSTED 6ae46721c2427e8527ca1c1a https://github.com/candidmarketingltd-art/ai-news-reels/releases/download/reel-2026-10-30_1512/2026-10-30_1512.mp4
+      [buffer] created post 6ae483c71c1ab1e7bc34f889 (customScheduled)
+POSTED 6ae483c71c1ab1e7bc34f889 https://github.com/candidmarketingltd-art/ai-news-reels/releases/download/reel-2026-10-30_1712/2026-10-30_1712.mp4

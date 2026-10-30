@@ -74,5 +74,18 @@
   "stories": [
    "Intel plunges 25% and Amazon drops 7% premarket after earnings, extending the tech selloff"
   ]
+ },
+ "2026-10-30-08": {
+  "status": "posted",
+  "topic": "ai",
+  "at": "2026-10-30 17:17",
+  "post": "6ae483c71c1ab1e7bc34f889",
+  "decision": "roundup",
+  "stories": [
+   "AI breakthrough upends decades of computer science research, scientists react with shock and vindication",
+   "Google's AI Mode won't say who won the 2020 US election, though it does in other countries",
+   "US senators press Meta over 'serious privacy risks' of its AI glasses",
+   "Wikimedia warns a bad AI copyright ruling could threaten the open web"
+  ]
  }
 }

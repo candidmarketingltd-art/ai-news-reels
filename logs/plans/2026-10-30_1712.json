@@ -1,0 +1,487 @@
+{
+ "voiceover": "[excited, conversational] Wait — an AI may have just made decades of computer science research irrelevant. [curious] OpenAI and Anthropic both say their AI disproved the exponential time hypothesis, an idea hundreds of studies rely on. It isn't independently verified yet. But one professor told WIRED it could make around 50 of his papers pointless or in need of a revisit.\n\n[amused] Meanwhile, Google's AI Mode won't say who won the 2020 US election. Fast Company reports that in other countries, it does.\n\n[serious] And US senators Wyden and Markey wrote to Mark Zuckerberg about \"serious privacy and safety risks\" in Meta's AI glasses. They want answers by November 26.\n\n[playful] Over at Wikipedia's nonprofit, Wikimedia says training AI on copyrighted work should be fair use, but chatbots copying it back to users shouldn't.\n\n[confident] So AI is shaking up science, politics, privacy and copyright, all at once.\n\n[playful, warm] Send this to the friend who thinks AI is just a chatbot.",
+ "ig_caption": "An AI may have just overturned a big computer science idea, and researchers are shook 🤯\nOpenAI and Anthropic claim they disproved the exponential time hypothesis, Google's AI Mode dodges a 2020 election question, senators press Meta over its AI glasses, and Wikimedia weighs in on AI copyright.\nSend this to the friend who thinks AI is just a chatbot.\nFollow @ihackgrowth for daily AI & tech news\nSources: WIRED, Yahoo News Singapore (AFP), OpenAI, Engadget, The Verge",
+ "hashtags": [
+  "#AI",
+  "#AInews",
+  "#OpenAI",
+  "#Anthropic",
+  "#Google",
+  "#Meta",
+  "#Wikipedia"
+ ],
+ "numbers": [
+  "hundreds of studies",
+  "around 50 of his published papers",
+  "2020",
+  "November 26"
+ ],
+ "media_hints": [
+  {
+   "story": 1,
+   "company": "OpenAI",
+   "domain": "openai.com",
+   "broll": [
+    "mathematics blackboard equations",
+    "professor typing laptop"
+   ]
+  },
+  {
+   "story": 2,
+   "company": "Google",
+   "domain": "google.com",
+   "broll": [
+    "smartphone search screen",
+    "voting ballot box"
+   ]
+  },
+  {
+   "story": 3,
+   "company": "Meta",
+   "domain": "meta.com",
+   "broll": [
+    "smart glasses close up",
+    "person walking city street"
+   ]
+  },
+  {
+   "story": 4,
+   "company": "Wikimedia Foundation",
+   "domain": "wikimediafoundation.org",
+   "broll": [
+    "courtroom gavel",
+    "typing on laptop"
+   ]
+  }
+ ],
+ "cold_open": [
+  {
+   "text": "DECADES OF RESEARCH",
+   "at": "made decades of"
+  },
+  {
+   "text": "IRRELEVANT",
+   "at": "research irrelevant."
+  }
+ ],
+ "scenes": [
+  {
+   "at": "OpenAI and Anthropic",
+   "mood": "neutral",
+   "point": true,
+   "tint": "cold",
+   "card": {
+    "type": "news",
+    "tag": "AI UPDATE 1/4",
+    "tag_at": "OpenAI and Anthropic",
+    "title": "AI disproves a hypothesis computer science relied on",
+    "at": "OpenAI and Anthropic",
+    "source": "via WIRED",
+    "source_at": "both say their",
+    "bg_media": "s1_image",
+    "logo": "s1_logo"
+   }
+  },
+  {
+   "at": "an idea hundreds",
+   "mood": "neutral",
+   "point": true,
+   "tint": "cold",
+   "card": {
+    "type": "footage",
+    "media": "s1_broll1",
+    "at": "an idea hundreds",
+    "caption": "Hundreds of studies rely on it",
+    "caption_at": "studies rely on"
+   }
+  },
+  {
+   "at": "It isn't independently",
+   "mood": "serious",
+   "point": false,
+   "tint": "cold",
+   "card": {
+    "type": "title_slam",
+    "title": "NOT VERIFIED",
+    "at": "independently verified yet.",
+    "color": "red"
+   }
+  },
+  {
+   "at": "But one professor",
+   "mood": "shocked",
+   "point": false,
+   "tint": "cold",
+   "card": {
+    "type": "big_number",
+    "label": "One professor's papers",
+    "value": "50",
+    "value_at": "around 50 of",
+    "note": "pointless or revisit",
+    "note_at": "pointless or in"
+   }
+  },
+  {
+   "at": "Meanwhile, Google's AI",
+   "mood": "smirk",
+   "point": false,
+   "card": {
+    "type": "news",
+    "tag": "AI UPDATE 2/4",
+    "tag_at": "Meanwhile, Google's AI",
+    "title": "Google's AI Mode won't say who won the 2020 US election",
+    "at": "Google's AI Mode",
+    "source": "via Fast Company",
+    "source_at": "won't say who",
+    "logo": "s2_logo"
+   }
+  },
+  {
+   "at": "who won the",
+   "mood": "smirk",
+   "point": false,
+   "card": {
+    "type": "footage",
+    "media": "s2_broll1",
+    "at": "who won the",
+    "caption": "Ask who won in 2020…",
+    "caption_at": "2020 US election."
+   }
+  },
+  {
+   "at": "Fast Company reports",
+   "mood": "smirk",
+   "point": true,
+   "card": {
+    "type": "split",
+    "title": "Who won 2020?",
+    "title_at": "Fast Company reports",
+    "left": {
+     "text": "In the US: silence",
+     "at": "Fast Company reports",
+     "color": "red"
+    },
+    "right": {
+     "text": "Abroad: it answers",
+     "at": "in other countries,",
+     "color": "green"
+    },
+    "result": "Same AI, two answers",
+    "result_at": "it does."
+   }
+  },
+  {
+   "at": "And US senators",
+   "mood": "serious",
+   "point": false,
+   "tint": "red",
+   "card": {
+    "type": "news",
+    "tag": "AI UPDATE 3/4",
+    "tag_at": "And US senators",
+    "title": "US senators press Meta over privacy risks of its AI glasses",
+    "at": "And US senators",
+    "source": "Senators Wyden & Markey",
+    "source_at": "Wyden and Markey",
+    "logo": "s3_logo"
+   }
+  },
+  {
+   "at": "wrote to Mark",
+   "mood": "serious",
+   "point": false,
+   "tint": "red",
+   "card": {
+    "type": "footage",
+    "media": "s3_broll1",
+    "at": "wrote to Mark",
+    "caption": "Privacy and safety risks",
+    "caption_at": "in Meta's AI"
+   }
+  },
+  {
+   "at": "They want answers",
+   "mood": "serious",
+   "point": true,
+   "tint": "red",
+   "card": {
+    "type": "headline",
+    "title": "Answers demanded",
+    "at": "They want answers",
+    "sub": "Meta is on the clock",
+    "sub_at": "by November 26.",
+    "color": "red",
+    "sub_color": "muted"
+   }
+  },
+  {
+   "at": "Over at Wikipedia's",
+   "mood": "neutral",
+   "point": false,
+   "card": {
+    "type": "news",
+    "tag": "AI UPDATE 4/4",
+    "tag_at": "Over at Wikipedia's",
+    "title": "Wikimedia warns a bad AI copyright ruling could threaten the open web",
+    "at": "Over at Wikipedia's",
+    "source": "via Wikimedia Foundation",
+    "source_at": "Wikimedia says training",
+    "bg_media": "s4_image",
+    "logo": "s4_logo"
+   }
+  },
+  {
+   "at": "should be fair",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "split",
+    "title": "Wikimedia's line",
+    "title_at": "should be fair",
+    "left": {
+     "text": "Training: fair use",
+     "at": "should be fair",
+     "color": "green"
+    },
+    "right": {
+     "text": "Copying back: no",
+     "at": "chatbots copying it",
+     "color": "red"
+    },
+    "result": "Learn, don't repeat",
+    "result_at": "to users shouldn't."
+   }
+  },
+  {
+   "at": "So AI is",
+   "mood": "neutral",
+   "point": true,
+   "card": {
+    "type": "strike_list",
+    "title": "AI is shaking up",
+    "color": "red",
+    "items": [
+     {
+      "text": "Science",
+      "at": "up science,",
+      "strike": false
+     },
+     {
+      "text": "Politics",
+      "at": "politics, privacy",
+      "strike": false
+     },
+     {
+      "text": "Privacy",
+      "at": "privacy and copyright,",
+      "strike": false
+     },
+     {
+      "text": "Copyright",
+      "at": "all at once.",
+      "strike": false
+     }
+    ]
+   }
+  },
+  {
+   "at": "Send this to",
+   "mood": "smirk",
+   "point": false,
+   "tint": "green",
+   "card": {
+    "type": "cta",
+    "line1": "Send this to",
+    "line1_at": "Send this to",
+    "line2": "your 'just a chatbot' friend",
+    "line2_at": "just a chatbot."
+   }
+  }
+ ],
+ "series_tag": "ROUNDUP.AI",
+ "title_line1": "Did AI just erase",
+ "title_line2": "*decades* of research?",
+ "decision": {
+  "decision": "roundup",
+  "reason": "No blockbuster AI story right now, but there are several notable, shareable ones: an AI research breakthrough, Google's AI election answers, Meta AI glasses privacy scrutiny, and a landmark AI copyright stance.",
+  "stories": [
+   {
+    "headline": "AI breakthrough upends decades of computer science research, scientists react with shock and vindication",
+    "importance": 7,
+    "why": "WIRED reports that an AI result has made years of academic work 'irrelevant'. OpenAI also published a post on working with academic communities, and Sam Altman is trending in Singapore.",
+    "candidate_ids": [
+     "f16aefe89a"
+    ]
+   },
+   {
+    "headline": "Google's AI Mode won't say who won the 2020 US election, though it does in other countries",
+    "importance": 6,
+    "why": "USA Today, Fast Company and The Atlantic all covered it. It raises questions about AI chatbots, political topics and trust days before the US midterms, and the query is trending in the US.",
+    "candidate_ids": [
+     "87fc713db3"
+    ]
+   },
+   {
+    "headline": "US senators press Meta over 'serious privacy risks' of its AI glasses",
+    "importance": 6,
+    "why": "Lawmakers want to know how Meta is protecting people who get recorded by smart glasses. It is a regulatory warning for a fast-growing AI wearable.",
+    "candidate_ids": [
+     "cf66dd6d4e"
+    ]
+   },
+   {
+    "headline": "Wikimedia warns a bad AI copyright ruling could threaten the open web",
+    "importance": 5,
+    "why": "The foundation behind Wikipedia wants courts to protect AI training on copyrighted work but not chatbots that regurgitate it. The landmark cases could shape how every AI model is built.",
+    "candidate_ids": [
+     "a973ac401c"
+    ]
+   }
+  ]
+ },
+ "sources": [
+  {
+   "story": "AI breakthrough upends decades of computer science research, scientists react with shock and vindication",
+   "urls": [
+    "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+    "https://www.wired.com/story/ai-made-decades-of-computer-science-research-irrelevant/",
+    "https://sg.news.yahoo.com/shock-vindication-regret-scientists-react-064025423.html"
+   ]
+  },
+  {
+   "story": "Google's AI Mode won't say who won the 2020 US election, though it does in other countries",
+   "urls": [
+    "https://www.theatlantic.com/technology/2026/10/google-search-ai-2020-election-trump/689197/",
+    "https://www.usatoday.com/story/tech/2026/10/29/google-wont-say-who-won-2020-election/92499767007/",
+    "https://www.fastcompany.com/91631521/googles-ai-mode-wont-say-biden-won-the-2020-election-in-the-u-s-but-abroad-its-a-different-story"
+   ]
+  },
+  {
+   "story": "US senators press Meta over 'serious privacy risks' of its AI glasses",
+   "urls": [
+    "https://www.engadget.com/2301968/senators-looking-into-serious-privacy-risks-with-meta-ai-glasses/"
+   ]
+  },
+  {
+   "story": "Wikimedia warns a bad AI copyright ruling could threaten the open web",
+   "urls": [
+    "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright"
+   ]
+  }
+ ],
+ "media": [
+  {
+   "id": "s1_image",
+   "kind": "image",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_1712/s1_image.png",
+   "credit": "Image: openai.com",
+   "desc": "official image from OpenAI (announcement page)"
+  },
+  {
+   "id": "s1_logo",
+   "kind": "logo",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_1712/s1_logo.png",
+   "credit": "",
+   "desc": "OpenAI logo"
+  },
+  {
+   "id": "s1_broll1",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_1712/s1_broll1.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: mathematics blackboard equations (8s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s1_broll2",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_1712/s1_broll2.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: professor typing laptop (8s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s2_logo",
+   "kind": "logo",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_1712/s2_logo.png",
+   "credit": "",
+   "desc": "Google logo"
+  },
+  {
+   "id": "s2_broll1",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_1712/s2_broll1.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: smartphone search screen (8s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s2_broll2",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_1712/s2_broll2.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: voting ballot box (8s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s3_logo",
+   "kind": "logo",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_1712/s3_logo.png",
+   "credit": "",
+   "desc": "Meta logo"
+  },
+  {
+   "id": "s3_broll1",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_1712/s3_broll1.rgb",
+   "frames": 210,
+   "credit": "Video: Pexels",
+   "desc": "stock video: smart glasses close up (7s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s3_broll2",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_1712/s3_broll2.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: person walking city street (8s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s4_image",
+   "kind": "image",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_1712/s4_image.png",
+   "credit": "Image: wikimediafoundation.org",
+   "desc": "official image from Wikimedia Foundation (homepage)"
+  },
+  {
+   "id": "s4_logo",
+   "kind": "logo",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_1712/s4_logo.png",
+   "credit": "",
+   "desc": "Wikimedia Foundation logo"
+  },
+  {
+   "id": "s4_broll1",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_1712/s4_broll1.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: courtroom gavel (8s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s4_broll2",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-30_1712/s4_broll2.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: typing on laptop (8s) — generic, NOT the company's own footage"
+  }
+ ],
+ "topic": "ai",
+ "models": {
+  "select": "claude-sonnet-5-5",
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 8
+}
