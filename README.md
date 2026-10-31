@@ -61,8 +61,8 @@ and public repos get unlimited free Actions minutes. Secrets stay private.
 
 ### 1. Keys (same ones as Paisa Decode work)
 - **`ANTHROPIC_API_KEY`** (secret) — Sonnet picks the news + writes, Opus 5.5 edits.
-- **`ELEVENLABS_API_KEY`** (secret) — every reel is voiced by your cloned **Rohan** voice (`dVIifp6W0jifqeThgNN0`, Eleven v4 with emotion tags), speaking English;
-  create the key in the same ElevenLabs workspace as the voice. Falls back to Microsoft's free `en-IN-PrabhatNeural` when credits run out.
+- **`ELEVENLABS_API_KEY`** (secret) — every reel is voiced by the **Rohan** voice in the key's ElevenLabs workspace (found by name; pin one with variable `ELEVENLABS_VOICE_ID`, or change the name with `ELEVENLABS_VOICE_NAME`; Eleven v4 with emotion tags), speaking English;
+  The key needs Text to Speech + Voices: Read permission. Falls back to Microsoft's free `en-IN-PrabhatNeural` when credits run out.
 
 ### 1b. Footage — Apify (same token as Paisa Decode)
 Secret **`APIFY_TOKEN`** = your Apify token (console.apify.com → Settings → API & Integrations). Stock clips come from Pexels

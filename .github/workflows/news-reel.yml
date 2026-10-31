@@ -113,6 +113,7 @@ jobs:
           VOICE_PROVIDER: ${{ vars.VOICE_PROVIDER }}
           EDGE_VOICE: ${{ vars.EDGE_VOICE }}
           ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
+          ELEVENLABS_VOICE_NAME: ${{ vars.ELEVENLABS_VOICE_NAME }}
           MASCOT_BADGE: ${{ vars.MASCOT_BADGE }}
           RENDER_STYLE: ${{ inputs.style || vars.RENDER_STYLE || 'remotion' }}
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || vars.DRY_RUN }}

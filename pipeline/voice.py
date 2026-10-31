@@ -96,24 +96,38 @@ class QuotaError(RuntimeError):
 _RESOLVED = {}
 
 
+def _find_by_name():
+    """The configured voice id isn't in this key's workspace -> find the workspace's own voice named ELEVENLABS_VOICE_NAME."""
+    want = (os.environ.get("ELEVENLABS_VOICE_NAME") or "Rohan").lower()
+    voices = []
+    for url, params in ((f"{API.replace('/v1', '/v2')}/voices", {"search": want, "page_size": 100}), (f"{API}/voices", {})):
+        r = requests.get(url, headers=_hdr(), params=params, timeout=60)
+        if r.status_code == 200:
+            voices = r.json().get("voices", []); break
+        print(f"      [eleven] list voices {url.split('/')[-2]}: {r.status_code} {r.text[:160]}", flush=True)
+    if not voices:
+        raise RuntimeError("ElevenLabs: the saved voice id isn't in this workspace and this API key can't list voices. Either give the "
+                           "key the 'Voices: Read' permission, or add a GitHub variable ELEVENLABS_VOICE_ID with the Rohan voice's ID.")
+    own = [v for v in voices if v.get("category") in ("cloned", "generated", "professional") and not v.get("is_library_voice")]
+    match = [v for v in own if v["name"].strip().lower() == want] or [v for v in own if v["name"].lower().startswith(want)] \
+        or [v for v in voices if v["name"].strip().lower() == want]
+    print("      [eleven] workspace voices: " + ", ".join(f"{v['name']} ({v['voice_id']}, {v.get('category')})" for v in voices[:20]), flush=True)
+    if not match:
+        raise RuntimeError(f"ElevenLabs: no voice named '{want}' in this workspace")
+    print(f"      [eleven] using {match[0]['name']} ({match[0]['voice_id']})", flush=True)
+    return match[0]["voice_id"]
+
+
 def _voice_id():
-    """The Rohan voice: use ELEVENLABS_VOICE_ID if this key can see it, else look it up by name ("Rohan")."""
+    """The Rohan voice: ELEVENLABS_VOICE_ID if this key's workspace has it, else the workspace's own voice named "Rohan"."""
     if "id" in _RESOLVED: return _RESOLVED["id"]
     r = requests.get(f"{API}/voices/{VOICE}", headers=_hdr(), timeout=60)
-    if r.status_code != 404:  # found it, or the key just isn't allowed to read voices -> use the configured id
+    if r.status_code == 200:
         _RESOLVED["id"] = VOICE; return VOICE
-    want = (os.environ.get("ELEVENLABS_VOICE_NAME") or "Rohan").lower()
-    lst = requests.get(f"{API}/voices", headers=_hdr(), timeout=60)
-    lst.raise_for_status()
-    voices = lst.json().get("voices", [])
-    print("      voices this ElevenLabs key can use: " + ", ".join(f"{v['name']} ({v['voice_id']})" for v in voices[:40]), flush=True)
-    mine = [v for v in voices if v["name"].lower().startswith(want) and v.get("category") in ("cloned", "professional", "generated")]
-    match = mine or [v for v in voices if v["name"].lower().startswith(want)]
-    if not match:
-        raise RuntimeError(f"ElevenLabs: voice '{want}' not found for this API key — create the key in the workspace that has the Rohan voice")
-    _RESOLVED["id"] = match[0]["voice_id"]
-    print(f"      using voice {match[0]['name']} ({match[0]['voice_id']})", flush=True)
-    return _RESOLVED["id"]
+    if r.status_code in (400, 404) or "not_found" in r.text:
+        _RESOLVED["id"] = _find_by_name(); return _RESOLVED["id"]
+    _RESOLVED["id"] = VOICE      # key can't read voices -> try the configured id; a 404 at TTS time triggers the name lookup
+    return VOICE
 
 
 def _diagnose():
@@ -150,6 +164,11 @@ def _eleven(text, mp3_path):
     _diagnose()
     for model in MODELS:
         r = _post(f"{API}/text-to-speech/{vid}/with-timestamps", text, model, params={"output_format": "mp3_44100_128"})
+        if r.status_code == 404 and "voice_not_found" in r.text and not _RESOLVED.get("looked_up"):
+            _RESOLVED["looked_up"] = True
+            print(f"      [eleven] voice {vid} isn't in this workspace -> looking for its own Rohan voice", flush=True)
+            vid = _RESOLVED["id"] = _find_by_name()
+            r = _post(f"{API}/text-to-speech/{vid}/with-timestamps", text, model, params={"output_format": "mp3_44100_128"})
         if r.status_code >= 400:
             last = f"{model}: {r.status_code} {r.text[:300]}"
             print(f"      [eleven] with-timestamps {model}: {r.status_code} {r.text[:200]}", flush=True)
