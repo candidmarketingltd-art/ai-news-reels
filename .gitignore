@@ -5,3 +5,5 @@ __pycache__/
 remotion/node_modules/
 remotion/public/run/
 remotion/out/
+remotion_editorial/node_modules/
+remotion_editorial/public/run/

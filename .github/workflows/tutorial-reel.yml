@@ -1,0 +1,127 @@
+name: Tutorial reel (AI & tech hacks, 2 a day)
+
+# Twice a day (POST_TIMES, IST): finds the top recent AI & tech reels on Instagram (Apify), picks a proven, teachable topic,
+# verifies it with web search, writes a conversational script, edits it in the AI HACKS motion-graphics style and posts via Buffer.
+# Started by the Scheduler workflow; you can also run it by hand (Actions → Tutorial reel → Run workflow).
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Render only, don't post"
+        type: boolean
+        default: true
+      guard:
+        description: "1 = skip if this posting window already has its reel (used by the Scheduler)"
+        required: false
+        default: "0"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: news-reels
+  cancel-in-progress: false
+
+jobs:
+  reel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - name: Already posted in this window?
+        id: slot
+        if: inputs.guard == '1'
+        run: |
+          python3 - <<'PY'
+          import datetime as dt, json, os
+          IST = dt.timezone(dt.timedelta(hours=5, minutes=30)); now = dt.datetime.now(IST)
+          times = sorted(t.strip() for t in (os.environ.get("POST_TIMES") or "13:00,20:00").split(",") if t.strip())
+          starts = [dt.datetime(d.year, d.month, d.day, *map(int, t.split(":")), tzinfo=IST) for d in (now.date() - dt.timedelta(days=1), now.date()) for t in times]
+          key = f"{max(s for s in starts if s <= now):%Y-%m-%d-%H%M}"
+          try: done = json.load(open("logs/tutorial_slots.json")).get(key, {}).get("status") == "posted"
+          except Exception: done = False
+          print(f"window {key}: {'already posted' if done else 'needs a reel'}")
+          open(os.environ["GITHUB_OUTPUT"], "a").write(f"skip={'true' if done else 'false'}\n")
+          PY
+        env:
+          POST_TIMES: ${{ vars.POST_TIMES }}
+      - uses: actions/setup-python@v5
+        if: steps.slot.outputs.skip != 'true'
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: System packages
+        if: steps.slot.outputs.skip != 'true'
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg libraqm0 libfribidi0 libcairo2 fontconfig \
+            libnss3 libdbus-1-3 libatk1.0-0 libgbm-dev libxrandr2 libxkbcommon-dev libxfixes3 libxcomposite1 libxdamage1 \
+            libatk-bridge2.0-0 libpango-1.0-0 libcups2 || true
+          sudo apt-get install -y -qq libasound2t64 || sudo apt-get install -y -qq libasound2 || true
+          mkdir -p ~/.local/share/fonts && cp pipeline/render/fonts/*.ttf ~/.local/share/fonts/ && fc-cache -f
+      - name: Python packages
+        if: steps.slot.outputs.skip != 'true'
+        run: |
+          pip install -q -r requirements.txt
+          python -c "from PIL import features; assert features.check('raqm'), 'text shaping (raqm) missing'"
+      - uses: actions/setup-node@v4
+        if: steps.slot.outputs.skip != 'true'
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: remotion/package-lock.json
+      - name: Remotion (motion graphics renderer)
+        if: steps.slot.outputs.skip != 'true'
+        run: |
+          cd remotion && npm ci --no-audit --no-fund && npx remotion browser ensure
+      - name: Find a topic, make & post a tutorial reel
+        if: steps.slot.outputs.skip != 'true'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          BUFFER_CHANNEL_ID: ${{ vars.BUFFER_CHANNEL_ID }}
+          BUFFER_ORG_ID: ${{ vars.BUFFER_ORG_ID }}
+          BUFFER_MODE: ${{ vars.BUFFER_MODE }}
+          POSTING_MODE: ${{ vars.POSTING_MODE }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          MEDIA_REPO: ${{ vars.MEDIA_REPO }}
+          MEDIA_TOKEN: ${{ secrets.MEDIA_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          IG_HANDLE: ${{ vars.IG_HANDLE }}
+          SELECT_MODEL: ${{ vars.SELECT_MODEL }}
+          SCRIPT_MODEL: ${{ vars.SCRIPT_MODEL }}
+          EDIT_MODEL: ${{ vars.EDIT_MODEL }}
+          VOICE_PROVIDER: ${{ vars.VOICE_PROVIDER }}
+          EDGE_VOICE: ${{ vars.EDGE_VOICE }}
+          ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
+          ELEVENLABS_VOICE_NAME: ${{ vars.ELEVENLABS_VOICE_NAME }}
+          MASCOT_BADGE: ${{ vars.MASCOT_BADGE }}
+          RESEARCH_MODEL: ${{ vars.RESEARCH_MODEL }}
+          IG_HASHTAGS: ${{ vars.IG_HASHTAGS }}
+          IG_SOURCE_ACCOUNTS: ${{ vars.IG_SOURCE_ACCOUNTS }}
+          POST_TIMES: ${{ vars.POST_TIMES }}
+          SERIES_NAME: ${{ vars.SERIES_NAME }}
+          REMOTION_CONCURRENCY: ${{ vars.REMOTION_CONCURRENCY }}
+          DRY_RUN: ${{ inputs.dry_run }}
+          SLOT_GUARD: ${{ inputs.guard == '1' && '1' || '0' }}
+        run: python -m pipeline.tutorial_run
+      - name: Keep the reel (7 days)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: reel-${{ github.run_number }}
+          path: out/*.mp4
+          if-no-files-found: ignore
+          retention-days: 7
+      - name: Save logs
+        if: always()
+        run: |
+          git config user.name "ainews-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add logs
+          git diff --cached --quiet || git commit -m "tutorial run ${{ github.run_number }}"
+          git pull --rebase -q && git push -q || echo "nothing to push"

@@ -12,7 +12,7 @@ from engine import FPS, _norm  # noqa: E402
 from modern import ModernReel, MOOD_REST  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(HERE))
-RDIR = os.path.join(ROOT, "remotion")
+RDIR = os.path.join(ROOT, "remotion_editorial")
 MOUTHS = {"closed", "smile", "smirk", "A", "O", "E", "MBP"}
 
 

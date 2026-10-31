@@ -1,0 +1,25 @@
+{
+ "voiceover": "[conversational] You're using ChatGPT like Google, and that's why the answers feel so generic.\n\n[amused] Most people type five words and hope. Here's what actually works.\n\n[confident] Step one: tell it who it is. Say, act as a senior marketer. Step two: give it context, who it's for and what you need. Step three: ask it to ask you questions first.\n\n[curious] Try this: before you answer, ask me 3 questions about my goal. That one line changes everything.\n\n[serious] The catch? It takes 30 seconds longer. Totally worth it.\n\n[playful] What do you use ChatGPT for the most? Tell me below. And send this to the friend who still types one-line prompts.",
+ "tag": "CHATGPT",
+ "keywords": ["ChatGPT", "Google", "generic", "senior", "marketer", "context", "questions", "goal", "catch"],
+ "scenes": [
+  {"at": "You're using", "tint": "red", "react": [{"at": "like Google,", "mood": "smirk"}], "elements": [
+   {"type": "app", "at": "You're using", "name": "ChatGPT", "label": "YOUR HABIT", "ill": "laptop", "color": "green"},
+   {"type": "vs", "at": "like Google,", "left": {"label": "HOW IT'S BUILT", "value": "CHAT"}, "right": {"label": "HOW YOU USE IT", "value": "SEARCH", "at": "like Google,", "color": "red"}},
+   {"type": "pill", "at": "so generic.", "text": "GENERIC ANSWERS", "color": "red", "outline": true}]},
+  {"at": "Most people", "tint": "red", "elements": [
+   {"type": "before_after", "at": "Most people", "left": {"label": "WHAT MOST PEOPLE TYPE", "text": "write an instagram caption"}, "right": {"label": "WHAT WORKS", "text": "Act as a senior marketer. Write 3 captions for my bakery's new cake, playful tone.", "at": "actually works."}}]},
+  {"at": "Step one:", "react": [{"at": "Step one:", "mood": "neutral", "point": true}], "elements": [
+   {"type": "label", "at": "Step one:", "text": "THE 3-STEP PROMPT"},
+   {"type": "steps", "at": "Step one:", "items": [{"text": "GIVE IT A ROLE", "at": "Step one:", "ill": "light_bulb"}, {"text": "ADD CONTEXT", "at": "Step two:", "ill": "memo"}, {"text": "LET IT ASK FIRST", "at": "Step three:", "ill": "speech_balloon"}]}]},
+  {"at": "Try this:", "tint": "cold", "react": [{"at": "changes everything.", "mood": "serious", "point": true}], "elements": [
+   {"type": "label", "at": "Try this:", "text": "COPY THIS LINE"},
+   {"type": "prompt", "at": "before you", "app": "CHATGPT", "text": "Before you answer, ask me 3 questions about my goal.", "send_at": "That one"}]},
+  {"at": "The catch?", "tint": "green", "elements": [
+   {"type": "stat_row", "cards": [{"label": "EXTRA TIME", "value": "30s", "at": "30 seconds", "color": "gold"}, {"label": "RESULT", "value": "WORTH IT", "at": "Totally worth", "color": "green", "glow": true}]}]},
+  {"at": "What do", "react": [{"at": "Tell me", "mood": "smirk"}], "elements": [
+   {"type": "headline", "at": "What do", "text": "YOUR #1 USE?", "size": "l", "ill": "speech_balloon", "sub": "COMMENT BELOW", "sub_at": "Tell me"}]}
+ ],
+ "cta": {"at": "send this", "line1": "Send this to", "line1_at": "send this", "line2": "the one-line prompter", "line2_at": "one-line prompts."},
+ "endcard": {"title": "Saved it?", "terminal": "> prompt.upgraded · 3 steps"}
+}
