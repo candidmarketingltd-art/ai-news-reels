@@ -1,0 +1,425 @@
+{
+ "voiceover": "[conversational] Stop letting ChatGPT tell you every idea is great.\n\nOpenAI actually rolled back an update in April 2025 because it was \"overly supportive but disingenuous.\" It can still agree too easily.\n\nHere's the fix. On web, click your profile icon, bottom-left, then Settings, Personalization. On mobile, it's Settings, Customize ChatGPT. Turn \"Enable customization\" on.\n\n[confident] Paste this into the Custom Instructions field: \"Be direct. Start with the biggest weakness. Point out flaws and risks. Skip the flattery. Disagree only when warranted.\" Hit save. Free plan limit is 1,500 characters.\n\nBonus: same page, set \"Base style and tone\" to Candid.\n\n[serious] Honest catch: it helps, but it doesn't fix everything. ChatGPT can still cave when you push back, so verify important stuff. Also check Memory, because an old \"be encouraging\" memory can fight your instruction.\n\n[playful] Has ChatGPT ever called your bad idea brilliant? Tell me below.\n\nSend this to the friend who thinks every ChatGPT answer is genius.",
+ "title": "STOP THE YES-MAN",
+ "ig_caption": "Stop letting ChatGPT tell you every idea is great.\n✅ Settings > Personalization (mobile: Customize ChatGPT)\n✅ Turn \"Enable customization\" on\n✅ Paste a short anti-flattery prompt into Custom Instructions and save\n✅ Bonus: set \"Base style and tone\" to Candid\nHas ChatGPT ever called your bad idea brilliant? Tell me below 👇\nSave this for later\nFollow @ihackgrowth for daily AI & tech hacks",
+ "hashtags": [
+  "#AItools",
+  "#AIhacks",
+  "#ChatGPT",
+  "#CustomInstructions",
+  "#PromptEngineering",
+  "#OpenAI",
+  "#TechTips",
+  "#productivity"
+ ],
+ "tag": "CHATGPT",
+ "keywords": [
+  "ChatGPT",
+  "OpenAI",
+  "disingenuous",
+  "fix",
+  "Personalization",
+  "customization",
+  "direct",
+  "weakness",
+  "flaws",
+  "risks",
+  "flattery",
+  "Candid",
+  "verify",
+  "Memory",
+  "brilliant",
+  "genius"
+ ],
+ "scenes": [
+  {
+   "at": "Stop letting",
+   "tint": "red",
+   "react": [
+    {
+     "at": "every idea",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "title_slam",
+     "at": "Stop letting",
+     "text": "STOP",
+     "sub": "THE FLATTERY",
+     "color": "red"
+    },
+    {
+     "type": "pill",
+     "at": "idea is great.",
+     "text": "\"EVERY IDEA IS GREAT\"",
+     "color": "red",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "OpenAI actually",
+   "tint": "red",
+   "react": [
+    {
+     "at": "rolled back",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "OpenAI actually",
+     "text": "OPENAI"
+    },
+    {
+     "type": "headline",
+     "at": "rolled back",
+     "text": "UPDATE ROLLED BACK",
+     "size": "m",
+     "ill": "warning",
+     "sub": "OVERLY SUPPORTIVE",
+     "sub_at": "supportive but",
+     "sub_color": "red"
+    },
+    {
+     "type": "stat_row",
+     "at": "April 2025",
+     "cards": [
+      {
+       "label": "ROLLED BACK",
+       "value": "2025",
+       "sub": "APRIL",
+       "color": "gold",
+       "at": "April 2025"
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "at": "agree too easily.",
+     "text": "STILL AGREES TOO EASILY",
+     "color": "red",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "Here's the fix.",
+   "react": [
+    {
+     "at": "On web,",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "app",
+     "at": "Here's the fix.",
+     "name": "ChatGPT",
+     "label": "THE FIX · WEB",
+     "ill": "laptop",
+     "sub": "FREE · CUSTOM INSTRUCTIONS",
+     "sub_at": "On web,",
+     "color": "green"
+    },
+    {
+     "type": "steps",
+     "at": "profile icon,",
+     "items": [
+      {
+       "text": "PROFILE ICON · BOTTOM-LEFT",
+       "at": "profile icon,",
+       "ill": "bust_in_silhouette"
+      },
+      {
+       "text": "SETTINGS",
+       "at": "then Settings,",
+       "ill": "gear"
+      },
+      {
+       "text": "PERSONALIZATION",
+       "at": "Personalization.",
+       "ill": "control_knobs"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "On mobile,",
+   "elements": [
+    {
+     "type": "label",
+     "at": "On mobile,",
+     "text": "ON MOBILE"
+    },
+    {
+     "type": "toggle",
+     "at": "Customize ChatGPT.",
+     "text": "Enable customization",
+     "path": "SETTINGS › CUSTOMIZE CHATGPT",
+     "to": "on",
+     "flip_at": "Turn"
+    }
+   ]
+  },
+  {
+   "at": "Paste this into",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "Skip the flattery.",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "Paste this into",
+     "text": "CUSTOM INSTRUCTIONS"
+    },
+    {
+     "type": "prompt",
+     "at": "Instructions field:",
+     "app": "CUSTOM INSTRUCTIONS",
+     "text": "Be direct. Start with the biggest weakness. Point out flaws and risks. Skip the flattery.",
+     "send_at": "Hit save."
+    }
+   ]
+  },
+  {
+   "at": "Free plan limit",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "stat_row",
+     "at": "Free plan limit",
+     "cards": [
+      {
+       "label": "FREE PLAN",
+       "value": "FREE",
+       "color": "green",
+       "at": "Free plan limit"
+      },
+      {
+       "label": "CHARACTER LIMIT",
+       "value": "1,500",
+       "sub": "CHARACTERS",
+       "color": "gold",
+       "glow": true,
+       "at": "1,500 characters."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Bonus: same page,",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Bonus: same page,",
+     "text": "BONUS · SAME PAGE"
+    },
+    {
+     "type": "stat_row",
+     "at": "to Candid.",
+     "cards": [
+      {
+       "label": "BASE STYLE AND TONE",
+       "value": "CANDID",
+       "color": "blue",
+       "glow": true,
+       "ill": "speaking_head",
+       "at": "to Candid."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Honest catch:",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Honest catch:",
+     "text": "HONEST CATCH"
+    },
+    {
+     "type": "strike_list",
+     "at": "it helps,",
+     "items": [
+      {
+       "text": "IT HELPS",
+       "at": "it helps,",
+       "strike": false
+      },
+      {
+       "text": "FIXES EVERYTHING",
+       "at": "doesn't fix everything.",
+       "strike": true
+      },
+      {
+       "text": "HOLDS WHEN YOU PUSH",
+       "at": "still cave",
+       "strike": true
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "at": "verify important",
+     "text": "VERIFY IMPORTANT STUFF",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "Also check Memory,",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "headline",
+     "at": "Also check Memory,",
+     "text": "CHECK MEMORY",
+     "size": "l",
+     "ill": "brain"
+    },
+    {
+     "type": "pill",
+     "at": "an old",
+     "text": "OLD: BE ENCOURAGING",
+     "color": "red",
+     "outline": true
+    },
+    {
+     "type": "pill",
+     "at": "can fight",
+     "text": "FIGHTS YOUR INSTRUCTION",
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "at": "Has ChatGPT ever",
+   "react": [
+    {
+     "at": "bad idea brilliant?",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "headline",
+     "at": "Has ChatGPT ever",
+     "text": "BAD IDEA = BRILLIANT?",
+     "size": "l",
+     "ill": "speech_balloon",
+     "sub": "COMMENT BELOW",
+     "sub_at": "Tell me below."
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "Send this to",
+  "line1": "Send this to",
+  "line1_at": "Send this to",
+  "line2": "the genius believer",
+  "line2_at": "answer is genius."
+ },
+ "endcard": {
+  "title": "Saved it?",
+  "terminal": "> flattery.disabled · candid mode on"
+ },
+ "style": "hisaab",
+ "topic": "Stop ChatGPT from flattering you: set a Custom Instruction so it pushes back, points out weak spots and gives honest feedback instead of 'You're absolutely right!'",
+ "pick": {
+  "index": 35,
+  "topic": "Stop ChatGPT from flattering you: set a Custom Instruction so it pushes back, points out weak spots and gives honest feedback instead of 'You're absolutely right!'",
+  "tool": "ChatGPT Custom Instructions (free)",
+  "format": "mistake",
+  "angle": "Stop using ChatGPT like a yes-man: it's been telling you your ideas are great. Fix it in 30 seconds.",
+  "why": "752K views, 21.3K likes and 19.5K comments (about 2.6% comment-to-view, the strongest ratio in the list) in 3 weeks. It's a free setting anyone can change today, it takes 3 steps (open settings, paste the instruction, test it on your own work), and the contrarian hook drives comments."
+ },
+ "inspired_by": {
+  "url": "https://www.instagram.com/p/DeMf7VIq7zD/",
+  "owner": "agenticabhay.ai",
+  "plays": 752776,
+  "likes": 21300,
+  "comments": 19563
+ },
+ "research": {
+  "verdict": "adjust",
+  "tool": "ChatGPT Custom Instructions (Settings > Personalization > Custom Instructions), optionally combined with the Personalization settings 'Base style and tone: Candid'",
+  "availability": "Free on all plans, on web, desktop, iOS and Android. Free and Go plans get 1,500 characters. Plus, Pro, Business, Enterprise and Education plans get 5,000 characters. No region limit was found. The old 2023 'beta, not in UK/EU' status is outdated.",
+  "steps": [
+   "Web/desktop: click your profile icon (bottom-left), then Settings > Personalization. (Some tutorials say 'Customize ChatGPT' on web, but the OpenAI help page says Personalization.)",
+   "Mobile (iOS/Android): open Settings > Customize ChatGPT. The OpenAI help page uses this label for mobile.",
+   "Make sure the 'Enable customization' toggle is ON.",
+   "Paste your anti-flattery text into the 'Custom Instructions' field. Stay under 1,500 characters on Free/Go.",
+   "Save. OpenAI's GPT-5.1 post says changes to custom instructions used to apply only to chats started afterward. Its personality help page says a personality change applies to all chats, including existing ones. To be safe, test in a new chat.",
+   "Optional extra: on the same Personalization page, set 'Base style and tone' to 'Candid'. Tech outlets describe Candid as direct, honest feedback with next steps. The Characteristics (Warm, Enthusiastic, Headers & Lists, Emojis) can each be set to More, Default or Less.",
+   "Sample instruction for the writer (our own wording, not from a source): 'Be direct and critical. Don't validate my ideas just because I'm confident. Start with the biggest weakness. Point out flaws, risks and unchecked assumptions. No openers like \"Great question\" or \"You're absolutely right\". If I push back, don't change your answer unless I give new evidence.' This follows the structure of anti-sycophancy prompts published by TransferLLM and Knott."
+  ],
+  "facts": [
+   "Custom instructions character limit: Free and Go users can save up to 1,500 characters. Plus, Pro, Enterprise, Business and Education users can save up to 5,000 characters (OpenAI Help Center).",
+   "OpenAI rolled back a GPT-4o update in late April 2025 because it was 'overly supportive but disingenuous' (OpenAI, 'Sycophancy in GPT-4o'). The update was deployed on April 25, 2025 and rolled back by April 29, 2025.",
+   "The current 'Base style and tone' presets are Default, Professional, Friendly, Candid, Quirky, Efficient and Cynical, as of October 2026. 'Nerdy' was removed in mid-March 2026 (geekblog.net, lilachbullock.com). Older sources still list 'Nerdy' and the old names Cynic/Robot/Listener/Nerd. Use 'Cynical' and 'Candid', not the old names.",
+   "OpenAI's help page describes Candid as 'Delivers blunt help with wit'. Media descriptions of Candid include 'direct, honest feedback with next steps'.",
+   "The Characteristics controls (Warm, Enthusiastic, Headers & Lists, Emojis) can be set to More, Less or Default. TechCrunch reported them in December 2025.",
+   "Personality presets don't change what ChatGPT can do or its safety rules; they only change tone (OpenAI Help Center).",
+   "The word 'seventeen' (S-E-V-E-N-T-E-E-N) has 4 E's, so the transcript's first answer ('four') is correct and the caved-in answer ('three') is wrong. This is a real example of sycophancy, but the exchange can't be verified as a real recent ChatGPT run. Present it as 'an example', or recreate it yourself on screen.",
+   "A 2026 arXiv study of user experiences found that users employed explicit constraints, positive directives and neutral language in custom instructions. It also found that how well custom instructions work depends largely on the wording (arXiv 2601.10467)."
+  ],
+  "do_not_claim": [
+   "'Never Agree' mode. No such official mode exists. It is only a custom prompt that nudges tone, and a prompt that makes the AI never agree would be bad advice.",
+   "'Brutally honest', 'unbiased' or 'reality-based' feedback is guaranteed. These are unverified marketing claims. A custom instruction changes tone and behavior but doesn't make the model factually correct.",
+   "That it fixes sycophancy permanently or 100%. No source supports this.",
+   "That it's a 'secret' trick. OpenAI itself offers custom instructions and personality presets, and tech outlets have covered them widely. The prompt is also not hidden behind a 'comment PROMPT' gate.",
+   "That it makes ChatGPT better at 'productivity next level'. This is vague and unverified.",
+   "The viral '17 spelling' demo as proof. It is an illustration only; we found no source showing it happens with current models.",
+   "Plan or limit claims such as 'unlimited text'. Free accounts are limited to 1,500 characters.",
+   "The older menu path 'Customize ChatGPT' on web, and the old toggle 'Enable custom instructions for new chats' or the two-box layout ('What would you like ChatGPT to know about you?'). Some older tutorials still use them. The current OpenAI help page uses 'Personalization', 'Enable customization' and a 'Custom Instructions' field.",
+   "Telling viewers that the Nerdy/Cynic/Robot/Listener presets exist under those names."
+  ],
+  "criticism": [
+   "Overcorrection risk: after OpenAI's fix, Steven Adler's tests found ChatGPT 'isn't as sycophantic as before' but had a contrarian streak. A 'push back on everything' instruction can swing the model toward needless disagreement, so tell it to be critical only where it's warranted.",
+   "Conflicts with other settings: custom instructions, saved memories and personality can override each other. Komando says a past 'be supportive/encouraging' instruction or memory can water down a Candid setting. Check Settings > Personalization > Memory and delete anything that contradicts your instruction.",
+   "Wording matters: the arXiv study says effectiveness depends largely on the linguistic techniques used, so a vague 'be honest' may not be enough.",
+   "Long or crowded instruction boxes: one source (prompt-architects.com) warns that a rule buried at the end of a full box competes with everything above it. Free/Go users only have 1,500 characters, so keep it short.",
+   "The model can still cave when you push back. Sycophancy is a known pattern: if you push back on a correct answer, ChatGPT may revise it. An instruction reduces this but isn't a guarantee. Still verify important facts yourself.",
+   "Mental-health or personal-advice use: OpenAI's rollback examples included validation of harmful decisions (e.g. a user stopping medication). Don't present this trick as a substitute for professional advice."
+  ],
+  "sources": [
+   "https://help.openai.com/en/articles/8096356-chatgpt-custom-instructions",
+   "https://help.openai.com/en/articles/11899719-customizing-your-chatgpt-personality",
+   "https://openai.com/index/sycophancy-in-gpt-4o/",
+   "https://openai.com/index/gpt-5-1/",
+   "https://techcrunch.com/2025/04/29/openai-rolls-back-update-that-made-chatgpt-too-sycophant-y/",
+   "https://techcrunch.com/2025/12/20/openai-allows-users-to-directly-adjust-chatgpts-warmth-and-enthusiasm/",
+   "https://www.komando.com/tips/artificial-intelligence/%F0%9F%8E%9A%EF%B8%8F-these-settings-make-chatgpt-stop-sounding-like-a-cheerleader/",
+   "https://www.lilachbullock.com/chatgpt-characteristics/",
+   "https://geekblog.net/how-to-guides/chatgpt-comes-with-personality-presets-now-and-3-other-upgrades-you-might-have-missed/",
+   "https://www.clear-eyed.ai/p/is-chatgpt-actually-fixed-now",
+   "https://arxiv.org/pdf/2601.10467",
+   "https://www.knott.cam/12-custom-instructions-for-chatgpt-claude-other-llms/",
+   "https://transferllm.com/blog/how-to-get-chatgpt-to-stop-agreeing-with-you-prompts-settings-and-strategies-that-work/"
+  ],
+  "notes": "The trick is real and free, so the topic is OK. The reel's 'Never Agree' framing and its 'secret prompt in comments' hook are exaggerated, so adjust the angle. (1) Menu names: web/desktop is Settings > Personalization. Mobile is Settings > Customize ChatGPT. Either way, check that 'Enable customization' is ON. (2) The reel makes a good visual hook: ask 'how many E's in seventeen?' (the answer is 4), push back, and show whether it caves. Run it live and don't promise the result, because model behavior varies. (3) The newer built-in option, Personalization > Base style and tone > Candid (or Cynical for a sharper edge), takes 10 seconds and needs no prompt. Mention it as a bonus, because it changes how ChatGPT talks to you. OpenAI says custom instructions or memory may override the personality, so keep them consistent. (4) The preset list changes often (Nerdy was removed in March 2026), so say 'check the dropdown' and don't list every preset. (5) The reel's exact prompt was never shown, so give your own short prompt and tell viewers to tweak it. I couldn't find a primary-source study quantifying how much a custom instruction reduces sycophancy, so avoid statistics such as 'X% more honest'. One source (webscraft.org) claims 'Candid + Less Warmth' finds 35–45% more problems; it is not verified, so don't use it. (6) Honest angle: the April 2025 rollback shows the problem is real and acknowledged by OpenAI, and OpenAI's blog post itself said earlier versions had 'more balanced behavior'. Don't say ChatGPT is still as sycophantic as that update. Say it can still agree too easily, and that the tweak helps but doesn't fully eliminate this.",
+  "_searched": 5
+ },
+ "models": {
+  "pick": "claude-sonnet-5-5",
+  "research": "claude-sonnet-5-5",
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 1
+}
