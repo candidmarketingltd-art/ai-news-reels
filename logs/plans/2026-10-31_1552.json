@@ -1,0 +1,445 @@
+{
+ "voiceover": "[excited, conversational] Wait — OPay raised $304 million in a US IPO, and its shares never traded. [curious] The Nigerian fintech was valued at about $4 billion. Now Reuters says it pulled the IPO after a regulatory inquiry.\n\n[amused] Meanwhile in India, Jio Platforms posted its first results since listing. Profit is up 13.7%, and revenue is up 11.4% to Rs 40,475 crore. Its shares closed nearly 27% above the issue price earlier this week.\n\n[serious] And Walmart is reportedly investigating Flipkart employees over alleged kickbacks of more than ₹150 crore, according to Inc42. That raises governance questions for Flipkart.\n\n[playful] And in cars, Stellantis shares surged, according to the WSJ. They'd fallen more than 60% this year, but the new Ram 1500 Rumble Bee sold out within 24 hours.\n\n[confident] Big money, big questions. Watch what happens after the headline.\n\n[playful, warm] Send this to the friend who thinks every IPO is a sure win.",
+ "ig_caption": "A $4B fintech raised $304M in a US IPO, and its shares never traded 👀\nOPay pulls its IPO, Jio posts its first results since listing, Walmart probes Flipkart staff, and Stellantis shares surge.\nSend this to the friend who thinks every IPO is a sure win.\nFollow @ihackgrowth for daily AI & tech news\nSources: Premium Times Nigeria, YourStory, MotorTrend",
+ "hashtags": [
+  "#TechNews",
+  "#Business",
+  "#OPay",
+  "#JioPlatforms",
+  "#Flipkart",
+  "#Walmart",
+  "#Stellantis",
+  "#IPO"
+ ],
+ "numbers": [
+  "$304 million",
+  "about $4 billion",
+  "13.7%",
+  "11.4%",
+  "Rs 40,475 crore",
+  "nearly 27%",
+  "₹150 crore",
+  "more than 60%",
+  "24 hours"
+ ],
+ "media_hints": [
+  {
+   "story": 1,
+   "company": "OPay",
+   "domain": "opayweb.com",
+   "broll": [
+    "stock exchange trading floor",
+    "mobile payment phone"
+   ]
+  },
+  {
+   "story": 2,
+   "company": "Jio Platforms",
+   "domain": "jio.com",
+   "broll": [
+    "mobile network tower",
+    "smartphone screen scrolling"
+   ]
+  },
+  {
+   "story": 3,
+   "company": "Flipkart",
+   "domain": "flipkart.com",
+   "broll": [
+    "warehouse packages conveyor",
+    "business documents desk"
+   ]
+  },
+  {
+   "story": 4,
+   "company": "Stellantis",
+   "domain": "stellantis.com",
+   "broll": [
+    "pickup truck driving",
+    "car factory assembly line"
+   ]
+  }
+ ],
+ "cold_open": [
+  {
+   "text": "$304M IPO",
+   "at": "OPay raised $304"
+  },
+  {
+   "text": "NEVER TRADED",
+   "at": "shares never traded."
+  }
+ ],
+ "scenes": [
+  {
+   "at": "The Nigerian fintech",
+   "mood": "neutral",
+   "point": true,
+   "tint": "red",
+   "card": {
+    "type": "news",
+    "tag": "1/4 · BUSINESS",
+    "tag_at": "The Nigerian fintech",
+    "title": "SoftBank-backed OPay pulls its $304M US IPO",
+    "at": "The Nigerian fintech",
+    "source": "via Reuters",
+    "source_at": "Nigerian fintech was"
+   }
+  },
+  {
+   "at": "valued at about",
+   "mood": "shocked",
+   "point": false,
+   "tint": "red",
+   "card": {
+    "type": "big_number",
+    "label": "OPay valuation",
+    "value": "$4B",
+    "value_at": "$4 billion.",
+    "note": "about",
+    "note_at": "$4 billion."
+   }
+  },
+  {
+   "at": "Now Reuters says",
+   "mood": "serious",
+   "point": false,
+   "tint": "red",
+   "card": {
+    "type": "footage",
+    "media": "s1_broll1",
+    "at": "Now Reuters says",
+    "caption": "Pulled after an inquiry",
+    "caption_at": "a regulatory inquiry."
+   }
+  },
+  {
+   "at": "Meanwhile in India,",
+   "mood": "smirk",
+   "point": false,
+   "tint": "cold",
+   "card": {
+    "type": "news",
+    "tag": "2/4 · BUSINESS",
+    "tag_at": "Meanwhile in India,",
+    "title": "Jio Platforms posts its first results since listing",
+    "at": "Jio Platforms posted",
+    "source": "Jio Platforms results",
+    "source_at": "first results since"
+   }
+  },
+  {
+   "at": "Profit is up",
+   "mood": "neutral",
+   "point": true,
+   "tint": "green",
+   "card": {
+    "type": "big_number",
+    "label": "Jio profit",
+    "value": "13.7%",
+    "value_at": "up 13.7%,",
+    "note": "Revenue up 11.4%",
+    "note_at": "revenue is up",
+    "color": "green"
+   }
+  },
+  {
+   "at": "to Rs 40,475",
+   "mood": "neutral",
+   "point": true,
+   "tint": "green",
+   "card": {
+    "type": "counter",
+    "label": "Jio revenue",
+    "prefix": "Rs ",
+    "to": 40475,
+    "suffix": " cr",
+    "at": "to Rs 40,475",
+    "done_text": "Up 11.4%",
+    "done_at": "40,475 crore."
+   }
+  },
+  {
+   "at": "Its shares closed",
+   "mood": "shocked",
+   "point": false,
+   "tint": "green",
+   "card": {
+    "type": "percent",
+    "value": 27,
+    "at": "nearly 27% above",
+    "label": "Above issue price",
+    "label_at": "the issue price"
+   }
+  },
+  {
+   "at": "And Walmart is",
+   "mood": "serious",
+   "point": false,
+   "tint": "red",
+   "card": {
+    "type": "news",
+    "tag": "3/4 · BUSINESS",
+    "tag_at": "And Walmart is",
+    "title": "Walmart probes Flipkart staff over alleged ₹150 crore kickbacks",
+    "at": "investigating Flipkart employees",
+    "source": "via Inc42",
+    "source_at": "according to Inc42.",
+    "logo": "s3_logo"
+   }
+  },
+  {
+   "at": "That raises governance",
+   "mood": "serious",
+   "point": true,
+   "tint": "red",
+   "card": {
+    "type": "footage",
+    "media": "s3_broll2",
+    "at": "That raises governance",
+    "caption": "Governance questions",
+    "caption_at": "governance questions for"
+   }
+  },
+  {
+   "at": "And in cars,",
+   "mood": "smirk",
+   "point": false,
+   "tint": "green",
+   "card": {
+    "type": "news",
+    "tag": "4/4 · BUSINESS",
+    "tag_at": "And in cars,",
+    "title": "Stellantis shares surge on steady outlook and a Jeep and Ram push",
+    "at": "Stellantis shares surged,",
+    "source": "via WSJ",
+    "source_at": "according to the WSJ.",
+    "logo": "s4_logo"
+   }
+  },
+  {
+   "at": "They'd fallen more",
+   "mood": "serious",
+   "point": false,
+   "tint": "red",
+   "card": {
+    "type": "big_number",
+    "label": "Stellantis stock",
+    "value": "60%+",
+    "value_at": "more than 60%",
+    "note": "down this year",
+    "note_at": "60% this year,",
+    "color": "red"
+   }
+  },
+  {
+   "at": "but the new",
+   "mood": "neutral",
+   "point": true,
+   "tint": "green",
+   "beats": [
+    {
+     "at": "within 24 hours.",
+     "mood": "shocked",
+     "point": false
+    }
+   ],
+   "card": {
+    "type": "footage",
+    "media": "s4_broll1",
+    "at": "but the new",
+    "caption": "Sold out in 24 hours",
+    "caption_at": "within 24 hours."
+   }
+  },
+  {
+   "at": "Big money, big",
+   "mood": "neutral",
+   "point": true,
+   "beats": [
+    {
+     "at": "Watch what happens",
+     "mood": "smirk",
+     "point": true
+    }
+   ],
+   "card": {
+    "type": "title_slam",
+    "title": "BIG QUESTIONS",
+    "at": "big questions.",
+    "color": "red"
+   }
+  },
+  {
+   "at": "Send this to",
+   "mood": "smirk",
+   "point": false,
+   "tint": "green",
+   "card": {
+    "type": "cta",
+    "line1": "Send this to",
+    "line1_at": "Send this to",
+    "line2": "your IPO-hype friend",
+    "line2_at": "a sure win."
+   }
+  }
+ ],
+ "series_tag": "ROUNDUP.BIZ",
+ "title_line1": "OPay raised $304M",
+ "title_line2": "but *never traded*?",
+ "decision": {
+  "decision": "roundup",
+  "reason": "No single blockbuster is left uncovered (Binance, Alphabet and Apple are already posted), but four notable tech and business stories are fresh, so this is a roundup.",
+  "stories": [
+   {
+    "headline": "SoftBank-backed OPay pulls its $304M US IPO after a regulatory inquiry",
+    "importance": 7,
+    "why": "The Nigerian fintech was valued at about $4B, and its shares never traded after the raise. It is a rare IPO collapse for a big emerging-market fintech and is trending in Nigeria.",
+    "candidate_ids": [
+     "e148805e0c"
+    ]
+   },
+   {
+    "headline": "Jio Platforms' first results since listing: profit up 13.7%, revenue up 11.4% to Rs 40,475 crore",
+    "importance": 6,
+    "why": "This is the first report card for India's biggest telecom and digital company as a listed firm. User growth and higher ARPU drove the gains.",
+    "candidate_ids": [
+     "ede8f92814"
+    ]
+   },
+   {
+    "headline": "Walmart investigates Flipkart employees over alleged ₹150 crore in kickbacks",
+    "importance": 6,
+    "why": "A US retail giant is probing its biggest India e-commerce bet over alleged kickbacks, which raises governance questions for Flipkart.",
+    "candidate_ids": [
+     "95db43849f"
+    ]
+   },
+   {
+    "headline": "Stellantis shares surge on a steady outlook and a Jeep and Ram push",
+    "importance": 5,
+    "why": "The carmaker's Q3 results and plan to revive Jeep and Ram moved the stock sharply, a sign of how investors are reading the auto sector.",
+    "candidate_ids": [
+     "82aa6bbccb"
+    ]
+   }
+  ]
+ },
+ "sources": [
+  {
+   "story": "SoftBank-backed OPay pulls its $304M US IPO after a regulatory inquiry",
+   "urls": [
+    "https://www.reuters.com/legal/transactional/softbank-backed-opay-raises-304-million-us-ipo-2026-10-30/",
+    "https://www.bloomberg.com/news/articles/2026-10-30/opay-shares-fail-to-trade-after-raising-304-million-in-us-ipo",
+    "https://www.premiumtimesng.com/news/more-news/921617-opay-lists-on-nyse-raises-304m-in-ipo-at-4-billion-valuation.html"
+   ]
+  },
+  {
+   "story": "Jio Platforms' first results since listing: profit up 13.7%, revenue up 11.4% to Rs 40,475 crore",
+   "urls": [
+    "https://yourstory.com/2026/10/jio-platforms-first-post-listing-results-user-growth-higher-arpu-drive-137-pc-profit-rise-in-q2"
+   ]
+  },
+  {
+   "story": "Walmart investigates Flipkart employees over alleged ₹150 crore in kickbacks",
+   "urls": [
+    "https://inc42.com/buzz/walmart-probes-flipkart-employees-over-alleged-%e2%82%b9150-cr-kickbacks-report/"
+   ]
+  },
+  {
+   "story": "Stellantis shares surge on a steady outlook and a Jeep and Ram push",
+   "urls": [
+    "https://www.wsj.com/business/stellantis-confirms-guidance-as-turnaround-progress-continues-a098f805",
+    "https://www.stellantis.com/en/news/press-releases/2026/october/third-quarter-2026-financial-results",
+    "https://www.motortrend.com/news/stellantis-ram-jeep-third-quarter-earnings-strategy"
+   ]
+  }
+ ],
+ "media": [
+  {
+   "id": "s1_broll1",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-31_1552/s1_broll1.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: stock exchange trading floor (8s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s1_broll2",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-31_1552/s1_broll2.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: mobile payment phone (8s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s2_broll1",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-31_1552/s2_broll1.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: mobile network tower (8s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s2_broll2",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-31_1552/s2_broll2.rgb",
+   "frames": 179,
+   "credit": "Video: Pexels",
+   "desc": "stock video: smartphone screen scrolling (6s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s3_logo",
+   "kind": "logo",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-31_1552/s3_logo.png",
+   "credit": "",
+   "desc": "Flipkart logo"
+  },
+  {
+   "id": "s3_broll1",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-31_1552/s3_broll1.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: warehouse packages conveyor (8s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s3_broll2",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-31_1552/s3_broll2.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: business documents desk (8s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s4_logo",
+   "kind": "logo",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-31_1552/s4_logo.png",
+   "credit": "",
+   "desc": "Stellantis logo"
+  },
+  {
+   "id": "s4_broll1",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-31_1552/s4_broll1.rgb",
+   "frames": 239,
+   "credit": "Video: Pexels",
+   "desc": "stock video: pickup truck driving (8s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s4_broll2",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-31_1552/s4_broll2.rgb",
+   "frames": 240,
+   "credit": "Video: Pexels",
+   "desc": "stock video: car factory assembly line (8s) — generic, NOT the company's own footage"
+  }
+ ],
+ "topic": "tech",
+ "models": {
+  "select": "claude-sonnet-5-5",
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 10
+}
