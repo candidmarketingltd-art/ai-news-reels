@@ -10,6 +10,13 @@ A Remotion renderer turns your JSON into a 1080x1920 reel in a fixed house style
 
 ## Editing principles (this is what makes the series feel premium)
 - Something new lands every 1.5–4 seconds. A scene usually builds 2–4 elements one after another, each on its own spoken word.
+- SHOW, DON'T LIST — think like a tutorial editor: what would make a viewer instantly "get it"? Whenever the voice walks through
+  an app ("click your profile, then Settings, then Personalization", "open the Tools menu", "tap Share"), use a `screen`
+  walkthrough: a recreation of the app (web browser or phone) where a cursor clicks each control at the moment it's named, the
+  camera pushes in, and the next screen appears. Recreate the real layout and EXACT labels from the RESEARCH NOTES (`ui`), with
+  believable neighbouring items. Never use `steps` cards for an in-app path — `steps` is for non-UI advice.
+- Use `footage` (AVAILABLE MEDIA) for real-world context: the tool's official image, or stock video that matches the moment
+  (someone frustrated at a laptop, a phone buzzing). Stock clips are generic — captions must not claim they show the product.
 - SHOW THE TUTORIAL: when a prompt is spoken, show it typing in a `prompt` box; when a shortcut is said, `keys`; a setting →
   `toggle`; the tool's name → `app`; a bad vs good way → `before_after`; the steps → `steps` (one step lands per spoken step).
 - Whenever a number is spoken, it is on screen at that exact word. Big claims/reveals get a `title_slam` or `big_number`.
@@ -36,10 +43,27 @@ A scene's `at` is the first words of that scene; its elements can start on the s
   The first scene is the cold open (starts at 0 s): punchy — e.g. a `title_slam` or a `pill` + `headline` on the hook words.
 - `cta`: `{ "at": first words of the share line, "line1": e.g. "Send this to", "line1_at", "line2": who (short), "line2_at" }`.
   A paper plane flies in automatically; Rohan points.
+- `manual_request` (optional, RARE): only if the reel genuinely can't be understood without a REAL screen recording or real
+  footage that the recreation can't fake (e.g. showing an actual AI-generated video/image result, a real app animation, a physical
+  gadget) — `{"what": "exactly what to record, shot by shot, with the steps", "why": "one line"}`. If set, the reel is held
+  until the owner uploads the recording. Prefer `screen` recreations; most settings/menus/prompts never need this.
 - `endcard`: `{ "title": e.g. "Saved it?", "terminal": e.g. "> prompt.saved · 2 hours back" }` (short, lowercase terminal line).
 
 ## Element types (every element has `type` and `at`; colors: gold, white, blue, red, green, muted)
 Tutorial elements:
+- `screen` {device: "web"|"phone", theme: "dark"|"light", app: "ChatGPT", url?: "chatgpt.com", steps: [step, ...]} — the app
+  walkthrough; it usually fills the scene alone (one `label` above is fine). It can span several scenes' worth of voice (up to ~6 steps).
+  step = {"at": words when this screen appears, "view": view, "action"?: {"kind": "click"|"type"|"toggle"|"point", "target": label,
+  "text"?: text typed for "type", "at": words when the click/typing/flip happens}}.
+  view = {"sidebar"?: [labels] (web left sidebar; on phone it's the slide-out drawer), "profile"?: name or initial,
+  "chat"?: [{"from": "user"|"ai", "text"}] (max 3, short), "input"?: "" or placeholder text (the message box), "title"?: text,
+  "menu"?: {"items": [labels], "anchor": "profile"|"top"} (popup menu / phone bottom sheet),
+  "panel"?: {"title", "nav"?: [labels] (web settings tabs), "active"?: label, "back"?: true (phone), "rows": [{"label",
+  "kind": "toggle"|"arrow"|"value"|"field"|"button", "value"?, "on"?: bool}]}}.
+  `target` must be a label that exists in that step's view (a sidebar item, the profile name, a menu item, a nav tab, a row label,
+  or "input"). Build each next view to show the result of the previous click (menu opens → settings panel → the right tab).
+  "type" on a `field` row or "input" types `text` live; "toggle" flips a toggle row; "point" just highlights.
+- `footage` {media: id from AVAILABLE MEDIA, caption?: ≤ 28 chars, tall?: bool} — a real clip/image in a glass frame.
 - `app` {name, label?, ill?, sub?, sub_at?, color?}: the tool card (e.g. name "ChatGPT", sub "FREE · WEB + APP", ill "laptop").
 - `prompt` {text (≤ 110 chars, exactly the prompt said or a faithful short version), app? (e.g. "CHATGPT"), send_at?, color?}:
   a chat box where the prompt types itself; the send button lights up at `send_at`.
@@ -62,8 +86,14 @@ General elements:
 Layout is automatic: elements stack top to bottom in the order you list them; keep a scene to what fits (roughly ≤ 3 big elements;
 a `prompt` or `before_after` usually wants to be alone or with one small label/pill).
 
+## AVAILABLE MEDIA
+Listed in the user message with ids. Use only those ids in `footage.media`.
+
 ## Illustrations (`ill` on cards/steps/headline/big_number/vs-right/app, or `illustration.name`) — use ONLY these exact names
 {ILLUSTRATIONS}
+
+## Example of a `screen` walkthrough scene (format only)
+{SCREEN_EXAMPLE}
 
 ## Example of an approved edit (format only — the content is made up)
 {EXAMPLE}

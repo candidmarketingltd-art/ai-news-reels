@@ -9,7 +9,7 @@ from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
-from pipeline import tutorial, voice  # noqa: E402
+from pipeline import tutorial, voice, recordings  # noqa: E402
 from pipeline.render import remo  # noqa: E402
 from pipeline.run import post, _Tee  # noqa: E402
 
@@ -74,14 +74,35 @@ def main():
 
     covered = [c for c in _load(COVERED, []) if c.get("at", "") >= (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=30)).isoformat()]
     stamp = dt.datetime.now(IST).strftime("%Y-%m-%d_%H%M")
+    mdir = str(OUT / "media" / stamp)
+    plan, pending = None, None
     try:
-        plan = tutorial.make_plan([c["topic"] for c in covered[-40:]], skip_urls=[c.get("url") for c in covered])
+        # 1) a reel whose real recording the owner has uploaded goes first
+        for pend, rec in recordings.ready(mdir):
+            try:
+                pl = pend["plan"]
+                print(f"[4/6] re-editing '{pl['topic'][:80]}' around your recording", flush=True)
+                media = [rec] + tutorial.footage(pl, pl.get("research") or {}, mdir)
+                ed = tutorial.edit(pl, pl["pick"], pl.get("sources_text") or "", pl.get("research"), media,
+                                   note="The owner recorded a REAL video for this reel (media id `your_recording`). Show it with `footage` "
+                                        "(tall: true) for the moments it covers — it replaces any recreation of the same thing. Do not set manual_request.\n\n")
+                ed.pop("manual_request", None)
+                plan, pending = {**pl, **ed, "media": media}, pend
+                plan.pop("manual_request", None)
+                break
+            except Exception as e:
+                print(f"      couldn't use recording #{pend['issue']}: {str(e)[:200]}", flush=True)
+        # 2) otherwise a fresh topic (requests a recording if one is needed, then moves on)
+        if not plan:
+            plan = tutorial.make_plan([c["topic"] for c in covered[-40:]], skip_urls=[c.get("url") for c in covered]
+                                      + [json.loads(f.read_text()).get("plan", {}).get("inspired_by", {}).get("url") for f in recordings.PENDING.glob("*.json")],
+                                      workdir=mdir, on_manual=None if dry else recordings.request)
     except Exception as e:
         traceback.print_exc(); log("error", "", str(e)[:300]); sys.exit(1)
     ep = _load(EPISODE, {}).get("last", 0) + 1
     plan["episode"] = ep
     PLANS.mkdir(parents=True, exist_ok=True)
-    _save(PLANS / f"tutorial_{stamp}.json", plan)
+    _save(PLANS / f"tutorial_{stamp}.json", {k: v for k, v in plan.items() if k != "sources_text"})
 
     with tempfile.TemporaryDirectory() as wd:
         try:
@@ -103,6 +124,7 @@ def main():
             pid, link = post(mp4, caption, stamp)
         except Exception as e:
             traceback.print_exc(); log("publish_error", plan["topic"], str(e)[:300]); sys.exit(1)
+    if pending: recordings.done(pending, link)
     covered.append({"topic": plan["topic"], "url": plan["inspired_by"]["url"], "at": dt.datetime.now(dt.timezone.utc).isoformat()})
     _save(COVERED, covered)
     _save(EPISODE, {"last": ep})

@@ -150,7 +150,7 @@ def to_raw(mp4, raw):
     return os.path.getsize(raw) // (PANEL_W * PANEL_H * 3)
 
 
-def collect(hints, pack, workdir):
+def collect(hints, pack, workdir, raw=True):
     """hints: script writer's `media_hints` [{story, company, domain, broll: [...]}]; pack: news.fetch_articles() output.
     Returns the media list the video editor can use: [{id, kind, path, frames?, credit, desc}]."""
     os.makedirs(workdir, exist_ok=True)
@@ -177,10 +177,14 @@ def collect(hints, pack, workdir):
             try:
                 info = pexels_video(q, mp4, used)
                 if not info: continue
-                raw = mp4[:-4] + ".rgb"
-                frames = to_raw(mp4, raw)
+                if raw:
+                    rawp = mp4[:-4] + ".rgb"
+                    frames = to_raw(mp4, rawp)
+                else:
+                    rawp, frames = mp4, int(float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", mp4],
+                                                                 capture_output=True, text=True).stdout.strip() or 0) * FPS)
                 if frames < FPS * 2: continue
-                out.append({"id": f"s{n}_broll{k + 1}", "kind": "video", "path": raw, "frames": frames, "credit": "Video: Pexels",
+                out.append({"id": f"s{n}_broll{k + 1}", "kind": "video", "path": rawp, "mp4": mp4, "frames": frames, "credit": "Video: Pexels",
                             "desc": f"stock video: {q} ({frames / FPS:.0f}s) — generic, NOT the company's own footage"})
             except Exception as e:
                 print(f"      (media: pexels '{q}' failed: {str(e)[:80]})", flush=True)

@@ -194,14 +194,41 @@ def fact_check(text, sources):
 
 TYPES = {"pill": ["text"], "label": ["text"], "headline": ["text"], "stat_row": ["cards"], "big_number": ["value"], "split_bar": ["parts"],
          "vs": ["left", "right"], "arrow_pair": ["left", "right"], "strike_list": ["items"], "steps": ["items"], "title_slam": ["text"],
-         "illustration": ["name"], "prompt": ["text"], "keys": ["keys"], "toggle": ["text"], "app": ["name"], "before_after": ["left", "right"]}
+         "illustration": ["name"], "prompt": ["text"], "keys": ["keys"], "toggle": ["text"], "app": ["name"], "before_after": ["left", "right"],
+         "screen": ["steps"], "footage": ["media"]}
+
+VIEW_LABELS = lambda v: ([*(v.get("sidebar") or [])] + ([v["profile"]] if v.get("profile") else []) + (["input"] if "input" in v else [])
+                         + list((v.get("menu") or {}).get("items") or []) + list((v.get("panel") or {}).get("nav") or [])
+                         + [r.get("label", "") for r in (v.get("panel") or {}).get("rows") or []] + (["back"] if (v.get("panel") or {}).get("back") else []))
+
+
+def _norm_label(x):
+    return re.sub(r"[^a-z0-9]+", "", str(x).lower())
+
+
+def check_screen(e, bad):
+    steps = e.get("steps") or []
+    if not 1 <= len(steps) <= 7: bad.append("screen needs 1–7 steps"); return
+    if e.get("device") not in ("web", "phone"): bad.append("screen.device must be web or phone")
+    for k, st in enumerate(steps):
+        v = st.get("view")
+        if not isinstance(v, dict) or not v: bad.append(f"screen step {k + 1} needs a view"); continue
+        if "at" not in st: bad.append(f"screen step {k + 1} needs 'at'")
+        a = st.get("action")
+        if a:
+            labels = [_norm_label(x) for x in VIEW_LABELS(v)]
+            t = _norm_label(a.get("target"))
+            if not t or not any(t == l or l.startswith(t) or t.startswith(l) for l in labels if l):
+                bad.append(f"screen step {k + 1}: action target '{a.get('target')}' is not a label in that step's view ({', '.join(VIEW_LABELS(v))[:160]})")
+            if a.get("kind") not in ("click", "type", "toggle", "point"): bad.append(f"screen step {k + 1}: action.kind must be click/type/toggle/point")
+            if a.get("kind") == "type" and not a.get("text"): bad.append(f"screen step {k + 1}: type needs text")
 
 
 def _catalog():
     return json.loads((ROOT / "remotion" / "illustrations.json").read_text())
 
 
-def check_plan(d, voiceover, sources):
+def check_plan(d, voiceover, sources, media_ids=()):
     for k in ("scenes", "cta"):
         if not d.get(k): raise ValueError(f"missing '{k}'")
     cat = set(_catalog()); bad = []
@@ -217,6 +244,9 @@ def check_plan(d, voiceover, sources):
             if t == "illustration" and e.get("name") not in cat: bad.append(f"illustration '{e.get('name')}' is not in the list")
             if t == "keys" and not (isinstance(e.get("keys"), list) and 1 <= len(e["keys"]) <= 4): bad.append("keys needs 1–4 keys")
             if t == "prompt" and len(e.get("text", "")) > 120: bad.append("prompt text must be ≤ 120 characters")
+            if t == "screen": check_screen(e, bad)
+            if t == "footage" and e.get("media") not in media_ids:
+                bad.append(f"footage media '{e.get('media')}' is not in AVAILABLE MEDIA ({', '.join(media_ids) or 'none'})")
 
         def walk(o):
             if isinstance(o, dict):
@@ -243,20 +273,40 @@ def write(p, item, notes, tr):
     return _ask_json(SCRIPT_MODEL, sysp, user, lambda d: check_script(d, sources)), sources
 
 
-def edit(script, p, sources):
+def footage(script, notes, workdir, extra=()):
+    """Official image/logo of the tool + 2 Pexels clips for the writer's b-roll ideas (+ any of the owner's own recordings)."""
+    from pipeline import media
+    h = script.get("media_hints") or {}
+    if isinstance(h, list): h = h[0] if h else {}
+    out = list(extra)
+    try:
+        out += media.collect([{"story": 1, "company": notes.get("tool") or "", "domain": h.get("domain") or "", "broll": h.get("broll") or []}],
+                             [{"urls": notes.get("sources") or []}], workdir, raw=False)
+    except Exception as e:
+        print(f"      (footage step failed, continuing without: {str(e)[:150]})", flush=True)
+    return [m for m in out if m["kind"] in ("image", "video")]
+
+
+def edit(script, p, sources, notes=None, media=(), note=""):
     example = json.loads((ROOT / "prompts" / "tutorial_example.json").read_text(encoding="utf-8"))
     groups = {}
     for name, g in _catalog().items(): groups.setdefault(g, []).append(name)
     ill = "\n".join(f"- {g}: " + ", ".join(sorted(v)) for g, v in sorted(groups.items()))
     sysp = (ROOT / "prompts" / "tutorial_editor.md").read_text(encoding="utf-8").replace("{ILLUSTRATIONS}", ill) \
-        .replace("{EXAMPLE}", json.dumps(example, ensure_ascii=False))
-    user = (f"REEL TOPIC: {p['topic']} (tool: {p.get('tool', '')})\n\nVOICEOVER (already recorded — cue words must match it exactly):\n"
-            f"{script['voiceover']}\n\nReturn only the JSON.")
-    return _ask_json(EDIT_MODEL, sysp, user, lambda d: check_plan(d, script["voiceover"], sources), attempts=4)
+        .replace("{EXAMPLE}", json.dumps(example, ensure_ascii=False)) \
+        .replace("{SCREEN_EXAMPLE}", (ROOT / "prompts" / "tutorial_screen_example.json").read_text(encoding="utf-8"))
+    ids = [m["id"] for m in media]
+    menu = "\n".join(f"- {m['id']} ({m['kind']}): {m['desc']}" for m in media) or "- (none)"
+    ui = json.dumps((notes or {}).get("ui") or {}, ensure_ascii=False)
+    user = (f"REEL TOPIC: {p['topic']} (tool: {p.get('tool', '')})\n\nUI NOTES (for screen recreations): {ui}\n"
+            f"WHAT THE VIEWER SHOULD SEE: {(notes or {}).get('visuals', '')}\n\nAVAILABLE MEDIA:\n{menu}\n\n"
+            f"{note}VOICEOVER (already recorded — cue words must match it exactly):\n{script['voiceover']}\n\nReturn only the JSON.")
+    return _ask_json(EDIT_MODEL, sysp, user, lambda d: check_plan(d, script["voiceover"], sources, ids), attempts=4)
 
 
-def make_plan(recent_topics, skip_urls=()):
-    """Returns (plan, meta). Tries the picks in order until one survives research + fact-check."""
+def make_plan(recent_topics, skip_urls=(), workdir="out/media", on_manual=None):
+    """Returns the full plan. Tries the picks in order until one survives research + fact-check.
+    If the editor says a pick needs a real recording, on_manual(plan) files the request and the next pick is tried."""
     print("[1/6] top AI & tech reels", flush=True)
     items = [i for i in pool() if i["url"] not in set(skip_urls)]
     if not items: raise RuntimeError("no reels to learn from (Apify scrape empty)")
@@ -275,11 +325,15 @@ def make_plan(recent_topics, skip_urls=()):
         try:
             print("[4/6] script + edit", flush=True)
             script, sources = write(p, item, notes, tr)
-            plan = edit(script, p, sources)
+            media = footage(script, notes, workdir)
+            plan = edit(script, p, sources, notes, media)
         except FactCheckError as e:
             print(f"      couldn't write it cleanly ({str(e)[:200]}); next pick", flush=True); continue
-        full = {**script, **plan, "style": "hisaab", "topic": p["topic"], "pick": p,
+        full = {**script, **plan, "media": media, "sources_text": sources, "style": "hisaab", "topic": p["topic"], "pick": p,
                 "inspired_by": {k: item[k] for k in ("url", "owner", "plays", "likes", "comments")},
                 "research": {k: v for k, v in notes.items()}, "models": {"pick": SELECT_MODEL, "research": RESEARCH_MODEL, "script": SCRIPT_MODEL, "edit": EDIT_MODEL}}
+        if plan.get("manual_request") and on_manual:
+            print(f"      needs a real recording: {plan['manual_request'].get('why', '')[:160]} -> asking the owner, next pick", flush=True)
+            on_manual(full); continue
         return full
     raise RuntimeError("none of the 3 picks survived research and fact-checking")

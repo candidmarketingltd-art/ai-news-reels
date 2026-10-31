@@ -3,6 +3,7 @@ import { interpolate, spring, useCurrentFrame, random, Easing } from "remotion";
 import { COL, MONO, SANS, FPS, clamp, easeOut, fx, col, fit, Card, Pill, Mono, Big, Ill, Reveal } from "./lib";
 import { Object3D } from "./Object3D";
 import { TUTORIAL_SPECS } from "./Tutorial";
+import { SCREEN_SPECS } from "./Screen";
 
 /* All times are seconds (already resolved from cue words by the pipeline). Width of the content column is 940. */
 export const W = 940;
@@ -320,6 +321,7 @@ export const SPECS: Record<string, Spec> = {
 
   money_rain: { h: () => 0, R: () => null },
   ...TUTORIAL_SPECS,
+  ...SCREEN_SPECS,
 };
 
 /** falling ₹ notes over the whole frame (rendered at scene level, not in the stack) */

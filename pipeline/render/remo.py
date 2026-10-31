@@ -19,7 +19,7 @@ FPS = 30
 
 TYPES = {"pill", "label", "headline", "stat_row", "big_number", "split_bar", "dot_grid", "vs", "arrow_pair", "strike_list",
          "steps", "ledger", "calculator", "title_slam", "illustration", "object3d", "money_rain",
-         "prompt", "keys", "toggle", "app", "before_after"}
+         "prompt", "keys", "toggle", "app", "before_after", "screen", "footage"}
 MOODS = {"neutral", "smirk", "shocked", "serious"}
 
 
@@ -112,7 +112,27 @@ class _Resolver:
         return o
 
 
-def build_props(plan, words, duration, episode=None):
+def _attach_media(scenes, plan, run_id):
+    """Copy the footage the edit uses into remotion/public/run/<run_id>/ and give each footage element its src."""
+    import shutil
+    by_id = {m["id"]: m for m in plan.get("media") or []}
+    pub = RDIR / "public" / "run" / run_id
+    for sc in scenes:
+        for e in sc["elements"]:
+            if e.get("type") != "footage": continue
+            m = by_id.get(e.get("media"))
+            src = m and (m.get("mp4") or m.get("path"))
+            if not src or not os.path.exists(src):
+                e["type"] = "_skip"; continue
+            pub.mkdir(parents=True, exist_ok=True)
+            dst = pub / (m["id"] + os.path.splitext(src)[1].lower())
+            if not dst.exists(): shutil.copyfile(src, dst)
+            e["_media"] = {"kind": "video" if m["kind"] == "video" else "image", "src": f"run/{run_id}/{dst.name}", "credit": m.get("credit", ""),
+                           "fit": "contain" if m["kind"] == "logo" else "cover"}
+        sc["elements"] = [e for e in sc["elements"] if e.get("type") != "_skip"]
+
+
+def build_props(plan, words, duration, episode=None, run_id="preview"):
     spoken = spoken_tokens(plan["voiceover"])
     roman = plan.get("captions") or _star(spoken, plan.get("keywords") or [])
     if len(roman) != len(spoken):  # never block a render on captions: fall back to the script words
@@ -142,6 +162,7 @@ def build_props(plan, words, duration, episode=None):
         for rc in s.get("react", []) or []:
             mood = rc.get("mood") if rc.get("mood") in MOODS else "neutral"
             reacts.append({"at": R.t(rc.get("at"), st, st + 0.5), "pose": f"{mood}_{'point' if rc.get('point') else 'down'}"})
+    _attach_media(scenes, plan, run_id)
     reacts.sort(key=lambda r: r["at"])
     for i, r in enumerate(reacts):
         nxt = reacts[i + 1]["at"] if i + 1 < len(reacts) else 1e9
@@ -208,6 +229,16 @@ def sfx_hits(props):
             elif ty == "toggle": add(t, "pop"); add(e.get("flip_at", t + 0.6), "ding" if e.get("to") != "off" else "thud")
             elif ty == "app": add(t, "pop"); add(e.get("sub_at"), "tick")
             elif ty == "before_after": add(t, "pop"); add((e.get("right") or {}).get("at"), "ding")
+            elif ty == "footage": add(t - 0.1, "whoosh")
+            elif ty == "screen":
+                for k, st in enumerate(e.get("steps") or []):
+                    if k: add(st.get("at"), "whoosh" if k == 1 else "pop")
+                    a = st.get("action") or {}
+                    at = a.get("at") if isinstance(a.get("at"), (int, float)) else (st.get("at", t) + 0.8)
+                    if a.get("kind") in ("click", "toggle"): add(at, "tick")
+                    if a.get("kind") == "toggle": add(at + 0.15, "ding")
+                    if a.get("kind") == "type":
+                        for j in range(min(10, max(3, len(a.get("text", "")) // 6))): add(at + 0.1 + j * 0.2, "tick")
     c = props["cta"]; add(c["start"] - 0.1, "whoosh"); add(c["line1_at"], "pop"); add(c.get("line2_at"), "pop")
     add(props["endcard"]["at"], "ding")
     return sorted(set(H))
@@ -220,7 +251,9 @@ def _npm_ready():
 
 
 def render(plan, words, duration, voice_mp3, out_path, workdir, episode=None):
-    props = build_props(plan, words, duration, episode)
+    import shutil
+    run_id = Path(out_path).stem
+    props = build_props(plan, words, duration, episode, run_id=run_id)
     pj = Path(workdir) / "props.json"; pj.write_text(json.dumps(props, ensure_ascii=False))
     _npm_ready()
     vid = str(Path(workdir) / "video_only.mp4")
@@ -228,7 +261,10 @@ def render(plan, words, duration, voice_mp3, out_path, workdir, episode=None):
            "--crf=18", "--log=warn"]
     if os.environ.get("REMOTION_BROWSER"): cmd.append(f"--browser-executable={os.environ['REMOTION_BROWSER']}")
     print("      remotion:", " ".join(cmd[3:5]), flush=True)
-    subprocess.run(cmd, cwd=RDIR, check=True)
+    try:
+        subprocess.run(cmd, cwd=RDIR, check=True)
+    finally:
+        shutil.rmtree(RDIR / "public" / "run" / run_id, ignore_errors=True)
     hits = sfx_hits(props)
     sfx = str(Path(workdir) / "sfx.wav"); audio.build_ui_sfx(hits, duration + 3.0, sfx)
     audio.mix(vid, voice_mp3, sfx, out_path, workdir, music_start=0.0, music_gain=float(os.environ.get("MUSIC_GAIN") or 0.16), duck_sfx=False, sfx_gain=0.85)
