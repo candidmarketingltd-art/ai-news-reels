@@ -7,45 +7,35 @@
 slot 2026-10-31-07 | topic=tech (Tech & Business) | must_post=True | dry_run=False
 [1/6] news — last 8h
       trends: 30/30 countries read, 26 Tech & Business trending searches
-      feeds: 16/16 read, 14 Tech & Business stories in window
-[2/6] editor — 39 candidates (attempt 1)
-      decision: roundup — No single blockbuster is left uncovered (Binance, Alphabet and Apple are already posted), but four notable tech and business stories are fresh, so this is a roundup.
-      • [7] SoftBank-backed OPay pulls its $304M US IPO after a regulatory inquiry
-      • [6] Jio Platforms' first results since listing: profit up 13.7%, revenue up 11.4% to Rs 40,475 crore
+      feeds: 16/16 read, 15 Tech & Business stories in window
+[2/6] editor — 40 candidates (attempt 1)
+      decision: roundup — No blockbuster tech or business story is new today, so this is a roundup of the four best fresh items: OPay's pulled IPO, Stellantis' earnings jump, Jio's first results since listing, and the Walmart probe into Flipkart.
+      • [7] SoftBank-backed OPay pulls its $304M US IPO after a regulatory inquiry, just after raising the money at a $4B valuation
       • [6] Walmart investigates Flipkart employees over alleged ₹150 crore in kickbacks
-      • [5] Stellantis shares surge on a steady outlook and a Jeep and Ram push
+      • [6] Jio Platforms' first results since listing: profit up 13.7% and revenue up 11.4% to ₹40,475 crore
+      • [6] Stellantis shares surge on a steady outlook and a Jeep-led comeback plan
 [3/6] reading articles + writing script
       (article https://www.bloomberg.com/news/articles/2026-10-30/opay-shares-fail-to-trade-aft unreadable: 403 Client Error: Forbidden for url: https://www.bloomberg.com/news/articles/202)
       (article https://www.reuters.com/legal/transactional/softbank-backed-opay-raises-304-mill unreadable: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/legal/transact)
-      (article https://www.wsj.com/business/stellantis-confirms-guidance-as-turnaround-progress unreadable: 401 Client Error: HTTP Forbidden for url: https://www.wsj.com/business/stellanti)
       (article https://www.stellantis.com/en/news/press-releases/2026/october/third-quarter-202 unreadable: 403 Client Error: Forbidden for url: https://www.stellantis.com/en/news/press-re)
-      1 article(s) read for: SoftBank-backed OPay pulls its $304M US IPO after a regulatory inquiry
-      1 article(s) read for: Jio Platforms' first results since listing: profit up 13.7%, revenue up 11.4% to Rs 40,475 crore
+      (article https://www.wsj.com/business/stellantis-confirms-guidance-as-turnaround-progress unreadable: 401 Client Error: HTTP Forbidden for url: https://www.wsj.com/business/stellanti)
+      1 article(s) read for: SoftBank-backed OPay pulls its $304M US IPO after a regulatory inquiry, just after raising the money at a $4B valuation
       0 article(s) read for: Walmart investigates Flipkart employees over alleged ₹150 crore in kickbacks
-      1 article(s) read for: Stellantis shares surge on a steady outlook and a Jeep and Ram push
+      1 article(s) read for: Jio Platforms' first results since listing: profit up 13.7% and revenue up 11.4% to ₹40,475 crore
+      1 article(s) read for: Stellantis shares surge on a steady outlook and a Jeep-led comeback plan
+      (media: https://opay.com/ -> HTTPSConnectionPool(host='opay.com', port=443): Max retries exceeded with url: /)
       (media: https://flipkart.com/ -> 529 Server Error: Server Error for url: https://flipkart.com/)
       (media: https://www.stellantis.com/en/news/press-releases/2026/october/third-q -> 403 Client Error: Forbidden for url: https://www.stellantis.com/en/news/press-re)
       (media: https://stellantis.com/ -> 403 Client Error: Forbidden for url: https://www.stellantis.com/)
-      media: s1_broll1, s1_broll2, s2_broll1, s2_broll2, s3_logo, s3_broll1, s3_broll2, s4_logo, s4_broll1, s4_broll2
+      media: s1_logo, s1_broll1, s1_broll2, s2_logo, s2_broll1, s2_broll2, s3_broll1, s3_broll2, s4_logo, s4_broll1, s4_broll2
 [4/6] voice
-      [eleven] subscription: 200 {"tier":"starter","character_count":0,"character_limit":40000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796033014,"voice_slots_used":1,"professional_voice_slots_used
+      [eleven] workspace voices: Rohan (IcsYcP26eMwajlgx2SDe, cloned)
+      [eleven] using Rohan (IcsYcP26eMwajlgx2SDe)
+      [eleven] subscription: 200 {"tier":"starter","character_count":406,"character_limit":40000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796033014,"voice_slots_used":1,"professional_voice_slots_us
       [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
-      [eleven] with-timestamps eleven_v4: 404 {"detail":{"type":"not_found","code":"voice_not_found","message":"A voice with voice_id 'dVIifp6W0jifqeThgNN0' was not found.","status":"voice_not_found","request_id":"77d6b0cba0b3ed97e57021be16bf992e
-      [eleven] with-timestamps eleven_v3: 404 {"detail":{"type":"not_found","code":"voice_not_found","message":"A voice with voice_id 'dVIifp6W0jifqeThgNN0' was not found.","status":"voice_not_found","request_id":"52890f337c40bb0cca07676d51897627
-      [eleven] with-timestamps eleven_multilingual_v2: 404 {"detail":{"type":"not_found","code":"voice_not_found","message":"A voice with voice_id 'dVIifp6W0jifqeThgNN0' was not found.","status":"voice_not_found","request_id":"ee6e051a187eddc97cd58d1712def1a1
-      [eleven] plain TTS eleven_v4: 404 {"detail":{"type":"not_found","code":"voice_not_found","message":"A voice with voice_id 'dVIifp6W0jifqeThgNN0' was not found.","status":"voice_not_found","request_id":"42c3ab149d9c2927bd328493a8da3d29
-      [eleven] plain TTS eleven_v3: 404 {"detail":{"type":"not_found","code":"voice_not_found","message":"A voice with voice_id 'dVIifp6W0jifqeThgNN0' was not found.","status":"voice_not_found","request_id":"cc99ad8db2c83b50a42cb096b5009fd4
-      [eleven] plain TTS eleven_multilingual_v2: 404 {"detail":{"type":"not_found","code":"voice_not_found","message":"A voice with voice_id 'dVIifp6W0jifqeThgNN0' was not found.","status":"voice_not_found","request_id":"867cd43952c237df2401b9990f8c7514
-Traceback (most recent call last):
-  File "/home/runner/work/ai-news-reels/ai-news-reels/pipeline/run.py", line 200, in main
-    mp4 = make_reel(plan, stamp, wd)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/ai-news-reels/ai-news-reels/pipeline/run.py", line 101, in make_reel
-    words, model = voice.synthesize(plan["voiceover"], mp3)
-                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/ai-news-reels/ai-news-reels/pipeline/voice.py", line 86, in synthesize
-    return _eleven(text, mp3_path)
-           ^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/ai-news-reels/ai-news-reels/pipeline/voice.py", line 175, in _eleven
-    raise RuntimeError(f"ElevenLabs TTS failed: {last}")
-RuntimeError: ElevenLabs TTS failed: eleven_multilingual_v2: 404 {"detail":{"type":"not_found","code":"voice_not_found","message":"A voice with voice_id 'dVIifp6W0jifqeThgNN0' was not found.","status":"voice_not_found","request_id":"867cd43952c237df2401b9990f8c7514"}}
+      161 words, 71.5s, voice eleven_v4
+[5/6] render
+      remotion: src/index.ts Reel /tmp/tmps3hlwduh/video_only.mp4
+[6/6] publish
+      [buffer] created post 6ae5c40aceb491e585eef25e (customScheduled)
+POSTED 6ae5c40aceb491e585eef25e https://github.com/candidmarketingltd-art/ai-news-reels/releases/download/reel-2026-10-31_1559/2026-10-31_1559.mp4
