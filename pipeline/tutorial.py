@@ -197,13 +197,13 @@ TYPES = {"pill": ["text"], "label": ["text"], "headline": ["text"], "stat_row": 
          "illustration": ["name"], "prompt": ["text"], "keys": ["keys"], "toggle": ["text"], "app": ["name"], "before_after": ["left", "right"],
          "screen": ["steps"], "footage": ["media"]}
 
-VIEW_LABELS = lambda v: ([*(v.get("sidebar") or [])] + ([v["profile"]] if v.get("profile") else []) + (["input"] if "input" in v else [])
+VIEW_LABELS = lambda v: ([*(v.get("sidebar") or [])] + list(v.get("input_buttons") or []) + list(v.get("top_buttons") or []) + ([v["profile"]] if v.get("profile") else []) + (["input"] if "input" in v else [])
                          + list((v.get("menu") or {}).get("items") or []) + list((v.get("panel") or {}).get("nav") or [])
                          + [r.get("label", "") for r in (v.get("panel") or {}).get("rows") or []] + (["back"] if (v.get("panel") or {}).get("back") else []))
 
 
 def _norm_label(x):
-    return re.sub(r"[^a-z0-9]+", "", str(x).lower())
+    return re.sub(r"[^a-z0-9]+", "", str(x).lower()) or str(x).strip()
 
 
 def check_screen(e, bad):

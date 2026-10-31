@@ -14,6 +14,7 @@ import { COL, SANS, MONO, FPS, clamp, easeOut, fx, Card, Mono } from "./lib";
    ------------------------------------------------------------------------------------------------ */
 type Row = { label: string; kind?: string; value?: string; on?: boolean };
 type View = {
+  input_buttons?: string[]; top_buttons?: string[];
   sidebar?: string[]; profile?: string; chat?: { from: string; text: string }[]; input?: string; title?: string;
   menu?: { items: string[]; anchor?: string };
   panel?: { title?: string; nav?: string[]; active?: string; back?: boolean; rows?: Row[] };
@@ -27,7 +28,7 @@ const THEMES: Record<string, Record<string, string>> = {
   light: { bg: "#FFFFFF", side: "#F7F7F8", panel: "#FFFFFF", text: "#0D0D0D", mute: "#6B6B6B", line: "#E3E3E3", bubble: "#F1F1F1", hover: "#ECECEC", field: "#F7F7F8", accent: "#10A37F", shade: "rgba(0,0,0,0.35)" },
 };
 
-const norm = (s?: string) => (s || "").toLowerCase().replace(/[^a-z0-9]+/g, "");
+const norm = (s?: string) => (s || "").toLowerCase().replace(/[^a-z0-9]+/g, "") || (s || "").trim();
 const wrap = (t: string, n: number) => {
   const out: string[] = []; let cur = "";
   for (const w of (t || "").split(/\s+/)) { if (cur && (cur + " " + w).length > n) { out.push(cur); cur = w; } else cur = cur ? cur + " " + w : w; }
@@ -55,7 +56,20 @@ function layout(v: View, dev: "web" | "phone") {
   }
   if (v.profile) add(v.profile, web || drawer ? { x: 12, y: g.ch - (web ? 64 : 80), w: sideW - 24, h: web ? 50 : 60 } : { x: 14, y: 46, w: 52, h: 52 }, "profile");
   const mainX = web ? sideW : 0, mainW = g.cw - mainX;
-  if (v.input !== undefined) add("input", { x: mainX + 30, y: g.ch - (web ? 86 : 96), w: mainW - 60, h: web ? 58 : 64 }, "input");
+  if (v.input !== undefined) {
+    const ib = v.input_buttons || [], bw = (lab: string) => (lab.length <= 2 ? (web ? 44 : 48) : 18 + lab.length * (web ? 12 : 13));
+    const iy = g.ch - (web ? 86 : 96), ih = web ? 58 : 64;
+    let bx = mainX + 30 + 8;
+    ib.forEach((lab) => { const w = bw(lab); add(lab, { x: bx, y: iy + (ih - (web ? 44 : 48)) / 2, w, h: web ? 44 : 48 }, "ibtn"); bx += w + 6; });
+    add("input", { x: mainX + 30, y: iy, w: mainW - 60, h: ih }, "input", undefined, { pad: bx - (mainX + 30) });
+  }
+  {
+    let bx = g.cw - 16;
+    (v.top_buttons || []).slice().reverse().forEach((lab) => {
+      const w = lab.length <= 2 ? 48 : 22 + lab.length * 13; bx -= w;
+      add(lab, { x: bx, y: web ? 14 : 52, w, h: 46 }, "tbtn"); bx -= 8;
+    });
+  }
   if (v.menu) {
     const n = v.menu.items.length, ih = web ? 46 : 58;
     if (web) {
@@ -133,9 +147,14 @@ const ViewLayer: React.FC<{ v: View; dev: "web" | "phone"; th: Record<string, st
       )}
       {items.filter((i) => i.kind === "input").map((it) => (
         <div key="in" style={{ position: "absolute", left: it.box.x, top: it.box.y, width: it.box.w, height: it.box.h, borderRadius: 30, border: `1px solid ${th.line}`,
-          background: th.panel, display: "flex", alignItems: "center", padding: "0 22px", font: `500 ${fs}px ${SANS}`, color: txt(it) || (v.input && v.input !== "") ? th.text : th.mute, ...ring(it.id) }}>
+          background: th.panel, display: "flex", alignItems: "center", padding: `0 22px 0 ${(it.extra?.pad || 0) + 14}px`, font: `500 ${fs}px ${SANS}`, color: txt(it) || (v.input && v.input !== "") ? th.text : th.mute, ...ring(it.id) }}>
           <span style={{ whiteSpace: "nowrap", overflow: "hidden" }}>{txt(it) ?? (v.input || "Ask anything")}</span>
         </div>
+      ))}
+      {items.filter((i) => i.kind === "ibtn" || i.kind === "tbtn").map((it) => (
+        <div key={it.kind + it.id} style={{ position: "absolute", left: it.box.x, top: it.box.y, width: it.box.w, height: it.box.h, borderRadius: 26,
+          border: `1px solid ${th.line}`, background: it.kind === "tbtn" ? th.bg : th.hover, display: "flex", alignItems: "center", justifyContent: "center",
+          font: `${it.label.length <= 2 ? 500 : 600} ${it.label.length <= 2 ? 30 : fs - 2}px ${SANS}`, color: th.text, ...ring(it.id) }}>{it.label}</div>
       ))}
       {/* sidebar / drawer */}
       {!web && drawer && <div style={{ position: "absolute", inset: 0, background: th.shade }} />}
@@ -272,7 +291,7 @@ export const ScreenWalk: React.FC<{ e: any }> = ({ e }) => {
   // camera: push in on the target around the click, ease back as the next screen arrives
   const next = steps[i + 1]?.at ?? 1e9;
   const z = c && st.action?.kind !== "point" ? Math.min(interpolate(t, [a - 0.7, a - 0.05], [0, 1], { ...clamp, easing: easeOut }), interpolate(t, [next - 0.35, next], [1, 0], clamp)) : 0;
-  const Z = (dev === "web" ? 0.42 : 0.22) * z;
+  const Z = (dev === "web" ? 0.5 : 0.42) * z;
   const ox = c ? c.x : g.cw / 2, oy = c ? c.y : g.ch / 2;
   const tx = (g.cw / 2 - ox) * Z * 0.9, ty = (g.ch / 2 - oy) * Z * 0.9;
   const fade = interpolate(t, [st.at - 0.05, st.at + 0.18], [0, 1], clamp);

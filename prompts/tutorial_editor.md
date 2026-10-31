@@ -55,13 +55,15 @@ Tutorial elements:
   walkthrough; it usually fills the scene alone (one `label` above is fine). It can span several scenes' worth of voice (up to ~6 steps).
   step = {"at": words when this screen appears, "view": view, "action"?: {"kind": "click"|"type"|"toggle"|"point", "target": label,
   "text"?: text typed for "type", "at": words when the click/typing/flip happens}}.
-  view = {"sidebar"?: [labels] (web left sidebar; on phone it's the slide-out drawer), "profile"?: name or initial,
+  view = {"input_buttons"?: [labels] (buttons inside the message box, left side, e.g. "+", "Tools"), "top_buttons"?: [labels]
+  (top-right buttons, e.g. "Share", "⋯"), "sidebar"?: [labels] (web left sidebar; on phone it's the slide-out drawer), "profile"?: name or initial,
   "chat"?: [{"from": "user"|"ai", "text"}] (max 3, short), "input"?: "" or placeholder text (the message box), "title"?: text,
   "menu"?: {"items": [labels], "anchor": "profile"|"top"} (popup menu / phone bottom sheet),
   "panel"?: {"title", "nav"?: [labels] (web settings tabs), "active"?: label, "back"?: true (phone), "rows": [{"label",
   "kind": "toggle"|"arrow"|"value"|"field"|"button", "value"?, "on"?: bool}]}}.
-  `target` must be a label that exists in that step's view (a sidebar item, the profile name, a menu item, a nav tab, a row label,
-  or "input"). Build each next view to show the result of the previous click (menu opens → settings panel → the right tab).
+  `target` must be a label that exists in that step's view (a sidebar item, the profile name, an input/top button, a menu item,
+  a nav tab, a row label, or "input"). Every control the voice names must exist as a clickable label — e.g. "tap the plus icon"
+  needs `"input_buttons": ["+"]` and target "+". Build each next view to show the result of the previous click (menu opens → settings panel → the right tab).
   "type" on a `field` row or "input" types `text` live; "toggle" flips a toggle row; "point" just highlights.
 - `footage` {media: id from AVAILABLE MEDIA, caption?: ≤ 28 chars, tall?: bool} — a real clip/image in a glass frame.
 - `app` {name, label?, ill?, sub?, sub_at?, color?}: the tool card (e.g. name "ChatGPT", sub "FREE · WEB + APP", ill "laptop").
