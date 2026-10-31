@@ -1,4 +1,34 @@
-# AI & Tech News — automated Instagram Reels
+# @ihackgrowth — automated AI & tech tutorial reels
+
+**Current mode: tutorial reels, 2 a day (13:00 and 20:00 IST).** Each run:
+
+```
+top recent AI/tech reels on Instagram (Apify: #aitools #chatgpt #aihacks … + the best creators)
+  ─▶ Claude picks a proven, teachable topic (never one covered in the last 30 days)
+  ─▶ transcript of that reel ─▶ web-search fact check (official docs first: exact steps, names, prices)
+  ─▶ Sonnet writes a very conversational script (honest negative/contrarian angles allowed)
+  ─▶ Opus edits it in the AI HACKS motion-graphics style ─▶ Rohan's ElevenLabs voice ─▶ Remotion render ─▶ Buffer
+```
+We never copy a reel: the proven *topic* is used, the script is ours and every step/number is verified.
+
+**Look (`remotion/`):** near-black canvas with a tinted glow, glass cards, rolling numbers, word-lit captions, Rohan popping up on
+reaction beats, plus tutorial elements — a prompt box that types itself, keyboard shortcuts, settings toggles, tool cards,
+before/after prompts, numbered steps. Same engine as Paisa Decode's HISAAB style.
+
+**Settings (Variables tab):** `POST_TIMES` (default `13:00,20:00`), `IG_HASHTAGS` (comma list), `IG_SOURCE_ACCOUNTS`
+(creators to always track, comma list, no @), `SERIES_NAME` (default `AI HACKS`).
+**Run one now:** Actions → *Tutorial reel* → Run workflow (dry run ticked = render only).
+**Pause:** Actions → *Scheduler* → ⋯ → Disable workflow.
+
+**Costs per month (60 reels):** ElevenLabs ~1,000 credits a reel (~60k — the Starter plan's 40k covers ~40, then the free
+Microsoft voice fills in); Apify ~$0.40 a day for the reel scan + ~$0.05 per transcript (~$15); Claude API (pick, research with
+web search, script, edit).
+
+---
+
+## Previous mode: AI news (switched off)
+The news pipeline below still exists (`news-reel.yml`, `pipeline/run.py`) but its workflow is disabled.
+
 
 Every 2 hours this repo checks what's new worldwide and posts one reel — alternating AI and Tech & Business, 12 a day, no one touching anything.
 Built from the [paisadecode-reels](https://github.com/candidmarketingltd-art/paisadecode-reels) pipeline (same Rohan mascot,

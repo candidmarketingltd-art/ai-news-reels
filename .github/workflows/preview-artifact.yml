@@ -1,0 +1,30 @@
+name: Share a reel artifact as a download link
+
+# Copies the reel from a finished run's artifact into a pre-release, so it can be downloaded from a plain link.
+on:
+  workflow_dispatch:
+    inputs:
+      run_id:
+        description: "Run id that produced the reel artifact"
+        required: true
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  share:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          run-id: ${{ inputs.run_id }}
+          github-token: ${{ github.token }}
+          path: reel
+      - env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          f=$(ls reel/*/*.mp4 | head -1)
+          tag="preview-${{ inputs.run_id }}"
+          gh release create "$tag" "$f" -R ${{ github.repository }} --prerelease --title "$tag" --notes "Dry-run reel" || gh release upload "$tag" "$f" -R ${{ github.repository }} --clobber
+          echo "https://github.com/${{ github.repository }}/releases/download/$tag/$(basename $f)"
