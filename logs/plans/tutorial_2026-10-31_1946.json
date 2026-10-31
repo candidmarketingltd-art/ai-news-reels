@@ -1,0 +1,494 @@
+{
+ "voiceover": "[conversational] You edit one small thing, and ChatGPT quietly changes your whole face.\n\nHere's why. It regenerates the entire image, it doesn't edit layers like Photoshop. So even a simple new background can make your face drift.\n\n[confident] Here's what helps. 1: attach your original photo. Tap the plus icon, then Add photos & files. 2: type the face-lock line first, then one small edit. Like this: \"Keep the exact same face, skin tone and expression as the attached photo. Change only the background to a beach.\"\n\n3: one change per run. [serious] If the face drifts, don't keep editing the output. Start a new chat, or re-run with the original attached again.\n\n[whispers] Honest catch? No prompt guarantees an identical face. This just reduces the drift. And on Free, every re-run eats into your image limit.\n\n[curious] Which edit does ChatGPT mess up for you the most?\n\nSend this to the friend who edits every selfie with ChatGPT.",
+ "title": "STOP FACE CHANGES",
+ "ig_caption": "ChatGPT keeps changing your face when you edit a photo? Here's the fix 👇\n✅ Attach the ORIGINAL photo (+ > Add photos & files)\n✅ Face-lock line first, then ONE small edit\n✅ Face drifted? Re-run with the original attached\nWhich edit does ChatGPT mess up for you the most? 💬\nSave this for later 📌\nFollow @ihackgrowth for daily AI & tech hacks",
+ "media_hints": {
+  "domain": "chatgpt.com",
+  "broll": [
+   "taking selfie phone",
+   "typing on laptop",
+   "person frustrated at desk"
+  ]
+ },
+ "hashtags": [
+  "#AItools",
+  "#AIhacks",
+  "#ChatGPT",
+  "#ChatGPTImages",
+  "#PhotoEditing",
+  "#AIphotoediting",
+  "#PromptEngineering",
+  "#productivity"
+ ],
+ "tag": "CHATGPT IMAGES",
+ "keywords": [
+  "ChatGPT",
+  "face",
+  "regenerates",
+  "layers",
+  "Photoshop",
+  "background",
+  "drift",
+  "original",
+  "plus",
+  "face-lock",
+  "beach",
+  "change",
+  "chat",
+  "re-run",
+  "guarantees",
+  "Free",
+  "limit",
+  "selfie"
+ ],
+ "scenes": [
+  {
+   "at": "You edit",
+   "tint": "red",
+   "react": [
+    {
+     "at": "quietly changes",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "pill",
+     "at": "You edit",
+     "text": "ONE SMALL EDIT",
+     "color": "gold"
+    },
+    {
+     "type": "footage",
+     "at": "and ChatGPT",
+     "media": "s1_image",
+     "caption": "CHATGPT IMAGES"
+    },
+    {
+     "type": "title_slam",
+     "at": "whole face.",
+     "text": "NEW FACE?",
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "at": "Here's why.",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Here's why.",
+     "text": "WHY IT HAPPENS"
+    },
+    {
+     "type": "vs",
+     "at": "It regenerates",
+     "left": {
+      "label": "WHAT YOU EXPECT",
+      "value": "EDIT"
+     },
+     "right": {
+      "label": "WHAT IT DOES",
+      "value": "REDRAW",
+      "color": "red",
+      "ill": "robot",
+      "at": "entire image,"
+     },
+     "strike_at": "entire image,"
+    },
+    {
+     "type": "pill",
+     "at": "like Photoshop.",
+     "text": "NO LAYERS",
+     "color": "red",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "So even",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "So even",
+     "media": "s1_broll1",
+     "caption": "JUST A NEW BACKGROUND"
+    },
+    {
+     "type": "arrow_pair",
+     "at": "new background",
+     "left": {
+      "label": "YOUR EDIT",
+      "value": "NEW BG",
+      "color": "white"
+     },
+     "right": {
+      "label": "SIDE EFFECT",
+      "value": "DRIFT",
+      "color": "red",
+      "at": "face drift."
+     }
+    }
+   ]
+  },
+  {
+   "at": "Here's what helps.",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "attach your original",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "Here's what helps.",
+     "text": "FIX 1 · ATTACH ORIGINAL"
+    },
+    {
+     "type": "screen",
+     "at": "Here's what helps.",
+     "device": "phone",
+     "theme": "dark",
+     "app": "ChatGPT",
+     "steps": [
+      {
+       "at": "Here's what helps.",
+       "view": {
+        "title": "ChatGPT",
+        "chat": [
+         {
+          "from": "user",
+          "text": "Make the background a beach"
+         }
+        ],
+        "input": "Ask anything"
+       },
+       "action": {
+        "kind": "click",
+        "target": "input",
+        "at": "plus icon,"
+       }
+      },
+      {
+       "at": "then Add",
+       "view": {
+        "title": "ChatGPT",
+        "chat": [
+         {
+          "from": "user",
+          "text": "Make the background a beach"
+         }
+        ],
+        "input": "Ask anything",
+        "menu": {
+         "items": [
+          "Camera",
+          "Photos",
+          "Add photos & files",
+          "Create image"
+         ]
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Add photos & files",
+        "at": "photos & files."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "type the face-lock",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "Keep the exact",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "type the face-lock",
+     "text": "FIX 2 · FACE-LOCK FIRST"
+    },
+    {
+     "type": "prompt",
+     "at": "Keep the exact",
+     "app": "CHATGPT",
+     "text": "Keep the exact same face, skin tone & expression as the attached photo. Change only the background to a beach.",
+     "send_at": "a beach."
+    }
+   ]
+  },
+  {
+   "at": "one change per",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "label",
+     "at": "one change per",
+     "text": "FIX 3"
+    },
+    {
+     "type": "big_number",
+     "at": "one change per",
+     "value": "1",
+     "color": "gold",
+     "ill": "bullseye",
+     "note": "CHANGE PER RUN",
+     "note_at": "per run."
+    }
+   ]
+  },
+  {
+   "at": "If the face",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "label",
+     "at": "If the face",
+     "text": "IF THE FACE DRIFTS"
+    },
+    {
+     "type": "strike_list",
+     "at": "keep editing",
+     "items": [
+      {
+       "text": "EDIT THE OUTPUT AGAIN",
+       "at": "keep editing",
+       "strike": true
+      },
+      {
+       "text": "START A NEW CHAT",
+       "at": "new chat,",
+       "strike": false
+      },
+      {
+       "text": "RE-RUN WITH ORIGINAL",
+       "at": "re-run with",
+       "strike": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Honest catch?",
+   "tint": "red",
+   "react": [
+    {
+     "at": "Honest catch?",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "Honest catch?",
+     "text": "HONEST CATCH"
+    },
+    {
+     "type": "headline",
+     "at": "No prompt guarantees",
+     "text": "NO GUARANTEE",
+     "size": "l",
+     "color": "red",
+     "ill": "warning"
+    },
+    {
+     "type": "pill",
+     "at": "reduces the drift.",
+     "text": "LESS DRIFT, NOT ZERO",
+     "color": "gold",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "And on Free,",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "stat_row",
+     "cards": [
+      {
+       "label": "PLAN",
+       "value": "FREE",
+       "at": "on Free,",
+       "color": "white"
+      },
+      {
+       "label": "EVERY RE-RUN EATS",
+       "value": "LIMIT",
+       "at": "image limit.",
+       "color": "red",
+       "ill": "hourglass_not_done",
+       "glow": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Which edit",
+   "elements": [
+    {
+     "type": "headline",
+     "at": "Which edit",
+     "text": "WHICH EDIT FAILS?",
+     "size": "l",
+     "ill": "thinking_face",
+     "sub": "COMMENT BELOW",
+     "sub_at": "the most?"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "Send this",
+  "line1": "Send this to",
+  "line1_at": "Send this",
+  "line2": "the selfie editor",
+  "line2_at": "every selfie"
+ },
+ "endcard": {
+  "title": "Saved it?",
+  "terminal": "> face.locked · drift reduced"
+ },
+ "media": [
+  {
+   "id": "s1_image",
+   "kind": "image",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-31_1946/s1_image.png",
+   "credit": "Image: chatgpt.com",
+   "desc": "official image from ChatGPT Images (ChatGPT Images 2.5, GPT-Image-2.5) – image editing by uploading a photo and describing the change (announcement page)"
+  },
+  {
+   "id": "s1_broll1",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-31_1946/s1_broll1.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-31_1946/s1_broll1.mp4",
+   "frames": 578,
+   "credit": "Video: Pexels",
+   "desc": "stock video: taking selfie phone (19s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s1_broll2",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-31_1946/s1_broll2.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-10-31_1946/s1_broll2.mp4",
+   "frames": 256,
+   "credit": "Video: Pexels",
+   "desc": "stock video: typing on laptop (9s) — generic, NOT the company's own footage"
+  }
+ ],
+ "style": "hisaab",
+ "topic": "Stop ChatGPT from changing your face when you edit a photo: add a face-lock line to the prompt, keep edits small, and re-run with the original attached",
+ "pick": {
+  "index": 15,
+  "topic": "Stop ChatGPT from changing your face when you edit a photo: add a face-lock line to the prompt, keep edits small, and re-run with the original attached",
+  "tool": "ChatGPT image editing",
+  "format": "mistake",
+  "angle": "Why ChatGPT keeps changing your face in photo edits (and the 1-line prompt fix)",
+  "why": "937k views and 3,074 comments in 2 days. That is a high comment rate, so lots of people share this problem. It is free, takes about 3 steps, and applies to anyone editing photos for LinkedIn, Instagram or a CV. The fix has to be shown honestly as reducing the drift, not guaranteeing identical faces."
+ },
+ "inspired_by": {
+  "url": "https://www.instagram.com/p/DfBvQkvT32n/",
+  "owner": "shan.aicreator",
+  "plays": 937718,
+  "likes": 32778,
+  "comments": 3074
+ },
+ "research": {
+  "verdict": "adjust",
+  "tool": "ChatGPT Images (ChatGPT Images 2.5, GPT-Image-2.5) – image editing by uploading a photo and describing the change",
+  "availability": "Available on all ChatGPT tiers (Free, Go, Plus, Pro, plus Work/Codex), on web, desktop, iOS and Android. Free has a separate image limit that OpenAI doesn't publish as a number. Custom Instructions are also on all plans.",
+  "steps": [
+   "Open ChatGPT (web at chatgpt.com, or the mobile app) and start a new chat. Optionally open the Images tab from the sidebar or via More > Images.",
+   "Attach the ORIGINAL photo: tap the + icon in the prompt area > Add photos & files. On web you can also drag the file in or paste it. A front-facing, well-lit photo works best.",
+   "Type the face-lock line first, then one small edit. Example: 'Keep the exact same face, facial features, skin tone and expression as the attached photo. Edit only this: change the background to a beach. Don't retouch or beautify the face.'",
+   "Send it and check the result against the original. Zoom in on the eyes, nose, mouth and jawline.",
+   "If the face drifted, don't keep editing the output. Start a new chat or re-run the prompt with the original photo attached again. Make one change per run.",
+   "Optional: use the Select tool. Open the image editor by selecting the image, tap or click Select, and highlight only the area to change (for example the background). Describe the change in chat, then Save. OpenAI says the selection is not always exact.",
+   "Optional (a permanent default, not required): Web/desktop: Settings > Personalization > turn on Enable customization > Custom Instructions field. iOS/Android: Settings > Customize ChatGPT > Enable customization > Custom Instructions field. Save."
+  ],
+  "facts": [
+   "ChatGPT Images 2.5 launched on September 8, 2026 and is the current image model. OpenAI says it is rolling out to all ChatGPT, ChatGPT Work and Codex users across all tiers on desktop, mobile and web.",
+   "OpenAI says Images 2.5 'is better at preserving the subjects in your reference photos, and follows editing instructions more reliably across multiple turns' (quoted via 9to5Mac).",
+   "OpenAI says Images 2.5 is better at changing only the elements you ask to edit while leaving the rest intact, and that latency is reduced by up to 50% compared with Images 2.0.",
+   "OpenAI Help: to edit, select an image generated by ChatGPT Images or upload an existing image, then describe the change. You can also select part of the image with the selection tool and describe the changes in chat.",
+   "OpenAI Help: ChatGPT Images is available on all tiers.",
+   "Upload path: tap the + icon in the prompt area and select Add photos & files. You can also drag an image into the text area or paste from the clipboard. Limit is 20 MB per image.",
+   "Custom Instructions: web/desktop is Settings > Personalization. iOS/Android is Settings > Customize ChatGPT. Enable customization must be ON. Plus, Pro, Enterprise, Business and Education can save up to 5,000 characters; third-party sources say Free and Go get 1,500 characters.",
+   "Custom instructions do not guarantee every response follows every preference (ChatAI Guide). Project instructions override global custom instructions (OpenAI Help Center, via Unabyss).",
+   "OpenAI publishes no per-day image count for Free. Third parties report about 2–3 images per rolling 24 hours (unofficial, varies). OpenAI's Free FAQ says image generation has 'separate usage limits'.",
+   "Images 2.5 adds a Sketch feature (type '@Sketch' in chat, per Unite.AI) and comment-based edits on images (Neowin). These are new tools but not needed for face-lock.",
+   "OpenAI uses C2PA metadata and invisible watermarking to help identify images made with its tools.",
+   "Third-party guidance (growthcab, citing OpenAI's developer guide): repeated edits can still change details you meant to keep. Restate the keep list on every turn and go back to the original when the face drifts. I could not open the OpenAI developer guide itself, so this is secondhand."
+  ],
+  "do_not_claim": [
+   "Don't claim that Custom Instructions 'fix' or permanently lock the face. The transcript presents it as a full solution, but OpenAI doesn't document this, and custom instructions are not guaranteed to be followed. Use it only as an optional extra.",
+   "Don't say 'three lines' menu > Settings > Personalization > Custom Instructions as the path. Web has a sidebar and profile menu, and the label differs on mobile ('Customize ChatGPT'). The 'Enable customization' toggle must be on.",
+   "Don't say 100% identity, a 'pixel-perfect' or 'guaranteed' same face. ChatGPT regenerates the image rather than editing layers like Photoshop, so no prompt guarantees an identical face (Lilach Bullock, Zemith, ofox.ai).",
+   "Don't say free users can't edit photos. One source claims editing needs Plus ($20/month), but OpenAI says Images is available on all tiers. It is limited on Free.",
+   "Don't say 'comment FACE / the prompt will be sent' or imply a secret prompt. That's the creator's lead-gen DM funnel, not a feature.",
+   "Don't cite a specific free image count as official. OpenAI publishes none.",
+   "Don't quote the top comment's claim that putting the face line at the START beats the end as proven. It's plausible, and several sources say to state what to keep before what to change, but there is no official benchmark.",
+   "Don't name the model as 'GPT-4o' or 'DALL·E'. The current model is Images 2.5 and older names are outdated.",
+   "Don't present the Select tool as a pixel lock. OpenAI notes the selection is not always exact and the edit can extend beyond it."
+  ],
+  "criticism": [
+   "The face can still drift. The model regenerates the whole image, so a face-lock line improves consistency but can't guarantee a pixel-identical face (Lilach Bullock, ofox.ai).",
+   "Drift grows over repeated edits in one thread. One source says an explicit preserve clause still helps, 'especially across three or more rounds of edits', so re-run from the original (buildfastwithai, third-party).",
+   "The Select tool is imprecise. OpenAI warns the highlighted area is not always exact.",
+   "Free users face tight, unpublished image limits (about 2–3 per day reported by third parties). Every re-run counts toward the limit.",
+   "Uploading personal face photos has privacy implications. Only edit photos you own or have permission to edit, and avoid uploading ID documents (Tech How).",
+   "If you need a truly unchanged face, the fallback is to paste the approved edit back onto the original in a photo editor, or to use a mask or layer (growthcab, ofox.ai)."
+  ],
+  "ui": {
+   "platforms": "web (chatgpt.com), desktop app, iOS, Android. The layout below is from help-page text. I could not verify pixel positions or colours, so confirm in a live screen recording.",
+   "screens": [
+    "Main chat: the prompt bar has a + icon on its left. Tapping it shows 'Add photos & files'. The sidebar (web/desktop) has an 'Images' entry. Mobile can reach Images via 'More' > 'Images'.",
+    "Images page (chatgpt.com/images, title 'ChatGPT Images 2.5'): has a prompt box, 'Templates' (browse categories), 'Create Image' and a library of all your images, which are saved automatically under Images.",
+    "Image editor: open it by selecting an image in the conversation or in Images. Controls per OpenAI Help: 'Select' (highlight the area to edit), 'Aspect ratio' (regenerate in a different ratio), 'Undo'/'Redo', 'Cancel' and 'Save'. On mobile, selecting a generated image opens it full-screen with 'Select' to use the selection tool. Third-party guide: open the image, choose 'Edit', use 'Select', then 'Next'.",
+    "Custom Instructions on web/desktop: profile icon (usually bottom-left of the sidebar, per Simple.ai and Lorka) > Settings > Personalization. The screen has an 'Enable customization' toggle and a 'Custom Instructions' field. It also holds Personality and Memory controls. Older guides show two boxes ('What would you like ChatGPT to know about you?' / 'How would you like ChatGPT to respond?'), but OpenAI's current help page describes a single field.",
+    "Custom Instructions on iOS/Android: Settings > Customize ChatGPT (on some versions labelled Personalization) > 'Enable customization' ON > 'Custom Instructions' field.",
+    "Default theme (light or dark) is not verified. ChatGPT follows system appearance by default. Check live before recreating."
+   ]
+  },
+  "visuals": "Show a side-by-side: the original selfie next to the edited result, with the face-lock prompt text on screen. Show the + > Add photos & files step with the original attached. A simple 'drifted face' vs 'locked face' comparison needs real or user-supplied images, because no verified before/after example exists. A real screen recording is needed for exact UI positions. The Custom Instructions screen can be shown briefly as an optional extra.",
+  "sources": [
+   "https://help.openai.com/en/articles/11084440-images-in-chatgpt",
+   "https://help.openai.com/en/articles/8096356-chatgpt-custom-instructions",
+   "https://help.openai.com/en/articles/8400551-chatgpt-image-inputs-faq",
+   "https://openai.com/index/introducing-chatgpt-images-2-5/",
+   "https://9to5mac.com/2026/09/08/openai-releases-chatgpt-images-2-5-with-sharper-details-and-more-precise-editing/",
+   "https://www.unite.ai/openai-releases-chatgpt-images-2-5-with-sketch-and-two-new-api-models/",
+   "https://www.axios.com/2026/09/08/exclusive-hands-on-with-chatgpts-new-image-editor",
+   "https://www.lilachbullock.com/chatgpt-prompts-photo-editing-without-changing-face/",
+   "https://ofox.ai/blog/chatgpt-image-edit-changes-face/",
+   "https://www.growthcab.com/how-to-edit-images-in-chatgpt",
+   "https://www.zemith.com/en/contents/chatgpt-photo-editing-prompts",
+   "https://yingtu.ai/en/blog/chatgpt-free-image-generation-limit-complete-guide",
+   "https://www.aifreeapi.com/en/posts/chatgpt-image-generation-limit-free-plan"
+  ],
+  "notes": "The topic works, but frame it as 'reduces drift', not 'fixes it'. The creator's reel only uses Custom Instructions. Your 3-part method (face-lock line, small edits, re-run with the original attached) matches third-party advice and OpenAI's multi-turn consistency claims, but OpenAI doesn't officially document a 'face-lock' prompt. Those claims rest on third-party blogs, so say 'works best for me / helps' rather than 'OpenAI says'. The current model is Images 2.5 (Sept 8, 2026), which already preserves likeness better than older versions, so older drift complaints may be partly outdated. Image limits and Free-tier details change often. UI labels differ: web uses 'Personalization', mobile uses 'Customize ChatGPT'. I did not find an official OpenAI page that recommends putting the face line at the start of the prompt. Sources are mostly SEO blogs apart from OpenAI's help and launch pages, so keep claims modest. Suggested 1-line prompt: 'Keep the exact same face, features, skin tone and expression as the attached original; change only [X].'",
+  "_searched": 6
+ },
+ "models": {
+  "pick": "claude-sonnet-5-5",
+  "research": "claude-sonnet-5-5",
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 2
+}

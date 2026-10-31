@@ -3,21 +3,30 @@
   APIFY_TOKEN: set
   BUFFER_API_KEY: set
   BUFFER_CHANNEL_ID: set
-window 2026-10-31-1300 | posting times 13:00, 20:00 IST | dry_run=False
+window 2026-10-31-1300 | posting times 13:00, 20:00 IST | dry_run=True
 [1/6] top AI & tech reels
       reel pool: 80 reels (cached today)
 [2/6] picking the topic
-      → Stop ChatGPT from agreeing with everything you say: set a custom instruction so it gives honest, critical feedback instead of flattery (sycophancy fix)  (mistake, from @agenticabhay.ai, 752,776 views) — Strongest engagement of the batch: 752k views, 21.3k likes and 19.6k comments (about 2.6% comment rate) in 3.5 weeks. It's a free setting anyone can try today, 
-[3/6] research (282 transcript words)
-      verdict adjust · 5 web searches · 6 steps · 10 sources
+      → Stop ChatGPT from changing your face when you edit a photo: add a face-lock line to the prompt, keep edits small, and re-run with the original attached  (mistake, from @shan.aicreator, 937,718 views) — 937k views and 3,074 comments in 2 days. That is a high comment rate, so lots of people share this problem. It is free, takes about 3 steps, and applies to anyo
+[3/6] research (120 transcript words)
+      verdict adjust · 6 web searches · 7 steps · 13 sources
 [4/6] script + edit
+      media: s1_image, s1_logo, s1_broll1, s1_broll2
 [5/6] voice + render
       [eleven] workspace voices: Rohan (IcsYcP26eMwajlgx2SDe, cloned)
       [eleven] using Rohan (IcsYcP26eMwajlgx2SDe)
-      [eleven] subscription: 200 {"tier":"starter","character_count":4670,"character_limit":40000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796033014,"voice_slots_used":1,"professional_voice_slots_u
+      [eleven] subscription: 200 {"tier":"starter","character_count":6614,"character_limit":40000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796033014,"voice_slots_used":1,"professional_voice_slots_u
       [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
-      155 words, 59.5s, voice eleven_v4
-      remotion: Reel /tmp/tmpsybf6w8n/video_only.mp4
-[6/6] publish
-      [buffer] created post 6ae5cd19a1145743499f34f2 (customScheduled)
-POSTED 6ae5cd19a1145743499f34f2 https://github.com/candidmarketingltd-art/ai-news-reels/releases/download/reel-2026-10-31_1637/2026-10-31_1637.mp4
+      153 words, 57.1s, voice eleven_v4
+      remotion: Reel /tmp/tmpll53bkb1/video_only.mp4
+DRY RUN — reel at /home/runner/work/ai-news-reels/ai-news-reels/out/2026-10-31_1946.mp4
+--- caption ---
+ChatGPT keeps changing your face when you edit a photo? Here's the fix 👇
+✅ Attach the ORIGINAL photo (+ > Add photos & files)
+✅ Face-lock line first, then ONE small edit
+✅ Face drifted? Re-run with the original attached
+Which edit does ChatGPT mess up for you the most? 💬
+Save this for later 📌
+Follow @ihackgrowth for daily AI & tech hacks
+
+#AItools #AIhacks #ChatGPT #ChatGPTImages #PhotoEditing #AIphotoediting #PromptEngineering #productivity
