@@ -95,6 +95,16 @@ def main():
             except Exception as e:
                 print(f"      couldn't use recording #{pend['issue']}: {str(e)[:200]}", flush=True)
         # 2) otherwise a fresh topic (requests a recording if one is needed, then moves on)
+        # 1b) re-edit an earlier reel's script with today's editor, screens and B-roll (REDO_PLAN=logs/plans/<file>.json)
+        if not plan and os.environ.get("REDO_PLAN"):
+            old = json.loads((ROOT / os.environ["REDO_PLAN"]).read_text(encoding="utf-8"))
+            notes = old.get("research") or {}
+            sources = tutorial.notes_text(notes, None, "")
+            print(f"[4/6] re-editing '{old['topic'][:80]}'", flush=True)
+            media = tutorial.footage(old, notes, mdir)
+            ed = tutorial.edit(old, old["pick"], sources, notes, media)
+            plan = {**{k: v for k, v in old.items() if k not in ("scenes", "cta", "endcard", "keywords", "tag", "media", "manual_request")}, **ed, "media": media, "redo_of": os.environ["REDO_PLAN"]}
+            plan.pop("manual_request", None)
         if not plan:
             plan = tutorial.make_plan([c["topic"] for c in covered[-40:]], skip_urls=[c.get("url") for c in covered]
                                       + [json.loads(f.read_text()).get("plan", {}).get("inspired_by", {}).get("url") for f in recordings.PENDING.glob("*.json")],

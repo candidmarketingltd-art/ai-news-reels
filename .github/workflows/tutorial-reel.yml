@@ -14,6 +14,10 @@ on:
         description: "1 = skip if this posting window already has its reel (used by the Scheduler)"
         required: false
         default: "0"
+      redo_plan:
+        description: "Re-edit an earlier reel: path of its plan, e.g. logs/plans/tutorial_2026-11-01_1528.json (blank = new topic)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -108,6 +112,7 @@ jobs:
           SERIES_NAME: ${{ vars.SERIES_NAME }}
           REMOTION_CONCURRENCY: ${{ vars.REMOTION_CONCURRENCY }}
           DRY_RUN: ${{ inputs.dry_run }}
+          REDO_PLAN: ${{ inputs.redo_plan }}
           SLOT_GUARD: ${{ inputs.guard == '1' && '1' || '0' }}
         run: python -m pipeline.tutorial_run
       - name: Keep the reel (7 days)
