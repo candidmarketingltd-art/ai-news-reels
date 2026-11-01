@@ -133,6 +133,37 @@ def _attach_media(scenes, plan, run_id):
         sc["elements"] = [e for e in sc["elements"] if e.get("type") != "_skip"]
 
 
+GAP = float(os.environ.get("MAX_STILL_SECONDS") or 2.8)   # longest stretch allowed without anything new on screen
+
+
+def _event_times(scenes, reacts):
+    """Every moment something new lands (elements, cards, list items, screen steps/clicks, reactions)."""
+    T = []
+    def walk(o):
+        if isinstance(o, dict):
+            for k, v in o.items():
+                if (k == "at" or k.endswith("_at")) and isinstance(v, (int, float)): T.append(float(v))
+                elif isinstance(v, (dict, list)) and k not in ("_media",): walk(v)
+        elif isinstance(o, list):
+            for x in o: walk(x)
+    for sc in scenes:
+        T.append(sc["start"]); walk(sc["elements"])
+    T += [r["at"] for r in reacts]
+    return sorted(set(round(t, 2) for t in T))
+
+
+def keepalive_beats(scenes, reacts, end):
+    """Fill every still stretch longer than GAP with a camera punch-in beat."""
+    ev = [t for t in _event_times(scenes, reacts) if t <= end] + [end]
+    beats, last = [], 0.0
+    for t in ev:
+        while t - last > GAP:
+            last = last + min(GAP * 0.8, (t - last) / 2) if t - last < 2 * GAP else last + GAP * 0.85
+            beats.append(round(last, 2))
+        last = max(last, t)
+    return beats
+
+
 def build_props(plan, words, duration, episode=None, run_id="preview"):
     spoken = spoken_tokens(plan["voiceover"])
     roman = plan.get("captions") or _star(spoken, plan.get("keywords") or [])
@@ -189,6 +220,7 @@ def build_props(plan, words, duration, episode=None, run_id="preview"):
         "tag": (plan.get("tag") or "").upper()[:22], "handle": HANDLE,
         "disclaimer": None,
         "words": cw, "chunks": chunk(cw), "scenes": scenes, "reacts": reacts, "cta": cta_p,
+        "beats": keepalive_beats(scenes, reacts, cta_start),
         "endcard": {"at": end, "title": ec.get("title") or "Saved it?", "terminal": ec.get("terminal") or "> hack.saved · try it today"},
     }
     if R.missing:
@@ -200,6 +232,8 @@ def build_props(plan, words, duration, episode=None, run_id="preview"):
 def sfx_hits(props):
     H = []
     add = lambda t, k: H.append((round(t, 3), k)) if t is not None else None
+    add(0.0, "impact")                                   # the hook lands with a hit
+    for b in props.get("beats") or []: add(b, "swish")
     def roll(t, n=8):
         for i in range(n): add(t + i * 0.1, "tick")
     for i, s in enumerate(props["scenes"]):

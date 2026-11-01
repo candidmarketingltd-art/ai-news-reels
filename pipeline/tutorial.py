@@ -249,7 +249,60 @@ def _catalog():
     return json.loads((ROOT / "remotion" / "illustrations.json").read_text())
 
 
-def check_plan(d, voiceover, sources, media_ids=()):
+MAX_GAP_WORDS = int(os.environ.get("MAX_GAP_WORDS") or 9)   # ~3 seconds of speech
+
+
+def check_pacing(d, voiceover, media_ids=()):
+    """Retention rules: the reel opens on a full-screen B-roll hook, and something new lands at least every ~3 s."""
+    from pipeline.render.engine import _norm
+    words = [_norm(w) for w in re.sub(r"\[[^\]]*\]", " ", voiceover).split() if _norm(w)]
+    raw = [w for w in re.sub(r"\[[^\]]*\]", " ", voiceover).split() if _norm(w)]
+
+    def find(phrase, start):
+        toks = [_norm(x) for x in str(phrase).split() if _norm(x)]
+        for i in range(start, len(words) - len(toks) + 1):
+            if words[i:i + len(toks)] == toks: return i
+        return None
+
+    idx = []
+    def walk(o, base):
+        if isinstance(o, dict):
+            here = base
+            if isinstance(o.get("at"), str):
+                j = find(o["at"], max(0, base - 2)); here = j if j is not None else base
+                if j is not None:
+                    idx.append(j)
+                    typing = o.get("text") if o.get("type") == "prompt" or o.get("kind") == "type" else None
+                    if typing: idx.extend(j + k for k in range(4, min(16, len(str(typing).split()) + 4), 5))
+            for k, v in o.items():
+                if k.endswith("_at") and isinstance(v, str):
+                    j = find(v, max(0, here - 2))
+                    if j is not None: idx.append(j)
+                elif isinstance(v, (dict, list)) and k != "view": walk(v, here)
+        elif isinstance(o, list):
+            for x in o: walk(x, base)
+    for sc in d["scenes"]:
+        j = find(sc.get("at", ""), 0) or 0
+        idx.append(j)
+        walk(sc.get("elements", []), j); walk(sc.get("react", []), j)
+    cta = find((d.get("cta") or {}).get("at", ""), 0)
+    end = cta if cta is not None else len(words)
+    pts = sorted(set(i for i in idx if i < end)) + [end]
+    bad = []
+    lib = [m for m in media_ids if m.startswith("lib_")]
+    first = (d["scenes"] or [{}])[0]
+    if lib and not any(e.get("type") == "footage" and e.get("full") and e.get("media") in lib for e in first.get("elements", [])):
+        bad.append("HOOK: the first scene must open on a full-screen B-roll clip (footage with full: true, a lib_ clip that matches the hook) "
+                   "from the very first words, with one punchy title_slam/headline/pill on top")
+    if pts and pts[0] > 1: bad.append("HOOK: something must land on the very first word")
+    for a, b in zip(pts, pts[1:]):
+        if b - a > MAX_GAP_WORDS:
+            bad.append(f"PACING: nothing new lands between word {a} ('{' '.join(raw[a:a + 4])}…') and word {b} ('{' '.join(raw[b:b + 3])}…') — "
+                       f"{b - a} words (~{(b - a) / 2.7:.0f}s); add an element, a list item, a screen step/click, a footage cut or a react in between")
+    if bad: raise ValueError("RETENTION: " + "; ".join(bad[:6]))
+
+
+def check_plan(d, voiceover, sources, media_ids=(), pacing=True):
     for k in ("scenes", "cta"):
         if not d.get(k): raise ValueError(f"missing '{k}'")
     cat = set(_catalog()); bad = []
@@ -279,6 +332,7 @@ def check_plan(d, voiceover, sources, media_ids=()):
         walk(sc.get("elements", []))
     if bad: raise ValueError("; ".join(dict.fromkeys(bad))[:900])
     _check_cues({"scenes": d["scenes"], "cold_open": [d["cta"]]}, voiceover)
+    if pacing: check_pacing(d, voiceover, media_ids)
     # screen mock-ups carry decorative UI text (dates, file names); only the rest of the edit is fact-checked
     no_views = [{**sc, "elements": [({**{k: v for k, v in e.items() if k != "url"}, "steps": [{k: v for k, v in st.items() if k != "view"} for st in e.get("steps") or []]} if e.get("type") == "screen" else e)
                                     for e in sc.get("elements", [])]} for sc in d["scenes"]]
@@ -326,7 +380,12 @@ def edit(script, p, sources, notes=None, media=(), note=""):
     user = (f"REEL TOPIC: {p['topic']} (tool: {p.get('tool', '')})\n\nUI NOTES (for screen recreations): {ui}\n"
             f"WHAT THE VIEWER SHOULD SEE: {(notes or {}).get('visuals', '')}\n\nAVAILABLE MEDIA:\n{menu}\n\n"
             f"{note}VOICEOVER (already recorded — cue words must match it exactly):\n{script['voiceover']}\n\nReturn only the JSON.")
-    return _ask_json(EDIT_MODEL, sysp, user, lambda d: check_plan(d, script["voiceover"], sources, ids), attempts=4)
+    tries = {"n": 0}
+
+    def check(d):   # retention rules are enforced for 3 tries; after that the renderer's keep-alive beats cover any gap
+        tries["n"] += 1
+        check_plan(d, script["voiceover"], sources, ids, pacing=tries["n"] <= 3)
+    return _ask_json(EDIT_MODEL, sysp, user, check, attempts=5)
 
 
 def make_plan(recent_topics, skip_urls=(), workdir="out/media", on_manual=None):

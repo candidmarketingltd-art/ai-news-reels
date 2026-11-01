@@ -153,7 +153,18 @@ def build_ui_sfx(hits, duration, path, seed=5):
             acc += k[i] * 0.25 * (x[i] - acc); y[i] = acc
         return y * np.sin(np.linspace(0, np.pi, n)) ** 2 * 1.6
 
-    bank = {"pop": (pop(), 0.22), "tick": (tick(), 0.10), "thud": (thud(), 0.5), "ding": (ding(), 0.20), "whoosh": (whoosh(), 0.25)}
+    def impact():   # cinematic hit for the very first frame: sub drop + noise burst + short tail
+        n = int(0.9 * sr); t = np.arange(n) / sr
+        sub = np.sin(2 * np.pi * (45 + 120 * np.exp(-t * 18)) * t) * env(n, 0.001, 0.35)
+        hiss = rng.normal(0, 1, n) * env(n, 0.0005, 0.05) * 0.5
+        return sub + hiss
+
+    def swish():    # short airy swipe for keep-alive beats
+        n = int(0.22 * sr); x = rng.normal(0, 1, n).astype(np.float32)
+        hp = np.diff(np.concatenate([[0], x]))
+        return hp * np.sin(np.linspace(0, np.pi, n)) ** 3 * 0.9
+
+    bank = {"impact": (impact(), 0.75), "swish": (swish(), 0.16), "pop": (pop(), 0.22), "tick": (tick(), 0.10), "thud": (thud(), 0.5), "ding": (ding(), 0.20), "whoosh": (whoosh(), 0.25)}
     for t, kind in hits:
         if kind not in bank: continue
         sig, g = bank[kind]

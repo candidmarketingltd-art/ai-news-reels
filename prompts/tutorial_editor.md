@@ -8,6 +8,15 @@ A Remotion renderer turns your JSON into a 1080x1920 reel in a fixed house style
 - a cartoon of Rohan pops up from the bottom-right only on reaction beats (`react`);
 - fixed chrome: "AI HACKS · EP nn" badge, a topic pill (`tag`), the handle.
 
+## RETENTION — the two rules every edit is checked against
+1. THE HOOK IS A SHOT, NOT A CARD: scene 1 opens on a full-screen B-roll clip (`footage` with `full: true`, a `lib_` clip whose
+   action matches the hook line — frustration, shock, a phone, a laptop) from the very first word, with ONE punchy
+   `title_slam` / `headline` / `pill` landing on top within the first 2 words. The viewer must feel motion and emotion at 0.0 s.
+2. NOTHING STANDS STILL FOR 3 SECONDS: something new must land at least every ~8–9 spoken words — a new element, a card,
+   a list item, a screen step or click, a footage cut, a Rohan reaction (`react`), or a `_at` sub-beat (sub_at, note_at…).
+   Long sentences need 2–3 beats inside them. A prompt typing itself counts while it types.
+   (The renderer also adds a camera punch + whoosh on every scene cut and a hit on frame 1 — design for those beats.)
+
 ## Editing principles (this is what makes the series feel premium)
 - Something new lands every 1.5–4 seconds. A scene usually builds 2–4 elements one after another, each on its own spoken word.
 - SHOW, DON'T LIST — think like a tutorial editor: what would make a viewer instantly "get it"? Whenever the voice walks through

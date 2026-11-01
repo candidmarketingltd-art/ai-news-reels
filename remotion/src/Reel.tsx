@@ -10,6 +10,7 @@ export type ReelProps = {
   duration: number; badge: string; glyph?: string; tag: string; handle: string; disclaimer?: string;
   words: Word[]; chunks: number[][]; scenes: SceneT[];
   reacts: { at: number; until: number; pose: string }[];
+  beats?: number[];
   cta: { start: number; line1: string; line1_at: number; line2?: string; line2_at?: number };
   endcard: { at: number; title: string; terminal: string };
 };
@@ -227,13 +228,35 @@ const EndCard: React.FC<{ e: ReelProps["endcard"]; handle: string }> = ({ e, han
   );
 };
 
+/* retention layer: a hook punch on frame 1, a punch-in on every scene cut, and a camera punch + light sweep on every
+   keep-alive beat (inserted wherever nothing new would land for ~3 s) */
+const punch = (f: number, at: number, amp: number, len = 10) => {
+  const d = f - fx(at);
+  return d < 0 || d > len ? 0 : amp * Math.pow(1 - d / len, 2);
+};
+const Sweep: React.FC<{ beats: number[] }> = ({ beats }) => {
+  const f = useCurrentFrame();
+  const b = beats.find((t) => f >= fx(t) && f < fx(t) + 14);
+  if (b === undefined) return null;
+  const p = interpolate(f, [fx(b), fx(b) + 14], [-0.4, 1.3], { ...clamp, easing: easeOut });
+  return <AbsoluteFill style={{ pointerEvents: "none", background: `linear-gradient(115deg, transparent ${p * 100 - 18}%, rgba(255,240,200,0.10) ${p * 100}%, transparent ${p * 100 + 18}%)` }} />;
+};
+
 export const Reel: React.FC<ReelProps> = (p) => {
   const f = useCurrentFrame();
   const fade = interpolate(f, [fx(p.duration + 2.4), fx(p.duration + 2.9)], [0, 1], clamp);
+  const beats = p.beats || [];
+  const hook = interpolate(f, [0, 12], [0.14, 0], { ...clamp, easing: easeOut });          // frame 1 lands zoomed-in and settles
+  const cam = 1 + hook + p.scenes.slice(1).reduce((a, s) => a + punch(f, s.start, 0.045, 9), 0) + beats.reduce((a, b) => a + punch(f, b, 0.035, 10), 0);
+  const flash = interpolate(f, [1, 2, 7], [0, 0.4, 0], clamp);   // frame 0 stays clean (it can be the cover)
   return (
     <AbsoluteFill style={{ background: COL.bg, overflow: "hidden" }}>
+      <AbsoluteFill style={{ scale: `${cam}`, transformOrigin: "540px 760px" }}>
       <Background scenes={p.scenes} />
       {p.scenes.map((s, i) => <Scene key={i} s={s} i={i} />)}
+      </AbsoluteFill>
+      <Sweep beats={beats} />
+      {flash > 0 && <AbsoluteFill style={{ background: "#FFF6DD", opacity: flash }} />}
       <Cta c={p.cta} end={p.endcard.at} />
       <EndCard e={p.endcard} handle={p.handle} />
       <Mascot reacts={p.reacts} words={p.words} />
