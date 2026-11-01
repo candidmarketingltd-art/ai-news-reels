@@ -161,12 +161,13 @@ def build_props(plan, words, duration, episode=None, run_id="preview"):
             els.append(r)
         # never leave a scene showing only a small label: bring its first real visual in within ~0.3 s
         main = [e for e in els if e["type"] not in ("label", "pill")]
-        if main and main[0]["type"] == "stat_row" and main[0].get("cards") and main[0]["cards"][0].get("at", 0) > st + 1.0:
-            main[0]["cards"][0]["at"] = round(st + 0.3, 3)
-        elif main and main[0]["at"] > st + 1.0:
-            shift = main[0]["at"] - (st + 0.3)
-            main[0]["at"] = round(st + 0.3, 3)
-            if main[0]["type"] == "prompt" and isinstance(main[0].get("send_at"), (int, float)): main[0]["send_at"] = max(main[0]["send_at"], st + 1.5)
+        if main:
+            m0 = main[0]
+            first = min([m0.get("at", 1e9)] + [c.get("at", 1e9) for c in m0.get("cards") or []])
+            if first > st + 0.6:
+                m0["at"] = round(st + 0.3, 3)
+                if m0.get("cards"): m0["cards"][0]["at"] = round(st + 0.3, 3)
+                if m0["type"] == "prompt" and isinstance(m0.get("send_at"), (int, float)): m0["send_at"] = max(m0["send_at"], st + 1.5)
         scenes.append({"start": st, "end": en, "tint": s.get("tint") or "warm", "elements": els})
         for rc in s.get("react", []) or []:
             mood = rc.get("mood") if rc.get("mood") in MOODS else "neutral"
