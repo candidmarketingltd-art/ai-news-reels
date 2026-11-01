@@ -1,0 +1,910 @@
+{
+ "voiceover": "[conversational] Stop using ChatGPT for everything. Seriously.\n\nChatGPT, Claude, Gemini and Perplexity all have a free plan, and each might win a different job. So don't trust me. Test them.\n\nOpen chatgpt.com, claude.ai, gemini.google.com and perplexity.ai in 4 tabs. Paste the exact same prompt in each. For research, try: [playful] Explain how electric cars work in 5 bullet points with sources.\n\nThen score each answer from 1 to 5. Are sources shown? Is it correct? For coding, does the code run? For long writing, paste the same long document in all 4 and see which hits a limit first.\n\n[whispers] Perplexity shows numbered sources, so watch it on research.\n\n[serious] Honest catch: every free plan has caps, and they change often. Claude and Gemini don't publish a fixed message count.\n\nWhich one wins coding for you?\n\nSend this to the friend who opens ChatGPT for everything.",
+ "title": "STOP USING CHATGPT FOR EVERYTHING",
+ "ig_caption": "Stop using ChatGPT for everything. Seriously.\n✅ Open ChatGPT, Claude, Gemini and Perplexity on the free plan\n✅ Paste the exact same prompt in all 4\n✅ Score each answer 1 to 5: sources, accuracy, writing, does the code run\n✅ Pick a default tool per job\nWhich one wins coding for you? 👇\nSave this for later 📌\nFollow @ihackgrowth for daily AI & tech hacks",
+ "media_hints": {
+  "domain": "chatgpt.com",
+  "broll": [
+   "typing on laptop",
+   "split screen laptops",
+   "person comparing screens"
+  ]
+ },
+ "hashtags": [
+  "#AItools",
+  "#AIhacks",
+  "#ChatGPT",
+  "#Claude",
+  "#Gemini",
+  "#Perplexity",
+  "#productivity",
+  "#freeAI"
+ ],
+ "tag": "AI SHOWDOWN",
+ "keywords": [
+  "ChatGPT",
+  "Claude",
+  "Gemini",
+  "Perplexity",
+  "free",
+  "Test",
+  "tabs",
+  "prompt",
+  "research",
+  "sources",
+  "score",
+  "correct",
+  "coding",
+  "writing",
+  "limit",
+  "caps",
+  "numbered"
+ ],
+ "scenes": [
+  {
+   "at": "Stop using",
+   "tint": "red",
+   "react": [
+    {
+     "at": "Seriously.",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Stop using",
+     "media": "lib_man_reacting_to_laptop_screen",
+     "full": true
+    },
+    {
+     "type": "title_slam",
+     "at": "Stop using",
+     "text": "STOP",
+     "sub": "CHATGPT FOR EVERYTHING",
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "at": "ChatGPT, Claude,",
+   "elements": [
+    {
+     "type": "label",
+     "at": "ChatGPT, Claude,",
+     "text": "THE BIG 4"
+    },
+    {
+     "type": "strike_list",
+     "at": "ChatGPT, Claude,",
+     "items": [
+      {
+       "text": "CHATGPT",
+       "at": "ChatGPT, Claude,",
+       "strike": false
+      },
+      {
+       "text": "CLAUDE",
+       "at": "Claude, Gemini",
+       "strike": false
+      },
+      {
+       "text": "GEMINI",
+       "at": "Gemini and",
+       "strike": false
+      },
+      {
+       "text": "PERPLEXITY",
+       "at": "and Perplexity",
+       "strike": false
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "at": "free plan,",
+     "text": "ALL HAVE A FREE PLAN",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "and each",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "don't trust",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "headline",
+     "at": "and each",
+     "text": "DIFFERENT JOB, DIFFERENT AI",
+     "size": "m",
+     "ill": "bullseye"
+    },
+    {
+     "type": "title_slam",
+     "at": "Test them.",
+     "text": "TEST THEM",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "Open chatgpt.com,",
+   "react": [
+    {
+     "at": "Open chatgpt.com,",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Open chatgpt.com,",
+     "device": "desktop",
+     "step": "Step 1 · Open 4 tabs",
+     "steps": [
+      {
+       "at": "Open chatgpt.com,",
+       "view": {
+        "kind": "checklist",
+        "window": "Browser tabs",
+        "title": "Open these 4",
+        "items": [
+         {
+          "label": "chatgpt.com",
+          "sub": "ChatGPT",
+          "checked": false
+         },
+         {
+          "label": "claude.ai",
+          "sub": "Claude",
+          "checked": false
+         },
+         {
+          "label": "gemini.google.com",
+          "sub": "Gemini",
+          "checked": false
+         },
+         {
+          "label": "perplexity.ai",
+          "sub": "Perplexity",
+          "checked": false
+         }
+        ]
+       },
+       "action": {
+        "kind": "toggle",
+        "target": "chatgpt.com",
+        "at": "Open chatgpt.com,"
+       }
+      },
+      {
+       "at": "claude.ai,",
+       "view": {
+        "kind": "checklist",
+        "window": "Browser tabs",
+        "title": "Open these 4",
+        "items": [
+         {
+          "label": "chatgpt.com",
+          "sub": "ChatGPT",
+          "checked": true
+         },
+         {
+          "label": "claude.ai",
+          "sub": "Claude",
+          "checked": false
+         },
+         {
+          "label": "gemini.google.com",
+          "sub": "Gemini",
+          "checked": false
+         },
+         {
+          "label": "perplexity.ai",
+          "sub": "Perplexity",
+          "checked": false
+         }
+        ]
+       },
+       "action": {
+        "kind": "toggle",
+        "target": "claude.ai",
+        "at": "claude.ai,"
+       }
+      },
+      {
+       "at": "gemini.google.com and",
+       "view": {
+        "kind": "checklist",
+        "window": "Browser tabs",
+        "title": "Open these 4",
+        "items": [
+         {
+          "label": "chatgpt.com",
+          "sub": "ChatGPT",
+          "checked": true
+         },
+         {
+          "label": "claude.ai",
+          "sub": "Claude",
+          "checked": true
+         },
+         {
+          "label": "gemini.google.com",
+          "sub": "Gemini",
+          "checked": false
+         },
+         {
+          "label": "perplexity.ai",
+          "sub": "Perplexity",
+          "checked": false
+         }
+        ]
+       },
+       "action": {
+        "kind": "toggle",
+        "target": "gemini.google.com",
+        "at": "gemini.google.com and"
+       }
+      },
+      {
+       "at": "perplexity.ai in",
+       "view": {
+        "kind": "checklist",
+        "window": "Browser tabs",
+        "title": "Open these 4",
+        "items": [
+         {
+          "label": "chatgpt.com",
+          "sub": "ChatGPT",
+          "checked": true
+         },
+         {
+          "label": "claude.ai",
+          "sub": "Claude",
+          "checked": true
+         },
+         {
+          "label": "gemini.google.com",
+          "sub": "Gemini",
+          "checked": true
+         },
+         {
+          "label": "perplexity.ai",
+          "sub": "Perplexity",
+          "checked": false
+         }
+        ]
+       },
+       "action": {
+        "kind": "toggle",
+        "target": "perplexity.ai",
+        "at": "4 tabs."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Paste the",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Paste the",
+     "text": "STEP 2 · SAME PROMPT"
+    },
+    {
+     "type": "pill",
+     "at": "exact same",
+     "text": "IDENTICAL IN EVERY TAB",
+     "color": "gold",
+     "outline": true
+    },
+    {
+     "type": "prompt",
+     "at": "Explain how",
+     "app": "RESEARCH TEST",
+     "text": "Explain how electric cars work in 5 bullet points with sources.",
+     "send_at": "with sources."
+    }
+   ]
+  },
+  {
+   "at": "Then score",
+   "react": [
+    {
+     "at": "Is it",
+     "mood": "serious"
+    }
+   ],
+   "elements": [
+    {
+     "type": "big_number",
+     "at": "Then score",
+     "value": "1–5",
+     "color": "gold",
+     "note": "SCORE EACH ANSWER",
+     "note_at": "from 1"
+    },
+    {
+     "type": "steps",
+     "at": "Are sources",
+     "items": [
+      {
+       "text": "SOURCES SHOWN?",
+       "at": "Are sources",
+       "ill": "bookmark_tabs"
+      },
+      {
+       "text": "IS IT CORRECT?",
+       "at": "Is it",
+       "ill": "check_mark_button"
+      },
+      {
+       "text": "DOES THE CODE RUN?",
+       "at": "does the code",
+       "ill": "laptop"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "For long",
+   "elements": [
+    {
+     "type": "label",
+     "at": "For long",
+     "text": "LONG WRITING TEST"
+    },
+    {
+     "type": "stat_row",
+     "at": "For long",
+     "cards": [
+      {
+       "label": "DOCUMENT",
+       "value": "SAME",
+       "ill": "page_facing_up",
+       "at": "same long"
+      },
+      {
+       "label": "TABS",
+       "value": "4",
+       "ill": "desktop_computer",
+       "at": "all 4"
+      },
+      {
+       "label": "WHO CAPS FIRST",
+       "value": "LIMIT",
+       "color": "red",
+       "glow": true,
+       "at": "a limit"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Perplexity shows",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "watch it",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "Perplexity shows",
+     "text": "PRO TIP"
+    },
+    {
+     "type": "app",
+     "at": "Perplexity shows",
+     "name": "Perplexity",
+     "label": "WATCH ON RESEARCH",
+     "ill": "magnifying_glass_tilted_right",
+     "sub": "NUMBERED SOURCES",
+     "sub_at": "numbered sources,"
+    },
+    {
+     "type": "pill",
+     "at": "watch it",
+     "text": "RESEARCH CONTENDER",
+     "color": "blue"
+    }
+   ]
+  },
+  {
+   "at": "Honest catch:",
+   "tint": "red",
+   "react": [
+    {
+     "at": "Honest catch:",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "Honest catch:",
+     "text": "THE CATCH"
+    },
+    {
+     "type": "title_slam",
+     "at": "has caps,",
+     "text": "CAPS",
+     "color": "red"
+    },
+    {
+     "type": "pill",
+     "at": "change often.",
+     "text": "LIMITS CHANGE OFTEN",
+     "color": "red",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "Claude and",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Claude and",
+     "text": "FIXED MESSAGE COUNT?"
+    },
+    {
+     "type": "stat_row",
+     "at": "Claude and",
+     "cards": [
+      {
+       "label": "CLAUDE",
+       "value": "?",
+       "sub": "NOT PUBLISHED",
+       "color": "red",
+       "at": "Claude and"
+      },
+      {
+       "type": "card",
+       "label": "GEMINI",
+       "value": "?",
+       "sub": "NOT PUBLISHED",
+       "color": "red",
+       "at": "Gemini don't"
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "at": "fixed message",
+     "text": "NO FIXED NUMBER",
+     "color": "muted",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "Which one",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Which one",
+     "media": "lib_man_pointing_at_camera",
+     "full": true
+    },
+    {
+     "type": "headline",
+     "at": "Which one",
+     "text": "WHO WINS CODING?",
+     "size": "l",
+     "sub": "COMMENT YOUR PICK",
+     "sub_at": "for you?"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "Send this",
+  "line1": "Send this to",
+  "line1_at": "Send this",
+  "line2": "the ChatGPT-only friend",
+  "line2_at": "opens ChatGPT"
+ },
+ "endcard": {
+  "title": "Saved it?",
+  "terminal": "> 4 tabs · 1 prompt · scored"
+ },
+ "media": [
+  {
+   "id": "lib_camera_moving_down_server_corridor",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "credit": "",
+   "file": "camera_moving_down_server_corridor.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow forward push down a hazy, fog-filled data center aisle lined with server racks that glow with blue and amber status lights, giving a moody, futuristic feel. Good for: A script line about the infrastructure behind AI, such as cloud computing, model training, heavy compute, data storage, or 'what happens behind the scenes'."
+  },
+  {
+   "id": "lib_clock_ticking_and_person_typing",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "credit": "",
+   "file": "clock_ticking_and_person_typing.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A rack-focus shot moves from a close-up of a black twin-bell alarm clock with ticking hands to a bearded man in a light polo typing on a laptop in a dim room, giving a tense, time-pressured mood. Good for: lines about deadlines, time slipping away, long hours of manual work, or the pressure of slow, tedious tasks before an AI tool speeds things up"
+  },
+  {
+   "id": "lib_colleagues_collaborating_around",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "credit": "",
+   "file": "colleagues_collaborating_around.mp4",
+   "frames": 126,
+   "desc": "B-roll (4.2s, VERTICAL 9:16 — best as full: true): colleagues collaborating around Good for: "
+  },
+  {
+   "id": "lib_content_creator_sets_up_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "credit": "",
+   "file": "content_creator_sets_up_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt stands behind a ring light with a phone on a tripod, adjusting the setup while the camera slowly pushes in until his face fills the frame, with a calm, focused mood and moody blue ambient lighting in the background. Good for: setting up to create content, getting started as a creator, or preparing equipment before recording a tutorial"
+  },
+  {
+   "id": "lib_eye_reflecting_laptop_screen_glow",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "credit": "",
+   "file": "eye_reflecting_laptop_screen_glow.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow zoom into an extreme close-up of a brown eye with a bright blue screen reflected in the pupil, framed by a thick eyebrow and warm skin tones, fading into a cool blue gradient at the bottom, with a focused, intense and cinematic mood. Good for: lines about being glued to a screen, intense focus or attention, watching AI work, or 'seeing' a new opportunity or insight"
+  },
+  {
+   "id": "lib_fingers_typing_on_laptop_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "credit": "",
+   "file": "fingers_typing_on_laptop_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): Close-up over-the-shoulder shot of a person typing on a backlit laptop keyboard, with a blurred blue screen in the background and a warm, focused, productive mood. Good for: lines about getting started, writing prompts or code, doing focused work at the computer, or the hands-on steps of a tutorial"
+  },
+  {
+   "id": "lib_hand_dropping_papers_on_desk",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "credit": "",
+   "file": "hand_dropping_papers_on_desk.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a green shirt carries and then drops a thick stack of papers onto an already huge, messy pile of documents with sticky notes on a cluttered desk, while a laptop glows nearby, and the camera pushes in to a close-up of the towering stack, creating a mood of overwhelm and tedious paperwork. Good for: a script line about drowning in manual paperwork or document processing, setting up how AI can automate summarizing, sorting, or extracting information from piles of documents"
+  },
+  {
+   "id": "lib_hand_scrolling_smartphone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_scrolling_smartphone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_scrolling_smartphone.mp4",
+   "credit": "",
+   "file": "hand_scrolling_smartphone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a bearded young man in a white t-shirt looking intently at a smartphone in dim, warm lighting, with the camera slowly pushing in until his focused, slightly tense gaze moves from the screen to the lens. Good for: a script line about being glued to your phone, doubt or tension before a reveal, or the moment of realizing something while checking an app or notification"
+  },
+  {
+   "id": "lib_hands_holding_credit_card_near",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hands_holding_credit_card_near.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hands_holding_credit_card_near.mp4",
+   "credit": "",
+   "file": "hands_holding_credit_card_near.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): hands holding credit card near Good for: "
+  },
+  {
+   "id": "lib_man_comparing_phone_and_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "credit": "",
+   "file": "man_comparing_phone_and_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): man comparing phone and laptop Good for: "
+  },
+  {
+   "id": "lib_man_looking_at_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "credit": "",
+   "file": "man_looking_at_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt scowls with intense focus at a laptop in a dim, warmly lit room, then closes his eyes and rubs his hand near his chin in tired frustration. Good for: frustration with slow or difficult work, such as struggling with a tedious task, debugging, or burning out late at night before finding a better way"
+  },
+  {
+   "id": "lib_man_opens_laptop_in_room",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "credit": "",
+   "file": "man_opens_laptop_in_room.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt sits at a laptop in a dimly lit, warmly lit room, and his focused, tense expression builds as he leans toward the screen, which shows blurry blue diagram or flowchart-style blocks, with his fists clenched near his chin in the middle frame. Good for: intense concentration or deep work, such as debugging, building an AI workflow, or struggling with a complex problem"
+  },
+  {
+   "id": "lib_man_pointing_at_camera",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_pointing_at_camera.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_pointing_at_camera.mp4",
+   "credit": "",
+   "file": "man_pointing_at_camera.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a dark henley sits in a car seat working on a laptop with a focused look, then looks up with a warm smile and points playfully at the camera in a confident, friendly mood. Good for: a line that moves from focused work or problem-solving to a direct call to action, such as 'here's the trick you need to try' or 'now it's your turn'"
+  },
+  {
+   "id": "lib_man_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "man_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt stares intently at a laptop screen with blurry blue UI elements floating in front of the camera, then grimaces in frustration and mouths a reaction, and finally tilts his head back in exhausted resignation in a dim, warmly lit room. Good for: frustration with slow, tedious, or failing work, such as waiting on a slow tool, hitting an error, or being exhausted by manual tasks before introducing an AI solution"
+  },
+  {
+   "id": "lib_man_shaking_head_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "credit": "",
+   "file": "man_shaking_head_at_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits in a dark chair looking down at his phone, and his expression shifts from neutral to scrunched-up frustration or confusion, then to a displeased, worried look as he lowers the phone. Good for: frustration or disappointment with a tool or app that isn't working, slow or confusing results, or a bad surprise while checking your phone"
+  },
+  {
+   "id": "lib_man_smiling_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "credit": "",
+   "file": "man_smiling_at_phone.mp4",
+   "frames": 135,
+   "desc": "B-roll (4.5s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a blue smartphone, his expression shifting from neutral to a furrowed-brow frown of confusion and frustration. Good for: a line about frustration with confusing apps or slow tools, or the moment someone hits a problem and doesn't know what to do next"
+  },
+  {
+   "id": "lib_man_staring_at_phone_in",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_staring_at_phone_in.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_staring_at_phone_in.mp4",
+   "credit": "",
+   "file": "man_staring_at_phone_in.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt stares at his smartphone, his expression moving from a focused frown to wide-eyed shock and then to a worried look straight into the camera, in a warm, dimly lit home setting. Good for: a line about a shocking discovery, an unexpected result, or a worrying realization, such as 'you won't believe what this AI tool just did' or 'when you see how much time you've been wasting'"
+  },
+  {
+   "id": "lib_man_studying_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "credit": "",
+   "file": "man_studying_with_laptop.mp4",
+   "frames": 132,
+   "desc": "B-roll (4.4s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits at a desk behind a laptop with a furrowed brow and a frustrated, concentrated look, first staring at the screen, then looking down at an open notebook and writing with a pen, with a warm blurred lamp glowing in the background. Good for: a script line about struggling to understand something complex, frustration with slow or manual work, or the pain of learning a new tool the hard way"
+  },
+  {
+   "id": "lib_man_watching_laptop_waiting",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "credit": "",
+   "file": "man_watching_laptop_waiting.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits at a laptop in a dimly lit room with warm lamp light, resting his chin on his fist with a focused, pensive look, and the camera pushes in closer across the three frames. Good for: a script line about deep thinking, researching or problem-solving, or weighing a decision before trying an AI tool"
+  },
+  {
+   "id": "lib_person_drinking_coffee_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "credit": "",
+   "file": "person_drinking_coffee_with_laptop.mp4",
+   "frames": 93,
+   "desc": "B-roll (3.1s, VERTICAL 9:16 — best as full: true): A bearded man in a green polo sits at a laptop in a modern industrial-style open office, lifting a white cup to his mouth and sipping a hot drink while looking down at the screen, in a calm, focused mood. Good for: a line about taking a breather while the AI does the work, a morning work routine, waiting for a process to finish, or the calm of an automated workflow"
+  },
+  {
+   "id": "lib_person_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "person_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a laptop, his expression moving from concern to a deep frown with glowing blue tear-like effects on his cheeks, then to eyes shut in stress or exhaustion; the mood is frustrated and overwhelmed. Good for: A script line about frustration or overwhelm with a tough task, such as struggling with confusing tools, wasting hours on manual work, or being stuck before finding an AI solution."
+  },
+  {
+   "id": "lib_person_speaking_into_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "credit": "",
+   "file": "person_speaking_into_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt takes a phone call in a modern industrial office with exposed concrete ceilings, moving from a serious, concerned look to a worried talking expression and ending with a relieved, confident smile at the camera. Good for: a script line about getting a surprising call or news, a problem being solved, or the moment of relief after a stressful issue"
+  },
+  {
+   "id": "lib_person_taking_selfie_with_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "credit": "",
+   "file": "person_taking_selfie_with_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt sits in a car holding a blue smartphone up close to his face, and across the clip he leans toward the screen with a furrowed brow, looking skeptical and intensely focused. Good for: a script line about doubting or double-checking AI output, being confused or frustrated by an app or tool, or looking closely at a result on your phone, e.g. 'wait, is this actually right?'"
+  },
+  {
+   "id": "lib_professional_working_on_laptop_late",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "credit": "",
+   "file": "professional_working_on_laptop_late.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A tired bearded young man in a maroon t-shirt sits at a laptop in a dim apartment at night, resting his head on his hand, rubbing his eyes, then glumly lifting a white coffee mug, with blurred city lights glowing behind him through the window. Good for: A script line about burnout, late-night grinding, or frustration with slow manual work that AI tools can speed up, e.g. 'still stuck doing this by hand at midnight?'"
+  },
+  {
+   "id": "lib_robotic_hand_typing_on_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "credit": "",
+   "file": "robotic_hand_typing_on_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a black robotic hand with segmented, mechanical fingers lowering onto a backlit laptop keyboard and starting to type, shot at shallow depth of field in a warm, softly lit, modern workspace. Good for: A script line about AI doing the work for you, automating repetitive tasks, or AI taking over typing and writing, such as 'let AI handle the busywork' or 'AI writes it for you'."
+  },
+  {
+   "id": "s1_image",
+   "kind": "image",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-01_2001/s1_image.png",
+   "credit": "Image: chatgpt.com",
+   "desc": "official image from ChatGPT Free vs Claude Free vs Gemini Free vs Perplexity Free (side-by-side test on the same prompt) (announcement page)"
+  },
+  {
+   "id": "s1_broll1",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-01_2001/s1_broll1.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-01_2001/s1_broll1.mp4",
+   "frames": 256,
+   "credit": "Video: Pexels",
+   "desc": "stock video: typing on laptop (9s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s1_broll2",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-01_2001/s1_broll2.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-01_2001/s1_broll2.mp4",
+   "frames": 428,
+   "credit": "Video: Pexels",
+   "desc": "stock video: split screen laptops (14s) — generic, NOT the company's own footage"
+  }
+ ],
+ "style": "hisaab",
+ "topic": "ChatGPT isn't the best AI for every job. Show which free AI tool to use for research, long writing, coding and content, and a quick test to compare them on the same prompt.",
+ "pick": {
+  "index": 7,
+  "topic": "ChatGPT isn't the best AI for every job. Show which free AI tool to use for research, long writing, coding and content, and a quick test to compare them on the same prompt.",
+  "tool": "ChatGPT vs Claude vs Gemini vs Perplexity (free tiers)",
+  "format": "comparison",
+  "angle": "Stop using ChatGPT for everything: 4 jobs where a free AI does it better",
+  "why": "1.41M views and 3,895 comments, a very high comment-to-view ratio for a 'ChatGPT isn't the best' claim, which people argue about. It's a safe contrarian angle that's easy to check. It's teachable in 3 steps (task, best tool, one example prompt) and uses only free tools."
+ },
+ "inspired_by": {
+  "url": "https://www.instagram.com/p/DfGHpMgsgBx/",
+  "owner": "drsaadai",
+  "plays": 1410626,
+  "likes": 30712,
+  "comments": 3895
+ },
+ "research": {
+  "verdict": "adjust",
+  "tool": "ChatGPT Free vs Claude Free vs Gemini Free vs Perplexity Free (side-by-side test on the same prompt)",
+  "availability": "All four have a permanent $0 plan on web and phone apps. All have usage caps. Ads on ChatGPT Free are reported in the US since Feb 2026 and in Taiwan since Sep 2026, per third-party sources. Free-tier limits have changed several times in 2026, so show no hard numbers on screen without re-checking the day you publish.",
+  "steps": [
+   "Pick ONE test prompt and paste the identical text into all four (e.g. 'Explain [topic] in 5 bullet points with sources' for research; 'Write a 300-word [type] in a friendly tone' for writing; 'Write a Python script that renames files by date, with comments' for coding; 'Give me 5 Instagram Reel hooks for [niche]' for content).",
+   "Open chatgpt.com, claude.ai, gemini.google.com and perplexity.ai in four browser tabs (or the four phone apps), signed in on the free plan.",
+   "Start a new chat in each, paste the same prompt, and send it.",
+   "Compare for each result: (a) are sources/citations shown, (b) how complete or correct is the answer, (c) tone and writing quality, (d) does the code run, (e) speed.",
+   "Score each tool 1–5 per job and pick a 'default' per job. For the 'long writing' job, paste the same long document in all four to see which one hits a limit first."
+  ],
+  "facts": [
+   "<cite index=\"39-3,39-4\">OpenAI removed limits on text-based chats for all ChatGPT users on Aug 6, 2026; GPT-5.6 Luna became the default for Free and Go.</cite>",
+   "<cite index=\"41-7,41-8\">Free and Go users get unlimited text chats (subject to abuse guardrails) and a Think button for harder questions; limits still apply to file uploads, images and other tools (OpenAI release notes, Aug 6, 2026).</cite>",
+   "<cite index=\"41-4,41-5\">OpenAI release notes Oct 7, 2026: GPT-6 and Intelligent UI roll out; Free and Go use GPT-6 Luna, while Plus/Pro/Business/Enterprise use GPT-6 Sol.</cite> Say 'ChatGPT free' rather than a model name, because names are changing fast.",
+   "<cite index=\"4-2\">Free ChatGPT users are limited to 3 file uploads per day (quoted from OpenAI's help text via a third-party tracker).</cite>",
+   "<cite index=\"12-3,12-4\">Claude Free has a session-based usage limit that resets every five hours, and the number of messages varies with demand (Anthropic help center).</cite>",
+   "<cite index=\"19-5\">Claude Free currently includes Sonnet and Haiku, a 200K context window and up to five Projects (third-party, Oct 2026).</cite>",
+   "<cite index=\"14-3\">Anthropic publishes no fixed message count. Pro gives at least 5x Free's usage per session.</cite>",
+   "<cite index=\"15-6\">Per a third-party plan guide, Claude Code and Claude in Chrome are not on Free, but Claude Design, Slides and Docs are.</cite> Treat this as unverified until checked on claude.com/pricing.",
+   "<cite index=\"26-4\">Free Gemini has standard limits and a 32K-token context window. It includes image generation, Deep Research, Gemini Live, Canvas and Gems, and refreshes every 5 hours until a weekly limit.</cite>",
+   "<cite index=\"26-1\">Google AI Plus ($4.99) gets 2x the free limits, AI Pro ($19.99) gets 4x.</cite>",
+   "<cite index=\"49-2\">Google's 1M-token window is described as up to 1,500 pages of text or 30,000 lines of code, and the free 32K window is about 3% of that.</cite>",
+   "<cite index=\"22-5\">Gemini shows your usage on its Usage limits page, opened from Settings at the bottom left of gemini.google.com.</cite>",
+   "<cite index=\"35-2\">Perplexity Free gives practically unlimited basic searches with citations, 3 Pro Searches a day and 1 Deep Research query a month.</cite> <cite index=\"35-7\">This is lower than the 5 Pro Searches per day that many older guides still quote.</cite>",
+   "<cite index=\"38-4\">Perplexity Free has no model choice (Perplexity picks the model) and no Comet Assistant agent tasks.</cite>",
+   "<cite index=\"38-3\">Perplexity Pro is $20/month or $200/year.</cite>",
+   "Prices of the paid tiers: ChatGPT Plus $20/month, Claude Pro $20/month ($17 billed annually), Google AI Pro $19.99, Perplexity Pro $20. Sources are third-party and the Claude and Perplexity ones are in the list above."
+  ],
+  "do_not_claim": [
+   "'Gemini Pro free with the longest memory: throw in an hour of video or a whole company codebase and it won't forget a letter'. The free Gemini app has a 32K-token context window (about 48 pages). The 1M-token window is on Google AI Pro/Ultra, which are paid.",
+   "'ChatGPT makes you pay for subscriptions to analyze files and forgets the start after a few questions'. ChatGPT Free now has unlimited text chats and file uploads on the free plan (capped at 3/day per third-party reports). Free ChatGPT does have a smaller context window (reported as ~16K / ~12 pages), so 'forgets in long chats' is partly true but should not be exaggerated.",
+   "'Gemini is free with no limits' or 'all free, no payment' for every tool. Every free tier is capped (5-hour windows, weekly caps, daily Pro searches).",
+   "Any fixed number of free messages per day for Claude or Gemini. Neither company publishes one.",
+   "'5 Pro searches/day free on Perplexity'. The current figure is 3 per day, with 1 Deep Research per month. Older guides say 5.",
+   "Unverified: Qwen making images, video and presentations for free; NotebookLM, Luma/'Lumā', Kling ('كلي'), HeyGen and n8n claims (image-to-video quality, finding leads, talking-face videos, automation while you sleep). None were checked, and several are probably paid or credit-limited. Keep them out of a 4-tool reel.",
+   "Calling Claude/Gemini/Perplexity 'better than ChatGPT' as a fact. No source verifies it. Frame it as 'try them on your own prompt'.",
+   "The reel is a funnel for the creator's links (comment 'AI'). Treat it as promotional. One top comment says 'Gemini is stupid', which shows results vary."
+  ],
+  "criticism": [
+   "Free tiers are volatile. Gemini cut free Gemini 3 Pro access to 'Basic access' within days of launch because of demand (<cite index=\"20-6,20-7\">9to5Google, Nov 2025</cite>). Perplexity's free Pro Search cap fell from 5 to 3 per day.",
+   "Claude Free and Gemini Free give no fixed message count, so you can hit a limit unpredictably. <cite index=\"11-6\">Claude Free's message count 'will vary based on demand'.</cite>",
+   "Free Gemini's small 32K context hurts long-document work. A third-party source says Google may use what you send on the free API tier to improve its products. That is the API, not the app, so don't blur the two.",
+   "ChatGPT Free by default can use conversations to train models unless you opt out in settings (third-party source), and ads are shown to free users in some countries.",
+   "Perplexity Free hides which model answers (<cite index=\"29-2\">Sonar auto-selected, no UI showing which variant</cite>), so quality is hard to compare like for like."
+  ],
+  "ui": {
+   "platforms": "Web (desktop browser) is best for a side-by-side recording. All four also have iOS and Android apps.",
+   "apps": [
+    "ChatGPT web (chatgpt.com)",
+    "Claude web (claude.ai)",
+    "Gemini web (gemini.google.com)",
+    "Perplexity web (perplexity.ai)"
+   ],
+   "screens": [
+    "UNVERIFIED FROM SEARCH, confirm in a live screen recording: all four are chat apps with a text box at the bottom or centre of an empty chat, a left sidebar with chat history and a 'New chat' button, and the account/profile at the bottom-left. Light or dark follows the system setting by default.",
+    "Gemini (verified): Settings is at the bottom left of gemini.google.com, and Usage limits opens from it. Chat activity is managed under Settings & help > Activity.",
+    "Perplexity: a search-style box with Pro Search/Research options. Answers show a numbered source list/citations (this is its signature; third-party sources confirm citations).",
+    "ChatGPT Free: a 'Think' button for harder questions (per OpenAI release notes). Free US users may see ads.",
+    "Claude Free: chat UI with Projects (up to 5 on Free), and a message when the 5-hour session limit is hit.",
+    "For the test screen: split-screen or four tiles with the same prompt pasted, and a scoreboard overlay (Research / Long writing / Coding / Content) with a winner badge per row."
+   ]
+  },
+  "visuals": "A four-panel split screen with the identical prompt in each tool and the outputs side by side (research prompt: Perplexity's cited sources versus the others; coding prompt: the code blocks). Then a 4-row scorecard. A real screen recording of each tool is the only believable way to show the exact UI and answers. Don't fake answers, and show the results from your own run.",
+  "sources": [
+   "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+   "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
+   "https://support.claude.com/en/articles/8114491-get-started-with-claude",
+   "https://www.datastudios.org/post/claude-free-limits-updated-usage-restrictions-message-caps-and-file-upload-rules",
+   "https://www.ai-toolbox.co/gemini-management-and-productivity/gemini-usage-limits-2026",
+   "https://justinmckelvey.com/blog/gemini-usage-limits",
+   "https://support.google.com/gemini/answer/14903178",
+   "https://felloai.com/perplexity-pricing/",
+   "https://www.toolcolumn.com/learn/perplexity-pro-search-limits-explained",
+   "https://9to5google.com/2025/11/27/gemini-3-pro-free-limits/"
+  ],
+  "notes": "Verdict is 'adjust'. The idea is valid: all four have free tiers and the test is real. But the source reel's claims (especially Gemini's free 'longest memory') are wrong, and the other tools it lists are out of scope. Limitations of this check: I did not reach official pricing pages directly, only OpenAI release notes, Anthropic and Google help-center snippets, plus third-party trackers. Several third-party pages use different model names (GPT-5.6 vs GPT-6 Luna, Gemini 3.x), so avoid naming models on screen. Re-check free limits on publish day (Perplexity 3 Pro Searches/day, ChatGPT 3 uploads/day, Gemini 32K). Suggested 'best for' framing is an opinion to be validated by the live test: Perplexity for cited research (verified: it shows sources), Claude for long writing (200K context on Free per third-party), Gemini for big-picture/Google-integrated tasks and images (verified features, but not for very long docs on Free), ChatGPT as the all-rounder with unlimited text chat. Coding and content winners are unverified, so let the test decide and say 'in my test'. Avoid saying 'forever free': these plans can change, and ChatGPT's changed twice in 2026.",
+  "_searched": 6
+ },
+ "models": {
+  "pick": "claude-sonnet-5-5",
+  "research": "claude-sonnet-5-5",
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 5
+}
