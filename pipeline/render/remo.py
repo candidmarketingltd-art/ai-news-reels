@@ -161,7 +161,9 @@ def build_props(plan, words, duration, episode=None, run_id="preview"):
             els.append(r)
         # never leave a scene showing only a small label: bring its first real visual in within ~0.3 s
         main = [e for e in els if e["type"] not in ("label", "pill")]
-        if main and main[0]["at"] > st + 1.0:
+        if main and main[0]["type"] == "stat_row" and main[0].get("cards") and main[0]["cards"][0].get("at", 0) > st + 1.0:
+            main[0]["cards"][0]["at"] = round(st + 0.3, 3)
+        elif main and main[0]["at"] > st + 1.0:
             shift = main[0]["at"] - (st + 0.3)
             main[0]["at"] = round(st + 0.3, 3)
             if main[0]["type"] == "prompt" and isinstance(main[0].get("send_at"), (int, float)): main[0]["send_at"] = max(main[0]["send_at"], st + 1.5)
