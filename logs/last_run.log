@@ -4,29 +4,17 @@
   BUFFER_API_KEY: set
   BUFFER_CHANNEL_ID: set
 window 2026-11-01-1300 | posting times 13:00, 20:00 IST | dry_run=True
-      b-roll indexed: fingers_typing_on_laptop_keyboard.mp4 — Close-up over-the-shoulder shot of a person typing on a backlit laptop keyboard, with a blurred blue
-      b-roll indexed: hands_holding_credit_card_near.mp4 — hands holding credit card near
-      b-roll indexed: man_comparing_phone_and_laptop.mp4 — man comparing phone and laptop
-      b-roll indexed: man_looking_at_laptop.mp4 — A bearded man in a maroon t-shirt scowls with intense focus at a laptop in a dim, warmly lit room, t
-      b-roll indexed: man_opens_laptop_in_room.mp4 — A bearded young man in a black t-shirt sits at a laptop in a dimly lit, warmly lit room, and his foc
-      b-roll indexed: man_pointing_at_camera.mp4 — A bearded young man in a dark henley sits in a car seat working on a laptop with a focused look, the
-      b-roll indexed: man_reacting_to_laptop_screen.mp4 — A bearded young man in a black t-shirt stares intently at a laptop screen with blurry blue UI elemen
-      b-roll indexed: man_shaking_head_at_phone.mp4 — A bearded young man in a maroon t-shirt sits in a dark chair looking down at his phone, and his expr
-      b-roll indexed: man_smiling_at_phone.mp4 — A bearded man in a maroon t-shirt sits in a car and looks down at a blue smartphone, his expression 
-      b-roll indexed: man_staring_at_phone_in.mp4 — A bearded young man in a maroon t-shirt stares at his smartphone, his expression moving from a focus
-      b-roll indexed: man_studying_with_laptop.mp4 — A bearded man in a maroon t-shirt sits at a desk behind a laptop with a furrowed brow and a frustrat
-      b-roll indexed: man_watching_laptop_waiting.mp4 — A bearded young man in a maroon t-shirt sits at a laptop in a dimly lit room with warm lamp light, r
       b-roll library: 25 clips
 [4/6] re-editing 'Which free AI tool to use for which job: ChatGPT vs Claude vs Gemini vs Perplexi'
       media: s1_image, s1_logo, s1_broll1, s1_broll2
 [5/6] voice + render
       [eleven] workspace voices: Rohan (IcsYcP26eMwajlgx2SDe, cloned)
       [eleven] using Rohan (IcsYcP26eMwajlgx2SDe)
-      [eleven] subscription: 200 {"tier":"starter","character_count":9841,"character_limit":40000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796033014,"voice_slots_used":1,"professional_voice_slots_u
+      [eleven] subscription: 200 {"tier":"starter","character_count":10192,"character_limit":40000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796033014,"voice_slots_used":1,"professional_voice_slots_
       [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
-      141 words, 53.5s, voice eleven_v4
-      remotion: Reel /tmp/tmpz7uoa7ch/video_only.mp4
-DRY RUN — reel at /home/runner/work/ai-news-reels/ai-news-reels/out/2026-11-01_1732.mp4
+      141 words, 53.7s, voice eleven_v4
+      remotion: Reel /tmp/tmpgukwkugg/video_only.mp4
+DRY RUN — reel at /home/runner/work/ai-news-reels/ai-news-reels/out/2026-11-01_1746.mp4
 --- caption ---
 ChatGPT isn't the best AI for every job.
 ✅ Research: test Perplexity (it shows sources)
