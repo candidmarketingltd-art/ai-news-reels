@@ -323,7 +323,7 @@ export const ScreenWalk: React.FC<{ e: any }> = ({ e }) => {
   // keep the scaled screen covering the whole viewport (no dark gaps at the edges)
   const clampT = (want: number, o: number, size: number) => Math.max(-(size - o) * Z, Math.min(o * Z, want));
   const tx = clampT((g.cw / 2 - ox) * Z * 0.9, ox, g.cw), ty = clampT((g.ch / 2 - oy) * Z * 0.9, oy, g.ch);
-  const fade = interpolate(t, [st.at - 0.05, st.at + 0.18], [0, 1], clamp);
+  const fade = interpolate(t, [st.at - 0.02, st.at + 0.1], [0, 1], clamp);
   const prev = steps[i - 1];
   const showCursor = steps.some((s) => s.action?.target) && t >= steps[0].at;
   const inner = (
