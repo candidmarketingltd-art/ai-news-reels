@@ -54,6 +54,29 @@ def log(status, topic="", note=""):
         w.writerow([dt.datetime.now(IST).strftime("%Y-%m-%d %H:%M"), topic, status, note])
 
 
+VOICE_CACHE = LOGS / "voice_cache"
+
+
+def cached_voice(text, mp3):
+    """ElevenLabs costs credits: keep each voiceover (mp3 + word timings) so re-edits of the same script reuse it."""
+    import hashlib, shutil
+    key = hashlib.sha1(text.encode("utf-8")).hexdigest()[:16]
+    a, j = VOICE_CACHE / f"{key}.mp3", VOICE_CACHE / f"{key}.json"
+    if a.exists() and j.exists():
+        d = json.loads(j.read_text()); shutil.copyfile(a, mp3)
+        print("      voice: reused the recorded voiceover", flush=True)
+        return [tuple(w) for w in d["words"]], d["model"] + " (cached)"
+    words, model = voice.synthesize(text, mp3)
+    try:
+        VOICE_CACHE.mkdir(parents=True, exist_ok=True); shutil.copyfile(mp3, a)
+        j.write_text(json.dumps({"words": words, "model": model}))
+        old = sorted(VOICE_CACHE.glob("*.mp3"), key=lambda f: f.stat().st_mtime)[:-30]   # keep the last 30
+        for f in old: f.unlink(); f.with_suffix(".json").unlink(missing_ok=True)
+    except Exception as e:
+        print(f"      (voice cache: {e})", flush=True)
+    return words, model
+
+
 def caption_of(plan):
     tags = " ".join(plan.get("hashtags") or ["#AItools", "#AIhacks"])
     return f"{plan.get('ig_caption') or plan.get('title', '')}\n\n{tags}"[:2150]
@@ -120,7 +143,7 @@ def main():
         try:
             print("[5/6] voice + render", flush=True)
             mp3 = f"{wd}/vo.mp3"
-            words, model = voice.synthesize(plan["voiceover"], mp3)
+            words, model = cached_voice(plan["voiceover"], mp3)
             dur = max(e for _, _, e in words) + 0.1
             print(f"      {len(words)} words, {dur:.1f}s, voice {model}", flush=True)
             OUT.mkdir(exist_ok=True)

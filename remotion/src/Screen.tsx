@@ -401,14 +401,14 @@ export const Footage: React.FC<{ e: any }> = ({ e }) => {
 export const FullFootage: React.FC<{ e: any; start: number; end: number }> = ({ e, start, end }) => {
   const f = useCurrentFrame();
   const m = e._media;
-  if (!m || f < fx(e.at) - 1 || f > fx(end) + 10) return null;
-  const op = Math.min(interpolate(f, [fx(e.at), fx(e.at) + 8], [0, 1], clamp), interpolate(f, [fx(end) - 2, fx(end) + 8], [1, 0], clamp));
+  if (!m || (e.at >= 0.4 && f < fx(e.at) - 1) || f > fx(end) + 10) return null;
+  const op = Math.min(e.at < 0.4 ? 1 : interpolate(f, [fx(e.at), fx(e.at) + 8], [0, 1], clamp), interpolate(f, [fx(end) - 2, fx(end) + 8], [1, 0], clamp));
   const zoom = interpolate(f, [fx(e.at), fx(end)], [1.04, 1.12], clamp);
   return (
     <div style={{ position: "absolute", inset: 0, opacity: op, overflow: "hidden" }}>
       <div style={{ position: "absolute", inset: 0, scale: `${zoom}` }}>
         {m.kind === "video" ? (
-          <Sequence from={Math.round(fx(e.at))} layout="none">
+          <Sequence from={e.at < 0.4 ? 0 : Math.round(fx(e.at))} layout="none">
             <Loop durationInFrames={Math.max(30, (m.frames || 240) - 2)} layout="none">
               <OffthreadVideo src={staticFile(m.src)} muted style={{ width: 1080, height: 1920, objectFit: "cover" }} />
             </Loop>
