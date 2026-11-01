@@ -1,0 +1,761 @@
+{
+ "voiceover": "[conversational] ChatGPT might remember more about you than your own family does.\n\nMost people have never looked at what's actually stored. [serious] Let's fix that.\n\nOpen Settings, then Personalization, then Memory, then Manage. You can review every memory and delete the ones you don't want. You can also turn memory off completely, or use Temporary Chat for anything private.\n\n[playful] Now the fun part. If memory's on, ask it these 3 things.\n\nFirst: \"What skill or talent am I ignoring that could change my life if I worked on it?\"\n\nSecond: \"If you were me, with my strengths and weaknesses, what decisions would you make next?\"\n\nThird: \"Based on all our chats, how different is what I say from what I do? Be blunt.\"\n\n[whispers] The catch? It only knows what you've told it. So treat the answers as a mirror, not a verdict.\n\nWhich answer hurt the most? Tell me in the comments.\n\nSend this to the friend who tells ChatGPT everything.",
+ "title": "CHATGPT REMEMBERS YOU",
+ "ig_caption": "ChatGPT might remember more about you than your own family does 👀\n✅ Settings > Personalization > Memory > Manage\n✅ Delete memories, turn memory off, or use Temporary Chat\n✅ Run the 3 self-analysis prompts for an honest review\nWhich answer hurt the most? Tell me below.\nSave this for later\nFollow @ihackgrowth for daily AI & tech hacks",
+ "media_hints": {
+  "domain": "openai.com",
+  "broll": [
+   "typing on laptop",
+   "person thinking",
+   "phone privacy lock"
+  ]
+ },
+ "hashtags": [
+  "#AItools",
+  "#AIhacks",
+  "#ChatGPT",
+  "#ChatGPTtips",
+  "#AIprivacy",
+  "#selfimprovement",
+  "#techtips",
+  "#productivity"
+ ],
+ "tag": "CHATGPT MEMORY",
+ "keywords": [
+  "ChatGPT",
+  "remember",
+  "family",
+  "stored",
+  "Settings",
+  "Personalization",
+  "Memory",
+  "Manage",
+  "delete",
+  "Temporary",
+  "private",
+  "skill",
+  "talent",
+  "strengths",
+  "weaknesses",
+  "blunt",
+  "mirror",
+  "verdict"
+ ],
+ "scenes": [
+  {
+   "at": "ChatGPT might",
+   "react": [
+    {
+     "at": "own family does.",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "footage",
+     "at": "ChatGPT might",
+     "media": "lib_eye_reflecting_laptop_screen_glow",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "own family",
+     "text": "KNOWS YOU BETTER?",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "Most people",
+   "tint": "red",
+   "react": [
+    {
+     "at": "never looked",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Most people",
+     "media": "lib_hand_scrolling_smartphone",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "never looked",
+     "text": "NEVER CHECKED",
+     "color": "red",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "Open Settings,",
+   "react": [
+    {
+     "at": "Open Settings,",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Open Settings,",
+     "device": "web",
+     "theme": "dark",
+     "brand": "chatgpt",
+     "url": "chatgpt.com",
+     "app": "ChatGPT",
+     "step": "Step 1 · Find your memory",
+     "steps": [
+      {
+       "at": "Open Settings,",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Search chats",
+         "Library",
+         "GPTs"
+        ],
+        "profile": "Rohan",
+        "chat": [
+         {
+          "from": "user",
+          "text": "Plan my week around gym and work"
+         },
+         {
+          "from": "ai",
+          "text": "Based on what I know about your schedule..."
+         }
+        ],
+        "input": "",
+        "menu": {
+         "items": [
+          "Upgrade plan",
+          "Personalization",
+          "Settings",
+          "Help",
+          "Log out"
+         ],
+         "anchor": "profile"
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Settings",
+        "at": "Open Settings,"
+       }
+      },
+      {
+       "at": "then Personalization,",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Search chats",
+         "Library",
+         "GPTs"
+        ],
+        "profile": "Rohan",
+        "panel": {
+         "title": "Settings",
+         "nav": [
+          "General",
+          "Notifications",
+          "Personalization",
+          "Apps",
+          "Data controls",
+          "Security"
+         ],
+         "active": "General",
+         "rows": [
+          {
+           "label": "Appearance",
+           "kind": "value",
+           "value": "System"
+          },
+          {
+           "label": "Accent color",
+           "kind": "value",
+           "value": "Default"
+          },
+          {
+           "label": "Language",
+           "kind": "value",
+           "value": "Auto-detect"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Personalization",
+        "at": "then Personalization,"
+       }
+      },
+      {
+       "at": "then Memory,",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Search chats",
+         "Library",
+         "GPTs"
+        ],
+        "profile": "Rohan",
+        "panel": {
+         "title": "Settings",
+         "nav": [
+          "General",
+          "Notifications",
+          "Personalization",
+          "Apps",
+          "Data controls",
+          "Security"
+         ],
+         "active": "Personalization",
+         "rows": [
+          {
+           "label": "Base style and tone",
+           "kind": "value",
+           "value": "Default"
+          },
+          {
+           "label": "Custom instructions",
+           "kind": "arrow"
+          },
+          {
+           "label": "Memory",
+           "kind": "arrow"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Memory",
+        "at": "then Memory,"
+       }
+      },
+      {
+       "at": "then Manage.",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Search chats",
+         "Library",
+         "GPTs"
+        ],
+        "profile": "Rohan",
+        "panel": {
+         "title": "Memory",
+         "nav": [
+          "General",
+          "Notifications",
+          "Personalization",
+          "Apps",
+          "Data controls",
+          "Security"
+         ],
+         "active": "Personalization",
+         "rows": [
+          {
+           "label": "Reference saved memories",
+           "kind": "toggle",
+           "on": true
+          },
+          {
+           "label": "Reference chat history",
+           "kind": "toggle",
+           "on": true
+          },
+          {
+           "label": "Manage memories",
+           "kind": "button",
+           "value": "Manage"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Manage memories",
+        "at": "then Manage."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "You can review",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "You can review",
+     "device": "web",
+     "theme": "dark",
+     "brand": "chatgpt",
+     "url": "chatgpt.com",
+     "app": "ChatGPT",
+     "step": "Step 2 · Take control",
+     "steps": [
+      {
+       "at": "You can review",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Search chats",
+         "Library",
+         "GPTs"
+        ],
+        "profile": "Rohan",
+        "panel": {
+         "title": "Saved memories",
+         "rows": [
+          {
+           "label": "Works in marketing",
+           "kind": "button",
+           "value": "Delete"
+          },
+          {
+           "label": "Prefers short answers",
+           "kind": "button",
+           "value": "Delete"
+          },
+          {
+           "label": "Planning a move to Pune",
+           "kind": "button",
+           "value": "Delete"
+          },
+          {
+           "label": "Nervous about money",
+           "kind": "button",
+           "value": "Delete"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Nervous about money",
+        "at": "delete the ones"
+       }
+      },
+      {
+       "at": "You can also",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Search chats",
+         "Library",
+         "GPTs"
+        ],
+        "profile": "Rohan",
+        "panel": {
+         "title": "Memory",
+         "nav": [
+          "General",
+          "Notifications",
+          "Personalization",
+          "Apps",
+          "Data controls",
+          "Security"
+         ],
+         "active": "Personalization",
+         "rows": [
+          {
+           "label": "Reference saved memories",
+           "kind": "toggle",
+           "on": true
+          },
+          {
+           "label": "Reference chat history",
+           "kind": "toggle",
+           "on": true
+          },
+          {
+           "label": "Manage memories",
+           "kind": "button",
+           "value": "Manage"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "toggle",
+        "target": "Reference saved memories",
+        "at": "memory off completely,"
+       }
+      },
+      {
+       "at": "or use Temporary",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Search chats",
+         "Library",
+         "GPTs"
+        ],
+        "profile": "Rohan",
+        "top_buttons": [
+         "Temporary chat",
+         "Share"
+        ],
+        "input": "Ask anything"
+       },
+       "action": {
+        "kind": "click",
+        "target": "Temporary chat",
+        "at": "for anything private."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Now the fun",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Now the fun",
+     "text": "THE FUN PART"
+    },
+    {
+     "type": "pill",
+     "at": "If memory's on,",
+     "text": "MEMORY: ON",
+     "color": "green"
+    },
+    {
+     "type": "big_number",
+     "at": "these 3 things.",
+     "value": "3",
+     "ill": "crystal_ball",
+     "note": "SELF-ANALYSIS PROMPTS",
+     "note_at": "these 3 things.",
+     "note_color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "First:",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "label",
+     "at": "First:",
+     "text": "PROMPT 1 · HIDDEN SKILL"
+    },
+    {
+     "type": "prompt",
+     "at": "What skill",
+     "app": "CHATGPT",
+     "text": "What skill or talent am I ignoring that could change my life if I worked on it?",
+     "send_at": "worked on it?"
+    }
+   ]
+  },
+  {
+   "at": "Second:",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Second:",
+     "text": "PROMPT 2 · NEXT MOVES"
+    },
+    {
+     "type": "prompt",
+     "at": "If you were",
+     "app": "CHATGPT",
+     "text": "If you were me, with my strengths and weaknesses, what decisions would you make next?",
+     "send_at": "make next?"
+    }
+   ]
+  },
+  {
+   "at": "Third:",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "Be blunt.",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "Third:",
+     "text": "PROMPT 3 · SAY VS DO"
+    },
+    {
+     "type": "prompt",
+     "at": "Based on all",
+     "app": "CHATGPT",
+     "text": "Based on all our chats, how different is what I say from what I do? Be blunt.",
+     "send_at": "Be blunt."
+    }
+   ]
+  },
+  {
+   "at": "The catch?",
+   "tint": "warm",
+   "react": [
+    {
+     "at": "a mirror,",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "The catch?",
+     "text": "THE CATCH"
+    },
+    {
+     "type": "pill",
+     "at": "only knows",
+     "text": "ONLY KNOWS WHAT YOU SAID",
+     "color": "gold",
+     "outline": true
+    },
+    {
+     "type": "vs",
+     "at": "So treat",
+     "left": {
+      "label": "DON'T TREAT AS",
+      "value": "VERDICT"
+     },
+     "right": {
+      "label": "TREAT IT AS",
+      "value": "MIRROR",
+      "color": "green",
+      "ill": "mirror",
+      "at": "a mirror,"
+     },
+     "strike_at": "not a verdict."
+    }
+   ]
+  },
+  {
+   "at": "Which answer",
+   "elements": [
+    {
+     "type": "headline",
+     "at": "Which answer",
+     "text": "WHICH ONE HURT?",
+     "size": "l",
+     "ill": "thinking_face",
+     "sub": "COMMENT BELOW",
+     "sub_at": "the comments."
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "Send this",
+  "line1": "Send this to",
+  "line1_at": "Send this",
+  "line2": "the ChatGPT oversharer",
+  "line2_at": "tells ChatGPT everything."
+ },
+ "endcard": {
+  "title": "Checked yours?",
+  "terminal": "> memory.reviewed · 3 prompts run"
+ },
+ "media": [
+  {
+   "id": "lib_camera_moving_down_server_corridor",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "credit": "",
+   "file": "camera_moving_down_server_corridor.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow forward push down a hazy, fog-filled data center aisle lined with server racks that glow with blue and amber status lights, giving a moody, futuristic feel. Good for: A script line about the infrastructure behind AI, such as cloud computing, model training, heavy compute, data storage, or 'what happens behind the scenes'."
+  },
+  {
+   "id": "lib_clock_ticking_and_person_typing",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "credit": "",
+   "file": "clock_ticking_and_person_typing.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A rack-focus shot moves from a close-up of a black twin-bell alarm clock with ticking hands to a bearded man in a light polo typing on a laptop in a dim room, giving a tense, time-pressured mood. Good for: lines about deadlines, time slipping away, long hours of manual work, or the pressure of slow, tedious tasks before an AI tool speeds things up"
+  },
+  {
+   "id": "lib_colleagues_collaborating_around",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "credit": "",
+   "file": "colleagues_collaborating_around.mp4",
+   "frames": 126,
+   "desc": "B-roll (4.2s, VERTICAL 9:16 — best as full: true): colleagues collaborating around Good for: "
+  },
+  {
+   "id": "lib_content_creator_sets_up_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "credit": "",
+   "file": "content_creator_sets_up_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt stands behind a ring light with a phone on a tripod, adjusting the setup while the camera slowly pushes in until his face fills the frame, with a calm, focused mood and moody blue ambient lighting in the background. Good for: setting up to create content, getting started as a creator, or preparing equipment before recording a tutorial"
+  },
+  {
+   "id": "lib_eye_reflecting_laptop_screen_glow",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "credit": "",
+   "file": "eye_reflecting_laptop_screen_glow.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow zoom into an extreme close-up of a brown eye with a bright blue screen reflected in the pupil, framed by a thick eyebrow and warm skin tones, fading into a cool blue gradient at the bottom, with a focused, intense and cinematic mood. Good for: lines about being glued to a screen, intense focus or attention, watching AI work, or 'seeing' a new opportunity or insight"
+  },
+  {
+   "id": "lib_hand_dropping_papers_on_desk",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "credit": "",
+   "file": "hand_dropping_papers_on_desk.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a green shirt carries and then drops a thick stack of papers onto an already huge, messy pile of documents with sticky notes on a cluttered desk, while a laptop glows nearby, and the camera pushes in to a close-up of the towering stack, creating a mood of overwhelm and tedious paperwork. Good for: a script line about drowning in manual paperwork or document processing, setting up how AI can automate summarizing, sorting, or extracting information from piles of documents"
+  },
+  {
+   "id": "lib_hand_scrolling_smartphone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_scrolling_smartphone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_scrolling_smartphone.mp4",
+   "credit": "",
+   "file": "hand_scrolling_smartphone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a bearded young man in a white t-shirt looking intently at a smartphone in dim, warm lighting, with the camera slowly pushing in until his focused, slightly tense gaze moves from the screen to the lens. Good for: a script line about being glued to your phone, doubt or tension before a reveal, or the moment of realizing something while checking an app or notification"
+  },
+  {
+   "id": "lib_person_drinking_coffee_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "credit": "",
+   "file": "person_drinking_coffee_with_laptop.mp4",
+   "frames": 93,
+   "desc": "B-roll (3.1s, VERTICAL 9:16 — best as full: true): A bearded man in a green polo sits at a laptop in a modern industrial-style open office, lifting a white cup to his mouth and sipping a hot drink while looking down at the screen, in a calm, focused mood. Good for: a line about taking a breather while the AI does the work, a morning work routine, waiting for a process to finish, or the calm of an automated workflow"
+  },
+  {
+   "id": "lib_person_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "person_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a laptop, his expression moving from concern to a deep frown with glowing blue tear-like effects on his cheeks, then to eyes shut in stress or exhaustion; the mood is frustrated and overwhelmed. Good for: A script line about frustration or overwhelm with a tough task, such as struggling with confusing tools, wasting hours on manual work, or being stuck before finding an AI solution."
+  },
+  {
+   "id": "lib_person_speaking_into_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "credit": "",
+   "file": "person_speaking_into_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt takes a phone call in a modern industrial office with exposed concrete ceilings, moving from a serious, concerned look to a worried talking expression and ending with a relieved, confident smile at the camera. Good for: a script line about getting a surprising call or news, a problem being solved, or the moment of relief after a stressful issue"
+  },
+  {
+   "id": "lib_person_taking_selfie_with_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "credit": "",
+   "file": "person_taking_selfie_with_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt sits in a car holding a blue smartphone up close to his face, and across the clip he leans toward the screen with a furrowed brow, looking skeptical and intensely focused. Good for: a script line about doubting or double-checking AI output, being confused or frustrated by an app or tool, or looking closely at a result on your phone, e.g. 'wait, is this actually right?'"
+  },
+  {
+   "id": "lib_professional_working_on_laptop_late",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "credit": "",
+   "file": "professional_working_on_laptop_late.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A tired bearded young man in a maroon t-shirt sits at a laptop in a dim apartment at night, resting his head on his hand, rubbing his eyes, then glumly lifting a white coffee mug, with blurred city lights glowing behind him through the window. Good for: A script line about burnout, late-night grinding, or frustration with slow manual work that AI tools can speed up, e.g. 'still stuck doing this by hand at midnight?'"
+  },
+  {
+   "id": "lib_robotic_hand_typing_on_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "credit": "",
+   "file": "robotic_hand_typing_on_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a black robotic hand with segmented, mechanical fingers lowering onto a backlit laptop keyboard and starting to type, shot at shallow depth of field in a warm, softly lit, modern workspace. Good for: A script line about AI doing the work for you, automating repetitive tasks, or AI taking over typing and writing, such as 'let AI handle the busywork' or 'AI writes it for you'."
+  },
+  {
+   "id": "s1_image",
+   "kind": "image",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-01_1553/s1_image.png",
+   "credit": "Image: openai.com",
+   "desc": "official image from ChatGPT Memory and Temporary Chat (homepage)"
+  },
+  {
+   "id": "s1_broll1",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-01_1553/s1_broll1.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-01_1553/s1_broll1.mp4",
+   "frames": 256,
+   "credit": "Video: Pexels",
+   "desc": "stock video: typing on laptop (9s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s1_broll2",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-01_1553/s1_broll2.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-01_1553/s1_broll2.mp4",
+   "frames": 390,
+   "credit": "Video: Pexels",
+   "desc": "stock video: person thinking (13s) — generic, NOT the company's own footage"
+  }
+ ],
+ "style": "hisaab",
+ "topic": "See what ChatGPT has stored about you and take control of it. Open Settings > Personalization > Memory > Manage to review and delete memories, turn memory off, or use Temporary Chat. Then run the 3 self-analysis prompts that make it reflect on your patterns and blind spots.",
+ "pick": {
+  "index": 29,
+  "topic": "See what ChatGPT has stored about you and take control of it. Open Settings > Personalization > Memory > Manage to review and delete memories, turn memory off, or use Temporary Chat. Then run the 3 self-analysis prompts that make it reflect on your patterns and blind spots.",
+  "tool": "ChatGPT Memory and Temporary Chat",
+  "format": "warning",
+  "angle": "ChatGPT knows more about you than your family does. Here's how to see exactly what it remembers, delete it, and use it for an honest self-review.",
+  "why": "358K views and 1,711 comments in 2 days, a high comment-to-view ratio for a 63s reel. It's free, takes 3 steps, and mixes curiosity with a true privacy angle. It's different from our sycophancy-fix reel because this one is about memory and privacy."
+ },
+ "inspired_by": {
+  "url": "https://www.instagram.com/p/DfGS_dTAj7z/",
+  "owner": "ghourithinks",
+  "plays": 358501,
+  "likes": 8097,
+  "comments": 1711
+ },
+ "research": {
+  "verdict": "adjust",
+  "tool": "ChatGPT Memory and Temporary Chat",
+  "steps": [],
+  "facts": [],
+  "do_not_claim": [],
+  "notes": "Not web-verified: use only general, well-known steps; avoid every number, price and limit.",
+  "_searched": 0
+ },
+ "models": {
+  "pick": "claude-sonnet-5-5",
+  "research": "claude-sonnet-5-5",
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 4
+}
