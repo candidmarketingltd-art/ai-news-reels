@@ -1,5 +1,5 @@
 import React from "react";
-import { interpolate, spring, useCurrentFrame, Easing, Img, OffthreadVideo, staticFile } from "remotion";
+import { interpolate, spring, useCurrentFrame, Easing, Img, OffthreadVideo, staticFile, Sequence, Loop } from "remotion";
 import { COL, SANS, MONO, FPS, clamp, easeOut, fx, Card, Mono } from "./lib";
 
 /* ------------------------------------------------------------------------------------------------
@@ -344,7 +344,15 @@ export const Footage: React.FC<{ e: any }> = ({ e }) => {
     <Card w={940} h={h} shineAt={e.at + 0.1} accent={COL.gold}>
       <div style={{ position: "absolute", inset: 0, overflow: "hidden", borderRadius: 26 }}>
         {m.kind === "video" ? (
-          <OffthreadVideo src={staticFile(m.src)} muted startFrom={Math.round((e.from || 0) * FPS)} style={{ width: "100%", height: "100%", objectFit: m.fit || "cover" }} />
+          <Sequence from={Math.round(fx(e.at))} layout="none">
+            {m.frames ? (
+              <Loop durationInFrames={Math.max(30, m.frames - 2)} layout="none">
+                <OffthreadVideo src={staticFile(m.src)} muted style={{ width: "100%", height: "100%", objectFit: m.fit || "cover" }} />
+              </Loop>
+            ) : (
+              <OffthreadVideo src={staticFile(m.src)} muted style={{ width: "100%", height: "100%", objectFit: m.fit || "cover" }} />
+            )}
+          </Sequence>
         ) : (
           <Img src={staticFile(m.src)} style={{ width: "100%", height: "100%", objectFit: m.fit || "cover", scale: `${zoom}` }} />
         )}

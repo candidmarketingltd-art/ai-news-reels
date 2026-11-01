@@ -9,7 +9,7 @@ from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
-from pipeline import tutorial, voice, recordings  # noqa: E402
+from pipeline import tutorial, voice, recordings, broll  # noqa: E402
 from pipeline.render import remo  # noqa: E402
 from pipeline.run import post, _Tee  # noqa: E402
 
@@ -75,6 +75,8 @@ def main():
     covered = [c for c in _load(COVERED, []) if c.get("at", "") >= (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=30)).isoformat()]
     stamp = dt.datetime.now(IST).strftime("%Y-%m-%d_%H%M")
     mdir = str(OUT / "media" / stamp)
+    try: print(f"      b-roll library: {broll.index()} clips", flush=True)
+    except Exception as e: print(f"      (b-roll index failed: {str(e)[:150]})", flush=True)
     plan, pending = None, None
     try:
         # 1) a reel whose real recording the owner has uploaded goes first
@@ -128,6 +130,7 @@ def main():
     covered.append({"topic": plan["topic"], "url": plan["inspired_by"]["url"], "at": dt.datetime.now(dt.timezone.utc).isoformat()})
     _save(COVERED, covered)
     _save(EPISODE, {"last": ep})
+    broll.mark_used(plan)
     slots[key] = {"status": "posted", "at": dt.datetime.now(IST).strftime("%Y-%m-%d %H:%M"), "post": str(pid), "topic": plan["topic"]}
     _save(SLOTS, {k: slots[k] for k in sorted(slots)[-120:]})
     log("posted", plan["topic"], f"{pid} {link}")

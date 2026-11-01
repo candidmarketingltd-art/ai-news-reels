@@ -278,7 +278,8 @@ def footage(script, notes, workdir, extra=()):
     from pipeline import media
     h = script.get("media_hints") or {}
     if isinstance(h, list): h = h[0] if h else {}
-    out = list(extra)
+    from pipeline import broll
+    out = list(extra) + broll.items()
     try:
         out += media.collect([{"story": 1, "company": notes.get("tool") or "", "domain": h.get("domain") or "", "broll": h.get("broll") or []}],
                              [{"urls": notes.get("sources") or []}], workdir, raw=False)

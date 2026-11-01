@@ -128,7 +128,8 @@ def _attach_media(scenes, plan, run_id):
             dst = pub / (m["id"] + os.path.splitext(src)[1].lower())
             if not dst.exists(): shutil.copyfile(src, dst)
             e["_media"] = {"kind": "video" if m["kind"] == "video" else "image", "src": f"run/{run_id}/{dst.name}", "credit": m.get("credit", ""),
-                           "fit": "contain" if m["kind"] == "logo" else "cover"}
+                           "fit": "contain" if m["kind"] == "logo" else "cover",
+                           "frames": int(m.get("frames") or 0) if m["kind"] == "video" else 0}
         sc["elements"] = [e for e in sc["elements"] if e.get("type") != "_skip"]
 
 
