@@ -340,9 +340,16 @@ def check_plan(d, voiceover, sources, media_ids=(), pacing=True):
 
 
 # ---------------------------------------------------------------------------------- 5) script, 6) edit
+def lessons():
+    """What our own retention data taught us (logs/lessons.md, written from the owner's Instagram insights)."""
+    f = ROOT / "logs" / "lessons.md"
+    t = "\n".join(l for l in (f.read_text(encoding="utf-8").splitlines() if f.exists() else []) if l.startswith("- "))
+    return f"\n\n## LESSONS FROM OUR OWN RETENTION DATA (follow these — they come from real viewer drop-offs)\n{t}\n" if t else ""
+
+
 def write(p, item, notes, tr):
     sources = notes_text(notes, item, tr)
-    sysp = (ROOT / "prompts" / "tutorial_writer.md").read_text(encoding="utf-8").replace("{HANDLE}", HANDLE)
+    sysp = (ROOT / "prompts" / "tutorial_writer.md").read_text(encoding="utf-8").replace("{HANDLE}", HANDLE) + lessons()
     user = (f"TOPIC: {p['topic']}\nTOOL: {notes.get('tool') or p.get('tool', '')}\nFORMAT: {p.get('format', 'tutorial')}\n"
             f"ANGLE (use it or improve it; negative is fine if TRUE): {p.get('angle', '')}\n\n"
             f"RESEARCH NOTES (the only facts, steps and numbers you may use):\n{sources}\n\n"
@@ -373,7 +380,7 @@ def edit(script, p, sources, notes=None, media=(), note=""):
     ill = "\n".join(f"- {g}: " + ", ".join(sorted(v)) for g, v in sorted(groups.items()))
     sysp = (ROOT / "prompts" / "tutorial_editor.md").read_text(encoding="utf-8").replace("{ILLUSTRATIONS}", ill) \
         .replace("{EXAMPLE}", json.dumps(example, ensure_ascii=False)) \
-        .replace("{SCREEN_EXAMPLE}", (ROOT / "prompts" / "tutorial_screen_example.json").read_text(encoding="utf-8"))
+        .replace("{SCREEN_EXAMPLE}", (ROOT / "prompts" / "tutorial_screen_example.json").read_text(encoding="utf-8")) + lessons()
     ids = [m["id"] for m in media]
     menu = "\n".join(f"- {m['id']} ({m['kind']}): {m['desc']}" for m in media) or "- (none)"
     ui = json.dumps((notes or {}).get("ui") or {}, ensure_ascii=False)
