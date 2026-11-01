@@ -1,6 +1,7 @@
 import React from "react";
 import { interpolate, spring, useCurrentFrame, Easing, Img, OffthreadVideo, staticFile, Sequence, Loop } from "remotion";
 import { COL, SANS, MONO, FPS, clamp, easeOut, fx, Card, Mono } from "./lib";
+import { KINDS } from "./AppKinds";
 
 /* ------------------------------------------------------------------------------------------------
    "screen": an app walkthrough. A browser window (web) or a phone (phone) shows a simplified, generic
@@ -14,6 +15,7 @@ import { COL, SANS, MONO, FPS, clamp, easeOut, fx, Card, Mono } from "./lib";
    ------------------------------------------------------------------------------------------------ */
 type Row = { label: string; kind?: string; value?: string; on?: boolean };
 type View = {
+  kind?: string; [k: string]: any;
   input_buttons?: string[]; top_buttons?: string[];
   sidebar?: string[]; profile?: string; chat?: { from: string; text: string }[]; input?: string; title?: string;
   menu?: { items: string[]; anchor?: string };
@@ -25,6 +27,9 @@ type Box = { x: number; y: number; w: number; h: number };
 
 const THEMES: Record<string, Record<string, string>> = {
   dark: { bg: "#212121", side: "#171717", panel: "#2B2B2B", text: "#ECECEC", mute: "#9B9B9B", line: "#3A3A3A", bubble: "#303030", hover: "#2F2F2F", field: "#1E1E1E", accent: "#10A37F", shade: "rgba(0,0,0,0.55)" },
+  claude: { bg: "#FAF9F5", side: "#F0EEE6", panel: "#FFFFFF", text: "#1F1E1D", mute: "#73726C", line: "#E5E2D9", bubble: "#F0EEE6", hover: "#ECE9DF", field: "#FFFFFF", accent: "#C96442", shade: "rgba(0,0,0,0.3)" },
+  gemini: { bg: "#FFFFFF", side: "#F0F4F9", panel: "#FFFFFF", text: "#1F1F1F", mute: "#5F6368", line: "#E3E3E3", bubble: "#E9EEF6", hover: "#E1E7F0", field: "#F0F4F9", accent: "#4285F4", shade: "rgba(0,0,0,0.3)" },
+  perplexity: { bg: "#191A1A", side: "#202222", panel: "#202222", text: "#E8E8E6", mute: "#8D9191", line: "#2F3131", bubble: "#2A2C2C", hover: "#2A2C2C", field: "#202222", accent: "#20B8CD", shade: "rgba(0,0,0,0.55)" },
   light: { bg: "#FFFFFF", side: "#F7F7F8", panel: "#FFFFFF", text: "#0D0D0D", mute: "#6B6B6B", line: "#E3E3E3", bubble: "#F1F1F1", hover: "#ECECEC", field: "#F7F7F8", accent: "#10A37F", shade: "rgba(0,0,0,0.35)" },
 };
 
@@ -38,14 +43,15 @@ const wrap = (t: string, n: number) => {
 
 /* ------------------------------------------------------------- geometry (shared by drawing and the cursor) */
 export const SCREEN_GEOM = {
-  web: { W: 940, H: 800, bar: 50, cw: 936, ch: 746 },
-  phone: { W: 470, H: 900, bar: 0, cw: 430, ch: 860 },
+  web: { W: 940, H: 800, bar: 50, cw: 814, ch: 649, s: 1.15 },   // UI is laid out at 814x649 and drawn 15% bigger (readable on a phone)
+  phone: { W: 470, H: 900, bar: 0, cw: 430, ch: 860, s: 1 },
 };
 
 type Item = { id: string; label: string; box: Box; kind: string; row?: Row; extra?: any };
 
 function layout(v: View, dev: "web" | "phone") {
   const g = SCREEN_GEOM[dev];
+  if (v.kind && KINDS[v.kind]) return KINDS[v.kind].layout(v, dev, g) as Item[];
   const items: Item[] = [];
   const add = (label: string, box: Box, kind: string, row?: Row, extra?: any) => items.push({ id: norm(label), label, box, kind, row, extra });
   const web = dev === "web";
@@ -116,6 +122,10 @@ const Toggle: React.FC<{ on: number; th: Record<string, string> }> = ({ on, th }
 const ViewLayer: React.FC<{ v: View; dev: "web" | "phone"; th: Record<string, string>; app: string; hot?: string; hotK: number;
   typed?: { id: string; text: string }; flips: Record<string, number> }> = ({ v, dev, th, app, hot, hotK, typed, flips }) => {
   const g = SCREEN_GEOM[dev];
+  if (v.kind && KINDS[v.kind]) {
+    const K = KINDS[v.kind];
+    return <div style={{ position: "absolute", inset: 0, overflow: "hidden" }}>{K.draw(v, dev, g, K.layout(v, dev, g), { hot, hotK, typed, flips })}</div>;
+  }
   const items = layout(v, dev);
   const web = dev === "web";
   const sideW = web ? 232 : 300;
@@ -245,12 +255,24 @@ const Cursor: React.FC<{ x: number; y: number; dev: string; press: number }> = (
       scale: `${1 - press * 0.25}`, boxShadow: "0 6px 20px rgba(0,0,0,.4)" }} />
   );
 
+/** persistent chapter header above a walkthrough ("STEP 2 · INSTALL THE TOOLS") */
+const StepHead: React.FC<{ text: string }> = ({ text }) => {
+  const [a, b] = text.split(/\s*[·|:]\s*/, 2);
+  return (
+    <div style={{ display: "flex", alignItems: "center", gap: 14, height: 54 }}>
+      {b !== undefined && <div style={{ padding: "8px 18px", borderRadius: 999, background: COL.gold, color: COL.ink, font: `800 24px ${MONO}`, letterSpacing: 1.5 }}>{a.toUpperCase()}</div>}
+      <div style={{ font: `800 38px ${SANS}`, color: COL.txt, letterSpacing: -1, whiteSpace: "nowrap" }}>{b ?? a}</div>
+    </div>
+  );
+};
+
 export const ScreenWalk: React.FC<{ e: any }> = ({ e }) => {
   const f = useCurrentFrame();
   const t = f / FPS;
   const dev: "web" | "phone" = e.device === "phone" ? "phone" : "web";
+  const desktop = e.device === "desktop";
   const g = SCREEN_GEOM[dev];
-  const th = THEMES[e.theme === "light" ? "light" : "dark"];
+  const th = THEMES[THEMES[e.brand] ? e.brand : e.theme === "light" ? "light" : "dark"];
   const steps: Step[] = (e.steps || []).filter((s: Step) => s && s.view);
   if (!steps.length) return null;
   let i = 0;
@@ -261,6 +283,9 @@ export const ScreenWalk: React.FC<{ e: any }> = ({ e }) => {
   const center = (s: Step) => {
     const it = find(layout(s.view, dev), s.action?.target);
     if (!it) return null;
+    if (it.kind === "citem") return { x: it.box.x + it.box.w - 40, y: it.box.y + it.box.h / 2, box: it.box, id: it.id };
+    if (it.kind === "mrow") return { x: it.box.x + 30, y: it.box.y + it.box.h / 2, box: it.box, id: it.id };
+    if (["search", "pinput", "page", "term"].includes(it.kind)) return { x: it.box.x + Math.min(it.box.w * 0.35, 260), y: it.box.y + Math.min(it.box.h / 2, 60), box: it.box, id: it.id };
     const right = it.kind === "row" && (it.row?.kind === "toggle" || it.row?.kind === "value" || it.row?.kind === "button" || it.row?.kind === "arrow");
     const x = right ? it.box.x + it.box.w - 50 : it.kind === "input" || (it.kind === "row" && it.row?.kind === "field") ? it.box.x + it.box.w * 0.4 : it.box.x + Math.min(it.box.w / 2, 120);
     const y = it.kind === "row" && it.row?.kind === "field" ? it.box.y + it.box.h * 0.65 : it.box.y + it.box.h / 2;
@@ -291,14 +316,19 @@ export const ScreenWalk: React.FC<{ e: any }> = ({ e }) => {
   // camera: push in on the target around the click, ease back as the next screen arrives
   const next = steps[i + 1]?.at ?? 1e9;
   const z = c && st.action?.kind !== "point" ? Math.min(interpolate(t, [a - 0.7, a - 0.05], [0, 1], { ...clamp, easing: easeOut }), interpolate(t, [next - 0.35, next], [1, 0], clamp)) : 0;
-  const Z = (dev === "web" ? 0.5 : 0.42) * z;
-  const ox = c ? c.x : g.cw / 2, oy = c ? c.y : g.ch / 2;
-  const tx = (g.cw / 2 - ox) * Z * 0.9, ty = (g.ch / 2 - oy) * Z * 0.9;
+  const base = (dev === "web" ? 0.5 : 0.42) * z;
+  const bw = c ? c.box.w + 120 : g.cw, bh = c ? c.box.h + 120 : g.ch;
+  const Z = Math.max(0, Math.min(base, (g.cw / bw - 1) * z, (g.ch / bh - 1) * z, base));
+  const ox = c ? c.box.x + c.box.w / 2 : g.cw / 2, oy = c ? c.box.y + c.box.h / 2 : g.ch / 2;
+  // keep the scaled screen covering the whole viewport (no dark gaps at the edges)
+  const clampT = (want: number, o: number, size: number) => Math.max(-(size - o) * Z, Math.min(o * Z, want));
+  const tx = clampT((g.cw / 2 - ox) * Z * 0.9, ox, g.cw), ty = clampT((g.ch / 2 - oy) * Z * 0.9, oy, g.ch);
   const fade = interpolate(t, [st.at - 0.05, st.at + 0.18], [0, 1], clamp);
   const prev = steps[i - 1];
   const showCursor = steps.some((s) => s.action?.target) && t >= steps[0].at;
   const inner = (
-    <div style={{ position: "absolute", left: 0, top: g.bar, width: g.cw, height: g.ch, overflow: "hidden", borderRadius: dev === "web" ? "0 0 22px 22px" : 46 }}>
+    <div style={{ position: "absolute", left: 0, top: g.bar, width: g.cw * g.s, height: g.ch * g.s, overflow: "hidden", borderRadius: dev === "web" ? "0 0 22px 22px" : 46 }}>
+     <div style={{ position: "absolute", left: 0, top: 0, width: g.cw, height: g.ch, scale: `${g.s}`, transformOrigin: "0 0" }}>
       <div style={{ position: "absolute", inset: 0, transformOrigin: `${ox}px ${oy}px`, scale: `${1 + Z}`, translate: `${tx}px ${ty}px` }}>
         {prev && fade < 1 && <ViewLayer v={prev.view} dev={dev} th={th} app={e.app || "App"} flips={{}} hotK={0} />}
         <div style={{ position: "absolute", inset: 0, opacity: fade }}>
@@ -308,15 +338,17 @@ export const ScreenWalk: React.FC<{ e: any }> = ({ e }) => {
           border: `4px solid ${COL.gold}`, opacity: 1 - ripple }} />}
         {showCursor && <Cursor x={pos.x} y={pos.y} dev={dev} press={press} />}
       </div>
+     </div>
     </div>
   );
   if (dev === "web") {
     return (
-      <div style={{ width: 940, display: "flex", justifyContent: "center" }}>
+      <div style={{ width: 940, display: "flex", flexDirection: "column", alignItems: "center", gap: 16 }}>{e.step && <StepHead text={e.step} />}
         <div style={{ position: "relative", width: g.W, height: g.H, borderRadius: 24, background: "#0F1012", border: `2px solid ${COL.edge}`, boxShadow: "0 40px 90px rgba(0,0,0,.7)", overflow: "hidden" }}>
           <div style={{ position: "absolute", left: 0, right: 0, top: 0, height: g.bar, display: "flex", alignItems: "center", gap: 10, padding: "0 20px", background: "#1A1B1E" }}>
             {["#FF5F57", "#FEBC2E", "#28C840"].map((c2) => <div key={c2} style={{ width: 14, height: 14, borderRadius: 7, background: c2 }} />)}
-            <div style={{ marginLeft: 18, flex: 1, height: 32, borderRadius: 16, background: "#0F1012", display: "flex", alignItems: "center", padding: "0 18px", font: `500 19px ${MONO}`, color: COL.mute }}>🔒 {e.url || ""}</div>
+            {desktop ? <div style={{ flex: 1, textAlign: "center", font: `600 20px ${SANS}`, color: "#C9C9CC", marginRight: 70 }}>{(st.view as any).window || e.app || ""}</div>
+              : <div style={{ marginLeft: 18, flex: 1, height: 32, borderRadius: 16, background: "#0F1012", display: "flex", alignItems: "center", padding: "0 18px", font: `500 19px ${MONO}`, color: COL.mute }}>🔒 {(st.view as any).url || e.url || ""}</div>}
           </div>
           {inner}
         </div>
@@ -324,7 +356,7 @@ export const ScreenWalk: React.FC<{ e: any }> = ({ e }) => {
     );
   }
   return (
-    <div style={{ width: 940, display: "flex", justifyContent: "center" }}>
+    <div style={{ width: 940, display: "flex", flexDirection: "column", alignItems: "center", gap: 16 }}>{e.step && <StepHead text={e.step} />}
       <div style={{ position: "relative", width: g.W, height: g.H, borderRadius: 64, background: "#0B0B0C", border: "3px solid #2A2B2F", boxShadow: "0 40px 90px rgba(0,0,0,.7), inset 0 0 0 10px #151518" }}>
         <div style={{ position: "absolute", left: 20, top: 20, width: g.cw, height: g.ch }}>{inner}</div>
         <div style={{ position: "absolute", left: g.W / 2 - 60, top: 30, width: 120, height: 32, borderRadius: 16, background: "#000" }} />
@@ -395,7 +427,7 @@ export const FullFootage: React.FC<{ e: any; start: number; end: number }> = ({ 
 };
 
 export const SCREEN_SPECS = {
-  screen: { h: (e: any) => (e.device === "phone" ? SCREEN_GEOM.phone.H : SCREEN_GEOM.web.H), R: ScreenWalk },
+  screen: { h: (e: any) => (e.device === "phone" ? SCREEN_GEOM.phone.H : SCREEN_GEOM.web.H) + (e.step ? 70 : 0), R: ScreenWalk },
   footage: { h: (e: any) => (e.full ? 0 : e.tall ? 1000 : 700), R: Footage },
 };
 export const _s = spring;

@@ -15,6 +15,15 @@ A Remotion renderer turns your JSON into a 1080x1920 reel in a fixed house style
   walkthrough: a recreation of the app (web browser or phone) where a cursor clicks each control at the moment it's named, the
   camera pushes in, and the next screen appears. Recreate the real layout and EXACT labels from the RESEARCH NOTES (`ui`), with
   believable neighbouring items. Never use `steps` cards for an in-app path — `steps` is for non-UI advice.
+- THE SCREEN MUST MATCH WHAT IS SAID. Pick the view `kind` for the app actually being talked about — a Google search is a
+  `search` page (never a chatbot), Gmail/Outlook is `mail`, folders/files are `files` on device "desktop", a website, web app or
+  dashboard is `page`, Google Docs/Notion/Word is `doc`, commands are `terminal`, installing/setting up several things is a
+  `checklist` that ticks, opening an app on a phone is `home`, and only ChatGPT/Claude/Gemini/Perplexity-style assistants use the
+  chat view (default kind) — with that brand's own look (`brand`). Settings pages use the chat view's `panel`.
+- PROCESS STRUCTURE (learned from top tutorial reels): when the script has steps, give each `screen` a `step` header
+  ("Step 1 · Set it up", "Step 2 · Install the tools") that stays on while that step plays; show the state CHANGING across a
+  screen's steps (empty folder → folders appear, unchecked → ticked, empty box → prompt typed → result appears), so every step
+  ends on a visible result. One screen per step; 2–5 screen steps each.
 - Use `footage` (AVAILABLE MEDIA) for real-world context: the tool's official image, or stock video that matches the moment
   (someone frustrated at a laptop, a phone buzzing). Stock clips are generic — captions must not claim they show the product.
 - SHOW THE TUTORIAL: when a prompt is spoken, show it typing in a `prompt` box; when a shortcut is said, `keys`; a setting →
@@ -51,7 +60,9 @@ A scene's `at` is the first words of that scene; its elements can start on the s
 
 ## Element types (every element has `type` and `at`; colors: gold, white, blue, red, green, muted)
 Tutorial elements:
-- `screen` {device: "web"|"phone", theme: "dark"|"light", app: "ChatGPT", url?: "chatgpt.com", steps: [step, ...]} — the app
+- `screen` {device: "web" (browser) | "desktop" (a desktop app window, e.g. Finder, Claude Desktop) | "phone", step?: "Step 1 · Set it up",
+  app: "ChatGPT", url?: "chatgpt.com" (web), theme?: "dark"|"light" (chat view only), brand?: "chatgpt"|"claude"|"gemini"|"perplexity"
+  (chat view only), steps: [step, ...]} — the app
   walkthrough; it usually fills the scene alone (one `label` above is fine). It can span several scenes' worth of voice (up to ~6 steps).
   step = {"at": words when this screen appears, "view": view, "action"?: {"kind": "click"|"type"|"toggle"|"point", "target": label,
   "text"?: text typed for "type", "at": words when the click/typing/flip happens}}.
@@ -65,6 +76,22 @@ Tutorial elements:
   a nav tab, a row label, or "input"). Every control the voice names must exist as a clickable label — e.g. "tap the plus icon"
   needs `"input_buttons": ["+"]` and target "+". Build each next view to show the result of the previous click (menu opens → settings panel → the right tab).
   "type" on a `field` row or "input" types `text` live; "toggle" flips a toggle row; "point" just highlights.
+  OTHER VIEW KINDS (set "kind" in the view; "url" or "window" in a view overrides the bar text for that step). Targets in brackets:
+  · "search": {query, tabs?: [..], active_tab?, ai_overview?: text, results: [{title, url, snippet}] (≤ 4)} — targets: "search"
+    (type the query into it), tab names, "AI Overview", result titles.
+  · "mail": {search?, toolbar?: ["Archive", "Delete"], select_label?: "Select all", all_selected?: bool, banner?: {text, link},
+    folder?: "Inbox", rows: [{from, subject, attachment?, meta?, unread?, checked?}]} — targets: "Compose", folder names, "search",
+    "Select all" (toggle → ticks every row), toolbar buttons, the banner `link`, row subjects (toggle → tick that row).
+  · "files": {window, path, items: [{name, type: "folder"|"file", kind?}], view?: "list"|"grid", selected?, toolbar?: ["New Folder"]} —
+    use device "desktop"; targets: sidebar places (Desktop, Documents, Downloads…), toolbar buttons, item names. An empty `items`
+    shows "This folder is empty"; the next step can show the items appearing.
+  · "page": {site, nav?: [..], heading, sub?, buttons?: [..], input?: "", cards?: [{title, text, status?, buttons?: ["Approve","Reject"]}],
+    dark?: bool, accent?: "#hex"} — targets: nav items, buttons, "input", card titles, card buttons.
+  · "doc": {title, lines: [..], toolbar?: [..]} — targets: toolbar items, "doc" (type adds a line).
+  · "terminal": {lines: ["$ npm install …", "✓ done"]} — target "terminal" (type runs a command line).
+  · "checklist": {window, title, items: [{label, sub?, checked?}]} — targets: item labels (toggle ticks it).
+  · "home": {apps: [..]} (phone home screen) — targets: app names.
+  Mock-up content (dates, file names, email subjects) is decoration: keep it generic and believable, never a fact or statistic.
 - `footage` {media: id from AVAILABLE MEDIA, caption?: ≤ 28 chars, caption_at?, tall?: bool, full?: bool} — a real clip/image in a
   glass frame; `full: true` makes a VERTICAL clip fill the whole reel behind the scene (darkened at the bottom for captions) —
   the most cinematic option, great for the hook and emotional beats (1–3 per reel). In a `full` scene add at most one small

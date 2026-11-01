@@ -202,6 +202,25 @@ VIEW_LABELS = lambda v: ([*(v.get("sidebar") or [])] + list(v.get("input_buttons
                          + [r.get("label", "") for r in (v.get("panel") or {}).get("rows") or []] + (["back"] if (v.get("panel") or {}).get("back") else []))
 
 
+def kind_labels(v):
+    k = v.get("kind")
+    if k == "search":
+        return ["search"] + list(v.get("tabs") or ["All", "Images", "Videos", "News"]) + (["AI Overview"] if v.get("ai_overview") else []) + [r.get("title", "") for r in v.get("results") or []]
+    if k == "mail":
+        return ([v.get("compose") or "Compose"] + list(v.get("folders") or ["Inbox", "Starred", "Sent", "Drafts", "Trash"]) + ["search", v.get("select_label") or "Select all"]
+                + list(v.get("toolbar") or []) + ([(v.get("banner") or {}).get("link") or "banner"] if v.get("banner") else []) + [r.get("subject") or r.get("from", "") for r in v.get("rows") or []])
+    if k == "files":
+        return list(v.get("sidebar") or ["AirDrop", "Recents", "Applications", "Desktop", "Documents", "Downloads"]) + list(v.get("toolbar") or []) + [f.get("name", "") for f in v.get("items") or []]
+    if k == "page":
+        return (list(v.get("nav") or []) + list(v.get("buttons") or []) + (["input"] if "input" in v else []) + [c.get("title", "") for c in v.get("cards") or []]
+                + [b for c in v.get("cards") or [] for b in c.get("buttons") or []])
+    if k == "doc": return list(v.get("toolbar") or []) + ["doc"]
+    if k == "terminal": return ["terminal"]
+    if k == "checklist": return [i.get("label", "") for i in v.get("items") or []]
+    if k == "home": return list(v.get("apps") or [])
+    return None
+
+
 def _norm_label(x):
     return re.sub(r"[^a-z0-9]+", "", str(x).lower()) or str(x).strip()
 
@@ -209,17 +228,19 @@ def _norm_label(x):
 def check_screen(e, bad):
     steps = e.get("steps") or []
     if not 1 <= len(steps) <= 7: bad.append("screen needs 1–7 steps"); return
-    if e.get("device") not in ("web", "phone"): bad.append("screen.device must be web or phone")
+    if e.get("device") not in ("web", "phone", "desktop"): bad.append("screen.device must be web, desktop or phone")
     for k, st in enumerate(steps):
         v = st.get("view")
         if not isinstance(v, dict) or not v: bad.append(f"screen step {k + 1} needs a view"); continue
         if "at" not in st: bad.append(f"screen step {k + 1} needs 'at'")
         a = st.get("action")
         if a:
-            labels = [_norm_label(x) for x in VIEW_LABELS(v)]
+            names = kind_labels(v) if v.get("kind") not in (None, "", "chat", "settings") else VIEW_LABELS(v)
+            if names is None: bad.append(f"screen step {k + 1}: unknown view kind '{v.get('kind')}'"); continue
+            labels = [_norm_label(x) for x in names]
             t = _norm_label(a.get("target"))
             if not t or not any(t == l or l.startswith(t) or t.startswith(l) for l in labels if l):
-                bad.append(f"screen step {k + 1}: action target '{a.get('target')}' is not a label in that step's view ({', '.join(VIEW_LABELS(v))[:160]})")
+                bad.append(f"screen step {k + 1}: action target '{a.get('target')}' is not a label in that step's view ({', '.join(names)[:160]})")
             if a.get("kind") not in ("click", "type", "toggle", "point"): bad.append(f"screen step {k + 1}: action.kind must be click/type/toggle/point")
             if a.get("kind") == "type" and not a.get("text"): bad.append(f"screen step {k + 1}: type needs text")
 
@@ -258,7 +279,10 @@ def check_plan(d, voiceover, sources, media_ids=()):
         walk(sc.get("elements", []))
     if bad: raise ValueError("; ".join(dict.fromkeys(bad))[:900])
     _check_cues({"scenes": d["scenes"], "cold_open": [d["cta"]]}, voiceover)
-    fact_check(json.dumps(d["scenes"], ensure_ascii=False), sources + " " + voiceover)
+    # screen mock-ups carry decorative UI text (dates, file names); only the rest of the edit is fact-checked
+    no_views = [{**sc, "elements": [({**{k: v for k, v in e.items() if k != "url"}, "steps": [{k: v for k, v in st.items() if k != "view"} for st in e.get("steps") or []]} if e.get("type") == "screen" else e)
+                                    for e in sc.get("elements", [])]} for sc in d["scenes"]]
+    fact_check(json.dumps(no_views, ensure_ascii=False), sources + " " + voiceover)
 
 
 # ---------------------------------------------------------------------------------- 5) script, 6) edit

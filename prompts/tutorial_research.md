@@ -22,7 +22,8 @@ Then return ONLY a JSON object (no markdown fence), no prose before or after:
  "facts": ["one verified fact per line, with numbers exactly as in the source"],
  "do_not_claim": ["things from the transcript that are false/unverified"],
  "criticism": ["verified downsides, if any"],
- "ui": {"platforms": "web / iOS / Android", "screens": ["screen-by-screen description with exact labels and positions"]},
+ "ui": {"platforms": "web / iOS / Android", "apps": ["every app/site the steps happen in, e.g. 'Google Search', 'Gmail web', 'macOS Finder'"],
+        "screens": ["screen-by-screen description with exact labels and positions, in order"]},
  "visuals": "what the viewer should SEE to get it (e.g. 'the generated image', 'the Settings page'); say if only a real screen recording could show it",
  "sources": ["url", "url"],
  "notes": "anything the writer must know (e.g. the menu was renamed in 2026)"}
