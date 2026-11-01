@@ -46,7 +46,8 @@ def _describe(p, dur):
         "Three frames (start, middle, end) of one short B-roll clip for AI/tech tutorial reels. Return ONLY JSON: "
         '{"desc": "what the clip shows and the mood, one sentence, no guessing brands", "tags": ["5-8 short tags"], '
         '"use_for": "the kind of line in a script this clip illustrates, e.g. \'frustration with slow work\'", '
-        '"problems": "visible text, logos, watermarks, distorted hands/faces, or \'none\'"}'}]}])
+        '"problems": "visible text, logos, watermarks, distorted hands/faces, or \'none\'", '
+        '"usable": true/false — false only if a viewer would notice something broken or fake (badly warped hands/faces/objects, readable gibberish text, a brand logo); a small corner watermark alone is fine}'}]}])
     raw = "".join(b.text for b in msg.content if b.type == "text")
     m = re.search(r"\{.*\}", raw, re.S)
     return json.loads(m.group(0)) if m else {"desc": p.stem.replace("_", " "), "tags": [], "use_for": "", "problems": "unknown"}
@@ -65,6 +66,12 @@ def index():
             dur, w, h = _probe(f)
             if dur < 2: continue
             info = _describe(f, dur)
+            if "watermark" in str(info.get("problems", "")).lower():      # Flow/Veo puts a small mark bottom-right: crop it off
+                tmp = f.with_suffix(".crop.mp4")
+                subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(f), "-an", "-vf", "crop=iw:ih*0.95:0:0,scale='min(720,iw)':-2", "-c:v", "libx264",
+                                "-crf", "24", "-preset", "veryfast", "-pix_fmt", "yuv420p", "-movflags", "+faststart", str(tmp)], check=True)
+                tmp.replace(f); dur, w, h = _probe(f)
+                info["problems"] = str(info["problems"]).replace("watermark", "watermark (cropped off)"); info["cropped"] = True
             lib["clips"][name] = {**info, "duration": round(dur, 1), "w": w, "h": h, "added": dt.date.today().isoformat()}
             print(f"      b-roll indexed: {name} — {info.get('desc', '')[:100]}", flush=True); changed = True
         except Exception as e:
@@ -80,8 +87,7 @@ def items():
     out = []
     for name, c in sorted(lib["clips"].items()):
         if name in recent: continue
-        prob = str(c.get("problems") or "none").lower()
-        if any(k in prob for k in ("watermark", "logo", "distort")) and "none" not in prob: continue
+        if c.get("usable") is False: continue
         p = DIR / name
         if not p.exists(): continue
         out.append({"id": "lib_" + re.sub(r"[^a-z0-9]+", "_", Path(name).stem.lower())[:40], "kind": "video", "path": str(p), "mp4": str(p),

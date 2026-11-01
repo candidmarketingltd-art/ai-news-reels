@@ -69,6 +69,8 @@ Tutorial elements:
   glass frame; `full: true` makes a VERTICAL clip fill the whole reel behind the scene (darkened at the bottom for captions) —
   the most cinematic option, great for the hook and emotional beats (1–3 per reel). In a `full` scene add at most one small
   `pill`/`label`/`headline` on top; let the clip breathe.
+  Prefer the `lib_…` clips (the account's own B-roll — consistent look, same host) over stock `s1_broll…` clips; use 2–4
+  footage moments per reel when they fit the line being spoken, and never the same clip twice.
 - `app` {name, label?, ill?, sub?, sub_at?, color?}: the tool card (e.g. name "ChatGPT", sub "FREE · WEB + APP", ill "laptop").
 - `prompt` {text (≤ 110 chars, exactly the prompt said or a faithful short version), app? (e.g. "CHATGPT"), send_at?, color?}:
   a chat box where the prompt types itself; the send button lights up at `send_at`.
