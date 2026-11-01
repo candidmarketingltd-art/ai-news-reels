@@ -365,8 +365,37 @@ export const Footage: React.FC<{ e: any }> = ({ e }) => {
   );
 };
 
+/** a vertical clip filling the whole reel behind the scene's other elements (darkened so captions stay readable) */
+export const FullFootage: React.FC<{ e: any; start: number; end: number }> = ({ e, start, end }) => {
+  const f = useCurrentFrame();
+  const m = e._media;
+  if (!m || f < fx(e.at) - 1 || f > fx(end) + 10) return null;
+  const op = Math.min(interpolate(f, [fx(e.at), fx(e.at) + 8], [0, 1], clamp), interpolate(f, [fx(end) - 2, fx(end) + 8], [1, 0], clamp));
+  const zoom = interpolate(f, [fx(e.at), fx(end)], [1.04, 1.12], clamp);
+  return (
+    <div style={{ position: "absolute", inset: 0, opacity: op, overflow: "hidden" }}>
+      <div style={{ position: "absolute", inset: 0, scale: `${zoom}` }}>
+        {m.kind === "video" ? (
+          <Sequence from={Math.round(fx(e.at))} layout="none">
+            <Loop durationInFrames={Math.max(30, (m.frames || 240) - 2)} layout="none">
+              <OffthreadVideo src={staticFile(m.src)} muted style={{ width: 1080, height: 1920, objectFit: "cover" }} />
+            </Loop>
+          </Sequence>
+        ) : (
+          <Img src={staticFile(m.src)} style={{ width: 1080, height: 1920, objectFit: "cover" }} />
+        )}
+      </div>
+      <div style={{ position: "absolute", inset: 0, background: "linear-gradient(180deg, rgba(10,10,11,.55) 0%, rgba(10,10,11,.15) 30%, rgba(10,10,11,.25) 52%, rgba(10,10,11,.88) 66%, rgba(10,10,11,.95) 100%)" }} />
+      {e.caption && (
+        <div style={{ position: "absolute", left: 70, top: 1000, padding: "10px 22px", borderRadius: 14, background: "rgba(10,10,11,.78)", border: `2px solid ${COL.gold}`,
+          font: `800 34px ${SANS}`, color: COL.txt, opacity: interpolate(f, [fx(e.caption_at ?? e.at + 0.3), fx(e.caption_at ?? e.at + 0.3) + 8], [0, 1], clamp) }}>{e.caption}</div>
+      )}
+    </div>
+  );
+};
+
 export const SCREEN_SPECS = {
   screen: { h: (e: any) => (e.device === "phone" ? SCREEN_GEOM.phone.H : SCREEN_GEOM.web.H), R: ScreenWalk },
-  footage: { h: (e: any) => (e.tall ? 1000 : 700), R: Footage },
+  footage: { h: (e: any) => (e.full ? 0 : e.tall ? 1000 : 700), R: Footage },
 };
 export const _s = spring;

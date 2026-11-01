@@ -65,7 +65,10 @@ Tutorial elements:
   a nav tab, a row label, or "input"). Every control the voice names must exist as a clickable label — e.g. "tap the plus icon"
   needs `"input_buttons": ["+"]` and target "+". Build each next view to show the result of the previous click (menu opens → settings panel → the right tab).
   "type" on a `field` row or "input" types `text` live; "toggle" flips a toggle row; "point" just highlights.
-- `footage` {media: id from AVAILABLE MEDIA, caption?: ≤ 28 chars, tall?: bool} — a real clip/image in a glass frame.
+- `footage` {media: id from AVAILABLE MEDIA, caption?: ≤ 28 chars, caption_at?, tall?: bool, full?: bool} — a real clip/image in a
+  glass frame; `full: true` makes a VERTICAL clip fill the whole reel behind the scene (darkened at the bottom for captions) —
+  the most cinematic option, great for the hook and emotional beats (1–3 per reel). In a `full` scene add at most one small
+  `pill`/`label`/`headline` on top; let the clip breathe.
 - `app` {name, label?, ill?, sub?, sub_at?, color?}: the tool card (e.g. name "ChatGPT", sub "FREE · WEB + APP", ill "laptop").
 - `prompt` {text (≤ 110 chars, exactly the prompt said or a faithful short version), app? (e.g. "CHATGPT"), send_at?, color?}:
   a chat box where the prompt types itself; the send button lights up at `send_at`.

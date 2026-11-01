@@ -7,7 +7,7 @@ them where they fit the script. A clip rests for 3 reels after it's used.
 (Max 25 MB per file on the web uploader; Flow's 8-second clips are well under that.)
 
 ## Flow settings
-- Model: Veo (best quality available to you) · **Landscape 16:9** · 1 output per prompt is enough
+- Model: Veo (best quality available to you) · **Portrait 9:16 (preferred — fills the whole reel)** or landscape 16:9 (shown in a framed card) · 1 output per prompt is enough
 - Text-to-video. Download the 720p or 1080p MP4.
 - Skip a clip if it has warped hands/faces, readable text, or a logo — those look fake on a reel.
 

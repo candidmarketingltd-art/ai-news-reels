@@ -2,6 +2,7 @@ import React from "react";
 import { AbsoluteFill, Img, interpolate, spring, staticFile, useCurrentFrame, random, Easing } from "remotion";
 import { COL, SANS, MONO, FPS, clamp, easeOut, fx, SceneCtx, Reveal, Big, Mono, Pill } from "./lib";
 import { SPECS, El, W, MoneyRain } from "./Elements";
+import { FullFootage } from "./Screen";
 
 export type Word = { t: string; k: boolean; s: number; e: number };
 export type SceneT = { start: number; end: number; tint?: string; elements: El[] };
@@ -61,11 +62,13 @@ const Scene: React.FC<{ s: SceneT; i: number }> = ({ s, i }) => {
   const stacked = els.filter((_, k) => hs[k] > 0);
   const total = hs.filter((h) => h > 0).reduce((a, b) => a + b, 0) + GAP * Math.max(0, stacked.length - 1);
   const k = total > AREA ? AREA / total : 1;
-  const top = TOP + (total < AREA ? (AREA - total) * 0.42 : 0);
+  const full = els.find((e) => e.type === "footage" && e.full);
+  const top = full ? TOP : TOP + (total < AREA ? (AREA - total) * 0.42 : 0);
   const p = interpolate(f, [fx(s.start), fx(s.end)], [0, 1], clamp);
   let y = 0;
   return (
     <SceneCtx.Provider value={{ end: s.end }}>
+      {full && <FullFootage e={full} start={s.start} end={s.end} />}
       <AbsoluteFill style={{ scale: `${1 + 0.035 * p}`, translate: `${(i % 2 ? -1 : 1) * (p - 0.5) * 14}px ${-p * 10}px`, transformOrigin: "540px 650px" }}>
         <div style={{ position: "absolute", left: 70, top, width: W, scale: `${k}`, transformOrigin: "50% 0" }}>
           {els.map((e, j) => {

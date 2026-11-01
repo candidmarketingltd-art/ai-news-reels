@@ -86,7 +86,8 @@ def items():
         if not p.exists(): continue
         out.append({"id": "lib_" + re.sub(r"[^a-z0-9]+", "_", Path(name).stem.lower())[:40], "kind": "video", "path": str(p), "mp4": str(p),
                     "credit": "", "file": name, "frames": int(c.get("duration", 7) * 30),
-                    "desc": f"B-roll ({c.get('duration')}s): {c.get('desc', '')} Good for: {c.get('use_for', '')}"})
+                    "desc": f"B-roll ({c.get('duration')}s, {'VERTICAL 9:16 — best as full: true' if c.get('h', 0) > c.get('w', 0) else 'landscape'}): "
+                            f"{c.get('desc', '')} Good for: {c.get('use_for', '')}"})
     return out
 
 
