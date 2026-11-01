@@ -263,6 +263,227 @@
    "added": "2026-11-01",
    "cropped": true,
    "usable": true
+  },
+  "fingers_typing_on_laptop_keyboard.mp4": {
+   "desc": "Close-up over-the-shoulder shot of a person typing on a backlit laptop keyboard, with a blurred blue screen in the background and a warm, focused, productive mood.",
+   "tags": [
+    "typing",
+    "laptop",
+    "close-up",
+    "coding",
+    "workflow",
+    "backlit keyboard",
+    "productivity",
+    "over-the-shoulder"
+   ],
+   "use_for": "lines about getting started, writing prompts or code, doing focused work at the computer, or the hands-on steps of a tutorial",
+   "problems": "none (screen text is too blurred to read, no visible logos or watermark (cropped off)s, hands look natural)",
+   "usable": true,
+   "cropped": true,
+   "duration": 7.8,
+   "w": 720,
+   "h": 1154,
+   "added": "2026-11-01"
+  },
+  "hands_holding_credit_card_near.mp4": {
+   "desc": "hands holding credit card near",
+   "tags": [],
+   "use_for": "",
+   "problems": "unknown",
+   "duration": 7.8,
+   "w": 720,
+   "h": 1216,
+   "added": "2026-11-01"
+  },
+  "man_comparing_phone_and_laptop.mp4": {
+   "desc": "man comparing phone and laptop",
+   "tags": [],
+   "use_for": "",
+   "problems": "unknown",
+   "duration": 7.8,
+   "w": 720,
+   "h": 1216,
+   "added": "2026-11-01"
+  },
+  "man_looking_at_laptop.mp4": {
+   "desc": "A bearded man in a maroon t-shirt scowls with intense focus at a laptop in a dim, warmly lit room, then closes his eyes and rubs his hand near his chin in tired frustration.",
+   "tags": [
+    "frustration",
+    "laptop",
+    "late night",
+    "stress",
+    "focus",
+    "tired",
+    "problem solving",
+    "close-up"
+   ],
+   "use_for": "frustration with slow or difficult work, such as struggling with a tedious task, debugging, or burning out late at night before finding a better way",
+   "problems": "none",
+   "usable": true,
+   "duration": 7.8,
+   "w": 720,
+   "h": 1216,
+   "added": "2026-11-01"
+  },
+  "man_opens_laptop_in_room.mp4": {
+   "desc": "A bearded young man in a black t-shirt sits at a laptop in a dimly lit, warmly lit room, and his focused, tense expression builds as he leans toward the screen, which shows blurry blue diagram or flowchart-style blocks, with his fists clenched near his chin in the middle frame.",
+   "tags": [
+    "laptop",
+    "focus",
+    "late night work",
+    "concentration",
+    "tech",
+    "coding",
+    "moody lighting",
+    "intense"
+   ],
+   "use_for": "intense concentration or deep work, such as debugging, building an AI workflow, or struggling with a complex problem",
+   "problems": "none",
+   "usable": true,
+   "duration": 7.8,
+   "w": 720,
+   "h": 1216,
+   "added": "2026-11-01"
+  },
+  "man_pointing_at_camera.mp4": {
+   "desc": "A bearded young man in a dark henley sits in a car seat working on a laptop with a focused look, then looks up with a warm smile and points playfully at the camera in a confident, friendly mood.",
+   "tags": [
+    "laptop",
+    "focused work",
+    "smile",
+    "pointing at camera",
+    "car interior",
+    "man",
+    "call to action",
+    "warm lighting"
+   ],
+   "use_for": "a line that moves from focused work or problem-solving to a direct call to action, such as 'here's the trick you need to try' or 'now it's your turn'",
+   "problems": "none",
+   "usable": true,
+   "duration": 7.8,
+   "w": 720,
+   "h": 1216,
+   "added": "2026-11-01"
+  },
+  "man_reacting_to_laptop_screen.mp4": {
+   "desc": "A bearded young man in a black t-shirt stares intently at a laptop screen with blurry blue UI elements floating in front of the camera, then grimaces in frustration and mouths a reaction, and finally tilts his head back in exhausted resignation in a dim, warmly lit room.",
+   "tags": [
+    "frustration",
+    "laptop",
+    "late night work",
+    "stress",
+    "burnout",
+    "tech struggle",
+    "slow workflow",
+    "reaction shot"
+   ],
+   "use_for": "frustration with slow, tedious, or failing work, such as waiting on a slow tool, hitting an error, or being exhausted by manual tasks before introducing an AI solution",
+   "problems": "Blurry blue UI overlays in the first frame contain no readable text or logos. Faces look natural with no visible distortion. Slight AI-video smoothness is possible but not obvious.",
+   "usable": true,
+   "duration": 7.8,
+   "w": 720,
+   "h": 1216,
+   "added": "2026-11-01"
+  },
+  "man_shaking_head_at_phone.mp4": {
+   "desc": "A bearded young man in a maroon t-shirt sits in a dark chair looking down at his phone, and his expression shifts from neutral to scrunched-up frustration or confusion, then to a displeased, worried look as he lowers the phone.",
+   "tags": [
+    "frustration",
+    "phone",
+    "reaction",
+    "confusion",
+    "bad news",
+    "scrolling",
+    "close-up",
+    "indoor"
+   ],
+   "use_for": "frustration or disappointment with a tool or app that isn't working, slow or confusing results, or a bad surprise while checking your phone",
+   "problems": "none",
+   "usable": true,
+   "duration": 7.8,
+   "w": 720,
+   "h": 1216,
+   "added": "2026-11-01"
+  },
+  "man_smiling_at_phone.mp4": {
+   "desc": "A bearded man in a maroon t-shirt sits in a car and looks down at a blue smartphone, his expression shifting from neutral to a furrowed-brow frown of confusion and frustration.",
+   "tags": [
+    "frustration",
+    "smartphone",
+    "confused",
+    "close-up",
+    "car interior",
+    "reaction shot",
+    "bearded man",
+    "problem"
+   ],
+   "use_for": "a line about frustration with confusing apps or slow tools, or the moment someone hits a problem and doesn't know what to do next",
+   "problems": "none",
+   "usable": true,
+   "duration": 4.5,
+   "w": 720,
+   "h": 1216,
+   "added": "2026-11-01"
+  },
+  "man_staring_at_phone_in.mp4": {
+   "desc": "A bearded young man in a maroon t-shirt stares at his smartphone, his expression moving from a focused frown to wide-eyed shock and then to a worried look straight into the camera, in a warm, dimly lit home setting.",
+   "tags": [
+    "shock",
+    "reaction",
+    "smartphone",
+    "surprise",
+    "worry",
+    "close-up",
+    "bearded man",
+    "realization"
+   ],
+   "use_for": "a line about a shocking discovery, an unexpected result, or a worrying realization, such as 'you won't believe what this AI tool just did' or 'when you see how much time you've been wasting'",
+   "problems": "none",
+   "usable": true,
+   "duration": 7.8,
+   "w": 720,
+   "h": 1216,
+   "added": "2026-11-01"
+  },
+  "man_studying_with_laptop.mp4": {
+   "desc": "A bearded man in a maroon t-shirt sits at a desk behind a laptop with a furrowed brow and a frustrated, concentrated look, first staring at the screen, then looking down at an open notebook and writing with a pen, with a warm blurred lamp glowing in the background.",
+   "tags": [
+    "frustration",
+    "studying",
+    "laptop",
+    "note-taking",
+    "confusion",
+    "focus",
+    "problem-solving",
+    "desk work"
+   ],
+   "use_for": "a script line about struggling to understand something complex, frustration with slow or manual work, or the pain of learning a new tool the hard way",
+   "problems": "none",
+   "usable": true,
+   "duration": 4.4,
+   "w": 720,
+   "h": 1216,
+   "added": "2026-11-01"
+  },
+  "man_watching_laptop_waiting.mp4": {
+   "desc": "A bearded young man in a maroon t-shirt sits at a laptop in a dimly lit room with warm lamp light, resting his chin on his fist with a focused, pensive look, and the camera pushes in closer across the three frames.",
+   "tags": [
+    "laptop",
+    "thinking",
+    "focused",
+    "man at desk",
+    "pensive",
+    "work",
+    "warm lighting",
+    "close-up"
+   ],
+   "use_for": "a script line about deep thinking, researching or problem-solving, or weighing a decision before trying an AI tool",
+   "problems": "none",
+   "usable": true,
+   "duration": 7.8,
+   "w": 720,
+   "h": 1216,
+   "added": "2026-11-01"
   }
  },
  "uses": []
