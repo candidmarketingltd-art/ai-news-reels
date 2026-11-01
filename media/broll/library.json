@@ -1,0 +1,243 @@
+{
+ "clips": {
+  "camera_moving_down_server_corridor.mp4": {
+   "desc": "A slow forward push down a hazy, fog-filled data center aisle lined with server racks that glow with blue and amber status lights, giving a moody, futuristic feel.",
+   "tags": [
+    "data center",
+    "server room",
+    "servers",
+    "cloud computing",
+    "AI infrastructure",
+    "futuristic",
+    "fog",
+    "blue lights"
+   ],
+   "use_for": "A script line about the infrastructure behind AI, such as cloud computing, model training, heavy compute, data storage, or 'what happens behind the scenes'.",
+   "problems": "A small 'Veo' watermark sits in the bottom-right corner of every frame. There is no other text, no logos, and no hands or faces. The cables look slightly messy and unrealistic, and the racks are a bit warped, as is typical of AI-generated footage.",
+   "duration": 7.8,
+   "w": 720,
+   "h": 1280,
+   "added": "2026-11-01"
+  },
+  "clock_ticking_and_person_typing.mp4": {
+   "desc": "A rack-focus shot moves from a close-up of a black twin-bell alarm clock with ticking hands to a bearded man in a light polo typing on a laptop in a dim room, giving a tense, time-pressured mood.",
+   "tags": [
+    "alarm clock",
+    "deadline",
+    "laptop",
+    "coding",
+    "focus",
+    "time pressure",
+    "workspace",
+    "rack focus"
+   ],
+   "use_for": "lines about deadlines, time slipping away, long hours of manual work, or the pressure of slow, tedious tasks before an AI tool speeds things up",
+   "problems": "Small 'Veo' watermark in the bottom-right corner of every frame. The laptop screen text is blurry and unreadable. The man's hands and the clock hands are motion-blurred, and in the last two frames the clock's bells and edges look smeared or ghosted. The clock face numerals are inconsistent, since the 3 and 9 look distorted or missing as the focus shifts.",
+   "duration": 7.8,
+   "w": 720,
+   "h": 1280,
+   "added": "2026-11-01"
+  },
+  "colleagues_collaborating_around.mp4": {
+   "desc": "colleagues collaborating around",
+   "tags": [],
+   "use_for": "",
+   "problems": "unknown",
+   "duration": 4.2,
+   "w": 720,
+   "h": 1280,
+   "added": "2026-11-01"
+  },
+  "content_creator_sets_up_phone.mp4": {
+   "desc": "A bearded man in a white t-shirt stands behind a ring light with a phone on a tripod, adjusting the setup while the camera slowly pushes in until his face fills the frame, with a calm, focused mood and moody blue ambient lighting in the background.",
+   "tags": [
+    "content creator",
+    "ring light",
+    "phone tripod",
+    "filming setup",
+    "vlogging",
+    "push-in shot",
+    "home studio",
+    "blue ambient light"
+   ],
+   "use_for": "setting up to create content, getting started as a creator, or preparing equipment before recording a tutorial",
+   "problems": "Small 'Veo' watermark in the bottom-right corner of all frames; partial text/logo on the ring light base is blurry and illegible; hands in the first frame look slightly soft and ambiguous, and the phone and clamp have a slightly uncanny look, which are typical AI-generation artifacts.",
+   "duration": 7.8,
+   "w": 720,
+   "h": 1280,
+   "added": "2026-11-01"
+  },
+  "eye_reflecting_laptop_screen_glow.mp4": {
+   "desc": "A slow zoom into an extreme close-up of a brown eye with a bright blue screen reflected in the pupil, framed by a thick eyebrow and warm skin tones, fading into a cool blue gradient at the bottom, with a focused, intense and cinematic mood.",
+   "tags": [
+    "eye close-up",
+    "screen reflection",
+    "focus",
+    "macro",
+    "digital",
+    "cinematic",
+    "zoom-in",
+    "technology"
+   ],
+   "use_for": "lines about being glued to a screen, intense focus or attention, watching AI work, or 'seeing' a new opportunity or insight",
+   "problems": "Small 'Voo' watermark in the bottom-right corner; thin vertical white glitch/scratch lines in the first frame; the screen reflection in the eye is tiny and unreadable; the lower third is a blurry blue gradient that may need cropping.",
+   "duration": 7.8,
+   "w": 720,
+   "h": 1280,
+   "added": "2026-11-01"
+  },
+  "hand_dropping_papers_on_desk.mp4": {
+   "desc": "A bearded man in a green shirt carries and then drops a thick stack of papers onto an already huge, messy pile of documents with sticky notes on a cluttered desk, while a laptop glows nearby, and the camera pushes in to a close-up of the towering stack, creating a mood of overwhelm and tedious paperwork.",
+   "tags": [
+    "paperwork",
+    "document overload",
+    "office clutter",
+    "manual work",
+    "overwhelmed",
+    "sticky notes",
+    "data entry",
+    "productivity"
+   ],
+   "use_for": "a script line about drowning in manual paperwork or document processing, setting up how AI can automate summarizing, sorting, or extracting information from piles of documents",
+   "problems": "Small 'Veo' watermark in the bottom-right corner of all frames; the document text is blurry, unreadable pseudo-text; the laptop screen shows only a generic blurry interface; the man's hands are slightly blurred by motion in frame 2, and his face is cropped out in frames 2 and 3, so there are no major distortions; the papers morph a little between frames.",
+   "duration": 7.8,
+   "w": 720,
+   "h": 1280,
+   "added": "2026-11-01"
+  },
+  "hand_scrolling_smartphone.mp4": {
+   "desc": "A close-up of a bearded young man in a white t-shirt looking intently at a smartphone in dim, warm lighting, with the camera slowly pushing in until his focused, slightly tense gaze moves from the screen to the lens.",
+   "tags": [
+    "smartphone",
+    "close-up",
+    "focused",
+    "dim lighting",
+    "scrolling",
+    "tense",
+    "push-in",
+    "man"
+   ],
+   "use_for": "a script line about being glued to your phone, doubt or tension before a reveal, or the moment of realizing something while checking an app or notification",
+   "problems": "Small 'Voo' watermark in the bottom-right corner of all frames. The phone screen is blurry and out of focus, so no readable text. The hand is partly cropped and soft-focused but not distorted. The face looks natural.",
+   "duration": 7.8,
+   "w": 720,
+   "h": 1280,
+   "added": "2026-11-01"
+  },
+  "person_drinking_coffee_with_laptop.mp4": {
+   "desc": "A bearded man in a green polo sits at a laptop in a modern industrial-style open office, lifting a white cup to his mouth and sipping a hot drink while looking down at the screen, in a calm, focused mood.",
+   "tags": [
+    "coffee break",
+    "office",
+    "laptop",
+    "remote work",
+    "focused",
+    "casual workday",
+    "industrial loft",
+    "pause"
+   ],
+   "use_for": "a line about taking a breather while the AI does the work, a morning work routine, waiting for a process to finish, or the calm of an automated workflow",
+   "problems": "Small 'Veo' watermark in the bottom-right corner of every frame. The laptop screen is not visible, only its blue back panel. The cup hides part of his face and beard in frames 2 and 3. The hands and cup look normal, but the AI-generated look could produce subtle artifacts in motion.",
+   "duration": 3.1,
+   "w": 720,
+   "h": 1280,
+   "added": "2026-11-01"
+  },
+  "person_reacting_to_laptop_screen.mp4": {
+   "desc": "A bearded man in a maroon t-shirt sits in a car and looks down at a laptop, his expression moving from concern to a deep frown with glowing blue tear-like effects on his cheeks, then to eyes shut in stress or exhaustion; the mood is frustrated and overwhelmed.",
+   "tags": [
+    "frustration",
+    "stress",
+    "laptop",
+    "in car",
+    "overwhelmed",
+    "glowing tears",
+    "tech struggle",
+    "emotional"
+   ],
+   "use_for": "A script line about frustration or overwhelm with a tough task, such as struggling with confusing tools, wasting hours on manual work, or being stuck before finding an AI solution.",
+   "problems": "A small 'Veo' watermark sits in the bottom-right corner of every frame. The glowing blue tear effects look AI-generated or filtered and fade out by the last frame. The laptop is cropped as a blurry blue-gray block at the bottom. The face shows slight warping between frames.",
+   "duration": 7.8,
+   "w": 720,
+   "h": 1280,
+   "added": "2026-11-01"
+  },
+  "person_speaking_into_phone.mp4": {
+   "desc": "A bearded man in a maroon t-shirt takes a phone call in a modern industrial office with exposed concrete ceilings, moving from a serious, concerned look to a worried talking expression and ending with a relieved, confident smile at the camera.",
+   "tags": [
+    "phone call",
+    "office",
+    "man",
+    "reaction",
+    "industrial loft",
+    "workplace",
+    "relief",
+    "talking"
+   ],
+   "use_for": "a script line about getting a surprising call or news, a problem being solved, or the moment of relief after a stressful issue",
+   "problems": "Small 'Veo' watermark in the bottom-right corner of all frames. The phone looks thin and warped, and it blends into the hand and ear. Facial shape and lighting shift slightly between frames, so the AI-generated look is visible.",
+   "duration": 7.8,
+   "w": 720,
+   "h": 1280,
+   "added": "2026-11-01"
+  },
+  "person_taking_selfie_with_phone.mp4": {
+   "desc": "A bearded man in a white t-shirt sits in a car holding a blue smartphone up close to his face, and across the clip he leans toward the screen with a furrowed brow, looking skeptical and intensely focused.",
+   "tags": [
+    "smartphone",
+    "car",
+    "skeptical",
+    "close-up",
+    "scrutinizing",
+    "confusion",
+    "man",
+    "selfie-angle"
+   ],
+   "use_for": "a script line about doubting or double-checking AI output, being confused or frustrated by an app or tool, or looking closely at a result on your phone, e.g. 'wait, is this actually right?'",
+   "problems": "A small 'Veo' watermark is visible in the bottom-right corner of every frame. The phone's back shows no readable logo. The AI-generated look may cause slight inconsistencies in the hand, finger and face details between frames, and the face and background shift a little as the camera pushes in.",
+   "duration": 7.8,
+   "w": 720,
+   "h": 1280,
+   "added": "2026-11-01"
+  },
+  "professional_working_on_laptop_late.mp4": {
+   "desc": "A tired bearded young man in a maroon t-shirt sits at a laptop in a dim apartment at night, resting his head on his hand, rubbing his eyes, then glumly lifting a white coffee mug, with blurred city lights glowing behind him through the window.",
+   "tags": [
+    "exhausted",
+    "late night work",
+    "laptop",
+    "coffee",
+    "burnout",
+    "city night",
+    "overworked",
+    "productivity"
+   ],
+   "use_for": "A script line about burnout, late-night grinding, or frustration with slow manual work that AI tools can speed up, e.g. 'still stuck doing this by hand at midnight?'",
+   "problems": "A small 'Veo' watermark sits in the bottom-right corner of each frame. There is a thin orange vertical glitch line on the left edge in frames 1 and 3. The laptop is turned away so the screen is not visible. Hands look mostly natural, but the hand gripping the mug in frame 3 is slightly soft and blurry.",
+   "duration": 7.8,
+   "w": 720,
+   "h": 1280,
+   "added": "2026-11-01"
+  },
+  "robotic_hand_typing_on_keyboard.mp4": {
+   "desc": "A close-up of a black robotic hand with segmented, mechanical fingers lowering onto a backlit laptop keyboard and starting to type, shot at shallow depth of field in a warm, softly lit, modern workspace.",
+   "tags": [
+    "robot hand",
+    "typing",
+    "laptop",
+    "AI automation",
+    "close-up",
+    "futuristic",
+    "keyboard",
+    "tech workspace"
+   ],
+   "use_for": "A script line about AI doing the work for you, automating repetitive tasks, or AI taking over typing and writing, such as 'let AI handle the busywork' or 'AI writes it for you'.",
+   "problems": "A small 'Veo' watermark sits in the bottom-right corner of all three frames. The laptop screen is blurry and its UI is unreadable. The keyboard keys carry garbled, non-standard glyphs that look AI-generated. The robotic hand has odd, inconsistent finger segments that change slightly between frames, and the wrist and arm are cut off at the right edge.",
+   "duration": 7.8,
+   "w": 720,
+   "h": 1280,
+   "added": "2026-11-01"
+  }
+ },
+ "uses": []
+}

@@ -1,0 +1,919 @@
+{
+ "voiceover": "[conversational] Before you pay Google for more storage, try this first.\n\nYour free 15 GB is shared with Drive and Photos, and old inbox junk quietly eats it.\n\n[playful] Use a computer. The phone app can't select everything at once.\n\nStep 1. In the search bar, type has colon attachment, space, larger colon 10M, and hit Enter. Skim first, receipts hide in there. Tick the top checkbox, click Select all conversations that match this search, then hit the trash icon.\n\nStep 2. Search category colon promotions, space, older underscore than colon 1y. Same thing: select all, click the link, delete.\n\n[serious] Step 3 is the one everyone skips. Open Trash, click Empty Trash now. Then Spam, Delete all spam messages now. Until then, you've freed nothing.\n\nCatch: emptied Trash is gone for good, and the counter can take hours to a couple of days to update.\n\n[curious] Is Gmail, Drive or Photos your biggest hog?\n\nSend this to the friend whose Gmail always says storage full.",
+ "title": "BEFORE YOU PAY GOOGLE",
+ "ig_caption": "Before you pay Google for more storage, try this first.\n✅ Desktop Gmail: search has:attachment larger:10M → select all → Select all conversations that match this search → trash\n✅ Search category:promotions older_than:1y → select all → delete\n✅ Empty Trash now + Delete all spam messages now (this actually frees the space)\nCheck before you delete. Emptied Trash can't be recovered. Which is eating your storage: Gmail, Drive or Photos? 📦\nSave this for later\nFollow @ihackgrowth for daily AI & tech hacks",
+ "media_hints": {
+  "domain": "mail.google.com",
+  "broll": [
+   "typing on laptop",
+   "full inbox email",
+   "person frustrated at desk"
+  ]
+ },
+ "hashtags": [
+  "#Gmail",
+  "#GmailTips",
+  "#TechHacks",
+  "#Google",
+  "#StorageFull",
+  "#productivity",
+  "#lifehacks",
+  "#techtips"
+ ],
+ "tag": "GMAIL HACK",
+ "keywords": [
+  "storage",
+  "Google",
+  "Drive",
+  "Photos",
+  "junk",
+  "computer",
+  "attachment",
+  "larger",
+  "Enter",
+  "receipts",
+  "checkbox",
+  "trash",
+  "promotions",
+  "Trash",
+  "Spam",
+  "nothing",
+  "Catch",
+  "hog"
+ ],
+ "scenes": [
+  {
+   "at": "Before you",
+   "tint": "red",
+   "react": [
+    {
+     "at": "pay Google",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "title_slam",
+     "at": "Before you",
+     "text": "WAIT",
+     "sub": "DON'T BUY STORAGE YET",
+     "color": "red"
+    },
+    {
+     "type": "pill",
+     "at": "try this first.",
+     "text": "3 SEARCHES · FREE",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "Your free",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "big_number",
+     "at": "Your free",
+     "value": "15 GB",
+     "color": "gold",
+     "ill": "card_file_box",
+     "note": "SHARED WITH DRIVE + PHOTOS",
+     "note_at": "is shared"
+    },
+    {
+     "type": "footage",
+     "at": "old inbox",
+     "media": "s1_broll2",
+     "caption": "OLD INBOX JUNK",
+     "caption_at": "quietly eats"
+    }
+   ]
+  },
+  {
+   "at": "Use a computer.",
+   "react": [
+    {
+     "at": "Use a computer.",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "Use a computer.",
+     "text": "DO THIS ON DESKTOP"
+    },
+    {
+     "type": "strike_list",
+     "at": "Use a computer.",
+     "items": [
+      {
+       "text": "DESKTOP BROWSER",
+       "at": "Use a computer.",
+       "strike": false
+      },
+      {
+       "text": "PHONE APP: NO SELECT ALL",
+       "at": "The phone",
+       "strike": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Step 1.",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Step 1.",
+     "text": "STEP 1 · BIG ATTACHMENTS"
+    },
+    {
+     "type": "screen",
+     "at": "Step 1.",
+     "device": "web",
+     "theme": "light",
+     "url": "mail.google.com",
+     "app": "Gmail",
+     "steps": [
+      {
+       "at": "Step 1.",
+       "view": {
+        "sidebar": [
+         "Compose",
+         "Inbox",
+         "Starred",
+         "Snoozed",
+         "Sent",
+         "Drafts",
+         "More"
+        ],
+        "profile": "R",
+        "title": "Inbox",
+        "input": "Search mail",
+        "top_buttons": [
+         "☐",
+         "Refresh",
+         "⋮"
+        ]
+       },
+       "action": {
+        "kind": "type",
+        "target": "input",
+        "text": "has:attachment larger:10M",
+        "at": "type has colon"
+       }
+      },
+      {
+       "at": "hit Enter.",
+       "view": {
+        "sidebar": [
+         "Compose",
+         "Inbox",
+         "Starred",
+         "Snoozed",
+         "Sent",
+         "Drafts",
+         "More"
+        ],
+        "profile": "R",
+        "input": "has:attachment larger:10M",
+        "top_buttons": [
+         "☐",
+         "Refresh",
+         "⋮"
+        ],
+        "panel": {
+         "title": "Search results",
+         "rows": [
+          {
+           "label": "Order receipt.pdf",
+           "kind": "value",
+           "value": "Amazon"
+          },
+          {
+           "label": "Trip video.mp4",
+           "kind": "value",
+           "value": "Mom"
+          },
+          {
+           "label": "Deck_final.pptx",
+           "kind": "value",
+           "value": "Work"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "point",
+        "target": "Order receipt.pdf",
+        "at": "receipts hide"
+       }
+      },
+      {
+       "at": "Tick the",
+       "view": {
+        "sidebar": [
+         "Compose",
+         "Inbox",
+         "Starred",
+         "Snoozed",
+         "Sent",
+         "Drafts",
+         "More"
+        ],
+        "profile": "R",
+        "input": "has:attachment larger:10M",
+        "top_buttons": [
+         "☐",
+         "Refresh",
+         "⋮"
+        ],
+        "panel": {
+         "title": "Search results",
+         "rows": [
+          {
+           "label": "Order receipt.pdf",
+           "kind": "value",
+           "value": "Amazon"
+          },
+          {
+           "label": "Trip video.mp4",
+           "kind": "value",
+           "value": "Mom"
+          },
+          {
+           "label": "Deck_final.pptx",
+           "kind": "value",
+           "value": "Work"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "☐",
+        "at": "top checkbox,"
+       }
+      },
+      {
+       "at": "click Select",
+       "view": {
+        "sidebar": [
+         "Compose",
+         "Inbox",
+         "Starred",
+         "Snoozed",
+         "Sent",
+         "Drafts",
+         "More"
+        ],
+        "profile": "R",
+        "input": "has:attachment larger:10M",
+        "top_buttons": [
+         "☑",
+         "Archive",
+         "Report spam",
+         "Delete",
+         "⋮"
+        ],
+        "panel": {
+         "title": "Search results",
+         "rows": [
+          {
+           "label": "Select all conversations that match this search",
+           "kind": "button"
+          },
+          {
+           "label": "Trip video.mp4",
+           "kind": "value",
+           "value": "Mom"
+          },
+          {
+           "label": "Deck_final.pptx",
+           "kind": "value",
+           "value": "Work"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Select all conversations that match this search",
+        "at": "click Select"
+       }
+      },
+      {
+       "at": "then hit",
+       "view": {
+        "sidebar": [
+         "Compose",
+         "Inbox",
+         "Starred",
+         "Snoozed",
+         "Sent",
+         "Drafts",
+         "More"
+        ],
+        "profile": "R",
+        "input": "has:attachment larger:10M",
+        "top_buttons": [
+         "☑",
+         "Archive",
+         "Report spam",
+         "Delete",
+         "⋮"
+        ],
+        "panel": {
+         "title": "All matching conversations selected",
+         "rows": [
+          {
+           "label": "Trip video.mp4",
+           "kind": "value",
+           "value": "Mom"
+          },
+          {
+           "label": "Deck_final.pptx",
+           "kind": "value",
+           "value": "Work"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Delete",
+        "at": "trash icon."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Step 2.",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Step 2.",
+     "text": "STEP 2 · OLD PROMOTIONS"
+    },
+    {
+     "type": "screen",
+     "at": "Step 2.",
+     "device": "web",
+     "theme": "light",
+     "url": "mail.google.com",
+     "app": "Gmail",
+     "steps": [
+      {
+       "at": "Step 2.",
+       "view": {
+        "sidebar": [
+         "Compose",
+         "Inbox",
+         "Starred",
+         "Snoozed",
+         "Sent",
+         "Drafts",
+         "More"
+        ],
+        "profile": "R",
+        "title": "Inbox",
+        "input": "Search mail",
+        "top_buttons": [
+         "☐",
+         "Refresh",
+         "⋮"
+        ]
+       },
+       "action": {
+        "kind": "type",
+        "target": "input",
+        "text": "category:promotions older_than:1y",
+        "at": "Search category"
+       }
+      },
+      {
+       "at": "Same thing:",
+       "view": {
+        "sidebar": [
+         "Compose",
+         "Inbox",
+         "Starred",
+         "Snoozed",
+         "Sent",
+         "Drafts",
+         "More"
+        ],
+        "profile": "R",
+        "input": "category:promotions older_than:1y",
+        "top_buttons": [
+         "☐",
+         "Refresh",
+         "⋮"
+        ],
+        "panel": {
+         "title": "Search results",
+         "rows": [
+          {
+           "label": "Flash sale ends tonight",
+           "kind": "value",
+           "value": "Promo"
+          },
+          {
+           "label": "Your weekly deals",
+           "kind": "value",
+           "value": "Promo"
+          },
+          {
+           "label": "We miss you!",
+           "kind": "value",
+           "value": "Promo"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "☐",
+        "at": "select all,"
+       }
+      },
+      {
+       "at": "click the",
+       "view": {
+        "sidebar": [
+         "Compose",
+         "Inbox",
+         "Starred",
+         "Snoozed",
+         "Sent",
+         "Drafts",
+         "More"
+        ],
+        "profile": "R",
+        "input": "category:promotions older_than:1y",
+        "top_buttons": [
+         "☑",
+         "Archive",
+         "Report spam",
+         "Delete",
+         "⋮"
+        ],
+        "panel": {
+         "title": "Search results",
+         "rows": [
+          {
+           "label": "Select all conversations that match this search",
+           "kind": "button"
+          },
+          {
+           "label": "Your weekly deals",
+           "kind": "value",
+           "value": "Promo"
+          },
+          {
+           "label": "We miss you!",
+           "kind": "value",
+           "value": "Promo"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Select all conversations that match this search",
+        "at": "the link,"
+       }
+      },
+      {
+       "at": "delete.",
+       "view": {
+        "sidebar": [
+         "Compose",
+         "Inbox",
+         "Starred",
+         "Snoozed",
+         "Sent",
+         "Drafts",
+         "More"
+        ],
+        "profile": "R",
+        "input": "category:promotions older_than:1y",
+        "top_buttons": [
+         "☑",
+         "Archive",
+         "Report spam",
+         "Delete",
+         "⋮"
+        ],
+        "panel": {
+         "title": "All matching conversations selected",
+         "rows": [
+          {
+           "label": "Your weekly deals",
+           "kind": "value",
+           "value": "Promo"
+          },
+          {
+           "label": "We miss you!",
+           "kind": "value",
+           "value": "Promo"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Delete",
+        "at": "delete."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Step 3",
+   "tint": "red",
+   "react": [
+    {
+     "at": "everyone skips.",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "Step 3",
+     "text": "STEP 3 · EVERYONE SKIPS"
+    },
+    {
+     "type": "screen",
+     "at": "Step 3",
+     "device": "web",
+     "theme": "light",
+     "url": "mail.google.com",
+     "app": "Gmail",
+     "steps": [
+      {
+       "at": "Step 3",
+       "view": {
+        "sidebar": [
+         "Compose",
+         "Inbox",
+         "Starred",
+         "Sent",
+         "Drafts",
+         "Categories",
+         "Trash",
+         "Spam",
+         "All Mail"
+        ],
+        "profile": "R",
+        "title": "Inbox",
+        "input": "Search mail"
+       },
+       "action": {
+        "kind": "click",
+        "target": "Trash",
+        "at": "Open Trash,"
+       }
+      },
+      {
+       "at": "click Empty",
+       "view": {
+        "sidebar": [
+         "Compose",
+         "Inbox",
+         "Starred",
+         "Sent",
+         "Drafts",
+         "Categories",
+         "Trash",
+         "Spam",
+         "All Mail"
+        ],
+        "profile": "R",
+        "input": "Search mail",
+        "panel": {
+         "title": "Trash",
+         "rows": [
+          {
+           "label": "Empty Trash now",
+           "kind": "button"
+          },
+          {
+           "label": "Trip video.mp4",
+           "kind": "value",
+           "value": "Mom"
+          },
+          {
+           "label": "Flash sale ends tonight",
+           "kind": "value",
+           "value": "Promo"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Empty Trash now",
+        "at": "Empty Trash now."
+       }
+      },
+      {
+       "at": "Then Spam,",
+       "view": {
+        "sidebar": [
+         "Compose",
+         "Inbox",
+         "Starred",
+         "Sent",
+         "Drafts",
+         "Categories",
+         "Trash",
+         "Spam",
+         "All Mail"
+        ],
+        "profile": "R",
+        "input": "Search mail",
+        "panel": {
+         "title": "Trash",
+         "rows": [
+          {
+           "label": "No conversations in Trash",
+           "kind": "value",
+           "value": ""
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Spam",
+        "at": "Then Spam,"
+       }
+      },
+      {
+       "at": "Delete all",
+       "view": {
+        "sidebar": [
+         "Compose",
+         "Inbox",
+         "Starred",
+         "Sent",
+         "Drafts",
+         "Categories",
+         "Trash",
+         "Spam",
+         "All Mail"
+        ],
+        "profile": "R",
+        "input": "Search mail",
+        "panel": {
+         "title": "Spam",
+         "rows": [
+          {
+           "label": "Delete all spam messages now",
+           "kind": "button"
+          },
+          {
+           "label": "You won a prize!!",
+           "kind": "value",
+           "value": "Spam"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Delete all spam messages now",
+        "at": "messages now."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Until then,",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "title_slam",
+     "at": "Until then,",
+     "text": "NOTHING",
+     "sub": "UNTIL TRASH IS EMPTY",
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "at": "Catch:",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "for good,",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "Catch:",
+     "text": "THE CATCH"
+    },
+    {
+     "type": "stat_row",
+     "at": "Catch:",
+     "cards": [
+      {
+       "label": "EMPTIED TRASH",
+       "value": "GONE",
+       "sub": "FOR GOOD",
+       "color": "red",
+       "ill": "wastebasket",
+       "at": "gone for"
+      },
+      {
+       "label": "COUNTER UPDATE",
+       "value": "HOURS",
+       "sub": "UP TO A COUPLE DAYS",
+       "color": "gold",
+       "ill": "hourglass_not_done",
+       "at": "take hours"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Is Gmail,",
+   "react": [
+    {
+     "at": "biggest hog?",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "headline",
+     "at": "Is Gmail,",
+     "text": "BIGGEST HOG?",
+     "size": "l",
+     "ill": "thinking_face",
+     "sub": "GMAIL · DRIVE · PHOTOS",
+     "sub_at": "or Photos"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "Send this",
+  "line1": "Send this to",
+  "line1_at": "Send this",
+  "line2": "the 'storage full' friend",
+  "line2_at": "storage full."
+ },
+ "endcard": {
+  "title": "Saved it?",
+  "terminal": "> trash.emptied · storage freed"
+ },
+ "media": [
+  {
+   "id": "lib_colleagues_collaborating_around",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "credit": "",
+   "file": "colleagues_collaborating_around.mp4",
+   "frames": 126,
+   "desc": "B-roll (4.2s, VERTICAL 9:16 — best as full: true): colleagues collaborating around Good for: "
+  },
+  {
+   "id": "s1_broll1",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-01_1516/s1_broll1.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-01_1516/s1_broll1.mp4",
+   "frames": 256,
+   "credit": "Video: Pexels",
+   "desc": "stock video: typing on laptop (9s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s1_broll2",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-01_1516/s1_broll2.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-01_1516/s1_broll2.mp4",
+   "frames": 597,
+   "credit": "Video: Pexels",
+   "desc": "stock video: full inbox email (20s) — generic, NOT the company's own footage"
+  }
+ ],
+ "style": "hisaab",
+ "topic": "Free up Gmail storage in minutes with 3 search operators (larger:10M, has:attachment, category:promotions older_than:1y), then select all, delete and empty Trash",
+ "pick": {
+  "index": 57,
+  "topic": "Free up Gmail storage in minutes with 3 search operators (larger:10M, has:attachment, category:promotions older_than:1y), then select all, delete and empty Trash",
+  "tool": "Gmail search operators",
+  "format": "tips",
+  "angle": "Stop paying Google for storage: your inbox is full of junk you can wipe in 2 minutes",
+  "why": "237K views and 260 comments in 8 days on a plain how-to, so there's clear demand for storage-pain fixes. It's free, works for any Gmail user and fits 3 steps in about 45 seconds. We haven't covered it, and we can show the exact search strings on screen."
+ },
+ "inspired_by": {
+  "url": "https://www.instagram.com/p/De4KYPYsh-z/",
+  "owner": "techbyashu",
+  "plays": 237022,
+  "likes": 1466,
+  "comments": 260
+ },
+ "research": {
+  "verdict": "adjust",
+  "tool": "Gmail search operators (larger:, has:attachment, category:, older_than:) with Gmail's 'Select all conversations that match this search'",
+  "availability": "Free. Works in Gmail on the web (desktop browser or mobile browser). The operators also work in the phone apps, but the apps lack the select-all-matching link. The free 15 GB is shared across Gmail, Drive and Photos. No region limits found.",
+  "steps": [
+   "Open mail.google.com on a computer. The select-all-matching step does not exist in the Gmail phone apps.",
+   "Click the search bar at the top and type: larger:10M (or the combined has:attachment larger:10M). Press Enter.",
+   "Skim the results. Click the checkbox above the list to select the page (50 per page by default). A banner then appears: 'All 50 conversations on this page are selected. Select all conversations that match this search.' Click that link.",
+   "Click the trash (Delete) icon in the toolbar, and confirm the pop-up if one appears.",
+   "Repeat the search with: category:promotions older_than:1y. Then select all, click the link, and delete.",
+   "In the left sidebar, click Trash (under More if it is hidden) and click 'Empty Trash now' at the top. Do the same in Spam with 'Delete all spam messages now'. This is the step that actually frees the space.",
+   "Check storage afterwards. It can take hours to a few days to update."
+  ],
+  "facts": [
+   "larger: matches messages larger than a size and accepts K and M shorthand, e.g. larger:10M. has:attachment matches messages with any attachment, and category: matches the Gmail tab categories (primary, social, promotions, updates, forums).",
+   "Google's 'Refine searches in Gmail' page still lists the operators, including newer_than and has:attachment, as of September 2026. The official doc is support.google.com/mail/answer/7190. I could not open it directly, so these facts come from outlets citing it.",
+   "When you combine operators, separate them with spaces. Gmail treats a space as AND. So 'category:promotions older_than:1y' means promotions AND older than 1 year.",
+   "Gmail has no built-in way to sort by size or attachment size. You use filters like has:attachment larger:10M instead.",
+   "After you apply a search, Gmail shows about 50 emails per page by default. Settings → See all settings → General → Maximum page size can raise this to 100.",
+   "After you click the checkbox, clicking 'Select all X conversations that match this search' selects every match, not just the visible page.",
+   "Deleting emails does not free space immediately. Items sit in Trash for up to 30 days before being permanently deleted, and the same goes for Spam.",
+   "To empty them: click Trash in the left sidebar, then 'Empty Trash now'. Then go to Spam and click 'Delete all spam messages now'.",
+   "Archiving emails does not free up Gmail storage.",
+   "The storage counter can take up to 24 hours to update after you empty Trash. One source says Google states a large deletion can take 48–72 hours to show. Say 'can take hours to a couple of days', not 'instant'.",
+   "Every Google Account provides 15 GB of storage for Google Drive, Gmail, and Google Photos.",
+   "As of October 2026: Google One Basic is 100GB at $1.99 a month. Google AI Plus is 2TB at $9.99. Google AI Pro is 5TB at $19.99. These are US prices; secondary source, so tell viewers to check their own region.",
+   "A 30 GB Google One Lite plan is available in some countries such as India. This matters if the audience is Indian.",
+   "The native checkbox selects only 50 at a time, and the 'Select all conversations that match this search' link is what extends the selection.",
+   "One analysis found no documented cap on how many conversations 'select all matching' can delete."
+  ],
+  "do_not_claim": [
+   "Do not call these 'secret' or 'hidden' codes. They are documented Google search operators.",
+   "Do not say deleting frees storage 'instantly' or 'permanently'. The transcript never mentions emptying Trash, and deleted mail keeps counting for up to 30 days until Trash and Spam are emptied.",
+   "Do not say 'open the Gmail app and select all'. The phone apps have no 'select all conversations that match this search' option, so bulk deletion beyond about 50 emails needs desktop Gmail or a mobile browser. Sources conflict on the mobile browser: one says the link appears in mobile Chrome/Safari, others only say the app lacks it. Show the desktop flow.",
+   "Do not say 'has:attachment' alone finds the biggest storage hogs. It returns every email with any attachment, including tiny invoices, tickets and documents. Pair it with larger:10M. Our topic's separate 'has:attachment' step is risky unless it is combined with size or age.",
+   "Do not say searching 'unsubscribe' shows only promotional emails. It is a keyword match and also catches receipts, bank mail and newsletters you want. category:promotions is the accurate filter.",
+   "Do not say 'delete these and your storage becomes completely free'. Photos and Drive share the same 15 GB, and Gmail may not be the main consumer.",
+   "Do not promise a fixed number of GB freed or a time like '2 minutes'. No source supports it.",
+   "Do not say 'you'll never need to pay Google'. Cleanup is free, but if the remaining files are all essential, a paid plan may still be needed.",
+   "Avoid the 'comment STORAGE and I'll DM you' format. It is the original creator's lead-gen funnel, and the top comments are just 'Storage' replies."
+  ],
+  "criticism": [
+   "Bulk 'select all matching' deletion is easy to get wrong. Promotions and old attachments can include receipts, warranties, tickets and tax documents. Review the results first and download anything important. Deleted mail is recoverable only until Trash is emptied; <cite index='11-8'>after you empty Trash, emails are permanently deleted and can't be recovered.</cite>",
+   "<cite index='33-11'>One analysis found no cap or batch size documented for select-all-matching in Google's Gmail Help.</cite> Treat any specific limit as unverified.",
+   "Mobile limitation: <cite index='36-10'>the Gmail app doesn't offer the 'Select all matching conversations' option, so bulk deletion on mobile is very limited.</cite>",
+   "Storage is shared. <cite index='24-11'>Google's free 15 GB is shared by Gmail, Drive and Google Photos, so old attachments and photo backups fill it faster than people expect.</cite> If Photos is the main user, this trick won't solve it.",
+   "<cite index='20-8'>Cleaning has a counterweight: Google One plans start cheap (100 GB at $1.99/mo US), so for some people paying is the lower-effort option.</cite> Keep 'stop paying' honest: the claim is 'try this before you pay'."
+  ],
+  "ui": {
+   "platforms": "Web (desktop browser) is the best choice for the recreation. iOS and Android apps have the search bar and operators but no select-all-matching link.",
+   "screens": [
+    "Gmail web, light theme by default. Search bar at the top centre: magnifier on the left, placeholder 'Search mail', and the 'Show search options' sliders icon at the right end of the bar. Typing an operator and pressing Enter loads results in the main pane.",
+    "Left sidebar, top to bottom (standard layout, not re-verified this month): Compose button, Inbox, Starred, Snoozed, Sent, Drafts, then More, which expands to Categories, Trash, Spam, All Mail and others. The inbox tabs are Primary, Promotions, Social (Updates and Forums if enabled).",
+    "Results screen: above the list, a toolbar with a select-all checkbox (with dropdown) at the far left, then Refresh and a three-dot menu. After you tick the checkbox, the Archive, Report spam, Delete (trash can), Mark as read, Snooze, Move to and Labels icons appear in the toolbar. A banner appears under the toolbar: 'All 50 conversations on this page are selected. Select all conversations that match this search.' Sources describe it as a yellow or blue banner, so the colour is not verified. After clicking, it changes to say all conversations in this search are selected.",
+    "Trash page: click Trash in the left sidebar. A line at the top of the list reads 'Messages that have been in Trash more than 30 days will be automatically deleted.' with an 'Empty Trash now' link beside it. Clicking it opens a confirmation dialog. The Spam page has the equivalent 'Delete all spam messages now' link.",
+    "Storage view: storage.google.com, or the storage bar at the bottom-left of Gmail's sidebar ('x GB of 15 GB used').",
+    "Current state of the UI: as of Oct 25, 2026, <cite index='56-17'>Gmail on the web got blue stars, the new icon and, for paid accounts, AI Inbox, but its layout hasn't changed.</cite> Paid AI plan users also see an AI Inbox entry under Inbox in the side menu. The new gradient Gmail icon (rounded M, mostly red) appears in the app launcher. <cite index='56-3'>The iPhone app got a quiet redesign in October 2026 with a light grey background and each email on a white card.</cite> The iPhone redesign is phased, so only recreate phone screens if you accept variation."
+   ]
+  },
+  "visuals": "Show the desktop Gmail search bar with each operator typed (larger:10M, has:attachment larger:10M, category:promotions older_than:1y). Show the results list, the top checkbox, and the 'Select all conversations that match this search' banner. Then show the trash icon, the Trash page with the 'Empty Trash now' link, and finally the storage bar or storage.google.com. A real screen recording is best for the banner and Trash screens. A mock-up is fine for the typing. The actual storage drop can't be shown honestly in a mock-up, because the counter lags and results depend on the account.",
+  "sources": [
+   "https://support.google.com/mail/answer/7190",
+   "https://emailanalytics.com/25-gmail-search-operators-that-will-make-you-a-gmail-pro/",
+   "https://clean.email/blog/email-providers/gmail-search-operators",
+   "https://www.androidpolice.com/stop-paying-for-google-one-gmail-cleanup-steps-free-up-inbox-instantly/",
+   "https://www.usecarly.com/blog/how-to-mass-delete-emails-in-gmail/",
+   "https://blog.superhuman.com/how-to-mass-delete-emails-gmail/",
+   "https://gmailytics.com/guides/delete-thousands-of-emails-gmail",
+   "https://aiemaily.com/blog/does-deleting-gmail-emails-free-up-storage",
+   "https://declutrmail.com/how-to/gmail-storage-full",
+   "https://www.lilachbullock.com/google-one-price/",
+   "https://en.wikipedia.org/wiki/Google_One",
+   "https://www.usecarly.com/blog/gmail-app-new-design/",
+   "https://mailmeteor.com/blog/sort-gmail-by-size"
+  ],
+  "notes": "Verdict is 'adjust', not 'reject': the three operators are real and the workflow is valid. The transcript's trick order differs from ours (unsubscribe, older_than:1y, has:attachment larger:10M), so do not copy it. Our version should include these corrections: (1) it must be desktop web for select-all-matching; (2) it must include emptying Trash and Spam; (3) 'has:attachment' needs the size filter, for example 'has:attachment larger:10M', so it doesn't delete small important files; (4) the spoken syntax is 'larger colon 10 M', capital or lowercase M, no spaces around the colon. I could not open Google's official Help pages in this search session, so the facts above come from reputable secondary outlets that cite them. The 'Gmail storage can take 48–72 hours' figure is attributed to Google by a third party. Prices are US and secondary-sourced; confirm on one.google.com/about/plans before putting a price on screen. Suggested safe on-screen line: 'Check before you delete, and empty Trash to actually get the space.'",
+  "_searched": 6
+ },
+ "models": {
+  "pick": "claude-sonnet-5-5",
+  "research": "claude-sonnet-5-5",
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 4
+}
