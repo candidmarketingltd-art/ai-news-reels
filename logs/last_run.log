@@ -4,43 +4,32 @@
   BUFFER_API_KEY: set
   BUFFER_CHANNEL_ID: set
 window 2026-11-01-1300 | posting times 13:00, 20:00 IST | dry_run=True
-      b-roll indexed: camera_moving_down_server_corridor.mp4 — A slow forward push down a hazy, fog-filled data center aisle lined with server racks that glow with
-      b-roll indexed: clock_ticking_and_person_typing.mp4 — A rack-focus shot moves from a close-up of a black twin-bell alarm clock with ticking hands to a bea
-      b-roll indexed: colleagues_collaborating_around.mp4 — colleagues collaborating around
-      b-roll indexed: content_creator_sets_up_phone.mp4 — A bearded man in a white t-shirt stands behind a ring light with a phone on a tripod, adjusting the 
-      b-roll indexed: eye_reflecting_laptop_screen_glow.mp4 — A slow zoom into an extreme close-up of a brown eye with a bright blue screen reflected in the pupil
-      b-roll indexed: hand_dropping_papers_on_desk.mp4 — A bearded man in a green shirt carries and then drops a thick stack of papers onto an already huge, 
-      b-roll indexed: hand_scrolling_smartphone.mp4 — A close-up of a bearded young man in a white t-shirt looking intently at a smartphone in dim, warm l
-      b-roll indexed: person_drinking_coffee_with_laptop.mp4 — A bearded man in a green polo sits at a laptop in a modern industrial-style open office, lifting a w
-      b-roll indexed: person_reacting_to_laptop_screen.mp4 — A bearded man in a maroon t-shirt sits in a car and looks down at a laptop, his expression moving fr
-      b-roll indexed: person_speaking_into_phone.mp4 — A bearded man in a maroon t-shirt takes a phone call in a modern industrial office with exposed conc
-      b-roll indexed: person_taking_selfie_with_phone.mp4 — A bearded man in a white t-shirt sits in a car holding a blue smartphone up close to his face, and a
-      b-roll indexed: professional_working_on_laptop_late.mp4 — A tired bearded young man in a maroon t-shirt sits at a laptop in a dim apartment at night, resting 
-      b-roll indexed: robotic_hand_typing_on_keyboard.mp4 — A close-up of a black robotic hand with segmented, mechanical fingers lowering onto a backlit laptop
       b-roll library: 13 clips
 [1/6] top AI & tech reels
       reel pool: 80 reels (cached today)
 [2/6] picking the topic
-      → Free up Gmail storage in minutes with 3 search operators (larger:10M, has:attachment, category:promotions older_than:1y), then select all, delete and empty Trash  (tips, from @techbyashu, 237,022 views) — 237K views and 260 comments in 8 days on a plain how-to, so there's clear demand for storage-pain fixes. It's free, works for any Gmail user and fits 3 steps in
-[3/6] research (189 transcript words)
-      verdict adjust · 6 web searches · 7 steps · 13 sources
+      → Which free AI tool to use for which job: ChatGPT vs Claude vs Gemini vs Perplexity for research, writing, coding and content, with one test prompt per task  (comparison, from @drsaadai, 1,410,626 views) — 1.41M views and 3,895 comments on a single 'ChatGPT isn't the best' claim. That is a high comment-to-view ratio, and the contrarian hook is what drives it. Ever
+[3/6] research (186 transcript words)
+      web research unavailable (Expecting ',' delimiter: line 1 column 10009 (char 10008)); using the transcript only, conservatively
+      verdict adjust · 0 web searches · 0 steps · 0 sources
 [4/6] script + edit
-      media: s1_broll1, s1_broll2
+      media: s1_image, s1_logo, s1_broll1, s1_broll2
 [5/6] voice + render
       [eleven] workspace voices: Rohan (IcsYcP26eMwajlgx2SDe, cloned)
       [eleven] using Rohan (IcsYcP26eMwajlgx2SDe)
-      [eleven] subscription: 200 {"tier":"starter","character_count":8727,"character_limit":40000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796033014,"voice_slots_used":1,"professional_voice_slots_u
+      [eleven] subscription: 200 {"tier":"starter","character_count":9115,"character_limit":40000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796033014,"voice_slots_used":1,"professional_voice_slots_u
       [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
-      162 words, 63.2s, voice eleven_v4
-      remotion: Reel /tmp/tmpkz4q3i1a/video_only.mp4
-DRY RUN — reel at /home/runner/work/ai-news-reels/ai-news-reels/out/2026-11-01_1516.mp4
+      141 words, 53.8s, voice eleven_v4
+      remotion: Reel /tmp/tmp8xcyh5ce/video_only.mp4
+DRY RUN — reel at /home/runner/work/ai-news-reels/ai-news-reels/out/2026-11-01_1528.mp4
 --- caption ---
-Before you pay Google for more storage, try this first.
-✅ Desktop Gmail: search has:attachment larger:10M → select all → Select all conversations that match this search → trash
-✅ Search category:promotions older_than:1y → select all → delete
-✅ Empty Trash now + Delete all spam messages now (this actually frees the space)
-Check before you delete. Emptied Trash can't be recovered. Which is eating your storage: Gmail, Drive or Photos? 📦
-Save this for later
+ChatGPT isn't the best AI for every job.
+✅ Research: test Perplexity (it shows sources)
+✅ Writing: test Claude
+✅ Coding: compare ChatGPT and Claude
+✅ Content ideas: test Gemini
+Which free AI are you using right now? 👇
+Save this for later 📌
 Follow @ihackgrowth for daily AI & tech hacks
 
-#Gmail #GmailTips #TechHacks #Google #StorageFull #productivity #lifehacks #techtips
+#AItools #AIhacks #ChatGPT #Claude #Gemini #Perplexity #freeAI #productivity
