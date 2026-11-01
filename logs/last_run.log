@@ -3,22 +3,25 @@
   APIFY_TOKEN: set
   BUFFER_API_KEY: set
   BUFFER_CHANNEL_ID: set
-window 2026-10-31-2000 | posting times 13:00, 20:00 IST | dry_run=False
+window 2026-11-01-1300 | posting times 13:00, 20:00 IST | dry_run=False
 [1/6] top AI & tech reels
-      reel pool: 80 reels (cached today)
+      hashtags: 200 reels from 10 tags
+      accounts: 35 reels from @amsonppt, @cindiezhu, @10x.with.ai, @techbyashu, @insideraix, @techwaalababa
+      reel pool: 80 reels
 [2/6] picking the topic
-      → Keep your real face when editing photos in ChatGPT: upload a clear, well-lit reference photo, tell it to preserve your exact facial features and identity, change only the background, clothes or lighting, and edit one thing at a time instead of regenerating the whole image  (mistake, from @shan.aicreator, 937,718 views) — 937k views and 3,074 comments (about 0.33% comment rate) in 2 days shows a widespread, annoying problem. It's a specific fix, teachable in 3 steps, and works on
-[3/6] research (130 transcript words)
-      verdict adjust · 6 web searches · 7 steps · 15 sources
+      → Find jobs LinkedIn doesn't show you by using Google site: searches on the Lever, Ashby and Greenhouse career boards (e.g. site:jobs.lever.co "job title" remote), then have an AI assistant summarize new postings each morning  (tutorial, from @10x.with.ai, 296,520 views) — Job-hunting demand is proven across two reels from the same creator. [20] has 296k views and 3,738 comments (about 1.3% comment rate) in 45s. [5], the bigger ve
+[3/6] research (83 transcript words)
+      web research unavailable (Expecting ',' delimiter: line 2 column 9047 (char 9927)); using the transcript only, conservatively
+      verdict adjust · 0 web searches · 0 steps · 0 sources
 [4/6] script + edit
-      media: s1_image, s1_logo, s1_broll1, s1_broll2
+      media: s1_logo, s1_broll1, s1_broll2
 [5/6] voice + render
       [eleven] workspace voices: Rohan (IcsYcP26eMwajlgx2SDe, cloned)
       [eleven] using Rohan (IcsYcP26eMwajlgx2SDe)
-      [eleven] subscription: 200 {"tier":"starter","character_count":6989,"character_limit":40000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796033014,"voice_slots_used":1,"professional_voice_slots_u
+      [eleven] subscription: 200 {"tier":"starter","character_count":8373,"character_limit":40000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796033014,"voice_slots_used":1,"professional_voice_slots_u
       [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
-      152 words, 56.6s, voice eleven_v4
-      remotion: Reel /tmp/tmpl256279h/video_only.mp4
+      146 words, 51.7s, voice eleven_v4
+      remotion: Reel /tmp/tmp01xvz2p6/video_only.mp4
 [6/6] publish
-      [buffer] created post 6ae5fd1d1ee172cd6da7d350 (customScheduled)
-POSTED 6ae5fd1d1ee172cd6da7d350 https://github.com/candidmarketingltd-art/ai-news-reels/releases/download/reel-2026-10-31_2001/2026-10-31_2001.mp4
+      [buffer] created post 6ae6ec8621c807e9d5a883d4 (customScheduled)
+POSTED 6ae6ec8621c807e9d5a883d4 https://github.com/candidmarketingltd-art/ai-news-reels/releases/download/reel-2026-11-01_1301/2026-11-01_1301.mp4

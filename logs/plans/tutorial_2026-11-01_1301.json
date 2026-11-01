@@ -1,0 +1,498 @@
+{
+ "voiceover": "[conversational] Stop only searching LinkedIn. Some jobs are sitting on company career pages.\n\nLots of companies hire through Lever, Ashby and Greenhouse. Google can search those directly, so you spot roles before they hit your feed.\n\n[confident] Step 1. In Google, type: site colon jobs dot lever dot co, then your job title in quotes, then remote. Repeat for Ashby and Greenhouse.\n\nStep 2. Click Tools, then Any time, and pick the past day. Now it's only fresh postings.\n\nStep 3. Paste the results into ChatGPT or Claude and say: [playful] \"Here are new job postings. Keep the ones that match my background and summarize each in one line.\"\n\n[serious] Honest catch: you paste the results yourself, and always check the posting's still open. Do it each morning with your coffee.\n\nWhat job title are you searching for right now?\n\nSend this to the friend who's stuck applying on LinkedIn.",
+ "title": "STOP USING ONLY LINKEDIN",
+ "ig_caption": "Stop only searching LinkedIn. Some jobs live on company career pages 👀\n✅ Google: site:jobs.lever.co \"job title\" remote\n✅ Repeat for Ashby and Greenhouse, then Tools > Any time > past day\n✅ Paste results into ChatGPT or Claude and ask for a summary of the best matches\nWhat job title are you searching for right now?\nSave this for later\nFollow @ihackgrowth for daily AI & tech hacks",
+ "media_hints": {
+  "domain": "google.com",
+  "broll": [
+   "typing on laptop",
+   "job search laptop",
+   "person frustrated at desk"
+  ]
+ },
+ "hashtags": [
+  "#AItools",
+  "#AIhacks",
+  "#ChatGPT",
+  "#Claude",
+  "#JobSearch",
+  "#JobHunting",
+  "#Google",
+  "#careertips",
+  "#productivity"
+ ],
+ "tag": "JOB HUNT HACK",
+ "keywords": [
+  "LinkedIn",
+  "career",
+  "Lever",
+  "Ashby",
+  "Greenhouse",
+  "Google",
+  "feed",
+  "title",
+  "quotes",
+  "remote",
+  "Tools",
+  "fresh",
+  "ChatGPT",
+  "Claude",
+  "background",
+  "summarize",
+  "catch",
+  "morning",
+  "coffee"
+ ],
+ "scenes": [
+  {
+   "at": "Stop only",
+   "tint": "red",
+   "react": [
+    {
+     "at": "searching LinkedIn.",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "title_slam",
+     "at": "Stop only",
+     "text": "STOP",
+     "sub": "ONLY USING LINKEDIN",
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "at": "Some jobs",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Some jobs",
+     "media": "s1_broll2",
+     "caption": "THE JOBS YOU NEVER SEE"
+    },
+    {
+     "type": "pill",
+     "at": "career pages.",
+     "text": "COMPANY CAREER PAGES",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "Lots of companies",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Lots of companies",
+     "text": "WHERE COMPANIES HIRE"
+    },
+    {
+     "type": "strike_list",
+     "at": "Lever,",
+     "items": [
+      {
+       "text": "LEVER",
+       "at": "Lever,",
+       "strike": false
+      },
+      {
+       "text": "ASHBY",
+       "at": "Ashby and",
+       "strike": false
+      },
+      {
+       "text": "GREENHOUSE",
+       "at": "and Greenhouse.",
+       "strike": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Google can search",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "before they",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "app",
+     "at": "Google can search",
+     "name": "Google",
+     "label": "SEARCH THEM DIRECTLY",
+     "ill": "magnifying_glass_tilted_right",
+     "color": "blue"
+    },
+    {
+     "type": "arrow_pair",
+     "at": "spot roles",
+     "left": {
+      "label": "LINKEDIN FEED",
+      "value": "LATE",
+      "color": "red"
+     },
+     "right": {
+      "label": "GOOGLE SEARCH",
+      "value": "FIRST",
+      "color": "green",
+      "at": "before they"
+     }
+    }
+   ]
+  },
+  {
+   "at": "Step 1.",
+   "react": [
+    {
+     "at": "Step 1.",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "Step 1.",
+     "text": "STEP 1 · THE SEARCH"
+    },
+    {
+     "type": "screen",
+     "at": "Step 1.",
+     "device": "web",
+     "theme": "light",
+     "app": "Google",
+     "url": "google.com",
+     "steps": [
+      {
+       "at": "Step 1.",
+       "view": {
+        "title": "Google",
+        "top_buttons": [
+         "Gmail",
+         "Images"
+        ],
+        "input": ""
+       },
+       "action": {
+        "kind": "type",
+        "target": "input",
+        "text": "site:jobs.lever.co \"product manager\" remote",
+        "at": "site colon"
+       }
+      },
+      {
+       "at": "Repeat for",
+       "view": {
+        "title": "Google",
+        "top_buttons": [
+         "Gmail",
+         "Images"
+        ],
+        "input": ""
+       },
+       "action": {
+        "kind": "type",
+        "target": "input",
+        "text": "site:jobs.ashbyhq.com \"product manager\" remote",
+        "at": "Repeat for"
+       }
+      },
+      {
+       "at": "and Greenhouse.",
+       "view": {
+        "title": "Google",
+        "top_buttons": [
+         "Gmail",
+         "Images"
+        ],
+        "input": ""
+       },
+       "action": {
+        "kind": "type",
+        "target": "input",
+        "text": "site:boards.greenhouse.io \"product manager\" remote",
+        "at": "and Greenhouse."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Step 2.",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Step 2.",
+     "device": "web",
+     "theme": "light",
+     "app": "Google",
+     "url": "google.com/search",
+     "steps": [
+      {
+       "at": "Step 2.",
+       "view": {
+        "title": "site:jobs.lever.co \"product manager\" remote",
+        "top_buttons": [
+         "All",
+         "News",
+         "Images",
+         "Tools"
+        ],
+        "chat": [
+         {
+          "from": "ai",
+          "text": "Product Manager · Remote — jobs.lever.co"
+         },
+         {
+          "from": "ai",
+          "text": "Senior PM, Growth · Remote — jobs.lever.co"
+         }
+        ],
+        "input": "site:jobs.lever.co \"product manager\" remote"
+       },
+       "action": {
+        "kind": "click",
+        "target": "Tools",
+        "at": "Click Tools,"
+       }
+      },
+      {
+       "at": "then Any time,",
+       "view": {
+        "title": "site:jobs.lever.co \"product manager\" remote",
+        "top_buttons": [
+         "All",
+         "News",
+         "Tools",
+         "Any time",
+         "All results"
+        ],
+        "chat": [
+         {
+          "from": "ai",
+          "text": "Product Manager · Remote — jobs.lever.co"
+         },
+         {
+          "from": "ai",
+          "text": "Senior PM, Growth · Remote — jobs.lever.co"
+         }
+        ],
+        "input": "site:jobs.lever.co \"product manager\" remote"
+       },
+       "action": {
+        "kind": "click",
+        "target": "Any time",
+        "at": "then Any time,"
+       }
+      },
+      {
+       "at": "and pick",
+       "view": {
+        "title": "site:jobs.lever.co \"product manager\" remote",
+        "top_buttons": [
+         "All",
+         "News",
+         "Tools",
+         "Any time",
+         "All results"
+        ],
+        "menu": {
+         "items": [
+          "Any time",
+          "Past hour",
+          "Past 24 hours",
+          "Past week",
+          "Past month"
+         ],
+         "anchor": "top"
+        },
+        "input": "site:jobs.lever.co \"product manager\" remote"
+       },
+       "action": {
+        "kind": "click",
+        "target": "Past 24 hours",
+        "at": "past day."
+       }
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "at": "fresh postings.",
+     "text": "FRESH POSTINGS ONLY",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "Step 3.",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Step 3.",
+     "text": "STEP 3 · CHATGPT OR CLAUDE"
+    },
+    {
+     "type": "prompt",
+     "at": "Here are",
+     "app": "CHATGPT",
+     "text": "Here are new job postings. Keep the ones that match my background and summarize each in one line.",
+     "send_at": "one line.",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "Honest catch:",
+   "tint": "red",
+   "react": [
+    {
+     "at": "Honest catch:",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "Honest catch:",
+     "text": "THE HONEST CATCH"
+    },
+    {
+     "type": "stat_row",
+     "at": "results yourself,",
+     "cards": [
+      {
+       "label": "PASTING",
+       "value": "MANUAL",
+       "at": "results yourself,",
+       "color": "gold",
+       "ill": "clipboard"
+      },
+      {
+       "label": "STILL OPEN?",
+       "value": "CHECK",
+       "at": "always check",
+       "color": "red",
+       "ill": "warning"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Do it",
+   "tint": "green",
+   "react": [
+    {
+     "at": "each morning",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Do it",
+     "media": "s1_broll1",
+     "caption": "YOUR MORNING ROUTINE"
+    },
+    {
+     "type": "headline",
+     "at": "each morning",
+     "text": "EVERY MORNING",
+     "size": "l",
+     "ill": "hot_beverage",
+     "sub": "WITH YOUR COFFEE",
+     "sub_at": "your coffee.",
+     "sub_color": "green"
+    }
+   ]
+  },
+  {
+   "at": "What job",
+   "elements": [
+    {
+     "type": "headline",
+     "at": "What job",
+     "text": "YOUR JOB TITLE?",
+     "size": "l",
+     "ill": "speech_balloon",
+     "sub": "RIGHT NOW",
+     "sub_at": "right now?"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "Send this",
+  "line1": "Send this to",
+  "line1_at": "Send this",
+  "line2": "the LinkedIn applier",
+  "line2_at": "applying on LinkedIn."
+ },
+ "endcard": {
+  "title": "Saved it?",
+  "terminal": "> jobs.found · before the feed"
+ },
+ "media": [
+  {
+   "id": "s1_broll1",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-01_1301/s1_broll1.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-01_1301/s1_broll1.mp4",
+   "frames": 256,
+   "credit": "Video: Pexels",
+   "desc": "stock video: typing on laptop (9s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s1_broll2",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-01_1301/s1_broll2.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-01_1301/s1_broll2.mp4",
+   "frames": 931,
+   "credit": "Video: Pexels",
+   "desc": "stock video: job search laptop (31s) — generic, NOT the company's own footage"
+  }
+ ],
+ "style": "hisaab",
+ "topic": "Find jobs LinkedIn doesn't show you by using Google site: searches on the Lever, Ashby and Greenhouse career boards (e.g. site:jobs.lever.co \"job title\" remote), then have an AI assistant summarize new postings each morning",
+ "pick": {
+  "index": 20,
+  "topic": "Find jobs LinkedIn doesn't show you by using Google site: searches on the Lever, Ashby and Greenhouse career boards (e.g. site:jobs.lever.co \"job title\" remote), then have an AI assistant summarize new postings each morning",
+  "tool": "Google search operators + ChatGPT/Claude",
+  "format": "tutorial",
+  "angle": "Stop applying on LinkedIn: most good jobs are posted on company career pages, and Google can search them directly for free",
+  "why": "Job-hunting demand is proven across two reels from the same creator. [20] has 296k views and 3,738 comments (about 1.3% comment rate) in 45s. [5], the bigger version, has 1.08M views and 7,581 comments. The Google part is free and works for anyone, so we can teach it in 3 steps without the shaky auto-apply bot."
+ },
+ "inspired_by": {
+  "url": "https://www.instagram.com/p/DfIchJfTiR9/",
+  "owner": "10x.with.ai",
+  "plays": 296520,
+  "likes": 8350,
+  "comments": 3738
+ },
+ "research": {
+  "verdict": "adjust",
+  "tool": "Google search operators + ChatGPT/Claude",
+  "steps": [],
+  "facts": [],
+  "do_not_claim": [],
+  "notes": "Not web-verified: use only general, well-known steps; avoid every number, price and limit.",
+  "_searched": 0
+ },
+ "models": {
+  "pick": "claude-sonnet-5-5",
+  "research": "claude-sonnet-5-5",
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 3
+}
