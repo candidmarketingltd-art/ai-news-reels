@@ -1,0 +1,1659 @@
+{
+ "voiceover": "[conversational] Stop guessing why your reel flopped. Your own numbers can tell you.\n\nInstagram tracks something called skip rate: the share of views where people bailed in the first 3 seconds.\n\n[playful] One. Wait about 48 hours, then open the Reel and tap View insights. You need a Professional account.\n\nTwo. Screenshot the insights and the Retention graph. Copy your hook.\n\nThree. In ChatGPT, tap plus and attach it. Free plan allows 3 uploads a day, so combine screenshots or paste the numbers.\n\nThen type: \"Diagnose why it flopped, focusing on the first 3 seconds. Give 3 hook rewrites and a 7-day plan.\"\n\n[serious] Honest catch: ChatGPT can't watch your video, so treat its answer as a smart guess. And there's no official skip rate pass mark.\n\n[confident] Safest route: screenshots only. Connectors exist, but they're third-party.\n\nIs your hook usually a question or a statement? Tell me below.\n\nSend this to the friend who keeps deleting flopped reels.",
+ "title": "WHY YOUR REEL FLOPPED",
+ "ig_caption": "Stop guessing why your reel flopped. Your own numbers can tell you.\n✅ Reel → View insights (Professional account, wait ~48 hrs)\n✅ Screenshot insights + Retention graph, copy your hook\n✅ Attach to ChatGPT, ask for a diagnosis, 3 hook rewrites and a 7-day plan\nIs your hook usually a question or a statement? 👇\nSave this for later 📌\nFollow @ihackgrowth for daily AI & tech hacks",
+ "media_hints": {
+  "domain": "chatgpt.com",
+  "broll": [
+   "scrolling phone reels",
+   "person frustrated at desk",
+   "typing on laptop"
+  ]
+ },
+ "hashtags": [
+  "#AItools",
+  "#AIhacks",
+  "#ChatGPT",
+  "#InstagramReels",
+  "#InstagramTips",
+  "#ContentCreator",
+  "#SocialMediaTips",
+  "#productivity"
+ ],
+ "tag": "REEL FLOP FIX",
+ "keywords": [
+  "ChatGPT",
+  "Instagram",
+  "guessing",
+  "flopped",
+  "numbers",
+  "skip",
+  "insights",
+  "Professional",
+  "Retention",
+  "hook",
+  "screenshots",
+  "Diagnose",
+  "rewrites",
+  "plan",
+  "guess",
+  "Connectors",
+  "third-party"
+ ],
+ "scenes": [
+  {
+   "at": "Stop guessing",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Stop guessing",
+     "media": "lib_man_shaking_head_at_phone",
+     "full": true
+    },
+    {
+     "type": "title_slam",
+     "at": "Stop guessing",
+     "text": "STOP GUESSING",
+     "sub": "WHY IT FLOPPED",
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "at": "Your own numbers",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Your own numbers",
+     "media": "lib_eye_reflecting_laptop_screen_glow",
+     "full": true
+    },
+    {
+     "type": "headline",
+     "at": "Your own numbers",
+     "text": "YOUR NUMBERS KNOW",
+     "size": "l",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "Instagram tracks",
+   "react": [
+    {
+     "at": "people bailed",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "Instagram tracks",
+     "text": "INSTAGRAM INSIGHTS"
+    },
+    {
+     "type": "headline",
+     "at": "called skip",
+     "text": "SKIP RATE",
+     "size": "l",
+     "ill": "bar_chart"
+    },
+    {
+     "type": "big_number",
+     "at": "first 3",
+     "value": "3s",
+     "color": "red",
+     "ill": "stopwatch",
+     "note": "THEN THEY SWIPE AWAY",
+     "note_at": "first 3",
+     "note_color": "red"
+    }
+   ]
+  },
+  {
+   "at": "One. Wait",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "One. Wait",
+     "media": "lib_clock_ticking_and_person_typing",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "about 48",
+     "text": "WAIT 48 HOURS",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "then open",
+   "react": [
+    {
+     "at": "You need",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "screen",
+     "at": "then open",
+     "device": "phone",
+     "step": "Step 1 · Open insights",
+     "app": "Instagram",
+     "steps": [
+      {
+       "at": "then open",
+       "view": {
+        "kind": "page",
+        "site": "Instagram",
+        "nav": [
+         "Grid",
+         "Reels",
+         "Tagged"
+        ],
+        "heading": "your.profile",
+        "sub": "Professional dashboard",
+        "cards": [
+         {
+          "title": "Latest reel",
+          "text": "Posted 2 days ago"
+         },
+         {
+          "title": "Older reel",
+          "text": "Posted last week"
+         }
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "Reels",
+        "at": "the Reel"
+       }
+      },
+      {
+       "at": "and tap",
+       "view": {
+        "kind": "page",
+        "site": "Instagram",
+        "heading": "Your reel",
+        "sub": "Posted 2 days ago",
+        "buttons": [
+         "View insights",
+         "Share"
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "View insights",
+        "at": "tap View"
+       }
+      },
+      {
+       "at": "You need",
+       "view": {
+        "kind": "page",
+        "site": "Instagram",
+        "heading": "Reel insights",
+        "sub": "Professional account",
+        "cards": [
+         {
+          "title": "Views",
+          "text": "Last 48 hours"
+         },
+         {
+          "title": "Skip rate",
+          "text": "High"
+         },
+         {
+          "title": "Watch time",
+          "text": "Average watch time"
+         },
+         {
+          "title": "Retention",
+          "text": "Steep early drop"
+         }
+        ]
+       },
+       "action": {
+        "kind": "point",
+        "target": "Skip rate",
+        "at": "Professional account."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Two. Screenshot",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Two. Screenshot",
+     "device": "phone",
+     "step": "Step 2 · Grab the data",
+     "app": "Checklist",
+     "steps": [
+      {
+       "at": "Two. Screenshot",
+       "view": {
+        "kind": "checklist",
+        "window": "Reel post-mortem",
+        "title": "Collect these",
+        "items": [
+         {
+          "label": "Insights screenshot",
+          "sub": "Views, watch time, skip rate"
+         },
+         {
+          "label": "Retention graph",
+          "sub": "Second-by-second drop"
+         },
+         {
+          "label": "Your hook",
+          "sub": "First line, word for word"
+         }
+        ]
+       },
+       "action": {
+        "kind": "toggle",
+        "target": "Insights screenshot",
+        "at": "the insights"
+       }
+      },
+      {
+       "at": "Retention graph.",
+       "view": {
+        "kind": "checklist",
+        "window": "Reel post-mortem",
+        "title": "Collect these",
+        "items": [
+         {
+          "label": "Insights screenshot",
+          "sub": "Views, watch time, skip rate",
+          "checked": true
+         },
+         {
+          "label": "Retention graph",
+          "sub": "Second-by-second drop"
+         },
+         {
+          "label": "Your hook",
+          "sub": "First line, word for word"
+         }
+        ]
+       },
+       "action": {
+        "kind": "toggle",
+        "target": "Retention graph",
+        "at": "Retention graph."
+       }
+      },
+      {
+       "at": "Copy your",
+       "view": {
+        "kind": "checklist",
+        "window": "Reel post-mortem",
+        "title": "Collect these",
+        "items": [
+         {
+          "label": "Insights screenshot",
+          "sub": "Views, watch time, skip rate",
+          "checked": true
+         },
+         {
+          "label": "Retention graph",
+          "sub": "Second-by-second drop",
+          "checked": true
+         },
+         {
+          "label": "Your hook",
+          "sub": "First line, word for word"
+         }
+        ]
+       },
+       "action": {
+        "kind": "toggle",
+        "target": "Your hook",
+        "at": "Copy your"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Three. In",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Three. In",
+     "device": "phone",
+     "step": "Step 3 · Open ChatGPT",
+     "app": "ChatGPT",
+     "theme": "dark",
+     "brand": "chatgpt",
+     "steps": [
+      {
+       "at": "Three. In",
+       "view": {
+        "input": "Ask anything",
+        "input_buttons": [
+         "+"
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "+",
+        "at": "tap plus"
+       }
+      },
+      {
+       "at": "and attach",
+       "view": {
+        "input": "Ask anything",
+        "input_buttons": [
+         "+"
+        ],
+        "menu": {
+         "items": [
+          "Camera",
+          "Photos",
+          "Files"
+         ]
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Photos",
+        "at": "attach it."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Free plan",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Free plan",
+     "text": "FREE PLAN LIMIT"
+    },
+    {
+     "type": "stat_row",
+     "at": "3 uploads",
+     "cards": [
+      {
+       "label": "UPLOADS / DAY",
+       "value": "3",
+       "at": "3 uploads",
+       "color": "gold",
+       "ill": "framed_picture"
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "at": "combine screenshots",
+     "text": "COMBINE SCREENSHOTS",
+     "color": "green"
+    },
+    {
+     "type": "pill",
+     "at": "paste the",
+     "text": "OR PASTE THE NUMBERS",
+     "color": "white",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "Then type:",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Then type:",
+     "device": "phone",
+     "step": "Step 4 · Ask for the fix",
+     "app": "ChatGPT",
+     "theme": "dark",
+     "brand": "chatgpt",
+     "steps": [
+      {
+       "at": "Then type:",
+       "view": {
+        "input_buttons": [
+         "+"
+        ],
+        "chat": [
+         {
+          "from": "user",
+          "text": "📎 insights.png · retention.png"
+         }
+        ],
+        "input": ""
+       },
+       "action": {
+        "kind": "type",
+        "target": "input",
+        "at": "Diagnose why",
+        "text": "Diagnose why it flopped, focusing on the first 3 seconds. Give 3 hook rewrites and a 7-day plan."
+       }
+      },
+      {
+       "at": "7-day plan.",
+       "view": {
+        "input_buttons": [
+         "+"
+        ],
+        "chat": [
+         {
+          "from": "user",
+          "text": "Diagnose why it flopped… + 7-day plan"
+         },
+         {
+          "from": "ai",
+          "text": "Diagnosis: viewers leave early, the hook is slow. Hook rewrites ↓ Day 1: …"
+         }
+        ],
+        "input": ""
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Honest catch:",
+   "tint": "red",
+   "react": [
+    {
+     "at": "can't watch",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "Honest catch:",
+     "text": "HONEST CATCH"
+    },
+    {
+     "type": "strike_list",
+     "at": "can't watch",
+     "items": [
+      {
+       "text": "WATCHES YOUR VIDEO",
+       "at": "can't watch",
+       "strike": true
+      },
+      {
+       "text": "READS YOUR NUMBERS ONLY",
+       "at": "treat its",
+       "strike": false
+      },
+      {
+       "text": "A SMART GUESS",
+       "at": "smart guess.",
+       "strike": false
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "at": "no official",
+     "text": "NO OFFICIAL PASS MARK",
+     "color": "red",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "Safest route:",
+   "tint": "green",
+   "react": [
+    {
+     "at": "Safest route:",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "Safest route:",
+     "text": "SAFEST ROUTE"
+    },
+    {
+     "type": "headline",
+     "at": "screenshots only.",
+     "text": "SCREENSHOTS ONLY",
+     "size": "l",
+     "color": "green",
+     "ill": "framed_picture"
+    },
+    {
+     "type": "pill",
+     "at": "Connectors exist,",
+     "text": "CONNECTORS = THIRD-PARTY",
+     "color": "muted",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "Is your hook",
+   "react": [
+    {
+     "at": "Tell me",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "headline",
+     "at": "Is your hook",
+     "text": "QUESTION OR STATEMENT?",
+     "size": "l",
+     "ill": "thinking_face",
+     "sub": "COMMENT BELOW",
+     "sub_at": "Tell me"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "Send this",
+  "line1": "Send this to",
+  "line1_at": "Send this",
+  "line2": "the reel deleter",
+  "line2_at": "deleting flopped"
+ },
+ "endcard": {
+  "title": "Saved it?",
+  "terminal": "> reel.diagnosed · 7-day plan"
+ },
+ "media": [
+  {
+   "id": "lib_camera_moving_down_server_corridor",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "credit": "",
+   "file": "camera_moving_down_server_corridor.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow forward push down a hazy, fog-filled data center aisle lined with server racks that glow with blue and amber status lights, giving a moody, futuristic feel. Good for: A script line about the infrastructure behind AI, such as cloud computing, model training, heavy compute, data storage, or 'what happens behind the scenes'."
+  },
+  {
+   "id": "lib_clock_ticking_and_person_typing",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "credit": "",
+   "file": "clock_ticking_and_person_typing.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A rack-focus shot moves from a close-up of a black twin-bell alarm clock with ticking hands to a bearded man in a light polo typing on a laptop in a dim room, giving a tense, time-pressured mood. Good for: lines about deadlines, time slipping away, long hours of manual work, or the pressure of slow, tedious tasks before an AI tool speeds things up"
+  },
+  {
+   "id": "lib_colleagues_collaborating_around",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "credit": "",
+   "file": "colleagues_collaborating_around.mp4",
+   "frames": 126,
+   "desc": "B-roll (4.2s, VERTICAL 9:16 — best as full: true): colleagues collaborating around Good for: "
+  },
+  {
+   "id": "lib_content_creator_sets_up_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "credit": "",
+   "file": "content_creator_sets_up_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt stands behind a ring light with a phone on a tripod, adjusting the setup while the camera slowly pushes in until his face fills the frame, with a calm, focused mood and moody blue ambient lighting in the background. Good for: setting up to create content, getting started as a creator, or preparing equipment before recording a tutorial"
+  },
+  {
+   "id": "lib_eye_reflecting_laptop_screen_glow",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "credit": "",
+   "file": "eye_reflecting_laptop_screen_glow.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow zoom into an extreme close-up of a brown eye with a bright blue screen reflected in the pupil, framed by a thick eyebrow and warm skin tones, fading into a cool blue gradient at the bottom, with a focused, intense and cinematic mood. Good for: lines about being glued to a screen, intense focus or attention, watching AI work, or 'seeing' a new opportunity or insight"
+  },
+  {
+   "id": "lib_fingers_typing_on_laptop_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "credit": "",
+   "file": "fingers_typing_on_laptop_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): Close-up over-the-shoulder shot of a person typing on a backlit laptop keyboard, with a blurred blue screen in the background and a warm, focused, productive mood. Good for: lines about getting started, writing prompts or code, doing focused work at the computer, or the hands-on steps of a tutorial"
+  },
+  {
+   "id": "lib_hand_dropping_papers_on_desk",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "credit": "",
+   "file": "hand_dropping_papers_on_desk.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a green shirt carries and then drops a thick stack of papers onto an already huge, messy pile of documents with sticky notes on a cluttered desk, while a laptop glows nearby, and the camera pushes in to a close-up of the towering stack, creating a mood of overwhelm and tedious paperwork. Good for: a script line about drowning in manual paperwork or document processing, setting up how AI can automate summarizing, sorting, or extracting information from piles of documents"
+  },
+  {
+   "id": "lib_hand_scrolling_smartphone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_scrolling_smartphone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_scrolling_smartphone.mp4",
+   "credit": "",
+   "file": "hand_scrolling_smartphone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a bearded young man in a white t-shirt looking intently at a smartphone in dim, warm lighting, with the camera slowly pushing in until his focused, slightly tense gaze moves from the screen to the lens. Good for: a script line about being glued to your phone, doubt or tension before a reveal, or the moment of realizing something while checking an app or notification"
+  },
+  {
+   "id": "lib_hands_holding_credit_card_near",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hands_holding_credit_card_near.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hands_holding_credit_card_near.mp4",
+   "credit": "",
+   "file": "hands_holding_credit_card_near.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): hands holding credit card near Good for: "
+  },
+  {
+   "id": "lib_man_comparing_phone_and_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "credit": "",
+   "file": "man_comparing_phone_and_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): man comparing phone and laptop Good for: "
+  },
+  {
+   "id": "lib_man_looking_at_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "credit": "",
+   "file": "man_looking_at_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt scowls with intense focus at a laptop in a dim, warmly lit room, then closes his eyes and rubs his hand near his chin in tired frustration. Good for: frustration with slow or difficult work, such as struggling with a tedious task, debugging, or burning out late at night before finding a better way"
+  },
+  {
+   "id": "lib_man_opens_laptop_in_room",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "credit": "",
+   "file": "man_opens_laptop_in_room.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt sits at a laptop in a dimly lit, warmly lit room, and his focused, tense expression builds as he leans toward the screen, which shows blurry blue diagram or flowchart-style blocks, with his fists clenched near his chin in the middle frame. Good for: intense concentration or deep work, such as debugging, building an AI workflow, or struggling with a complex problem"
+  },
+  {
+   "id": "lib_man_shaking_head_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "credit": "",
+   "file": "man_shaking_head_at_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits in a dark chair looking down at his phone, and his expression shifts from neutral to scrunched-up frustration or confusion, then to a displeased, worried look as he lowers the phone. Good for: frustration or disappointment with a tool or app that isn't working, slow or confusing results, or a bad surprise while checking your phone"
+  },
+  {
+   "id": "lib_man_smiling_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "credit": "",
+   "file": "man_smiling_at_phone.mp4",
+   "frames": 135,
+   "desc": "B-roll (4.5s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a blue smartphone, his expression shifting from neutral to a furrowed-brow frown of confusion and frustration. Good for: a line about frustration with confusing apps or slow tools, or the moment someone hits a problem and doesn't know what to do next"
+  },
+  {
+   "id": "lib_man_staring_at_phone_in",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_staring_at_phone_in.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_staring_at_phone_in.mp4",
+   "credit": "",
+   "file": "man_staring_at_phone_in.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt stares at his smartphone, his expression moving from a focused frown to wide-eyed shock and then to a worried look straight into the camera, in a warm, dimly lit home setting. Good for: a line about a shocking discovery, an unexpected result, or a worrying realization, such as 'you won't believe what this AI tool just did' or 'when you see how much time you've been wasting'"
+  },
+  {
+   "id": "lib_man_studying_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "credit": "",
+   "file": "man_studying_with_laptop.mp4",
+   "frames": 132,
+   "desc": "B-roll (4.4s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits at a desk behind a laptop with a furrowed brow and a frustrated, concentrated look, first staring at the screen, then looking down at an open notebook and writing with a pen, with a warm blurred lamp glowing in the background. Good for: a script line about struggling to understand something complex, frustration with slow or manual work, or the pain of learning a new tool the hard way"
+  },
+  {
+   "id": "lib_man_watching_laptop_waiting",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "credit": "",
+   "file": "man_watching_laptop_waiting.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits at a laptop in a dimly lit room with warm lamp light, resting his chin on his fist with a focused, pensive look, and the camera pushes in closer across the three frames. Good for: a script line about deep thinking, researching or problem-solving, or weighing a decision before trying an AI tool"
+  },
+  {
+   "id": "lib_person_drinking_coffee_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "credit": "",
+   "file": "person_drinking_coffee_with_laptop.mp4",
+   "frames": 93,
+   "desc": "B-roll (3.1s, VERTICAL 9:16 — best as full: true): A bearded man in a green polo sits at a laptop in a modern industrial-style open office, lifting a white cup to his mouth and sipping a hot drink while looking down at the screen, in a calm, focused mood. Good for: a line about taking a breather while the AI does the work, a morning work routine, waiting for a process to finish, or the calm of an automated workflow"
+  },
+  {
+   "id": "lib_person_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "person_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a laptop, his expression moving from concern to a deep frown with glowing blue tear-like effects on his cheeks, then to eyes shut in stress or exhaustion; the mood is frustrated and overwhelmed. Good for: A script line about frustration or overwhelm with a tough task, such as struggling with confusing tools, wasting hours on manual work, or being stuck before finding an AI solution."
+  },
+  {
+   "id": "lib_person_speaking_into_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "credit": "",
+   "file": "person_speaking_into_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt takes a phone call in a modern industrial office with exposed concrete ceilings, moving from a serious, concerned look to a worried talking expression and ending with a relieved, confident smile at the camera. Good for: a script line about getting a surprising call or news, a problem being solved, or the moment of relief after a stressful issue"
+  },
+  {
+   "id": "lib_person_taking_selfie_with_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "credit": "",
+   "file": "person_taking_selfie_with_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt sits in a car holding a blue smartphone up close to his face, and across the clip he leans toward the screen with a furrowed brow, looking skeptical and intensely focused. Good for: a script line about doubting or double-checking AI output, being confused or frustrated by an app or tool, or looking closely at a result on your phone, e.g. 'wait, is this actually right?'"
+  },
+  {
+   "id": "lib_professional_working_on_laptop_late",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "credit": "",
+   "file": "professional_working_on_laptop_late.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A tired bearded young man in a maroon t-shirt sits at a laptop in a dim apartment at night, resting his head on his hand, rubbing his eyes, then glumly lifting a white coffee mug, with blurred city lights glowing behind him through the window. Good for: A script line about burnout, late-night grinding, or frustration with slow manual work that AI tools can speed up, e.g. 'still stuck doing this by hand at midnight?'"
+  },
+  {
+   "id": "lib_robotic_hand_typing_on_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "credit": "",
+   "file": "robotic_hand_typing_on_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a black robotic hand with segmented, mechanical fingers lowering onto a backlit laptop keyboard and starting to type, shot at shallow depth of field in a warm, softly lit, modern workspace. Good for: A script line about AI doing the work for you, automating repetitive tasks, or AI taking over typing and writing, such as 'let AI handle the busywork' or 'AI writes it for you'."
+  },
+  {
+   "id": "s1_broll1",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-02_1301/s1_broll1.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-02_1301/s1_broll1.mp4",
+   "frames": 638,
+   "credit": "Video: Pexels",
+   "desc": "stock video: scrolling phone reels (21s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s1_broll2",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-02_1301/s1_broll2.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-02_1301/s1_broll2.mp4",
+   "frames": 447,
+   "credit": "Video: Pexels",
+   "desc": "stock video: person frustrated at desk (15s) — generic, NOT the company's own footage"
+  }
+ ],
+ "style": "hisaab",
+ "topic": "Find out why your reel flopped using ChatGPT: paste your Instagram Insights (reach, watch time, saves) and your hook, and get a diagnosis plus a 7-day content plan.",
+ "pick": {
+  "index": 19,
+  "topic": "Find out why your reel flopped using ChatGPT: paste your Instagram Insights (reach, watch time, saves) and your hook, and get a diagnosis plus a 7-day content plan.",
+  "tool": "ChatGPT + Instagram Insights",
+  "format": "tutorial",
+  "angle": "Stop guessing why your reels flop. Give ChatGPT your real numbers and make it diagnose the first 3 seconds.",
+  "why": "552k views, 15.6k likes and 12.9k comments in 3 days (46s), a very high comment rate that shows strong demand from creators and marketers. We can teach the version that works for everyone: copy your own Insights data or screenshots into ChatGPT with a structured prompt, with no special connector needed."
+ },
+ "inspired_by": {
+  "url": "https://www.instagram.com/p/DfEc17vT2Vq/",
+  "owner": "aiseedhibaat",
+  "plays": 552273,
+  "likes": 15580,
+  "comments": 12863
+ },
+ "research": {
+  "verdict": "adjust",
+  "tool": "ChatGPT (free plan works for screenshot/paste) + Instagram Insights (Professional dashboard → View insights). Optional: a third-party Instagram connector from ChatGPT's Plugin Directory (for example Windsor.ai, Porter Metrics, Supermetrics).",
+  "availability": "ChatGPT: free tier can upload images and files, with limits. Instagram Insights: free, but needs a Professional (Creator or Business) account. Native Insights is in the Instagram app (iOS and Android). Automatic 'connect Instagram' needs a third-party connector, which is not official. Some connectors need a Facebook login, and Meta's API only covers Business/Creator accounts. Custom MCP connectors need Developer Mode (plan-dependent), and the setup is web-only. Availability varies by region.",
+  "steps": [
+   "Instagram app (phone): open your profile and tap 'Professional dashboard', then 'See all insights' or 'Insights'. (Simpler route: Reels tab → open the flopped Reel → tap 'View insights'. One source says tap the three-dot menu → 'View insights' instead.) You need a Professional account, so switch in settings if you don't see it.",
+   "On that Reel's insights screen, note: Views, Watch time, Average watch time, Skip rate (the share of views skipped in the first 3 seconds), the Retention chart, Reach/Viewers, and the Saves, Shares, Comments and Likes counts. Take a screenshot of the Reel insights and the retention graph. Also copy the hook (the first spoken line or on-screen text), the Reel length and the caption. Wait about 48 hours after posting so the data is stable.",
+   "Open ChatGPT (app or chatgpt.com), start a new chat, and attach the screenshot(s) with the + button. Free accounts are limited to 3 file uploads per day, so combine everything into 1-2 screenshots or just paste the numbers as text.",
+   "Paste a prompt along these lines: 'Here are my Reel insights: Views __, Reach __, Watch time __, Avg watch time __, Skip rate __, Saves __, Shares __. Reel length __ sec. My hook (first 3 sec, spoken + on-screen): \"__\". Diagnose why it flopped, focusing on the first 3 seconds. Give 3 better hook rewrites, then a 7-day Reel content plan with one hook per day.'",
+   "Optionally, for the 'connected' version (not official): in ChatGPT, open the Plugin Directory (renamed from the App Directory on 9 July 2026), search for an Instagram analytics connector (for example Windsor.ai, Porter Metrics or Supermetrics) and install it. Sign in through the connector's own flow. This usually means signing in with Facebook and granting Insights access, since there is no sign-in with Instagram directly. Then enable it in the chat via the + menu and ask: 'Pull skip rate and average watch time for my last 15 Reels and tell me what the worst 3 have in common in the first frame.'",
+   "Add your own competitor info (public profile or Reel links, pasted as text). ChatGPT cannot see competitors' private analytics. Only some third-party connectors read public competitor posts, and only public numbers such as likes and comments."
+  ],
+  "facts": [
+   "ChatGPT plugins were shut down in April 2024: no new plugin conversations after March 19, 2024, and everything went off on April 9, 2024.",
+   "Plugins were replaced by GPTs, then apps and connectors. On July 9, 2026 OpenAI replaced the App Directory with the 'Plugin Directory', which holds skills, apps and app templates (dragapp, gradually.ai). The word 'plugin' is back, but the new plugins share only the name with the 2023 ones.",
+   "gradually.ai reports that OpenAI plans to retire custom GPTs on December 11, 2026. This is not confirmed by an official OpenAI source here, so treat it as unverified.",
+   "There is NO official Instagram/Meta connector in ChatGPT: one vendor wrote that the plugin directory has no Meta/Instagram plugin (searched 20 Oct 2026), and another says OpenAI ships no native Instagram connector. Instagram data comes in through third-party connectors (Windsor.ai, Porter Metrics, Supermetrics, Two Minute Reports, Data Bloo). Windsor says it connects 'Instagram Business or Creator' accounts via the official Graph API and Facebook authentication.",
+   "Windsor labels the connector 'Instagram Insights' on its connection screen and 'Instagram Organic' elsewhere. They are the same connector.",
+   "Porter's manual route is: + → Connectors → Manage connectors → Add custom connector → name it, paste the MCP URL. Porter also exists as an approved app in the ChatGPT apps gallery.",
+   "Developer Mode for custom connectors: sources disagree on which plans get it. One says Pro/Team/Enterprise/Edu, another says Pro/Plus/Enterprise, another says all plans. The path is Settings → Connectors → Advanced → Developer mode, then 'Create' with a name and an MCP server URL. Some UIs show 'Settings → Apps → Create app'. Avoid promising that free users can do this.",
+   "Instagram Reel insights show plays/views, accounts reached, likes, comments, shares, saves, watch time, average watch time and follows. Sources describe the in-app path as Reels tab → open the Reel → 'View insights', or Profile → 'Professional dashboard' → 'See all insights'.",
+   "Skip rate: Instagram defines it as 'the percentage of views from people who decided to skip your reel during those first 3 seconds' (quoted via Social Media Today). It replaced 'view rate' in Reels insights in August 2025, together with a new 'Retention' chart. Per a 26 April 2026 Insights redesign, skip rate and share rate appear as percentages at the top of each Reel's insights (virallized.com, a secondary source).",
+   "Instagram on retention (via Social Media Today): you always see a downward slope, but the flatter the line, the more engaged the audience.",
+   "Free ChatGPT upload limits: 20 MB per image, 3 file uploads per day on Free, and 80 files every 3 hours on Go/Plus/Pro (fast.io, citing the OpenAI Help Center, accessed 21 Oct 2026). Older sources say 2 images per day, so the free limit has changed over time.",
+   "Instagram's own Insights keep data for roughly 90 days for account-level data, while Reel insights go back further (instapect.com claims up to two years).",
+   "Skip rate benchmarks are contested. Retensis says under 20% is strong, 20-30% is healthy and above 40% needs a hook fix. Creatorflow says to keep it under 30%. cut.pro says there is no official benchmark and that the '70% must get past 3 seconds' rule is a myth. Socialinsider's median skip rate is about 60-65% (60.5% to 65.5% depending on follower size), so don't cite a pass/fail number."
+  ],
+  "do_not_claim": [
+   "'Connect ChatGPT to your Instagram' as if it were a built-in or official ChatGPT feature. It isn't. It only works through a third-party connector (Windsor/Porter/Supermetrics etc.).",
+   "'Open Plugins in ChatGPT → click Add → type a name → paste this link → Create → Continue → Sign in with Instagram' is not a verified flow. Today the menu is the Plugin Directory (since 9 July 2026) or Settings → Apps/Connectors. The custom connector flow needs Developer Mode and an MCP URL, not an Instagram link. Connectors sign in via Facebook/Meta or the vendor's own account, not a plain 'Sign in with Instagram'. Don't claim a 2-minute setup that works for everyone.",
+   "'It reads your account's real data and just tells you the hook was weak' is overstated. ChatGPT can only infer from numbers, screenshots and the hook text you give it. It cannot see the Reel video itself (a connector may pull transcripts or metadata), and it cannot give a guaranteed cause. Its diagnosis is a hypothesis.",
+   "'Your views will grow' or 'watch the views go up' is an unverifiable outcome claim.",
+   "'See what competitors are posting' via the same connection is only partly true. Native Insights gives no competitor data. Only some connectors read public profile posts (like and comment counts, follower counts), not their reach, saves or watch time.",
+   "'Last time Claude setup... now ChatGPT, yes it works' is unverifiable in the form shown. Connectors like Windsor/Porter work on both, but the steps differ (Claude: Settings → Connectors; ChatGPT: Settings → Apps/Connectors or the Plugin Directory).",
+   "The 'comment GPT / follow or DM won't come' mechanic is the other creator's lead-gen funnel, a promotion for a lead magnet. The 'setup + exact prompts' are not independently verified.",
+   "Don't state the old name 'ChatGPT Plugins' as if it were the 2023 feature. The old plugins were shut down in 2024.",
+   "Don't give a skip-rate pass mark (like '70%' or '30%') as official. No official benchmark exists."
+  ],
+  "criticism": [
+   "Privacy/security: a connector sends your Instagram Insights data to a third-party company and then into ChatGPT, and you authorize it with a Facebook/Meta login. OpenAI's own help page warns that GPTs integrated with apps and external APIs may send relevant parts of your input to the third party (chatai.guide summarising OpenAI help). The safest route is screenshots or pasted numbers with nothing connected.",
+   "Third-party connectors are often paid or freemium. Two Minute Reports and Porter offer free sign-ups or trials, but free usage is limited and prices vary. Data Bloo, Windsor and Supermetrics are commercial products.",
+   "Instagram only reports insights for Business/Creator accounts (and public personal accounts get a limited set), and Stories insights can only be pulled within 24 hours (Data Bloo).",
+   "Skip rate benchmarks and the '3-second rule' are not officially defined. Socialinsider's data suggests a median skip rate of about 60-65% even for large accounts, so ChatGPT may flag normal numbers as a problem.",
+   "Free ChatGPT is limited to 3 uploads a day, so screenshot-heavy analysis may hit the cap."
+  ],
+  "ui": {
+   "platforms": "iOS and Android (Instagram Insights, the ChatGPT app) plus web (chatgpt.com). Instagram Insights is mobile-first, and the web profile has limited insights. Connector setup (Plugin Directory, Settings → Connectors/Apps, Developer Mode) is best shown on the ChatGPT web app.",
+   "apps": [
+    "Instagram app (iOS/Android)",
+    "ChatGPT (chatgpt.com or the ChatGPT mobile app)",
+    "Optional: a connector's sign-in page (Windsor.ai / Porter Metrics / Supermetrics) and the Facebook/Meta authorize screen"
+   ],
+   "screens": [
+    "Instagram profile screen: your profile has the account name at the top, a row with posts/followers/following, and a 'Professional dashboard' button/card just under the bio. A Reels tab (play-icon) sits in the grid tab row, next to the grid, the tagged tab and similar tabs.",
+    "Professional dashboard: shows a card with 'Insights' (a summary of views/reach over the last 30 days), with 'See all insights' or 'See all' on it. Tapping it opens the account-level overview with a date range selector.",
+    "Reel view: open a Reel from the Reels tab and a 'View insights' link/button sits below the Reel (some builds show it via the three-dot menu ••• at the bottom-right).",
+    "Reel insights screen: at the top the percentages (skip rate, share rate), then a chart of views over time, 'Views', 'Watch time', 'Average watch time', 'Viewers/Reach', 'Follows', and an interactions block ('Likes', 'Comments', 'Shares', 'Saves'). The 'Retention' graph plots how many viewers are still watching at each second, with a steep drop at the start for a weak hook. Menu names have shifted between versions (an 'Insights > Content' view with 'Views', 'Watch time', 'Average watch time', 'Viewers').",
+    "ChatGPT (web): a new-chat page with a message box saying 'Ask anything', and a '+' button at the left of the box to attach files or pick an app/connector. The left sidebar has the chat list, with 'Settings' under your profile icon at the bottom-left. In Settings you'll find 'Apps' / 'Connectors' with 'Advanced' → 'Developer mode' (labels vary by release). The Plugin Directory lists plugins/apps and has a search box. Default theme follows the system setting (light or dark).",
+    "ChatGPT result: ChatGPT returns a long, structured chat answer: a diagnosis (hook, skip rate, retention) and a day-by-day 7-day plan listing a topic and hook each day. It's text, not charts."
+   ]
+  },
+  "visuals": "Show (1) the Instagram Reel's 'View insights' screen with Views, Watch time, Skip rate and the Retention graph (a real screen recording is best, since the retention chart and exact labels vary by account); (2) the numbers + hook pasted into ChatGPT (use mock/blurred data); (3) ChatGPT's written diagnosis plus the 7-day plan. If you show the connector route, record the real Plugin Directory / Settings screen, because labels have changed several times.",
+  "sources": [
+   "https://windsor.ai/how-to-connect-instagram-to-chatgpt/",
+   "https://windsor.ai/connect/instagram-to-chatgpt-integration/",
+   "https://portermetrics.com/en/tutorial/chatgpt/instagram-chatgpt/",
+   "https://supermetrics.com/connect/instagram-to-chatgpt",
+   "https://www.usecarly.com/blog/chatgpt-instagram-integration/",
+   "https://www.dragapp.com/blog/what-happened-to-chatgpt-plugins/",
+   "https://www.gradually.ai/en/chatgpt-plugins/",
+   "https://en.wikipedia.org/wiki/ChatGPT",
+   "https://hatchable.com/articles/how-to-add-an-mcp-server-to-chatgpt",
+   "https://docs.customer.io/ai/mcp/chatgpt/",
+   "https://www.socialmediatoday.com/news/instagram-adds-retention-insights-reels/758464/",
+   "https://www.virallized.com/instagram-skip-rate",
+   "https://instapect.com/blog/how-to-see-instagram-insights",
+   "https://www.lilachbullock.com/instagram-reels-dashboard/",
+   "https://fast.io/resources/chatgpt-file-upload-limit/",
+   "https://www.techrepublic.com/article/news-what-is-free-chatgpt-2026/",
+   "https://cut.pro/en/blog/instagram-reels-stuck-at-200-views-2026",
+   "https://retensis.com/blog/instagram-reels-skip-rate-benchmarks-2026"
+  ],
+  "notes": "Recommended angle: drop the 'connect ChatGPT to Instagram in 2 minutes' framing. The reliable version of your topic is manual: screenshot or copy your Reel's Insights (Views, Watch time, Average watch time, Skip rate, Retention graph, Saves/Shares), paste in your hook, and ask ChatGPT for a diagnosis plus a 7-day plan. It works on the free plan within upload limits, needs no third-party access, and matches the angle 'give ChatGPT your real numbers'. Skip rate is the best metric for 'the first 3 seconds', and Instagram defines it officially. Mention that the connector route exists, is third-party, and is optional. Terminology changed in 2026: ChatGPT 'apps' were renamed 'plugins' in July 2026 (Plugin Directory), and OpenAI reportedly plans to retire custom GPTs on 11 Dec 2026, so avoid 'GPT store' wording. Note the source quality: most connector and benchmark pages are vendor blogs (not official Meta/OpenAI docs), so keep claims general. I couldn't verify Instagram's official help-page wording directly, so recheck the exact Insights labels on a live account before screen-recording. Ask the writer to keep numbers in the demo as obvious examples, not real benchmarks. The hook should avoid promising growth.",
+  "_searched": 6
+ },
+ "models": {
+  "pick": "claude-sonnet-5-5",
+  "research": "claude-sonnet-5-5",
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 6,
+ "timeline": {
+  "words": [
+   [
+    "Stop",
+    0.08
+   ],
+   [
+    "guessing",
+    0.48
+   ],
+   [
+    "why",
+    0.96
+   ],
+   [
+    "your",
+    1.12
+   ],
+   [
+    "reel",
+    1.28
+   ],
+   [
+    "flopped.",
+    1.52
+   ],
+   [
+    "Your",
+    2.32
+   ],
+   [
+    "own",
+    2.56
+   ],
+   [
+    "numbers",
+    2.8
+   ],
+   [
+    "can",
+    3.2
+   ],
+   [
+    "tell",
+    3.36
+   ],
+   [
+    "you.",
+    3.52
+   ],
+   [
+    "Instagram",
+    4.08
+   ],
+   [
+    "tracks",
+    4.72
+   ],
+   [
+    "something",
+    5.08
+   ],
+   [
+    "called",
+    5.4
+   ],
+   [
+    "skip",
+    5.76
+   ],
+   [
+    "rate:",
+    6.24
+   ],
+   [
+    "the",
+    6.76
+   ],
+   [
+    "share",
+    6.88
+   ],
+   [
+    "of",
+    7.12
+   ],
+   [
+    "views",
+    7.28
+   ],
+   [
+    "where",
+    7.68
+   ],
+   [
+    "people",
+    7.84
+   ],
+   [
+    "bailed",
+    8.24
+   ],
+   [
+    "in",
+    8.64
+   ],
+   [
+    "the",
+    8.8
+   ],
+   [
+    "first",
+    8.96
+   ],
+   [
+    "3",
+    9.28
+   ],
+   [
+    "seconds.",
+    9.44
+   ],
+   [
+    "One.",
+    10.32
+   ],
+   [
+    "Wait",
+    11.04
+   ],
+   [
+    "about",
+    11.2
+   ],
+   [
+    "48",
+    11.52
+   ],
+   [
+    "hours,",
+    12.0
+   ],
+   [
+    "then",
+    12.68
+   ],
+   [
+    "open",
+    12.88
+   ],
+   [
+    "the",
+    13.16
+   ],
+   [
+    "Reel",
+    13.28
+   ],
+   [
+    "and",
+    13.6
+   ],
+   [
+    "tap",
+    13.88
+   ],
+   [
+    "View",
+    14.24
+   ],
+   [
+    "insights.",
+    14.48
+   ],
+   [
+    "You",
+    15.44
+   ],
+   [
+    "need",
+    15.6
+   ],
+   [
+    "a",
+    15.72
+   ],
+   [
+    "Professional",
+    16.0
+   ],
+   [
+    "account.",
+    16.44
+   ],
+   [
+    "Two.",
+    17.16
+   ],
+   [
+    "Screenshot",
+    17.88
+   ],
+   [
+    "the",
+    18.2
+   ],
+   [
+    "insights",
+    18.32
+   ],
+   [
+    "and",
+    18.96
+   ],
+   [
+    "the",
+    19.15
+   ],
+   [
+    "Retention",
+    19.2
+   ],
+   [
+    "graph.",
+    19.76
+   ],
+   [
+    "Copy",
+    20.52
+   ],
+   [
+    "your",
+    20.72
+   ],
+   [
+    "hook.",
+    21.04
+   ],
+   [
+    "Three.",
+    21.68
+   ],
+   [
+    "In",
+    22.12
+   ],
+   [
+    "ChatGPT,",
+    22.32
+   ],
+   [
+    "tap",
+    23.28
+   ],
+   [
+    "plus",
+    23.76
+   ],
+   [
+    "and",
+    24.04
+   ],
+   [
+    "attach",
+    24.16
+   ],
+   [
+    "it.",
+    24.56
+   ],
+   [
+    "Free",
+    25.04
+   ],
+   [
+    "plan",
+    25.2
+   ],
+   [
+    "allows",
+    25.52
+   ],
+   [
+    "3",
+    25.92
+   ],
+   [
+    "uploads",
+    26.16
+   ],
+   [
+    "a",
+    26.56
+   ],
+   [
+    "day,",
+    26.64
+   ],
+   [
+    "so",
+    27.12
+   ],
+   [
+    "combine",
+    27.44
+   ],
+   [
+    "screenshots",
+    27.68
+   ],
+   [
+    "or",
+    28.52
+   ],
+   [
+    "paste",
+    28.76
+   ],
+   [
+    "the",
+    28.92
+   ],
+   [
+    "numbers.",
+    29.04
+   ],
+   [
+    "Then",
+    29.84
+   ],
+   [
+    "type:",
+    30.0
+   ],
+   [
+    "\"Diagnose",
+    30.6
+   ],
+   [
+    "why",
+    31.28
+   ],
+   [
+    "it",
+    31.52
+   ],
+   [
+    "flopped,",
+    31.68
+   ],
+   [
+    "focusing",
+    32.32
+   ],
+   [
+    "on",
+    32.72
+   ],
+   [
+    "the",
+    32.88
+   ],
+   [
+    "first",
+    33.04
+   ],
+   [
+    "3",
+    33.36
+   ],
+   [
+    "seconds.",
+    33.52
+   ],
+   [
+    "Give",
+    34.36
+   ],
+   [
+    "3",
+    34.56
+   ],
+   [
+    "hook",
+    34.8
+   ],
+   [
+    "rewrites",
+    35.04
+   ],
+   [
+    "and",
+    35.6
+   ],
+   [
+    "a",
+    35.76
+   ],
+   [
+    "7-day",
+    35.92
+   ],
+   [
+    "plan.\"",
+    36.4
+   ],
+   [
+    "Honest",
+    37.11
+   ],
+   [
+    "catch:",
+    37.56
+   ],
+   [
+    "ChatGPT",
+    38.24
+   ],
+   [
+    "can't",
+    38.88
+   ],
+   [
+    "watch",
+    39.2
+   ],
+   [
+    "your",
+    39.44
+   ],
+   [
+    "video,",
+    39.6
+   ],
+   [
+    "so",
+    40.2
+   ],
+   [
+    "treat",
+    40.48
+   ],
+   [
+    "its",
+    40.72
+   ],
+   [
+    "answer",
+    40.88
+   ],
+   [
+    "as",
+    41.28
+   ],
+   [
+    "a",
+    41.44
+   ],
+   [
+    "smart",
+    41.52
+   ],
+   [
+    "guess.",
+    41.92
+   ],
+   [
+    "And",
+    42.6
+   ],
+   [
+    "there's",
+    42.68
+   ],
+   [
+    "no",
+    42.96
+   ],
+   [
+    "official",
+    43.2
+   ],
+   [
+    "skip",
+    43.76
+   ],
+   [
+    "rate",
+    44.0
+   ],
+   [
+    "pass",
+    44.16
+   ],
+   [
+    "mark.",
+    44.56
+   ],
+   [
+    "Safest",
+    45.12
+   ],
+   [
+    "route:",
+    45.64
+   ],
+   [
+    "screenshots",
+    46.28
+   ],
+   [
+    "only.",
+    46.8
+   ],
+   [
+    "Connectors",
+    47.52
+   ],
+   [
+    "exist,",
+    48.08
+   ],
+   [
+    "but",
+    48.6
+   ],
+   [
+    "they're",
+    48.8
+   ],
+   [
+    "third-party.",
+    49.08
+   ],
+   [
+    "Is",
+    49.92
+   ],
+   [
+    "your",
+    50.08
+   ],
+   [
+    "hook",
+    50.28
+   ],
+   [
+    "usually",
+    50.48
+   ],
+   [
+    "a",
+    50.88
+   ],
+   [
+    "question",
+    51.04
+   ],
+   [
+    "or",
+    51.6
+   ],
+   [
+    "a",
+    51.79
+   ],
+   [
+    "statement?",
+    51.84
+   ],
+   [
+    "Tell",
+    52.68
+   ],
+   [
+    "me",
+    52.8
+   ],
+   [
+    "below.",
+    52.96
+   ],
+   [
+    "Send",
+    53.64
+   ],
+   [
+    "this",
+    53.84
+   ],
+   [
+    "to",
+    53.96
+   ],
+   [
+    "the",
+    54.08
+   ],
+   [
+    "friend",
+    54.24
+   ],
+   [
+    "who",
+    54.56
+   ],
+   [
+    "keeps",
+    54.88
+   ],
+   [
+    "deleting",
+    55.2
+   ],
+   [
+    "flopped",
+    55.6
+   ],
+   [
+    "reels.",
+    56.0
+   ]
+  ],
+  "duration": 56.74,
+  "scenes": [
+   {
+    "t": 0.0,
+    "shows": [
+     "footage:lib_man_shaking_head_at_phone",
+     "title_slam:STOP GUESSING"
+    ]
+   },
+   {
+    "t": 2.32,
+    "shows": [
+     "footage:lib_eye_reflecting_laptop_screen_glow",
+     "headline:YOUR NUMBERS KNOW"
+    ]
+   },
+   {
+    "t": 4.08,
+    "shows": [
+     "label:INSTAGRAM INSIGHTS",
+     "headline:SKIP RATE",
+     "big_number:"
+    ]
+   },
+   {
+    "t": 10.32,
+    "shows": [
+     "footage:lib_clock_ticking_and_person_typing",
+     "pill:WAIT 48 HOURS"
+    ]
+   },
+   {
+    "t": 12.68,
+    "shows": [
+     "screen:Step 1 · Open insights"
+    ]
+   },
+   {
+    "t": 17.16,
+    "shows": [
+     "screen:Step 2 · Grab the data"
+    ]
+   },
+   {
+    "t": 21.68,
+    "shows": [
+     "screen:Step 3 · Open ChatGPT"
+    ]
+   },
+   {
+    "t": 25.04,
+    "shows": [
+     "label:FREE PLAN LIMIT",
+     "stat_row:",
+     "pill:COMBINE SCREENSHOTS",
+     "pill:OR PASTE THE NUMBERS"
+    ]
+   },
+   {
+    "t": 29.84,
+    "shows": [
+     "screen:Step 4 · Ask for the fix"
+    ]
+   },
+   {
+    "t": 37.11,
+    "shows": [
+     "label:HONEST CATCH",
+     "strike_list:",
+     "pill:NO OFFICIAL PASS MARK"
+    ]
+   },
+   {
+    "t": 45.12,
+    "shows": [
+     "label:SAFEST ROUTE",
+     "headline:SCREENSHOTS ONLY",
+     "pill:CONNECTORS = THIRD-PARTY"
+    ]
+   },
+   {
+    "t": 49.92,
+    "shows": [
+     "headline:QUESTION OR STATEMENT?"
+    ]
+   }
+  ],
+  "beats": [
+   6.11,
+   32.84,
+   34.38
+  ]
+ }
+}

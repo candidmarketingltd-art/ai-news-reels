@@ -1,0 +1,895 @@
+{
+ "issue": 1,
+ "at": "2026-11-02T07:36:19.078951+00:00",
+ "plan": {
+  "voiceover": "[conversational] Those viral ChatGPT slash commands? They're not built in. Not even close.\n\nThey're just plain text ChatGPT reads as instructions. So write your own, and they work far more reliably.\n\n[confident] Step 1: write the definition. Like this: \"/exploded equals: create a labeled exploded-view illustration of the object, parts separated, white background.\" Add one for /anatomy and /cutaway.\n\nStep 2: click your profile icon, Settings, Personalization. Make sure Enable customization is ON, paste it into Custom Instructions, and save. On phone, it's Settings, then Customize ChatGPT.\n\nStep 3: start a new chat and type \"/exploded mechanical keyboard.\"\n\n[whispers] For one topic only, use a Project: the three dots, then Project settings. Only project instructions apply there.\n\n[serious] Catch: Free gets 1,500 characters, free image generation is capped with no official number, and labels can be wrong. If it ignores you, tell it to follow the matching definition.\n\nWhich command would you build first?\n\nSend this to the friend who copies prompts from reel captions.",
+  "title": "FAKE SLASH COMMANDS",
+  "ig_caption": "Those viral ChatGPT slash commands aren't built in. 🤯\n✅ Write a one-word trigger + what it should do\n✅ Settings > Personalization > Enable customization > paste in Custom Instructions\n✅ Or use Project settings for one topic only\n✅ Start a NEW chat and type /exploded mechanical keyboard\nWhich command would you build first?\nSave this for later 📌\nFollow @ihackgrowth for daily AI & tech hacks",
+  "media_hints": {
+   "domain": "openai.com",
+   "broll": [
+    "typing on laptop",
+    "person frustrated at desk",
+    "phone chat screen"
+   ]
+  },
+  "hashtags": [
+   "#AItools",
+   "#AIhacks",
+   "#ChatGPT",
+   "#CustomInstructions",
+   "#PromptEngineering",
+   "#OpenAI",
+   "#techtips",
+   "#productivity"
+  ],
+  "tag": "CHATGPT HACK",
+  "keywords": [
+   "viral",
+   "slash",
+   "commands",
+   "plain",
+   "text",
+   "instructions",
+   "definition",
+   "exploded",
+   "anatomy",
+   "cutaway",
+   "Personalization",
+   "customization",
+   "Custom",
+   "Project",
+   "characters",
+   "labels",
+   "keyboard",
+   "reliably"
+  ],
+  "manual_request": {
+   "what": "Screen-record chatgpt.com in dark mode with the three command definitions already saved in Custom Instructions. Shot 1: click New chat. Shot 2: type '/exploded mechanical keyboard' and press send. Shot 3: keep recording until the generated labeled exploded-view image has fully appeared, including any caption. Optional shot 4: the same with '/cutaway' plus an object. Vertical crop or full-window capture is fine.",
+   "why": "The generated image changes every time and cannot be faked believably. Viewers need to see the real result."
+  },
+  "scenes": [
+   {
+    "at": "Those viral",
+    "tint": "red",
+    "react": [
+     {
+      "at": "Not even close.",
+      "mood": "smirk"
+     }
+    ],
+    "elements": [
+     {
+      "type": "footage",
+      "at": "Those viral",
+      "media": "lib_man_staring_at_phone_in",
+      "full": true
+     },
+     {
+      "type": "headline",
+      "at": "Those viral",
+      "text": "/SLASH COMMANDS",
+      "size": "l",
+      "color": "gold",
+      "sub": "NOT BUILT IN",
+      "sub_at": "not built",
+      "sub_color": "red"
+     }
+    ]
+   },
+   {
+    "at": "They're just",
+    "tint": "cold",
+    "elements": [
+     {
+      "type": "label",
+      "at": "They're just",
+      "text": "WHAT THEY REALLY ARE"
+     },
+     {
+      "type": "headline",
+      "at": "They're just",
+      "text": "JUST PLAIN TEXT",
+      "size": "l",
+      "ill": "page_facing_up"
+     },
+     {
+      "type": "pill",
+      "at": "reads as",
+      "text": "= INSTRUCTIONS",
+      "color": "blue"
+     }
+    ]
+   },
+   {
+    "at": "So write",
+    "tint": "green",
+    "elements": [
+     {
+      "type": "footage",
+      "at": "So write",
+      "media": "lib_fingers_typing_on_laptop_keyboard",
+      "full": true
+     },
+     {
+      "type": "headline",
+      "at": "So write",
+      "text": "WRITE YOUR OWN",
+      "size": "l",
+      "color": "gold",
+      "sub": "MORE RELIABLE",
+      "sub_at": "far more",
+      "sub_color": "green"
+     }
+    ]
+   },
+   {
+    "at": "Step 1:",
+    "react": [
+     {
+      "at": "Step 1:",
+      "mood": "neutral",
+      "point": true
+     }
+    ],
+    "elements": [
+     {
+      "type": "screen",
+      "at": "Step 1:",
+      "device": "web",
+      "url": "docs.google.com",
+      "app": "Docs",
+      "step": "Step 1 · Write the definition",
+      "steps": [
+       {
+        "at": "Step 1:",
+        "view": {
+         "kind": "doc",
+         "title": "My slash commands",
+         "toolbar": [
+          "B",
+          "I",
+          "U",
+          "Link"
+         ],
+         "lines": []
+        },
+        "action": {
+         "kind": "type",
+         "target": "doc",
+         "text": "/exploded = labeled exploded-view illustration, parts separated, white background",
+         "at": "create a"
+        }
+       },
+       {
+        "at": "Add one",
+        "view": {
+         "kind": "doc",
+         "title": "My slash commands",
+         "toolbar": [
+          "B",
+          "I",
+          "U",
+          "Link"
+         ],
+         "lines": [
+          "/exploded = labeled exploded-view illustration, parts separated, white background"
+         ]
+        },
+        "action": {
+         "kind": "type",
+         "target": "doc",
+         "text": "/anatomy = labeled anatomy diagram of the object",
+         "at": "Add one"
+        }
+       },
+       {
+        "at": "and /cutaway.",
+        "view": {
+         "kind": "doc",
+         "title": "My slash commands",
+         "toolbar": [
+          "B",
+          "I",
+          "U",
+          "Link"
+         ],
+         "lines": [
+          "/exploded = labeled exploded-view illustration, parts separated, white background",
+          "/anatomy = labeled anatomy diagram of the object"
+         ]
+        },
+        "action": {
+         "kind": "type",
+         "target": "doc",
+         "text": "/cutaway = cutaway view showing the inside",
+         "at": "and /cutaway."
+        }
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "at": "Step 2:",
+    "elements": [
+     {
+      "type": "screen",
+      "at": "Step 2:",
+      "device": "web",
+      "theme": "dark",
+      "brand": "chatgpt",
+      "url": "chatgpt.com",
+      "app": "ChatGPT",
+      "step": "Step 2 · Save it",
+      "steps": [
+       {
+        "at": "Step 2:",
+        "view": {
+         "sidebar": [
+          "New chat",
+          "Search chats",
+          "Library",
+          "Projects",
+          "GPTs"
+         ],
+         "profile": "Rohan",
+         "input": ""
+        },
+        "action": {
+         "kind": "click",
+         "target": "Rohan",
+         "at": "profile icon,"
+        }
+       },
+       {
+        "at": "icon, Settings,",
+        "view": {
+         "sidebar": [
+          "New chat",
+          "Search chats",
+          "Library",
+          "Projects",
+          "GPTs"
+         ],
+         "profile": "Rohan",
+         "input": "",
+         "menu": {
+          "items": [
+           "Upgrade plan",
+           "Personalization",
+           "Settings",
+           "Help",
+           "Log out"
+          ],
+          "anchor": "profile"
+         }
+        },
+        "action": {
+         "kind": "click",
+         "target": "Settings",
+         "at": "icon, Settings,"
+        }
+       },
+       {
+        "at": "Personalization.",
+        "view": {
+         "sidebar": [
+          "New chat",
+          "Search chats",
+          "Library",
+          "Projects",
+          "GPTs"
+         ],
+         "profile": "Rohan",
+         "panel": {
+          "title": "Settings",
+          "nav": [
+           "General",
+           "Notifications",
+           "Personalization",
+           "Apps",
+           "Data controls",
+           "Security"
+          ],
+          "active": "General",
+          "rows": [
+           {
+            "label": "Appearance",
+            "kind": "value",
+            "value": "System"
+           },
+           {
+            "label": "Accent color",
+            "kind": "value",
+            "value": "Default"
+           },
+           {
+            "label": "Language",
+            "kind": "value",
+            "value": "Auto-detect"
+           }
+          ]
+         }
+        },
+        "action": {
+         "kind": "click",
+         "target": "Personalization",
+         "at": "Personalization."
+        }
+       },
+       {
+        "at": "Make sure",
+        "view": {
+         "sidebar": [
+          "New chat",
+          "Search chats",
+          "Library",
+          "Projects",
+          "GPTs"
+         ],
+         "profile": "Rohan",
+         "panel": {
+          "title": "Settings",
+          "nav": [
+           "General",
+           "Notifications",
+           "Personalization",
+           "Apps",
+           "Data controls",
+           "Security"
+          ],
+          "active": "Personalization",
+          "rows": [
+           {
+            "label": "Enable customization",
+            "kind": "toggle",
+            "on": false
+           },
+           {
+            "label": "Base style and tone",
+            "kind": "value",
+            "value": "Default"
+           },
+           {
+            "label": "Custom instructions",
+            "kind": "field",
+            "value": ""
+           },
+           {
+            "label": "Save",
+            "kind": "button"
+           }
+          ]
+         }
+        },
+        "action": {
+         "kind": "toggle",
+         "target": "Enable customization",
+         "at": "is ON,"
+        }
+       },
+       {
+        "at": "paste it",
+        "view": {
+         "sidebar": [
+          "New chat",
+          "Search chats",
+          "Library",
+          "Projects",
+          "GPTs"
+         ],
+         "profile": "Rohan",
+         "panel": {
+          "title": "Settings",
+          "nav": [
+           "General",
+           "Notifications",
+           "Personalization",
+           "Apps",
+           "Data controls",
+           "Security"
+          ],
+          "active": "Personalization",
+          "rows": [
+           {
+            "label": "Enable customization",
+            "kind": "toggle",
+            "on": true
+           },
+           {
+            "label": "Base style and tone",
+            "kind": "value",
+            "value": "Default"
+           },
+           {
+            "label": "Custom instructions",
+            "kind": "field",
+            "value": ""
+           },
+           {
+            "label": "Save",
+            "kind": "button"
+           }
+          ]
+         }
+        },
+        "action": {
+         "kind": "type",
+         "target": "Custom instructions",
+         "text": "/exploded = labeled exploded view... /anatomy = labeled anatomy... /cutaway = cutaway view...",
+         "at": "Custom Instructions,"
+        }
+       },
+       {
+        "at": "and save.",
+        "view": {
+         "sidebar": [
+          "New chat",
+          "Search chats",
+          "Library",
+          "Projects",
+          "GPTs"
+         ],
+         "profile": "Rohan",
+         "panel": {
+          "title": "Settings",
+          "nav": [
+           "General",
+           "Notifications",
+           "Personalization",
+           "Apps",
+           "Data controls",
+           "Security"
+          ],
+          "active": "Personalization",
+          "rows": [
+           {
+            "label": "Enable customization",
+            "kind": "toggle",
+            "on": true
+           },
+           {
+            "label": "Base style and tone",
+            "kind": "value",
+            "value": "Default"
+           },
+           {
+            "label": "Custom instructions",
+            "kind": "field",
+            "value": "/exploded = labeled exploded view... /anatomy = labeled anatomy... /cutaway = cutaway view..."
+           },
+           {
+            "label": "Save",
+            "kind": "button"
+           }
+          ]
+         }
+        },
+        "action": {
+         "kind": "click",
+         "target": "Save",
+         "at": "and save."
+        }
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "at": "On phone,",
+    "elements": [
+     {
+      "type": "screen",
+      "at": "On phone,",
+      "device": "phone",
+      "theme": "dark",
+      "brand": "chatgpt",
+      "app": "ChatGPT",
+      "step": "On phone",
+      "steps": [
+       {
+        "at": "On phone,",
+        "view": {
+         "panel": {
+          "title": "Settings",
+          "back": true,
+          "rows": [
+           {
+            "label": "Account",
+            "kind": "arrow"
+           },
+           {
+            "label": "Customize ChatGPT",
+            "kind": "arrow"
+           },
+           {
+            "label": "Data controls",
+            "kind": "arrow"
+           },
+           {
+            "label": "Voice",
+            "kind": "arrow"
+           }
+          ]
+         }
+        },
+        "action": {
+         "kind": "click",
+         "target": "Customize ChatGPT",
+         "at": "Customize ChatGPT."
+        }
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "at": "Step 3:",
+    "tint": "green",
+    "elements": [
+     {
+      "type": "screen",
+      "at": "Step 3:",
+      "device": "web",
+      "theme": "dark",
+      "brand": "chatgpt",
+      "url": "chatgpt.com",
+      "app": "ChatGPT",
+      "step": "Step 3 · Use it",
+      "steps": [
+       {
+        "at": "Step 3:",
+        "view": {
+         "sidebar": [
+          "New chat",
+          "Search chats",
+          "Library",
+          "Projects",
+          "GPTs"
+         ],
+         "profile": "Rohan",
+         "input": ""
+        },
+        "action": {
+         "kind": "click",
+         "target": "New chat",
+         "at": "a new chat"
+        }
+       },
+       {
+        "at": "and type",
+        "view": {
+         "sidebar": [
+          "New chat",
+          "Search chats",
+          "Library",
+          "Projects",
+          "GPTs"
+         ],
+         "profile": "Rohan",
+         "input": ""
+        },
+        "action": {
+         "kind": "type",
+         "target": "input",
+         "text": "/exploded mechanical keyboard",
+         "at": "and type"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "at": "For one",
+    "tint": "cold",
+    "react": [
+     {
+      "at": "Only project",
+      "mood": "serious",
+      "point": true
+     }
+    ],
+    "elements": [
+     {
+      "type": "screen",
+      "at": "For one",
+      "device": "web",
+      "theme": "dark",
+      "brand": "chatgpt",
+      "url": "chatgpt.com",
+      "app": "ChatGPT",
+      "step": "Pro tip · One topic",
+      "steps": [
+       {
+        "at": "For one",
+        "view": {
+         "title": "Product diagrams",
+         "sidebar": [
+          "New chat",
+          "Search chats",
+          "Library",
+          "Projects",
+          "GPTs"
+         ],
+         "profile": "Rohan",
+         "top_buttons": [
+          "Share",
+          "•••"
+         ],
+         "input": ""
+        },
+        "action": {
+         "kind": "click",
+         "target": "•••",
+         "at": "three dots,"
+        }
+       },
+       {
+        "at": "then Project",
+        "view": {
+         "title": "Product diagrams",
+         "sidebar": [
+          "New chat",
+          "Search chats",
+          "Library",
+          "Projects",
+          "GPTs"
+         ],
+         "profile": "Rohan",
+         "top_buttons": [
+          "Share",
+          "•••"
+         ],
+         "input": "",
+         "menu": {
+          "items": [
+           "Project settings",
+           "Rename project",
+           "Delete project"
+          ],
+          "anchor": "top"
+         }
+        },
+        "action": {
+         "kind": "click",
+         "target": "Project settings",
+         "at": "Project settings."
+        }
+       },
+       {
+        "at": "Only project",
+        "view": {
+         "title": "Product diagrams",
+         "sidebar": [
+          "New chat",
+          "Search chats",
+          "Library",
+          "Projects",
+          "GPTs"
+         ],
+         "profile": "Rohan",
+         "panel": {
+          "title": "Project settings",
+          "rows": [
+           {
+            "label": "Instructions",
+            "kind": "field",
+            "value": "/exploded = labeled exploded view... /cutaway = cutaway view..."
+           },
+           {
+            "label": "Save",
+            "kind": "button"
+           }
+          ]
+         }
+        },
+        "action": {
+         "kind": "point",
+         "target": "Instructions",
+         "at": "instructions apply"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "at": "Catch: Free",
+    "tint": "red",
+    "react": [
+     {
+      "at": "can be wrong.",
+      "mood": "smirk"
+     }
+    ],
+    "elements": [
+     {
+      "type": "label",
+      "at": "Catch: Free",
+      "text": "THE CATCH"
+     },
+     {
+      "type": "stat_row",
+      "cards": [
+       {
+        "label": "FREE LIMIT",
+        "value": "1,500",
+        "sub": "CHARACTERS",
+        "at": "1,500 characters,",
+        "color": "gold"
+       },
+       {
+        "label": "FREE IMAGES",
+        "value": "CAPPED",
+        "sub": "NO OFFICIAL NUMBER",
+        "at": "is capped",
+        "color": "red"
+       },
+       {
+        "label": "LABELS",
+        "value": "WRONG?",
+        "at": "can be wrong.",
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "at": "If it",
+    "tint": "cold",
+    "elements": [
+     {
+      "type": "label",
+      "at": "If it",
+      "text": "IF IT IGNORES YOU"
+     },
+     {
+      "type": "prompt",
+      "at": "tell it",
+      "app": "CHATGPT",
+      "text": "Follow the matching definition.",
+      "send_at": "matching definition."
+     }
+    ]
+   },
+   {
+    "at": "Which command",
+    "react": [
+     {
+      "at": "build first?",
+      "mood": "smirk"
+     }
+    ],
+    "elements": [
+     {
+      "type": "headline",
+      "at": "Which command",
+      "text": "WHICH ONE FIRST?",
+      "size": "l",
+      "ill": "speech_balloon",
+      "sub": "COMMENT BELOW",
+      "sub_at": "build first?"
+     }
+    ]
+   }
+  ],
+  "cta": {
+   "at": "Send this",
+   "line1": "Send this to",
+   "line1_at": "Send this",
+   "line2": "the prompt copier",
+   "line2_at": "reel captions."
+  },
+  "endcard": {
+   "title": "Saved it?",
+   "terminal": "> /exploded · command saved"
+  },
+  "sources_text": "{\n \"verdict\": \"adjust\",\n \"tool\": \"ChatGPT Custom Instructions (Settings > Personalization) and Project instructions (Projects > Project settings)\",\n \"availability\": \"Custom Instructions: all plans, on web, desktop, iOS and Android. Projects: free for all plans, with 5 files per project on Free. Free and Go accounts get 1,500 characters in Custom Instructions. Plus, Pro, Enterprise, Business and Education get 5,000. Image generation is available on Free but has an unpublished, separate usage limit.\",\n \"steps\": [\n  \"Pick a trigger word and write what it should do. Example: '/exploded <object> = Create an image: a detailed, labeled exploded-view technical illustration of <object>, with all parts separated along one axis, clean white background, a label on every part.' Add a similar line for /anatomy and /cutaway.\",\n  \"WEB/DESKTOP, global shortcuts: click your profile icon, then Settings, then Personalization. Make sure 'Enable customization' is ON. Paste your command definitions into the 'Custom Instructions' field and save.\",\n  \"PHONE (iOS/Android), global shortcuts: open Settings, then 'Customize ChatGPT'. Make sure 'Enable customization' is ON. Paste your command definitions into the 'Custom Instructions' field.\",\n  \"OPTION B, shortcuts for one topic only: open 'Projects' in the left sidebar and create a new project with a name. Open the project's more options menu (•••), then 'Project settings', and paste the command definitions into the instructions. Alternatively, open the project's three-dots menu and choose 'Add instructions' or 'Edit instructions'. Project instructions apply only to chats inside that project.\",\n  \"Start a NEW chat (inside the project if you used Option B). Type the command plus a subject, for example '/exploded mechanical keyboard', and send.\",\n  \"If ChatGPT ignores the shortcut, add a line such as 'When a message starts with /exploded, /cutaway or /anatomy, always follow the matching definition above', then retest.\"\n ],\n \"facts\": [\n  \"Custom instructions are 'available on all plans on Web, Desktop, iOS, and Android' (OpenAI Help Center).\",\n  \"Web/Desktop path per OpenAI: Settings > Personalization > toggle 'Enable customization' ON > enter text in the 'Custom Instructions' field. Mobile path: Settings > 'Customize ChatGPT' > same toggle and field.\",\n  \"OpenAI says custom-instruction updates apply immediately across all chats, including existing conversations.\",\n  \"Limits: 'Free and Go users can save up to 1,500 characters'; Plus, Pro, Enterprise, Business and Education users can save up to 5,000 (OpenAI Help Center). A third-party site dates the paid-tier increase to July 15, 2026.\",\n  \"The OpenAI Help Center currently describes one 'Custom Instructions' field. Older guides, and Tom's Guide, describe two boxes: 'What would you like ChatGPT to know about you?' and 'How would you like ChatGPT to respond?'.\",\n  \"Projects: OpenAI Help says to select the more options menu (•••), then 'Project settings', to add project instructions.\",\n  \"Inside a project, global custom instructions are not applied. The Help Center table says 'Not available (only project instructions)' for chats in projects.\",\n  \"Projects opened to Free users in September 2025 (per findskill.ai and Tech.co). Free allows 5 files per project, and Plus allows 25 (Yahoo Tech).\",\n  \"On Free, 'image generation... have separate usage limits' (OpenAI Free Tier FAQ, as quoted by aifreeapi.com). OpenAI publishes no numeric daily image cap for consumer plans (felloai.com, aifreeapi.com, whizi.io, Oct 2026).\",\n  \"The image generator is ChatGPT Images 2.5, the default since 8 September 2026. It is available on every plan including Free. Thinking Mode is paid-only (felloai.com, secondary source).\",\n  \"Independent explainers confirm /anatomy, /exploded, /cutaway and similar are NOT built-in. Artea says there is no hidden slash-command menu for image generation. The GitHub repo says they are 'not official ChatGPT slash commands'. A note.com article says there are no 100 hidden official commands.\",\n  \"These words work only because ChatGPT reads them as plain instructions (Artea). Naming the components in the prompt gives much better results (Artea).\"\n ],\n \"do_not_claim\": [\n  \"Do NOT say /anatomy, /exploded view or /cutaway are secret, hidden or built-in ChatGPT commands. They are community prompt conventions with no official documentation.\",\n  \"Do NOT write the command as '/exploded view' with a space. A space breaks the one-word trigger. Use /exploded or /explodedview. The reel's '/cutaway' and '/anatomy' are fine as custom words.\",\n  \"Do NOT promise they work on any object or any photo, or with 'perfect' accuracy. Results depend on the subject and prompt, and labels or parts can be wrong.\",\n  \"Do NOT say 'unlimited free'. The reel's 'completely free' is only half true: image generation is free but capped on Free, with no official number. Old '3 per day' and '2-3 per day' figures are unofficial or outdated estimates.\",\n  \"Do NOT say Projects are Plus-only, or that Custom Instructions are two boxes on every app. Older articles still say both.\",\n  \"Do NOT claim a typed '/' opens a native command menu in ChatGPT. The reel and the unverified claim that 'commands are in the caption' give no official mechanism. Check the live UI before showing any popup.\",\n  \"Do NOT claim global Custom Instructions combine with project instructions inside a Project. OpenAI's table says only project instructions apply there. A secondary site (ai-toolbox) says the opposite, so avoid the claim.\",\n  \"Do NOT claim shortcuts work 'every time' or 'guaranteed'. LLMs can still skip or misread instructions, so say 'far more reliable' instead.\",\n  \"Do not use the reel's commands as exact strings. The caption shows only names, not prompts, and the reel gives no verified prompt text.\"\n ],\n \"criticism\": [\n  \"ChatGPT has no true slash-command system. These are text conventions, and the model may misinterpret or ignore them (Artea, GitHub repo disclaimer).\",\n  \"Free users have only 1,500 characters, so only a few detailed definitions fit.\",\n  \"Free image generation has a separate cap with no published number. Users report hitting the 'free plan limit' message.\",\n  \"Global Custom Instructions apply to ALL chats. Long shortcut text can clutter unrelated chats, so a Project may be better for visuals.\",\n  \"Memory/privacy: instructions are stored in your account. Don't put sensitive data in them (customgpt.ai advice). Project data can be used for model improvement if 'Improve the model for everyone' is ON (futurefactors.ai).\",\n  \"Image accuracy: labeled technical diagrams from an image model can contain wrong parts or garbled text. This is an inference, not directly sourced; show it with a real test.\"\n ],\n \"ui\": {\n  \"platforms\": \"Web (chatgpt.com), desktop app, iOS, Android. Same steps, but menu names differ on mobile ('Customize ChatGPT').\",\n  \"apps\": [\n   \"ChatGPT web (chatgpt.com)\",\n   \"ChatGPT iOS/Android app\"\n  ],\n  \"screens\": [\n   \"Main chat screen: left sidebar lists the New chat, Search chats, Library/Projects area and your chat history. The profile/name row sits at the bottom-left of the sidebar. The message box is at the bottom center. Default theme is system-dependent (light or dark), so choose one and keep it consistent. I did not see an official source on the default theme.\",\n   \"Click the profile row (bottom-left), then Settings. A Settings window opens with a left tab list. Tabs reported across sources: General, Personalization, Data Controls, Voice. Exact order and extra tabs vary, so verify on a live screen.\",\n   \"Settings > Personalization: Base style and tone dropdown, Characteristics (Warm, Enthusiastic, Headers & Lists, Emojis), a 'Custom Instructions' field with the 'Enable customization' toggle, and Memory controls. Exact vertical order is unverified.\",\n   \"Custom Instructions field: a single text area on current web, with a Save button (older guides show two boxes). Paste the command list, then save.\",\n   \"Projects: click 'Projects' in the left sidebar, or 'New project' in the project list. A name dialog appears (optional icon and color). Click Create. The project page shows the message box, a chats list, a Files/Sources area, and a three-dots (•••) menu at the top right.\",\n   \"Project instructions: ••• > 'Project settings' (or 'Add instructions'/'Edit instructions'). An instructions text box opens, paste and save.\",\n   \"Mobile: Settings > 'Customize ChatGPT' > 'Enable customization' toggle plus 'Custom Instructions' field. Projects show in the sidebar. Open the project, tap ••• > Project settings.\",\n   \"Result screen: a new chat where you type '/exploded mechanical keyboard' and ChatGPT returns a generated image, often with a short caption, of the labeled exploded-view diagram.\"\n  ]\n },\n \"visuals\": \"The Settings > Personalization page showing the 'Custom Instructions' field with 3 pasted command lines. Then a new chat with '/cutaway <object>' typed and the generated cutaway/exploded image. The final images need a real generation from ChatGPT to be believable, because the result varies each time. A screen recording is the safest option. Do not fake the output.\",\n \"sources\": [\n  \"https://help.openai.com/en/articles/8096356-chatgpt-custom-instructions\",\n  \"https://help.openai.com/en/articles/10169521-projects-in-chatgpt\",\n  \"https://openai.com/academy/projects/\",\n  \"https://academy.openai.com/public/clubs/work-users-ynjqu/resources/customizing-chatgpt\",\n  \"https://tech.yahoo.com/ai/articles/free-chatgpt-users-just-got-133000195.html\",\n  \"https://tech.co/news/openai-chatgpt-projects-tool-free\",\n  \"https://www.artea.in/blogs/100-chatgpt-image-shortcuts-2026/\",\n  \"https://github.com/bhaiyasingh45/ChatGPT-Slash-Image-Commands\",\n  \"https://note.com/kira_ai_lab/n/n969feb319e17?hl=en\",\n  \"https://felloai.com/chatgpt-image-generator/\",\n  \"https://www.aifreeapi.com/en/posts/chatgpt-daily-image-limits-solution-2025\",\n  \"https://unabyss.com/blog/chatgpt-custom-instructions\"\n ],\n \"notes\": \"The angle is accurate: there are no built-in /anatomy, /exploded or /cutaway commands. Several 2026 explainers say these are plain prompt conventions, and real shortcuts come from instructions you write yourself. Menu names changed over time: web 'Settings > Personalization' (older: 'Customize ChatGPT'); mobile 'Customize ChatGPT'. The old two-box layout appears to be replaced by a single field in the Help Center, but some guides and apps may still show two boxes, so verify on screen. Project instructions are reached via •••, then 'Project settings' (OpenAI) or 'Add instructions' in some guides, so wording may differ by app version. Inside a Project, only project instructions apply, so paste the shortcuts there rather than relying on global ones. Free-tier limit is 1,500 characters, so keep each definition to one or two lines. Also tell viewers to start a new chat after editing instructions, and to test the shortcut before publishing. Image generation is free but capped, and OpenAI gives no number. The UI position details (profile bottom-left, three-dots top right of a project) come from secondary guides, not OpenAI pages, and were not checked on a live screen.\"\n}",
+  "style": "hisaab",
+  "topic": "Make your own ChatGPT 'slash commands' (like /anatomy, /exploded view, /cutaway): save a shortcut in Custom Instructions or a Project so a one-word command triggers a detailed, repeatable prompt.",
+  "pick": {
+   "index": 1,
+   "topic": "Make your own ChatGPT 'slash commands' (like /anatomy, /exploded view, /cutaway): save a shortcut in Custom Instructions or a Project so a one-word command triggers a detailed, repeatable prompt.",
+   "tool": "ChatGPT Custom Instructions / Projects",
+   "format": "myth",
+   "angle": "Those 'secret ChatGPT commands' going viral aren't built in. Here's how to make real shortcuts that work every time.",
+   "why": "The 'secret commands' format is proven: @insideraix got 4.2M views and 115k likes in 2 days (29s). Related command-style reels also pull huge numbers: @cindiezhu 13.2M views and 7.1k comments, @as.digital.deals 37k comments. It is easy to teach in 3 steps (write the shortcut, save it, trigger it), and the 'not real commands' claim is true and checkable."
+  },
+  "inspired_by": {
+   "url": "https://www.instagram.com/p/DfKUe98ybKG/",
+   "owner": "insideraix",
+   "plays": 4212282,
+   "likes": 115579,
+   "comments": 616
+  },
+  "research": {
+   "verdict": "adjust",
+   "tool": "ChatGPT Custom Instructions (Settings > Personalization) and Project instructions (Projects > Project settings)",
+   "availability": "Custom Instructions: all plans, on web, desktop, iOS and Android. Projects: free for all plans, with 5 files per project on Free. Free and Go accounts get 1,500 characters in Custom Instructions. Plus, Pro, Enterprise, Business and Education get 5,000. Image generation is available on Free but has an unpublished, separate usage limit.",
+   "steps": [
+    "Pick a trigger word and write what it should do. Example: '/exploded <object> = Create an image: a detailed, labeled exploded-view technical illustration of <object>, with all parts separated along one axis, clean white background, a label on every part.' Add a similar line for /anatomy and /cutaway.",
+    "WEB/DESKTOP, global shortcuts: click your profile icon, then Settings, then Personalization. Make sure 'Enable customization' is ON. Paste your command definitions into the 'Custom Instructions' field and save.",
+    "PHONE (iOS/Android), global shortcuts: open Settings, then 'Customize ChatGPT'. Make sure 'Enable customization' is ON. Paste your command definitions into the 'Custom Instructions' field.",
+    "OPTION B, shortcuts for one topic only: open 'Projects' in the left sidebar and create a new project with a name. Open the project's more options menu (•••), then 'Project settings', and paste the command definitions into the instructions. Alternatively, open the project's three-dots menu and choose 'Add instructions' or 'Edit instructions'. Project instructions apply only to chats inside that project.",
+    "Start a NEW chat (inside the project if you used Option B). Type the command plus a subject, for example '/exploded mechanical keyboard', and send.",
+    "If ChatGPT ignores the shortcut, add a line such as 'When a message starts with /exploded, /cutaway or /anatomy, always follow the matching definition above', then retest."
+   ],
+   "facts": [
+    "Custom instructions are 'available on all plans on Web, Desktop, iOS, and Android' (OpenAI Help Center).",
+    "Web/Desktop path per OpenAI: Settings > Personalization > toggle 'Enable customization' ON > enter text in the 'Custom Instructions' field. Mobile path: Settings > 'Customize ChatGPT' > same toggle and field.",
+    "OpenAI says custom-instruction updates apply immediately across all chats, including existing conversations.",
+    "Limits: 'Free and Go users can save up to 1,500 characters'; Plus, Pro, Enterprise, Business and Education users can save up to 5,000 (OpenAI Help Center). A third-party site dates the paid-tier increase to July 15, 2026.",
+    "The OpenAI Help Center currently describes one 'Custom Instructions' field. Older guides, and Tom's Guide, describe two boxes: 'What would you like ChatGPT to know about you?' and 'How would you like ChatGPT to respond?'.",
+    "Projects: OpenAI Help says to select the more options menu (•••), then 'Project settings', to add project instructions.",
+    "Inside a project, global custom instructions are not applied. The Help Center table says 'Not available (only project instructions)' for chats in projects.",
+    "Projects opened to Free users in September 2025 (per findskill.ai and Tech.co). Free allows 5 files per project, and Plus allows 25 (Yahoo Tech).",
+    "On Free, 'image generation... have separate usage limits' (OpenAI Free Tier FAQ, as quoted by aifreeapi.com). OpenAI publishes no numeric daily image cap for consumer plans (felloai.com, aifreeapi.com, whizi.io, Oct 2026).",
+    "The image generator is ChatGPT Images 2.5, the default since 8 September 2026. It is available on every plan including Free. Thinking Mode is paid-only (felloai.com, secondary source).",
+    "Independent explainers confirm /anatomy, /exploded, /cutaway and similar are NOT built-in. Artea says there is no hidden slash-command menu for image generation. The GitHub repo says they are 'not official ChatGPT slash commands'. A note.com article says there are no 100 hidden official commands.",
+    "These words work only because ChatGPT reads them as plain instructions (Artea). Naming the components in the prompt gives much better results (Artea)."
+   ],
+   "do_not_claim": [
+    "Do NOT say /anatomy, /exploded view or /cutaway are secret, hidden or built-in ChatGPT commands. They are community prompt conventions with no official documentation.",
+    "Do NOT write the command as '/exploded view' with a space. A space breaks the one-word trigger. Use /exploded or /explodedview. The reel's '/cutaway' and '/anatomy' are fine as custom words.",
+    "Do NOT promise they work on any object or any photo, or with 'perfect' accuracy. Results depend on the subject and prompt, and labels or parts can be wrong.",
+    "Do NOT say 'unlimited free'. The reel's 'completely free' is only half true: image generation is free but capped on Free, with no official number. Old '3 per day' and '2-3 per day' figures are unofficial or outdated estimates.",
+    "Do NOT say Projects are Plus-only, or that Custom Instructions are two boxes on every app. Older articles still say both.",
+    "Do NOT claim a typed '/' opens a native command menu in ChatGPT. The reel and the unverified claim that 'commands are in the caption' give no official mechanism. Check the live UI before showing any popup.",
+    "Do NOT claim global Custom Instructions combine with project instructions inside a Project. OpenAI's table says only project instructions apply there. A secondary site (ai-toolbox) says the opposite, so avoid the claim.",
+    "Do NOT claim shortcuts work 'every time' or 'guaranteed'. LLMs can still skip or misread instructions, so say 'far more reliable' instead.",
+    "Do not use the reel's commands as exact strings. The caption shows only names, not prompts, and the reel gives no verified prompt text."
+   ],
+   "criticism": [
+    "ChatGPT has no true slash-command system. These are text conventions, and the model may misinterpret or ignore them (Artea, GitHub repo disclaimer).",
+    "Free users have only 1,500 characters, so only a few detailed definitions fit.",
+    "Free image generation has a separate cap with no published number. Users report hitting the 'free plan limit' message.",
+    "Global Custom Instructions apply to ALL chats. Long shortcut text can clutter unrelated chats, so a Project may be better for visuals.",
+    "Memory/privacy: instructions are stored in your account. Don't put sensitive data in them (customgpt.ai advice). Project data can be used for model improvement if 'Improve the model for everyone' is ON (futurefactors.ai).",
+    "Image accuracy: labeled technical diagrams from an image model can contain wrong parts or garbled text. This is an inference, not directly sourced; show it with a real test."
+   ],
+   "ui": {
+    "platforms": "Web (chatgpt.com), desktop app, iOS, Android. Same steps, but menu names differ on mobile ('Customize ChatGPT').",
+    "apps": [
+     "ChatGPT web (chatgpt.com)",
+     "ChatGPT iOS/Android app"
+    ],
+    "screens": [
+     "Main chat screen: left sidebar lists the New chat, Search chats, Library/Projects area and your chat history. The profile/name row sits at the bottom-left of the sidebar. The message box is at the bottom center. Default theme is system-dependent (light or dark), so choose one and keep it consistent. I did not see an official source on the default theme.",
+     "Click the profile row (bottom-left), then Settings. A Settings window opens with a left tab list. Tabs reported across sources: General, Personalization, Data Controls, Voice. Exact order and extra tabs vary, so verify on a live screen.",
+     "Settings > Personalization: Base style and tone dropdown, Characteristics (Warm, Enthusiastic, Headers & Lists, Emojis), a 'Custom Instructions' field with the 'Enable customization' toggle, and Memory controls. Exact vertical order is unverified.",
+     "Custom Instructions field: a single text area on current web, with a Save button (older guides show two boxes). Paste the command list, then save.",
+     "Projects: click 'Projects' in the left sidebar, or 'New project' in the project list. A name dialog appears (optional icon and color). Click Create. The project page shows the message box, a chats list, a Files/Sources area, and a three-dots (•••) menu at the top right.",
+     "Project instructions: ••• > 'Project settings' (or 'Add instructions'/'Edit instructions'). An instructions text box opens, paste and save.",
+     "Mobile: Settings > 'Customize ChatGPT' > 'Enable customization' toggle plus 'Custom Instructions' field. Projects show in the sidebar. Open the project, tap ••• > Project settings.",
+     "Result screen: a new chat where you type '/exploded mechanical keyboard' and ChatGPT returns a generated image, often with a short caption, of the labeled exploded-view diagram."
+    ]
+   },
+   "visuals": "The Settings > Personalization page showing the 'Custom Instructions' field with 3 pasted command lines. Then a new chat with '/cutaway <object>' typed and the generated cutaway/exploded image. The final images need a real generation from ChatGPT to be believable, because the result varies each time. A screen recording is the safest option. Do not fake the output.",
+   "sources": [
+    "https://help.openai.com/en/articles/8096356-chatgpt-custom-instructions",
+    "https://help.openai.com/en/articles/10169521-projects-in-chatgpt",
+    "https://openai.com/academy/projects/",
+    "https://academy.openai.com/public/clubs/work-users-ynjqu/resources/customizing-chatgpt",
+    "https://tech.yahoo.com/ai/articles/free-chatgpt-users-just-got-133000195.html",
+    "https://tech.co/news/openai-chatgpt-projects-tool-free",
+    "https://www.artea.in/blogs/100-chatgpt-image-shortcuts-2026/",
+    "https://github.com/bhaiyasingh45/ChatGPT-Slash-Image-Commands",
+    "https://note.com/kira_ai_lab/n/n969feb319e17?hl=en",
+    "https://felloai.com/chatgpt-image-generator/",
+    "https://www.aifreeapi.com/en/posts/chatgpt-daily-image-limits-solution-2025",
+    "https://unabyss.com/blog/chatgpt-custom-instructions"
+   ],
+   "notes": "The angle is accurate: there are no built-in /anatomy, /exploded or /cutaway commands. Several 2026 explainers say these are plain prompt conventions, and real shortcuts come from instructions you write yourself. Menu names changed over time: web 'Settings > Personalization' (older: 'Customize ChatGPT'); mobile 'Customize ChatGPT'. The old two-box layout appears to be replaced by a single field in the Help Center, but some guides and apps may still show two boxes, so verify on screen. Project instructions are reached via •••, then 'Project settings' (OpenAI) or 'Add instructions' in some guides, so wording may differ by app version. Inside a Project, only project instructions apply, so paste the shortcuts there rather than relying on global ones. Free-tier limit is 1,500 characters, so keep each definition to one or two lines. Also tell viewers to start a new chat after editing instructions, and to test the shortcut before publishing. Image generation is free but capped, and OpenAI gives no number. The UI position details (profile bottom-left, three-dots top right of a project) come from secondary guides, not OpenAI pages, and were not checked on a live screen.",
+   "_searched": 6
+  },
+  "models": {
+   "pick": "claude-sonnet-5-5",
+   "research": "claude-sonnet-5-5",
+   "script": "claude-sonnet-5-5",
+   "edit": "claude-opus-5-5"
+  }
+ }
+}
