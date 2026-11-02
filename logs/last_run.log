@@ -3,32 +3,25 @@
   APIFY_TOKEN: set
   BUFFER_API_KEY: set
   BUFFER_CHANNEL_ID: set
-window 2026-11-02-1300 | posting times 13:00, 20:00 IST | dry_run=False
+window 2026-11-02-2000 | posting times 13:00, 20:00 IST | dry_run=False
       b-roll library: 25 clips
+      recording request #1: still waiting for the video
 [1/6] top AI & tech reels
-      hashtags: 200 reels from 10 tags
-      accounts: 37 reels from @amsonppt, @insideraix, @10x.with.ai, @cindiezhu, @techbyashu, @rahuliyer.ai
-      reel pool: 80 reels
+      reel pool: 80 reels (cached today)
 [2/6] picking the topic
-      → Make your own ChatGPT 'slash commands' (like /anatomy, /exploded view, /cutaway): save a shortcut in Custom Instructions or a Project so a one-word command triggers a detailed, repeatable prompt.  (myth, from @insideraix, 4,212,282 views) — The 'secret commands' format is proven: @insideraix got 4.2M views and 115k likes in 2 days (29s). Related command-style reels also pull huge numbers: @cindiezh
-[3/6] research (118 transcript words)
-      verdict adjust · 6 web searches · 6 steps · 12 sources
+      → Incognito mode doesn't make you private. Show what it hides (local history and cookies) and what it doesn't (your IP, your ISP, school or office Wi-Fi admins, the sites you log into), then 3 fixes that do help: a VPN you trust, privacy-focused browser settings, and separate browser profiles.  (myth, from @gyansnacks, 169,974 views) — 170k views and 1.3k likes in 5 days. Comments are low (65), so a sharper hook and a question like 'where do you use Incognito?' should draw more. It's a true, c
+[3/6] research (161 transcript words)
+      web research unavailable (Expecting ',' delimiter: line 1 column 10631 (char 10630)); using the transcript only, conservatively
+      verdict adjust · 0 web searches · 0 steps · 0 sources
 [4/6] script + edit
-      media: s1_image, s1_logo, s1_broll1, s1_broll2
-      needs a real recording: The generated image changes every time and cannot be faked believably. Viewers need to see the real result. -> asking the owner, next pick
-      recording request: issue #1
-      → Find out why your reel flopped using ChatGPT: paste your Instagram Insights (reach, watch time, saves) and your hook, and get a diagnosis plus a 7-day content plan.  (tutorial, from @aiseedhibaat, 552,273 views) — 552k views, 15.6k likes and 12.9k comments in 3 days (46s), a very high comment rate that shows strong demand from creators and marketers. We can teach the vers
-[3/6] research (142 transcript words)
-      verdict adjust · 6 web searches · 6 steps · 18 sources
-[4/6] script + edit
-      media: s1_logo, s1_broll1, s1_broll2
+      media: s1_broll1, s1_broll2
 [5/6] voice + render
       [eleven] workspace voices: Rohan (IcsYcP26eMwajlgx2SDe, cloned)
       [eleven] using Rohan (IcsYcP26eMwajlgx2SDe)
-      [eleven] subscription: 200 {"tier":"starter","character_count":12097,"character_limit":40000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796033014,"voice_slots_used":1,"professional_voice_slots_
+      [eleven] subscription: 200 {"tier":"starter","character_count":18938,"character_limit":40000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796033014,"voice_slots_used":1,"professional_voice_slots_
       [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
-      155 words, 56.7s, voice eleven_v4
-      remotion: Reel /tmp/tmpildlaq0v/video_only.mp4
+      153 words, 56.0s, voice eleven_v4
+      remotion: Reel /tmp/tmp7dwrz2fh/video_only.mp4
 [6/6] publish
-      [buffer] created post 6ae83f10759fc887b6d5fdba (customScheduled)
-POSTED 6ae83f10759fc887b6d5fdba https://github.com/candidmarketingltd-art/ai-news-reels/releases/download/reel-2026-11-02_1301/2026-11-02_1301.mp4
+      [buffer] created post 6ae8a093f1669be3eab77bde (customScheduled)
+POSTED 6ae8a093f1669be3eab77bde https://github.com/candidmarketingltd-art/ai-news-reels/releases/download/reel-2026-11-02_2001/2026-11-02_2001.mp4

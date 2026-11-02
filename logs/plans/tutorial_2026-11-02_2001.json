@@ -1,0 +1,1575 @@
+{
+ "voiceover": "[conversational] Incognito mode doesn't make you private, and most people believe it does.\n\nAll it really does is not save your history and cookies on that device. So the only person you're hiding from is whoever uses your laptop next.\n\n[serious] Your IP address? Still visible. Your internet provider? Still sees where you go. School or office Wi-Fi admins? They can still see it too. And any site you log into knows exactly who you are.\n\n[playful] It's like wearing a mask into a shop. The shopkeeper still sees you.\n\nSo what actually helps? 1: a VPN you trust. It just moves who can see your traffic, so pick carefully. 2: privacy-focused browser settings, like blocking third-party cookies and trackers. 3: separate browser profiles for work, personal and everything else, so your logins never mix.\n\nWhich fix are you trying first: VPN, settings or profiles?\n\nSend this to the friend who thinks Incognito makes them invisible.",
+ "title": "INCOGNITO ISN'T PRIVATE",
+ "ig_caption": "Incognito mode doesn't make you private. Most people think it does.\n✅ Use a VPN you trust\n✅ Tighten your browser's privacy settings\n✅ Keep separate browser profiles for work and personal\nWhich fix are you trying first? 👇\nSave this for later 📌\nFollow @ihackgrowth for daily AI & tech hacks",
+ "media_hints": {
+  "domain": "",
+  "broll": [
+   "person browsing laptop",
+   "public wifi cafe",
+   "typing on laptop"
+  ]
+ },
+ "hashtags": [
+  "#Incognito",
+  "#OnlinePrivacy",
+  "#CyberSecurity",
+  "#VPN",
+  "#TechTips",
+  "#PrivacyMatters",
+  "#Chrome",
+  "#Safari",
+  "#productivity"
+ ],
+ "tag": "PRIVACY",
+ "keywords": [
+  "Incognito",
+  "private",
+  "history",
+  "cookies",
+  "laptop",
+  "IP",
+  "provider",
+  "Wi-Fi",
+  "admins",
+  "mask",
+  "shopkeeper",
+  "VPN",
+  "traffic",
+  "trackers",
+  "profiles",
+  "logins",
+  "invisible"
+ ],
+ "scenes": [
+  {
+   "at": "Incognito mode",
+   "tint": "red",
+   "react": [
+    {
+     "at": "believe it does.",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Incognito mode",
+     "media": "lib_man_staring_at_phone_in",
+     "full": true
+    },
+    {
+     "type": "title_slam",
+     "at": "Incognito mode",
+     "text": "NOT PRIVATE",
+     "color": "red",
+     "sub": "INCOGNITO ≠ INVISIBLE"
+    }
+   ]
+  },
+  {
+   "at": "All it really",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "All it really",
+     "device": "web",
+     "url": "chrome://newtab",
+     "app": "Chrome",
+     "step": "What it hides",
+     "steps": [
+      {
+       "at": "All it really",
+       "view": {
+        "kind": "page",
+        "site": "New Incognito tab",
+        "heading": "You've gone Incognito",
+        "sub": "Others who use this device won't see your activity",
+        "dark": true,
+        "cards": [
+         {
+          "title": "Browsing history",
+          "text": "Not saved on this device",
+          "status": "OFF"
+         },
+         {
+          "title": "Cookies",
+          "text": "Deleted when you close",
+          "status": "OFF"
+         }
+        ]
+       },
+       "action": {
+        "kind": "point",
+        "target": "Browsing history",
+        "at": "your history"
+       }
+      },
+      {
+       "at": "and cookies",
+       "view": {
+        "kind": "page",
+        "site": "New Incognito tab",
+        "heading": "You've gone Incognito",
+        "sub": "Others who use this device won't see your activity",
+        "dark": true,
+        "cards": [
+         {
+          "title": "Browsing history",
+          "text": "Not saved on this device",
+          "status": "OFF"
+         },
+         {
+          "title": "Cookies",
+          "text": "Deleted when you close",
+          "status": "OFF"
+         }
+        ]
+       },
+       "action": {
+        "kind": "point",
+        "target": "Cookies",
+        "at": "and cookies"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "So the only",
+   "react": [
+    {
+     "at": "hiding from",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "footage",
+     "at": "So the only",
+     "media": "lib_person_drinking_coffee_with_laptop",
+     "full": true
+    },
+    {
+     "type": "headline",
+     "at": "So the only",
+     "text": "HIDDEN FROM: NEXT USER",
+     "size": "m",
+     "ill": "laptop",
+     "sub": "THAT'S IT",
+     "sub_at": "laptop next."
+    }
+   ]
+  },
+  {
+   "at": "Your IP",
+   "tint": "red",
+   "react": [
+    {
+     "at": "Still visible.",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "Your IP",
+     "text": "WHO STILL SEES YOU"
+    },
+    {
+     "type": "stat_row",
+     "cards": [
+      {
+       "label": "IP ADDRESS",
+       "value": "VISIBLE",
+       "at": "Your IP",
+       "color": "red",
+       "ill": "globe_with_meridians"
+      },
+      {
+       "label": "INTERNET PROVIDER",
+       "value": "SEES IT",
+       "at": "Your internet provider?",
+       "color": "red",
+       "ill": "satellite_antenna"
+      },
+      {
+       "label": "WI-FI ADMINS",
+       "value": "SEES IT",
+       "at": "School or office",
+       "color": "red",
+       "ill": "eyes",
+       "glow": true
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "at": "They can still",
+     "text": "SCHOOL + OFFICE TOO",
+     "color": "red",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "And any site",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "label",
+     "at": "And any site",
+     "text": "INCOGNITO WINDOW"
+    },
+    {
+     "type": "screen",
+     "at": "And any site",
+     "device": "web",
+     "url": "shop.com/login",
+     "app": "Chrome",
+     "steps": [
+      {
+       "at": "And any site",
+       "view": {
+        "kind": "page",
+        "site": "shop.com",
+        "nav": [
+         "Deals",
+         "Orders",
+         "Account"
+        ],
+        "heading": "Sign in",
+        "sub": "Email or phone",
+        "input": "",
+        "buttons": [
+         "Continue"
+        ],
+        "dark": true
+       },
+       "action": {
+        "kind": "type",
+        "target": "input",
+        "text": "rohan@gmail.com",
+        "at": "log into"
+       }
+      },
+      {
+       "at": "knows exactly",
+       "view": {
+        "kind": "page",
+        "site": "shop.com",
+        "nav": [
+         "Deals",
+         "Orders",
+         "Account"
+        ],
+        "heading": "Welcome back, Rohan",
+        "sub": "Your orders, your address, your history",
+        "buttons": [
+         "Log out"
+        ],
+        "dark": true
+       },
+       "action": {
+        "kind": "point",
+        "target": "Account",
+        "at": "who you are."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "It's like wearing",
+   "elements": [
+    {
+     "type": "headline",
+     "at": "It's like wearing",
+     "text": "A MASK IN A SHOP",
+     "size": "l",
+     "ill": "performing_arts",
+     "sub": "STILL SEEN",
+     "sub_at": "still sees you.",
+     "sub_color": "red"
+    },
+    {
+     "type": "pill",
+     "at": "into a shop.",
+     "text": "SHOP = ANY WEBSITE",
+     "color": "gold",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "So what actually",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "title_slam",
+     "at": "So what actually",
+     "text": "WHAT HELPS?",
+     "color": "blue"
+    }
+   ]
+  },
+  {
+   "at": "1: a VPN",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "pick carefully.",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "app",
+     "at": "1: a VPN",
+     "name": "VPN",
+     "label": "FIRST FIX",
+     "ill": "shield",
+     "sub": "ONE YOU TRUST",
+     "sub_at": "you trust."
+    },
+    {
+     "type": "arrow_pair",
+     "at": "It just moves",
+     "left": {
+      "label": "WITHOUT",
+      "value": "ISP",
+      "sub": "SEES TRAFFIC"
+     },
+     "right": {
+      "label": "WITH VPN",
+      "value": "VPN",
+      "sub": "SEES TRAFFIC",
+      "color": "gold",
+      "at": "your traffic,"
+     }
+    },
+    {
+     "type": "pill",
+     "at": "pick carefully.",
+     "text": "PICK CAREFULLY",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "2: privacy-focused",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "2: privacy-focused",
+     "device": "web",
+     "theme": "dark",
+     "url": "chrome://settings",
+     "app": "Chrome",
+     "step": "Fix 2 · Lock down settings",
+     "steps": [
+      {
+       "at": "2: privacy-focused",
+       "view": {
+        "panel": {
+         "title": "Settings",
+         "nav": [
+          "You and Google",
+          "Autofill",
+          "Privacy and security",
+          "Performance",
+          "Appearance"
+         ],
+         "active": "You and Google",
+         "rows": [
+          {
+           "label": "Sync and Google services",
+           "kind": "arrow"
+          },
+          {
+           "label": "Customize your profile",
+           "kind": "arrow"
+          },
+          {
+           "label": "Import bookmarks",
+           "kind": "arrow"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Privacy and security",
+        "at": "browser settings,"
+       }
+      },
+      {
+       "at": "like blocking",
+       "view": {
+        "panel": {
+         "title": "Settings",
+         "nav": [
+          "You and Google",
+          "Autofill",
+          "Privacy and security",
+          "Performance",
+          "Appearance"
+         ],
+         "active": "Privacy and security",
+         "rows": [
+          {
+           "label": "Block third-party cookies",
+           "kind": "toggle",
+           "on": false
+          },
+          {
+           "label": "Send Do Not Track",
+           "kind": "toggle",
+           "on": false
+          },
+          {
+           "label": "Safe Browsing",
+           "kind": "value",
+           "value": "Standard"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "toggle",
+        "target": "Block third-party cookies",
+        "at": "third-party cookies"
+       }
+      },
+      {
+       "at": "and trackers.",
+       "view": {
+        "panel": {
+         "title": "Settings",
+         "nav": [
+          "You and Google",
+          "Autofill",
+          "Privacy and security",
+          "Performance",
+          "Appearance"
+         ],
+         "active": "Privacy and security",
+         "rows": [
+          {
+           "label": "Block third-party cookies",
+           "kind": "toggle",
+           "on": true
+          },
+          {
+           "label": "Send Do Not Track",
+           "kind": "toggle",
+           "on": false
+          },
+          {
+           "label": "Safe Browsing",
+           "kind": "value",
+           "value": "Standard"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "toggle",
+        "target": "Send Do Not Track",
+        "at": "and trackers."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "3: separate browser",
+   "tint": "green",
+   "react": [
+    {
+     "at": "never mix.",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "screen",
+     "at": "3: separate browser",
+     "device": "web",
+     "url": "chrome://profile-picker",
+     "app": "Chrome",
+     "step": "Fix 3 · Split your profiles",
+     "steps": [
+      {
+       "at": "3: separate browser",
+       "view": {
+        "kind": "page",
+        "site": "Chrome",
+        "heading": "Who's using Chrome?",
+        "dark": true,
+        "cards": [
+         {
+          "title": "Personal",
+          "text": "rohan@gmail.com"
+         }
+        ],
+        "buttons": [
+         "Add"
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "Add",
+        "at": "browser profiles"
+       }
+      },
+      {
+       "at": "for work,",
+       "view": {
+        "kind": "page",
+        "site": "Chrome",
+        "heading": "Who's using Chrome?",
+        "dark": true,
+        "cards": [
+         {
+          "title": "Work",
+          "text": "Work logins only"
+         },
+         {
+          "title": "Personal",
+          "text": "rohan@gmail.com"
+         },
+         {
+          "title": "Everything else",
+          "text": "Shopping, sign-ups"
+         }
+        ],
+        "buttons": [
+         "Add"
+        ]
+       },
+       "action": {
+        "kind": "point",
+        "target": "Work",
+        "at": "for work,"
+       }
+      },
+      {
+       "at": "everything else,",
+       "view": {
+        "kind": "page",
+        "site": "Chrome",
+        "heading": "Who's using Chrome?",
+        "dark": true,
+        "cards": [
+         {
+          "title": "Work",
+          "text": "Work logins only"
+         },
+         {
+          "title": "Personal",
+          "text": "rohan@gmail.com"
+         },
+         {
+          "title": "Everything else",
+          "text": "Shopping, sign-ups"
+         }
+        ],
+        "buttons": [
+         "Add"
+        ]
+       },
+       "action": {
+        "kind": "point",
+        "target": "Everything else",
+        "at": "everything else,"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Which fix",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "headline",
+     "at": "Which fix",
+     "text": "WHICH FIX FIRST?",
+     "size": "l",
+     "ill": "thinking_face",
+     "sub": "VPN · SETTINGS · PROFILES",
+     "sub_at": "VPN, settings"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "Send this",
+  "line1": "Send this to",
+  "line1_at": "Send this",
+  "line2": "the Incognito believer",
+  "line2_at": "them invisible."
+ },
+ "endcard": {
+  "title": "Still incognito?",
+  "terminal": "> privacy.fixed · 3 ways"
+ },
+ "media": [
+  {
+   "id": "lib_camera_moving_down_server_corridor",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "credit": "",
+   "file": "camera_moving_down_server_corridor.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow forward push down a hazy, fog-filled data center aisle lined with server racks that glow with blue and amber status lights, giving a moody, futuristic feel. Good for: A script line about the infrastructure behind AI, such as cloud computing, model training, heavy compute, data storage, or 'what happens behind the scenes'."
+  },
+  {
+   "id": "lib_colleagues_collaborating_around",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "credit": "",
+   "file": "colleagues_collaborating_around.mp4",
+   "frames": 126,
+   "desc": "B-roll (4.2s, VERTICAL 9:16 — best as full: true): colleagues collaborating around Good for: "
+  },
+  {
+   "id": "lib_content_creator_sets_up_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "credit": "",
+   "file": "content_creator_sets_up_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt stands behind a ring light with a phone on a tripod, adjusting the setup while the camera slowly pushes in until his face fills the frame, with a calm, focused mood and moody blue ambient lighting in the background. Good for: setting up to create content, getting started as a creator, or preparing equipment before recording a tutorial"
+  },
+  {
+   "id": "lib_fingers_typing_on_laptop_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "credit": "",
+   "file": "fingers_typing_on_laptop_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): Close-up over-the-shoulder shot of a person typing on a backlit laptop keyboard, with a blurred blue screen in the background and a warm, focused, productive mood. Good for: lines about getting started, writing prompts or code, doing focused work at the computer, or the hands-on steps of a tutorial"
+  },
+  {
+   "id": "lib_hand_dropping_papers_on_desk",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "credit": "",
+   "file": "hand_dropping_papers_on_desk.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a green shirt carries and then drops a thick stack of papers onto an already huge, messy pile of documents with sticky notes on a cluttered desk, while a laptop glows nearby, and the camera pushes in to a close-up of the towering stack, creating a mood of overwhelm and tedious paperwork. Good for: a script line about drowning in manual paperwork or document processing, setting up how AI can automate summarizing, sorting, or extracting information from piles of documents"
+  },
+  {
+   "id": "lib_hand_scrolling_smartphone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_scrolling_smartphone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_scrolling_smartphone.mp4",
+   "credit": "",
+   "file": "hand_scrolling_smartphone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a bearded young man in a white t-shirt looking intently at a smartphone in dim, warm lighting, with the camera slowly pushing in until his focused, slightly tense gaze moves from the screen to the lens. Good for: a script line about being glued to your phone, doubt or tension before a reveal, or the moment of realizing something while checking an app or notification"
+  },
+  {
+   "id": "lib_hands_holding_credit_card_near",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hands_holding_credit_card_near.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hands_holding_credit_card_near.mp4",
+   "credit": "",
+   "file": "hands_holding_credit_card_near.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): hands holding credit card near Good for: "
+  },
+  {
+   "id": "lib_man_comparing_phone_and_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "credit": "",
+   "file": "man_comparing_phone_and_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): man comparing phone and laptop Good for: "
+  },
+  {
+   "id": "lib_man_looking_at_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "credit": "",
+   "file": "man_looking_at_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt scowls with intense focus at a laptop in a dim, warmly lit room, then closes his eyes and rubs his hand near his chin in tired frustration. Good for: frustration with slow or difficult work, such as struggling with a tedious task, debugging, or burning out late at night before finding a better way"
+  },
+  {
+   "id": "lib_man_opens_laptop_in_room",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "credit": "",
+   "file": "man_opens_laptop_in_room.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt sits at a laptop in a dimly lit, warmly lit room, and his focused, tense expression builds as he leans toward the screen, which shows blurry blue diagram or flowchart-style blocks, with his fists clenched near his chin in the middle frame. Good for: intense concentration or deep work, such as debugging, building an AI workflow, or struggling with a complex problem"
+  },
+  {
+   "id": "lib_man_smiling_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "credit": "",
+   "file": "man_smiling_at_phone.mp4",
+   "frames": 135,
+   "desc": "B-roll (4.5s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a blue smartphone, his expression shifting from neutral to a furrowed-brow frown of confusion and frustration. Good for: a line about frustration with confusing apps or slow tools, or the moment someone hits a problem and doesn't know what to do next"
+  },
+  {
+   "id": "lib_man_staring_at_phone_in",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_staring_at_phone_in.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_staring_at_phone_in.mp4",
+   "credit": "",
+   "file": "man_staring_at_phone_in.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt stares at his smartphone, his expression moving from a focused frown to wide-eyed shock and then to a worried look straight into the camera, in a warm, dimly lit home setting. Good for: a line about a shocking discovery, an unexpected result, or a worrying realization, such as 'you won't believe what this AI tool just did' or 'when you see how much time you've been wasting'"
+  },
+  {
+   "id": "lib_man_studying_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "credit": "",
+   "file": "man_studying_with_laptop.mp4",
+   "frames": 132,
+   "desc": "B-roll (4.4s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits at a desk behind a laptop with a furrowed brow and a frustrated, concentrated look, first staring at the screen, then looking down at an open notebook and writing with a pen, with a warm blurred lamp glowing in the background. Good for: a script line about struggling to understand something complex, frustration with slow or manual work, or the pain of learning a new tool the hard way"
+  },
+  {
+   "id": "lib_man_watching_laptop_waiting",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "credit": "",
+   "file": "man_watching_laptop_waiting.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits at a laptop in a dimly lit room with warm lamp light, resting his chin on his fist with a focused, pensive look, and the camera pushes in closer across the three frames. Good for: a script line about deep thinking, researching or problem-solving, or weighing a decision before trying an AI tool"
+  },
+  {
+   "id": "lib_person_drinking_coffee_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "credit": "",
+   "file": "person_drinking_coffee_with_laptop.mp4",
+   "frames": 93,
+   "desc": "B-roll (3.1s, VERTICAL 9:16 — best as full: true): A bearded man in a green polo sits at a laptop in a modern industrial-style open office, lifting a white cup to his mouth and sipping a hot drink while looking down at the screen, in a calm, focused mood. Good for: a line about taking a breather while the AI does the work, a morning work routine, waiting for a process to finish, or the calm of an automated workflow"
+  },
+  {
+   "id": "lib_person_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "person_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a laptop, his expression moving from concern to a deep frown with glowing blue tear-like effects on his cheeks, then to eyes shut in stress or exhaustion; the mood is frustrated and overwhelmed. Good for: A script line about frustration or overwhelm with a tough task, such as struggling with confusing tools, wasting hours on manual work, or being stuck before finding an AI solution."
+  },
+  {
+   "id": "lib_person_speaking_into_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "credit": "",
+   "file": "person_speaking_into_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt takes a phone call in a modern industrial office with exposed concrete ceilings, moving from a serious, concerned look to a worried talking expression and ending with a relieved, confident smile at the camera. Good for: a script line about getting a surprising call or news, a problem being solved, or the moment of relief after a stressful issue"
+  },
+  {
+   "id": "lib_person_taking_selfie_with_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "credit": "",
+   "file": "person_taking_selfie_with_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt sits in a car holding a blue smartphone up close to his face, and across the clip he leans toward the screen with a furrowed brow, looking skeptical and intensely focused. Good for: a script line about doubting or double-checking AI output, being confused or frustrated by an app or tool, or looking closely at a result on your phone, e.g. 'wait, is this actually right?'"
+  },
+  {
+   "id": "lib_professional_working_on_laptop_late",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "credit": "",
+   "file": "professional_working_on_laptop_late.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A tired bearded young man in a maroon t-shirt sits at a laptop in a dim apartment at night, resting his head on his hand, rubbing his eyes, then glumly lifting a white coffee mug, with blurred city lights glowing behind him through the window. Good for: A script line about burnout, late-night grinding, or frustration with slow manual work that AI tools can speed up, e.g. 'still stuck doing this by hand at midnight?'"
+  },
+  {
+   "id": "lib_robotic_hand_typing_on_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "credit": "",
+   "file": "robotic_hand_typing_on_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a black robotic hand with segmented, mechanical fingers lowering onto a backlit laptop keyboard and starting to type, shot at shallow depth of field in a warm, softly lit, modern workspace. Good for: A script line about AI doing the work for you, automating repetitive tasks, or AI taking over typing and writing, such as 'let AI handle the busywork' or 'AI writes it for you'."
+  },
+  {
+   "id": "s1_broll1",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-02_2001/s1_broll1.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-02_2001/s1_broll1.mp4",
+   "frames": 277,
+   "credit": "Video: Pexels",
+   "desc": "stock video: person browsing laptop (9s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s1_broll2",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-02_2001/s1_broll2.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-02_2001/s1_broll2.mp4",
+   "frames": 242,
+   "credit": "Video: Pexels",
+   "desc": "stock video: public wifi cafe (8s) — generic, NOT the company's own footage"
+  }
+ ],
+ "style": "hisaab",
+ "topic": "Incognito mode doesn't make you private. Show what it hides (local history and cookies) and what it doesn't (your IP, your ISP, school or office Wi-Fi admins, the sites you log into), then 3 fixes that do help: a VPN you trust, privacy-focused browser settings, and separate browser profiles.",
+ "pick": {
+  "index": 46,
+  "topic": "Incognito mode doesn't make you private. Show what it hides (local history and cookies) and what it doesn't (your IP, your ISP, school or office Wi-Fi admins, the sites you log into), then 3 fixes that do help: a VPN you trust, privacy-focused browser settings, and separate browser profiles.",
+  "tool": "Chrome/Safari Incognito and Private modes",
+  "format": "myth",
+  "angle": "Incognito mode is the biggest privacy myth online. Your boss, your Wi-Fi and every website you log into can still see you.",
+  "why": "170k views and 1.3k likes in 5 days. Comments are low (65), so a sharper hook and a question like 'where do you use Incognito?' should draw more. It's a true, checkable myth that everyone can fix today on free tools, and the 3-point breakdown fits 45 seconds."
+ },
+ "inspired_by": {
+  "url": "https://www.instagram.com/p/DfGuoCWhqMR/",
+  "owner": "gyansnacks",
+  "plays": 169974,
+  "likes": 1296,
+  "comments": 65
+ },
+ "research": {
+  "verdict": "adjust",
+  "tool": "Chrome/Safari Incognito and Private modes",
+  "steps": [],
+  "facts": [],
+  "do_not_claim": [],
+  "notes": "Not web-verified: use only general, well-known steps; avoid every number, price and limit.",
+  "_searched": 0
+ },
+ "models": {
+  "pick": "claude-sonnet-5-5",
+  "research": "claude-sonnet-5-5",
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 7,
+ "timeline": {
+  "words": [
+   [
+    "Incognito",
+    0.21
+   ],
+   [
+    "mode",
+    0.72
+   ],
+   [
+    "doesn't",
+    1.12
+   ],
+   [
+    "make",
+    1.44
+   ],
+   [
+    "you",
+    1.6
+   ],
+   [
+    "private,",
+    1.76
+   ],
+   [
+    "and",
+    2.56
+   ],
+   [
+    "most",
+    2.8
+   ],
+   [
+    "people",
+    3.04
+   ],
+   [
+    "believe",
+    3.36
+   ],
+   [
+    "it",
+    3.6
+   ],
+   [
+    "does.",
+    3.76
+   ],
+   [
+    "All",
+    4.56
+   ],
+   [
+    "it",
+    4.72
+   ],
+   [
+    "really",
+    4.96
+   ],
+   [
+    "does",
+    5.44
+   ],
+   [
+    "is",
+    5.68
+   ],
+   [
+    "not",
+    6.04
+   ],
+   [
+    "save",
+    6.24
+   ],
+   [
+    "your",
+    6.48
+   ],
+   [
+    "history",
+    6.76
+   ],
+   [
+    "and",
+    7.04
+   ],
+   [
+    "cookies",
+    7.28
+   ],
+   [
+    "on",
+    7.52
+   ],
+   [
+    "that",
+    7.68
+   ],
+   [
+    "device.",
+    8.16
+   ],
+   [
+    "So",
+    8.67
+   ],
+   [
+    "the",
+    8.8
+   ],
+   [
+    "only",
+    8.96
+   ],
+   [
+    "person",
+    9.36
+   ],
+   [
+    "you're",
+    9.57
+   ],
+   [
+    "hiding",
+    9.79
+   ],
+   [
+    "from",
+    10.08
+   ],
+   [
+    "is",
+    10.56
+   ],
+   [
+    "whoever",
+    10.8
+   ],
+   [
+    "uses",
+    11.2
+   ],
+   [
+    "your",
+    11.52
+   ],
+   [
+    "laptop",
+    11.64
+   ],
+   [
+    "next.",
+    12.08
+   ],
+   [
+    "Your",
+    12.88
+   ],
+   [
+    "IP",
+    13.04
+   ],
+   [
+    "address?",
+    13.52
+   ],
+   [
+    "Still",
+    14.2
+   ],
+   [
+    "visible.",
+    14.4
+   ],
+   [
+    "Your",
+    15.2
+   ],
+   [
+    "internet",
+    15.44
+   ],
+   [
+    "provider?",
+    15.68
+   ],
+   [
+    "Still",
+    16.56
+   ],
+   [
+    "sees",
+    16.8
+   ],
+   [
+    "where",
+    17.12
+   ],
+   [
+    "you",
+    17.28
+   ],
+   [
+    "go.",
+    17.44
+   ],
+   [
+    "School",
+    18.04
+   ],
+   [
+    "or",
+    18.32
+   ],
+   [
+    "office",
+    18.48
+   ],
+   [
+    "Wi-Fi",
+    18.88
+   ],
+   [
+    "admins?",
+    19.2
+   ],
+   [
+    "They",
+    20.0
+   ],
+   [
+    "can",
+    20.16
+   ],
+   [
+    "still",
+    20.44
+   ],
+   [
+    "see",
+    20.64
+   ],
+   [
+    "it",
+    20.8
+   ],
+   [
+    "too.",
+    21.12
+   ],
+   [
+    "And",
+    21.52
+   ],
+   [
+    "any",
+    21.68
+   ],
+   [
+    "site",
+    21.92
+   ],
+   [
+    "you",
+    22.2
+   ],
+   [
+    "log",
+    22.32
+   ],
+   [
+    "into",
+    22.72
+   ],
+   [
+    "knows",
+    23.04
+   ],
+   [
+    "exactly",
+    23.36
+   ],
+   [
+    "who",
+    24.08
+   ],
+   [
+    "you",
+    24.24
+   ],
+   [
+    "are.",
+    24.4
+   ],
+   [
+    "It's",
+    25.02
+   ],
+   [
+    "like",
+    25.2
+   ],
+   [
+    "wearing",
+    25.36
+   ],
+   [
+    "a",
+    25.68
+   ],
+   [
+    "mask",
+    25.92
+   ],
+   [
+    "into",
+    26.2
+   ],
+   [
+    "a",
+    26.37
+   ],
+   [
+    "shop.",
+    26.48
+   ],
+   [
+    "The",
+    27.08
+   ],
+   [
+    "shopkeeper",
+    27.2
+   ],
+   [
+    "still",
+    27.76
+   ],
+   [
+    "sees",
+    28.08
+   ],
+   [
+    "you.",
+    28.4
+   ],
+   [
+    "So",
+    29.04
+   ],
+   [
+    "what",
+    29.24
+   ],
+   [
+    "actually",
+    29.44
+   ],
+   [
+    "helps?",
+    29.92
+   ],
+   [
+    "1:",
+    30.72
+   ],
+   [
+    "a",
+    31.32
+   ],
+   [
+    "VPN",
+    31.44
+   ],
+   [
+    "you",
+    32.0
+   ],
+   [
+    "trust.",
+    32.16
+   ],
+   [
+    "It",
+    32.92
+   ],
+   [
+    "just",
+    33.04
+   ],
+   [
+    "moves",
+    33.36
+   ],
+   [
+    "who",
+    33.68
+   ],
+   [
+    "can",
+    33.84
+   ],
+   [
+    "see",
+    34.0
+   ],
+   [
+    "your",
+    34.16
+   ],
+   [
+    "traffic,",
+    34.48
+   ],
+   [
+    "so",
+    35.04
+   ],
+   [
+    "pick",
+    35.2
+   ],
+   [
+    "carefully.",
+    35.44
+   ],
+   [
+    "2:",
+    36.36
+   ],
+   [
+    "privacy-focused",
+    37.0
+   ],
+   [
+    "browser",
+    37.76
+   ],
+   [
+    "settings,",
+    38.16
+   ],
+   [
+    "like",
+    38.88
+   ],
+   [
+    "blocking",
+    39.16
+   ],
+   [
+    "third-party",
+    39.44
+   ],
+   [
+    "cookies",
+    40.0
+   ],
+   [
+    "and",
+    40.48
+   ],
+   [
+    "trackers.",
+    40.64
+   ],
+   [
+    "3:",
+    41.68
+   ],
+   [
+    "separate",
+    42.24
+   ],
+   [
+    "browser",
+    42.72
+   ],
+   [
+    "profiles",
+    42.96
+   ],
+   [
+    "for",
+    43.52
+   ],
+   [
+    "work,",
+    43.68
+   ],
+   [
+    "personal",
+    44.48
+   ],
+   [
+    "and",
+    44.8
+   ],
+   [
+    "everything",
+    45.12
+   ],
+   [
+    "else,",
+    45.6
+   ],
+   [
+    "so",
+    46.08
+   ],
+   [
+    "your",
+    46.24
+   ],
+   [
+    "logins",
+    46.4
+   ],
+   [
+    "never",
+    46.96
+   ],
+   [
+    "mix.",
+    47.2
+   ],
+   [
+    "Which",
+    48.0
+   ],
+   [
+    "fix",
+    48.16
+   ],
+   [
+    "are",
+    48.4
+   ],
+   [
+    "you",
+    48.56
+   ],
+   [
+    "trying",
+    48.76
+   ],
+   [
+    "first:",
+    48.96
+   ],
+   [
+    "VPN,",
+    49.68
+   ],
+   [
+    "settings",
+    50.48
+   ],
+   [
+    "or",
+    51.12
+   ],
+   [
+    "profiles?",
+    51.28
+   ],
+   [
+    "Send",
+    52.28
+   ],
+   [
+    "this",
+    52.48
+   ],
+   [
+    "to",
+    52.64
+   ],
+   [
+    "the",
+    52.72
+   ],
+   [
+    "friend",
+    52.88
+   ],
+   [
+    "who",
+    53.2
+   ],
+   [
+    "thinks",
+    53.36
+   ],
+   [
+    "Incognito",
+    53.68
+   ],
+   [
+    "makes",
+    54.48
+   ],
+   [
+    "them",
+    54.72
+   ],
+   [
+    "invisible.",
+    55.28
+   ]
+  ],
+  "duration": 56.02,
+  "scenes": [
+   {
+    "t": 0.0,
+    "shows": [
+     "footage:lib_man_staring_at_phone_in",
+     "title_slam:NOT PRIVATE"
+    ]
+   },
+   {
+    "t": 4.56,
+    "shows": [
+     "screen:What it hides"
+    ]
+   },
+   {
+    "t": 8.67,
+    "shows": [
+     "footage:lib_person_drinking_coffee_with_laptop",
+     "headline:HIDDEN FROM: NEXT USER"
+    ]
+   },
+   {
+    "t": 12.88,
+    "shows": [
+     "label:WHO STILL SEES YOU",
+     "stat_row:",
+     "pill:SCHOOL + OFFICE TOO"
+    ]
+   },
+   {
+    "t": 21.52,
+    "shows": [
+     "label:INCOGNITO WINDOW",
+     "screen:"
+    ]
+   },
+   {
+    "t": 25.02,
+    "shows": [
+     "headline:A MASK IN A SHOP",
+     "pill:SHOP = ANY WEBSITE"
+    ]
+   },
+   {
+    "t": 29.04,
+    "shows": [
+     "title_slam:WHAT HELPS?"
+    ]
+   },
+   {
+    "t": 30.72,
+    "shows": [
+     "app:VPN",
+     "arrow_pair:",
+     "pill:PICK CAREFULLY"
+    ]
+   },
+   {
+    "t": 36.36,
+    "shows": [
+     "screen:Fix 2 · Lock down settings"
+    ]
+   },
+   {
+    "t": 41.68,
+    "shows": [
+     "screen:Fix 3 · Split your profiles"
+    ]
+   },
+   {
+    "t": 48.0,
+    "shows": [
+     "headline:WHICH FIX FIRST?"
+    ]
+   }
+  ],
+  "beats": [
+   1.78,
+   16.62
+  ]
+ }
+}
