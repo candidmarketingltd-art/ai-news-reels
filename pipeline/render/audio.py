@@ -164,10 +164,68 @@ def build_ui_sfx(hits, duration, path, seed=5):
         hp = np.diff(np.concatenate([[0], x]))
         return hp * np.sin(np.linspace(0, np.pi, n)) ** 3 * 0.9
 
-    bank = {"impact": (impact(), 0.75), "swish": (swish(), 0.16), "pop": (pop(), 0.22), "tick": (tick(), 0.10), "thud": (thud(), 0.5), "ding": (ding(), 0.20), "whoosh": (whoosh(), 0.25)}
+    def sweep(f0, f1, dur, harm=True):   # tonal glide (zap / riser / drop)
+        n = int(dur * sr); t = np.arange(n) / sr
+        f = f0 * (f1 / f0) ** (t / dur); ph = 2 * np.pi * np.cumsum(f) / sr
+        y = np.sin(ph) + (0.35 * np.sin(2 * ph) if harm else 0)
+        return y * np.sin(np.linspace(0, np.pi, n)) ** 1.5
+
+    def click():    # mouse click: two tiny transients
+        n = int(0.06 * sr); y = np.zeros(n); t = np.arange(int(0.012 * sr)) / sr
+        k = (np.sin(2 * np.pi * 3200 * t) + rng.normal(0, 0.6, len(t))) * np.exp(-t / 0.0018)
+        y[:len(k)] += k; y[int(0.028 * sr):int(0.028 * sr) + len(k)] += k * 0.55
+        return y
+
+    def key():      # keyboard key (randomised pitch per hit at build time)
+        n = int(0.035 * sr); t = np.arange(n) / sr
+        return (np.sin(2 * np.pi * 1900 * t) * 0.4 + rng.normal(0, 0.7, n)) * np.exp(-t / 0.006)
+
+    def blip():     # soft UI blip for highlighted words
+        n = int(0.09 * sr); t = np.arange(n) / sr
+        return np.sin(2 * np.pi * 1320 * t) * env(n, 0.003, 0.03) + np.sin(2 * np.pi * 1980 * t) * env(n, 0.003, 0.02) * 0.4
+
+    def glitch():   # digital stutter for screen changes
+        n = int(0.14 * sr); y = rng.normal(0, 1, n)
+        hold = np.repeat(y[::90], 90)[:n]; gate = (np.floor(np.arange(n) / (0.018 * sr)) % 2)
+        return hold * gate * np.exp(-np.arange(n) / (0.07 * sr)) * 0.8
+
+    def chime():    # bright two-note bell for idents and big payoffs
+        n = int(0.9 * sr); t = np.arange(n) / sr
+        a = np.sin(2 * np.pi * 1760 * t) * env(n, 0.002, 0.25); b = np.sin(2 * np.pi * 2637 * t) * env(n, 0.002, 0.2)
+        b[: int(0.09 * sr)] = 0
+        return (a + 0.8 * b) * 0.55
+
+    def whoomp():   # low swoosh for scene cuts
+        n = int(0.32 * sr); x = rng.normal(0, 1, n); acc = 0.0; y = np.empty(n)
+        for i in range(n):
+            acc += 0.02 * (x[i] - acc); y[i] = acc
+        return (y / (np.abs(y).max() + 1e-9)) * np.sin(np.linspace(0, np.pi, n)) ** 2 + sweep(160, 70, 0.32, False) * 0.5
+
+    def flash():    # bright hit for white-flash cuts
+        n = int(0.25 * sr); t = np.arange(n) / sr
+        return rng.normal(0, 1, n) * env(n, 0.0005, 0.03) * 0.7 + np.sin(2 * np.pi * (90 + 200 * np.exp(-t * 30)) * t) * env(n, 0.001, 0.08)
+
+    def toggle():
+        return np.concatenate([click()[: int(0.02 * sr)], blip() * 0.8])
+
+    def rattle():   # object shake
+        n = int(0.35 * sr); y = np.zeros(n)
+        for k in range(7):
+            i = int(k * 0.045 * sr); m = key() * (1 - k / 8)
+            y[i:i + len(m)] += m[: max(0, min(len(m), n - i))]
+        return y
+
+    bank = {"impact": (impact(), 0.75),
+            "riser": (sweep(250, 1400, 0.5) * 0.6 + rng.normal(0, 1, int(0.5 * sr)) * np.linspace(0, 0.25, int(0.5 * sr)), 0.18),
+            "zap": (sweep(500, 2600, 0.22), 0.16), "drop": (sweep(900, 140, 0.3), 0.18),
+            "click": (click(), 0.35), "key": (key(), 0.13), "blip": (blip(), 0.07), "glitch": (glitch(), 0.16),
+            "chime": (chime(), 0.22), "whoomp": (whoomp(), 0.3), "flash": (flash(), 0.4), "toggle": (toggle(), 0.22), "rattle": (rattle(), 0.25), "swish": (swish(), 0.16), "pop": (pop(), 0.22), "tick": (tick(), 0.10), "thud": (thud(), 0.5), "ding": (ding(), 0.20), "whoosh": (whoosh(), 0.25)}
     for t, kind in hits:
         if kind not in bank: continue
         sig, g = bank[kind]
+        if kind in ("key", "click", "blip"):   # small random variation so repeated hits don't sound robotic
+            r = rng.uniform(0.85, 1.18); idx = np.clip((np.arange(int(len(sig) / r)) * r).astype(int), 0, len(sig) - 1)
+            sig = sig[idx]; g = g * rng.uniform(0.75, 1.1)
         i = int(max(0, t) * sr); j = min(n_total, i + len(sig))
         if j > i: out[i:j] += sig[: j - i] * g
     out /= max(1e-6, np.abs(out).max()) / 0.6

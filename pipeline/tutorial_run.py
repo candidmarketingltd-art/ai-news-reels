@@ -150,7 +150,7 @@ def main():
             mp4 = str(OUT / f"{stamp}.mp4")
             props = remo.render(plan, words, dur, mp3, mp4, wd, episode=ep)
             # second-by-second timeline of what was said and shown -> lets retention drops be matched to the exact moment
-            plan["timeline"] = {"words": [[w, round(s, 2)] for w, s, _ in words], "duration": round(dur, 2),
+            plan["timeline"] = {"words": [[w["t"], w["s"]] for w in props["words"]], "duration": round(props["duration"], 2), "ident": props.get("ident"),
                                 "scenes": [{"t": round(sc["start"], 2), "shows": [e.get("type") + (":" + str(e.get("text") or e.get("name") or e.get("media") or e.get("step") or "")[:40]) for e in sc["elements"]]}
                                            for sc in props["scenes"]], "beats": props.get("beats", [])}
             _save(PLANS / f"tutorial_{stamp}.json", {k: v for k, v in plan.items() if k != "sources_text"})

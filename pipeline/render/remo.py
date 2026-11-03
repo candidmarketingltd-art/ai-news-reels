@@ -199,7 +199,8 @@ def build_props(plan, words, duration, episode=None, run_id="preview"):
                 m0["at"] = round(st + 0.3, 3)
                 if m0.get("cards"): m0["cards"][0]["at"] = round(st + 0.3, 3)
                 if m0["type"] == "prompt" and isinstance(m0.get("send_at"), (int, float)): m0["send_at"] = max(m0["send_at"], st + 1.5)
-        scenes.append({"start": st, "end": en, "tint": s.get("tint") or "warm", "elements": els})
+        scenes.append({"start": st, "end": en, "tint": s.get("tint") or "warm", "elements": els,
+                       "trans": s.get("trans") if s.get("trans") in TRANS else TRANS[(i - 1) % len(TRANS)] if i else "none"})
         for rc in s.get("react", []) or []:
             mood = rc.get("mood") if rc.get("mood") in MOODS else "neutral"
             reacts.append({"at": R.t(rc.get("at"), st, st + 0.5), "pose": f"{mood}_{'point' if rc.get('point') else 'down'}"})
@@ -220,7 +221,9 @@ def build_props(plan, words, duration, episode=None, run_id="preview"):
         "tag": (plan.get("tag") or "").upper()[:22], "handle": HANDLE,
         "disclaimer": None,
         "words": cw, "chunks": chunk(cw), "scenes": scenes, "reacts": reacts, "cta": cta_p,
-        "beats": keepalive_beats(scenes, reacts, cta_start),
+        "beats": [b for b in keepalive_beats(scenes, reacts, cta_start)
+                  if not (plan.get("_ident") and plan["_ident"]["at"] - 0.3 <= b <= plan["_ident"]["at"] + plan["_ident"]["dur"] + 0.3)],
+        "ident": plan.get("_ident"),
         "endcard": {"at": end, "title": ec.get("title") or "Saved it?", "terminal": ec.get("terminal") or "> hack.saved · try it today"},
     }
     if R.missing:
@@ -229,63 +232,100 @@ def build_props(plan, words, duration, episode=None, run_id="preview"):
 
 
 # ------------------------------------------------------------------ sound design (one hit per visual event)
+TRANS = ["flash", "wipe", "zoom", "punch"]
+
+
+def _typing(add, t0, text, dur_per_char, cap, every=2):
+    n = len(text or ""); d = min(cap, dur_per_char * n)
+    for k in range(0, n, every): add(t0 + d * k / max(1, n), "key")
+
+
 def sfx_hits(props):
+    """Every visual event gets its own sound, at the exact frame it happens (learned from top explainer reels:
+    ~2 designed sounds per second, each matching its action)."""
     H = []
     add = lambda t, k: H.append((round(t, 3), k)) if t is not None else None
     add(0.0, "impact")                                   # the hook lands with a hit
     for b in props.get("beats") or []: add(b, "swish")
+    for w in props.get("words") or []:                   # a soft blip under every gold key word
+        if w.get("k"): add(w["s"], "blip")
+    idt = props.get("ident")
+    if idt:
+        add(idt["at"], "flash")
+        for k in range(len(idt["title"])): add(idt["at"] + 0.12 + k * idt["type"] / max(1, len(idt["title"])), "key")
+        add(idt["at"] + 0.15 + idt["type"], "chime")
+        for k in range(0, len(idt["sub"]), 2): add(idt["at"] + 0.25 + idt["type"] + k * 0.02, "key")
+        add(idt["at"] + idt["dur"] - 0.22, "whoosh")
     def roll(t, n=8):
-        for i in range(n): add(t + i * 0.1, "tick")
+        for i in range(n): add(t + 0.03 + i * (0.06 + 0.012 * i), "tick")   # odometer: ticks slow down as it settles
     for i, s in enumerate(props["scenes"]):
-        if i: add(s["start"] - 0.12, "whoosh")
+        if i:
+            tr = s.get("trans", "punch")
+            if tr == "flash": add(s["start"], "flash")
+            elif tr == "wipe": add(s["start"] - 0.18, "whoosh")
+            elif tr == "zoom": add(s["start"] - 0.45, "riser"); add(s["start"], "whoomp")
+            else: add(s["start"], "whoomp")
         for e in s["elements"]:
             t, ty = e["at"], e["type"]
             if ty == "pill": add(t, "ding" if e.get("color") == "green" else "pop")
             elif ty == "label": add(t, "tick")
             elif ty == "headline": add(t, "thud" if e.get("size") == "l" else "pop"); add(e.get("sub_at"), "pop")
             elif ty == "stat_row":
-                for c in e["cards"]: add(c["at"], "pop"); roll(c["at"], 5) if re.search(r"\d", str(c.get("value", ""))) else None
-            elif ty == "big_number": add(t, "thud"); roll(t); add(e.get("note_at"), "pop")
+                for c in e["cards"]: add(c["at"], "pop"); roll(c["at"], 6) if re.search(r"\d", str(c.get("value", ""))) else None
+            elif ty == "big_number": add(t - 0.3, "riser"); add(t, "thud"); roll(t); add(e.get("note_at"), "pop")
             elif ty == "split_bar":
-                for p in e["parts"]: add(p["at"], "pop")
+                for p in e["parts"]: add(p["at"], "zap")
             elif ty == "dot_grid":
                 for k in range(12): add(t + k * 0.1, "tick")
-                add(e.get("lost_at"), "thud")
-            elif ty in ("vs", "arrow_pair"): add(t, "pop"); add(e["right"]["at"], "thud")
+                add(e.get("lost_at"), "drop")
+            elif ty in ("vs", "arrow_pair"): add(t, "pop"); add(e["right"]["at"] - 0.15, "zap"); add(e["right"]["at"], "thud")
             elif ty == "strike_list":
-                for it in e["items"]: add(it["at"], "pop"); add(it["at"] + 0.22, "tick")
+                for it in e["items"]: add(it["at"], "pop"); add(it["at"] + 0.22, "zap" if it.get("strike", True) else "ding")
             elif ty == "steps":
-                for it in e["items"]: add(it["at"], "pop")
+                for it in e["items"]: add(it["at"], "pop"); add(it["at"] + 0.08, "blip")
             elif ty == "ledger":
-                for r in e["rows"]: add(r["at"], "tick"); add(r["at"] + 0.15, "thud") if r.get("mark") else None
+                for r in e["rows"]: add(r["at"], "key"); add(r["at"] + 0.15, "thud") if r.get("mark") else None
             elif ty == "calculator":
-                for k in range(8): add(t + k * 0.13, "tick")
-                add(e.get("value_at", t + 0.8), "thud")
-            elif ty == "title_slam": add(t, "thud")
-            elif ty == "illustration": add(t, "pop")
+                for k in range(8): add(t + k * 0.13, "key")
+                add(e.get("value_at", t + 0.8), "ding")
+            elif ty == "title_slam": add(t - 0.35, "riser"); add(t, "impact")
+            elif ty == "illustration":
+                add(t, "pop"); act = e.get("act"); aa = e.get("act_at", t + 0.6)
+                if act == "shake": add(aa, "rattle")
+                elif act == "drop": add(aa, "drop"); add(aa + 0.32, "thud")
+                elif act == "spin": add(aa, "whoosh")
+                elif act == "burst": add(aa, "zap"); add(aa + 0.1, "ding")
+                elif act == "pulse": add(aa, "blip")
             elif ty == "object3d": add(t - 0.1, "whoosh"); add(t + 0.3, "pop")
             elif ty == "money_rain": add(t, "ding")
             elif ty == "prompt":
-                for k in range(min(10, max(3, len(e.get("text", "")) // 6))): add(t + 0.15 + k * 0.17, "tick")
-                add(e.get("send_at"), "ding")
+                _typing(add, t + 0.15, e.get("text", ""), 0.035, 2.2); add(e.get("send_at"), "click"); add((e.get("send_at") or 0) + 0.06 if e.get("send_at") else None, "zap")
             elif ty == "keys":
-                for k in range(len(e.get("keys", []))): add(t + k * 0.22, "pop"); add(t + k * 0.22 + 0.27, "tick")
-            elif ty == "toggle": add(t, "pop"); add(e.get("flip_at", t + 0.6), "ding" if e.get("to") != "off" else "thud")
-            elif ty == "app": add(t, "pop"); add(e.get("sub_at"), "tick")
-            elif ty == "before_after": add(t, "pop"); add((e.get("right") or {}).get("at"), "ding")
-            elif ty == "footage": add(t - 0.1, "whoosh")
+                for k in range(len(e.get("keys", []))): add(t + k * 0.22, "pop"); add(t + k * 0.22 + 0.27, "key")
+            elif ty == "toggle": add(t, "pop"); add(e.get("flip_at", t + 0.6), "toggle")
+            elif ty == "app": add(t, "pop"); add(e.get("sub_at"), "blip")
+            elif ty == "before_after": add(t, "pop"); add((e.get("right") or {}).get("at"), "chime")
+            elif ty == "footage": add(t - 0.1, "whoomp" if e.get("full") else "whoosh")
             elif ty == "screen":
                 for k, st in enumerate(e.get("steps") or []):
-                    if k: add(st.get("at"), "whoosh" if k == 1 else "pop")
+                    if k: add(st.get("at"), "glitch")
                     a = st.get("action") or {}
                     at = a.get("at") if isinstance(a.get("at"), (int, float)) else (st.get("at", t) + 0.8)
-                    if a.get("kind") in ("click", "toggle"): add(at, "tick")
-                    if a.get("kind") == "toggle": add(at + 0.15, "ding")
-                    if a.get("kind") == "type":
-                        for j in range(min(10, max(3, len(a.get("text", "")) // 6))): add(at + 0.1 + j * 0.2, "tick")
+                    if a.get("kind") in ("click", "toggle"): add(at, "click")
+                    if a.get("kind") == "toggle": add(at + 0.08, "toggle")
+                    if a.get("kind") == "point": add(at, "blip")
+                    if a.get("kind") == "type": _typing(add, at + 0.1, a.get("text", ""), 0.04, 2.4)
+    for r in props.get("reacts") or []: add(r["at"], "swish")
     c = props["cta"]; add(c["start"] - 0.1, "whoosh"); add(c["line1_at"], "pop"); add(c.get("line2_at"), "pop")
-    add(props["endcard"]["at"], "ding")
-    return sorted(set(H))
+    add(props["endcard"]["at"], "chime")
+    # never two hits on the same frame: keep the stronger one
+    rank = {"impact": 9, "flash": 8, "thud": 7, "whoomp": 6, "riser": 5, "chime": 5, "ding": 4, "zap": 4, "click": 4, "toggle": 4, "drop": 4,
+            "whoosh": 3, "glitch": 3, "pop": 3, "rattle": 3, "swish": 2, "key": 2, "tick": 1, "blip": 0}
+    out = {}
+    for t, k in H:
+        fr = round(t * 30)
+        if fr not in out or rank.get(k, 1) > rank.get(out[fr][1], 1): out[fr] = (t, k)
+    return sorted(out.values())
 
 
 # ------------------------------------------------------------------ render
@@ -294,9 +334,32 @@ def _npm_ready():
         subprocess.run(["npm", "ci", "--no-audit", "--no-fund"], cwd=RDIR, check=True)
 
 
+IDENT_DUR = 1.5
+
+
+def add_ident(plan, words, duration, voice_mp3, workdir, episode=None):
+    """Series ident after the hook sentence (learned from samjho.exe): the voice pauses, the logo types itself in with a
+    click per letter + chime, a loading bar fills, a gold wipe takes it away. Returns shifted words/duration/voice."""
+    if plan.get("ident") is False or os.environ.get("IDENT") == "0": return words, duration, voice_mp3
+    end = next((e for w, s, e in words if w.rstrip('"”').endswith((".", "?", "!"))), None)
+    if end is None or end > 9.0 or end < 1.5: return words, duration, voice_mp3
+    cut = end + 0.06
+    out = str(Path(workdir) / "voice_ident.mp3")
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", voice_mp3, "-filter_complex",
+                    f"[0]atrim=end={cut:.3f},asetpts=N/SR/TB[a];[0]atrim=start={cut:.3f},asetpts=N/SR/TB[b];"
+                    f"aevalsrc=0:d={IDENT_DUR}:s=44100[z];[a]aresample=44100[a2];[b]aresample=44100[b2];[a2][z][b2]concat=n=3:v=0:a=1",
+                    "-ar", "44100", out], check=True)
+    sh = [(w, s + (IDENT_DUR if s >= cut else 0), e + (IDENT_DUR if s >= cut else 0)) for w, s, e in words]
+    tag = (plan.get("tag") or "").upper()[:22]
+    plan["_ident"] = {"at": round(cut, 3), "dur": IDENT_DUR, "title": SERIES, "type": 0.42,
+                      "sub": (f"EP {int(episode):02d} · " if episode else "") + (tag or "AI HACKS")}
+    return sh, duration + IDENT_DUR, out
+
+
 def render(plan, words, duration, voice_mp3, out_path, workdir, episode=None):
     import shutil
     run_id = Path(out_path).stem
+    words, duration, voice_mp3 = add_ident(plan, words, duration, voice_mp3, workdir, episode)
     props = build_props(plan, words, duration, episode, run_id=run_id)
     pj = Path(workdir) / "props.json"; pj.write_text(json.dumps(props, ensure_ascii=False))
     _npm_ready()

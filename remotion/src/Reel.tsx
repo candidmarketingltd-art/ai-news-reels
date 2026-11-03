@@ -5,12 +5,13 @@ import { SPECS, El, W, MoneyRain } from "./Elements";
 import { FullFootage } from "./Screen";
 
 export type Word = { t: string; k: boolean; s: number; e: number };
-export type SceneT = { start: number; end: number; tint?: string; elements: El[] };
+export type SceneT = { start: number; end: number; tint?: string; elements: El[]; trans?: string };
 export type ReelProps = {
   duration: number; badge: string; glyph?: string; tag: string; handle: string; disclaimer?: string;
   words: Word[]; chunks: number[][]; scenes: SceneT[];
   reacts: { at: number; until: number; pose: string }[];
   beats?: number[];
+  ident?: { at: number; dur: number; title: string; sub: string; type: number } | null;
   cta: { start: number; line1: string; line1_at: number; line2?: string; line2_at?: number };
   endcard: { at: number; title: string; terminal: string };
 };
@@ -234,6 +235,53 @@ const punch = (f: number, at: number, amp: number, len = 10) => {
   const d = f - fx(at);
   return d < 0 || d > len ? 0 : amp * Math.pow(1 - d / len, 2);
 };
+/* scene transitions: white flash frame / gold wipe / zoom-through (sounds are placed on the same frames) */
+const Transitions: React.FC<{ scenes: SceneT[] }> = ({ scenes }) => {
+  const f = useCurrentFrame();
+  return (
+    <>
+      {scenes.slice(1).map((s, i) => {
+        const d = f - fx(s.start);
+        if (s.trans === "flash" && d >= -1 && d <= 4)
+          return <AbsoluteFill key={i} style={{ background: "#FFF8E6", opacity: interpolate(d, [-1, 0, 4], [0.35, 0.9, 0], clamp) }} />;
+        if (s.trans === "wipe" && d >= -6 && d <= 6) {
+          const x = interpolate(d, [-6, 6], [-1250, 1250], { ...clamp, easing: Easing.inOut(Easing.cubic) });
+          return <div key={i} style={{ position: "absolute", top: 0, bottom: 0, left: x - 200, width: 1280, background: COL.gold, transform: "skewX(-12deg)", boxShadow: `0 0 80px ${COL.gold}` }} />;
+        }
+        return null;
+      })}
+    </>
+  );
+};
+
+/* series ident after the hook: logo types in (one click per letter), a sub-line types, a loading bar fills, gold wipe out */
+const Ident: React.FC<{ d: NonNullable<ReelProps["ident"]>; handle: string }> = ({ d }) => {
+  const f = useCurrentFrame();
+  const t = f / FPS - d.at;
+  if (t < -0.05 || t > d.dur + 0.05) return null;
+  const n = Math.floor(interpolate(t, [0.12, 0.12 + d.type], [0, d.title.length], clamp));
+  const m = Math.floor(interpolate(t, [0.25 + d.type, 0.25 + d.type + d.sub.length * 0.02], [0, d.sub.length], clamp));
+  const bar = interpolate(t, [0.55 + d.type, d.dur - 0.25], [0, 1], { ...clamp, easing: easeOut });
+  const out = interpolate(t, [d.dur - 0.22, d.dur], [-1250, 1250], clamp);
+  const sc = 1 + 0.04 * interpolate(t, [0, d.dur], [0, 1], clamp);
+  return (
+    <AbsoluteFill style={{ background: "#08080A" }}>
+      <AbsoluteFill style={{ background: `radial-gradient(ellipse 60% 30% at 50% 45%, ${COL.gold}22, transparent 70%)` }} />
+      <div style={{ position: "absolute", left: 0, right: 0, top: 760, display: "flex", flexDirection: "column", alignItems: "center", gap: 26, scale: `${sc}` }}>
+        <div style={{ font: `900 132px ${SANS}`, color: COL.txt, letterSpacing: -5, whiteSpace: "pre" }}>
+          {d.title.slice(0, n).split("").map((ch, i) => <span key={i} style={{ color: i >= d.title.length - 5 ? COL.gold : COL.txt }}>{ch}</span>)}
+          <span style={{ color: COL.gold, opacity: f % 14 < 7 ? 1 : 0 }}>_</span>
+        </div>
+        <div style={{ font: `800 34px ${MONO}`, color: COL.green, letterSpacing: 6, height: 40 }}>{"> " + d.sub.slice(0, m)}</div>
+        <div style={{ width: 520, height: 14, borderRadius: 7, background: "#1E1F23", overflow: "hidden" }}>
+          <div style={{ width: `${bar * 100}%`, height: "100%", background: `repeating-linear-gradient(90deg, ${COL.gold} 0 18px, #C99B2E 18px 26px)`, boxShadow: `0 0 20px ${COL.gold}` }} />
+        </div>
+      </div>
+      {t > d.dur - 0.25 && <div style={{ position: "absolute", top: 0, bottom: 0, left: out - 200, width: 1280, background: COL.gold, transform: "skewX(-12deg)" }} />}
+    </AbsoluteFill>
+  );
+};
+
 const Sweep: React.FC<{ beats: number[] }> = ({ beats }) => {
   const f = useCurrentFrame();
   const b = beats.find((t) => f >= fx(t) && f < fx(t) + 14);
@@ -247,7 +295,9 @@ export const Reel: React.FC<ReelProps> = (p) => {
   const fade = interpolate(f, [fx(p.duration + 2.4), fx(p.duration + 2.9)], [0, 1], clamp);
   const beats = p.beats || [];
   const hook = interpolate(f, [0, 12], [0.14, 0], { ...clamp, easing: easeOut });          // frame 1 lands zoomed-in and settles
-  const cam = 1 + hook + p.scenes.slice(1).reduce((a, s) => a + punch(f, s.start, 0.045, 9), 0) + beats.reduce((a, b) => a + punch(f, b, 0.035, 10), 0);
+  // zoom-through: the outgoing scene rushes toward the camera, the new one lands from a slight zoom; other cuts get a punch-in
+  const zoomIn = p.scenes.slice(1).reduce((a, s) => a + (s.trans === "zoom" ? interpolate(f, [fx(s.start) - 8, fx(s.start)], [0, 0.45], { ...clamp, easing: Easing.in(Easing.cubic) }) * (f < fx(s.start) ? 1 : 0) : 0), 0);
+  const cam = 1 + hook + zoomIn + p.scenes.slice(1).reduce((a, s) => a + punch(f, s.start, s.trans === "zoom" ? 0.12 : 0.045, s.trans === "zoom" ? 12 : 9), 0) + beats.reduce((a, b) => a + punch(f, b, 0.035, 10), 0);
   const flash = interpolate(f, [1, 2, 7], [0, 0.4, 0], clamp);   // frame 0 stays clean (it can be the cover)
   return (
     <AbsoluteFill style={{ background: COL.bg, overflow: "hidden" }}>
@@ -256,12 +306,14 @@ export const Reel: React.FC<ReelProps> = (p) => {
       {p.scenes.map((s, i) => <Scene key={i} s={s} i={i} />)}
       </AbsoluteFill>
       <Sweep beats={beats} />
+      <Transitions scenes={p.scenes} />
       {flash > 0 && <AbsoluteFill style={{ background: "#FFF6DD", opacity: flash }} />}
       <Cta c={p.cta} end={p.endcard.at} />
       <EndCard e={p.endcard} handle={p.handle} />
       <Mascot reacts={p.reacts} words={p.words} />
       <Captions words={p.words} chunks={p.chunks} />
       <Chrome p={p} />
+      {p.ident && <Ident d={p.ident} handle={p.handle} />}
       <AbsoluteFill style={{ background: COL.bg, opacity: fade }} />
     </AbsoluteFill>
   );

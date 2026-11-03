@@ -17,6 +17,11 @@ A Remotion renderer turns your JSON into a 1080x1920 reel in a fixed house style
    Long sentences need 2–3 beats inside them. A prompt typing itself counts while it types.
    (The renderer also adds a camera punch + whoosh on every scene cut and a hit on frame 1 — design for those beats.)
 
+3. SOUND IS PART OF THE EDIT: every element you place gets its own sound on its exact frame (pop, zap, typing clicks, mouse
+   clicks, chimes, whooshes, impacts) — so more well-timed beats = a richer, more addictive soundtrack. Aim for a new beat every
+   1.5–3 s. Scene cuts alternate flash / gold wipe / zoom-through / punch automatically (set "trans" on a scene to choose).
+   A 1.5 s series ident ("AI HACKS" typing in) plays automatically right after the hook sentence — make the hook one sentence.
+
 ## Editing principles (this is what makes the series feel premium)
 - Something new lands every 1.5–4 seconds. A scene usually builds 2–4 elements one after another, each on its own spoken word.
 - SHOW, DON'T LIST — think like a tutorial editor: what would make a viewer instantly "get it"? Whenever the voice walks through
@@ -125,7 +130,10 @@ General elements:
 - `strike_list` {items: [{text, at, strike?: true|false}] (max 4)}: ✕ + strike-through for wrong ways; strike:false shows ✓.
 - `split_bar` {parts: [{label, value: number, text?, color?, at}] (2–4 parts)}: proportions (where your time goes).
 - `title_slam` {text, sub?, color?}: giant word with a screen shake (e.g. "STOP", "FREE", "WRONG").
-- `illustration` {name, size?: "m"|"l", caption?, glow?}: one big 3D illustration.
+- `illustration` {name, size?: "m"|"l", caption?, glow?, act?: "shake"|"drop"|"spin"|"burst"|"pulse", act_at?}: one big 3D
+  illustration that can ACT OUT the story at `act_at`: shake (alarm, problem, "it's broken"), drop (falls in and lands — "here's
+  the tool"), spin (transform / switch), burst (explodes into pieces — "gone", "deleted", "split"), pulse (heartbeat — "this matters").
+  Top explainer reels open with an object acting out the hook (a padlock snapping open = "hacked"): use objects as metaphors.
 Layout is automatic: elements stack top to bottom in the order you list them; keep a scene to what fits (roughly ≤ 3 big elements;
 a `prompt` or `before_after` usually wants to be alone or with one small label/pill).
 

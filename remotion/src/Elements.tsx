@@ -41,6 +41,31 @@ const StatCard: React.FC<{ c: any; w: number; h: number }> = ({ c, w, h }) => {
   );
 };
 
+/* object actions: the 3D illustration acts out the story (shake = alarm/problem, drop = falls and lands, spin = transform,
+   burst = explodes into pieces with sparks, pulse = heartbeat glow) */
+const Act: React.FC<{ e: El; children: React.ReactNode }> = ({ e, children }) => {
+  const f = useCurrentFrame();
+  const a = e.act, t0 = fx(e.act_at ?? e.at + 0.6), d = f - t0;
+  if (!a || d < 0) return <>{children}</>;
+  let st: React.CSSProperties = {};
+  if (a === "shake") { const k = Math.max(0, 1 - d / 18); st = { translate: `${Math.sin(d * 2.2) * 22 * k}px 0px`, rotate: `${Math.sin(d * 1.7) * 8 * k}deg` }; }
+  if (a === "drop") { const y = interpolate(d, [0, 9], [-420, 0], { ...clamp, easing: Easing.in(Easing.quad) }); const sq = d > 9 && d < 16 ? Math.sin((d - 9) / 7 * Math.PI) * 0.12 : 0; st = { translate: `0px ${y}px`, scale: `${1 + sq} ${1 - sq}`, transformOrigin: "50% 100%" }; }
+  if (a === "spin") { st = { rotate: `${interpolate(d, [0, 14], [0, 360], { ...clamp, easing: Easing.inOut(Easing.cubic) })}deg` }; }
+  if (a === "pulse") { st = { scale: `${1 + 0.12 * Math.max(0, Math.sin(d / 4)) * Math.max(0, 1 - d / 40)}` }; }
+  if (a === "burst") {
+    const k = interpolate(d, [0, 14], [0, 1], { ...clamp, easing: easeOut });
+    return (
+      <div style={{ position: "relative" }}>
+        <div style={{ opacity: 1 - k, scale: `${1 + 0.4 * k}` }}>{children}</div>
+        {Array.from({ length: 14 }).map((_, i) => { const ang = (i / 14) * Math.PI * 2 + random(`b${i}`) * 0.5, r = k * (180 + random(`r${i}`) * 160);
+          return <div key={i} style={{ position: "absolute", left: "50%", top: "50%", width: 14 + random(`s${i}`) * 18, height: 14 + random(`s${i}`) * 18, borderRadius: 4,
+            background: i % 3 ? COL.gold : COL.txt, opacity: 1 - k * 0.8, translate: `${Math.cos(ang) * r}px ${Math.sin(ang) * r}px`, rotate: `${k * 400 * (random(`q${i}`) - 0.5)}deg`, boxShadow: `0 0 16px ${COL.gold}` }} />; })}
+      </div>
+    );
+  }
+  return <div style={st}>{children}</div>;
+};
+
 /* -------------------------------------------------------------- elements: { height, render } */
 type Spec = { h: (e: El) => number; R: React.FC<{ e: El }> };
 
@@ -310,7 +335,7 @@ export const SPECS: Record<string, Spec> = {
       <div style={{ width: W, display: "flex", flexDirection: "column", alignItems: "center" }}>
         <div style={{ position: "relative" }}>
           <div style={{ position: "absolute", inset: "10%", borderRadius: "50%", background: `radial-gradient(closest-side, ${col(e.glow, COL.gold)}40, transparent)`, scale: "1.6" }} />
-          <Ill name={e.name} size={e.size === "l" ? 400 : 280} at={e.at} />
+          <Act e={e}><Ill name={e.name} size={e.size === "l" ? 400 : 280} at={e.at} /></Act>
         </div>
         {e.caption && <Mono s={fit(e.caption, 900, 34, 0.66)} c={COL.txt} w={800} style={{ marginTop: 16 }}>{e.caption}</Mono>}
       </div>
