@@ -67,6 +67,22 @@ def cached_voice(text, mp3):
         print("      voice: reused the recorded voiceover", flush=True)
         return [tuple(w) for w in d["words"]], d["model"] + " (cached)"
     words, model = voice.synthesize(text, mp3)
+    # listen back: re-record once if words came out wrong (e.g. "run" sounding like "ran"), keep the cleaner take
+    try:
+        from pipeline import voice_qa
+        bad, _ = voice_qa.check(mp3, text)
+        if bad:
+            print(f"      voice check: {len(bad)} word(s) misheard {bad[:5]} -> recording another take", flush=True)
+            alt = mp3[:-4] + "_take2.mp3"
+            w2, m2 = voice.synthesize(text, alt)
+            bad2, _ = voice_qa.check(alt, text)
+            print(f"      take 2: {len(bad2)} misheard {bad2[:5]}", flush=True)
+            if len(bad2) < len(bad):
+                shutil.copyfile(alt, mp3); words, model = w2, m2
+        else:
+            print("      voice check: every word heard as written", flush=True)
+    except Exception as e:
+        print(f"      (voice check skipped: {str(e)[:150]})", flush=True)
     try:
         VOICE_CACHE.mkdir(parents=True, exist_ok=True); shutil.copyfile(mp3, a)
         j.write_text(json.dumps({"words": words, "model": model}))
