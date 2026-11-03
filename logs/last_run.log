@@ -10,28 +10,27 @@ window 2026-11-03-2000 | posting times 13:00, 20:00 IST | dry_run=True
 [1/6] top AI & tech reels
       reel pool: 80 reels (cached today)
 [2/6] picking the topic
-      → Check whether your Claude chats can be found on Google, and lock them down: review shared chat links and published artifacts, delete or unshare them, and check the memory and privacy settings  (warning, from @marcus_lagrone, 187,375 views) — 187k views and 741 comments in 11 days, a high comment-to-view ratio for a privacy warning. The creator's comment-for-guide hook shows people want the steps. Th
-[3/6] research (135 transcript words)
-      web research unavailable (Expecting ',' delimiter: line 1 column 11253 (char 11252)); using the transcript only, conservatively
-      verdict adjust · 0 web searches · 0 steps · 0 sources
+      → Run a free AI model offline on your own computer with LM Studio or Ollama: install it, download a small model that fits your RAM, and chat with no subscription, no API key and no internet. Also show which model size suits an 8GB, 16GB or 32GB machine.  (tutorial, from @ghourithinks, 559,157 views) — 559k views and 20,745 comments, a comment-to-view ratio of about 3.7%, the highest of any pick on the list. 'Free, offline, no subscription' is a strong hook. O
+[3/6] research (257 transcript words)
+      verdict adjust · 6 web searches · 9 steps · 12 sources
 [4/6] script + edit
-      (media: https://claude.ai/ -> 403 Client Error: Forbidden for url: https://claude.ai/login)
-      media: s1_logo, s1_broll1, s1_broll2
+      media: s1_image, s1_logo, s1_broll1, s1_broll2
 [5/6] voice + render
       [eleven] workspace voices: Rohan (IcsYcP26eMwajlgx2SDe, cloned)
       [eleven] using Rohan (IcsYcP26eMwajlgx2SDe)
-      [eleven] subscription: 200 {"tier":"starter","character_count":28157,"character_limit":40000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796033014,"voice_slots_used":1,"professional_voice_slots_
+      [eleven] subscription: 200 {"tier":"starter","character_count":29827,"character_limit":40000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796033014,"voice_slots_used":1,"professional_voice_slots_
       [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
-      148 words, 52.0s, voice eleven_v4
-      remotion: Reel /tmp/tmp88zfxw9w/video_only.mp4
-DRY RUN — reel at /home/runner/work/ai-news-reels/ai-news-reels/out/2026-11-03_2350.mp4
+      164 words, 69.4s, voice eleven_v4
+      remotion: Reel /tmp/tmp5rklq3x9/video_only.mp4
+DRY RUN — reel at /home/runner/work/ai-news-reels/ai-news-reels/out/2026-11-04_0029.mp4
 --- caption ---
-Your Claude chats might be public, and you'd never know. 🔒
-✅ Settings → Privacy: review shared chats, delete or unshare
-✅ Check artifacts: unpublish or make private
-✅ Open memory settings: delete anything sensitive
-When did you last check your shared links? Tell me below 👇
+You can run a free AI on your laptop, completely offline. 🔒
+✅ Install LM Studio from lmstudio.ai/download
+✅ Discover tab → pick Q4_K_M → Download
+✅ Chat tab → Select a model to load → type
+✅ 8GB ≈ 4B models, 16GB ≈ 7–9B, 32GB up to ~27B
+Which model are you trying first? 👇
 Save this for later
 Follow @ihackgrowth for daily AI & tech hacks
 
-#AItools #AIhacks #Claude #Anthropic #privacy #cybersecurity #datasecurity #productivity
+#AItools #AIhacks #LMStudio #Ollama #LocalAI #OpenSource #Privacy #productivity
