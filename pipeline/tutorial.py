@@ -24,7 +24,15 @@ ACCOUNTS = [a.strip().lstrip("@") for a in (os.environ.get("IG_SOURCE_ACCOUNTS")
 PER_TAG = int(os.environ.get("REELS_PER_TAG") or 20)
 AUTO_ACCOUNTS = int(os.environ.get("AUTO_ACCOUNTS") or 6)
 RESEARCH_MODEL = os.environ.get("RESEARCH_MODEL") or SCRIPT_MODEL
-MAX_WORDS = int(os.environ.get("MAX_WORDS_TUTORIAL") or 165)
+MAX_WORDS = int(os.environ.get("MAX_WORDS_TUTORIAL") or 170)
+MAX_WORDS_STORY = int(os.environ.get("MAX_WORDS_STORY") or 235)
+SIGNOFF = os.environ.get("SIGNOFF") or "Hack saved?"
+LANGUAGE = (os.environ.get("LANGUAGE") or "english").lower()
+HINGLISH = """## LANGUAGE: HINGLISH (for an Indian audience)
+Write the voiceover in natural spoken Hinglish, the way Indian tech creators talk: Hindi grammar and flow in DEVANAGARI script,
+with English tech words kept in English (ChatGPT, settings, prompt, password, app, link, privacy…). Example:
+"[conversational] आपका ChatGPT आपके बारे में आपकी family से ज़्यादा जानता है।" — numbers as Western digits (10, 2,000, 30%).
+Keep the same structure and the sign-off line exactly as given. ig_caption in Roman Hinglish."""
 
 
 # ---------------------------------------------------------------------------------- 1) the pool of top reels
@@ -188,15 +196,30 @@ def _spoken_text(vo):
     return re.sub(r"\s+", " ", re.sub(r"\[[^\]]*\]", " ", vo)).strip()
 
 
-def check_script(d, sources):
+def check_script(d, sources, story=False):
     vo = d.get("voiceover") or ""
     if not vo: raise ValueError("missing 'voiceover'")
     first = re.split(r"(?<=[.!?])\s", _spoken_text(vo))[0]
     if HOOK_BANNED.search(first): raise ValueError(f"the hook starts with a banned opener ('{first[:40]}…'); open with the pain, mistake or claim")
     if len(first.split()) > 16: raise ValueError(f"the hook (first sentence) is {len(first.split())} words; keep it ≤ 14")
-    n = len(_spoken_text(vo).split())
-    if n > MAX_WORDS: raise ValueError(f"the voiceover is {n} words; keep it under {MAX_WORDS} (cut the weakest line)")
-    if n < 90: raise ValueError(f"the voiceover is only {n} words; aim for 120–160")
+    n = len(_spoken_text(vo).split()); top = MAX_WORDS_STORY if story else MAX_WORDS
+    if n > top: raise ValueError(f"the voiceover is {n} words; keep it under {top} (cut the weakest line)")
+    if n < 90: raise ValueError(f"the voiceover is only {n} words; aim for {'170–220' if story else '120–160'}")
+    spoken = _spoken_text(vo); low = lambda x: re.sub(r"[^\w\s]", "", x).lower().split()
+    if not low(spoken)[-6:] or low(SIGNOFF) != low(spoken)[-len(low(SIGNOFF)):]:
+        raise ValueError(f"the voiceover must end with the sign-off, exactly: \"{SIGNOFF}\"")
+    ol = d.get("open_loop") or {}
+    words = low(spoken); W = len(words)
+    def pos(ph):
+        t = low(ph or "")
+        if not t: return None
+        for i in range(W - len(t) + 1):
+            if words[i:i + len(t)] == t: return i
+        return None
+    a, b = pos(ol.get("setup")), pos(ol.get("payoff"))
+    if a is None or b is None: raise ValueError("`open_loop.setup` and `open_loop.payoff` must be sentences copied exactly from the voiceover")
+    if a > 0.3 * W: raise ValueError("the open loop must be set up within the first ~10 seconds (first 30% of the words)")
+    if b < 0.6 * W: raise ValueError("the open loop must pay off near the end (last ~35% of the words)")
     if re.search(r"\b(dm (you|me)|i'?ll (send|dm)|link in (my )?bio)\b", vo, re.I): raise ValueError("don't promise DMs/links")
     fact_check(vo, sources)
 
@@ -211,7 +234,7 @@ def fact_check(text, sources):
 TYPES = {"pill": ["text"], "label": ["text"], "headline": ["text"], "stat_row": ["cards"], "big_number": ["value"], "split_bar": ["parts"],
          "vs": ["left", "right"], "arrow_pair": ["left", "right"], "strike_list": ["items"], "steps": ["items"], "title_slam": ["text"],
          "illustration": ["name"], "prompt": ["text"], "keys": ["keys"], "toggle": ["text"], "app": ["name"], "before_after": ["left", "right"],
-         "screen": ["steps"], "footage": ["media"]}
+         "screen": ["steps"], "footage": ["media"], "object3d": ["kind"], "pile": ["count"]}
 
 VIEW_LABELS = lambda v: ([*(v.get("sidebar") or [])] + list(v.get("input_buttons") or []) + list(v.get("top_buttons") or []) + ([v["profile"]] if v.get("profile") else []) + (["input"] if "input" in v else [])
                          + list((v.get("menu") or {}).get("items") or []) + list((v.get("panel") or {}).get("nav") or [])
@@ -265,6 +288,8 @@ def _catalog():
     return json.loads((ROOT / "remotion" / "illustrations.json").read_text())
 
 
+OBJECT_KINDS = ["padlock", "phone", "laptop", "envelope", "shield", "key", "bulb", "clock", "coin", "coins", "jar", "box"]
+MOODS = ["suspense", "upbeat", "groove", "warning", "chill"]
 MAX_GAP_WORDS = int(os.environ.get("MAX_GAP_WORDS") or 9)   # ~3 seconds of speech
 
 
@@ -335,6 +360,9 @@ def check_plan(d, voiceover, sources, media_ids=(), pacing=True):
             if t == "keys" and not (isinstance(e.get("keys"), list) and 1 <= len(e["keys"]) <= 4): bad.append("keys needs 1–4 keys")
             if t == "prompt" and len(e.get("text", "")) > 120: bad.append("prompt text must be ≤ 120 characters")
             if t == "screen": check_screen(e, bad)
+            if t == "object3d" and e.get("kind") not in OBJECT_KINDS: bad.append(f"object3d.kind must be one of {', '.join(OBJECT_KINDS)}")
+            if t == "object3d" and e.get("act") and e["act"] not in ("open", "buzz", "glow", "spin", "fill", "burst", "tick"): bad.append("object3d.act must be open/buzz/glow/spin/fill/burst/tick")
+            if t == "pile" and e.get("ill") and e["ill"] not in cat: bad.append(f"pile.ill '{e.get('ill')}' is not in the illustration list")
             if t == "footage" and e.get("media") not in media_ids:
                 bad.append(f"footage media '{e.get('media')}' is not in AVAILABLE MEDIA ({', '.join(media_ids) or 'none'})")
 
@@ -346,8 +374,10 @@ def check_plan(d, voiceover, sources, media_ids=(), pacing=True):
             elif isinstance(o, list):
                 for x in o: walk(x)
         walk(sc.get("elements", []))
+    if d.get("music") not in MOODS: bad.append(f"`music` must be one of {', '.join(MOODS)}")
+    if not isinstance(d.get("hud"), dict) or not d["hud"].get("items"): bad.append("missing `hud` (the live top-bar counter)")
     if bad: raise ValueError("; ".join(dict.fromkeys(bad))[:900])
-    _check_cues({"scenes": d["scenes"], "cold_open": [d["cta"]]}, voiceover)
+    _check_cues({"scenes": d["scenes"], "cold_open": [d["cta"], *[i for i in (d.get("hud") or {}).get("items", []) if i.get("at")]]}, voiceover)
     if pacing: check_pacing(d, voiceover, media_ids)
     # screen mock-ups carry decorative UI text (dates, file names); only the rest of the edit is fact-checked
     no_views = [{**sc, "elements": [({**{k: v for k, v in e.items() if k != "url"}, "steps": [{k: v for k, v in st.items() if k != "view"} for st in e.get("steps") or []]} if e.get("type") == "screen" else e)
@@ -365,13 +395,18 @@ def lessons():
 
 def write(p, item, notes, tr):
     sources = notes_text(notes, item, tr)
-    sysp = (ROOT / "prompts" / "tutorial_writer.md").read_text(encoding="utf-8").replace("{HANDLE}", HANDLE) + lessons()
+    story = p.get("format") == "story"
+    sysp = (ROOT / "prompts" / "tutorial_writer.md").read_text(encoding="utf-8").replace("{HANDLE}", HANDLE) \
+        .replace("{SIGNOFF}", SIGNOFF).replace("{LANGUAGE}", HINGLISH if LANGUAGE == "hinglish" else "") \
+        .replace("{LENGTH}", "STORY reel: 70–90 seconds; 170–220 words — hard limit 235" if story else "45–60 seconds; 120–160 words — hard limit 170") \
+        .replace("{STORY}", "\nSTORY FORMAT: tell it as a narrative with stakes — what happened, how it unfolded (2–4 beats with numbers), "
+                 "what it means for the viewer, what to do. Still conversational, still every fact from the notes.\n" if story else "") + lessons()
     user = (f"TOPIC: {p['topic']}\nTOOL: {notes.get('tool') or p.get('tool', '')}\nFORMAT: {p.get('format', 'tutorial')}\n"
             f"ANGLE (use it or improve it; negative is fine if TRUE): {p.get('angle', '')}\n\n"
             f"RESEARCH NOTES (the only facts, steps and numbers you may use):\n{sources}\n\n"
             f"FOR INSPIRATION ONLY — the popular reel's transcript (don't copy its wording; don't trust facts that aren't in the notes):\n"
             f"{(tr or item['caption'])[:2500]}\n\nReturn only the JSON.")
-    return _ask_json(SCRIPT_MODEL, sysp, user, lambda d: check_script(d, sources)), sources
+    return _ask_json(SCRIPT_MODEL, sysp, user, lambda d: check_script(d, sources, story)), sources
 
 
 def footage(script, notes, workdir, extra=()):
@@ -403,10 +438,20 @@ def edit(script, p, sources, notes=None, media=(), note=""):
     user = (f"REEL TOPIC: {p['topic']} (tool: {p.get('tool', '')})\n\nUI NOTES (for screen recreations): {ui}\n"
             f"WHAT THE VIEWER SHOULD SEE: {(notes or {}).get('visuals', '')}\n\nAVAILABLE MEDIA:\n{menu}\n\n"
             f"{note}VOICEOVER (already recorded — cue words must match it exactly):\n{script['voiceover']}\n\nReturn only the JSON.")
+    if LANGUAGE == "hinglish":
+        from pipeline.render.remo import spoken_tokens
+        spoken = spoken_tokens(script["voiceover"])
+        user += ("\n\nHINGLISH CAPTIONS: the voiceover is in Devanagari Hinglish. Add `captions`: an array with EXACTLY one Roman-Hinglish "
+                 f"token per spoken word below ({len(spoken)} words), same order, written the way Indians type Hinglish (\"aapka\", \"settings\", "
+                 "\"zyada\"); keep English words in English and keep each word's punctuation; prefix the 1–2 key words of each sentence with *. "
+                 "All `at` cues stay in Devanagari exactly as in the voiceover; on-screen text (cards, pills) in Roman Hinglish or English.\n"
+                 + "\n".join(f"{i + 1}. {w}" for i, w in enumerate(spoken)))
     tries = {"n": 0}
 
     def check(d):   # retention rules are enforced for 3 tries; after that the renderer's keep-alive beats cover any gap
         tries["n"] += 1
+        if LANGUAGE == "hinglish" and len(d.get("captions") or []) != len(spoken):
+            raise ValueError(f"`captions` has {len(d.get('captions') or [])} tokens but the voiceover has {len(spoken)} spoken words — one Roman token per numbered word")
         check_plan(d, script["voiceover"], sources, ids, pacing=tries["n"] <= 3)
     return _ask_json(EDIT_MODEL, sysp, user, check, attempts=5)
 

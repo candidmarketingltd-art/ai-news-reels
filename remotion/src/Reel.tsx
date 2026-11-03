@@ -12,6 +12,7 @@ export type ReelProps = {
   reacts: { at: number; until: number; pose: string }[];
   beats?: number[];
   ident?: { at: number; dur: number; title: string; sub: string; type: number } | null;
+  hud?: { label: string; items: { at: number; value: string; color?: string }[] } | null;
   cta: { start: number; line1: string; line1_at: number; line2?: string; line2_at?: number };
   endcard: { at: number; title: string; terminal: string };
 };
@@ -282,6 +283,29 @@ const Ident: React.FC<{ d: NonNullable<ReelProps["ident"]>; handle: string }> = 
   );
 };
 
+/* persistent top bar (learned from top explainers): a live clock + a counter that updates as the story moves */
+const Hud: React.FC<{ h: NonNullable<ReelProps["hud"]> }> = ({ h }) => {
+  const f = useCurrentFrame();
+  const t = f / FPS;
+  const cur = [...h.items].reverse().find((i) => t >= i.at) ?? h.items[0];
+  const since = cur ? f - fx(cur.at) : 99;
+  const pop = since >= 0 && since < 10 ? 1 + 0.18 * (1 - since / 10) : 1;
+  const sec = Math.floor(t), clock = `00:${String(Math.floor(sec / 60)).padStart(2, "0")}:${String(sec % 60).padStart(2, "0")}`;
+  const inn = interpolate(f, [4, 14], [0, 1], clamp);
+  const c = cur?.color === "red" ? COL.red : cur?.color === "green" ? COL.green : COL.gold;
+  return (
+    <div style={{ position: "absolute", left: 40, right: 40, top: 134, height: 46, display: "flex", alignItems: "center", justifyContent: "space-between", opacity: inn }}>
+      <div style={{ display: "flex", alignItems: "center", gap: 10, font: `700 20px ${MONO}`, color: COL.mute, letterSpacing: 2 }}>
+        <span style={{ width: 10, height: 10, borderRadius: 5, background: COL.red, opacity: f % 30 < 18 ? 1 : 0.25, boxShadow: `0 0 10px ${COL.red}` }} />LIVE {clock}
+      </div>
+      <div style={{ display: "flex", alignItems: "center", gap: 12, padding: "6px 16px", borderRadius: 12, background: "#121316", border: `2px solid ${c}55` }}>
+        <span style={{ font: `700 18px ${MONO}`, color: COL.mute, letterSpacing: 2 }}>{h.label}</span>
+        <span style={{ font: `900 26px ${SANS}`, color: c, scale: `${pop}`, display: "inline-block", textShadow: `0 0 14px ${c}88` }}>{cur?.value}</span>
+      </div>
+    </div>
+  );
+};
+
 const Sweep: React.FC<{ beats: number[] }> = ({ beats }) => {
   const f = useCurrentFrame();
   const b = beats.find((t) => f >= fx(t) && f < fx(t) + 14);
@@ -313,6 +337,7 @@ export const Reel: React.FC<ReelProps> = (p) => {
       <Mascot reacts={p.reacts} words={p.words} />
       <Captions words={p.words} chunks={p.chunks} />
       <Chrome p={p} />
+      {p.hud && p.hud.items?.length > 0 && <Hud h={p.hud} />}
       {p.ident && <Ident d={p.ident} handle={p.handle} />}
       <AbsoluteFill style={{ background: COL.bg, opacity: fade }} />
     </AbsoluteFill>

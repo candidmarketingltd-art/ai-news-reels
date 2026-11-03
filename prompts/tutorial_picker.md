@@ -21,6 +21,8 @@ TOPIC and make our own, better version.
 
 ## Output — return ONLY a JSON object, no markdown fence:
 `{"picks": [ {"index": <number from the list>, "topic": "what our reel teaches, one line", "tool": "main tool/app/feature",
-  "format": "tutorial | tips | mistake | myth | comparison | warning", "angle": "our hook angle in one line (can be negative)",
+  "format": "tutorial | tips | mistake | myth | comparison | warning | story", "angle": "our hook angle in one line (can be negative)",
   "why": "why this will perform, citing the numbers"} , ... ]}`
+Use "story" only for topics that are a real narrative with stakes (a scam, a hack, a leak, a company's mistake, how something
+went wrong) — those reels may run up to ~90 seconds. Everything else is a 45–60 s tutorial.
 Give 3 picks, best first, on 3 DIFFERENT topics.

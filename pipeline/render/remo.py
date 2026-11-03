@@ -19,7 +19,7 @@ FPS = 30
 
 TYPES = {"pill", "label", "headline", "stat_row", "big_number", "split_bar", "dot_grid", "vs", "arrow_pair", "strike_list",
          "steps", "ledger", "calculator", "title_slam", "illustration", "object3d", "money_rain",
-         "prompt", "keys", "toggle", "app", "before_after", "screen", "footage"}
+         "prompt", "keys", "toggle", "app", "before_after", "screen", "footage", "pile"}
 MOODS = {"neutral", "smirk", "shocked", "serious"}
 
 
@@ -133,6 +133,15 @@ def _attach_media(scenes, plan, run_id):
         sc["elements"] = [e for e in sc["elements"] if e.get("type") != "_skip"]
 
 
+def _hud(h, R):
+    if not isinstance(h, dict) or not h.get("items"): return None
+    items, last = [], 0.0
+    for it in h["items"][:8]:
+        t = 0.0 if not items and not it.get("at") else R.t(it.get("at"), last, last + 2)
+        items.append({"at": t, "value": str(it.get("value", ""))[:12], "color": it.get("color")}); last = t
+    return {"label": str(h.get("label", ""))[:18].upper(), "items": items}
+
+
 GAP = float(os.environ.get("MAX_STILL_SECONDS") or 2.8)   # longest stretch allowed without anything new on screen
 
 
@@ -224,7 +233,8 @@ def build_props(plan, words, duration, episode=None, run_id="preview"):
         "beats": [b for b in keepalive_beats(scenes, reacts, cta_start)
                   if not (plan.get("_ident") and plan["_ident"]["at"] - 0.3 <= b <= plan["_ident"]["at"] + plan["_ident"]["dur"] + 0.3)],
         "ident": plan.get("_ident"),
-        "endcard": {"at": end, "title": ec.get("title") or "Saved it?", "terminal": ec.get("terminal") or "> hack.saved · try it today"},
+        "hud": _hud(plan.get("hud"), R),
+        "endcard": {"at": end, "title": ec.get("title") or os.environ.get("SIGNOFF") or "Hack saved?", "terminal": ec.get("terminal") or "> hack.saved · try it today"},
     }
     if R.missing:
         print(f"      warning: {len(R.missing)} cue(s) not found in the voice timing, used defaults: {R.missing[:6]}", flush=True)
@@ -296,7 +306,21 @@ def sfx_hits(props):
                 elif act == "spin": add(aa, "whoosh")
                 elif act == "burst": add(aa, "zap"); add(aa + 0.1, "ding")
                 elif act == "pulse": add(aa, "blip")
-            elif ty == "object3d": add(t - 0.1, "whoosh"); add(t + 0.3, "pop")
+            elif ty == "object3d":
+                add(t - 0.1, "whoosh"); add(t + 0.3, "pop"); act = e.get("act"); aa = e.get("act_at", t + 0.6)
+                if act == "open": add(aa, "click"); add(aa + 0.12, "zap")
+                elif act == "buzz":
+                    for k in range(4): add(aa + k * 0.11, "rattle" if k == 0 else "key")
+                elif act == "glow": add(aa, "chime")
+                elif act == "spin": add(aa, "whoosh")
+                elif act == "burst": add(aa - 0.3, "riser"); add(aa, "impact")
+                elif act == "tick":
+                    for k in range(10): add(aa + k * 0.15, "tick")
+                elif act == "fill":
+                    for k in range(min(18, int(e.get("count") or 30))): add(aa + k * 0.037 + 0.3, "key")
+            elif ty == "pile":
+                for k in range(min(20, int(e.get("count") or 24))): add(t + 0.25 + k * 0.045, "key")
+                add(e.get("value_at", t), "thud"); add(e.get("collapse_at"), "drop")
             elif ty == "money_rain": add(t, "ding")
             elif ty == "prompt":
                 _typing(add, t + 0.15, e.get("text", ""), 0.035, 2.2); add(e.get("send_at"), "click"); add((e.get("send_at") or 0) + 0.06 if e.get("send_at") else None, "zap")
@@ -316,6 +340,8 @@ def sfx_hits(props):
                     if a.get("kind") == "point": add(at, "blip")
                     if a.get("kind") == "type": _typing(add, at + 0.1, a.get("text", ""), 0.04, 2.4)
     for r in props.get("reacts") or []: add(r["at"], "swish")
+    for i, it in enumerate(((props.get("hud") or {}).get("items")) or []):
+        if i: add(it["at"], "blip"); add(it["at"] + 0.05, "tick")
     c = props["cta"]; add(c["start"] - 0.1, "whoosh"); add(c["line1_at"], "pop"); add(c.get("line2_at"), "pop")
     add(props["endcard"]["at"], "chime")
     # never two hits on the same frame: keep the stronger one
@@ -374,7 +400,7 @@ def render(plan, words, duration, voice_mp3, out_path, workdir, episode=None):
         shutil.rmtree(RDIR / "public" / "run" / run_id, ignore_errors=True)
     hits = sfx_hits(props)
     sfx = str(Path(workdir) / "sfx.wav"); audio.build_ui_sfx(hits, duration + 3.0, sfx)
-    audio.mix(vid, voice_mp3, sfx, out_path, workdir, music_start=0.0, music_gain=float(os.environ.get("MUSIC_GAIN") or 0.16), duck_sfx=False, sfx_gain=0.85)
+    audio.mix(vid, voice_mp3, sfx, out_path, workdir, music_start=0.0, music_gain=float(os.environ.get("MUSIC_GAIN") or 0.16), duck_sfx=False, sfx_gain=0.85, music=plan.get("music"))
     return props
 
 

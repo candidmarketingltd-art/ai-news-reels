@@ -342,9 +342,51 @@ export const SPECS: Record<string, Spec> = {
     ),
   },
 
-  object3d: { h: () => 480, R: ({ e }) => centerRow(<div style={{ width: 480, height: 480 }}><Object3D kind={e.kind} at={e.at} size={480} /></div>) },
+  object3d: {
+    h: (e) => (e.size === "l" ? 620 : 480) + (e.caption ? 70 : 0),
+    R: ({ e }) => {
+      const S = e.size === "l" ? 620 : 480;
+      return (
+        <div style={{ width: W, display: "flex", flexDirection: "column", alignItems: "center" }}>
+          <div style={{ position: "relative", width: S, height: S }}>
+            <div style={{ position: "absolute", inset: "12%", borderRadius: "50%", background: `radial-gradient(closest-side, ${col(e.glow, COL.gold)}33, transparent)`, scale: "1.5" }} />
+            <Object3D kind={e.kind} at={e.at} size={S} act={e.act} act_at={e.act_at} count={e.count} />
+          </div>
+          {e.caption && <Reveal at={e.caption_at ?? e.at + 0.4} dy={12} style={{ marginTop: 8 }}><Mono s={fit(e.caption, 900, 36, 0.66)} c={COL.txt} w={800}>{e.caption}</Mono></Reveal>}
+        </div>
+      );
+    },
+  },
 
   money_rain: { h: () => 0, R: () => null },
+
+  /* a big number made physical: N items drop into a glass box (and can collapse out of it) */
+  pile: {
+    h: (e) => 560 + (e.label ? 60 : 0),
+    R: ({ e }) => {
+      const f = useCurrentFrame();
+      const n = Math.max(6, Math.min(40, +e.count || 24)), sz = 74, cols = 8, bw = 700, bh = 430;
+      const gone = e.collapse_at !== undefined ? interpolate(f, [fx(e.collapse_at), fx(e.collapse_at) + 16], [0, 1], { ...clamp, easing: Easing.in(Easing.quad) }) : 0;
+      return (
+        <div style={{ width: W, display: "flex", flexDirection: "column", alignItems: "center", gap: 10 }}>
+          <div style={{ position: "relative", width: bw, height: bh + 90, overflow: "visible" }}>
+            <div style={{ position: "absolute", left: 0, top: 90, width: bw, height: bh, borderRadius: 26, border: "3px solid rgba(190,225,255,.55)", background: "linear-gradient(180deg, rgba(160,210,255,.06), rgba(160,210,255,.14))", boxShadow: "inset 0 0 40px rgba(160,210,255,.15), 0 30px 60px rgba(0,0,0,.5)" }} />
+            {Array.from({ length: n }).map((_, i) => {
+              const t = e.at + 0.05 + i * 0.045;
+              const p = interpolate(f, [fx(t), fx(t) + 8], [0, 1], { ...clamp, easing: Easing.in(Easing.quad) });
+              if (p <= 0) return null;
+              const r = Math.floor(i / cols), c = i % cols;
+              const x = 20 + c * ((bw - 40 - sz) / (cols - 1)) + (r % 2 ? 22 : 0), y = 90 + bh - sz - 14 - r * (sz * 0.72);
+              const fy = -260 + (y + 260) * p + gone * (500 + random(`g${i}`) * 300), fx_ = x + gone * (random(`h${i}`) - 0.5) * 500;
+              return <div key={i} style={{ position: "absolute", left: fx_, top: fy, rotate: `${(random(`r${i}`) - 0.5) * 40 + gone * 200}deg`, opacity: 1 - gone }}><Ill name={e.ill || "coin"} size={sz} at={t} /></div>;
+            })}
+            {e.value && <div style={{ position: "absolute", left: 0, right: 0, top: 0, textAlign: "center" }}><Big s={fit(e.value, 700, 86, 0.6)} c={col(e.color, COL.gold)} at={e.value_at ?? e.at}>{e.value}</Big></div>}
+          </div>
+          {e.label && <Mono s={fit(e.label, 900, 32, 0.66)} c={COL.txt} w={800}>{e.label}</Mono>}
+        </div>
+      );
+    },
+  },
   ...TUTORIAL_SPECS,
   ...SCREEN_SPECS,
 };

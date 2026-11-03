@@ -90,14 +90,20 @@ def theme_path():
     return None
 
 
-def mix(video, voice, sfx, out, workdir, music_start=0.0, music_gain=0.30, duck_sfx=True, sfx_gain=0.9):
+def mood_path(mood):
+    import os
+    p = os.path.join(MUSIC_DIR, f"{mood}.mp3") if mood else None
+    return p if p and os.path.exists(p) else None
+
+
+def mix(video, voice, sfx, out, workdir, music_start=0.0, music_gain=0.30, duck_sfx=True, sfx_gain=0.9, music=None):
     """Voice on top; signature theme (+ sound design when duck_sfx) underneath, ducked whenever Rohan speaks.
     duck_sfx=False keeps UI hits at full level over the voice (Hisaab style)."""
     vo = f"{workdir}/vo_proc.wav"; mixed = f"{workdir}/mix.wav"
     run = lambda *a: subprocess.run(["ffmpeg", "-y", "-v", "error", *a], check=True)
     run("-i", voice, "-af", "aresample=48000,highpass=f=70,acompressor=threshold=-18dB:ratio=3:attack=5:release=80,loudnorm=I=-15:TP=-1.5:LRA=9", "-ar", "48000", vo)
     dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", video], capture_output=True, text=True, check=True).stdout.strip())
-    theme = theme_path()
+    theme = mood_path(music) or theme_path()
     ins = ["-i", vo, "-i", sfx]
     fx = f"[1:a]aresample=48000,volume={sfx_gain}[fx];"
     if theme:

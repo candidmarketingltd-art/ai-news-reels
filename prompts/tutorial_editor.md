@@ -22,6 +22,15 @@ A Remotion renderer turns your JSON into a 1080x1920 reel in a fixed house style
    1.5–3 s. Scene cuts alternate flash / gold wipe / zoom-through / punch automatically (set "trans" on a scene to choose).
    A 1.5 s series ident ("AI HACKS" typing in) plays automatically right after the hook sentence — make the hook one sentence.
 
+4. ONE SET OF OBJECTS THROUGH THE WHOLE REEL: pick the reel's 1–3 "characters" (the app window, the phone, the padlock, the
+   coins…) and keep bringing the SAME ones back as the story moves — they change state (locked → unlocked, empty → full,
+   off → on) instead of a new unrelated card every scene. Viewers follow objects, not slides.
+5. NUMBERS YOU CAN SEE: a big number is never just text. Make it physical: `object3d` coins filling a glass box (act "fill"),
+   a `pile` of envelopes/photos/files dropping into a box (and collapsing out when they're deleted), a `clock` whose hands race
+   (act "tick") for time saved, a jar filling up.
+6. THE OPEN LOOP: the script promises a payoff early (OPEN LOOP below) — show it: a `pill`/`label` like "STAY FOR STEP 3" or a
+   locked object at the setup, and open/reveal it at the payoff.
+
 ## Editing principles (this is what makes the series feel premium)
 - Something new lands every 1.5–4 seconds. A scene usually builds 2–4 elements one after another, each on its own spoken word.
 - SHOW, DON'T LIST — think like a tutorial editor: what would make a viewer instantly "get it"? Whenever the voice walks through
@@ -70,7 +79,13 @@ A scene's `at` is the first words of that scene; its elements can start on the s
   footage that the recreation can't fake (e.g. showing an actual AI-generated video/image result, a real app animation, a physical
   gadget) — `{"what": "exactly what to record, shot by shot, with the steps", "why": "one line"}`. If set, the reel is held
   until the owner uploads the recording. Prefer `screen` recreations; most settings/menus/prompts never need this.
-- `endcard`: `{ "title": e.g. "Saved it?", "terminal": e.g. "> prompt.saved · 2 hours back" }` (short, lowercase terminal line).
+- `music`: the reel's music mood, one of: "suspense" (scams, hacks, privacy, leaks), "upbeat" (productivity wins, tools,
+  shortcuts), "groove" (money, careers, business), "warning" ("stop doing this", mistakes, risks), "chill" (calm explainers).
+- `hud`: the live top bar (always on screen): `{"label": "TIME SAVED" | "STEP" | "EMAILS" | "PRIVACY" | …, "items": [{"at": exact
+  words when it changes (omit for the first), "value": short ≤ 10 chars, e.g. "0 MIN", "2 HRS", "1/3", "LEAKED", "SAFE",
+  "color": "red"|"green"|"gold"}]}` — 3–6 updates that track the story's progress (a counter going up, steps ticking, a status
+  flipping from red to green). It ticks and blips each time it changes. Only numbers from the voiceover.
+- `endcard`: `{ "title": the sign-off ("Hack saved?"), "terminal": e.g. "> prompt.saved · 2 hours back" }` (short, lowercase terminal line).
 
 ## Element types (every element has `type` and `at`; colors: gold, white, blue, red, green, muted)
 Tutorial elements:
@@ -130,6 +145,14 @@ General elements:
 - `strike_list` {items: [{text, at, strike?: true|false}] (max 4)}: ✕ + strike-through for wrong ways; strike:false shows ✓.
 - `split_bar` {parts: [{label, value: number, text?, color?, at}] (2–4 parts)}: proportions (where your time goes).
 - `title_slam` {text, sub?, color?}: giant word with a screen shake (e.g. "STOP", "FREE", "WRONG").
+- `object3d` {kind, act?, act_at?, count?, size?: "m"|"l", caption?, caption_at?}: a REAL 3D object (lit, glossy, spinning in)
+  — use these for the reel's hero objects. kind: padlock | phone | laptop | envelope | shield | key | bulb | clock | coin | coins
+  (a glass box that fills with `count` coins) | jar | box. act at `act_at`: open (padlock shackle springs open, laptop lid opens,
+  envelope flap opens) | buzz (phone vibrates and lights up) | glow (bulb lights, shield powers up) | spin | fill (coins pour in /
+  jar fills) | burst (smashes into flying shards) | tick (clock hands race). Prefer object3d over flat illustrations for the
+  1–3 hero objects; at most one per scene.
+- `pile` {ill (illustration name: e.g. "envelope", "coin", "framed_picture", "file_folder"), count (6–40), value?, value_at?,
+  color?, label?, collapse_at?}: a big number made physical — items drop into a glass box; at `collapse_at` they fall out.
 - `illustration` {name, size?: "m"|"l", caption?, glow?, act?: "shake"|"drop"|"spin"|"burst"|"pulse", act_at?}: one big 3D
   illustration that can ACT OUT the story at `act_at`: shake (alarm, problem, "it's broken"), drop (falls in and lands — "here's
   the tool"), spin (transform / switch), burst (explodes into pieces — "gone", "deleted", "split"), pulse (heartbeat — "this matters").
