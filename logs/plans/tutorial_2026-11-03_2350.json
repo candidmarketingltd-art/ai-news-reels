@@ -1,0 +1,1729 @@
+{
+ "voiceover": "[conversational] Your Claude chats might be public, and you'd never know.\n\n[serious] Chats you never shared stay yours. But one share click makes a link anyone can open, and public pages can end up in search. Imagine your bank statement or a medical question sitting there.\n\nHere's the quick check. 1: Open Claude, go to Settings, then Privacy, and look at your shared chats. Anything you don't recognise, delete or unshare. 2: Check your artifacts. If you published any, unpublish them or make them private. 3: Open the memory settings, read what Claude remembers about you, and delete anything sensitive.\n\n[whispers] The catch? Deleting a link kills the link, but anyone who already copied the text still has it. [playful] And menus move around, so just look for sharing, privacy and memory.\n\nBe honest, when did you last check your shared links?\n\nSend this to the friend who pastes everything into AI.",
+ "title": "YOUR CLAUDE CHATS ARE PUBLIC?",
+ "ig_caption": "Your Claude chats might be public, and you'd never know. 🔒\n✅ Settings → Privacy: review shared chats, delete or unshare\n✅ Check artifacts: unpublish or make private\n✅ Open memory settings: delete anything sensitive\nWhen did you last check your shared links? Tell me below 👇\nSave this for later\nFollow @ihackgrowth for daily AI & tech hacks",
+ "media_hints": {
+  "domain": "claude.ai",
+  "broll": [
+   "typing on laptop",
+   "person worried laptop",
+   "phone privacy lock"
+  ]
+ },
+ "hashtags": [
+  "#AItools",
+  "#AIhacks",
+  "#Claude",
+  "#Anthropic",
+  "#privacy",
+  "#cybersecurity",
+  "#datasecurity",
+  "#productivity"
+ ],
+ "tag": "CLAUDE PRIVACY",
+ "keywords": [
+  "Claude",
+  "public",
+  "share",
+  "link",
+  "search",
+  "bank",
+  "medical",
+  "Settings",
+  "Privacy",
+  "artifacts",
+  "unpublish",
+  "private",
+  "memory",
+  "sensitive",
+  "copied",
+  "sharing"
+ ],
+ "scenes": [
+  {
+   "at": "Your Claude",
+   "tint": "red",
+   "react": [
+    {
+     "at": "be public,",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Your Claude",
+     "media": "lib_man_shaking_head_at_phone",
+     "full": true
+    },
+    {
+     "type": "title_slam",
+     "at": "Your Claude",
+     "text": "PUBLIC?",
+     "sub": "YOUR CLAUDE CHATS",
+     "color": "red"
+    },
+    {
+     "type": "pill",
+     "at": "you'd never",
+     "text": "YOU'D NEVER KNOW",
+     "color": "red",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "Chats you",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "illustration",
+     "at": "Chats you",
+     "name": "locked",
+     "size": "l",
+     "caption": "NEVER SHARED = PRIVATE",
+     "glow": true,
+     "act": "pulse",
+     "act_at": "stay yours."
+    }
+   ]
+  },
+  {
+   "at": "But one",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "But one",
+     "device": "web",
+     "theme": "dark",
+     "brand": "claude",
+     "url": "claude.ai",
+     "app": "Claude",
+     "steps": [
+      {
+       "at": "But one",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Chats",
+         "Projects",
+         "Artifacts"
+        ],
+        "profile": "Rohan",
+        "top_buttons": [
+         "Share",
+         "⋯"
+        ],
+        "chat": [
+         {
+          "from": "user",
+          "text": "Help me read my bank statement"
+         },
+         {
+          "from": "ai",
+          "text": "Sure, here's a breakdown..."
+         }
+        ],
+        "input": ""
+       },
+       "action": {
+        "kind": "click",
+        "target": "Share",
+        "at": "share click"
+       }
+      },
+      {
+       "at": "makes a link",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Chats",
+         "Projects",
+         "Artifacts"
+        ],
+        "profile": "Rohan",
+        "top_buttons": [
+         "Share",
+         "⋯"
+        ],
+        "chat": [
+         {
+          "from": "user",
+          "text": "Help me read my bank statement"
+         },
+         {
+          "from": "ai",
+          "text": "Sure, here's a breakdown..."
+         }
+        ],
+        "input": "",
+        "menu": {
+         "items": [
+          "Copy link",
+          "Anyone with the link"
+         ],
+         "anchor": "top"
+        }
+       },
+       "action": {
+        "kind": "point",
+        "target": "Anyone with the link",
+        "at": "anyone can open,"
+       }
+      },
+      {
+       "at": "and public pages",
+       "view": {
+        "kind": "search",
+        "url": "google.com",
+        "query": "",
+        "tabs": [
+         "All",
+         "Images",
+         "News"
+        ],
+        "active_tab": "All",
+        "results": [
+         {
+          "title": "Bank statement help | Claude",
+          "url": "claude.ai/share/...",
+          "snippet": "Shared chat · Help me read my bank statement..."
+         },
+         {
+          "title": "Trip budget plan | Claude",
+          "url": "claude.ai/share/...",
+          "snippet": "Shared chat · Plan a 5-day trip..."
+         }
+        ]
+       },
+       "action": {
+        "kind": "type",
+        "target": "search",
+        "text": "claude.ai/share",
+        "at": "end up"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Imagine your",
+   "tint": "red",
+   "react": [
+    {
+     "at": "Imagine your",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "Imagine your",
+     "text": "NOW IMAGINE THIS IN SEARCH"
+    },
+    {
+     "type": "stat_row",
+     "at": "bank statement",
+     "cards": [
+      {
+       "label": "STATEMENT",
+       "value": "BANK",
+       "ill": "credit_card",
+       "color": "red",
+       "at": "bank statement"
+      },
+      {
+       "label": "QUESTION",
+       "value": "MEDICAL",
+       "ill": "stethoscope",
+       "color": "red",
+       "at": "medical question"
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "at": "sitting there.",
+     "text": "PUBLIC. FOR ANYONE.",
+     "color": "red",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "Here's the quick",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "Here's the quick",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "headline",
+     "at": "Here's the quick",
+     "text": "THE QUICK CHECK",
+     "size": "l",
+     "ill": "magnifying_glass_tilted_left"
+    }
+   ]
+  },
+  {
+   "at": "Open Claude,",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Open Claude,",
+     "device": "web",
+     "theme": "dark",
+     "brand": "claude",
+     "url": "claude.ai",
+     "app": "Claude",
+     "step": "Step 1 · Shared chats",
+     "steps": [
+      {
+       "at": "Open Claude,",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Chats",
+         "Projects",
+         "Artifacts"
+        ],
+        "profile": "Rohan",
+        "chat": [],
+        "input": ""
+       },
+       "action": {
+        "kind": "click",
+        "target": "Rohan",
+        "at": "go to"
+       }
+      },
+      {
+       "at": "Settings, then",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Chats",
+         "Projects",
+         "Artifacts"
+        ],
+        "profile": "Rohan",
+        "input": "",
+        "menu": {
+         "items": [
+          "Settings",
+          "Language",
+          "Get help",
+          "Log out"
+         ],
+         "anchor": "profile"
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Settings",
+        "at": "Settings, then"
+       }
+      },
+      {
+       "at": "then Privacy,",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Chats",
+         "Projects",
+         "Artifacts"
+        ],
+        "profile": "Rohan",
+        "panel": {
+         "title": "Settings",
+         "nav": [
+          "Profile",
+          "Appearance",
+          "Account",
+          "Privacy",
+          "Billing",
+          "Capabilities"
+         ],
+         "active": "Profile",
+         "rows": [
+          {
+           "label": "Full name",
+           "kind": "value",
+           "value": "Rohan"
+          },
+          {
+           "label": "Appearance",
+           "kind": "value",
+           "value": "Dark"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Privacy",
+        "at": "then Privacy,"
+       }
+      },
+      {
+       "at": "look at",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Chats",
+         "Projects",
+         "Artifacts"
+        ],
+        "profile": "Rohan",
+        "panel": {
+         "title": "Settings",
+         "nav": [
+          "Profile",
+          "Appearance",
+          "Account",
+          "Privacy",
+          "Billing",
+          "Capabilities"
+         ],
+         "active": "Privacy",
+         "rows": [
+          {
+           "label": "Shared chats",
+           "kind": "arrow"
+          },
+          {
+           "label": "Export data",
+           "kind": "button",
+           "value": "Export"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Shared chats",
+        "at": "shared chats."
+       }
+      },
+      {
+       "at": "Anything you",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Chats",
+         "Projects",
+         "Artifacts"
+        ],
+        "profile": "Rohan",
+        "panel": {
+         "title": "Shared chats",
+         "rows": [
+          {
+           "label": "Trip budget plan",
+           "kind": "button",
+           "value": "Unshare"
+          },
+          {
+           "label": "Bank statement help",
+           "kind": "button",
+           "value": "Delete"
+          },
+          {
+           "label": "Cover letter draft",
+           "kind": "button",
+           "value": "Unshare"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Bank statement help",
+        "at": "delete or"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Check your artifacts.",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Check your artifacts.",
+     "device": "web",
+     "theme": "dark",
+     "brand": "claude",
+     "url": "claude.ai",
+     "app": "Claude",
+     "step": "Step 2 · Artifacts",
+     "steps": [
+      {
+       "at": "Check your artifacts.",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Chats",
+         "Projects",
+         "Artifacts"
+        ],
+        "profile": "Rohan",
+        "chat": [],
+        "input": ""
+       },
+       "action": {
+        "kind": "click",
+        "target": "Artifacts",
+        "at": "your artifacts."
+       }
+      },
+      {
+       "at": "If you published",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Chats",
+         "Projects",
+         "Artifacts"
+        ],
+        "profile": "Rohan",
+        "panel": {
+         "title": "Artifacts",
+         "rows": [
+          {
+           "label": "Budget tracker",
+           "kind": "value",
+           "value": "Published"
+          },
+          {
+           "label": "Workout plan",
+           "kind": "value",
+           "value": "Private"
+          },
+          {
+           "label": "Landing page",
+           "kind": "value",
+           "value": "Private"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Budget tracker",
+        "at": "unpublish them"
+       }
+      },
+      {
+       "at": "or make",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Chats",
+         "Projects",
+         "Artifacts"
+        ],
+        "profile": "Rohan",
+        "panel": {
+         "title": "Budget tracker",
+         "back": true,
+         "rows": [
+          {
+           "label": "Published",
+           "kind": "toggle",
+           "on": true
+          },
+          {
+           "label": "Copy link",
+           "kind": "button",
+           "value": "Copy"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "toggle",
+        "target": "Published",
+        "at": "them private."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Open the memory",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Open the memory",
+     "device": "web",
+     "theme": "dark",
+     "brand": "claude",
+     "url": "claude.ai",
+     "app": "Claude",
+     "step": "Step 3 · Memory",
+     "steps": [
+      {
+       "at": "Open the memory",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Chats",
+         "Projects",
+         "Artifacts"
+        ],
+        "profile": "Rohan",
+        "panel": {
+         "title": "Settings",
+         "nav": [
+          "Profile",
+          "Appearance",
+          "Account",
+          "Privacy",
+          "Billing",
+          "Capabilities"
+         ],
+         "active": "Capabilities",
+         "rows": [
+          {
+           "label": "Memory",
+           "kind": "arrow"
+          },
+          {
+           "label": "Web search",
+           "kind": "toggle",
+           "on": true
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Memory",
+        "at": "memory settings,"
+       }
+      },
+      {
+       "at": "read what",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Chats",
+         "Projects",
+         "Artifacts"
+        ],
+        "profile": "Rohan",
+        "panel": {
+         "title": "Memory",
+         "back": true,
+         "rows": [
+          {
+           "label": "Works in marketing",
+           "kind": "button",
+           "value": "Delete"
+          },
+          {
+           "label": "Has a home loan",
+           "kind": "button",
+           "value": "Delete"
+          },
+          {
+           "label": "Asked about a health issue",
+           "kind": "button",
+           "value": "Delete"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "point",
+        "target": "Has a home loan",
+        "at": "remembers about"
+       }
+      },
+      {
+       "at": "and delete anything",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Chats",
+         "Projects",
+         "Artifacts"
+        ],
+        "profile": "Rohan",
+        "panel": {
+         "title": "Memory",
+         "back": true,
+         "rows": [
+          {
+           "label": "Works in marketing",
+           "kind": "button",
+           "value": "Delete"
+          },
+          {
+           "label": "Has a home loan",
+           "kind": "button",
+           "value": "Delete"
+          },
+          {
+           "label": "Asked about a health issue",
+           "kind": "button",
+           "value": "Delete"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Asked about a health issue",
+        "at": "anything sensitive."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "The catch?",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "still has it.",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "The catch?",
+     "text": "THE CATCH"
+    },
+    {
+     "type": "illustration",
+     "at": "Deleting a link",
+     "name": "broken_chain",
+     "size": "m",
+     "caption": "LINK DEAD",
+     "act": "burst",
+     "act_at": "kills the link,"
+    },
+    {
+     "type": "pill",
+     "at": "already copied",
+     "text": "COPIES STAY COPIED",
+     "color": "red",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "And menus",
+   "react": [
+    {
+     "at": "menus move",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "headline",
+     "at": "And menus",
+     "text": "MENUS MOVE",
+     "size": "m"
+    },
+    {
+     "type": "steps",
+     "at": "look for",
+     "items": [
+      {
+       "text": "SHARING",
+       "at": "look for",
+       "ill": "link"
+      },
+      {
+       "text": "PRIVACY",
+       "at": "sharing, privacy",
+       "ill": "shield"
+      },
+      {
+       "text": "MEMORY",
+       "at": "and memory.",
+       "ill": "brain"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Be honest,",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Be honest,",
+     "media": "lib_man_watching_laptop_waiting",
+     "full": true
+    },
+    {
+     "type": "headline",
+     "at": "when did",
+     "text": "LAST CHECKED?",
+     "size": "l",
+     "sub": "YOUR SHARED LINKS",
+     "sub_at": "shared links?"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "Send this",
+  "line1": "Send this to",
+  "line1_at": "Send this",
+  "line2": "the AI over-sharer",
+  "line2_at": "pastes everything"
+ },
+ "endcard": {
+  "title": "Locked down?",
+  "terminal": "> links.unshared · memory.cleaned"
+ },
+ "media": [
+  {
+   "id": "lib_clock_ticking_and_person_typing",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "credit": "",
+   "file": "clock_ticking_and_person_typing.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A rack-focus shot moves from a close-up of a black twin-bell alarm clock with ticking hands to a bearded man in a light polo typing on a laptop in a dim room, giving a tense, time-pressured mood. Good for: lines about deadlines, time slipping away, long hours of manual work, or the pressure of slow, tedious tasks before an AI tool speeds things up"
+  },
+  {
+   "id": "lib_colleagues_collaborating_around",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "credit": "",
+   "file": "colleagues_collaborating_around.mp4",
+   "frames": 126,
+   "desc": "B-roll (4.2s, VERTICAL 9:16 — best as full: true): colleagues collaborating around Good for: "
+  },
+  {
+   "id": "lib_content_creator_sets_up_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "credit": "",
+   "file": "content_creator_sets_up_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt stands behind a ring light with a phone on a tripod, adjusting the setup while the camera slowly pushes in until his face fills the frame, with a calm, focused mood and moody blue ambient lighting in the background. Good for: setting up to create content, getting started as a creator, or preparing equipment before recording a tutorial"
+  },
+  {
+   "id": "lib_eye_reflecting_laptop_screen_glow",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "credit": "",
+   "file": "eye_reflecting_laptop_screen_glow.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow zoom into an extreme close-up of a brown eye with a bright blue screen reflected in the pupil, framed by a thick eyebrow and warm skin tones, fading into a cool blue gradient at the bottom, with a focused, intense and cinematic mood. Good for: lines about being glued to a screen, intense focus or attention, watching AI work, or 'seeing' a new opportunity or insight"
+  },
+  {
+   "id": "lib_fingers_typing_on_laptop_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "credit": "",
+   "file": "fingers_typing_on_laptop_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): Close-up over-the-shoulder shot of a person typing on a backlit laptop keyboard, with a blurred blue screen in the background and a warm, focused, productive mood. Good for: lines about getting started, writing prompts or code, doing focused work at the computer, or the hands-on steps of a tutorial"
+  },
+  {
+   "id": "lib_hand_dropping_papers_on_desk",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "credit": "",
+   "file": "hand_dropping_papers_on_desk.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a green shirt carries and then drops a thick stack of papers onto an already huge, messy pile of documents with sticky notes on a cluttered desk, while a laptop glows nearby, and the camera pushes in to a close-up of the towering stack, creating a mood of overwhelm and tedious paperwork. Good for: a script line about drowning in manual paperwork or document processing, setting up how AI can automate summarizing, sorting, or extracting information from piles of documents"
+  },
+  {
+   "id": "lib_man_looking_at_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "credit": "",
+   "file": "man_looking_at_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt scowls with intense focus at a laptop in a dim, warmly lit room, then closes his eyes and rubs his hand near his chin in tired frustration. Good for: frustration with slow or difficult work, such as struggling with a tedious task, debugging, or burning out late at night before finding a better way"
+  },
+  {
+   "id": "lib_man_opens_laptop_in_room",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "credit": "",
+   "file": "man_opens_laptop_in_room.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt sits at a laptop in a dimly lit, warmly lit room, and his focused, tense expression builds as he leans toward the screen, which shows blurry blue diagram or flowchart-style blocks, with his fists clenched near his chin in the middle frame. Good for: intense concentration or deep work, such as debugging, building an AI workflow, or struggling with a complex problem"
+  },
+  {
+   "id": "lib_man_pointing_at_camera",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_pointing_at_camera.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_pointing_at_camera.mp4",
+   "credit": "",
+   "file": "man_pointing_at_camera.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a dark henley sits in a car seat working on a laptop with a focused look, then looks up with a warm smile and points playfully at the camera in a confident, friendly mood. Good for: a line that moves from focused work or problem-solving to a direct call to action, such as 'here's the trick you need to try' or 'now it's your turn'"
+  },
+  {
+   "id": "lib_man_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "man_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt stares intently at a laptop screen with blurry blue UI elements floating in front of the camera, then grimaces in frustration and mouths a reaction, and finally tilts his head back in exhausted resignation in a dim, warmly lit room. Good for: frustration with slow, tedious, or failing work, such as waiting on a slow tool, hitting an error, or being exhausted by manual tasks before introducing an AI solution"
+  },
+  {
+   "id": "lib_man_shaking_head_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "credit": "",
+   "file": "man_shaking_head_at_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits in a dark chair looking down at his phone, and his expression shifts from neutral to scrunched-up frustration or confusion, then to a displeased, worried look as he lowers the phone. Good for: frustration or disappointment with a tool or app that isn't working, slow or confusing results, or a bad surprise while checking your phone"
+  },
+  {
+   "id": "lib_man_smiling_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "credit": "",
+   "file": "man_smiling_at_phone.mp4",
+   "frames": 135,
+   "desc": "B-roll (4.5s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a blue smartphone, his expression shifting from neutral to a furrowed-brow frown of confusion and frustration. Good for: a line about frustration with confusing apps or slow tools, or the moment someone hits a problem and doesn't know what to do next"
+  },
+  {
+   "id": "lib_man_studying_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "credit": "",
+   "file": "man_studying_with_laptop.mp4",
+   "frames": 132,
+   "desc": "B-roll (4.4s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits at a desk behind a laptop with a furrowed brow and a frustrated, concentrated look, first staring at the screen, then looking down at an open notebook and writing with a pen, with a warm blurred lamp glowing in the background. Good for: a script line about struggling to understand something complex, frustration with slow or manual work, or the pain of learning a new tool the hard way"
+  },
+  {
+   "id": "lib_man_watching_laptop_waiting",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "credit": "",
+   "file": "man_watching_laptop_waiting.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits at a laptop in a dimly lit room with warm lamp light, resting his chin on his fist with a focused, pensive look, and the camera pushes in closer across the three frames. Good for: a script line about deep thinking, researching or problem-solving, or weighing a decision before trying an AI tool"
+  },
+  {
+   "id": "lib_person_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "person_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a laptop, his expression moving from concern to a deep frown with glowing blue tear-like effects on his cheeks, then to eyes shut in stress or exhaustion; the mood is frustrated and overwhelmed. Good for: A script line about frustration or overwhelm with a tough task, such as struggling with confusing tools, wasting hours on manual work, or being stuck before finding an AI solution."
+  },
+  {
+   "id": "lib_person_speaking_into_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "credit": "",
+   "file": "person_speaking_into_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt takes a phone call in a modern industrial office with exposed concrete ceilings, moving from a serious, concerned look to a worried talking expression and ending with a relieved, confident smile at the camera. Good for: a script line about getting a surprising call or news, a problem being solved, or the moment of relief after a stressful issue"
+  },
+  {
+   "id": "lib_person_taking_selfie_with_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "credit": "",
+   "file": "person_taking_selfie_with_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt sits in a car holding a blue smartphone up close to his face, and across the clip he leans toward the screen with a furrowed brow, looking skeptical and intensely focused. Good for: a script line about doubting or double-checking AI output, being confused or frustrated by an app or tool, or looking closely at a result on your phone, e.g. 'wait, is this actually right?'"
+  },
+  {
+   "id": "lib_professional_working_on_laptop_late",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "credit": "",
+   "file": "professional_working_on_laptop_late.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A tired bearded young man in a maroon t-shirt sits at a laptop in a dim apartment at night, resting his head on his hand, rubbing his eyes, then glumly lifting a white coffee mug, with blurred city lights glowing behind him through the window. Good for: A script line about burnout, late-night grinding, or frustration with slow manual work that AI tools can speed up, e.g. 'still stuck doing this by hand at midnight?'"
+  },
+  {
+   "id": "lib_robotic_hand_typing_on_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "credit": "",
+   "file": "robotic_hand_typing_on_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a black robotic hand with segmented, mechanical fingers lowering onto a backlit laptop keyboard and starting to type, shot at shallow depth of field in a warm, softly lit, modern workspace. Good for: A script line about AI doing the work for you, automating repetitive tasks, or AI taking over typing and writing, such as 'let AI handle the busywork' or 'AI writes it for you'."
+  },
+  {
+   "id": "s1_broll1",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-03_2350/s1_broll1.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-03_2350/s1_broll1.mp4",
+   "frames": 256,
+   "credit": "Video: Pexels",
+   "desc": "stock video: typing on laptop (9s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s1_broll2",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-03_2350/s1_broll2.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-03_2350/s1_broll2.mp4",
+   "frames": 453,
+   "credit": "Video: Pexels",
+   "desc": "stock video: person worried laptop (15s) — generic, NOT the company's own footage"
+  }
+ ],
+ "style": "hisaab",
+ "topic": "Check whether your Claude chats can be found on Google, and lock them down: review shared chat links and published artifacts, delete or unshare them, and check the memory and privacy settings",
+ "pick": {
+  "index": 59,
+  "topic": "Check whether your Claude chats can be found on Google, and lock them down: review shared chat links and published artifacts, delete or unshare them, and check the memory and privacy settings",
+  "tool": "Claude (sharing links, artifacts, memory and privacy settings)",
+  "format": "warning",
+  "angle": "Your AI chats aren't private just because you never posted them. One 'share' click can put your bank statement and medical questions where anyone can find them. Here's the 30-second fix.",
+  "why": "187k views and 741 comments in 11 days, a high comment-to-view ratio for a privacy warning. The creator's comment-for-guide hook shows people want the steps. The same fix applies to ChatGPT shared links, so the audience is wide. We covered ChatGPT memory and incognito mode, but not shared-link exposure, so this is new."
+ },
+ "inspired_by": {
+  "url": "https://www.instagram.com/p/DezJ36CRJuh/",
+  "owner": "marcus_lagrone",
+  "plays": 187375,
+  "likes": 1545,
+  "comments": 741
+ },
+ "research": {
+  "verdict": "adjust",
+  "tool": "Claude (sharing links, artifacts, memory and privacy settings)",
+  "steps": [],
+  "facts": [],
+  "do_not_claim": [],
+  "notes": "Not web-verified: use only general, well-known steps; avoid every number, price and limit.",
+  "_searched": 0
+ },
+ "models": {
+  "pick": "claude-sonnet-5-5",
+  "research": "claude-sonnet-5-5",
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 10,
+ "_ident": {
+  "at": 3.06,
+  "dur": 1.5,
+  "title": "AI HACKS",
+  "type": 0.42,
+  "sub": "EP 10 · CLAUDE PRIVACY"
+ },
+ "timeline": {
+  "words": [
+   [
+    "Your",
+    0.08
+   ],
+   [
+    "Claude",
+    0.32
+   ],
+   [
+    "chats",
+    0.6
+   ],
+   [
+    "might",
+    0.96
+   ],
+   [
+    "be",
+    1.2
+   ],
+   [
+    "public,",
+    1.36
+   ],
+   [
+    "and",
+    2.08
+   ],
+   [
+    "you'd",
+    2.32
+   ],
+   [
+    "never",
+    2.6
+   ],
+   [
+    "know.",
+    2.84
+   ],
+   [
+    "Chats",
+    5.02
+   ],
+   [
+    "you",
+    5.34
+   ],
+   [
+    "never",
+    5.66
+   ],
+   [
+    "shared",
+    5.98
+   ],
+   [
+    "stay",
+    6.54
+   ],
+   [
+    "yours.",
+    6.86
+   ],
+   [
+    "But",
+    7.74
+   ],
+   [
+    "one",
+    7.9
+   ],
+   [
+    "share",
+    8.26
+   ],
+   [
+    "click",
+    8.46
+   ],
+   [
+    "makes",
+    8.78
+   ],
+   [
+    "a",
+    9.02
+   ],
+   [
+    "link",
+    9.1
+   ],
+   [
+    "anyone",
+    9.5
+   ],
+   [
+    "can",
+    9.98
+   ],
+   [
+    "open,",
+    10.14
+   ],
+   [
+    "and",
+    10.727
+   ],
+   [
+    "public",
+    10.86
+   ],
+   [
+    "pages",
+    11.18
+   ],
+   [
+    "can",
+    11.66
+   ],
+   [
+    "end",
+    11.82
+   ],
+   [
+    "up",
+    11.98
+   ],
+   [
+    "in",
+    12.18
+   ],
+   [
+    "search.",
+    12.66
+   ],
+   [
+    "Imagine",
+    13.287
+   ],
+   [
+    "your",
+    13.54
+   ],
+   [
+    "bank",
+    13.78
+   ],
+   [
+    "statement",
+    13.98
+   ],
+   [
+    "or",
+    14.54
+   ],
+   [
+    "a",
+    14.66
+   ],
+   [
+    "medical",
+    14.78
+   ],
+   [
+    "question",
+    15.18
+   ],
+   [
+    "sitting",
+    15.58
+   ],
+   [
+    "there.",
+    16.1
+   ],
+   [
+    "Here's",
+    16.487
+   ],
+   [
+    "the",
+    16.66
+   ],
+   [
+    "quick",
+    16.78
+   ],
+   [
+    "check.",
+    17.02
+   ],
+   [
+    "1:",
+    17.78
+   ],
+   [
+    "Open",
+    18.42
+   ],
+   [
+    "Claude,",
+    18.62
+   ],
+   [
+    "go",
+    19.26
+   ],
+   [
+    "to",
+    19.42
+   ],
+   [
+    "Settings,",
+    19.58
+   ],
+   [
+    "then",
+    20.3
+   ],
+   [
+    "Privacy,",
+    20.46
+   ],
+   [
+    "and",
+    21.26
+   ],
+   [
+    "look",
+    21.42
+   ],
+   [
+    "at",
+    21.58
+   ],
+   [
+    "your",
+    21.74
+   ],
+   [
+    "shared",
+    21.9
+   ],
+   [
+    "chats.",
+    22.22
+   ],
+   [
+    "Anything",
+    23.02
+   ],
+   [
+    "you",
+    23.26
+   ],
+   [
+    "don't",
+    23.46
+   ],
+   [
+    "recognise,",
+    23.82
+   ],
+   [
+    "delete",
+    24.7
+   ],
+   [
+    "or",
+    25.02
+   ],
+   [
+    "unshare.",
+    25.18
+   ],
+   [
+    "2:",
+    26.18
+   ],
+   [
+    "Check",
+    26.7
+   ],
+   [
+    "your",
+    26.86
+   ],
+   [
+    "artifacts.",
+    27.02
+   ],
+   [
+    "If",
+    27.94
+   ],
+   [
+    "you",
+    28.06
+   ],
+   [
+    "published",
+    28.22
+   ],
+   [
+    "any,",
+    28.74
+   ],
+   [
+    "unpublish",
+    29.1
+   ],
+   [
+    "them",
+    29.66
+   ],
+   [
+    "or",
+    29.98
+   ],
+   [
+    "make",
+    30.22
+   ],
+   [
+    "them",
+    30.38
+   ],
+   [
+    "private.",
+    30.54
+   ],
+   [
+    "3:",
+    31.5
+   ],
+   [
+    "Open",
+    32.1
+   ],
+   [
+    "the",
+    32.26
+   ],
+   [
+    "memory",
+    32.38
+   ],
+   [
+    "settings,",
+    32.78
+   ],
+   [
+    "read",
+    33.58
+   ],
+   [
+    "what",
+    33.82
+   ],
+   [
+    "Claude",
+    34.06
+   ],
+   [
+    "remembers",
+    34.3
+   ],
+   [
+    "about",
+    34.78
+   ],
+   [
+    "you,",
+    35.1
+   ],
+   [
+    "and",
+    35.447
+   ],
+   [
+    "delete",
+    35.58
+   ],
+   [
+    "anything",
+    36.22
+   ],
+   [
+    "sensitive.",
+    36.5
+   ],
+   [
+    "The",
+    37.477
+   ],
+   [
+    "catch?",
+    37.7
+   ],
+   [
+    "Deleting",
+    38.5
+   ],
+   [
+    "a",
+    38.78
+   ],
+   [
+    "link",
+    38.86
+   ],
+   [
+    "kills",
+    39.26
+   ],
+   [
+    "the",
+    39.58
+   ],
+   [
+    "link,",
+    39.78
+   ],
+   [
+    "but",
+    40.34
+   ],
+   [
+    "anyone",
+    40.54
+   ],
+   [
+    "who",
+    40.94
+   ],
+   [
+    "already",
+    41.1
+   ],
+   [
+    "copied",
+    41.58
+   ],
+   [
+    "the",
+    41.82
+   ],
+   [
+    "text",
+    41.98
+   ],
+   [
+    "still",
+    42.46
+   ],
+   [
+    "has",
+    42.78
+   ],
+   [
+    "it.",
+    43.18
+   ],
+   [
+    "And",
+    43.5
+   ],
+   [
+    "menus",
+    43.86
+   ],
+   [
+    "move",
+    44.14
+   ],
+   [
+    "around,",
+    44.3
+   ],
+   [
+    "so",
+    44.833
+   ],
+   [
+    "just",
+    44.94
+   ],
+   [
+    "look",
+    45.18
+   ],
+   [
+    "for",
+    45.34
+   ],
+   [
+    "sharing,",
+    45.5
+   ],
+   [
+    "privacy",
+    46.353
+   ],
+   [
+    "and",
+    46.62
+   ],
+   [
+    "memory.",
+    46.78
+   ],
+   [
+    "Be",
+    47.5
+   ],
+   [
+    "honest,",
+    47.66
+   ],
+   [
+    "when",
+    48.38
+   ],
+   [
+    "did",
+    48.54
+   ],
+   [
+    "you",
+    48.7
+   ],
+   [
+    "last",
+    48.86
+   ],
+   [
+    "check",
+    49.18
+   ],
+   [
+    "your",
+    49.34
+   ],
+   [
+    "shared",
+    49.5
+   ],
+   [
+    "links?",
+    49.74
+   ],
+   [
+    "Send",
+    50.46
+   ],
+   [
+    "this",
+    50.7
+   ],
+   [
+    "to",
+    50.82
+   ],
+   [
+    "the",
+    50.94
+   ],
+   [
+    "friend",
+    51.14
+   ],
+   [
+    "who",
+    51.34
+   ],
+   [
+    "pastes",
+    51.46
+   ],
+   [
+    "everything",
+    51.98
+   ],
+   [
+    "into",
+    52.58
+   ],
+   [
+    "AI.",
+    52.78
+   ]
+  ],
+  "duration": 53.52,
+  "ident": {
+   "at": 3.06,
+   "dur": 1.5,
+   "title": "AI HACKS",
+   "type": 0.42,
+   "sub": "EP 10 · CLAUDE PRIVACY"
+  },
+  "scenes": [
+   {
+    "t": 0.0,
+    "shows": [
+     "footage:lib_man_shaking_head_at_phone",
+     "title_slam:PUBLIC?",
+     "pill:YOU'D NEVER KNOW"
+    ]
+   },
+   {
+    "t": 5.02,
+    "shows": [
+     "illustration:locked"
+    ]
+   },
+   {
+    "t": 7.74,
+    "shows": [
+     "screen:"
+    ]
+   },
+   {
+    "t": 13.29,
+    "shows": [
+     "label:NOW IMAGINE THIS IN SEARCH",
+     "stat_row:",
+     "pill:PUBLIC. FOR ANYONE."
+    ]
+   },
+   {
+    "t": 16.49,
+    "shows": [
+     "headline:THE QUICK CHECK"
+    ]
+   },
+   {
+    "t": 18.42,
+    "shows": [
+     "screen:Step 1 · Shared chats"
+    ]
+   },
+   {
+    "t": 26.7,
+    "shows": [
+     "screen:Step 2 · Artifacts"
+    ]
+   },
+   {
+    "t": 32.1,
+    "shows": [
+     "screen:Step 3 · Memory"
+    ]
+   },
+   {
+    "t": 37.48,
+    "shows": [
+     "label:THE CATCH",
+     "illustration:broken_chain",
+     "pill:COPIES STAY COPIED"
+    ]
+   },
+   {
+    "t": 43.5,
+    "shows": [
+     "headline:MENUS MOVE",
+     "steps:"
+    ]
+   },
+   {
+    "t": 47.5,
+    "shows": [
+     "footage:lib_man_watching_laptop_waiting",
+     "headline:LAST CHECKED?"
+    ]
+   }
+  ],
+  "beats": []
+ }
+}
