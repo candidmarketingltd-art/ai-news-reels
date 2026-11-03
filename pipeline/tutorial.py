@@ -135,27 +135,43 @@ def transcript(url):
 
 # ---------------------------------------------------------------------------------- 4) research (web search)
 def research(p, item, tr, comments):
+    """Web-verified research notes. If the research can't be completed, the pick is rejected — a script is never
+    written from the source reel alone."""
     sysp = (ROOT / "prompts" / "tutorial_research.md").read_text(encoding="utf-8")
     user = (f"TODAY: {dt.date.today()}\nTOPIC WE PLAN: {p['topic']}\nTOOL: {p.get('tool', '')}\nANGLE: {p.get('angle', '')}\n\n"
             f"POPULAR REEL by @{item['owner']} ({item['plays']:,} views)\nCAPTION: {item['caption']}\nTRANSCRIPT: {tr or '(not available)'}\n"
             f"TOP COMMENTS: {' | '.join(comments) or '(none)'}\n\nVerify with web search, then return only the JSON.")
     client = anthropic.Anthropic()
     tools = [{"type": "web_search_20250305", "name": "web_search", "max_uses": int(os.environ.get("RESEARCH_SEARCHES") or 6)}]
-    try:
-        msgs = [{"role": "user", "content": user}]
-        for _ in range(4):   # server tool loop may pause ("pause_turn") on long searches
-            resp = client.messages.create(model=RESEARCH_MODEL, max_tokens=6000, system=sysp, messages=msgs, tools=tools)
-            if resp.stop_reason != "pause_turn": break
-            msgs = [{"role": "user", "content": user}, {"role": "assistant", "content": resp.content}]
-        raw = "".join(b.text for b in resp.content if getattr(b, "type", "") == "text")
-        searched = sum(1 for b in resp.content if getattr(b, "type", "") == "server_tool_use")
-        m = re.search(r"\{.*\}", raw, re.S)
-        notes = json.loads(m.group(0)) if m else {}
-        notes["_searched"] = searched
-    except Exception as e:
-        print(f"      web research unavailable ({str(e)[:160]}); using the transcript only, conservatively", flush=True)
-        notes = {"verdict": "adjust", "tool": p.get("tool", ""), "steps": [], "facts": [], "do_not_claim": [],
-                 "notes": "Not web-verified: use only general, well-known steps; avoid every number, price and limit.", "_searched": 0}
+    searched, raw = 0, ""
+    for attempt in range(2):
+        try:
+            msgs = [{"role": "user", "content": user}]
+            for _ in range(4):   # server tool loop may pause ("pause_turn") on long searches
+                resp = client.messages.create(model=RESEARCH_MODEL, max_tokens=16000, system=sysp, messages=msgs, tools=tools)
+                searched += sum(1 for b in resp.content if getattr(b, "type", "") == "server_tool_use")
+                if resp.stop_reason != "pause_turn": break
+                msgs = [{"role": "user", "content": user}, {"role": "assistant", "content": resp.content}]
+            raw = "".join(b.text for b in resp.content if getattr(b, "type", "") == "text")
+            break
+        except Exception as e:
+            print(f"      research call failed ({str(e)[:160]})", flush=True)
+    notes = None
+    m = re.search(r"\{.*\}", raw, re.S)
+    if m:
+        try: notes = json.loads(m.group(0))
+        except ValueError:
+            # the findings are there but the JSON is malformed: have the model re-emit them as valid JSON (no new facts)
+            try:
+                notes = _ask_json(RESEARCH_MODEL, "You convert research notes into strictly valid JSON. Keep every fact, step, url and "
+                                  "number exactly as given; add nothing.", "Return these notes as one valid JSON object with the same keys:\n\n"
+                                  + raw[-30000:], lambda d: None, attempts=2)
+            except Exception as e:
+                print(f"      couldn't repair the research JSON ({str(e)[:120]})", flush=True)
+    if not notes or searched == 0 or not (notes.get("sources") or []):
+        print(f"      research incomplete ({searched} searches, {len((notes or {}).get('sources') or [])} sources) -> skipping this topic", flush=True)
+        return {"verdict": "reject", "notes": "research could not be completed", "_searched": searched}
+    notes["_searched"] = searched
     return notes
 
 
