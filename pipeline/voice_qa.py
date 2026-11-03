@@ -19,6 +19,27 @@ def _same(x, y):
     return x == y or (len(min(x, y, key=len)) >= 2 and (x.startswith(y) or y.startswith(x)))
 
 
+def _key(w):
+    """Rough sound-alike key: macs/max, cs/x, ph/f, double letters, silent final e. Vowels are kept, so run != ran."""
+    w = w.replace("'", "")
+    for x, y in (("ph", "f"), ("ck", "k"), ("cs", "x"), ("ks", "x"), ("c", "k"), ("z", "s")):
+        w = w.replace(x, y)
+    w = re.sub(r"(.)\1+", r"\1", w)
+    return w[:-1] if len(w) > 3 and w.endswith("e") else w
+
+
+def _ignorable(sa, sb):
+    """Differences that aren't a mispronunciation worth a re-record."""
+    toks = sa + sb
+    if any(re.search(r"\d", t) for t in toks):          # 8gb / 8 gigabytes, q4km, 27b — whisper writes these its own way
+        return True
+    if not sa or not sb:                                # one side empty: a long gap is whisper dropping a chunk, not the voice
+        return len(sa or sb) > 4
+    if len(sa) == len(sb) and all(_same(_key(x), _key(y)) for x, y in zip(sa, sb)):
+        return True
+    return _key("".join(sa)) == _key("".join(sb))
+
+
 def check(mp3, script):
     """Returns (mismatches, heard_text). mismatches = [(script_words, heard_words)] for content words that differ."""
     try:
@@ -42,5 +63,6 @@ def check(mp3, script):
         # ignore spelling-only differences ("ok"/"okay", "email"/"emails", "ai"/"a.i.", "wifi"/"wi-fi")
         if sa and sb and len(sa) == len(sb) and all(_same(x, y) for x, y in zip(sa, sb)): continue
         if sa and sb and _same("".join(sa), "".join(sb)): continue
+        if _ignorable(sa, sb): continue
         out.append((" ".join(a[i1:i2]), " ".join(b[j1:j2])))
     return out, heard
