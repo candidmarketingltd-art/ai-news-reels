@@ -11,11 +11,9 @@ window 2026-11-03-2000 | posting times 13:00, 20:00 IST | dry_run=True
       media: s1_image, s1_logo, s1_broll1, s1_broll2
 [5/6] voice + render
       voice: reused the recorded voiceover
-Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-      (voice check skipped: open() got an unexpected keyword argument 'metadata_errors')
-      164 words, 69.4s, voice eleven_v4 (cached)
-      remotion: Reel /tmp/tmpt_vv2yhb/video_only.mp4
-DRY RUN — reel at /home/runner/work/ai-news-reels/ai-news-reels/out/2026-11-04_0106.mp4
+      164 words, 69.4s, voice eleven_v4 (cached) (cached)
+      remotion: Reel /tmp/tmprdg2756c/video_only.mp4
+DRY RUN — reel at /home/runner/work/ai-news-reels/ai-news-reels/out/2026-11-04_0120.mp4
 --- caption ---
 You can run a free AI on your laptop, completely offline. 🔒
 ✅ Install LM Studio from lmstudio.ai/download
