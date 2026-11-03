@@ -27,7 +27,10 @@ def check(mp3, script):
         print(f"      (voice check unavailable: {e})", flush=True); return [], ""
     if "m" not in _MODEL:
         _MODEL["m"] = WhisperModel("base.en", device="cpu", compute_type="int8")
-    segs, _ = _MODEL["m"].transcribe(mp3, beam_size=5, initial_prompt=re.sub(r"\[[^\]]*\]", " ", script)[:220])
+    import subprocess, numpy as np   # decode with ffmpeg (avoids PyAV version issues), 16 kHz mono float
+    pcm = subprocess.run(["ffmpeg", "-v", "error", "-i", mp3, "-ac", "1", "-ar", "16000", "-f", "s16le", "-"], capture_output=True, check=True).stdout
+    audio = np.frombuffer(pcm, np.int16).astype(np.float32) / 32768.0
+    segs, _ = _MODEL["m"].transcribe(audio, beam_size=5, initial_prompt=re.sub(r"\[[^\]]*\]", " ", script)[:220])
     heard = " ".join(s.text for s in segs)
     a = [_num(_norm(w)) for w in re.sub(r"\[[^\]]*\]", " ", script).split() if _norm(w)]
     b = [_num(_norm(w)) for w in heard.split() if _norm(w)]
