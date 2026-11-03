@@ -1,0 +1,541 @@
+{
+ "issue": 2,
+ "at": "2026-11-03T07:35:21.677617+00:00",
+ "plan": {
+  "voiceover": "[conversational] Those ChatGPT slash commands for product photos? They're not real.\n\n[serious] Slash product photography, slash flash sale... none of them are documented commands. ChatGPT just reads them as a normal request.\n\nHere's the 3-step way. [confident] One: new chat, tap the plus button, upload one clear, well-lit snapshot.\n\nTwo: paste a prompt. \"Using the photo I uploaded, make a pure white background product shot. Keep shape, color and logo unchanged.\" For a mannequin shot, add \"using my original uploaded photo\" and \"change the setting, not the product.\" Use a display stand if it's not clothing. For a poster, ask for a vertical 4:5 flash-sale poster, then add your price yourself in Canva, so the AI doesn't invent offers.\n\nThree: [whispers] zoom in on the logo and every label letter. If something drifts, ask for one fix and redo it from your original photo.\n\nFree plan works, with limits. [curious] Which product are you trying first?\n\nSend this to the friend who sells stuff online.",
+  "title": "FAKE CHATGPT SLASH COMMANDS",
+  "ig_caption": "Those ChatGPT slash commands for product photos? They're just prompts, not real commands. 📸\n✅ New chat, tap + and upload one clear snapshot\n✅ Paste a prompt: white background, mannequin/display stand, or sale poster\n✅ Add \"keep shape, color and logo unchanged\", then check the logo and label\nWhich product are you trying first? 👇\nSave this for later\nFollow @ihackgrowth for daily AI & tech hacks",
+  "media_hints": {
+   "domain": "chatgpt.com",
+   "broll": [
+    "product photography studio",
+    "phone taking photo",
+    "online shop packing",
+    "typing on laptop"
+   ]
+  },
+  "hashtags": [
+   "#AItools",
+   "#AIhacks",
+   "#ChatGPT",
+   "#ProductPhotography",
+   "#Ecommerce",
+   "#SmallBusiness",
+   "#Shopify",
+   "#productivity"
+  ],
+  "tag": "CHATGPT IMAGES",
+  "keywords": [
+   "ChatGPT",
+   "slash",
+   "commands",
+   "documented",
+   "snapshot",
+   "prompt",
+   "white",
+   "logo",
+   "mannequin",
+   "stand",
+   "poster",
+   "Canva",
+   "offers",
+   "zoom",
+   "original",
+   "limits"
+  ],
+  "scenes": [
+   {
+    "at": "Those ChatGPT",
+    "tint": "red",
+    "react": [
+     {
+      "at": "They're not",
+      "mood": "smirk"
+     }
+    ],
+    "elements": [
+     {
+      "type": "footage",
+      "at": "Those ChatGPT",
+      "media": "lib_person_taking_selfie_with_phone",
+      "full": true
+     },
+     {
+      "type": "headline",
+      "at": "Those ChatGPT",
+      "text": "SLASH COMMANDS?",
+      "size": "l",
+      "color": "white",
+      "sub": "NOT REAL",
+      "sub_at": "They're not",
+      "sub_color": "red"
+     }
+    ]
+   },
+   {
+    "at": "Slash product",
+    "tint": "red",
+    "elements": [
+     {
+      "type": "label",
+      "at": "Slash product",
+      "text": "THE VIRAL \"COMMANDS\""
+     },
+     {
+      "type": "strike_list",
+      "at": "Slash product",
+      "items": [
+       {
+        "text": "/PRODUCT-PHOTOGRAPHY",
+        "at": "Slash product"
+       },
+       {
+        "text": "/FLASH-SALE",
+        "at": "slash flash"
+       }
+      ]
+     },
+     {
+      "type": "pill",
+      "at": "documented commands.",
+      "text": "NOT DOCUMENTED",
+      "color": "red",
+      "outline": true
+     },
+     {
+      "type": "pill",
+      "at": "normal request.",
+      "text": "= A NORMAL REQUEST",
+      "color": "muted"
+     }
+    ]
+   },
+   {
+    "at": "Here's the",
+    "tint": "cold",
+    "react": [
+     {
+      "at": "Here's the",
+      "mood": "neutral",
+      "point": true
+     }
+    ],
+    "elements": [
+     {
+      "type": "footage",
+      "at": "Here's the",
+      "media": "lib_content_creator_sets_up_phone",
+      "full": true
+     },
+     {
+      "type": "headline",
+      "at": "Here's the",
+      "text": "3 STEPS",
+      "size": "l",
+      "color": "gold"
+     }
+    ]
+   },
+   {
+    "at": "One: new",
+    "elements": [
+     {
+      "type": "screen",
+      "at": "One: new",
+      "device": "phone",
+      "theme": "dark",
+      "brand": "chatgpt",
+      "app": "ChatGPT",
+      "step": "Step 1 · Upload the photo",
+      "steps": [
+       {
+        "at": "One: new",
+        "view": {
+         "top_buttons": [
+          "New chat",
+          "⋯"
+         ],
+         "chat": [
+          {
+           "from": "user",
+           "text": "/product-photography"
+          },
+          {
+           "from": "ai",
+           "text": "Sure! Upload a photo of your product."
+          }
+         ],
+         "input": ""
+        },
+        "action": {
+         "kind": "click",
+         "target": "New chat",
+         "at": "new chat,"
+        }
+       },
+       {
+        "at": "tap the",
+        "view": {
+         "top_buttons": [
+          "New chat",
+          "⋯"
+         ],
+         "input_buttons": [
+          "+"
+         ],
+         "input": "Ask anything"
+        },
+        "action": {
+         "kind": "click",
+         "target": "+",
+         "at": "plus button,"
+        }
+       },
+       {
+        "at": "upload one",
+        "view": {
+         "top_buttons": [
+          "New chat",
+          "⋯"
+         ],
+         "input_buttons": [
+          "+"
+         ],
+         "input": "Ask anything",
+         "menu": {
+          "items": [
+           "Camera",
+           "Photos",
+           "Files"
+          ]
+         }
+        },
+        "action": {
+         "kind": "click",
+         "target": "Photos",
+         "at": "upload one"
+        }
+       },
+       {
+        "at": "well-lit snapshot.",
+        "view": {
+         "top_buttons": [
+          "New chat",
+          "⋯"
+         ],
+         "input_buttons": [
+          "+"
+         ],
+         "input": "Photo attached: product.jpg"
+        },
+        "action": {
+         "kind": "point",
+         "target": "input",
+         "at": "well-lit snapshot."
+        }
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "at": "Two: paste",
+    "elements": [
+     {
+      "type": "label",
+      "at": "Two: paste",
+      "text": "STYLE 1 · WHITE BACKGROUND"
+     },
+     {
+      "type": "prompt",
+      "at": "Using the",
+      "app": "CHATGPT",
+      "text": "Using the photo I uploaded, make a pure white background product shot. Keep shape, color and logo unchanged.",
+      "send_at": "logo unchanged."
+     }
+    ]
+   },
+   {
+    "at": "For a mannequin",
+    "elements": [
+     {
+      "type": "label",
+      "at": "For a mannequin",
+      "text": "STYLE 2 · MANNEQUIN"
+     },
+     {
+      "type": "prompt",
+      "at": "using my original",
+      "app": "CHATGPT",
+      "text": "Using my original uploaded photo, put it on a mannequin. Change the setting, not the product.",
+      "send_at": "not the product."
+     },
+     {
+      "type": "pill",
+      "at": "display stand",
+      "text": "OR A DISPLAY STAND",
+      "color": "blue"
+     }
+    ]
+   },
+   {
+    "at": "For a poster,",
+    "tint": "cold",
+    "react": [
+     {
+      "at": "doesn't invent",
+      "mood": "serious",
+      "point": true
+     }
+    ],
+    "elements": [
+     {
+      "type": "label",
+      "at": "For a poster,",
+      "text": "STYLE 3 · SALE POSTER"
+     },
+     {
+      "type": "prompt",
+      "at": "ask for",
+      "app": "CHATGPT",
+      "text": "Make a vertical 4:5 flash-sale poster from my original photo. No prices.",
+      "send_at": "flash-sale poster,"
+     },
+     {
+      "type": "pill",
+      "at": "in Canva,",
+      "text": "ADD PRICE IN CANVA",
+      "color": "gold"
+     },
+     {
+      "type": "pill",
+      "at": "invent offers.",
+      "text": "NO FAKE OFFERS",
+      "color": "red",
+      "outline": true
+     }
+    ]
+   },
+   {
+    "at": "Three: zoom",
+    "tint": "cold",
+    "react": [
+     {
+      "at": "something drifts,",
+      "mood": "shocked"
+     }
+    ],
+    "elements": [
+     {
+      "type": "label",
+      "at": "Three: zoom",
+      "text": "STEP 3 · CHECK IT"
+     },
+     {
+      "type": "steps",
+      "at": "Three: zoom",
+      "items": [
+       {
+        "text": "ZOOM IN ON THE LOGO",
+        "at": "Three: zoom",
+        "ill": "magnifying_glass_tilted_right"
+       },
+       {
+        "text": "DRIFTED? ASK ONE FIX",
+        "at": "If something",
+        "ill": "wrench"
+       },
+       {
+        "text": "REDO FROM ORIGINAL",
+        "at": "redo it",
+        "ill": "framed_picture"
+       }
+      ]
+     },
+     {
+      "type": "pill",
+      "at": "every label",
+      "text": "CHECK EVERY LETTER",
+      "color": "gold",
+      "outline": true
+     }
+    ]
+   },
+   {
+    "at": "Free plan",
+    "tint": "green",
+    "elements": [
+     {
+      "type": "footage",
+      "at": "Free plan",
+      "media": "s1_image",
+      "caption": "CHATGPT IMAGES"
+     },
+     {
+      "type": "stat_row",
+      "cards": [
+       {
+        "label": "PLAN",
+        "value": "FREE",
+        "at": "Free plan",
+        "color": "green",
+        "glow": true
+       },
+       {
+        "label": "CATCH",
+        "value": "LIMITS",
+        "at": "with limits.",
+        "color": "gold"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "at": "Which product",
+    "react": [
+     {
+      "at": "trying first?",
+      "mood": "smirk"
+     }
+    ],
+    "elements": [
+     {
+      "type": "headline",
+      "at": "Which product",
+      "text": "YOUR FIRST PRODUCT?",
+      "size": "l",
+      "ill": "package",
+      "sub": "TELL ME BELOW",
+      "sub_at": "trying first?"
+     }
+    ]
+   }
+  ],
+  "cta": {
+   "at": "Send this",
+   "line1": "Send this to",
+   "line1_at": "Send this",
+   "line2": "your online seller",
+   "line2_at": "sells stuff"
+  },
+  "manual_request": {
+   "what": "Phone screen recording in the ChatGPT app (dark mode): 1) messy, dim phone snapshot of a real product with a visible logo/label on a cluttered table; 2) new chat, tap +, Photos, attach it; 3) paste the white-background prompt, send, show the result; 4) same with the mannequin/display-stand prompt; 5) same with the vertical 4:5 flash-sale poster prompt; 6) open each result full-screen and pinch-zoom on the logo and label text to show they stayed intact.",
+   "why": "The payoff is the real AI-generated photos and the intact logo, which a mock-up can't fake."
+  },
+  "endcard": {
+   "title": "Saved it?",
+   "terminal": "> product.shot · 3 styles · logo intact"
+  },
+  "sources_text": "{\n \"verdict\": \"adjust\",\n \"tool\": \"ChatGPT Images (image editing in ChatGPT, currently ChatGPT Images 2.5)\",\n \"availability\": \"OpenAI lists ChatGPT Images on every plan, and Images 2.5 rolled out to all tiers on desktop, mobile and web. Free has a limit but OpenAI publishes no image count. Free uploads reportedly cap at 3 per day (third-party report, not confirmed on an OpenAI page).\",\n \"steps\": [\n  \"Open chatgpt.com (web) or the ChatGPT app and start a NEW chat. Use a new chat for each product so older images don't bleed in.\",\n  \"Add the photo with the + button in the message box (web label may read 'Add files or photos'; on phone the + menu offers Camera / Photos / Files). Upload one clear, well-lit snapshot of the real product.\",\n  \"Paste prompt 1 (clean e-commerce white background). Example: 'Using the photo I uploaded, create a clean e-commerce product photo on a pure white seamless background, centered, soft studio lighting, soft natural shadow underneath, 1:1 square. Keep the product's exact shape, proportions, color, material, logo and all label text unchanged. Do not add text, extra branding or features. Change only the background and lighting.'\",\n  \"Paste prompt 2 (mannequin or lifestyle display). Example: 'Using my ORIGINAL uploaded photo, show this exact product worn on a plain white mannequin (or on a display stand if it isn't clothing) in a bright boutique setting, or used naturally in a believable everyday scene. Keep shape, color, logo and text exactly as in the photo. Change the setting, not the product.'\",\n  \"Paste prompt 3 (sale poster). Example: 'Using my ORIGINAL uploaded photo, make a vertical 4:5 flash-sale poster: the product large and centered, bold headline \\\"FLASH SALE\\\", leave clean space for text, bright colors, keep the product and logo exactly unchanged. No other text or fake discount numbers.' Add your own price or discount text yourself in Canva or similar, so the AI doesn't invent claims.\",\n  \"Check the result against the real product: shape, color, logo, every letter on the label. If something drifts, reply with ONE specific fix, e.g. 'The logo is distorted. Redo using my original uploaded photo and keep the logo exactly as it appears.' You can also tap the image, choose Select, highlight the wrong area and describe the fix.\",\n  \"Download or save the final image (use Save in the image viewer).\"\n ],\n \"facts\": [\n  \"<cite index=\\\"1-2,1-7\\\">ChatGPT Images lets you create new images and edit existing ones. To edit, you select a generated image or upload an existing one, then describe the change.</cite>\",\n  \"<cite index=\\\"1-3\\\">OpenAI's help page says ChatGPT Images 2.5 brings sharper details, more precise editing, and faster image generation.</cite> Images 2.5 launched September 8, 2026 (<cite index=\\\"51-4\\\">OpenAI, September 8, 2026</cite>).\",\n  \"<cite index=\\\"54-7\\\">OpenAI says Images 2.5 is better at preserving the subjects in reference photos and follows editing instructions more reliably across multiple turns.</cite> That is OpenAI's own claim, not a guarantee.\",\n  \"<cite index=\\\"51-6\\\">Images 2.5 also adds Templates for popular image formats like flyers and product photos.</cite> The writer could mention this as a built-in shortcut, but the exact menu path is unverified.\",\n  \"<cite index=\\\"1-4\\\">You can ask for an image in a conversation, or select More and then Images.</cite>\",\n  \"<cite index=\\\"1-8,1-10\\\">You can skip the selection tool and describe the edit in the conversation panel, or use Select to highlight the area to edit.</cite>\",\n  \"<cite index=\\\"1-11,1-13\\\">On the mobile app, open an image full-screen and tap Edit to describe changes.</cite>\",\n  \"<cite index=\\\"10-6\\\">OpenAI publishes no image count for any ChatGPT plan, and its pricing page lists Free as 'Limited'.</cite>\",\n  \"<cite index=\\\"13-3\\\">OpenAI's Free tier FAQ says only that image generation has 'separate usage limits' and that ChatGPT will notify you when you reach a limit.</cite>\",\n  \"Third-party estimates for Free are about 2–3 images per rolling 24 hours (<cite index=\\\"12-1\\\">July 2026 estimate</cite>). One tester sent <cite index=\\\"10-5\\\">22 image requests on a free account on Oct 12, 2026 without a limit message</cite>, so don't promise a fixed number.\",\n  \"One third-party site, <cite index=\\\"9-13\\\">citing OpenAI's upload help page, says Free users get 3 file uploads per day and that this covers images</cite>. Treat this as unconfirmed until checked on OpenAI's own page.\",\n  \"<cite index=\\\"18-2\\\">Images with thinking is available on Plus, Pro, and Business, not on Free or Go.</cite>\",\n  \"The popular 'slash commands' are not documented ChatGPT features. A ChatGPT guide says <cite index=\\\"28-5\\\">/handwritten, /humanize and /expert have no documented command, and the model just guesses the style</cite>. The real documented slash items are things like <cite index=\\\"28-5\\\">/canvas and /study</cite>.\",\n  \"A product-photo prompt creator describes these as <cite index=\\\"32-3\\\">'my own shortcuts, not built-in commands'</cite>. A shortcut like /whitebg only works if you define it in the prompt first.\",\n  \"Prompt pattern for accuracy: <cite index=\\\"32-6,32-8\\\">'Preserve product shape, proportions, materials, colours, logo and all text… Change the setting, not the product.'</cite>\",\n  \"<cite index=\\\"6-10\\\">Starting prompts with 'using the photo I uploaded' helps ChatGPT edit your image instead of inventing a new one.</cite>\",\n  \"<cite index=\\\"9-17\\\">The edit comes back as a new image, so check faces, text and edges before you use it.</cite>\",\n  \"<cite index=\\\"7-8\\\">ChatGPT Images can take up to two minutes to generate an image, depending on how complex the instruction is.</cite>\"\n ],\n \"do_not_claim\": [\n  \"That /mannequindisplay, /flashsale or /productphotography are real ChatGPT commands. They are not in OpenAI docs. ChatGPT just reads the words as a normal request, so a plain-language prompt gives the same or better result.\",\n  \"That the creator's '50+ ready-made prompts' document is needed. It is a comment-for-DM lead magnet, and free prompt lists are widely available.\",\n  \"'1 second' or instant results. Generation can take up to two minutes.\",\n  \"That typing a slash word alone gives 'studio quality' with the real product intact. Without 'keep shape/color/logo' instructions the product can drift.\",\n  \"That it is unlimited free. Free image creation is limited and OpenAI gives no number.\",\n  \"A specific free number like '3 images a day' as official. Only third-party or old CEO statements give it.\",\n  \"That ChatGPT keeps the logo and text perfect every time. Always check the output, as even prompt guides note preservation is not guaranteed.\",\n  \"Old facts: DALL·E / the DALL·E GPT is retired (<cite index=\\\"1-15\\\">OpenAI retired the official DALL·E GPT</cite>). Don't name it.\",\n  \"That a 'fixed Images button in the web sidebar' exists. Reports say the web sidebar Images shortcut was removed in April 2026 and the sidebar was simplified in June 2026. Say 'More → Images' or just start a chat.\"\n ],\n \"criticism\": [\n  \"Accuracy risk: AI can alter logo geometry, label letters, color or small details. Always compare with the real product. Marketplaces and buyers compare images with what arrives (<cite index=\\\"34-1\\\">product prompts need an explicit command to preserve exact shape, color and label</cite>).\",\n  \"<cite index=\\\"37-1\\\">For product photos, shape, proportions, label text and color must survive, because a misleading listing is a return risk.</cite>\",\n  \"Free-tier limits are unpublished and variable. You may hit a limit after a few attempts, and images 'with Thinking' are not on Free.\",\n  \"The upload limit on Free (reported as 3 files a day) can cap your retries, since each fresh upload counts. This is unconfirmed by an OpenAI page found.\",\n  \"AI-generated product images can mislead if the product is changed. Some marketplaces have rules on edited or AI images, which were not verified here.\",\n  \"Privacy: avoid uploading unreleased products or others' photos you don't have rights to. The Library saves uploaded files, and files in Temporary Chat are not saved (<cite index=\\\"39-13\\\">files uploaded in Temporary Chat are not saved to your Library</cite>).\"\n ],\n \"ui\": {\n  \"platforms\": \"Web (chatgpt.com), iOS, Android (ChatGPT app). Steps are the same in concept on all.\",\n  \"apps\": [\n   \"ChatGPT web (chatgpt.com)\",\n   \"ChatGPT mobile app (iOS/Android)\",\n   \"Phone Camera/Gallery (to take the snapshot)\"\n  ],\n  \"screens\": [\n   \"Web: ChatGPT home, left sidebar with New chat, search, Library, and your chat history; large message box ('Ask anything') at the bottom-center with a + button at its left. Exact sidebar contents changed in 2026 (<cite index=\\\"46-4,46-5\\\">Images shortcut was removed from the web sidebar and moved to a Library section</cite>; the sidebar was simplified June 8, 2026). Confirm on a live screen before recreating.\",\n   \"Web: click + in the message box and choose the upload option (reported labels include 'Add files or photos' and 'Add from Library'; unverified exactly). Pick the product photo. A small thumbnail appears above the text box.\",\n   \"Web: type or paste the prompt in the message box and press Enter (up arrow send button on the right).\",\n   \"Result: the generated image appears in the chat as a large square (or poster-shaped) image. Clicking it opens a viewer with a Select/edit tool, comment option, and Save/download. (<cite index=\\\"1-9\\\">To open the editor, select an image in your conversation or in Images.</cite>)\",\n   \"Mobile: open the app, tap + at the left of the message bar and choose Camera / Photos / Files, send the prompt, tap the generated image to open it full-screen, then tap Edit to describe changes (<cite index=\\\"1-11,1-13\\\">tap an image to open full-screen, select Edit to describe changes</cite>).\",\n   \"Mobile sidebar: <cite index=\\\"43-15\\\">tap the three-line menu (☰) at top-left</cite> to reach history and Library/Images. This is from an older article, so verify.\",\n   \"Theme: ChatGPT follows the device's light/dark setting by default (not verified in this search). Use whichever you are recreating, and record a real screen for accuracy.\"\n  ]\n },\n \"visuals\": \"Show a before/after: the raw phone snapshot (messy table, dim light) next to the 3 outputs: (1) white-background e-commerce shot, (2) mannequin/lifestyle shot, (3) sale poster. Show a zoom on the logo/label to prove it stayed intact. A real screen recording of the ChatGPT upload and prompt is best. Menu positions changed through 2026, so avoid a recreated mock UI unless it matches a live screen.\",\n \"sources\": [\n  \"https://help.openai.com/en/articles/11084440-images-in-chatgpt\",\n  \"https://openai.com/index/introducing-chatgpt-images-2-5/\",\n  \"https://9to5mac.com/2026/09/08/openai-releases-chatgpt-images-2-5-with-sharper-details-and-more-precise-editing/\",\n  \"https://www.atlascloud.ai/blog/tips/chatgpt-image-generation-limit\",\n  \"https://yingtu.ai/en/blog/chatgpt-free-image-generation-limit-complete-guide\",\n  \"https://www.growthcab.com/how-to-edit-images-in-chatgpt\",\n  \"https://www.gizmotimes.com/ai/chatgpt-slash-commands-explained/50952\",\n  \"https://willfrancis.com/chatgpt-product-photography-prompts/\",\n  \"https://promptessor.com/blog/ai-product-photography-prompts-2026\",\n  \"https://piunikaweb.com/2026/04/30/chatgpt-removes-image-library-from-sidebar/\",\n  \"https://help.openai.com/en/articles/6825453-chatgpt-can-now-generate-images\"\n ],\n \"notes\": \"The angle is verified: slash commands like /productphotography are not official ChatGPT commands. They are ordinary prompts, and the model reads the words as a request. The trick itself (upload a photo, then prompt a white background, mannequin/lifestyle scene or sale poster) works with ChatGPT Images. Use the true-to-product wording 'using my original uploaded photo… keep shape, color, logo and text unchanged, change only the setting'. Mannequin only suits wearables, so say 'display stand' for other items. For the poster, add exact text yourself or give the exact words, because AI may invent text. Say 'free with limits' rather than any number. Screen details (button labels, sidebar items) shifted several times in 2026, so a real screen recording is safer than a recreation. Honest nuance: you can set up your own 'shortcut' by explaining it in the first message, but it is still just a prompt. The 2.5 Images update also added Templates for product photos, but the menu path wasn't verified.\"\n}",
+  "style": "hisaab",
+  "topic": "Get studio-quality product photos from one phone snapshot in ChatGPT: upload the product photo, then use 3 prompt styles (clean e-commerce white background, mannequin or lifestyle display, sale poster). Include the fixes that keep the product's real shape, color and logo.",
+  "pick": {
+   "index": 11,
+   "topic": "Get studio-quality product photos from one phone snapshot in ChatGPT: upload the product photo, then use 3 prompt styles (clean e-commerce white background, mannequin or lifestyle display, sale poster). Include the fixes that keep the product's real shape, color and logo.",
+   "tool": "ChatGPT image editing",
+   "format": "myth",
+   "angle": "ChatGPT 'slash commands' like /productphotography aren't real commands, they're just prompts. Here's the 3-step way to get studio product photos for free.",
+   "why": "2.1M views, 36k likes and 37,613 comments on a 36s reel, so demand is huge. Sellers, freelancers and small shops can try it today on free ChatGPT. It's a different topic from our face-preserving photo edit."
+  },
+  "inspired_by": {
+   "url": "https://www.instagram.com/p/DeHUb8Wsjau/",
+   "owner": "as.digital.deals",
+   "plays": 2137577,
+   "likes": 36056,
+   "comments": 37613
+  },
+  "research": {
+   "verdict": "adjust",
+   "tool": "ChatGPT Images (image editing in ChatGPT, currently ChatGPT Images 2.5)",
+   "availability": "OpenAI lists ChatGPT Images on every plan, and Images 2.5 rolled out to all tiers on desktop, mobile and web. Free has a limit but OpenAI publishes no image count. Free uploads reportedly cap at 3 per day (third-party report, not confirmed on an OpenAI page).",
+   "steps": [
+    "Open chatgpt.com (web) or the ChatGPT app and start a NEW chat. Use a new chat for each product so older images don't bleed in.",
+    "Add the photo with the + button in the message box (web label may read 'Add files or photos'; on phone the + menu offers Camera / Photos / Files). Upload one clear, well-lit snapshot of the real product.",
+    "Paste prompt 1 (clean e-commerce white background). Example: 'Using the photo I uploaded, create a clean e-commerce product photo on a pure white seamless background, centered, soft studio lighting, soft natural shadow underneath, 1:1 square. Keep the product's exact shape, proportions, color, material, logo and all label text unchanged. Do not add text, extra branding or features. Change only the background and lighting.'",
+    "Paste prompt 2 (mannequin or lifestyle display). Example: 'Using my ORIGINAL uploaded photo, show this exact product worn on a plain white mannequin (or on a display stand if it isn't clothing) in a bright boutique setting, or used naturally in a believable everyday scene. Keep shape, color, logo and text exactly as in the photo. Change the setting, not the product.'",
+    "Paste prompt 3 (sale poster). Example: 'Using my ORIGINAL uploaded photo, make a vertical 4:5 flash-sale poster: the product large and centered, bold headline \"FLASH SALE\", leave clean space for text, bright colors, keep the product and logo exactly unchanged. No other text or fake discount numbers.' Add your own price or discount text yourself in Canva or similar, so the AI doesn't invent claims.",
+    "Check the result against the real product: shape, color, logo, every letter on the label. If something drifts, reply with ONE specific fix, e.g. 'The logo is distorted. Redo using my original uploaded photo and keep the logo exactly as it appears.' You can also tap the image, choose Select, highlight the wrong area and describe the fix.",
+    "Download or save the final image (use Save in the image viewer)."
+   ],
+   "facts": [
+    "<cite index=\"1-2,1-7\">ChatGPT Images lets you create new images and edit existing ones. To edit, you select a generated image or upload an existing one, then describe the change.</cite>",
+    "<cite index=\"1-3\">OpenAI's help page says ChatGPT Images 2.5 brings sharper details, more precise editing, and faster image generation.</cite> Images 2.5 launched September 8, 2026 (<cite index=\"51-4\">OpenAI, September 8, 2026</cite>).",
+    "<cite index=\"54-7\">OpenAI says Images 2.5 is better at preserving the subjects in reference photos and follows editing instructions more reliably across multiple turns.</cite> That is OpenAI's own claim, not a guarantee.",
+    "<cite index=\"51-6\">Images 2.5 also adds Templates for popular image formats like flyers and product photos.</cite> The writer could mention this as a built-in shortcut, but the exact menu path is unverified.",
+    "<cite index=\"1-4\">You can ask for an image in a conversation, or select More and then Images.</cite>",
+    "<cite index=\"1-8,1-10\">You can skip the selection tool and describe the edit in the conversation panel, or use Select to highlight the area to edit.</cite>",
+    "<cite index=\"1-11,1-13\">On the mobile app, open an image full-screen and tap Edit to describe changes.</cite>",
+    "<cite index=\"10-6\">OpenAI publishes no image count for any ChatGPT plan, and its pricing page lists Free as 'Limited'.</cite>",
+    "<cite index=\"13-3\">OpenAI's Free tier FAQ says only that image generation has 'separate usage limits' and that ChatGPT will notify you when you reach a limit.</cite>",
+    "Third-party estimates for Free are about 2–3 images per rolling 24 hours (<cite index=\"12-1\">July 2026 estimate</cite>). One tester sent <cite index=\"10-5\">22 image requests on a free account on Oct 12, 2026 without a limit message</cite>, so don't promise a fixed number.",
+    "One third-party site, <cite index=\"9-13\">citing OpenAI's upload help page, says Free users get 3 file uploads per day and that this covers images</cite>. Treat this as unconfirmed until checked on OpenAI's own page.",
+    "<cite index=\"18-2\">Images with thinking is available on Plus, Pro, and Business, not on Free or Go.</cite>",
+    "The popular 'slash commands' are not documented ChatGPT features. A ChatGPT guide says <cite index=\"28-5\">/handwritten, /humanize and /expert have no documented command, and the model just guesses the style</cite>. The real documented slash items are things like <cite index=\"28-5\">/canvas and /study</cite>.",
+    "A product-photo prompt creator describes these as <cite index=\"32-3\">'my own shortcuts, not built-in commands'</cite>. A shortcut like /whitebg only works if you define it in the prompt first.",
+    "Prompt pattern for accuracy: <cite index=\"32-6,32-8\">'Preserve product shape, proportions, materials, colours, logo and all text… Change the setting, not the product.'</cite>",
+    "<cite index=\"6-10\">Starting prompts with 'using the photo I uploaded' helps ChatGPT edit your image instead of inventing a new one.</cite>",
+    "<cite index=\"9-17\">The edit comes back as a new image, so check faces, text and edges before you use it.</cite>",
+    "<cite index=\"7-8\">ChatGPT Images can take up to two minutes to generate an image, depending on how complex the instruction is.</cite>"
+   ],
+   "do_not_claim": [
+    "That /mannequindisplay, /flashsale or /productphotography are real ChatGPT commands. They are not in OpenAI docs. ChatGPT just reads the words as a normal request, so a plain-language prompt gives the same or better result.",
+    "That the creator's '50+ ready-made prompts' document is needed. It is a comment-for-DM lead magnet, and free prompt lists are widely available.",
+    "'1 second' or instant results. Generation can take up to two minutes.",
+    "That typing a slash word alone gives 'studio quality' with the real product intact. Without 'keep shape/color/logo' instructions the product can drift.",
+    "That it is unlimited free. Free image creation is limited and OpenAI gives no number.",
+    "A specific free number like '3 images a day' as official. Only third-party or old CEO statements give it.",
+    "That ChatGPT keeps the logo and text perfect every time. Always check the output, as even prompt guides note preservation is not guaranteed.",
+    "Old facts: DALL·E / the DALL·E GPT is retired (<cite index=\"1-15\">OpenAI retired the official DALL·E GPT</cite>). Don't name it.",
+    "That a 'fixed Images button in the web sidebar' exists. Reports say the web sidebar Images shortcut was removed in April 2026 and the sidebar was simplified in June 2026. Say 'More → Images' or just start a chat."
+   ],
+   "criticism": [
+    "Accuracy risk: AI can alter logo geometry, label letters, color or small details. Always compare with the real product. Marketplaces and buyers compare images with what arrives (<cite index=\"34-1\">product prompts need an explicit command to preserve exact shape, color and label</cite>).",
+    "<cite index=\"37-1\">For product photos, shape, proportions, label text and color must survive, because a misleading listing is a return risk.</cite>",
+    "Free-tier limits are unpublished and variable. You may hit a limit after a few attempts, and images 'with Thinking' are not on Free.",
+    "The upload limit on Free (reported as 3 files a day) can cap your retries, since each fresh upload counts. This is unconfirmed by an OpenAI page found.",
+    "AI-generated product images can mislead if the product is changed. Some marketplaces have rules on edited or AI images, which were not verified here.",
+    "Privacy: avoid uploading unreleased products or others' photos you don't have rights to. The Library saves uploaded files, and files in Temporary Chat are not saved (<cite index=\"39-13\">files uploaded in Temporary Chat are not saved to your Library</cite>)."
+   ],
+   "ui": {
+    "platforms": "Web (chatgpt.com), iOS, Android (ChatGPT app). Steps are the same in concept on all.",
+    "apps": [
+     "ChatGPT web (chatgpt.com)",
+     "ChatGPT mobile app (iOS/Android)",
+     "Phone Camera/Gallery (to take the snapshot)"
+    ],
+    "screens": [
+     "Web: ChatGPT home, left sidebar with New chat, search, Library, and your chat history; large message box ('Ask anything') at the bottom-center with a + button at its left. Exact sidebar contents changed in 2026 (<cite index=\"46-4,46-5\">Images shortcut was removed from the web sidebar and moved to a Library section</cite>; the sidebar was simplified June 8, 2026). Confirm on a live screen before recreating.",
+     "Web: click + in the message box and choose the upload option (reported labels include 'Add files or photos' and 'Add from Library'; unverified exactly). Pick the product photo. A small thumbnail appears above the text box.",
+     "Web: type or paste the prompt in the message box and press Enter (up arrow send button on the right).",
+     "Result: the generated image appears in the chat as a large square (or poster-shaped) image. Clicking it opens a viewer with a Select/edit tool, comment option, and Save/download. (<cite index=\"1-9\">To open the editor, select an image in your conversation or in Images.</cite>)",
+     "Mobile: open the app, tap + at the left of the message bar and choose Camera / Photos / Files, send the prompt, tap the generated image to open it full-screen, then tap Edit to describe changes (<cite index=\"1-11,1-13\">tap an image to open full-screen, select Edit to describe changes</cite>).",
+     "Mobile sidebar: <cite index=\"43-15\">tap the three-line menu (☰) at top-left</cite> to reach history and Library/Images. This is from an older article, so verify.",
+     "Theme: ChatGPT follows the device's light/dark setting by default (not verified in this search). Use whichever you are recreating, and record a real screen for accuracy."
+    ]
+   },
+   "visuals": "Show a before/after: the raw phone snapshot (messy table, dim light) next to the 3 outputs: (1) white-background e-commerce shot, (2) mannequin/lifestyle shot, (3) sale poster. Show a zoom on the logo/label to prove it stayed intact. A real screen recording of the ChatGPT upload and prompt is best. Menu positions changed through 2026, so avoid a recreated mock UI unless it matches a live screen.",
+   "sources": [
+    "https://help.openai.com/en/articles/11084440-images-in-chatgpt",
+    "https://openai.com/index/introducing-chatgpt-images-2-5/",
+    "https://9to5mac.com/2026/09/08/openai-releases-chatgpt-images-2-5-with-sharper-details-and-more-precise-editing/",
+    "https://www.atlascloud.ai/blog/tips/chatgpt-image-generation-limit",
+    "https://yingtu.ai/en/blog/chatgpt-free-image-generation-limit-complete-guide",
+    "https://www.growthcab.com/how-to-edit-images-in-chatgpt",
+    "https://www.gizmotimes.com/ai/chatgpt-slash-commands-explained/50952",
+    "https://willfrancis.com/chatgpt-product-photography-prompts/",
+    "https://promptessor.com/blog/ai-product-photography-prompts-2026",
+    "https://piunikaweb.com/2026/04/30/chatgpt-removes-image-library-from-sidebar/",
+    "https://help.openai.com/en/articles/6825453-chatgpt-can-now-generate-images"
+   ],
+   "notes": "The angle is verified: slash commands like /productphotography are not official ChatGPT commands. They are ordinary prompts, and the model reads the words as a request. The trick itself (upload a photo, then prompt a white background, mannequin/lifestyle scene or sale poster) works with ChatGPT Images. Use the true-to-product wording 'using my original uploaded photo… keep shape, color, logo and text unchanged, change only the setting'. Mannequin only suits wearables, so say 'display stand' for other items. For the poster, add exact text yourself or give the exact words, because AI may invent text. Say 'free with limits' rather than any number. Screen details (button labels, sidebar items) shifted several times in 2026, so a real screen recording is safer than a recreation. Honest nuance: you can set up your own 'shortcut' by explaining it in the first message, but it is still just a prompt. The 2.5 Images update also added Templates for product photos, but the menu path wasn't verified.",
+   "_searched": 6
+  },
+  "models": {
+   "pick": "claude-sonnet-5-5",
+   "research": "claude-sonnet-5-5",
+   "script": "claude-sonnet-5-5",
+   "edit": "claude-opus-5-5"
+  }
+ }
+}

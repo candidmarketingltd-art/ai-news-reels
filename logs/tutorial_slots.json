@@ -34,5 +34,11 @@
   "at": "2026-11-02 20:09",
   "post": "6ae8a093f1669be3eab77bde",
   "topic": "Incognito mode doesn't make you private. Show what it hides (local history and cookies) and what it doesn't (your IP, your ISP, school or office Wi-Fi admins, the sites you log into), then 3 fixes that do help: a VPN you trust, privacy-focused browser settings, and separate browser profiles."
+ },
+ "2026-11-03-1300": {
+  "status": "posted",
+  "at": "2026-11-03 13:13",
+  "post": "6ae9908e6896a4441f6a58ba",
+  "topic": "Free up Gmail storage without paying for Google One. Use Gmail search operators (larger:10M, has:attachment, category:promotions, older_than:2y) to find the biggest and oldest junk, select all, delete, then empty Trash and Spam."
  }
 }

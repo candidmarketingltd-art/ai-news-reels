@@ -3,25 +3,43 @@
   APIFY_TOKEN: set
   BUFFER_API_KEY: set
   BUFFER_CHANNEL_ID: set
-window 2026-11-02-2000 | posting times 13:00, 20:00 IST | dry_run=False
+window 2026-11-03-1300 | posting times 13:00, 20:00 IST | dry_run=False
       b-roll library: 25 clips
       recording request #1: still waiting for the video
 [1/6] top AI & tech reels
-      reel pool: 80 reels (cached today)
+      hashtags: 160 reels from 10 tags
+      accounts: 46 reels from @insideraix, @socialcanvasbyrahul, @techbyashu, @techwaalababa, @rahuliyer.ai, @jjtechvault
+      reel pool: 80 reels
 [2/6] picking the topic
-      → Incognito mode doesn't make you private. Show what it hides (local history and cookies) and what it doesn't (your IP, your ISP, school or office Wi-Fi admins, the sites you log into), then 3 fixes that do help: a VPN you trust, privacy-focused browser settings, and separate browser profiles.  (myth, from @gyansnacks, 169,974 views) — 170k views and 1.3k likes in 5 days. Comments are low (65), so a sharper hook and a question like 'where do you use Incognito?' should draw more. It's a true, c
-[3/6] research (161 transcript words)
-      web research unavailable (Expecting ',' delimiter: line 1 column 10631 (char 10630)); using the transcript only, conservatively
-      verdict adjust · 0 web searches · 0 steps · 0 sources
+      → Get studio-quality product photos from one phone snapshot in ChatGPT: upload the product photo, then use 3 prompt styles (clean e-commerce white background, mannequin or lifestyle display, sale poster). Include the fixes that keep the product's real shape, color and logo.  (myth, from @as.digital.deals, 2,137,577 views) — 2.1M views, 36k likes and 37,613 comments on a 36s reel, so demand is huge. Sellers, freelancers and small shops can try it today on free ChatGPT. It's a differ
+[3/6] research (100 transcript words)
+      verdict adjust · 6 web searches · 7 steps · 11 sources
 [4/6] script + edit
-      media: s1_broll1, s1_broll2
+      (media: pexels 'product photography studio' failed: 403 Client Error: Forbidden for url: https://api.apify.com/v2/acts/memo23~pexels)
+      (media: pexels 'phone taking photo' failed: 403 Client Error: Forbidden for url: https://api.apify.com/v2/acts/memo23~pexels)
+      media: s1_image, s1_logo
+      needs a real recording: The payoff is the real AI-generated photos and the intact logo, which a mock-up can't fake. -> asking the owner, next pick
+      recording request: issue #2
+      → Free up Gmail storage without paying for Google One. Use Gmail search operators (larger:10M, has:attachment, category:promotions, older_than:2y) to find the biggest and oldest junk, select all, delete, then empty Trash and Spam.  (tutorial, from @techbyashu, 250,333 views) — 250k views and 301 comments, and everyone with Gmail has this problem. It's fully free and teachable in 3 steps. The searches can be demoed on screen and checke
+      transcript failed: apify apify/instagram-reel-scraper: 403 {
+  "error": {
+    "type": "platform-feature-disabled",
+    "message": "Monthly usage hard limit exceeded"
+  }
+}
+[3/6] research (0 transcript words)
+      verdict adjust · 6 web searches · 9 steps · 14 sources
+[4/6] script + edit
+      (media: pexels 'typing on laptop' failed: 403 Client Error: Forbidden for url: https://api.apify.com/v2/acts/memo23~pexels)
+      (media: pexels 'full email inbox' failed: 403 Client Error: Forbidden for url: https://api.apify.com/v2/acts/memo23~pexels)
+      media: s1_image, s1_logo
 [5/6] voice + render
       [eleven] workspace voices: Rohan (IcsYcP26eMwajlgx2SDe, cloned)
       [eleven] using Rohan (IcsYcP26eMwajlgx2SDe)
-      [eleven] subscription: 200 {"tier":"starter","character_count":18938,"character_limit":40000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796033014,"voice_slots_used":1,"professional_voice_slots_
+      [eleven] subscription: 200 {"tier":"starter","character_count":20485,"character_limit":40000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796033014,"voice_slots_used":1,"professional_voice_slots_
       [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
-      153 words, 56.0s, voice eleven_v4
-      remotion: Reel /tmp/tmp7dwrz2fh/video_only.mp4
+      146 words, 72.3s, voice eleven_v4
+      remotion: Reel /tmp/tmplt2o6869/video_only.mp4
 [6/6] publish
-      [buffer] created post 6ae8a093f1669be3eab77bde (customScheduled)
-POSTED 6ae8a093f1669be3eab77bde https://github.com/candidmarketingltd-art/ai-news-reels/releases/download/reel-2026-11-02_2001/2026-11-02_2001.mp4
+      [buffer] created post 6ae9908e6896a4441f6a58ba (customScheduled)
+POSTED 6ae9908e6896a4441f6a58ba https://github.com/candidmarketingltd-art/ai-news-reels/releases/download/reel-2026-11-03_1301/2026-11-03_1301.mp4

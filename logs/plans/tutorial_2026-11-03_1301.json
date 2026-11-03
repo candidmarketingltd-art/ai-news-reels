@@ -1,0 +1,1662 @@
+{
+ "voiceover": "[conversational] Before you pay for Google storage, try this Gmail cleanup first.\n\nGmail, Drive and Photos share one storage pool.\n\nOn a computer, open Gmail and type this in the search bar: has:attachment larger:10M. Press Enter.\n\nTick the Select checkbox. [whispers] Here's the step most people miss: that only picks the 50 on screen. Click \"Select all conversations that match this search\", then hit the trash icon.\n\nRepeat with category:promotions older_than:2y. Then older_than:2y larger:10M. Then has:attachment older_than:2y.\n\n[serious] Now the catch: deleted mail still counts. Go to More, Trash, \"Empty Trash now\". Then More, Spam, \"Delete all spam messages now.\"\n\nIt's permanent, so add -is:starred and skim for receipts first. The phone app can't select all, and Drive or Photos might be the real hog. Check one.google.com/storage.\n\n[curious] What's eating most of your storage, Gmail, Drive or Photos?\n\nSend this to the friend whose Gmail says storage is almost full.",
+ "title": "BEFORE YOU PAY GOOGLE",
+ "ig_caption": "Before you pay for Google storage, try this Gmail cleanup first 👇\n✅ Search: has:attachment larger:10M\n✅ Tick Select, then \"Select all conversations that match this search\", then Delete\n✅ Repeat for category:promotions older_than:2y and older_than:2y larger:10M\n✅ More > Trash > Empty Trash now, then More > Spam > Delete all spam messages now\nWhat's eating your storage: Gmail, Drive or Photos? Tell me 💬\nSave this for later\nFollow @ihackgrowth for daily AI & tech hacks",
+ "media_hints": {
+  "domain": "google.com",
+  "broll": [
+   "typing on laptop",
+   "full email inbox",
+   "person frustrated at desk"
+  ]
+ },
+ "hashtags": [
+  "#Gmail",
+  "#GmailTips",
+  "#GoogleOne",
+  "#TechTips",
+  "#StorageHack",
+  "#AIhacks",
+  "#productivity",
+  "#LifeHacks"
+ ],
+ "tag": "GMAIL STORAGE",
+ "keywords": [
+  "storage",
+  "Gmail",
+  "Drive",
+  "Photos",
+  "pool",
+  "search",
+  "Select",
+  "conversations",
+  "trash",
+  "promotions",
+  "catch",
+  "Spam",
+  "permanent",
+  "starred",
+  "receipts",
+  "phone",
+  "hog",
+  "full"
+ ],
+ "scenes": [
+  {
+   "at": "Before you",
+   "tint": "red",
+   "react": [
+    {
+     "at": "Gmail cleanup",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Before you",
+     "media": "lib_hands_holding_credit_card_near",
+     "full": true
+    },
+    {
+     "type": "title_slam",
+     "at": "Before you",
+     "text": "DON'T PAY",
+     "sub": "TRY THIS GMAIL CLEANUP",
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "at": "Gmail, Drive",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Gmail, Drive",
+     "media": "lib_camera_moving_down_server_corridor",
+     "full": true
+    },
+    {
+     "type": "headline",
+     "at": "Gmail, Drive",
+     "text": "GMAIL + DRIVE + PHOTOS",
+     "size": "l",
+     "sub": "ONE STORAGE POOL",
+     "sub_at": "one storage",
+     "sub_color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "On a computer,",
+   "react": [
+    {
+     "at": "open Gmail",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "screen",
+     "at": "On a computer,",
+     "device": "web",
+     "url": "mail.google.com",
+     "app": "Gmail",
+     "step": "Step 1 · Find the big ones",
+     "steps": [
+      {
+       "at": "On a computer,",
+       "view": {
+        "kind": "mail",
+        "search": "",
+        "folder": "Inbox",
+        "toolbar": [
+         "Archive",
+         "Report spam",
+         "Delete"
+        ],
+        "rows": [
+         {
+          "from": "Team",
+          "subject": "Weekly sync notes",
+          "meta": "10:42",
+          "unread": true
+         },
+         {
+          "from": "Amazon",
+          "subject": "Your order has shipped",
+          "meta": "9:15"
+         },
+         {
+          "from": "Priya",
+          "subject": "Trip photos",
+          "attachment": "IMG_4410.jpg",
+          "meta": "Yesterday"
+         },
+         {
+          "from": "Bank",
+          "subject": "Account update",
+          "meta": "Mon"
+         }
+        ]
+       },
+       "action": {
+        "kind": "type",
+        "target": "search",
+        "text": "has:attachment larger:10M",
+        "at": "search bar:"
+       }
+      },
+      {
+       "at": "Press Enter.",
+       "view": {
+        "kind": "mail",
+        "search": "has:attachment larger:10M",
+        "folder": "Inbox",
+        "toolbar": [
+         "Archive",
+         "Report spam",
+         "Delete"
+        ],
+        "rows": [
+         {
+          "from": "Rahul",
+          "subject": "Wedding photos!!",
+          "attachment": "IMG_2201.zip",
+          "meta": "Sep 28"
+         },
+         {
+          "from": "Studio",
+          "subject": "Final video cut",
+          "attachment": "final_v3.mp4",
+          "meta": "Aug 14"
+         },
+         {
+          "from": "Canva",
+          "subject": "Your design export is ready",
+          "attachment": "design.pdf",
+          "meta": "Jul 2"
+         },
+         {
+          "from": "Mom",
+          "subject": "Family videos",
+          "attachment": "VID_0091.mov",
+          "meta": "Mar 19"
+         }
+        ]
+       },
+       "action": {
+        "kind": "point",
+        "target": "Wedding photos!!",
+        "at": "Press Enter."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Tick the",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "most people miss:",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Tick the",
+     "device": "web",
+     "url": "mail.google.com",
+     "app": "Gmail",
+     "step": "Step 2 · Select ALL of it",
+     "steps": [
+      {
+       "at": "Tick the",
+       "view": {
+        "kind": "mail",
+        "search": "has:attachment larger:10M",
+        "select_label": "Select",
+        "toolbar": [
+         "Archive",
+         "Report spam",
+         "Delete"
+        ],
+        "rows": [
+         {
+          "from": "Rahul",
+          "subject": "Wedding photos!!",
+          "attachment": "IMG_2201.zip",
+          "meta": "Sep 28"
+         },
+         {
+          "from": "Studio",
+          "subject": "Final video cut",
+          "attachment": "final_v3.mp4",
+          "meta": "Aug 14"
+         },
+         {
+          "from": "Canva",
+          "subject": "Your design export is ready",
+          "attachment": "design.pdf",
+          "meta": "Jul 2"
+         },
+         {
+          "from": "Mom",
+          "subject": "Family videos",
+          "attachment": "VID_0091.mov",
+          "meta": "Mar 19"
+         }
+        ]
+       },
+       "action": {
+        "kind": "toggle",
+        "target": "Select",
+        "at": "Select checkbox."
+       }
+      },
+      {
+       "at": "that only picks",
+       "view": {
+        "kind": "mail",
+        "search": "has:attachment larger:10M",
+        "select_label": "Select",
+        "all_selected": true,
+        "toolbar": [
+         "Archive",
+         "Report spam",
+         "Delete"
+        ],
+        "banner": {
+         "text": "All 50 conversations on this page are selected.",
+         "link": "Select all conversations that match this search"
+        },
+        "rows": [
+         {
+          "from": "Rahul",
+          "subject": "Wedding photos!!",
+          "attachment": "IMG_2201.zip",
+          "meta": "Sep 28"
+         },
+         {
+          "from": "Studio",
+          "subject": "Final video cut",
+          "attachment": "final_v3.mp4",
+          "meta": "Aug 14"
+         },
+         {
+          "from": "Canva",
+          "subject": "Your design export is ready",
+          "attachment": "design.pdf",
+          "meta": "Jul 2"
+         },
+         {
+          "from": "Mom",
+          "subject": "Family videos",
+          "attachment": "VID_0091.mov",
+          "meta": "Mar 19"
+         }
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "Select all conversations that match this search",
+        "at": "all conversations"
+       }
+      },
+      {
+       "at": "then hit",
+       "view": {
+        "kind": "mail",
+        "search": "has:attachment larger:10M",
+        "select_label": "Select",
+        "all_selected": true,
+        "toolbar": [
+         "Archive",
+         "Report spam",
+         "Delete"
+        ],
+        "banner": {
+         "text": "All conversations in this search are selected.",
+         "link": "Clear selection"
+        },
+        "rows": [
+         {
+          "from": "Rahul",
+          "subject": "Wedding photos!!",
+          "attachment": "IMG_2201.zip",
+          "meta": "Sep 28"
+         },
+         {
+          "from": "Studio",
+          "subject": "Final video cut",
+          "attachment": "final_v3.mp4",
+          "meta": "Aug 14"
+         },
+         {
+          "from": "Canva",
+          "subject": "Your design export is ready",
+          "attachment": "design.pdf",
+          "meta": "Jul 2"
+         },
+         {
+          "from": "Mom",
+          "subject": "Family videos",
+          "attachment": "VID_0091.mov",
+          "meta": "Mar 19"
+         }
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "Delete",
+        "at": "trash icon."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Repeat with",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Repeat with",
+     "device": "web",
+     "url": "mail.google.com",
+     "app": "Gmail",
+     "step": "Step 3 · Repeat 3 searches",
+     "steps": [
+      {
+       "at": "Repeat with",
+       "view": {
+        "kind": "mail",
+        "search": "",
+        "folder": "Inbox",
+        "toolbar": [
+         "Archive",
+         "Report spam",
+         "Delete"
+        ],
+        "rows": [
+         {
+          "from": "Shop",
+          "subject": "Flash sale ends tonight",
+          "meta": "2022"
+         },
+         {
+          "from": "Store",
+          "subject": "New arrivals for you",
+          "meta": "2021"
+         },
+         {
+          "from": "Deals",
+          "subject": "Your weekly offers",
+          "meta": "2021"
+         }
+        ]
+       },
+       "action": {
+        "kind": "type",
+        "target": "search",
+        "text": "category:promotions older_than:2y",
+        "at": "category:promotions older_than:2y."
+       }
+      },
+      {
+       "at": "Then older_than:2y",
+       "view": {
+        "kind": "mail",
+        "search": "category:promotions older_than:2y",
+        "folder": "Inbox",
+        "toolbar": [
+         "Archive",
+         "Report spam",
+         "Delete"
+        ],
+        "rows": [
+         {
+          "from": "Studio",
+          "subject": "Old project files",
+          "attachment": "raw_cut.mov",
+          "meta": "2021"
+         },
+         {
+          "from": "Rahul",
+          "subject": "Holiday videos",
+          "attachment": "trip.zip",
+          "meta": "2020"
+         }
+        ]
+       },
+       "action": {
+        "kind": "type",
+        "target": "search",
+        "text": "older_than:2y larger:10M",
+        "at": "Then older_than:2y"
+       }
+      },
+      {
+       "at": "Then has:attachment",
+       "view": {
+        "kind": "mail",
+        "search": "older_than:2y larger:10M",
+        "folder": "Inbox",
+        "toolbar": [
+         "Archive",
+         "Report spam",
+         "Delete"
+        ],
+        "rows": [
+         {
+          "from": "HR",
+          "subject": "Old forms",
+          "attachment": "forms.pdf",
+          "meta": "2021"
+         },
+         {
+          "from": "Team",
+          "subject": "Q3 slides",
+          "attachment": "deck.pptx",
+          "meta": "2020"
+         }
+        ]
+       },
+       "action": {
+        "kind": "type",
+        "target": "search",
+        "text": "has:attachment older_than:2y",
+        "at": "Then has:attachment"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Now the catch:",
+   "tint": "red",
+   "react": [
+    {
+     "at": "still counts.",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "Now the catch:",
+     "text": "THE CATCH"
+    },
+    {
+     "type": "title_slam",
+     "at": "deleted mail",
+     "text": "STILL COUNTS",
+     "sub": "TRASH + SPAM USE STORAGE",
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "at": "Go to More,",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Go to More,",
+     "device": "web",
+     "url": "mail.google.com",
+     "app": "Gmail",
+     "step": "Step 4 · Empty Trash + Spam",
+     "steps": [
+      {
+       "at": "Go to More,",
+       "view": {
+        "kind": "mail",
+        "search": "",
+        "folder": "Inbox",
+        "toolbar": [
+         "Archive",
+         "Delete"
+        ],
+        "rows": [
+         {
+          "from": "Team",
+          "subject": "Weekly sync notes",
+          "meta": "10:42"
+         },
+         {
+          "from": "Amazon",
+          "subject": "Your order has shipped",
+          "meta": "9:15"
+         }
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "Trash",
+        "at": "Trash, \"Empty"
+       }
+      },
+      {
+       "at": "Trash now\".",
+       "view": {
+        "kind": "mail",
+        "folder": "Trash",
+        "toolbar": [
+         "Delete forever"
+        ],
+        "banner": {
+         "text": "Messages in Trash take up storage.",
+         "link": "Empty Trash now"
+        },
+        "rows": [
+         {
+          "from": "Rahul",
+          "subject": "Wedding photos!!",
+          "attachment": "IMG_2201.zip",
+          "meta": "Sep 28"
+         },
+         {
+          "from": "Studio",
+          "subject": "Final video cut",
+          "attachment": "final_v3.mp4",
+          "meta": "Aug 14"
+         }
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "Empty Trash now",
+        "at": "Trash now\"."
+       }
+      },
+      {
+       "at": "Then More,",
+       "view": {
+        "kind": "mail",
+        "folder": "Spam",
+        "toolbar": [
+         "Delete forever"
+        ],
+        "banner": {
+         "text": "Spam takes up storage too.",
+         "link": "Delete all spam messages now"
+        },
+        "rows": [
+         {
+          "from": "Promo",
+          "subject": "You won a prize!!",
+          "meta": "Oct 2"
+         },
+         {
+          "from": "Offers",
+          "subject": "Claim your reward",
+          "meta": "Sep 30"
+         }
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "Delete all spam messages now",
+        "at": "messages now.\""
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "It's permanent,",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "pill",
+     "at": "It's permanent,",
+     "text": "PERMANENT",
+     "color": "red",
+     "outline": true
+    },
+    {
+     "type": "headline",
+     "at": "add -is:starred",
+     "text": "ADD -is:starred",
+     "size": "l",
+     "ill": "star",
+     "sub": "SKIM FOR RECEIPTS",
+     "sub_at": "skim for",
+     "sub_color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "The phone app",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "real hog.",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "strike_list",
+     "at": "The phone app",
+     "items": [
+      {
+       "text": "PHONE APP: NO SELECT ALL",
+       "at": "The phone app",
+       "strike": true
+      },
+      {
+       "text": "DRIVE OR PHOTOS = HOG?",
+       "at": "Drive or Photos",
+       "strike": false
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "at": "Check one.google.com/storage.",
+     "text": "ONE.GOOGLE.COM/STORAGE",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "What's eating",
+   "elements": [
+    {
+     "type": "headline",
+     "at": "What's eating",
+     "text": "GMAIL, DRIVE OR PHOTOS?",
+     "size": "l",
+     "ill": "thinking_face",
+     "sub": "COMMENT BELOW",
+     "sub_at": "or Photos?",
+     "sub_color": "gold"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "Send this",
+  "line1": "Send this to",
+  "line1_at": "Send this",
+  "line2": "the 'storage full' friend",
+  "line2_at": "almost full."
+ },
+ "endcard": {
+  "title": "Saved it?",
+  "terminal": "> gmail.trash · emptied"
+ },
+ "media": [
+  {
+   "id": "lib_camera_moving_down_server_corridor",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "credit": "",
+   "file": "camera_moving_down_server_corridor.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow forward push down a hazy, fog-filled data center aisle lined with server racks that glow with blue and amber status lights, giving a moody, futuristic feel. Good for: A script line about the infrastructure behind AI, such as cloud computing, model training, heavy compute, data storage, or 'what happens behind the scenes'."
+  },
+  {
+   "id": "lib_colleagues_collaborating_around",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "credit": "",
+   "file": "colleagues_collaborating_around.mp4",
+   "frames": 126,
+   "desc": "B-roll (4.2s, VERTICAL 9:16 — best as full: true): colleagues collaborating around Good for: "
+  },
+  {
+   "id": "lib_content_creator_sets_up_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "credit": "",
+   "file": "content_creator_sets_up_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt stands behind a ring light with a phone on a tripod, adjusting the setup while the camera slowly pushes in until his face fills the frame, with a calm, focused mood and moody blue ambient lighting in the background. Good for: setting up to create content, getting started as a creator, or preparing equipment before recording a tutorial"
+  },
+  {
+   "id": "lib_fingers_typing_on_laptop_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "credit": "",
+   "file": "fingers_typing_on_laptop_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): Close-up over-the-shoulder shot of a person typing on a backlit laptop keyboard, with a blurred blue screen in the background and a warm, focused, productive mood. Good for: lines about getting started, writing prompts or code, doing focused work at the computer, or the hands-on steps of a tutorial"
+  },
+  {
+   "id": "lib_hand_dropping_papers_on_desk",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "credit": "",
+   "file": "hand_dropping_papers_on_desk.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a green shirt carries and then drops a thick stack of papers onto an already huge, messy pile of documents with sticky notes on a cluttered desk, while a laptop glows nearby, and the camera pushes in to a close-up of the towering stack, creating a mood of overwhelm and tedious paperwork. Good for: a script line about drowning in manual paperwork or document processing, setting up how AI can automate summarizing, sorting, or extracting information from piles of documents"
+  },
+  {
+   "id": "lib_hand_scrolling_smartphone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_scrolling_smartphone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_scrolling_smartphone.mp4",
+   "credit": "",
+   "file": "hand_scrolling_smartphone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a bearded young man in a white t-shirt looking intently at a smartphone in dim, warm lighting, with the camera slowly pushing in until his focused, slightly tense gaze moves from the screen to the lens. Good for: a script line about being glued to your phone, doubt or tension before a reveal, or the moment of realizing something while checking an app or notification"
+  },
+  {
+   "id": "lib_hands_holding_credit_card_near",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hands_holding_credit_card_near.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hands_holding_credit_card_near.mp4",
+   "credit": "",
+   "file": "hands_holding_credit_card_near.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): hands holding credit card near Good for: "
+  },
+  {
+   "id": "lib_man_comparing_phone_and_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "credit": "",
+   "file": "man_comparing_phone_and_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): man comparing phone and laptop Good for: "
+  },
+  {
+   "id": "lib_man_looking_at_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "credit": "",
+   "file": "man_looking_at_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt scowls with intense focus at a laptop in a dim, warmly lit room, then closes his eyes and rubs his hand near his chin in tired frustration. Good for: frustration with slow or difficult work, such as struggling with a tedious task, debugging, or burning out late at night before finding a better way"
+  },
+  {
+   "id": "lib_man_opens_laptop_in_room",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "credit": "",
+   "file": "man_opens_laptop_in_room.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt sits at a laptop in a dimly lit, warmly lit room, and his focused, tense expression builds as he leans toward the screen, which shows blurry blue diagram or flowchart-style blocks, with his fists clenched near his chin in the middle frame. Good for: intense concentration or deep work, such as debugging, building an AI workflow, or struggling with a complex problem"
+  },
+  {
+   "id": "lib_man_smiling_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "credit": "",
+   "file": "man_smiling_at_phone.mp4",
+   "frames": 135,
+   "desc": "B-roll (4.5s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a blue smartphone, his expression shifting from neutral to a furrowed-brow frown of confusion and frustration. Good for: a line about frustration with confusing apps or slow tools, or the moment someone hits a problem and doesn't know what to do next"
+  },
+  {
+   "id": "lib_man_studying_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "credit": "",
+   "file": "man_studying_with_laptop.mp4",
+   "frames": 132,
+   "desc": "B-roll (4.4s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits at a desk behind a laptop with a furrowed brow and a frustrated, concentrated look, first staring at the screen, then looking down at an open notebook and writing with a pen, with a warm blurred lamp glowing in the background. Good for: a script line about struggling to understand something complex, frustration with slow or manual work, or the pain of learning a new tool the hard way"
+  },
+  {
+   "id": "lib_man_watching_laptop_waiting",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "credit": "",
+   "file": "man_watching_laptop_waiting.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits at a laptop in a dimly lit room with warm lamp light, resting his chin on his fist with a focused, pensive look, and the camera pushes in closer across the three frames. Good for: a script line about deep thinking, researching or problem-solving, or weighing a decision before trying an AI tool"
+  },
+  {
+   "id": "lib_person_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "person_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a laptop, his expression moving from concern to a deep frown with glowing blue tear-like effects on his cheeks, then to eyes shut in stress or exhaustion; the mood is frustrated and overwhelmed. Good for: A script line about frustration or overwhelm with a tough task, such as struggling with confusing tools, wasting hours on manual work, or being stuck before finding an AI solution."
+  },
+  {
+   "id": "lib_person_speaking_into_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "credit": "",
+   "file": "person_speaking_into_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt takes a phone call in a modern industrial office with exposed concrete ceilings, moving from a serious, concerned look to a worried talking expression and ending with a relieved, confident smile at the camera. Good for: a script line about getting a surprising call or news, a problem being solved, or the moment of relief after a stressful issue"
+  },
+  {
+   "id": "lib_person_taking_selfie_with_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "credit": "",
+   "file": "person_taking_selfie_with_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt sits in a car holding a blue smartphone up close to his face, and across the clip he leans toward the screen with a furrowed brow, looking skeptical and intensely focused. Good for: a script line about doubting or double-checking AI output, being confused or frustrated by an app or tool, or looking closely at a result on your phone, e.g. 'wait, is this actually right?'"
+  },
+  {
+   "id": "lib_professional_working_on_laptop_late",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "credit": "",
+   "file": "professional_working_on_laptop_late.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A tired bearded young man in a maroon t-shirt sits at a laptop in a dim apartment at night, resting his head on his hand, rubbing his eyes, then glumly lifting a white coffee mug, with blurred city lights glowing behind him through the window. Good for: A script line about burnout, late-night grinding, or frustration with slow manual work that AI tools can speed up, e.g. 'still stuck doing this by hand at midnight?'"
+  },
+  {
+   "id": "lib_robotic_hand_typing_on_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "credit": "",
+   "file": "robotic_hand_typing_on_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a black robotic hand with segmented, mechanical fingers lowering onto a backlit laptop keyboard and starting to type, shot at shallow depth of field in a warm, softly lit, modern workspace. Good for: A script line about AI doing the work for you, automating repetitive tasks, or AI taking over typing and writing, such as 'let AI handle the busywork' or 'AI writes it for you'."
+  },
+  {
+   "id": "s1_image",
+   "kind": "image",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-03_1301/s1_image.png",
+   "credit": "Image: google.com",
+   "desc": "official image from Gmail search operators (larger:, has:attachment, category:, older_than:) plus Gmail's \"Select all conversations that match this search\", Trash and Spam (announcement page)"
+  }
+ ],
+ "style": "hisaab",
+ "topic": "Free up Gmail storage without paying for Google One. Use Gmail search operators (larger:10M, has:attachment, category:promotions, older_than:2y) to find the biggest and oldest junk, select all, delete, then empty Trash and Spam.",
+ "pick": {
+  "index": 50,
+  "topic": "Free up Gmail storage without paying for Google One. Use Gmail search operators (larger:10M, has:attachment, category:promotions, older_than:2y) to find the biggest and oldest junk, select all, delete, then empty Trash and Spam.",
+  "tool": "Gmail search operators",
+  "format": "tutorial",
+  "angle": "Stop paying for Google storage. These 4 Gmail searches delete 5GB of junk in 2 minutes.",
+  "why": "250k views and 301 comments, and everyone with Gmail has this problem. It's fully free and teachable in 3 steps. The searches can be demoed on screen and checked by anyone."
+ },
+ "inspired_by": {
+  "url": "https://www.instagram.com/p/De4KYPYsh-z/",
+  "owner": "techbyashu",
+  "plays": 250333,
+  "likes": 1608,
+  "comments": 301
+ },
+ "research": {
+  "verdict": "adjust",
+  "tool": "Gmail search operators (larger:, has:attachment, category:, older_than:) plus Gmail's \"Select all conversations that match this search\", Trash and Spam",
+  "availability": "Free. Works in every Gmail account. The full select-all and bulk-delete flow works on Gmail web (desktop, or a mobile browser in desktop mode). The Gmail mobile app accepts the search operators but has no \"select all conversations that match this search\" option, so you must tap messages one by one.",
+  "steps": [
+   "On a computer, open Gmail (mail.google.com).",
+   "Click the search bar at the top and type the first query, for example: has:attachment larger:10M. Press Enter.",
+   "Tick the Select checkbox at the top-left above the message list. This selects only the 50 conversations on the current page.",
+   "Click the banner link \"Select all conversations that match this search\" (reads like \"Select all 2,000 conversations...\").",
+   "Review the results first, e.g. add -is:starred to protect starred mail. Then click the Delete (trash can) icon at the top and confirm the bulk-action prompt if one appears.",
+   "Repeat with the other searches: category:promotions older_than:2y, then older_than:2y larger:10M has:attachment (or older_than:2y has:attachment larger:5M).",
+   "In the left sidebar click More, then Trash. Click \"Empty Trash now\" at the top (or Delete forever), and confirm.",
+   "In the left sidebar click More, then Spam. Click \"Delete all spam messages now\" at the top.",
+   "Check the result at one.google.com/storage, which shows the Gmail / Drive / Photos breakdown."
+  ],
+  "facts": [
+   "Gmail Help: when you delete a message it moves to Trash, and after 30 days it is deleted permanently.",
+   "Google One Help: Gmail messages and attachments, including Spam and Trash, count towards your storage quota. So deleting alone does not free space until you empty Trash and Spam.",
+   "Google's Gmail Help desktop steps: More > Trash > \"Empty Trash now\" / \"Delete forever\"; More > Spam > \"Delete all spam messages now\" (or select emails and click \"Delete forever\").",
+   "larger:10M finds emails bigger than 10 MB, including attachments (Mailmeteor 2026 guide). Combining with has:attachment is a common pattern, e.g. has:attachment larger:10M or older_than:2y larger:10M has:attachment.",
+   "older_than: accepts d, m and y units (days, months, years). Hours and weeks are not documented (EmailAnalytics, checked against Google's Help page; Google's Refine searches in Gmail page still listed the operators as of Sept 2026).",
+   "category:promotions is a valid search, e.g. category:promotions older_than:1y (Superhuman, Carly guides). Gmail has no built-in sort-by-size, so larger: is the workaround (MailSweeper).",
+   "The select-all checkbox picks only the current page (50 conversations on web). A banner then offers to select every conversation that matches the search (Google Workspace KB shows the example \"All 50 conversations on this page are selected. Select all 2,000 conversations in Inbox.\").",
+   "Spam is auto-deleted after 30 days, and Trash after 30 days (Mailmeteor, 2sync).",
+   "Storage pricing, US (Google One plans page, as of Oct 2026): Basic 100 GB $1.99/mo; Google AI Plus 2 TB $9.99/mo; Google AI Pro 5 TB $19.99/mo. Storage is shared across Photos, Drive and Gmail.",
+   "Free storage: Google's official wording is now \"up to 15 GB\". 9to5Google (May 14, 2026) reports new accounts get 5 GB until a phone number is linked, which unlocks 15 GB. PCWorld says existing accounts are unaffected. Google told Engadget it is a \"test\" in select regions (via Gizchina).",
+   "Gmail storage is shared with Drive and Photos, so freeing Gmail space helps the whole account quota (Google One Help).",
+   "If storage stays over quota, Google says you can't upload to Drive or back up Photos, sending and receiving email can be affected, and content may eventually be removed (Google One Help)."
+  ],
+  "do_not_claim": [
+   "\"Delete 5GB in 2 minutes\" is unverifiable. Results depend on the mailbox, and many accounts have far less than 5 GB of mail junk. Use \"can free up gigabytes\" or \"depends on your inbox\" instead.",
+   "\"Stop paying for Google storage\" or \"never pay again\" is an overstatement. Heavy Photos or Drive use may still need a paid plan, and Gmail may not be the main storage hog.",
+   "\"Hidden\" or \"secret\" Gmail codes: the operators are documented in Google's own Help Center (Refine searches in Gmail).",
+   "Don't say deleting frees space instantly. Trash and Spam still count towards the quota until emptied, or for 30 days.",
+   "Don't say \"everyone has 15 GB free\". Google now says \"up to 15 GB\", and new accounts without a phone number may get 5 GB.",
+   "Don't say it works the same on phone. Select-all-matching is web only.",
+   "Don't claim a single search deletes everything. Each query needs its own select-all and delete.",
+   "The caption's \"comment STORAGE for a DM\" is a lead-gen hook, not a Gmail feature. Don't copy it.",
+   "Don't claim larger:10M finds only attachments. It matches total message size. Add has:attachment for attachments.",
+   "Don't say Spam goes to Trash first. \"Delete all spam messages now\" is permanent and immediate (Viral Marketing Lab, secondary source)."
+  ],
+  "criticism": [
+   "Bulk deletion is hard to undo: after Trash is emptied (or 30 days pass) the mail is gone for good. Back up important mail with Google Takeout first (MailSweeper).",
+   "Broad searches like category:promotions or older_than:2y can catch receipts, tickets, tax documents, or 2FA and recovery emails. Review the results, and use -is:starred or -label: to protect important mail.",
+   "Search operators don't touch Google Drive or Google Photos, which are often the real storage hogs. Check one.google.com/storage first.",
+   "Free storage is shrinking for new accounts: 5 GB without phone verification (9to5Google, PCWorld). Phone number linking is the trade-off for 15 GB.",
+   "The Gmail mobile app can't select all matching conversations, so phone users can't bulk-delete this way."
+  ],
+  "ui": {
+   "platforms": "Gmail web (desktop browser) is the primary platform. The Gmail iOS and Android apps take the search operators but have no select-all-matching option. Storage check on one.google.com or Google Account > Storage.",
+   "apps": [
+    "Gmail web (mail.google.com)",
+    "Google One storage page (one.google.com/storage) for the before/after storage check"
+   ],
+   "screens": [
+    "Gmail web inbox: search bar across the top centre. Tune/slider icon at the right end of the search box opens the Advanced search panel (Size, Has attachment, Date within, etc.). Left sidebar: Compose, Inbox, Starred, Snoozed, Sent, Drafts, then More (expands to Important, Chat, Scheduled, All Mail, Spam, Trash, Categories, Manage labels, Create new label). Inbox tabs sit above the message list: Primary, Promotions, Social, Updates (if enabled). Default theme is light.",
+    "Type the query (e.g. has:attachment larger:10M) in the search bar, press Enter. The list shows only matching mail, with the query shown in the search box.",
+    "Above the message list, top-left, the Select checkbox. Ticking it shows a banner: \"All 50 conversations on this page are selected.\" with a link \"Select all [N] conversations that match this search\".",
+    "Toolbar above the list shows Archive, Report spam, Delete (trash can), Mark as unread, Snooze, Move to, Labels, More. Click the trash can. A confirmation dialog for the bulk action may appear (\"Confirm bulk action\" / OK).",
+    "Sidebar: More > Trash. Banner at top of the list: \"Empty Trash now\", with a \"Delete forever\" button in the toolbar when emails are selected. A confirmation dialog appears; click OK.",
+    "Sidebar: More > Spam. Banner at top: \"Delete all spam messages now\". Click it and confirm.",
+    "Optional result screen: one.google.com/storage shows the total used, with a Gmail, Drive and Photos breakdown, and a \"Manage storage\" or cleanup tool."
+   ]
+  },
+  "visuals": "A real screen recording of Gmail web is best: the typed query in the search bar, the filtered list, the Select checkbox and the \"Select all conversations that match this search\" banner, the trash icon, then More > Trash > \"Empty Trash now\" and More > Spam > \"Delete all spam messages now\". Finish on the Google storage page showing the used amount before and after. Use real numbers from a real account, not a promised \"5GB\".",
+  "sources": [
+   "https://support.google.com/mail/answer/7190?hl=en",
+   "https://knowledge.workspace.google.com/kb/how-to-delete-unread-emails-in-bulk-000007518",
+   "https://support.google.com/mail/answer/1366858?hl=en&co=GENIE.Platform%3DDesktop",
+   "https://support.google.com/googleone/answer/9312312?hl=en",
+   "https://one.google.com/about/plans",
+   "https://emailanalytics.com/25-gmail-search-operators-that-will-make-you-a-gmail-pro/",
+   "https://www.mailsweeper.co/blog/gmail-sort-by-size-find-whats-eating-your-storage",
+   "https://www.mailsweeper.co/blog/delete-old-emails-gmail-automatically",
+   "https://blog.superhuman.com/how-to-delete-all-emails-on-gmail/",
+   "https://gmailytics.com/guides/delete-thousands-of-emails-gmail",
+   "https://9to5google.com/2026/05/14/google-account-free-storage-changes-15gb/",
+   "https://www.pcworld.com/article/3140911/google-quietly-cuts-free-storage-to-5gb-without-a-phone-number.html",
+   "https://www.gizchina.com/google-2/the-era-of-15gb-free-google-storage-is-coming-to-a-close",
+   "https://mailmeteor.com/blog/auto-delete-spam-gmail"
+  ],
+  "notes": "Verdict is ADJUST: the technique works, but the angle's numbers are not supportable. Rewrite the hook to something like \"Before you pay for Google storage, run these 4 Gmail searches\", and drop \"5GB in 2 minutes\". Use the four queries as: (1) has:attachment larger:10M, (2) category:promotions older_than:2y, (3) older_than:2y larger:10M, (4) has:attachment older_than:2y (the writer's 4th search). The final step is emptying Trash and Spam, because deleted mail still counts until then. The select-all banner is the step most people miss, so show it on screen. Two things I couldn't confirm from Google's own pages: exact current Gmail UI labels (Gmail help text says \"Select\" checkbox, \"Delete\" and \"Empty Trash now\"; older guides capitalise \"Empty Trash Now\") and the exact mobile-app label for Spam (some sources say \"Empty Spam now\"). Record a real session to get them right. The 15 GB vs 5 GB free-storage change (May 2026) is a timely hook: check your quota, and a phone number may unlock 15 GB for free. The Google One Basic price of $1.99/mo for 100 GB is US only, and prices differ by region (e.g. €1.99 in the EU). Source quality: the operator and Trash/Spam steps come from Google's own help pages; UI layout details come from third-party guides and my knowledge of Gmail's layout.",
+  "_searched": 6
+ },
+ "models": {
+  "pick": "claude-sonnet-5-5",
+  "research": "claude-sonnet-5-5",
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 8,
+ "timeline": {
+  "words": [
+   [
+    "Before",
+    0.08
+   ],
+   [
+    "you",
+    0.4
+   ],
+   [
+    "pay",
+    0.56
+   ],
+   [
+    "for",
+    0.72
+   ],
+   [
+    "Google",
+    0.88
+   ],
+   [
+    "storage,",
+    1.28
+   ],
+   [
+    "try",
+    2.08
+   ],
+   [
+    "this",
+    2.32
+   ],
+   [
+    "Gmail",
+    2.56
+   ],
+   [
+    "cleanup",
+    3.04
+   ],
+   [
+    "first.",
+    3.44
+   ],
+   [
+    "Gmail,",
+    4.4
+   ],
+   [
+    "Drive",
+    5.04
+   ],
+   [
+    "and",
+    5.52
+   ],
+   [
+    "Photos",
+    5.76
+   ],
+   [
+    "share",
+    6.32
+   ],
+   [
+    "one",
+    6.72
+   ],
+   [
+    "storage",
+    6.96
+   ],
+   [
+    "pool.",
+    7.36
+   ],
+   [
+    "On",
+    8.0
+   ],
+   [
+    "a",
+    8.12
+   ],
+   [
+    "computer,",
+    8.44
+   ],
+   [
+    "open",
+    9.04
+   ],
+   [
+    "Gmail",
+    9.36
+   ],
+   [
+    "and",
+    9.92
+   ],
+   [
+    "type",
+    10.16
+   ],
+   [
+    "this",
+    10.4
+   ],
+   [
+    "in",
+    10.64
+   ],
+   [
+    "the",
+    10.76
+   ],
+   [
+    "search",
+    10.88
+   ],
+   [
+    "bar:",
+    11.2
+   ],
+   [
+    "has:attachment",
+    11.88
+   ],
+   [
+    "larger:10M.",
+    13.68
+   ],
+   [
+    "Press",
+    15.64
+   ],
+   [
+    "Enter.",
+    15.84
+   ],
+   [
+    "Tick",
+    16.56
+   ],
+   [
+    "the",
+    16.72
+   ],
+   [
+    "Select",
+    16.88
+   ],
+   [
+    "checkbox.",
+    17.28
+   ],
+   [
+    "Here's",
+    18.37
+   ],
+   [
+    "the",
+    18.56
+   ],
+   [
+    "step",
+    18.64
+   ],
+   [
+    "most",
+    19.04
+   ],
+   [
+    "people",
+    19.44
+   ],
+   [
+    "miss:",
+    19.68
+   ],
+   [
+    "that",
+    20.52
+   ],
+   [
+    "only",
+    20.76
+   ],
+   [
+    "picks",
+    20.96
+   ],
+   [
+    "the",
+    21.2
+   ],
+   [
+    "50",
+    21.49
+   ],
+   [
+    "on",
+    21.84
+   ],
+   [
+    "screen.",
+    22.0
+   ],
+   [
+    "Click",
+    22.84
+   ],
+   [
+    "\"Select",
+    23.12
+   ],
+   [
+    "all",
+    23.68
+   ],
+   [
+    "conversations",
+    23.96
+   ],
+   [
+    "that",
+    24.72
+   ],
+   [
+    "match",
+    24.88
+   ],
+   [
+    "this",
+    25.2
+   ],
+   [
+    "search\",",
+    25.56
+   ],
+   [
+    "then",
+    26.08
+   ],
+   [
+    "hit",
+    26.4
+   ],
+   [
+    "the",
+    26.64
+   ],
+   [
+    "trash",
+    26.88
+   ],
+   [
+    "icon.",
+    27.24
+   ],
+   [
+    "Repeat",
+    27.96
+   ],
+   [
+    "with",
+    28.28
+   ],
+   [
+    "category:promotions",
+    28.48
+   ],
+   [
+    "older_than:2y.",
+    30.32
+   ],
+   [
+    "Then",
+    33.04
+   ],
+   [
+    "older_than:2y",
+    33.52
+   ],
+   [
+    "larger:10M.",
+    35.92
+   ],
+   [
+    "Then",
+    37.8
+   ],
+   [
+    "has:attachment",
+    38.16
+   ],
+   [
+    "older_than:2y.",
+    39.6
+   ],
+   [
+    "Now",
+    42.29
+   ],
+   [
+    "the",
+    42.4
+   ],
+   [
+    "catch:",
+    42.56
+   ],
+   [
+    "deleted",
+    43.52
+   ],
+   [
+    "mail",
+    43.84
+   ],
+   [
+    "still",
+    44.24
+   ],
+   [
+    "counts.",
+    44.56
+   ],
+   [
+    "Go",
+    45.4
+   ],
+   [
+    "to",
+    45.52
+   ],
+   [
+    "More,",
+    45.76
+   ],
+   [
+    "Trash,",
+    46.32
+   ],
+   [
+    "\"Empty",
+    47.04
+   ],
+   [
+    "Trash",
+    47.44
+   ],
+   [
+    "now\".",
+    47.84
+   ],
+   [
+    "Then",
+    48.48
+   ],
+   [
+    "More,",
+    48.64
+   ],
+   [
+    "Spam,",
+    49.28
+   ],
+   [
+    "\"Delete",
+    50.0
+   ],
+   [
+    "all",
+    50.48
+   ],
+   [
+    "spam",
+    50.72
+   ],
+   [
+    "messages",
+    51.04
+   ],
+   [
+    "now.\"",
+    51.52
+   ],
+   [
+    "It's",
+    52.08
+   ],
+   [
+    "permanent,",
+    52.32
+   ],
+   [
+    "so",
+    53.04
+   ],
+   [
+    "add",
+    53.28
+   ],
+   [
+    "-is:starred",
+    53.6
+   ],
+   [
+    "and",
+    55.2
+   ],
+   [
+    "skim",
+    55.44
+   ],
+   [
+    "for",
+    55.76
+   ],
+   [
+    "receipts",
+    55.92
+   ],
+   [
+    "first.",
+    56.52
+   ],
+   [
+    "The",
+    57.0
+   ],
+   [
+    "phone",
+    57.12
+   ],
+   [
+    "app",
+    57.48
+   ],
+   [
+    "can't",
+    57.68
+   ],
+   [
+    "select",
+    57.92
+   ],
+   [
+    "all,",
+    58.24
+   ],
+   [
+    "and",
+    58.72
+   ],
+   [
+    "Drive",
+    58.88
+   ],
+   [
+    "or",
+    59.28
+   ],
+   [
+    "Photos",
+    59.44
+   ],
+   [
+    "might",
+    60.0
+   ],
+   [
+    "be",
+    60.16
+   ],
+   [
+    "the",
+    60.28
+   ],
+   [
+    "real",
+    60.4
+   ],
+   [
+    "hog.",
+    60.72
+   ],
+   [
+    "Check",
+    61.4
+   ],
+   [
+    "one.google.com/storage.",
+    61.6
+   ],
+   [
+    "What's",
+    64.29
+   ],
+   [
+    "eating",
+    64.4
+   ],
+   [
+    "most",
+    64.72
+   ],
+   [
+    "of",
+    65.0
+   ],
+   [
+    "your",
+    65.12
+   ],
+   [
+    "storage,",
+    65.44
+   ],
+   [
+    "Gmail,",
+    66.0
+   ],
+   [
+    "Drive",
+    66.84
+   ],
+   [
+    "or",
+    67.12
+   ],
+   [
+    "Photos?",
+    67.28
+   ],
+   [
+    "Send",
+    68.2
+   ],
+   [
+    "this",
+    68.4
+   ],
+   [
+    "to",
+    68.56
+   ],
+   [
+    "the",
+    68.68
+   ],
+   [
+    "friend",
+    68.8
+   ],
+   [
+    "whose",
+    69.12
+   ],
+   [
+    "Gmail",
+    69.44
+   ],
+   [
+    "says",
+    69.84
+   ],
+   [
+    "storage",
+    70.24
+   ],
+   [
+    "is",
+    70.8
+   ],
+   [
+    "almost",
+    71.12
+   ],
+   [
+    "full.",
+    71.6
+   ]
+  ],
+  "duration": 72.26,
+  "scenes": [
+   {
+    "t": 0.0,
+    "shows": [
+     "footage:lib_hands_holding_credit_card_near",
+     "title_slam:DON'T PAY"
+    ]
+   },
+   {
+    "t": 4.4,
+    "shows": [
+     "footage:lib_camera_moving_down_server_corridor",
+     "headline:GMAIL + DRIVE + PHOTOS"
+    ]
+   },
+   {
+    "t": 8.0,
+    "shows": [
+     "screen:Step 1 · Find the big ones"
+    ]
+   },
+   {
+    "t": 16.56,
+    "shows": [
+     "screen:Step 2 · Select ALL of it"
+    ]
+   },
+   {
+    "t": 27.96,
+    "shows": [
+     "screen:Step 3 · Repeat 3 searches"
+    ]
+   },
+   {
+    "t": 42.29,
+    "shows": [
+     "label:THE CATCH",
+     "title_slam:STILL COUNTS"
+    ]
+   },
+   {
+    "t": 45.4,
+    "shows": [
+     "screen:Step 4 · Empty Trash + Spam"
+    ]
+   },
+   {
+    "t": 52.08,
+    "shows": [
+     "pill:PERMANENT",
+     "headline:ADD -is:starred"
+    ]
+   },
+   {
+    "t": 57.0,
+    "shows": [
+     "strike_list:",
+     "pill:ONE.GOOGLE.COM/STORAGE"
+    ]
+   },
+   {
+    "t": 64.29,
+    "shows": [
+     "headline:GMAIL, DRIVE OR PHOTOS?"
+    ]
+   }
+  ],
+  "beats": [
+   13.12,
+   22.1,
+   30.72,
+   35.28,
+   40.04,
+   53.91,
+   62.84,
+   65.71
+  ]
+ }
+}
