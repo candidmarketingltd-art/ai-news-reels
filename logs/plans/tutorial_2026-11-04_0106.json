@@ -1,0 +1,1826 @@
+{
+ "voiceover": "[conversational] You can run a free AI on your laptop, completely offline.\n\n[curious] And the last part tells you exactly which model your RAM can handle, so don't skip it.\n\nNo subscription, no API key. After the download, turn Wi-Fi off and it keeps working.\n\nStep 1: install LM Studio from lmstudio.ai/download. It's free, but Macs need Apple Silicon.\n\nStep 2: open the Discover tab, search a model, pick Q4_K_M, and choose one tagged Full GPU Offload. Click Download.\n\nStep 3: open the Chat tab, hit Select a model to load, and type.\n\nPrefer Terminal? Install Ollama, then run: ollama run gemma4.\n\n[serious] Honest catch: small models are less capable than cloud ones, and offline means no web search.\n\n[whispers] Now the cheat sheet. 8GB handles about 4B parameters, 16GB handles 7 to 9B, and 32GB goes up to around 27B. Keep the file well under your RAM.\n\n[playful] Which model are you trying first?\n\nSend this to the friend who keeps pasting private stuff into chatbots.\n\nHack saved?",
+ "open_loop": {
+  "setup": "And the last part tells you exactly which model your RAM can handle, so don't skip it.",
+  "payoff": "Now the cheat sheet."
+ },
+ "title": "FREE OFFLINE AI",
+ "ig_caption": "You can run a free AI on your laptop, completely offline. 🔒\n✅ Install LM Studio from lmstudio.ai/download\n✅ Discover tab → pick Q4_K_M → Download\n✅ Chat tab → Select a model to load → type\n✅ 8GB ≈ 4B models, 16GB ≈ 7–9B, 32GB up to ~27B\nWhich model are you trying first? 👇\nSave this for later\nFollow @ihackgrowth for daily AI & tech hacks",
+ "media_hints": {
+  "domain": "lmstudio.ai",
+  "broll": [
+   "typing on laptop",
+   "turning off wifi",
+   "person working laptop",
+   "downloading progress bar"
+  ]
+ },
+ "hashtags": [
+  "#AItools",
+  "#AIhacks",
+  "#LMStudio",
+  "#Ollama",
+  "#LocalAI",
+  "#OpenSource",
+  "#Privacy",
+  "#productivity"
+ ],
+ "music": "upbeat",
+ "hud": {
+  "label": "SETUP",
+  "items": [
+   {
+    "value": "0/3",
+    "color": "red"
+   },
+   {
+    "at": "Step 1:",
+    "value": "1/3",
+    "color": "gold"
+   },
+   {
+    "at": "Step 2:",
+    "value": "2/3",
+    "color": "gold"
+   },
+   {
+    "at": "Step 3:",
+    "value": "3/3",
+    "color": "green"
+   },
+   {
+    "at": "Now the cheat",
+    "value": "OFFLINE",
+    "color": "green"
+   }
+  ]
+ },
+ "style": "hisaab",
+ "topic": "Run a free AI model offline on your own computer with LM Studio or Ollama: install it, download a small model that fits your RAM, and chat with no subscription, no API key and no internet. Also show which model size suits an 8GB, 16GB or 32GB machine.",
+ "pick": {
+  "index": 8,
+  "topic": "Run a free AI model offline on your own computer with LM Studio or Ollama: install it, download a small model that fits your RAM, and chat with no subscription, no API key and no internet. Also show which model size suits an 8GB, 16GB or 32GB machine.",
+  "tool": "LM Studio / Ollama with open-source models (Qwen, Llama, Gemma)",
+  "format": "tutorial",
+  "angle": "Everything you type into ChatGPT lives on someone else's server. Here's a free AI that runs offline on your laptop in 5 minutes.",
+  "why": "559k views and 20,745 comments, a comment-to-view ratio of about 3.7%, the highest of any pick on the list. 'Free, offline, no subscription' is a strong hook. Our version skips the uncensored angle and the huge 27B model that most people's hardware can't run, and recommends small models instead."
+ },
+ "inspired_by": {
+  "url": "https://www.instagram.com/p/DfI6APZE9l3/",
+  "owner": "ghourithinks",
+  "plays": 559157,
+  "likes": 13428,
+  "comments": 20745
+ },
+ "research": {
+  "verdict": "adjust",
+  "tool": "LM Studio (desktop app, lmstudio.ai) and Ollama (ollama.com), running open-weight models such as Qwen, Gemma and Llama locally",
+  "availability": "LM Studio is a free desktop app for Windows, macOS (Apple Silicon only, macOS 14+) and Linux (AppImage). Ollama runs on macOS, Windows and Linux. Internet is needed only to download the app and the model. I could not verify Ollama's pricing page, so don't say 'Ollama is 100% free' without checking.",
+  "steps": [
+   "LM Studio: go to lmstudio.ai/download and get the installer for your OS (Windows .exe, Mac .dmg dragged to Applications, Linux AppImage).",
+   "Open LM Studio. On first launch it shows a welcome screen that prompts you to download a model.",
+   "Click the Discover tab (magnifying-glass icon in the left sidebar; shortcut Ctrl+2 on Windows/Linux, Cmd+2 on Mac).",
+   "Search for a model that fits your RAM (see facts). Pick the Q4_K_M quantization. LM Studio flags results as Full GPU Offload possible, Partial GPU Offload or Likely too large for your hardware, so pick a green one. Click Download.",
+   "Open the Chat tab. Use the model selector at the top ('Select a model to load'), choose the downloaded model and let it load into memory.",
+   "Type a prompt. After the download, you can turn Wi-Fi off and it keeps working.",
+   "Ollama alternative: install the app from ollama.com (macOS/Windows), or run curl -fsSL https://ollama.com/install.sh | sh (macOS/Linux) or irm https://ollama.com/install.ps1 | iex (Windows PowerShell).",
+   "Ollama: open Terminal/PowerShell and run: ollama run gemma4 (the README's example). The model downloads on first run and a chat prompt opens. Other tags from sources: ollama run qwen3.8:27b (for 32GB+ machines only), ollama run llama3.2.",
+   "Ollama: the macOS/Windows app also has a built-in chat window that lists your installed models. Useful commands: ollama list (installed models), ollama pull <model> (download), ollama rm <model> (delete)."
+  ],
+  "facts": [
+   "<cite index=\"2-3\">LM Studio is a free desktop app for downloading and running open-source LLMs entirely on your own machine.</cite>",
+   "<cite index=\"4-4\">Official requirements (Oct 2026): Mac needs Apple Silicon (M1 or newer) and macOS 14 Sonoma or newer. Windows needs x64 with AVX2, or ARM (Snapdragon X). Linux is Ubuntu 20.04+ via AppImage. 16 GB RAM is recommended on all three, and 8 GB works for small models on Mac.</cite>",
+   "<cite index=\"10-5,10-6\">Installer sizes in version 0.4.26: Windows .exe is 619 MB and Mac arm64 .dmg is 571 MB.</cite>",
+   "<cite index=\"8-2\">The current desktop release is LM Studio 0.4.27, as of Oct 30, 2026. Intel Macs are not supported.</cite>",
+   "<cite index=\"4-9\">By memory (RAM on Mac, VRAM on PC): 8 GB handles up to about 4B parameters, 16 GB handles 7–9B comfortably (~20B at a stretch), and 24–32 GB handles 14–32B.</cite>",
+   "<cite index=\"40-3\">Micro Center's 2026 guide picks Gemma E2B or LFM2.5-2.6B for 8GB (Gemma 4 E2B is 4.73GB at 4-bit). It picks Gemma 4 E4B for 16GB (7.79GB). It picks Qwen3.8 27B for 32GB or more (18.29GB).</cite>",
+   "<cite index=\"45-8\">Another guide's pick for an 8GB machine is Gemma 3 4B (3.3GB in Ollama). It lists Qwen3.8 27B at 18GB in Ollama, with a floor of 24GB fast memory or 32GB system RAM.</cite>",
+   "<cite index=\"44-2\">VRAM-based picks (Oct 2026): Qwen3.5-9B or Gemma 4 E4B on 8 GB, and gpt-oss-20b on 16 GB.</cite>",
+   "Rule of thumb from a 2026 guide: 8GB runs a 3B–4B model, 16GB runs 7B–8B, and 32GB (or a good GPU) runs 14B–32B. Keep the model file well under your total RAM, because the OS and chat context also need memory.",
+   "<cite index=\"23-2\">Qwen 3.8 27B is a real open-weights model from Alibaba, released August 14, 2026.</cite>",
+   "<cite index=\"24-8\">Qwen3.8-27B is a 27-billion-parameter dense vision-language model with Apache 2.0 open weights.</cite>",
+   "<cite index=\"25-6\">Community GGUF unsloth/Qwen3.8-27B-GGUF Q4_K_M is 17.11 GB. The Ollama tags are qwen3.8:27b and qwen3.8:27b-q4_K_M.</cite>",
+   "<cite index=\"27-4\">Quantized, Qwen3.8-27B runs in about 16-17GB of VRAM, fitting a single consumer GPU such as a 3090 or 4090.</cite>",
+   "<cite index=\"11-6\">Ollama's GitHub README gives ollama run gemma4 as its example for chatting with a model.</cite>",
+   "<cite index=\"36-6\">On macOS and Windows, Ollama's official app also provides a chat interface. On Linux or headless installs, use ollama run or a frontend.</cite>",
+   "<cite index=\"30-3,30-4\">Ollama's desktop app was introduced in 2025. Its interface is accessible from the system tray menu, lets you chat with any installed model, and accepts images for vision models.</cite>",
+   "<cite index=\"56-5\">LM Studio ships a CLI called lms (lms chat, lms get, lms load). You need to run LM Studio at least once before you can use lms.</cite>"
+  ],
+  "do_not_claim": [
+   "Do NOT promote 'uncensored' or 'illegal-friendly' models. I found no official source for the 'Qwen3.8 Uncensored' variant the reel describes. The official Qwen3.8-27B release is an Apache-2.0 model from Alibaba, and nothing I found calls it uncensored. The 'few refusals' claim is unverified and an obvious policy and brand risk.",
+   "'China made an AI that doesn't refuse illegal things' is false or misleading. Qwen3.8-27B is a normal released model from Alibaba. Any uncensored version is a third-party fine-tune.",
+   "'Strong PC / GPU needed, ~24 GB VRAM' is only true for the 27B model. Small models run on 8GB and 16GB laptops, which is the point of our reel.",
+   "'~18 GB download' is roughly right (17.11 GB for Q4_K_M GGUF, about 18 GB in Ollama). It is a quantized build, not the full model: the BF16 original is 55.6 GB.",
+   "'Does anything, literally anything, including financial activities and agents' is hype. Model quality is limited and varies. Don't compare a small local model to ChatGPT.",
+   "'Qwen3.8' as a family name is correct, but don't say '27B' fits a 16GB or 8GB machine.",
+   "'No subscription, no API key' is true for local use. Be careful with Ollama's cloud-hosted model tags and any cloud features, which are not local or offline. I did not verify their pricing or privacy terms here.",
+   "'Alibaba/China model, so data leaks' is not verified. Don't make claims about data going to China. Running locally sends no prompts out, but I did not audit the apps' telemetry.",
+   "The reel's setup instructions are paywalled behind a 'comment to get details' funnel. They contain no verifiable steps."
+  ],
+  "criticism": [
+   "<cite index=\"45-8\">Qwen3.8 27B is too large for ordinary 16GB laptops.</cite> An 8GB machine runs only small models with limited reasoning depth.",
+   "<cite index=\"42-6\">Small 8GB-class models have limited reasoning depth and can be slow on CPU-only machines.</cite>",
+   "<cite index=\"4-9\">Models take real disk space: small models are 2–5 GB and mid-sized 10–20 GB.</cite>",
+   "<cite index=\"7-5\">On an 8GB Mac you are limited to smaller models.</cite>",
+   "<cite index=\"4-1\">LM Studio needs an AVX2 CPU on Windows and Linux (practically all CPUs from 2013 Intel / 2017 AMD onward) and Apple Silicon on Mac.</cite> Intel Macs are unsupported.",
+   "Local models are generally less capable than cloud flagships, and a heavy model can make a laptop slow or hot.",
+   "Local = private only if you use local models. Ollama's library also contains cloud-hosted models, so check before claiming 'offline'. Running offline means no web search and no up-to-date knowledge."
+  ],
+  "ui": {
+   "platforms": "Desktop only: Windows, macOS (Apple Silicon), Linux. No official phone version of LM Studio or Ollama.",
+   "apps": [
+    "lmstudio.ai website (download page)",
+    "LM Studio desktop app",
+    "ollama.com website (download page)",
+    "Ollama desktop app / Terminal (macOS) or PowerShell (Windows)",
+    "Wi-Fi toggle in the OS menu bar or taskbar (to show offline)"
+   ],
+   "screens": [
+    "Website lmstudio.ai/download: the page detects your OS and shows a Download LM Studio button for Mac/Windows/Linux.",
+    "LM Studio first launch: a welcome screen prompts you to download a model. The left sidebar has icon tabs: Chat (speech bubble), Developer (</> icon), My Models (folder), Discover (magnifying glass), Settings (gear). Names per third-party tutorials; check them against a live install.",
+    "Discover tab (Ctrl/Cmd+2): a search bar at the top that searches Hugging Face, with model cards listing size and capabilities. Each result shows a hardware-fit tag (Full GPU Offload possible / Partial GPU Offload / Likely too large), and quantization options such as Q4_K_M, Q5_K_S and Q8_0. A Download button sits at the right, with progress in a Downloads panel.",
+    "My Models tab: lists downloaded models with their sizes and quantizations.",
+    "Chat tab: a ChatGPT-like layout with the conversation in the middle and a model selector at the top (reads 'Select a model to load'). Choosing a model shows a loading indicator, then a message box at the bottom.",
+    "Ollama (macOS/Windows): after install it lives in the menu bar / system tray, and its chat window lets you pick an installed model. Terminal route: type 'ollama run gemma4'. It prints a download progress bar, then a '>>>' prompt where you chat.",
+    "Final shot: a short chat reply with Wi-Fi/airplane mode visibly OFF."
+   ],
+   "theme": "Light or dark default is not verified. Check on a live install before recreating."
+  },
+  "visuals": "A real screen recording is best: (1) LM Studio Discover tab with a model's Q4_K_M download and green 'Full GPU Offload' tag, (2) the Chat tab with the model replying while the Wi-Fi icon shows OFF. Also show a simple RAM-to-model table graphic: 8GB → ~4B (e.g. Gemma 4 E2B / Gemma 3 4B), 16GB → 7–9B (e.g. Gemma 4 E4B), 32GB → up to ~27B (Qwen3.8 27B, ~18 GB).",
+  "sources": [
+   "https://www.fulltextmedia.se/en/running-llms-locally-lm-studio/",
+   "https://www.promptquorum.com/local-llms/how-to-install-lm-studio",
+   "https://www.cognativ.com/blog/lm-studio-setup-guide/",
+   "https://github.com/ollama/ollama",
+   "https://www.microcenter.com/site/mc-news/article/best-local-llms-8gb-16gb-32gb-memory-guide.aspx",
+   "https://thedeskbrief.com/best-local-llm/",
+   "https://docs.tokios.com/models/qwen3.8",
+   "https://epoch.ai/models/qwen-3-8-27b",
+   "https://bestllmfor.com/guide/demarrer-avec-lm-studio/",
+   "https://lmstudio.ai/docs/cli",
+   "https://simonwillison.net/2025/Jul/31/ollamas-new-app/",
+   "https://vdf.ai/blog/best-local-llm-by-vram/"
+  ],
+  "notes": "1) Verdict is 'adjust': the topic works and is current. Qwen3.8-27B really exists (Aug 14, 2026), but the popular reel pushes an unverified 'uncensored' fine-tune for illegal uses, so avoid it. 2) Recommended script tiers: 8GB → Gemma 4 E2B or Gemma 3 4B (about 3–5 GB file); 16GB → Gemma 4 E4B (~7.8 GB) or a 7–9B Qwen/Llama; 32GB → Qwen3.8 27B (~18 GB) or a 14B-class model. Model names move fast, so say 'check Discover for the latest Qwen/Gemma/Llama in your size'. 3) Llama is in the Ollama library (ollama run llama3.2 appears in docs), but I found no newer Llama source, so avoid 'Llama 5.x' claims (one aggregator listed it, unverified). 4) The LM Studio tab names and the Ollama chat window come from third-party tutorials, not the official docs, because official pages weren't in the search results, so check them on a live app. LM Studio also offers an agent app called Bionic on its download page; don't confuse it with LM Studio. 5) Offline claim: the app and model are downloaded online once, then chat works with no internet. 'Never leaves your computer' holds for local models only. 6) Mac and Apple Silicon note: Apple Silicon uses unified memory, so the RAM figure is also the model budget. For Windows PCs with a discrete GPU, VRAM is the limit.",
+  "_searched": 6
+ },
+ "models": {
+  "pick": "claude-sonnet-5-5",
+  "research": "claude-sonnet-5-5",
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 10,
+ "_ident": {
+  "at": 3.74,
+  "dur": 1.5,
+  "title": "AI HACKS",
+  "type": 0.42,
+  "sub": "EP 10 · LOCAL AI"
+ },
+ "timeline": {
+  "words": [
+   [
+    "You",
+    0.08
+   ],
+   [
+    "can",
+    0.24
+   ],
+   [
+    "run",
+    0.4
+   ],
+   [
+    "a",
+    0.56
+   ],
+   [
+    "free",
+    0.72
+   ],
+   [
+    "AI",
+    1.04
+   ],
+   [
+    "on",
+    1.4
+   ],
+   [
+    "your",
+    1.52
+   ],
+   [
+    "laptop,",
+    1.68
+   ],
+   [
+    "completely",
+    2.4
+   ],
+   [
+    "offline.",
+    3.12
+   ],
+   [
+    "And",
+    5.468
+   ],
+   [
+    "the",
+    5.58
+   ],
+   [
+    "last",
+    5.82
+   ],
+   [
+    "part",
+    6.06
+   ],
+   [
+    "tells",
+    6.3
+   ],
+   [
+    "you",
+    6.54
+   ],
+   [
+    "exactly",
+    6.94
+   ],
+   [
+    "which",
+    7.5
+   ],
+   [
+    "model",
+    7.74
+   ],
+   [
+    "your",
+    8.06
+   ],
+   [
+    "RAM",
+    8.26
+   ],
+   [
+    "can",
+    8.46
+   ],
+   [
+    "handle,",
+    8.62
+   ],
+   [
+    "so",
+    9.18
+   ],
+   [
+    "don't",
+    9.38
+   ],
+   [
+    "skip",
+    9.7
+   ],
+   [
+    "it.",
+    9.9
+   ],
+   [
+    "No",
+    10.54
+   ],
+   [
+    "subscription,",
+    10.7
+   ],
+   [
+    "no",
+    11.66
+   ],
+   [
+    "API",
+    11.9
+   ],
+   [
+    "key.",
+    12.38
+   ],
+   [
+    "After",
+    13.1
+   ],
+   [
+    "the",
+    13.3
+   ],
+   [
+    "download,",
+    13.42
+   ],
+   [
+    "turn",
+    14.18
+   ],
+   [
+    "Wi-Fi",
+    14.38
+   ],
+   [
+    "off",
+    14.86
+   ],
+   [
+    "and",
+    15.26
+   ],
+   [
+    "it",
+    15.42
+   ],
+   [
+    "keeps",
+    15.58
+   ],
+   [
+    "working.",
+    15.9
+   ],
+   [
+    "Step",
+    16.82
+   ],
+   [
+    "1:",
+    17.1
+   ],
+   [
+    "install",
+    17.82
+   ],
+   [
+    "LM",
+    18.14
+   ],
+   [
+    "Studio",
+    18.7
+   ],
+   [
+    "from",
+    19.02
+   ],
+   [
+    "lmstudio.ai/download.",
+    19.34
+   ],
+   [
+    "It's",
+    22.02
+   ],
+   [
+    "free,",
+    22.38
+   ],
+   [
+    "but",
+    22.82
+   ],
+   [
+    "Macs",
+    23.02
+   ],
+   [
+    "need",
+    23.42
+   ],
+   [
+    "Apple",
+    23.66
+   ],
+   [
+    "Silicon.",
+    23.98
+   ],
+   [
+    "Step",
+    24.9
+   ],
+   [
+    "2:",
+    25.18
+   ],
+   [
+    "open",
+    25.74
+   ],
+   [
+    "the",
+    26.02
+   ],
+   [
+    "Discover",
+    26.3
+   ],
+   [
+    "tab,",
+    26.62
+   ],
+   [
+    "search",
+    27.26
+   ],
+   [
+    "a",
+    27.5
+   ],
+   [
+    "model,",
+    27.58
+   ],
+   [
+    "pick",
+    28.3
+   ],
+   [
+    "Q4_K_M,",
+    28.54
+   ],
+   [
+    "and",
+    31.1
+   ],
+   [
+    "choose",
+    31.34
+   ],
+   [
+    "one",
+    31.62
+   ],
+   [
+    "tagged",
+    31.86
+   ],
+   [
+    "Full",
+    32.3
+   ],
+   [
+    "GPU",
+    32.62
+   ],
+   [
+    "Offload.",
+    33.18
+   ],
+   [
+    "Click",
+    34.06
+   ],
+   [
+    "Download.",
+    34.22
+   ],
+   [
+    "Step",
+    35.22
+   ],
+   [
+    "3:",
+    35.42
+   ],
+   [
+    "open",
+    36.18
+   ],
+   [
+    "the",
+    36.38
+   ],
+   [
+    "Chat",
+    36.46
+   ],
+   [
+    "tab,",
+    36.78
+   ],
+   [
+    "hit",
+    37.46
+   ],
+   [
+    "Select",
+    37.66
+   ],
+   [
+    "a",
+    38.02
+   ],
+   [
+    "model",
+    38.14
+   ],
+   [
+    "to",
+    38.42
+   ],
+   [
+    "load,",
+    38.54
+   ],
+   [
+    "and",
+    39.1
+   ],
+   [
+    "type.",
+    39.26
+   ],
+   [
+    "Prefer",
+    39.9
+   ],
+   [
+    "Terminal?",
+    40.22
+   ],
+   [
+    "Install",
+    40.94
+   ],
+   [
+    "Ollama,",
+    41.42
+   ],
+   [
+    "then",
+    42.22
+   ],
+   [
+    "run:",
+    42.46
+   ],
+   [
+    "ollama",
+    43.1
+   ],
+   [
+    "run",
+    43.5
+   ],
+   [
+    "gemma4.",
+    43.98
+   ],
+   [
+    "Honest",
+    45.007
+   ],
+   [
+    "catch:",
+    45.34
+   ],
+   [
+    "small",
+    46.06
+   ],
+   [
+    "models",
+    46.46
+   ],
+   [
+    "are",
+    46.86
+   ],
+   [
+    "less",
+    47.1
+   ],
+   [
+    "capable",
+    47.42
+   ],
+   [
+    "than",
+    47.82
+   ],
+   [
+    "cloud",
+    47.98
+   ],
+   [
+    "ones,",
+    48.3
+   ],
+   [
+    "and",
+    48.94
+   ],
+   [
+    "offline",
+    49.1
+   ],
+   [
+    "means",
+    49.74
+   ],
+   [
+    "no",
+    50.14
+   ],
+   [
+    "web",
+    50.42
+   ],
+   [
+    "search.",
+    50.62
+   ],
+   [
+    "Now",
+    51.34
+   ],
+   [
+    "the",
+    51.58
+   ],
+   [
+    "cheat",
+    51.74
+   ],
+   [
+    "sheet.",
+    52.06
+   ],
+   [
+    "8GB",
+    52.78
+   ],
+   [
+    "handles",
+    53.02
+   ],
+   [
+    "about",
+    54.02
+   ],
+   [
+    "4B",
+    54.3
+   ],
+   [
+    "parameters,",
+    54.62
+   ],
+   [
+    "16GB",
+    56.06
+   ],
+   [
+    "handles",
+    56.54
+   ],
+   [
+    "7",
+    57.5
+   ],
+   [
+    "to",
+    57.74
+   ],
+   [
+    "9B,",
+    58.06
+   ],
+   [
+    "and",
+    58.86
+   ],
+   [
+    "32GB",
+    59.1
+   ],
+   [
+    "goes",
+    59.5
+   ],
+   [
+    "up",
+    60.3
+   ],
+   [
+    "to",
+    60.46
+   ],
+   [
+    "around",
+    60.7
+   ],
+   [
+    "27B.",
+    60.94
+   ],
+   [
+    "Keep",
+    62.46
+   ],
+   [
+    "the",
+    62.62
+   ],
+   [
+    "file",
+    62.78
+   ],
+   [
+    "well",
+    63.18
+   ],
+   [
+    "under",
+    63.42
+   ],
+   [
+    "your",
+    63.66
+   ],
+   [
+    "RAM.",
+    63.9
+   ],
+   [
+    "Which",
+    64.46
+   ],
+   [
+    "model",
+    64.7
+   ],
+   [
+    "are",
+    64.94
+   ],
+   [
+    "you",
+    65.1
+   ],
+   [
+    "trying",
+    65.3
+   ],
+   [
+    "first?",
+    65.5
+   ],
+   [
+    "Send",
+    66.3
+   ],
+   [
+    "this",
+    66.46
+   ],
+   [
+    "to",
+    66.62
+   ],
+   [
+    "the",
+    66.74
+   ],
+   [
+    "friend",
+    66.86
+   ],
+   [
+    "who",
+    67.1
+   ],
+   [
+    "keeps",
+    67.26
+   ],
+   [
+    "pasting",
+    67.5
+   ],
+   [
+    "private",
+    67.98
+   ],
+   [
+    "stuff",
+    68.46
+   ],
+   [
+    "into",
+    68.7
+   ],
+   [
+    "chatbots.",
+    68.94
+   ],
+   [
+    "Hack",
+    69.82
+   ],
+   [
+    "saved?",
+    70.14
+   ]
+  ],
+  "duration": 70.88,
+  "ident": {
+   "at": 3.74,
+   "dur": 1.5,
+   "title": "AI HACKS",
+   "type": 0.42,
+   "sub": "EP 10 · LOCAL AI"
+  },
+  "scenes": [
+   {
+    "t": 0.0,
+    "shows": [
+     "footage:lib_fingers_typing_on_laptop_keyboard",
+     "title_slam:FREE AI"
+    ]
+   },
+   {
+    "t": 5.47,
+    "shows": [
+     "object3d:",
+     "pill:STAY FOR THE END"
+    ]
+   },
+   {
+    "t": 10.54,
+    "shows": [
+     "object3d:",
+     "stat_row:"
+    ]
+   },
+   {
+    "t": 13.1,
+    "shows": [
+     "footage:s1_broll2",
+     "toggle:Wi-Fi",
+     "pill:STILL WORKS"
+    ]
+   },
+   {
+    "t": 16.82,
+    "shows": [
+     "screen:Step 1 · Install it"
+    ]
+   },
+   {
+    "t": 24.9,
+    "shows": [
+     "screen:Step 2 · Get a model"
+    ]
+   },
+   {
+    "t": 35.22,
+    "shows": [
+     "screen:Step 3 · Chat offline"
+    ]
+   },
+   {
+    "t": 39.9,
+    "shows": [
+     "screen:Bonus · Ollama route"
+    ]
+   },
+   {
+    "t": 45.01,
+    "shows": [
+     "label:THE CATCH",
+     "strike_list:"
+    ]
+   },
+   {
+    "t": 51.34,
+    "shows": [
+     "object3d:",
+     "stat_row:",
+     "pill:FILE WELL UNDER RAM"
+    ]
+   },
+   {
+    "t": 64.46,
+    "shows": [
+     "headline:WHICH MODEL FIRST?"
+    ]
+   }
+  ],
+  "beats": [
+   29.7,
+   48.62,
+   54.42,
+   57.58,
+   60.78
+  ]
+ },
+ "tag": "LOCAL AI",
+ "keywords": [
+  "free",
+  "offline",
+  "laptop",
+  "RAM",
+  "subscription",
+  "Wi-Fi",
+  "LM",
+  "Studio",
+  "Discover",
+  "Q4_K_M",
+  "Offload",
+  "Chat",
+  "Terminal",
+  "Ollama",
+  "gemma4",
+  "catch",
+  "cheat",
+  "private"
+ ],
+ "scenes": [
+  {
+   "at": "You can run",
+   "react": [
+    {
+     "at": "completely offline.",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "footage",
+     "at": "You can run",
+     "media": "lib_fingers_typing_on_laptop_keyboard",
+     "full": true
+    },
+    {
+     "type": "title_slam",
+     "at": "You can run",
+     "text": "FREE AI",
+     "sub": "NO INTERNET",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "And the last",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "And the last",
+     "kind": "padlock",
+     "size": "l",
+     "caption": "RAM CHEAT SHEET",
+     "caption_at": "which model"
+    },
+    {
+     "type": "pill",
+     "at": "don't skip it.",
+     "text": "STAY FOR THE END",
+     "color": "gold",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "No subscription,",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "No subscription,",
+     "kind": "laptop",
+     "act": "open",
+     "act_at": "No subscription,",
+     "size": "m"
+    },
+    {
+     "type": "stat_row",
+     "at": "No subscription,",
+     "cards": [
+      {
+       "label": "SUBSCRIPTION",
+       "value": "NONE",
+       "at": "No subscription,",
+       "color": "green"
+      },
+      {
+       "label": "API KEY",
+       "value": "NONE",
+       "at": "no API key.",
+       "color": "green",
+       "glow": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "After the download,",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "After the download,",
+     "media": "s1_broll2",
+     "caption": "FLIP IT OFF",
+     "caption_at": "turn Wi-Fi"
+    },
+    {
+     "type": "toggle",
+     "at": "turn Wi-Fi",
+     "text": "Wi-Fi",
+     "path": "MENU BAR › WI-FI",
+     "to": "off",
+     "flip_at": "Wi-Fi off"
+    },
+    {
+     "type": "pill",
+     "at": "keeps working.",
+     "text": "STILL WORKS",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "Step 1:",
+   "react": [
+    {
+     "at": "Step 1:",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Step 1:",
+     "device": "web",
+     "url": "lmstudio.ai/download",
+     "app": "LM Studio",
+     "step": "Step 1 · Install it",
+     "steps": [
+      {
+       "at": "Step 1:",
+       "view": {
+        "kind": "page",
+        "site": "LM Studio",
+        "nav": [
+         "Models",
+         "Docs",
+         "Download"
+        ],
+        "heading": "Download LM Studio",
+        "sub": "Mac · Windows · Linux",
+        "buttons": [
+         "Download LM Studio"
+        ],
+        "dark": true
+       },
+       "action": {
+        "kind": "click",
+        "target": "Download LM Studio",
+        "at": "lmstudio.ai/download."
+       }
+      },
+      {
+       "at": "It's free,",
+       "view": {
+        "kind": "checklist",
+        "window": "LM Studio Installer",
+        "title": "Before you start",
+        "items": [
+         {
+          "label": "Free to use",
+          "checked": false
+         },
+         {
+          "label": "Mac: Apple Silicon",
+          "checked": false
+         }
+        ]
+       },
+       "action": {
+        "kind": "toggle",
+        "target": "Free to use",
+        "at": "It's free,"
+       }
+      },
+      {
+       "at": "but Macs",
+       "view": {
+        "kind": "checklist",
+        "window": "LM Studio Installer",
+        "title": "Before you start",
+        "items": [
+         {
+          "label": "Free to use",
+          "checked": true
+         },
+         {
+          "label": "Mac: Apple Silicon",
+          "checked": false
+         }
+        ]
+       },
+       "action": {
+        "kind": "toggle",
+        "target": "Mac: Apple Silicon",
+        "at": "Apple Silicon."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Step 2:",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Step 2:",
+     "device": "desktop",
+     "app": "LM Studio",
+     "step": "Step 2 · Get a model",
+     "steps": [
+      {
+       "at": "Step 2:",
+       "view": {
+        "kind": "page",
+        "site": "LM Studio",
+        "nav": [
+         "Chat",
+         "Developer",
+         "My Models",
+         "Discover",
+         "Settings"
+        ],
+        "heading": "Welcome",
+        "sub": "Download your first model",
+        "dark": true
+       },
+       "action": {
+        "kind": "click",
+        "target": "Discover",
+        "at": "Discover tab,"
+       }
+      },
+      {
+       "at": "search a model,",
+       "view": {
+        "kind": "page",
+        "site": "LM Studio",
+        "nav": [
+         "Chat",
+         "Developer",
+         "My Models",
+         "Discover",
+         "Settings"
+        ],
+        "heading": "Discover",
+        "input": "",
+        "dark": true
+       },
+       "action": {
+        "kind": "type",
+        "target": "input",
+        "text": "gemma",
+        "at": "search a model,"
+       }
+      },
+      {
+       "at": "pick Q4_K_M,",
+       "view": {
+        "kind": "page",
+        "site": "LM Studio",
+        "nav": [
+         "Chat",
+         "Developer",
+         "My Models",
+         "Discover",
+         "Settings"
+        ],
+        "heading": "Discover",
+        "input": "gemma",
+        "dark": true,
+        "cards": [
+         {
+          "title": "Q4_K_M",
+          "text": "Smaller file · fast"
+         },
+         {
+          "title": "Q5_K_S",
+          "text": "Bigger file"
+         },
+         {
+          "title": "Q8_0",
+          "text": "Largest file"
+         }
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "Q4_K_M",
+        "at": "pick Q4_K_M,"
+       }
+      },
+      {
+       "at": "and choose",
+       "view": {
+        "kind": "page",
+        "site": "LM Studio",
+        "nav": [
+         "Chat",
+         "Developer",
+         "My Models",
+         "Discover",
+         "Settings"
+        ],
+        "heading": "Discover",
+        "input": "gemma",
+        "dark": true,
+        "cards": [
+         {
+          "title": "Full GPU Offload",
+          "text": "gemma · Q4_K_M",
+          "status": "FITS",
+          "buttons": [
+           "Download"
+          ]
+         },
+         {
+          "title": "Partial GPU Offload",
+          "text": "larger · Q4_K_M",
+          "status": "SLOW"
+         },
+         {
+          "title": "Likely too large",
+          "text": "huge · Q8_0",
+          "status": "NO"
+         }
+        ]
+       },
+       "action": {
+        "kind": "point",
+        "target": "Full GPU Offload",
+        "at": "Full GPU Offload."
+       }
+      },
+      {
+       "at": "Click Download.",
+       "view": {
+        "kind": "page",
+        "site": "LM Studio",
+        "nav": [
+         "Chat",
+         "Developer",
+         "My Models",
+         "Discover",
+         "Settings"
+        ],
+        "heading": "Discover",
+        "input": "gemma",
+        "dark": true,
+        "cards": [
+         {
+          "title": "Full GPU Offload",
+          "text": "gemma · Q4_K_M",
+          "status": "FITS",
+          "buttons": [
+           "Download"
+          ]
+         },
+         {
+          "title": "Partial GPU Offload",
+          "text": "larger · Q4_K_M",
+          "status": "SLOW"
+         },
+         {
+          "title": "Likely too large",
+          "text": "huge · Q8_0",
+          "status": "NO"
+         }
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "Download",
+        "at": "Click Download."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Step 3:",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Step 3:",
+     "device": "desktop",
+     "app": "LM Studio",
+     "theme": "dark",
+     "step": "Step 3 · Chat offline",
+     "steps": [
+      {
+       "at": "Step 3:",
+       "view": {
+        "sidebar": [
+         "Chat",
+         "Developer",
+         "My Models",
+         "Discover",
+         "Settings"
+        ],
+        "top_buttons": [
+         "Select a model to load"
+        ],
+        "input": ""
+       },
+       "action": {
+        "kind": "click",
+        "target": "Chat",
+        "at": "Chat tab,"
+       }
+      },
+      {
+       "at": "hit Select",
+       "view": {
+        "sidebar": [
+         "Chat",
+         "Developer",
+         "My Models",
+         "Discover",
+         "Settings"
+        ],
+        "top_buttons": [
+         "Select a model to load"
+        ],
+        "input": ""
+       },
+       "action": {
+        "kind": "click",
+        "target": "Select a model to load",
+        "at": "hit Select"
+       }
+      },
+      {
+       "at": "to load,",
+       "view": {
+        "sidebar": [
+         "Chat",
+         "Developer",
+         "My Models",
+         "Discover",
+         "Settings"
+        ],
+        "top_buttons": [
+         "Select a model to load"
+        ],
+        "input": "",
+        "menu": {
+         "items": [
+          "gemma · Q4_K_M",
+          "Browse models"
+         ],
+         "anchor": "top"
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "gemma · Q4_K_M",
+        "at": "to load,"
+       }
+      },
+      {
+       "at": "and type.",
+       "view": {
+        "sidebar": [
+         "Chat",
+         "Developer",
+         "My Models",
+         "Discover",
+         "Settings"
+        ],
+        "top_buttons": [
+         "gemma · loaded"
+        ],
+        "input": ""
+       },
+       "action": {
+        "kind": "type",
+        "target": "input",
+        "text": "Summarise my notes. No internet needed.",
+        "at": "and type."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Prefer Terminal?",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Prefer Terminal?",
+     "device": "desktop",
+     "app": "Ollama",
+     "step": "Bonus · Ollama route",
+     "steps": [
+      {
+       "at": "Prefer Terminal?",
+       "view": {
+        "kind": "page",
+        "url": "ollama.com",
+        "site": "Ollama",
+        "nav": [
+         "Models",
+         "Docs",
+         "Download"
+        ],
+        "heading": "Download Ollama",
+        "sub": "macOS · Windows · Linux",
+        "buttons": [
+         "Download"
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "Download",
+        "at": "Install Ollama,"
+       }
+      },
+      {
+       "at": "then run:",
+       "view": {
+        "kind": "terminal",
+        "window": "Terminal",
+        "lines": [
+         "$"
+        ]
+       },
+       "action": {
+        "kind": "type",
+        "target": "terminal",
+        "text": "ollama run gemma4",
+        "at": "ollama run gemma4."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Honest catch:",
+   "tint": "red",
+   "react": [
+    {
+     "at": "Honest catch:",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "Honest catch:",
+     "text": "THE CATCH",
+     "color": "red"
+    },
+    {
+     "type": "strike_list",
+     "at": "less capable",
+     "items": [
+      {
+       "text": "LESS CAPABLE THAN CLOUD",
+       "at": "less capable"
+      },
+      {
+       "text": "NO WEB SEARCH",
+       "at": "no web search."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Now the cheat",
+   "tint": "green",
+   "react": [
+    {
+     "at": "Keep the file",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "Now the cheat",
+     "kind": "padlock",
+     "act": "open",
+     "act_at": "cheat sheet.",
+     "size": "m",
+     "caption": "RAM CHEAT SHEET"
+    },
+    {
+     "type": "stat_row",
+     "at": "8GB handles",
+     "cards": [
+      {
+       "label": "8GB RAM",
+       "value": "~4B",
+       "at": "8GB handles",
+       "color": "gold"
+      },
+      {
+       "label": "16GB RAM",
+       "value": "7–9B",
+       "at": "16GB handles",
+       "color": "blue"
+      },
+      {
+       "label": "32GB RAM",
+       "value": "~27B",
+       "at": "32GB goes",
+       "color": "green",
+       "glow": true
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "at": "under your RAM.",
+     "text": "FILE WELL UNDER RAM",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "Which model",
+   "react": [
+    {
+     "at": "are you trying",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "headline",
+     "at": "Which model",
+     "text": "WHICH MODEL FIRST?",
+     "size": "l",
+     "ill": "speech_balloon",
+     "sub": "COMMENT BELOW",
+     "sub_at": "trying first?"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "Send this",
+  "line1": "Send this to",
+  "line1_at": "Send this",
+  "line2": "the private-chat paster",
+  "line2_at": "private stuff"
+ },
+ "endcard": {
+  "title": "Hack saved?",
+  "terminal": "> local.ai · offline · $0"
+ },
+ "media": [
+  {
+   "id": "lib_clock_ticking_and_person_typing",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "credit": "",
+   "file": "clock_ticking_and_person_typing.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A rack-focus shot moves from a close-up of a black twin-bell alarm clock with ticking hands to a bearded man in a light polo typing on a laptop in a dim room, giving a tense, time-pressured mood. Good for: lines about deadlines, time slipping away, long hours of manual work, or the pressure of slow, tedious tasks before an AI tool speeds things up"
+  },
+  {
+   "id": "lib_colleagues_collaborating_around",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "credit": "",
+   "file": "colleagues_collaborating_around.mp4",
+   "frames": 126,
+   "desc": "B-roll (4.2s, VERTICAL 9:16 — best as full: true): colleagues collaborating around Good for: "
+  },
+  {
+   "id": "lib_content_creator_sets_up_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "credit": "",
+   "file": "content_creator_sets_up_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt stands behind a ring light with a phone on a tripod, adjusting the setup while the camera slowly pushes in until his face fills the frame, with a calm, focused mood and moody blue ambient lighting in the background. Good for: setting up to create content, getting started as a creator, or preparing equipment before recording a tutorial"
+  },
+  {
+   "id": "lib_eye_reflecting_laptop_screen_glow",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "credit": "",
+   "file": "eye_reflecting_laptop_screen_glow.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow zoom into an extreme close-up of a brown eye with a bright blue screen reflected in the pupil, framed by a thick eyebrow and warm skin tones, fading into a cool blue gradient at the bottom, with a focused, intense and cinematic mood. Good for: lines about being glued to a screen, intense focus or attention, watching AI work, or 'seeing' a new opportunity or insight"
+  },
+  {
+   "id": "lib_fingers_typing_on_laptop_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "credit": "",
+   "file": "fingers_typing_on_laptop_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): Close-up over-the-shoulder shot of a person typing on a backlit laptop keyboard, with a blurred blue screen in the background and a warm, focused, productive mood. Good for: lines about getting started, writing prompts or code, doing focused work at the computer, or the hands-on steps of a tutorial"
+  },
+  {
+   "id": "lib_hand_dropping_papers_on_desk",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "credit": "",
+   "file": "hand_dropping_papers_on_desk.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a green shirt carries and then drops a thick stack of papers onto an already huge, messy pile of documents with sticky notes on a cluttered desk, while a laptop glows nearby, and the camera pushes in to a close-up of the towering stack, creating a mood of overwhelm and tedious paperwork. Good for: a script line about drowning in manual paperwork or document processing, setting up how AI can automate summarizing, sorting, or extracting information from piles of documents"
+  },
+  {
+   "id": "lib_man_looking_at_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "credit": "",
+   "file": "man_looking_at_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt scowls with intense focus at a laptop in a dim, warmly lit room, then closes his eyes and rubs his hand near his chin in tired frustration. Good for: frustration with slow or difficult work, such as struggling with a tedious task, debugging, or burning out late at night before finding a better way"
+  },
+  {
+   "id": "lib_man_opens_laptop_in_room",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "credit": "",
+   "file": "man_opens_laptop_in_room.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt sits at a laptop in a dimly lit, warmly lit room, and his focused, tense expression builds as he leans toward the screen, which shows blurry blue diagram or flowchart-style blocks, with his fists clenched near his chin in the middle frame. Good for: intense concentration or deep work, such as debugging, building an AI workflow, or struggling with a complex problem"
+  },
+  {
+   "id": "lib_man_pointing_at_camera",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_pointing_at_camera.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_pointing_at_camera.mp4",
+   "credit": "",
+   "file": "man_pointing_at_camera.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a dark henley sits in a car seat working on a laptop with a focused look, then looks up with a warm smile and points playfully at the camera in a confident, friendly mood. Good for: a line that moves from focused work or problem-solving to a direct call to action, such as 'here's the trick you need to try' or 'now it's your turn'"
+  },
+  {
+   "id": "lib_man_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "man_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt stares intently at a laptop screen with blurry blue UI elements floating in front of the camera, then grimaces in frustration and mouths a reaction, and finally tilts his head back in exhausted resignation in a dim, warmly lit room. Good for: frustration with slow, tedious, or failing work, such as waiting on a slow tool, hitting an error, or being exhausted by manual tasks before introducing an AI solution"
+  },
+  {
+   "id": "lib_man_shaking_head_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "credit": "",
+   "file": "man_shaking_head_at_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits in a dark chair looking down at his phone, and his expression shifts from neutral to scrunched-up frustration or confusion, then to a displeased, worried look as he lowers the phone. Good for: frustration or disappointment with a tool or app that isn't working, slow or confusing results, or a bad surprise while checking your phone"
+  },
+  {
+   "id": "lib_man_smiling_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "credit": "",
+   "file": "man_smiling_at_phone.mp4",
+   "frames": 135,
+   "desc": "B-roll (4.5s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a blue smartphone, his expression shifting from neutral to a furrowed-brow frown of confusion and frustration. Good for: a line about frustration with confusing apps or slow tools, or the moment someone hits a problem and doesn't know what to do next"
+  },
+  {
+   "id": "lib_man_studying_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "credit": "",
+   "file": "man_studying_with_laptop.mp4",
+   "frames": 132,
+   "desc": "B-roll (4.4s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits at a desk behind a laptop with a furrowed brow and a frustrated, concentrated look, first staring at the screen, then looking down at an open notebook and writing with a pen, with a warm blurred lamp glowing in the background. Good for: a script line about struggling to understand something complex, frustration with slow or manual work, or the pain of learning a new tool the hard way"
+  },
+  {
+   "id": "lib_man_watching_laptop_waiting",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "credit": "",
+   "file": "man_watching_laptop_waiting.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits at a laptop in a dimly lit room with warm lamp light, resting his chin on his fist with a focused, pensive look, and the camera pushes in closer across the three frames. Good for: a script line about deep thinking, researching or problem-solving, or weighing a decision before trying an AI tool"
+  },
+  {
+   "id": "lib_person_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "person_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a laptop, his expression moving from concern to a deep frown with glowing blue tear-like effects on his cheeks, then to eyes shut in stress or exhaustion; the mood is frustrated and overwhelmed. Good for: A script line about frustration or overwhelm with a tough task, such as struggling with confusing tools, wasting hours on manual work, or being stuck before finding an AI solution."
+  },
+  {
+   "id": "lib_person_speaking_into_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "credit": "",
+   "file": "person_speaking_into_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt takes a phone call in a modern industrial office with exposed concrete ceilings, moving from a serious, concerned look to a worried talking expression and ending with a relieved, confident smile at the camera. Good for: a script line about getting a surprising call or news, a problem being solved, or the moment of relief after a stressful issue"
+  },
+  {
+   "id": "lib_person_taking_selfie_with_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "credit": "",
+   "file": "person_taking_selfie_with_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt sits in a car holding a blue smartphone up close to his face, and across the clip he leans toward the screen with a furrowed brow, looking skeptical and intensely focused. Good for: a script line about doubting or double-checking AI output, being confused or frustrated by an app or tool, or looking closely at a result on your phone, e.g. 'wait, is this actually right?'"
+  },
+  {
+   "id": "lib_professional_working_on_laptop_late",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "credit": "",
+   "file": "professional_working_on_laptop_late.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A tired bearded young man in a maroon t-shirt sits at a laptop in a dim apartment at night, resting his head on his hand, rubbing his eyes, then glumly lifting a white coffee mug, with blurred city lights glowing behind him through the window. Good for: A script line about burnout, late-night grinding, or frustration with slow manual work that AI tools can speed up, e.g. 'still stuck doing this by hand at midnight?'"
+  },
+  {
+   "id": "lib_robotic_hand_typing_on_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "credit": "",
+   "file": "robotic_hand_typing_on_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a black robotic hand with segmented, mechanical fingers lowering onto a backlit laptop keyboard and starting to type, shot at shallow depth of field in a warm, softly lit, modern workspace. Good for: A script line about AI doing the work for you, automating repetitive tasks, or AI taking over typing and writing, such as 'let AI handle the busywork' or 'AI writes it for you'."
+  },
+  {
+   "id": "s1_image",
+   "kind": "image",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-04_0106/s1_image.png",
+   "credit": "Image: lmstudio.ai",
+   "desc": "official image from LM Studio (desktop app, lmstudio.ai) and Ollama (ollama.com), running open-weight models such as Qwen, Gemma and Llama locally (announcement page)"
+  },
+  {
+   "id": "s1_broll1",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-04_0106/s1_broll1.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-04_0106/s1_broll1.mp4",
+   "frames": 256,
+   "credit": "Video: Pexels",
+   "desc": "stock video: typing on laptop (9s) — generic, NOT the company's own footage"
+  },
+  {
+   "id": "s1_broll2",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-04_0106/s1_broll2.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-04_0106/s1_broll2.mp4",
+   "frames": 232,
+   "credit": "Video: Pexels",
+   "desc": "stock video: turning off wifi (8s) — generic, NOT the company's own footage"
+  }
+ ],
+ "redo_of": "logs/plans/tutorial_2026-11-04_0029.json"
+}

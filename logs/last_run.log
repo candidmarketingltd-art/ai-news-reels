@@ -7,22 +7,15 @@ window 2026-11-03-2000 | posting times 13:00, 20:00 IST | dry_run=True
       b-roll library: 25 clips
       recording request #1: still waiting for the video
       recording request #2: still waiting for the video
-[1/6] top AI & tech reels
-      reel pool: 80 reels (cached today)
-[2/6] picking the topic
-      → Run a free AI model offline on your own computer with LM Studio or Ollama: install it, download a small model that fits your RAM, and chat with no subscription, no API key and no internet. Also show which model size suits an 8GB, 16GB or 32GB machine.  (tutorial, from @ghourithinks, 559,157 views) — 559k views and 20,745 comments, a comment-to-view ratio of about 3.7%, the highest of any pick on the list. 'Free, offline, no subscription' is a strong hook. O
-[3/6] research (257 transcript words)
-      verdict adjust · 6 web searches · 9 steps · 12 sources
-[4/6] script + edit
+[4/6] re-editing 'Run a free AI model offline on your own computer with LM Studio or Ollama: insta'
       media: s1_image, s1_logo, s1_broll1, s1_broll2
 [5/6] voice + render
-      [eleven] workspace voices: Rohan (IcsYcP26eMwajlgx2SDe, cloned)
-      [eleven] using Rohan (IcsYcP26eMwajlgx2SDe)
-      [eleven] subscription: 200 {"tier":"starter","character_count":29827,"character_limit":40000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796033014,"voice_slots_used":1,"professional_voice_slots_
-      [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
-      164 words, 69.4s, voice eleven_v4
-      remotion: Reel /tmp/tmp5rklq3x9/video_only.mp4
-DRY RUN — reel at /home/runner/work/ai-news-reels/ai-news-reels/out/2026-11-04_0029.mp4
+      voice: reused the recorded voiceover
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+      (voice check skipped: open() got an unexpected keyword argument 'metadata_errors')
+      164 words, 69.4s, voice eleven_v4 (cached)
+      remotion: Reel /tmp/tmpt_vv2yhb/video_only.mp4
+DRY RUN — reel at /home/runner/work/ai-news-reels/ai-news-reels/out/2026-11-04_0106.mp4
 --- caption ---
 You can run a free AI on your laptop, completely offline. 🔒
 ✅ Install LM Studio from lmstudio.ai/download
