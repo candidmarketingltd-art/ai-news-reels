@@ -11,9 +11,15 @@ window 2026-11-03-2000 | posting times 13:00, 20:00 IST | dry_run=True
       media: s1_image, s1_logo, s1_broll1, s1_broll2
 [5/6] voice + render
       voice: reused the recorded voiceover
-      164 words, 69.4s, voice eleven_v4 (cached) (cached)
-      remotion: Reel /tmp/tmprdg2756c/video_only.mp4
-DRY RUN — reel at /home/runner/work/ai-news-reels/ai-news-reels/out/2026-11-04_0120.mp4
+      voice check: 6 word(s) misheard [('no subscription no api key after the download turn wifi off and it keeps working step 1 install lm studio from lmstudioaidownload', ''), ('macs', 'max'), ('q4km', 'q4 underscore k underscore m'), ('8gb', '8 gigabytes'), ('16gb', '16 gigabytes')] -> recording another take
+      [eleven] workspace voices: Rohan (IcsYcP26eMwajlgx2SDe, cloned)
+      [eleven] using Rohan (IcsYcP26eMwajlgx2SDe)
+      [eleven] subscription: 200 {"tier":"starter","character_count":32191,"character_limit":40000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796033014,"voice_slots_used":1,"professional_voice_slots_
+      [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
+      take 2: 4 misheard [('macs', 'max'), ('q4km', 'q4 underscore k underscore m'), ('', 'name open'), ('27b', '27000')]
+      164 words, 69.4s, voice eleven_v4
+      remotion: Reel /tmp/tmp4yqxdjld/video_only.mp4
+DRY RUN — reel at /home/runner/work/ai-news-reels/ai-news-reels/out/2026-11-04_0132.mp4
 --- caption ---
 You can run a free AI on your laptop, completely offline. 🔒
 ✅ Install LM Studio from lmstudio.ai/download
