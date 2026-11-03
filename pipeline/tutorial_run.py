@@ -71,6 +71,7 @@ def cached_voice(text, mp3):
     if words is None:
         words, model = voice.synthesize(text, mp3)
     # listen back: re-record once if words came out wrong (e.g. "run" sounding like "ran"), keep the cleaner take
+    checked = False
     try:
         from pipeline import voice_qa
         bad, _ = voice_qa.check(mp3, text)
@@ -82,13 +83,14 @@ def cached_voice(text, mp3):
             print(f"      take 2: {len(bad2)} misheard {bad2[:5]}", flush=True)
             if len(bad2) < len(bad):
                 shutil.copyfile(alt, mp3); words, model = w2, m2
-        else:
-            print("      voice check: every word heard as written", flush=True)
+            checked = True
+        elif _ is not None and _ != "":
+            print("      voice check: every word heard as written", flush=True); checked = True
     except Exception as e:
         print(f"      (voice check skipped: {str(e)[:150]})", flush=True)
     try:
         VOICE_CACHE.mkdir(parents=True, exist_ok=True); shutil.copyfile(mp3, a)
-        j.write_text(json.dumps({"words": words, "model": model, "checked": True}))
+        j.write_text(json.dumps({"words": words, "model": model.replace(" (cached)", ""), "checked": checked}))
         old = sorted(VOICE_CACHE.glob("*.mp3"), key=lambda f: f.stat().st_mtime)[:-30]   # keep the last 30
         for f in old: f.unlink(); f.with_suffix(".json").unlink(missing_ok=True)
     except Exception as e:
