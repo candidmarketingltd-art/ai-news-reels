@@ -1,0 +1,1345 @@
+{
+ "voiceover": "[conversational] Your phone and laptop already do voice typing, and it's free.\n\nMost people never touch it. Talking is way faster than typing, but raw dictation comes out messy, with filler words and weird punctuation. That's the real problem.\n\nSo here's the fix. On Windows, press the Windows key plus H and just talk. On a Mac, turn on Dictation in your keyboard settings. On your phone, tap the mic on Gboard or the iPhone keyboard.\n\n[whispers] Now the trick. Paste that messy text into ChatGPT and say: \"Clean this up. Remove filler words, fix punctuation, keep my meaning.\"\n\n[confident] That's it. You get clean text you can actually send.\n\n[serious] Honest catch: it's a small extra step, so a paid app may feel smoother. But before you pay, try this. And don't paste anything private into ChatGPT.\n\n[curious] What do you type the most: emails, messages or notes?\n\n[playful] Send this to the friend who still types every email super slowly.",
+ "title": "STOP PAYING FOR DICTATION",
+ "ig_caption": "Your phone and laptop already do voice typing, and it's free. 🎙️\n✅ Windows: press Win + H and talk (Mac: turn on Dictation, phone: tap the mic)\n✅ Paste the text into ChatGPT\n✅ Prompt: \"Clean this up. Remove filler words, fix punctuation, keep my meaning.\"\nWhat do you type the most: emails, messages or notes?\nSave this for later 📌\nFollow @ihackgrowth for daily AI & tech hacks",
+ "media_hints": {
+  "domain": "openai.com",
+  "broll": [
+   "typing on laptop",
+   "speaking into phone",
+   "person frustrated at desk"
+  ]
+ },
+ "hashtags": [
+  "#AItools",
+  "#AIhacks",
+  "#ChatGPT",
+  "#VoiceTyping",
+  "#Dictation",
+  "#WisprFlow",
+  "#productivity",
+  "#techtips"
+ ],
+ "tag": "VOICE TYPING",
+ "keywords": [
+  "voice",
+  "typing",
+  "free",
+  "dictation",
+  "messy",
+  "filler",
+  "punctuation",
+  "Windows",
+  "Mac",
+  "Dictation",
+  "Gboard",
+  "iPhone",
+  "ChatGPT",
+  "clean",
+  "catch",
+  "private"
+ ],
+ "scenes": [
+  {
+   "at": "Your phone",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Your phone",
+     "media": "lib_man_comparing_phone_and_laptop",
+     "full": true
+    },
+    {
+     "type": "headline",
+     "at": "Your phone",
+     "text": "BUILT-IN VOICE TYPING",
+     "size": "l",
+     "color": "white",
+     "sub": "FREE",
+     "sub_at": "it's free.",
+     "sub_color": "green"
+    }
+   ]
+  },
+  {
+   "at": "Most people",
+   "tint": "red",
+   "react": [
+    {
+     "at": "never touch it.",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "pill",
+     "at": "Most people",
+     "text": "NEVER USED",
+     "color": "red",
+     "outline": true
+    },
+    {
+     "type": "vs",
+     "at": "Talking is",
+     "left": {
+      "label": "TYPING",
+      "value": "SLOW"
+     },
+     "right": {
+      "label": "TALKING",
+      "value": "FAST",
+      "at": "way faster",
+      "color": "green",
+      "ill": "speaking_head"
+     },
+     "strike_at": "way faster"
+    }
+   ]
+  },
+  {
+   "at": "but raw dictation",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "headline",
+     "at": "but raw dictation",
+     "text": "RAW = MESSY",
+     "size": "l",
+     "color": "red",
+     "ill": "warning"
+    },
+    {
+     "type": "strike_list",
+     "at": "filler words,",
+     "items": [
+      {
+       "text": "UM, UH, LIKE...",
+       "at": "filler words,"
+      },
+      {
+       "text": "WEIRD PUNCTUATION",
+       "at": "weird punctuation."
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "at": "real problem.",
+     "text": "THE REAL PROBLEM",
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "at": "So here's",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "On Windows,",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "So here's",
+     "text": "THE FIX · WINDOWS"
+    },
+    {
+     "type": "keys",
+     "at": "On Windows,",
+     "keys": [
+      "Win",
+      "H"
+     ],
+     "label": "VOICE TYPING"
+    },
+    {
+     "type": "pill",
+     "at": "just talk.",
+     "text": "JUST TALK",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "On a Mac,",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "label",
+     "at": "On a Mac,",
+     "text": "MAC"
+    },
+    {
+     "type": "toggle",
+     "at": "On a Mac,",
+     "text": "Dictation",
+     "path": "SYSTEM SETTINGS › KEYBOARD",
+     "to": "on",
+     "flip_at": "turn on"
+    }
+   ]
+  },
+  {
+   "at": "On your phone,",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "On your phone,",
+     "media": "lib_hand_scrolling_smartphone",
+     "full": true
+    },
+    {
+     "type": "headline",
+     "at": "tap the mic",
+     "text": "TAP THE MIC",
+     "size": "l",
+     "sub": "GBOARD · IPHONE",
+     "sub_at": "on Gboard"
+    }
+   ]
+  },
+  {
+   "at": "Now the trick.",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Now the trick.",
+     "device": "web",
+     "theme": "dark",
+     "brand": "chatgpt",
+     "url": "chatgpt.com",
+     "app": "ChatGPT",
+     "step": "The trick · Clean it up",
+     "steps": [
+      {
+       "at": "Now the trick.",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Search chats",
+         "Library",
+         "GPTs"
+        ],
+        "profile": "Rohan",
+        "input": ""
+       },
+       "action": {
+        "kind": "type",
+        "target": "input",
+        "text": "so um basically i was thinking uh we should like meet tuesday or something",
+        "at": "Paste that"
+       }
+      },
+      {
+       "at": "Clean this",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Search chats",
+         "Library",
+         "GPTs"
+        ],
+        "profile": "Rohan",
+        "chat": [
+         {
+          "from": "user",
+          "text": "so um basically i was thinking uh we should like meet tuesday or something"
+         }
+        ],
+        "input": ""
+       },
+       "action": {
+        "kind": "type",
+        "target": "input",
+        "text": "Clean this up. Remove filler words, fix punctuation, keep my meaning.",
+        "at": "Clean this"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "That's it.",
+   "tint": "green",
+   "react": [
+    {
+     "at": "clean text",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "before_after",
+     "at": "That's it.",
+     "left": {
+      "label": "RAW DICTATION",
+      "text": "so um basically we should like meet tuesday or something"
+     },
+     "right": {
+      "label": "AFTER CHATGPT",
+      "text": "Let's meet on Tuesday.",
+      "at": "clean text"
+     }
+    },
+    {
+     "type": "pill",
+     "at": "actually send.",
+     "text": "READY TO SEND",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "Honest catch:",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Honest catch:",
+     "text": "HONEST CATCH"
+    },
+    {
+     "type": "stat_row",
+     "cards": [
+      {
+       "label": "EXTRA STEP",
+       "value": "SMALL",
+       "at": "small extra step,",
+       "color": "gold",
+       "ill": "hourglass_not_done"
+      },
+      {
+       "label": "PAID APP",
+       "value": "SMOOTH",
+       "at": "paid app",
+       "color": "blue",
+       "ill": "money_bag"
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "at": "try this.",
+     "text": "TRY FREE FIRST",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "And don't paste",
+   "tint": "red",
+   "react": [
+    {
+     "at": "anything private",
+     "mood": "serious"
+    }
+   ],
+   "elements": [
+    {
+     "type": "title_slam",
+     "at": "And don't paste",
+     "text": "PRIVATE?",
+     "sub": "KEEP IT OUT OF CHATGPT",
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "at": "What do",
+   "react": [
+    {
+     "at": "What do",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "headline",
+     "at": "What do",
+     "text": "WHAT DO YOU TYPE?",
+     "size": "l",
+     "ill": "speech_balloon"
+    },
+    {
+     "type": "stat_row",
+     "cards": [
+      {
+       "label": "WORK",
+       "value": "EMAILS",
+       "at": "emails,",
+       "ill": "e_mail"
+      },
+      {
+       "label": "CHATS",
+       "value": "MSGS",
+       "at": "messages or",
+       "ill": "mobile_phone"
+      },
+      {
+       "label": "IDEAS",
+       "value": "NOTES",
+       "at": "notes?",
+       "ill": "memo"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "Send this",
+  "line1": "Send this to",
+  "line1_at": "Send this",
+  "line2": "the slow typer",
+  "line2_at": "super slowly."
+ },
+ "endcard": {
+  "title": "Saved it?",
+  "terminal": "> voice.typing · on · free"
+ },
+ "media": [
+  {
+   "id": "lib_colleagues_collaborating_around",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "credit": "",
+   "file": "colleagues_collaborating_around.mp4",
+   "frames": 126,
+   "desc": "B-roll (4.2s, VERTICAL 9:16 — best as full: true): colleagues collaborating around Good for: "
+  },
+  {
+   "id": "lib_content_creator_sets_up_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "credit": "",
+   "file": "content_creator_sets_up_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt stands behind a ring light with a phone on a tripod, adjusting the setup while the camera slowly pushes in until his face fills the frame, with a calm, focused mood and moody blue ambient lighting in the background. Good for: setting up to create content, getting started as a creator, or preparing equipment before recording a tutorial"
+  },
+  {
+   "id": "lib_fingers_typing_on_laptop_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "credit": "",
+   "file": "fingers_typing_on_laptop_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): Close-up over-the-shoulder shot of a person typing on a backlit laptop keyboard, with a blurred blue screen in the background and a warm, focused, productive mood. Good for: lines about getting started, writing prompts or code, doing focused work at the computer, or the hands-on steps of a tutorial"
+  },
+  {
+   "id": "lib_hand_dropping_papers_on_desk",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "credit": "",
+   "file": "hand_dropping_papers_on_desk.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a green shirt carries and then drops a thick stack of papers onto an already huge, messy pile of documents with sticky notes on a cluttered desk, while a laptop glows nearby, and the camera pushes in to a close-up of the towering stack, creating a mood of overwhelm and tedious paperwork. Good for: a script line about drowning in manual paperwork or document processing, setting up how AI can automate summarizing, sorting, or extracting information from piles of documents"
+  },
+  {
+   "id": "lib_hand_scrolling_smartphone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_scrolling_smartphone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_scrolling_smartphone.mp4",
+   "credit": "",
+   "file": "hand_scrolling_smartphone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a bearded young man in a white t-shirt looking intently at a smartphone in dim, warm lighting, with the camera slowly pushing in until his focused, slightly tense gaze moves from the screen to the lens. Good for: a script line about being glued to your phone, doubt or tension before a reveal, or the moment of realizing something while checking an app or notification"
+  },
+  {
+   "id": "lib_man_comparing_phone_and_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "credit": "",
+   "file": "man_comparing_phone_and_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): man comparing phone and laptop Good for: "
+  },
+  {
+   "id": "lib_man_looking_at_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "credit": "",
+   "file": "man_looking_at_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt scowls with intense focus at a laptop in a dim, warmly lit room, then closes his eyes and rubs his hand near his chin in tired frustration. Good for: frustration with slow or difficult work, such as struggling with a tedious task, debugging, or burning out late at night before finding a better way"
+  },
+  {
+   "id": "lib_man_opens_laptop_in_room",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "credit": "",
+   "file": "man_opens_laptop_in_room.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt sits at a laptop in a dimly lit, warmly lit room, and his focused, tense expression builds as he leans toward the screen, which shows blurry blue diagram or flowchart-style blocks, with his fists clenched near his chin in the middle frame. Good for: intense concentration or deep work, such as debugging, building an AI workflow, or struggling with a complex problem"
+  },
+  {
+   "id": "lib_man_pointing_at_camera",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_pointing_at_camera.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_pointing_at_camera.mp4",
+   "credit": "",
+   "file": "man_pointing_at_camera.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a dark henley sits in a car seat working on a laptop with a focused look, then looks up with a warm smile and points playfully at the camera in a confident, friendly mood. Good for: a line that moves from focused work or problem-solving to a direct call to action, such as 'here's the trick you need to try' or 'now it's your turn'"
+  },
+  {
+   "id": "lib_man_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "man_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt stares intently at a laptop screen with blurry blue UI elements floating in front of the camera, then grimaces in frustration and mouths a reaction, and finally tilts his head back in exhausted resignation in a dim, warmly lit room. Good for: frustration with slow, tedious, or failing work, such as waiting on a slow tool, hitting an error, or being exhausted by manual tasks before introducing an AI solution"
+  },
+  {
+   "id": "lib_man_smiling_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "credit": "",
+   "file": "man_smiling_at_phone.mp4",
+   "frames": 135,
+   "desc": "B-roll (4.5s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a blue smartphone, his expression shifting from neutral to a furrowed-brow frown of confusion and frustration. Good for: a line about frustration with confusing apps or slow tools, or the moment someone hits a problem and doesn't know what to do next"
+  },
+  {
+   "id": "lib_man_studying_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "credit": "",
+   "file": "man_studying_with_laptop.mp4",
+   "frames": 132,
+   "desc": "B-roll (4.4s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits at a desk behind a laptop with a furrowed brow and a frustrated, concentrated look, first staring at the screen, then looking down at an open notebook and writing with a pen, with a warm blurred lamp glowing in the background. Good for: a script line about struggling to understand something complex, frustration with slow or manual work, or the pain of learning a new tool the hard way"
+  },
+  {
+   "id": "lib_man_watching_laptop_waiting",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "credit": "",
+   "file": "man_watching_laptop_waiting.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits at a laptop in a dimly lit room with warm lamp light, resting his chin on his fist with a focused, pensive look, and the camera pushes in closer across the three frames. Good for: a script line about deep thinking, researching or problem-solving, or weighing a decision before trying an AI tool"
+  },
+  {
+   "id": "lib_person_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "person_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a laptop, his expression moving from concern to a deep frown with glowing blue tear-like effects on his cheeks, then to eyes shut in stress or exhaustion; the mood is frustrated and overwhelmed. Good for: A script line about frustration or overwhelm with a tough task, such as struggling with confusing tools, wasting hours on manual work, or being stuck before finding an AI solution."
+  },
+  {
+   "id": "lib_person_speaking_into_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "credit": "",
+   "file": "person_speaking_into_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt takes a phone call in a modern industrial office with exposed concrete ceilings, moving from a serious, concerned look to a worried talking expression and ending with a relieved, confident smile at the camera. Good for: a script line about getting a surprising call or news, a problem being solved, or the moment of relief after a stressful issue"
+  },
+  {
+   "id": "lib_person_taking_selfie_with_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "credit": "",
+   "file": "person_taking_selfie_with_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt sits in a car holding a blue smartphone up close to his face, and across the clip he leans toward the screen with a furrowed brow, looking skeptical and intensely focused. Good for: a script line about doubting or double-checking AI output, being confused or frustrated by an app or tool, or looking closely at a result on your phone, e.g. 'wait, is this actually right?'"
+  },
+  {
+   "id": "lib_professional_working_on_laptop_late",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "credit": "",
+   "file": "professional_working_on_laptop_late.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A tired bearded young man in a maroon t-shirt sits at a laptop in a dim apartment at night, resting his head on his hand, rubbing his eyes, then glumly lifting a white coffee mug, with blurred city lights glowing behind him through the window. Good for: A script line about burnout, late-night grinding, or frustration with slow manual work that AI tools can speed up, e.g. 'still stuck doing this by hand at midnight?'"
+  },
+  {
+   "id": "lib_robotic_hand_typing_on_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "credit": "",
+   "file": "robotic_hand_typing_on_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a black robotic hand with segmented, mechanical fingers lowering onto a backlit laptop keyboard and starting to type, shot at shallow depth of field in a warm, softly lit, modern workspace. Good for: A script line about AI doing the work for you, automating repetitive tasks, or AI taking over typing and writing, such as 'let AI handle the busywork' or 'AI writes it for you'."
+  },
+  {
+   "id": "s1_image",
+   "kind": "image",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-03_2001/s1_image.png",
+   "credit": "Image: openai.com",
+   "desc": "official image from Built-in voice typing (Windows Win+H / Mac Dictation / Gboard) + ChatGPT (homepage)"
+  }
+ ],
+ "style": "hisaab",
+ "topic": "Free unlimited voice typing that turns speech into clean text on the tools you already have: Win+H on Windows, Dictation on Mac, Gboard or iPhone mic. Then paste the text into ChatGPT with a 'clean this up' prompt to fix filler words and punctuation.",
+ "pick": {
+  "index": 41,
+  "topic": "Free unlimited voice typing that turns speech into clean text on the tools you already have: Win+H on Windows, Dictation on Mac, Gboard or iPhone mic. Then paste the text into ChatGPT with a 'clean this up' prompt to fix filler words and punctuation.",
+  "tool": "Built-in voice typing (Windows Win+H / Mac Dictation / Gboard) + ChatGPT",
+  "format": "comparison",
+  "angle": "Stop paying for Wispr Flow. Your phone and PC already do voice typing for free. Here's the 1-prompt trick that makes it as clean.",
+  "why": "101k views and 975 comments from a smaller account, from the 'free alternative to a paid tool' angle. Voice typing helps students, freelancers and office workers, and it takes 3 steps to teach. Our version shows real free tools instead of a link in the DMs."
+ },
+ "inspired_by": {
+  "url": "https://www.instagram.com/p/DfKRsz9Bb0z/",
+  "owner": "trakin.ai",
+  "plays": 101899,
+  "likes": 2632,
+  "comments": 975
+ },
+ "research": {
+  "verdict": "adjust",
+  "tool": "Built-in voice typing (Windows Win+H / Mac Dictation / Gboard) + ChatGPT",
+  "steps": [],
+  "facts": [],
+  "do_not_claim": [],
+  "notes": "Not web-verified: use only general, well-known steps; avoid every number, price and limit.",
+  "_searched": 0
+ },
+ "models": {
+  "pick": "claude-sonnet-5-5",
+  "research": "claude-sonnet-5-5",
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 9,
+ "timeline": {
+  "words": [
+   [
+    "Your",
+    0.08
+   ],
+   [
+    "phone",
+    0.36
+   ],
+   [
+    "and",
+    0.56
+   ],
+   [
+    "laptop",
+    0.68
+   ],
+   [
+    "already",
+    1.28
+   ],
+   [
+    "do",
+    1.68
+   ],
+   [
+    "voice",
+    1.84
+   ],
+   [
+    "typing,",
+    2.16
+   ],
+   [
+    "and",
+    2.8
+   ],
+   [
+    "it's",
+    2.92
+   ],
+   [
+    "free.",
+    3.44
+   ],
+   [
+    "Most",
+    3.84
+   ],
+   [
+    "people",
+    4.08
+   ],
+   [
+    "never",
+    4.4
+   ],
+   [
+    "touch",
+    4.76
+   ],
+   [
+    "it.",
+    5.16
+   ],
+   [
+    "Talking",
+    5.52
+   ],
+   [
+    "is",
+    6.0
+   ],
+   [
+    "way",
+    6.44
+   ],
+   [
+    "faster",
+    6.64
+   ],
+   [
+    "than",
+    7.04
+   ],
+   [
+    "typing,",
+    7.2
+   ],
+   [
+    "but",
+    7.95
+   ],
+   [
+    "raw",
+    8.08
+   ],
+   [
+    "dictation",
+    8.44
+   ],
+   [
+    "comes",
+    8.96
+   ],
+   [
+    "out",
+    9.24
+   ],
+   [
+    "messy,",
+    9.48
+   ],
+   [
+    "with",
+    10.08
+   ],
+   [
+    "filler",
+    10.24
+   ],
+   [
+    "words",
+    10.64
+   ],
+   [
+    "and",
+    10.88
+   ],
+   [
+    "weird",
+    11.08
+   ],
+   [
+    "punctuation.",
+    11.68
+   ],
+   [
+    "That's",
+    12.4
+   ],
+   [
+    "the",
+    12.8
+   ],
+   [
+    "real",
+    13.0
+   ],
+   [
+    "problem.",
+    13.52
+   ],
+   [
+    "So",
+    14.0
+   ],
+   [
+    "here's",
+    14.16
+   ],
+   [
+    "the",
+    14.36
+   ],
+   [
+    "fix.",
+    14.48
+   ],
+   [
+    "On",
+    15.23
+   ],
+   [
+    "Windows,",
+    15.56
+   ],
+   [
+    "press",
+    16.04
+   ],
+   [
+    "the",
+    16.24
+   ],
+   [
+    "Windows",
+    16.52
+   ],
+   [
+    "key",
+    16.8
+   ],
+   [
+    "plus",
+    17.04
+   ],
+   [
+    "H",
+    17.52
+   ],
+   [
+    "and",
+    17.84
+   ],
+   [
+    "just",
+    18.12
+   ],
+   [
+    "talk.",
+    18.56
+   ],
+   [
+    "On",
+    18.93
+   ],
+   [
+    "a",
+    19.04
+   ],
+   [
+    "Mac,",
+    19.36
+   ],
+   [
+    "turn",
+    19.68
+   ],
+   [
+    "on",
+    19.92
+   ],
+   [
+    "Dictation",
+    20.08
+   ],
+   [
+    "in",
+    20.68
+   ],
+   [
+    "your",
+    20.8
+   ],
+   [
+    "keyboard",
+    20.96
+   ],
+   [
+    "settings.",
+    21.36
+   ],
+   [
+    "On",
+    22.13
+   ],
+   [
+    "your",
+    22.24
+   ],
+   [
+    "phone,",
+    22.64
+   ],
+   [
+    "tap",
+    22.96
+   ],
+   [
+    "the",
+    23.2
+   ],
+   [
+    "mic",
+    23.36
+   ],
+   [
+    "on",
+    23.68
+   ],
+   [
+    "Gboard",
+    23.96
+   ],
+   [
+    "or",
+    24.48
+   ],
+   [
+    "the",
+    24.64
+   ],
+   [
+    "iPhone",
+    24.8
+   ],
+   [
+    "keyboard.",
+    25.52
+   ],
+   [
+    "Now",
+    26.0
+   ],
+   [
+    "the",
+    26.24
+   ],
+   [
+    "trick.",
+    26.4
+   ],
+   [
+    "Paste",
+    27.28
+   ],
+   [
+    "that",
+    27.56
+   ],
+   [
+    "messy",
+    27.76
+   ],
+   [
+    "text",
+    28.08
+   ],
+   [
+    "into",
+    28.52
+   ],
+   [
+    "ChatGPT",
+    28.72
+   ],
+   [
+    "and",
+    29.64
+   ],
+   [
+    "say:",
+    29.88
+   ],
+   [
+    "\"Clean",
+    30.32
+   ],
+   [
+    "this",
+    30.56
+   ],
+   [
+    "up.",
+    30.72
+   ],
+   [
+    "Remove",
+    31.28
+   ],
+   [
+    "filler",
+    31.52
+   ],
+   [
+    "words,",
+    31.92
+   ],
+   [
+    "fix",
+    32.44
+   ],
+   [
+    "punctuation,",
+    32.6
+   ],
+   [
+    "keep",
+    33.6
+   ],
+   [
+    "my",
+    33.76
+   ],
+   [
+    "meaning.\"",
+    34.08
+   ],
+   [
+    "That's",
+    34.72
+   ],
+   [
+    "it.",
+    34.96
+   ],
+   [
+    "You",
+    35.49
+   ],
+   [
+    "get",
+    35.6
+   ],
+   [
+    "clean",
+    35.84
+   ],
+   [
+    "text",
+    36.16
+   ],
+   [
+    "you",
+    36.48
+   ],
+   [
+    "can",
+    36.68
+   ],
+   [
+    "actually",
+    36.88
+   ],
+   [
+    "send.",
+    37.36
+   ],
+   [
+    "Honest",
+    38.16
+   ],
+   [
+    "catch:",
+    38.48
+   ],
+   [
+    "it's",
+    39.16
+   ],
+   [
+    "a",
+    39.36
+   ],
+   [
+    "small",
+    39.6
+   ],
+   [
+    "extra",
+    39.92
+   ],
+   [
+    "step,",
+    40.16
+   ],
+   [
+    "so",
+    40.72
+   ],
+   [
+    "a",
+    40.88
+   ],
+   [
+    "paid",
+    41.08
+   ],
+   [
+    "app",
+    41.28
+   ],
+   [
+    "may",
+    41.64
+   ],
+   [
+    "feel",
+    41.88
+   ],
+   [
+    "smoother.",
+    42.08
+   ],
+   [
+    "But",
+    42.77
+   ],
+   [
+    "before",
+    42.88
+   ],
+   [
+    "you",
+    43.2
+   ],
+   [
+    "pay,",
+    43.52
+   ],
+   [
+    "try",
+    43.92
+   ],
+   [
+    "this.",
+    44.08
+   ],
+   [
+    "And",
+    44.72
+   ],
+   [
+    "don't",
+    44.88
+   ],
+   [
+    "paste",
+    45.28
+   ],
+   [
+    "anything",
+    45.52
+   ],
+   [
+    "private",
+    46.12
+   ],
+   [
+    "into",
+    46.44
+   ],
+   [
+    "ChatGPT.",
+    46.68
+   ],
+   [
+    "What",
+    47.75
+   ],
+   [
+    "do",
+    47.84
+   ],
+   [
+    "you",
+    48.0
+   ],
+   [
+    "type",
+    48.24
+   ],
+   [
+    "the",
+    48.4
+   ],
+   [
+    "most:",
+    48.64
+   ],
+   [
+    "emails,",
+    49.12
+   ],
+   [
+    "messages",
+    50.08
+   ],
+   [
+    "or",
+    50.44
+   ],
+   [
+    "notes?",
+    50.56
+   ],
+   [
+    "Send",
+    51.36
+   ],
+   [
+    "this",
+    51.6
+   ],
+   [
+    "to",
+    51.76
+   ],
+   [
+    "the",
+    51.84
+   ],
+   [
+    "friend",
+    52.0
+   ],
+   [
+    "who",
+    52.36
+   ],
+   [
+    "still",
+    52.56
+   ],
+   [
+    "types",
+    52.88
+   ],
+   [
+    "every",
+    53.28
+   ],
+   [
+    "email",
+    53.68
+   ],
+   [
+    "super",
+    54.24
+   ],
+   [
+    "slowly.",
+    54.64
+   ]
+  ],
+  "duration": 55.46,
+  "scenes": [
+   {
+    "t": 0.0,
+    "shows": [
+     "footage:lib_man_comparing_phone_and_laptop",
+     "headline:BUILT-IN VOICE TYPING"
+    ]
+   },
+   {
+    "t": 3.84,
+    "shows": [
+     "pill:NEVER USED",
+     "vs:"
+    ]
+   },
+   {
+    "t": 7.95,
+    "shows": [
+     "headline:RAW = MESSY",
+     "strike_list:",
+     "pill:THE REAL PROBLEM"
+    ]
+   },
+   {
+    "t": 14.0,
+    "shows": [
+     "label:THE FIX · WINDOWS",
+     "keys:",
+     "pill:JUST TALK"
+    ]
+   },
+   {
+    "t": 18.93,
+    "shows": [
+     "label:MAC",
+     "toggle:Dictation"
+    ]
+   },
+   {
+    "t": 22.13,
+    "shows": [
+     "footage:lib_hand_scrolling_smartphone",
+     "headline:TAP THE MIC"
+    ]
+   },
+   {
+    "t": 26.0,
+    "shows": [
+     "screen:The trick · Clean it up"
+    ]
+   },
+   {
+    "t": 34.72,
+    "shows": [
+     "before_after:",
+     "pill:READY TO SEND"
+    ]
+   },
+   {
+    "t": 38.16,
+    "shows": [
+     "label:HONEST CATCH",
+     "stat_row:",
+     "pill:TRY FREE FIRST"
+    ]
+   },
+   {
+    "t": 44.72,
+    "shows": [
+     "title_slam:PRIVATE?"
+    ]
+   },
+   {
+    "t": 47.75,
+    "shows": [
+     "headline:WHAT DO YOU TYPE?",
+     "stat_row:"
+    ]
+   }
+  ],
+  "beats": [
+   1.5,
+   16.68,
+   28.8,
+   32.52,
+   42.5
+  ]
+ }
+}

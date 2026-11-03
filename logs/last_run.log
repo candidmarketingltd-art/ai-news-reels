@@ -3,24 +3,14 @@
   APIFY_TOKEN: set
   BUFFER_API_KEY: set
   BUFFER_CHANNEL_ID: set
-window 2026-11-03-1300 | posting times 13:00, 20:00 IST | dry_run=False
+window 2026-11-03-2000 | posting times 13:00, 20:00 IST | dry_run=False
       b-roll library: 25 clips
       recording request #1: still waiting for the video
+      recording request #2: still waiting for the video
 [1/6] top AI & tech reels
-      hashtags: 160 reels from 10 tags
-      accounts: 46 reels from @insideraix, @socialcanvasbyrahul, @techbyashu, @techwaalababa, @rahuliyer.ai, @jjtechvault
-      reel pool: 80 reels
+      reel pool: 80 reels (cached today)
 [2/6] picking the topic
-      → Get studio-quality product photos from one phone snapshot in ChatGPT: upload the product photo, then use 3 prompt styles (clean e-commerce white background, mannequin or lifestyle display, sale poster). Include the fixes that keep the product's real shape, color and logo.  (myth, from @as.digital.deals, 2,137,577 views) — 2.1M views, 36k likes and 37,613 comments on a 36s reel, so demand is huge. Sellers, freelancers and small shops can try it today on free ChatGPT. It's a differ
-[3/6] research (100 transcript words)
-      verdict adjust · 6 web searches · 7 steps · 11 sources
-[4/6] script + edit
-      (media: pexels 'product photography studio' failed: 403 Client Error: Forbidden for url: https://api.apify.com/v2/acts/memo23~pexels)
-      (media: pexels 'phone taking photo' failed: 403 Client Error: Forbidden for url: https://api.apify.com/v2/acts/memo23~pexels)
-      media: s1_image, s1_logo
-      needs a real recording: The payoff is the real AI-generated photos and the intact logo, which a mock-up can't fake. -> asking the owner, next pick
-      recording request: issue #2
-      → Free up Gmail storage without paying for Google One. Use Gmail search operators (larger:10M, has:attachment, category:promotions, older_than:2y) to find the biggest and oldest junk, select all, delete, then empty Trash and Spam.  (tutorial, from @techbyashu, 250,333 views) — 250k views and 301 comments, and everyone with Gmail has this problem. It's fully free and teachable in 3 steps. The searches can be demoed on screen and checke
+      → Post a video to your WhatsApp Status without downloading it: copy the link, open Status, tap the sticker icon, choose the link sticker and paste it. Add a quick check of what works and what doesn't (which links, and how they show up to viewers).  (tips, from @amlendra.in, 1,133,419 views) — 1.13M views and 18k likes in about 3 weeks, with 245 comments. A related WhatsApp trick reel (index 3) hit 5.9M views and 2,150 comments, so there's clear deman
       transcript failed: apify apify/instagram-reel-scraper: 403 {
   "error": {
     "type": "platform-feature-disabled",
@@ -28,18 +18,29 @@ window 2026-11-03-1300 | posting times 13:00, 20:00 IST | dry_run=False
   }
 }
 [3/6] research (0 transcript words)
-      verdict adjust · 6 web searches · 9 steps · 14 sources
+      verdict reject · 6 web searches · 4 steps · 9 sources
+      rejected: Rejected because the core claim (sticker icon > link sticker > video posts without downloading) is not in the WhatsApp help pages, the WhatsApp blog or tech coverage found. It may be a staged rollout 
+      → Free unlimited voice typing that turns speech into clean text on the tools you already have: Win+H on Windows, Dictation on Mac, Gboard or iPhone mic. Then paste the text into ChatGPT with a 'clean this up' prompt to fix filler words and punctuation.  (comparison, from @trakin.ai, 101,899 views) — 101k views and 975 comments from a smaller account, from the 'free alternative to a paid tool' angle. Voice typing helps students, freelancers and office worker
+      transcript failed: apify apify/instagram-reel-scraper: 403 {
+  "error": {
+    "type": "platform-feature-disabled",
+    "message": "Monthly usage hard limit exceeded"
+  }
+}
+[3/6] research (0 transcript words)
+      web research unavailable (Expecting ',' delimiter: line 1 column 10384 (char 10383)); using the transcript only, conservatively
+      verdict adjust · 0 web searches · 0 steps · 0 sources
 [4/6] script + edit
       (media: pexels 'typing on laptop' failed: 403 Client Error: Forbidden for url: https://api.apify.com/v2/acts/memo23~pexels)
-      (media: pexels 'full email inbox' failed: 403 Client Error: Forbidden for url: https://api.apify.com/v2/acts/memo23~pexels)
+      (media: pexels 'speaking into phone' failed: 403 Client Error: Forbidden for url: https://api.apify.com/v2/acts/memo23~pexels)
       media: s1_image, s1_logo
 [5/6] voice + render
       [eleven] workspace voices: Rohan (IcsYcP26eMwajlgx2SDe, cloned)
       [eleven] using Rohan (IcsYcP26eMwajlgx2SDe)
-      [eleven] subscription: 200 {"tier":"starter","character_count":20485,"character_limit":40000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796033014,"voice_slots_used":1,"professional_voice_slots_
+      [eleven] subscription: 200 {"tier":"starter","character_count":20877,"character_limit":40000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796033014,"voice_slots_used":1,"professional_voice_slots_
       [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
-      146 words, 72.3s, voice eleven_v4
-      remotion: Reel /tmp/tmplt2o6869/video_only.mp4
+      156 words, 55.5s, voice eleven_v4
+      remotion: Reel /tmp/tmph99xd6q2/video_only.mp4
 [6/6] publish
-      [buffer] created post 6ae9908e6896a4441f6a58ba (customScheduled)
-POSTED 6ae9908e6896a4441f6a58ba https://github.com/candidmarketingltd-art/ai-news-reels/releases/download/reel-2026-11-03_1301/2026-11-03_1301.mp4
+      [buffer] created post 6ae9f1c8985f73e58250f69c (customScheduled)
+POSTED 6ae9f1c8985f73e58250f69c https://github.com/candidmarketingltd-art/ai-news-reels/releases/download/reel-2026-11-03_2001/2026-11-03_2001.mp4

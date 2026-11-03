@@ -40,5 +40,11 @@
   "at": "2026-11-03 13:13",
   "post": "6ae9908e6896a4441f6a58ba",
   "topic": "Free up Gmail storage without paying for Google One. Use Gmail search operators (larger:10M, has:attachment, category:promotions, older_than:2y) to find the biggest and oldest junk, select all, delete, then empty Trash and Spam."
+ },
+ "2026-11-03-2000": {
+  "status": "posted",
+  "at": "2026-11-03 20:08",
+  "post": "6ae9f1c8985f73e58250f69c",
+  "topic": "Free unlimited voice typing that turns speech into clean text on the tools you already have: Win+H on Windows, Dictation on Mac, Gboard or iPhone mic. Then paste the text into ChatGPT with a 'clean this up' prompt to fix filler words and punctuation."
  }
 }
