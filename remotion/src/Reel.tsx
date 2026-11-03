@@ -294,13 +294,13 @@ const Hud: React.FC<{ h: NonNullable<ReelProps["hud"]> }> = ({ h }) => {
   const inn = interpolate(f, [4, 14], [0, 1], clamp);
   const c = cur?.color === "red" ? COL.red : cur?.color === "green" ? COL.green : COL.gold;
   return (
-    <div style={{ position: "absolute", left: 40, right: 40, top: 134, height: 46, display: "flex", alignItems: "center", justifyContent: "space-between", opacity: inn }}>
-      <div style={{ display: "flex", alignItems: "center", gap: 10, font: `700 20px ${MONO}`, color: COL.mute, letterSpacing: 2 }}>
-        <span style={{ width: 10, height: 10, borderRadius: 5, background: COL.red, opacity: f % 30 < 18 ? 1 : 0.25, boxShadow: `0 0 10px ${COL.red}` }} />LIVE {clock}
+    <div style={{ position: "absolute", left: 40, right: 40, top: 132, height: 56, display: "flex", alignItems: "center", justifyContent: "space-between", opacity: inn }}>
+      <div style={{ display: "flex", alignItems: "center", gap: 10, font: `700 24px ${MONO}`, color: COL.mute, letterSpacing: 2 }}>
+        <span style={{ width: 12, height: 12, borderRadius: 6, background: COL.red, opacity: f % 30 < 18 ? 1 : 0.25, boxShadow: `0 0 10px ${COL.red}` }} />LIVE {clock}
       </div>
       <div style={{ display: "flex", alignItems: "center", gap: 12, padding: "6px 16px", borderRadius: 12, background: "#121316", border: `2px solid ${c}55` }}>
-        <span style={{ font: `700 18px ${MONO}`, color: COL.mute, letterSpacing: 2 }}>{h.label}</span>
-        <span style={{ font: `900 26px ${SANS}`, color: c, scale: `${pop}`, display: "inline-block", textShadow: `0 0 14px ${c}88` }}>{cur?.value}</span>
+        <span style={{ font: `700 22px ${MONO}`, color: COL.mute, letterSpacing: 2 }}>{h.label}</span>
+        <span style={{ font: `900 36px ${SANS}`, color: c, scale: `${pop}`, display: "inline-block", textShadow: `0 0 14px ${c}88` }}>{cur?.value}</span>
       </div>
     </div>
   );
