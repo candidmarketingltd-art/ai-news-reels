@@ -62,11 +62,14 @@ def cached_voice(text, mp3):
     import hashlib, shutil
     key = hashlib.sha1(text.encode("utf-8")).hexdigest()[:16]
     a, j = VOICE_CACHE / f"{key}.mp3", VOICE_CACHE / f"{key}.json"
+    words = None
     if a.exists() and j.exists():
         d = json.loads(j.read_text()); shutil.copyfile(a, mp3)
         print("      voice: reused the recorded voiceover", flush=True)
-        return [tuple(w) for w in d["words"]], d["model"] + " (cached)"
-    words, model = voice.synthesize(text, mp3)
+        words, model = [tuple(w) for w in d["words"]], d["model"] + " (cached)"
+        if d.get("checked"): return words, model
+    if words is None:
+        words, model = voice.synthesize(text, mp3)
     # listen back: re-record once if words came out wrong (e.g. "run" sounding like "ran"), keep the cleaner take
     try:
         from pipeline import voice_qa
@@ -85,7 +88,7 @@ def cached_voice(text, mp3):
         print(f"      (voice check skipped: {str(e)[:150]})", flush=True)
     try:
         VOICE_CACHE.mkdir(parents=True, exist_ok=True); shutil.copyfile(mp3, a)
-        j.write_text(json.dumps({"words": words, "model": model}))
+        j.write_text(json.dumps({"words": words, "model": model, "checked": True}))
         old = sorted(VOICE_CACHE.glob("*.mp3"), key=lambda f: f.stat().st_mtime)[:-30]   # keep the last 30
         for f in old: f.unlink(); f.with_suffix(".json").unlink(missing_ok=True)
     except Exception as e:
