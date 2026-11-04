@@ -46,5 +46,11 @@
   "at": "2026-11-03 20:08",
   "post": "6ae9f1c8985f73e58250f69c",
   "topic": "Free unlimited voice typing that turns speech into clean text on the tools you already have: Win+H on Windows, Dictation on Mac, Gboard or iPhone mic. Then paste the text into ChatGPT with a 'clean this up' prompt to fix filler words and punctuation."
+ },
+ "2026-11-04-1300": {
+  "status": "posted",
+  "at": "2026-11-04 13:13",
+  "post": "6aeae226e478396c27478ef5",
+  "topic": "Use one-word ChatGPT 'codes' to get instant results from a photo or a topic. Show the study set (/cheatsheet, /mindmap, /timeline, /flashcards, /blueprint), explain they're just short saved prompts rather than hidden commands, and show how to write your own."
  }
 }

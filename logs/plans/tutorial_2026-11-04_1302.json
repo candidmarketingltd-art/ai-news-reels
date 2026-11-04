@@ -1,0 +1,1781 @@
+{
+ "voiceover": "[conversational] Those viral ChatGPT codes aren't actually commands.\n\n[curious] Stay till the end, because one setting decides whether your codes survive.\n\n/cheatsheet, /mindmap, /timeline, /flashcards, /blueprint are just short prompts. ChatGPT has no built-in parser for them. It simply understands the word.\n\nSo type /cheatsheet Excel, or /timeline World War 2. Photo? Tap plus first. On Free, that's 3 uploads a day.\n\n[playful] Make your own. Paste: \"When I type /cheatsheet plus a topic, reply with a one-page summary table. Confirm you understand.\" Add more lines, like \"/flashcards means 10 question and answer pairs.\"\n\n[serious] The catch: results vary with the model and your wording, and photo codes can change faces.\n\n[confident] Now the setting. Right now, your codes only live in that chat. Go to Settings, then Personalization on web, or Customize ChatGPT on mobile. Turn on Enable customization, then paste the lines into Custom Instructions.\n\nWhich code would you make first? Send this to the friend who retypes long prompts every day.\n\nHack saved?",
+ "open_loop": {
+  "setup": "Stay till the end, because one setting decides whether your codes survive.",
+  "payoff": "Turn on Enable customization, then paste the lines into Custom Instructions."
+ },
+ "title": "CHATGPT CODES AREN'T COMMANDS",
+ "ig_caption": "Those viral ChatGPT codes aren't actually commands. 🤯\n✅ Type a code + topic: /cheatsheet Excel\n✅ Paste one message that defines your own code\n✅ Save it: Settings > Personalization (web) or Customize ChatGPT (mobile) > Custom Instructions\nWhich code would you make first? Tell me below 👇\nSave this for later\nFollow @ihackgrowth for daily AI & tech hacks",
+ "media_hints": {
+  "domain": "chatgpt.com",
+  "broll": [
+   "typing on laptop",
+   "student studying notes",
+   "phone chat app"
+  ]
+ },
+ "hashtags": [
+  "#AItools",
+  "#AIhacks",
+  "#ChatGPT",
+  "#ChatGPTtips",
+  "#PromptEngineering",
+  "#StudyHacks",
+  "#productivity",
+  "#OpenAI"
+ ],
+ "tag": "CHATGPT CODES",
+ "keywords": [
+  "ChatGPT",
+  "codes",
+  "commands",
+  "setting",
+  "survive",
+  "cheatsheet",
+  "mindmap",
+  "timeline",
+  "flashcards",
+  "blueprint",
+  "prompts",
+  "parser",
+  "Photo",
+  "uploads",
+  "catch",
+  "faces",
+  "Personalization",
+  "customization",
+  "Instructions"
+ ],
+ "music": "upbeat",
+ "hud": {
+  "label": "YOUR CODES",
+  "items": [
+   {
+    "value": "FAKE?",
+    "color": "red"
+   },
+   {
+    "at": "So type",
+    "value": "IN USE",
+    "color": "gold"
+   },
+   {
+    "at": "Make your own.",
+    "value": "CUSTOM",
+    "color": "gold"
+   },
+   {
+    "at": "only live",
+    "value": "1 CHAT",
+    "color": "red"
+   },
+   {
+    "at": "Custom Instructions.",
+    "value": "SAVED",
+    "color": "green"
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "at": "Those viral",
+   "react": [
+    {
+     "at": "actually commands.",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Those viral",
+     "media": "lib_person_taking_selfie_with_phone",
+     "full": true
+    },
+    {
+     "type": "title_slam",
+     "at": "Those viral",
+     "text": "NOT COMMANDS",
+     "sub": "THE VIRAL /CODES",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "Stay till",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Stay till",
+     "text": "STAY TILL THE END"
+    },
+    {
+     "type": "object3d",
+     "at": "one setting",
+     "kind": "padlock",
+     "size": "l",
+     "caption": "ONE SETTING",
+     "caption_at": "one setting"
+    },
+    {
+     "type": "pill",
+     "at": "codes survive.",
+     "text": "DO YOUR CODES SURVIVE?",
+     "color": "red",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "/cheatsheet,",
+   "elements": [
+    {
+     "type": "strike_list",
+     "at": "/cheatsheet,",
+     "items": [
+      {
+       "text": "/CHEATSHEET",
+       "at": "/cheatsheet,",
+       "strike": false
+      },
+      {
+       "text": "/MINDMAP",
+       "at": "/mindmap,",
+       "strike": false
+      },
+      {
+       "text": "/TIMELINE",
+       "at": "/timeline,",
+       "strike": false
+      },
+      {
+       "text": "/FLASHCARDS",
+       "at": "/flashcards,",
+       "strike": false
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "at": "/blueprint are",
+     "text": "/BLUEPRINT",
+     "color": "blue"
+    },
+    {
+     "type": "pill",
+     "at": "short prompts.",
+     "text": "= JUST SHORT PROMPTS",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "ChatGPT has no",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "label",
+     "at": "ChatGPT has no",
+     "text": "WHAT'S REALLY HAPPENING"
+    },
+    {
+     "type": "vs",
+     "at": "ChatGPT has no",
+     "left": {
+      "label": "WHAT YOU THINK",
+      "value": "COMMAND"
+     },
+     "right": {
+      "label": "WHAT IT IS",
+      "value": "PROMPT",
+      "color": "green",
+      "ill": "speech_balloon",
+      "at": "for them."
+     },
+     "strike_at": "built-in parser"
+    }
+   ]
+  },
+  {
+   "at": "It simply",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "simply understands",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "footage",
+     "at": "It simply",
+     "media": "lib_eye_reflecting_laptop_screen_glow",
+     "full": true
+    },
+    {
+     "type": "headline",
+     "at": "It simply",
+     "text": "IT JUST READS THE WORD",
+     "size": "l"
+    }
+   ]
+  },
+  {
+   "at": "So type",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "So type",
+     "device": "web",
+     "theme": "dark",
+     "brand": "chatgpt",
+     "url": "chatgpt.com",
+     "app": "ChatGPT",
+     "step": "Step 1 · Use a code",
+     "steps": [
+      {
+       "at": "So type",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Search chats",
+         "Library",
+         "Projects"
+        ],
+        "profile": "Rohan",
+        "input_buttons": [
+         "+",
+         "Tools"
+        ],
+        "input": ""
+       },
+       "action": {
+        "kind": "type",
+        "target": "input",
+        "text": "/cheatsheet Excel",
+        "at": "/cheatsheet Excel,"
+       }
+      },
+      {
+       "at": "or /timeline",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Search chats",
+         "Library",
+         "Projects"
+        ],
+        "profile": "Rohan",
+        "input_buttons": [
+         "+",
+         "Tools"
+        ],
+        "chat": [
+         {
+          "from": "user",
+          "text": "/cheatsheet Excel"
+         },
+         {
+          "from": "ai",
+          "text": "Excel cheatsheet: Shortcuts | Formulas | Tips..."
+         }
+        ],
+        "input": ""
+       },
+       "action": {
+        "kind": "type",
+        "target": "input",
+        "text": "/timeline World War 2",
+        "at": "World War 2."
+       }
+      },
+      {
+       "at": "Photo? Tap",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Search chats",
+         "Library",
+         "Projects"
+        ],
+        "profile": "Rohan",
+        "input_buttons": [
+         "+",
+         "Tools"
+        ],
+        "chat": [
+         {
+          "from": "user",
+          "text": "/timeline World War 2"
+         },
+         {
+          "from": "ai",
+          "text": "Timeline: key dates and events, in order..."
+         }
+        ],
+        "input": ""
+       },
+       "action": {
+        "kind": "click",
+        "target": "+",
+        "at": "Tap plus"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "On Free,",
+   "elements": [
+    {
+     "type": "label",
+     "at": "On Free,",
+     "text": "FREE PLAN LIMIT"
+    },
+    {
+     "type": "big_number",
+     "at": "3 uploads",
+     "value": "3",
+     "color": "gold",
+     "ill": "camera",
+     "note": "PHOTO UPLOADS A DAY",
+     "note_at": "a day."
+    }
+   ]
+  },
+  {
+   "at": "Make your own.",
+   "react": [
+    {
+     "at": "Make your own.",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Make your own.",
+     "device": "web",
+     "theme": "dark",
+     "brand": "chatgpt",
+     "url": "chatgpt.com",
+     "app": "ChatGPT",
+     "step": "Step 2 · Make your own",
+     "steps": [
+      {
+       "at": "Make your own.",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Search chats",
+         "Library",
+         "Projects"
+        ],
+        "profile": "Rohan",
+        "input_buttons": [
+         "+",
+         "Tools"
+        ],
+        "input": ""
+       },
+       "action": {
+        "kind": "type",
+        "target": "input",
+        "text": "When I type /cheatsheet + a topic, reply with a one-page summary table. Confirm you understand.",
+        "at": "I type"
+       }
+      },
+      {
+       "at": "Add more",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Search chats",
+         "Library",
+         "Projects"
+        ],
+        "profile": "Rohan",
+        "input_buttons": [
+         "+",
+         "Tools"
+        ],
+        "chat": [
+         {
+          "from": "user",
+          "text": "When I type /cheatsheet + a topic... Confirm you understand."
+         },
+         {
+          "from": "ai",
+          "text": "Understood! Type /cheatsheet + a topic."
+         }
+        ],
+        "input": ""
+       },
+       "action": {
+        "kind": "type",
+        "target": "input",
+        "text": "/flashcards means 10 question and answer pairs.",
+        "at": "means 10"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "The catch:",
+   "tint": "red",
+   "react": [
+    {
+     "at": "change faces.",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "The catch:",
+     "text": "THE CATCH"
+    },
+    {
+     "type": "headline",
+     "at": "results vary",
+     "text": "RESULTS VARY",
+     "size": "l",
+     "color": "red",
+     "sub": "MODEL + WORDING",
+     "sub_at": "the model"
+    },
+    {
+     "type": "pill",
+     "at": "change faces.",
+     "text": "PHOTOS CAN CHANGE FACES",
+     "color": "red",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "Now the setting.",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Now the setting.",
+     "text": "THE ONE SETTING"
+    },
+    {
+     "type": "object3d",
+     "at": "Now the setting.",
+     "kind": "padlock",
+     "size": "l",
+     "caption": "CODES LOCKED IN 1 CHAT",
+     "caption_at": "only live"
+    },
+    {
+     "type": "pill",
+     "at": "that chat.",
+     "text": "NEW CHAT = GONE",
+     "color": "red",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "Go to Settings,",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Customize ChatGPT",
+     "text": "MOBILE: CUSTOMIZE CHATGPT"
+    },
+    {
+     "type": "screen",
+     "at": "Go to Settings,",
+     "device": "web",
+     "theme": "dark",
+     "brand": "chatgpt",
+     "url": "chatgpt.com",
+     "app": "ChatGPT",
+     "step": "Step 3 · Save it everywhere",
+     "steps": [
+      {
+       "at": "Go to Settings,",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Search chats",
+         "Library",
+         "Projects"
+        ],
+        "profile": "Rohan",
+        "input": "",
+        "menu": {
+         "items": [
+          "Upgrade plan",
+          "Personalization",
+          "Settings",
+          "Help",
+          "Log out"
+         ],
+         "anchor": "profile"
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Settings",
+        "at": "Go to Settings,"
+       }
+      },
+      {
+       "at": "then Personalization",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Search chats",
+         "Library",
+         "Projects"
+        ],
+        "profile": "Rohan",
+        "panel": {
+         "title": "Settings",
+         "nav": [
+          "General",
+          "Notifications",
+          "Personalization",
+          "Apps",
+          "Data controls",
+          "Security"
+         ],
+         "active": "General",
+         "rows": [
+          {
+           "label": "Appearance",
+           "kind": "value",
+           "value": "System"
+          },
+          {
+           "label": "Accent color",
+           "kind": "value",
+           "value": "Default"
+          },
+          {
+           "label": "Language",
+           "kind": "value",
+           "value": "Auto-detect"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Personalization",
+        "at": "then Personalization"
+       }
+      },
+      {
+       "at": "Turn on",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Search chats",
+         "Library",
+         "Projects"
+        ],
+        "profile": "Rohan",
+        "panel": {
+         "title": "Settings",
+         "nav": [
+          "General",
+          "Notifications",
+          "Personalization",
+          "Apps",
+          "Data controls",
+          "Security"
+         ],
+         "active": "Personalization",
+         "rows": [
+          {
+           "label": "Enable customization",
+           "kind": "toggle",
+           "on": false
+          },
+          {
+           "label": "Base style and tone",
+           "kind": "value",
+           "value": "Default"
+          },
+          {
+           "label": "Custom Instructions",
+           "kind": "field",
+           "value": ""
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "toggle",
+        "target": "Enable customization",
+        "at": "Enable customization,"
+       }
+      },
+      {
+       "at": "then paste",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Search chats",
+         "Library",
+         "Projects"
+        ],
+        "profile": "Rohan",
+        "panel": {
+         "title": "Settings",
+         "nav": [
+          "General",
+          "Notifications",
+          "Personalization",
+          "Apps",
+          "Data controls",
+          "Security"
+         ],
+         "active": "Personalization",
+         "rows": [
+          {
+           "label": "Enable customization",
+           "kind": "toggle",
+           "on": true
+          },
+          {
+           "label": "Base style and tone",
+           "kind": "value",
+           "value": "Default"
+          },
+          {
+           "label": "Custom Instructions",
+           "kind": "field",
+           "value": ""
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "type",
+        "target": "Custom Instructions",
+        "text": "/cheatsheet = one-page summary table. /flashcards = 10 Q&A pairs.",
+        "at": "the lines"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Which code",
+   "tint": "green",
+   "react": [
+    {
+     "at": "Which code",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "Which code",
+     "kind": "padlock",
+     "act": "open",
+     "act_at": "Which code",
+     "size": "l",
+     "caption": "CODES IN EVERY CHAT",
+     "caption_at": "make first?"
+    },
+    {
+     "type": "pill",
+     "at": "make first?",
+     "text": "YOUR FIRST CODE?",
+     "color": "green"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "Send this",
+  "line1": "Send this to",
+  "line1_at": "Send this",
+  "line2": "the long-prompt retyper",
+  "line2_at": "long prompts"
+ },
+ "endcard": {
+  "title": "Hack saved?",
+  "terminal": "> /codes.saved · every chat"
+ },
+ "media": [
+  {
+   "id": "lib_clock_ticking_and_person_typing",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "credit": "",
+   "file": "clock_ticking_and_person_typing.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A rack-focus shot moves from a close-up of a black twin-bell alarm clock with ticking hands to a bearded man in a light polo typing on a laptop in a dim room, giving a tense, time-pressured mood. Good for: lines about deadlines, time slipping away, long hours of manual work, or the pressure of slow, tedious tasks before an AI tool speeds things up"
+  },
+  {
+   "id": "lib_colleagues_collaborating_around",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "credit": "",
+   "file": "colleagues_collaborating_around.mp4",
+   "frames": 126,
+   "desc": "B-roll (4.2s, VERTICAL 9:16 — best as full: true): colleagues collaborating around Good for: "
+  },
+  {
+   "id": "lib_content_creator_sets_up_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "credit": "",
+   "file": "content_creator_sets_up_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt stands behind a ring light with a phone on a tripod, adjusting the setup while the camera slowly pushes in until his face fills the frame, with a calm, focused mood and moody blue ambient lighting in the background. Good for: setting up to create content, getting started as a creator, or preparing equipment before recording a tutorial"
+  },
+  {
+   "id": "lib_eye_reflecting_laptop_screen_glow",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "credit": "",
+   "file": "eye_reflecting_laptop_screen_glow.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow zoom into an extreme close-up of a brown eye with a bright blue screen reflected in the pupil, framed by a thick eyebrow and warm skin tones, fading into a cool blue gradient at the bottom, with a focused, intense and cinematic mood. Good for: lines about being glued to a screen, intense focus or attention, watching AI work, or 'seeing' a new opportunity or insight"
+  },
+  {
+   "id": "lib_fingers_typing_on_laptop_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "credit": "",
+   "file": "fingers_typing_on_laptop_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): Close-up over-the-shoulder shot of a person typing on a backlit laptop keyboard, with a blurred blue screen in the background and a warm, focused, productive mood. Good for: lines about getting started, writing prompts or code, doing focused work at the computer, or the hands-on steps of a tutorial"
+  },
+  {
+   "id": "lib_hand_dropping_papers_on_desk",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "credit": "",
+   "file": "hand_dropping_papers_on_desk.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a green shirt carries and then drops a thick stack of papers onto an already huge, messy pile of documents with sticky notes on a cluttered desk, while a laptop glows nearby, and the camera pushes in to a close-up of the towering stack, creating a mood of overwhelm and tedious paperwork. Good for: a script line about drowning in manual paperwork or document processing, setting up how AI can automate summarizing, sorting, or extracting information from piles of documents"
+  },
+  {
+   "id": "lib_man_looking_at_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "credit": "",
+   "file": "man_looking_at_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt scowls with intense focus at a laptop in a dim, warmly lit room, then closes his eyes and rubs his hand near his chin in tired frustration. Good for: frustration with slow or difficult work, such as struggling with a tedious task, debugging, or burning out late at night before finding a better way"
+  },
+  {
+   "id": "lib_man_opens_laptop_in_room",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "credit": "",
+   "file": "man_opens_laptop_in_room.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt sits at a laptop in a dimly lit, warmly lit room, and his focused, tense expression builds as he leans toward the screen, which shows blurry blue diagram or flowchart-style blocks, with his fists clenched near his chin in the middle frame. Good for: intense concentration or deep work, such as debugging, building an AI workflow, or struggling with a complex problem"
+  },
+  {
+   "id": "lib_man_pointing_at_camera",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_pointing_at_camera.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_pointing_at_camera.mp4",
+   "credit": "",
+   "file": "man_pointing_at_camera.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a dark henley sits in a car seat working on a laptop with a focused look, then looks up with a warm smile and points playfully at the camera in a confident, friendly mood. Good for: a line that moves from focused work or problem-solving to a direct call to action, such as 'here's the trick you need to try' or 'now it's your turn'"
+  },
+  {
+   "id": "lib_man_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "man_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt stares intently at a laptop screen with blurry blue UI elements floating in front of the camera, then grimaces in frustration and mouths a reaction, and finally tilts his head back in exhausted resignation in a dim, warmly lit room. Good for: frustration with slow, tedious, or failing work, such as waiting on a slow tool, hitting an error, or being exhausted by manual tasks before introducing an AI solution"
+  },
+  {
+   "id": "lib_man_shaking_head_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "credit": "",
+   "file": "man_shaking_head_at_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits in a dark chair looking down at his phone, and his expression shifts from neutral to scrunched-up frustration or confusion, then to a displeased, worried look as he lowers the phone. Good for: frustration or disappointment with a tool or app that isn't working, slow or confusing results, or a bad surprise while checking your phone"
+  },
+  {
+   "id": "lib_man_smiling_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "credit": "",
+   "file": "man_smiling_at_phone.mp4",
+   "frames": 135,
+   "desc": "B-roll (4.5s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a blue smartphone, his expression shifting from neutral to a furrowed-brow frown of confusion and frustration. Good for: a line about frustration with confusing apps or slow tools, or the moment someone hits a problem and doesn't know what to do next"
+  },
+  {
+   "id": "lib_man_studying_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "credit": "",
+   "file": "man_studying_with_laptop.mp4",
+   "frames": 132,
+   "desc": "B-roll (4.4s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits at a desk behind a laptop with a furrowed brow and a frustrated, concentrated look, first staring at the screen, then looking down at an open notebook and writing with a pen, with a warm blurred lamp glowing in the background. Good for: a script line about struggling to understand something complex, frustration with slow or manual work, or the pain of learning a new tool the hard way"
+  },
+  {
+   "id": "lib_man_watching_laptop_waiting",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "credit": "",
+   "file": "man_watching_laptop_waiting.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits at a laptop in a dimly lit room with warm lamp light, resting his chin on his fist with a focused, pensive look, and the camera pushes in closer across the three frames. Good for: a script line about deep thinking, researching or problem-solving, or weighing a decision before trying an AI tool"
+  },
+  {
+   "id": "lib_person_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "person_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a laptop, his expression moving from concern to a deep frown with glowing blue tear-like effects on his cheeks, then to eyes shut in stress or exhaustion; the mood is frustrated and overwhelmed. Good for: A script line about frustration or overwhelm with a tough task, such as struggling with confusing tools, wasting hours on manual work, or being stuck before finding an AI solution."
+  },
+  {
+   "id": "lib_person_speaking_into_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "credit": "",
+   "file": "person_speaking_into_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt takes a phone call in a modern industrial office with exposed concrete ceilings, moving from a serious, concerned look to a worried talking expression and ending with a relieved, confident smile at the camera. Good for: a script line about getting a surprising call or news, a problem being solved, or the moment of relief after a stressful issue"
+  },
+  {
+   "id": "lib_person_taking_selfie_with_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "credit": "",
+   "file": "person_taking_selfie_with_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt sits in a car holding a blue smartphone up close to his face, and across the clip he leans toward the screen with a furrowed brow, looking skeptical and intensely focused. Good for: a script line about doubting or double-checking AI output, being confused or frustrated by an app or tool, or looking closely at a result on your phone, e.g. 'wait, is this actually right?'"
+  },
+  {
+   "id": "lib_professional_working_on_laptop_late",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "credit": "",
+   "file": "professional_working_on_laptop_late.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A tired bearded young man in a maroon t-shirt sits at a laptop in a dim apartment at night, resting his head on his hand, rubbing his eyes, then glumly lifting a white coffee mug, with blurred city lights glowing behind him through the window. Good for: A script line about burnout, late-night grinding, or frustration with slow manual work that AI tools can speed up, e.g. 'still stuck doing this by hand at midnight?'"
+  },
+  {
+   "id": "lib_robotic_hand_typing_on_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "credit": "",
+   "file": "robotic_hand_typing_on_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a black robotic hand with segmented, mechanical fingers lowering onto a backlit laptop keyboard and starting to type, shot at shallow depth of field in a warm, softly lit, modern workspace. Good for: A script line about AI doing the work for you, automating repetitive tasks, or AI taking over typing and writing, such as 'let AI handle the busywork' or 'AI writes it for you'."
+  },
+  {
+   "id": "s1_image",
+   "kind": "image",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-04_1302/s1_image.png",
+   "credit": "Image: chatgpt.com",
+   "desc": "official image from ChatGPT (chatgpt.com and the iOS/Android apps) with user-made 'slash-style' shortcut prompts. Related real features: Custom Instructions, Memory, Skills. (announcement page)"
+  }
+ ],
+ "style": "hisaab",
+ "topic": "Use one-word ChatGPT 'codes' to get instant results from a photo or a topic. Show the study set (/cheatsheet, /mindmap, /timeline, /flashcards, /blueprint), explain they're just short saved prompts rather than hidden commands, and show how to write your own.",
+ "pick": {
+  "index": 1,
+  "topic": "Use one-word ChatGPT 'codes' to get instant results from a photo or a topic. Show the study set (/cheatsheet, /mindmap, /timeline, /flashcards, /blueprint), explain they're just short saved prompts rather than hidden commands, and show how to write your own.",
+  "tool": "ChatGPT (free) with slash-style shortcut prompts",
+  "format": "tutorial",
+  "angle": "These ChatGPT 'secret codes' aren't secret commands. Here's how they really work, and how to make your own in 10 seconds.",
+  "why": "The slash-code topic is the biggest cluster in the list. @cindiezhu has 7.9M views and 5,975 comments on one reel, and @insideraix, @kevinqvdang, @radtechimam and @bagus.yusron are running the same format with 100k-1.5M views. The photo-filter version is saturated. The study version is more useful and less crowded: @cindiezhu's study reels are only at about 8k views, so the topic has proven demand but few good versions."
+ },
+ "inspired_by": {
+  "url": "https://www.instagram.com/p/DeWBVnZJ-NJ/",
+  "owner": "cindiezhu",
+  "plays": 7948978,
+  "likes": 227984,
+  "comments": 5975
+ },
+ "research": {
+  "verdict": "adjust",
+  "tool": "ChatGPT (chatgpt.com and the iOS/Android apps) with user-made 'slash-style' shortcut prompts. Related real features: Custom Instructions, Memory, Skills.",
+  "availability": "Free. Works on Free web and mobile with no paywall. Limits on Free: 3 file or image uploads per day and a capped, unpublished number of image generations. Custom Instructions are on all plans (web, desktop, iOS, Android). Skills access varies by account.",
+  "steps": [
+   "Open ChatGPT (chatgpt.com or the app) and start a new chat. A photo-based code needs a photo attached with the + button, which counts toward the 3 uploads a day on Free.",
+   "Type the code plus the topic, for example: /cheatsheet Excel, /mindmap Digital Marketing, /flashcards [paste notes], /timeline World War 2, /blueprint [attach a photo]. Third-party lists show these as examples. No official list exists.",
+   "Why it works: ChatGPT has no built-in parser for these names. Short labels like /cheatsheet work because ChatGPT understands the intent, so writing the full sentence gives the same result.",
+   "Make your own in about 10 seconds. Paste one message: 'When I type /cheatsheet followed by a topic or photo, reply with a one-page summary: 5 key ideas, key terms, 3 examples, formatted as a table. Confirm the codes you understand.' Add more codes as extra lines, for example '/flashcards = 10 question and answer pairs', '/mindmap = a branching map with the topic at the centre', '/timeline = dated events in order', '/blueprint = a blueprint-style diagram'. This works for that chat.",
+   "To keep your codes in every chat, put the same lines in Custom Instructions. Web and desktop: Settings > Personalization > turn on 'Enable customization' > type in the 'Custom Instructions' field. iOS and Android: Settings > Customize ChatGPT > 'Enable customization' > 'Custom Instructions' field.",
+   "Optional, for reusable workflows: ChatGPT Skills (Plugins > Skills > Create > Create with chat), if it appears on your account."
+  ],
+  "facts": [
+   "There is no official master list of ChatGPT slash commands. A genuine one is tied to the interface and shows up in the suggestion menu when you type /. <cite index=\"8-1,1-1\">Availability can vary by platform, account and rollout</cite>.",
+   "<cite index=\"8-9\">Viral labels like /handwritten and /humanize are generally just compact prompts</cite>. Gizmotimes (a tech blog) says a few slash shortcuts, such as /canvas and Study Mode, do open real tools on supported interfaces. Treat that as secondary-sourced.",
+   "<cite index=\"32-1,32-3\">ChatGPT has no built-in slash-command parser. These codes work because the token clearly expresses intent</cite>. This comes from a third-party prompt library.",
+   "<cite index=\"38-1\">The viral 'code' is a short plain-language instruction attached to an uploaded photo</cite>. This is SurePrompts' view for photo codes.",
+   "The codes in the planned study set appear in third-party lists. Ramesh's list has /cheatsheet (one-page summary to screenshot), /flashcards (Q&A pairs) and /mindmap (visual node map). <cite index=\"36-2\">Ramesh lists /cheatsheet, /flashcards and /mindmap</cite>. /blueprint is in a visual-codes list. <cite index=\"30-7\">/blueprint appears in a list of viral visual codes</cite>. A timeline code exists as /TIMELINEVIEW in another list. <cite index=\"33-2\">/TIMELINEVIEW FIFA World Cup 2026 asks for a timeline</cite>. These are community names, not official ones.",
+   "Creators suggest defining a code by telling ChatGPT: 'From now on, when I type /___ treat it as a custom command.' <cite index=\"10-1\">From now on, when I type /___ treat it as a custom command</cite>.",
+   "Custom Instructions on web and desktop: <cite index=\"50-11,50-12,50-13,50-15,50-16\">In Settings, select Personalization, make sure Enable customization is ON, and enter your instructions in the Custom Instructions field</cite>. On iOS and Android: <cite index=\"50-5,50-6\">In Settings, select Customize ChatGPT</cite>.",
+   "<cite index=\"50-4\">Updates to custom instructions are applied immediately across all chats, including existing conversations</cite>.",
+   "<cite index=\"19-11\">Free and Go users can save up to 1,500 characters</cite> in Custom Instructions. This comes from a third-party guide. <cite index=\"50-1\">Plus, Pro, Enterprise, Business and Education users can save up to 5,000 characters</cite> (official page).",
+   "<cite index=\"23-1,23-6,23-8\">Image uploads are available on Free and paid plans. Images are limited to 20 MB each, and Free users get 3 file uploads per day</cite>.",
+   "<cite index=\"21-6,21-7\">Image generation is available on all tiers. Free is described as limited and slower, and exact per-plan numbers are not published</cite>. Outside reports say 2–3 images per 24 hours, but that is unofficial.",
+   "<cite index=\"26-3\">OpenAI says Free accounts can send up to 10 GPT-5.3 messages every 5 hours before chats switch to a mini fallback model</cite>. This is a May 2026 snapshot from a third-party site. Re-check before quoting it.",
+   "<cite index=\"13-4\">ChatGPT has no built-in library for saving exact prompts as of October 2026</cite> (TextExpander). Custom Instructions, Memory, Projects and Skills are the closest options.",
+   "<cite index=\"40-4\">A skill is a reusable, shareable workflow that tells ChatGPT how to do a specific task</cite> (OpenAI Academy). Documented route: Skills > Create > Create with chat, with editor and upload options. Plan availability for Free is unconfirmed."
+  ],
+  "do_not_claim": [
+   "Do not say these are 'secret', 'hidden' or 'unlocked' ChatGPT commands, or that OpenAI built /cheatsheet, /mindmap, /flashcards, /timeline or /blueprint into the app. No official list exists, and they are community prompt shortcuts.",
+   "Do not say the same code gives identical results for everyone. Output depends on the model, your wording, any saved instructions and the photo.",
+   "Do not give exact free image-generation numbers (for example '3 images a day') as official. OpenAI publishes none. Only the 3 uploads a day on Free is official.",
+   "Do not promise '100 more codes' or that one word always makes an image. /cheatsheet and /flashcards usually return text or tables. /mindmap and /blueprint may return an image, which uses the limited image quota.",
+   "Do not claim a custom code is saved forever after you define it in one chat. It stays in that chat unless you put it in Custom Instructions, which has a character limit (1,500 on Free per a third-party guide).",
+   "Do not say typing '/' in ChatGPT does nothing. Some interfaces show a real command menu (for example /canvas), so the writer should avoid naming custom codes the same as real ones.",
+   "The reel's transcript is only song lyrics ('harder, better, faster, stronger'). It contains no usable information to verify, so do not rely on it.",
+   "Cindy's claims are unverified: '100 more visual codes' (a lead magnet: 'comment GPT') and the AI System Club waitlist ('2912 others') are promotion. Do not repeat them."
+  ],
+  "criticism": [
+   "The 'codes' are not guaranteed to work. They rely on ChatGPT's interpretation, and results can change between models and sessions. Third-party source: <cite index=\"8-10\">They may appear to work because ChatGPT understands ordinary language—not because they unlock a hidden feature</cite>.",
+   "Image-style codes drift. Photo codes often change the face as well as the background. <cite index=\"38-7\">The complaint under every 'chatgpt photo code' video is that the background changed and so did the face</cite>. AI images can also misspell on-image text. <cite index=\"35-10\">AI images can still misspell words, so check every heading before you post</cite>.",
+   "The Free plan is tight for photo-based codes. There are only 3 uploads a day, plus a separate limited image-generation quota.",
+   "Custom Instructions apply to every chat once enabled, and the Free character cap is small. Many codes can eat the space and may affect unrelated chats. Memory can also override or conflict with them. <cite index=\"20-13\">An old saved fact may be overriding your current rule</cite>.",
+   "ChatGPT has no native saved-prompt library with word-for-word reuse. Custom Instructions and Memory store context, not exact prompts. <cite index=\"13-8\">Custom instructions store context. Word-for-word reuse: No</cite> (TextExpander comparison table).",
+   "Privacy: uploaded photos go to OpenAI, and Memory can retain personal details. Users can manage or turn off Memory in Settings > Personalization > Memory. <cite index=\"15-9\">You can view and delete specific memories in settings (Settings > Personalization > Manage Memory)</cite>."
+  ],
+  "ui": {
+   "platforms": "Web (chatgpt.com), iOS, Android. Custom Instructions label differs by platform: web and desktop use Settings > Personalization, mobile uses Settings > Customize ChatGPT.",
+   "apps": [
+    "ChatGPT web (chatgpt.com)",
+    "ChatGPT iOS/Android app",
+    "Photos or camera roll (to pick the photo)"
+   ],
+   "screens": [
+    "1. ChatGPT home or new chat. The left sidebar has New chat, Search chats, Library or Images (labels vary by account), Projects and the chat history list. The profile or account button is at the bottom-left of the sidebar. The composer is centred at the bottom with a '+' button on the left and a send or voice button on the right. The placeholder reads along the lines of 'Ask anything'. This layout comes from general knowledge and was not re-verified in this search.",
+    "2. Attach a photo: tap or click '+' at the left of the composer, choose a photo or file, and the thumbnail appears above the text box. Type '/cheatsheet' (or another code) in the same message and send.",
+    "3. Result screen: the answer appears as a message below your message. A text code gives headings and bullets or a table. A visual code (/mindmap, /blueprint) may generate an image in the chat, with the download button on the image.",
+    "4. Define your own code: new chat, paste the instruction ('When I type /cheatsheet + topic or photo, do…') and send. ChatGPT replies by confirming. Type the code and a topic in the next message to show it working.",
+    "5. Save for all chats (web): click the profile button at the bottom-left of the sidebar > Settings > Personalization. The page shows 'Enable customization' toggle ON, a 'Custom Instructions' field to paste the code definitions, and also personality controls such as 'Base style and tone', plus a Memory section. Close the settings and open a new chat to test.",
+    "6. Save for all chats (mobile): Settings > Customize ChatGPT > 'Enable customization' ON > 'Custom Instructions' field.",
+    "7. Light or dark default: the exact default was not verified. Treat it as following the device setting and show whichever theme matches your reel style."
+   ]
+  },
+  "visuals": "Show the code and photo or topic going into the composer, then the real result: the cheatsheet table, mind map image or flashcard list. Next, show the pasted definition message ('When I type /cheatsheet…') and the ChatGPT confirmation. Then show Settings > Personalization > Custom Instructions with the same text. Only a real screen recording of ChatGPT can show the genuine outputs, because a recreation would look scripted. Don't present the output as identical for every user.",
+  "sources": [
+   "https://help.openai.com/en/articles/8096356-chatgpt-custom-instructions",
+   "https://help.openai.com/en/articles/8555545-file-uploads-faq",
+   "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+   "https://help.openai.com/en/articles/8590148-memory-faq",
+   "https://academy.openai.com/public/clubs/work-users-ynjqu/resources/skills",
+   "https://www.gizmotimes.com/ai/chatgpt-slash-commands-explained/50952",
+   "https://nirmalrabari.in/blog/chatgpt-cheat-codes-library",
+   "https://sureprompts.com/blog/chatgpt-photo-editing-commands",
+   "https://theramesh.substack.com/p/100-chatgpt-secret-codes",
+   "https://joeapfelbaum.substack.com/p/25-chatgpt-viral-ai-visual-codes",
+   "https://medium.com/@nachiket4jan/100-secret-prompt-codes-for-chatgpt-fc5bef78f721",
+   "https://medium.com/@d09r/slash-prompts-personalizing-chatgpt-with-custom-slash-commands-8f3c6299812d",
+   "https://www.tomsguide.com/ai/chatgpt/9-slash-commands-to-get-better-answers-from-chatgpt-number-7-is-my-personal-favorite",
+   "https://textexpander.com/blog/save-chatgpt-prompts",
+   "https://www.ai-toolbox.co/chatgpt-management-and-productivity/chatgpt-limits-messages-tokens-rate-2026",
+   "https://unabyss.com/blog/chatgpt-custom-instructions"
+  ],
+  "notes": "The angle holds up: these codes are plain prompts. Verdict is 'adjust' because the reel must not call them commands and must not promise identical results. The OpenAI help center confirms only the Custom Instructions path, upload limits and Memory. 'No parser' claims come from third-party writers and Tom's Guide, not from OpenAI. Tom's Guide also frames /human, /tldr and similar as shorthand prompts and encourages making your own. The Personalization label and the Customize ChatGPT label differ by platform, and OpenAI has moved these menus several times, so say 'Settings > Personalization (web) or Customize ChatGPT (mobile)'. A real '/' menu exists in some ChatGPT interfaces (desktop app, and /canvas or /study per Gizmotimes), so say 'ChatGPT doesn't treat /cheatsheet as a built-in command'. Some third-party pages mention a '//' saved-prompt menu, but that is a paid Chrome extension (AI Toolbox) and not a ChatGPT feature, so do not mention it as native. Keep any limit numbers hedged ('around', 'as of Nov 2026') and avoid quoting image counts. The popular reel is a lead-gen for an AI System Club waitlist, and its top comments just say 'GPT' or name codes like /nighttimeflash and /fisheye. Those two names match a photo-code list from a third-party writer (/fisheye, /nightversion), which supports the 'community prompt names' angle. Suggest a safe demo order: /cheatsheet or /flashcards on a text topic first (no image quota), then one photo-based /blueprint.",
+  "_searched": 6
+ },
+ "models": {
+  "pick": "claude-sonnet-5-5",
+  "research": "claude-sonnet-5-5",
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 10,
+ "_ident": {
+  "at": 3.5,
+  "dur": 1.5,
+  "title": "AI HACKS",
+  "type": 0.42,
+  "sub": "EP 10 · CHATGPT CODES"
+ },
+ "timeline": {
+  "words": [
+   [
+    "Those",
+    0.08
+   ],
+   [
+    "viral",
+    0.4
+   ],
+   [
+    "ChatGPT",
+    0.8
+   ],
+   [
+    "codes",
+    1.64
+   ],
+   [
+    "aren't",
+    1.92
+   ],
+   [
+    "actually",
+    2.32
+   ],
+   [
+    "commands.",
+    3.0
+   ],
+   [
+    "Stay",
+    5.18
+   ],
+   [
+    "till",
+    5.38
+   ],
+   [
+    "the",
+    5.58
+   ],
+   [
+    "end,",
+    5.74
+   ],
+   [
+    "because",
+    6.3
+   ],
+   [
+    "one",
+    6.54
+   ],
+   [
+    "setting",
+    6.78
+   ],
+   [
+    "decides",
+    7.22
+   ],
+   [
+    "whether",
+    7.7
+   ],
+   [
+    "your",
+    7.9
+   ],
+   [
+    "codes",
+    8.14
+   ],
+   [
+    "survive.",
+    8.38
+   ],
+   [
+    "/cheatsheet,",
+    9.42
+   ],
+   [
+    "/mindmap,",
+    10.62
+   ],
+   [
+    "/timeline,",
+    11.74
+   ],
+   [
+    "/flashcards,",
+    12.86
+   ],
+   [
+    "/blueprint",
+    14.14
+   ],
+   [
+    "are",
+    15.18
+   ],
+   [
+    "just",
+    15.46
+   ],
+   [
+    "short",
+    15.66
+   ],
+   [
+    "prompts.",
+    15.98
+   ],
+   [
+    "ChatGPT",
+    16.82
+   ],
+   [
+    "has",
+    17.54
+   ],
+   [
+    "no",
+    17.74
+   ],
+   [
+    "built-in",
+    17.98
+   ],
+   [
+    "parser",
+    18.38
+   ],
+   [
+    "for",
+    18.78
+   ],
+   [
+    "them.",
+    18.98
+   ],
+   [
+    "It",
+    19.38
+   ],
+   [
+    "simply",
+    19.5
+   ],
+   [
+    "understands",
+    20.06
+   ],
+   [
+    "the",
+    20.54
+   ],
+   [
+    "word.",
+    20.82
+   ],
+   [
+    "So",
+    21.38
+   ],
+   [
+    "type",
+    21.5
+   ],
+   [
+    "/cheatsheet",
+    21.98
+   ],
+   [
+    "Excel,",
+    23.02
+   ],
+   [
+    "or",
+    23.78
+   ],
+   [
+    "/timeline",
+    24.14
+   ],
+   [
+    "World",
+    25.18
+   ],
+   [
+    "War",
+    25.42
+   ],
+   [
+    "2.",
+    25.66
+   ],
+   [
+    "Photo?",
+    26.5
+   ],
+   [
+    "Tap",
+    27.14
+   ],
+   [
+    "plus",
+    27.34
+   ],
+   [
+    "first.",
+    27.66
+   ],
+   [
+    "On",
+    28.38
+   ],
+   [
+    "Free,",
+    28.54
+   ],
+   [
+    "that's",
+    29.1
+   ],
+   [
+    "3",
+    29.46
+   ],
+   [
+    "uploads",
+    29.78
+   ],
+   [
+    "a",
+    30.02
+   ],
+   [
+    "day.",
+    30.18
+   ],
+   [
+    "Make",
+    30.7
+   ],
+   [
+    "your",
+    30.94
+   ],
+   [
+    "own.",
+    31.18
+   ],
+   [
+    "Paste:",
+    31.86
+   ],
+   [
+    "When",
+    32.42
+   ],
+   [
+    "I",
+    32.54
+   ],
+   [
+    "type",
+    32.7
+   ],
+   [
+    "/cheatsheet",
+    33.02
+   ],
+   [
+    "plus",
+    34.06
+   ],
+   [
+    "a",
+    34.22
+   ],
+   [
+    "topic,",
+    34.3
+   ],
+   [
+    "reply",
+    35.14
+   ],
+   [
+    "with",
+    35.42
+   ],
+   [
+    "a",
+    35.58
+   ],
+   [
+    "one-page",
+    35.74
+   ],
+   [
+    "summary",
+    36.3
+   ],
+   [
+    "table.",
+    36.62
+   ],
+   [
+    "Confirm",
+    37.38
+   ],
+   [
+    "you",
+    37.62
+   ],
+   [
+    "understand.",
+    37.74
+   ],
+   [
+    "Add",
+    38.7
+   ],
+   [
+    "more",
+    38.86
+   ],
+   [
+    "lines,",
+    39.1
+   ],
+   [
+    "like",
+    39.7
+   ],
+   [
+    "/flashcards",
+    40.06
+   ],
+   [
+    "means",
+    41.26
+   ],
+   [
+    "10",
+    41.58
+   ],
+   [
+    "question",
+    41.9
+   ],
+   [
+    "and",
+    42.3
+   ],
+   [
+    "answer",
+    42.5
+   ],
+   [
+    "pairs.",
+    42.7
+   ],
+   [
+    "The",
+    43.487
+   ],
+   [
+    "catch:",
+    43.58
+   ],
+   [
+    "results",
+    44.5
+   ],
+   [
+    "vary",
+    44.86
+   ],
+   [
+    "with",
+    45.18
+   ],
+   [
+    "the",
+    45.3
+   ],
+   [
+    "model",
+    45.42
+   ],
+   [
+    "and",
+    45.9
+   ],
+   [
+    "your",
+    46.14
+   ],
+   [
+    "wording,",
+    46.3
+   ],
+   [
+    "and",
+    46.94
+   ],
+   [
+    "photo",
+    47.18
+   ],
+   [
+    "codes",
+    47.5
+   ],
+   [
+    "can",
+    47.9
+   ],
+   [
+    "change",
+    48.06
+   ],
+   [
+    "faces.",
+    48.38
+   ],
+   [
+    "Now",
+    49.34
+   ],
+   [
+    "the",
+    49.58
+   ],
+   [
+    "setting.",
+    49.74
+   ],
+   [
+    "Right",
+    50.58
+   ],
+   [
+    "now,",
+    50.82
+   ],
+   [
+    "your",
+    51.18
+   ],
+   [
+    "codes",
+    51.34
+   ],
+   [
+    "only",
+    51.74
+   ],
+   [
+    "live",
+    52.06
+   ],
+   [
+    "in",
+    52.3
+   ],
+   [
+    "that",
+    52.46
+   ],
+   [
+    "chat.",
+    52.7
+   ],
+   [
+    "Go",
+    53.38
+   ],
+   [
+    "to",
+    53.5
+   ],
+   [
+    "Settings,",
+    53.66
+   ],
+   [
+    "then",
+    54.38
+   ],
+   [
+    "Personalization",
+    54.54
+   ],
+   [
+    "on",
+    55.42
+   ],
+   [
+    "web,",
+    55.58
+   ],
+   [
+    "or",
+    56.06
+   ],
+   [
+    "Customize",
+    56.22
+   ],
+   [
+    "ChatGPT",
+    56.86
+   ],
+   [
+    "on",
+    57.58
+   ],
+   [
+    "mobile.",
+    57.74
+   ],
+   [
+    "Turn",
+    58.54
+   ],
+   [
+    "on",
+    58.7
+   ],
+   [
+    "Enable",
+    59.02
+   ],
+   [
+    "customization,",
+    59.42
+   ],
+   [
+    "then",
+    60.58
+   ],
+   [
+    "paste",
+    60.82
+   ],
+   [
+    "the",
+    61.02
+   ],
+   [
+    "lines",
+    61.26
+   ],
+   [
+    "into",
+    61.5
+   ],
+   [
+    "Custom",
+    61.9
+   ],
+   [
+    "Instructions.",
+    62.42
+   ],
+   [
+    "Which",
+    63.18
+   ],
+   [
+    "code",
+    63.34
+   ],
+   [
+    "would",
+    63.58
+   ],
+   [
+    "you",
+    63.82
+   ],
+   [
+    "make",
+    63.98
+   ],
+   [
+    "first?",
+    64.14
+   ],
+   [
+    "Send",
+    64.98
+   ],
+   [
+    "this",
+    65.18
+   ],
+   [
+    "to",
+    65.3
+   ],
+   [
+    "the",
+    65.42
+   ],
+   [
+    "friend",
+    65.62
+   ],
+   [
+    "who",
+    65.82
+   ],
+   [
+    "retypes",
+    66.1
+   ],
+   [
+    "long",
+    66.62
+   ],
+   [
+    "prompts",
+    66.94
+   ],
+   [
+    "every",
+    67.42
+   ],
+   [
+    "day.",
+    67.74
+   ],
+   [
+    "Hack",
+    68.42
+   ],
+   [
+    "saved?",
+    68.62
+   ]
+  ],
+  "duration": 69.28,
+  "ident": {
+   "at": 3.5,
+   "dur": 1.5,
+   "title": "AI HACKS",
+   "type": 0.42,
+   "sub": "EP 10 · CHATGPT CODES"
+  },
+  "scenes": [
+   {
+    "t": 0.0,
+    "shows": [
+     "footage:lib_person_taking_selfie_with_phone",
+     "title_slam:NOT COMMANDS"
+    ]
+   },
+   {
+    "t": 5.18,
+    "shows": [
+     "label:STAY TILL THE END",
+     "object3d:",
+     "pill:DO YOUR CODES SURVIVE?"
+    ]
+   },
+   {
+    "t": 9.42,
+    "shows": [
+     "strike_list:",
+     "pill:/BLUEPRINT",
+     "pill:= JUST SHORT PROMPTS"
+    ]
+   },
+   {
+    "t": 16.82,
+    "shows": [
+     "label:WHAT'S REALLY HAPPENING",
+     "vs:"
+    ]
+   },
+   {
+    "t": 19.38,
+    "shows": [
+     "footage:lib_eye_reflecting_laptop_screen_glow",
+     "headline:IT JUST READS THE WORD"
+    ]
+   },
+   {
+    "t": 21.38,
+    "shows": [
+     "screen:Step 1 · Use a code"
+    ]
+   },
+   {
+    "t": 28.38,
+    "shows": [
+     "label:FREE PLAN LIMIT",
+     "big_number:"
+    ]
+   },
+   {
+    "t": 30.7,
+    "shows": [
+     "screen:Step 2 · Make your own"
+    ]
+   },
+   {
+    "t": 43.49,
+    "shows": [
+     "label:THE CATCH",
+     "headline:RESULTS VARY",
+     "pill:PHOTOS CAN CHANGE FACES"
+    ]
+   },
+   {
+    "t": 49.34,
+    "shows": [
+     "label:THE ONE SETTING",
+     "object3d:",
+     "pill:NEW CHAT = GONE"
+    ]
+   },
+   {
+    "t": 53.38,
+    "shows": [
+     "label:MOBILE: CUSTOMIZE CHATGPT",
+     "screen:Step 3 · Save it everywhere"
+    ]
+   },
+   {
+    "t": 63.18,
+    "shows": [
+     "object3d:",
+     "pill:YOUR FIRST CODE?"
+    ]
+   }
+  ],
+  "beats": [
+   34.92,
+   36.81
+  ]
+ }
+}

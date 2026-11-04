@@ -3,31 +3,33 @@
   APIFY_TOKEN: set
   BUFFER_API_KEY: set
   BUFFER_CHANNEL_ID: set
-window 2026-11-03-2000 | posting times 13:00, 20:00 IST | dry_run=True
+window 2026-11-04-1300 | posting times 13:00, 20:00 IST | dry_run=False
       b-roll library: 25 clips
       recording request #1: still waiting for the video
       recording request #2: still waiting for the video
-[4/6] re-editing 'Run a free AI model offline on your own computer with LM Studio or Ollama: insta'
-      media: s1_image, s1_logo, s1_broll1, s1_broll2
+[1/6] top AI & tech reels
+      hashtags: 80 reels from 10 tags
+      accounts: 47 reels from @insideraix, @cindiezhu, @jjtechvault, @sebastianhardy_, @krish.exploits, @kevinqvdang
+      reel pool: 76 reels
+[2/6] picking the topic
+      → Use one-word ChatGPT 'codes' to get instant results from a photo or a topic. Show the study set (/cheatsheet, /mindmap, /timeline, /flashcards, /blueprint), explain they're just short saved prompts rather than hidden commands, and show how to write your own.  (tutorial, from @cindiezhu, 7,948,978 views) — The slash-code topic is the biggest cluster in the list. @cindiezhu has 7.9M views and 5,975 comments on one reel, and @insideraix, @kevinqvdang, @radtechimam a
+[3/6] research (12 transcript words)
+      verdict adjust · 6 web searches · 6 steps · 16 sources
+[4/6] script + edit
+      (media: pexels 'typing on laptop' failed: 403 Client Error: Forbidden for url: https://api.apify.com/v2/acts/memo23~pexels)
+      (media: pexels 'student studying notes' failed: 403 Client Error: Forbidden for url: https://api.apify.com/v2/acts/memo23~pexels)
+      media: s1_image, s1_logo
 [5/6] voice + render
-      voice: reused the recorded voiceover
-      voice check: 6 word(s) misheard [('no subscription no api key after the download turn wifi off and it keeps working step 1 install lm studio from lmstudioaidownload', ''), ('macs', 'max'), ('q4km', 'q4 underscore k underscore m'), ('8gb', '8 gigabytes'), ('16gb', '16 gigabytes')] -> recording another take
       [eleven] workspace voices: Rohan (IcsYcP26eMwajlgx2SDe, cloned)
       [eleven] using Rohan (IcsYcP26eMwajlgx2SDe)
-      [eleven] subscription: 200 {"tier":"starter","character_count":32191,"character_limit":40000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796033014,"voice_slots_used":1,"professional_voice_slots_
+      [eleven] subscription: 200 {"tier":"starter","character_count":34850,"character_limit":40000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796033014,"voice_slots_used":1,"professional_voice_slots_
       [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
-      take 2: 4 misheard [('macs', 'max'), ('q4km', 'q4 underscore k underscore m'), ('', 'name open'), ('27b', '27000')]
-      164 words, 69.4s, voice eleven_v4
-      remotion: Reel /tmp/tmp4yqxdjld/video_only.mp4
-DRY RUN — reel at /home/runner/work/ai-news-reels/ai-news-reels/out/2026-11-04_0132.mp4
---- caption ---
-You can run a free AI on your laptop, completely offline. 🔒
-✅ Install LM Studio from lmstudio.ai/download
-✅ Discover tab → pick Q4_K_M → Download
-✅ Chat tab → Select a model to load → type
-✅ 8GB ≈ 4B models, 16GB ≈ 7–9B, 32GB up to ~27B
-Which model are you trying first? 👇
-Save this for later
-Follow @ihackgrowth for daily AI & tech hacks
-
-#AItools #AIhacks #LMStudio #Ollama #LocalAI #OpenSource #Privacy #productivity
+      voice check: 3 word(s) misheard [('parser', 'passer'), ('cheatsheet', 'slash cheat sheet'), ('', 'slash')] -> recording another take
+      [eleven] subscription: 200 {"tier":"starter","character_count":35276,"character_limit":40000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796033014,"voice_slots_used":1,"professional_voice_slots_
+      [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
+      take 2: 0 misheard []
+      161 words, 67.8s, voice eleven_v4
+      remotion: Reel /tmp/tmpvuclseqh/video_only.mp4
+[6/6] publish
+      [buffer] created post 6aeae226e478396c27478ef5 (customScheduled)
+POSTED 6aeae226e478396c27478ef5 https://github.com/candidmarketingltd-art/ai-news-reels/releases/download/reel-2026-11-04_1302/2026-11-04_1302.mp4
