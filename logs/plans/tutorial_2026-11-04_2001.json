@@ -1,0 +1,2047 @@
+{
+ "voiceover": "[conversational] Every AI chat you've hit Share on is a link anyone can open.\n\nIn July, shared Claude chats showed up in Google. Stay till the end, because unsharing isn't the last thing to clean up.\n\n[serious] The check takes 30 seconds. In Claude on the web: Settings, Privacy, then Manage next to Shared chats. Hit the trash icon on each one. Then do the same for Shared artifacts. It's a separate list.\n\nIn ChatGPT: Settings, Data controls, Manage next to Shared links. Then More actions, Delete all shared links.\n\n[whispers] Honest catch: that kills the link, but not a copy someone already saved.\n\nNow the part people miss. Deleting a chat doesn't delete what the AI remembered from it. So switch off memory too. Claude: Settings, Your Claude. ChatGPT: Settings, Personalization, Memory.\n\n[curious] When did you last check your shared links? Send this to the friend who pastes work stuff into AI. Hack saved?",
+ "open_loop": {
+  "setup": "Stay till the end, because unsharing isn't the last thing to clean up.",
+  "payoff": "Deleting a chat doesn't delete what the AI remembered from it."
+ },
+ "title": "YOUR SHARED CHATS ARE PUBLIC",
+ "ig_caption": "Every AI chat you've hit Share on is a link anyone can open. 🔓\n✅ Claude (web): Settings > Privacy > Manage next to Shared chats and Shared artifacts\n✅ ChatGPT (web): Settings > Data controls > Shared links > Manage\n✅ Switch off memory: Claude 'Your Claude', ChatGPT 'Personalization > Memory'\nWhen did you last check your shared links? Tell me below 👇\nSave this for later\nFollow @ihackgrowth for daily AI & tech hacks",
+ "media_hints": {
+  "domain": "claude.ai",
+  "broll": [
+   "typing on laptop",
+   "person worried at desk",
+   "browser search results"
+  ]
+ },
+ "hashtags": [
+  "#AIhacks",
+  "#AItools",
+  "#Claude",
+  "#ChatGPT",
+  "#AIprivacy",
+  "#privacy",
+  "#techtips",
+  "#productivity"
+ ],
+ "tag": "AI PRIVACY",
+ "keywords": [
+  "Share",
+  "link",
+  "anyone",
+  "July",
+  "Google",
+  "Claude",
+  "Privacy",
+  "trash",
+  "artifacts",
+  "separate",
+  "ChatGPT",
+  "Delete",
+  "catch",
+  "copy",
+  "memory",
+  "remembered",
+  "Personalization",
+  "saved"
+ ],
+ "music": "suspense",
+ "hud": {
+  "label": "PRIVACY",
+  "items": [
+   {
+    "value": "EXPOSED",
+    "color": "red"
+   },
+   {
+    "at": "Hit the trash",
+    "value": "CLAUDE ✓",
+    "color": "gold"
+   },
+   {
+    "at": "Delete all",
+    "value": "GPT ✓",
+    "color": "gold"
+   },
+   {
+    "at": "switch off memory",
+    "value": "MEMORY",
+    "color": "red"
+   },
+   {
+    "at": "Personalization, Memory.",
+    "value": "PRIVATE",
+    "color": "green"
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "at": "Every AI",
+   "react": [
+    {
+     "at": "hit Share",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Every AI",
+     "media": "lib_man_staring_at_phone_in",
+     "full": true
+    },
+    {
+     "type": "headline",
+     "at": "Every AI",
+     "text": "SHARED = PUBLIC",
+     "size": "l",
+     "color": "red",
+     "sub": "ANYONE CAN OPEN",
+     "sub_at": "anyone can open.",
+     "sub_color": "red"
+    }
+   ]
+  },
+  {
+   "at": "In July,",
+   "tint": "red",
+   "react": [
+    {
+     "at": "in Google.",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "In July,",
+     "text": "JULY",
+     "color": "red"
+    },
+    {
+     "type": "headline",
+     "at": "shared Claude chats",
+     "text": "CLAUDE CHATS IN GOOGLE",
+     "size": "m",
+     "ill": "magnifying_glass_tilted_left",
+     "sub": "INDEXED & SEARCHABLE",
+     "sub_at": "in Google.",
+     "sub_color": "red"
+    }
+   ]
+  },
+  {
+   "at": "Stay till",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "pill",
+     "at": "Stay till",
+     "text": "STAY TILL THE END",
+     "color": "gold"
+    },
+    {
+     "type": "object3d",
+     "at": "the end,",
+     "kind": "padlock",
+     "size": "l",
+     "caption": "LAST STEP · LOCKED",
+     "caption_at": "the last thing"
+    }
+   ]
+  },
+  {
+   "at": "The check takes",
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "The check takes",
+     "kind": "clock",
+     "act": "tick",
+     "act_at": "30 seconds.",
+     "size": "l",
+     "caption": "30 SECONDS",
+     "caption_at": "30 seconds."
+    }
+   ]
+  },
+  {
+   "at": "In Claude",
+   "react": [
+    {
+     "at": "separate list.",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "screen",
+     "at": "In Claude",
+     "device": "web",
+     "url": "claude.ai",
+     "app": "Claude",
+     "brand": "claude",
+     "step": "Step 1 · Claude links",
+     "steps": [
+      {
+       "at": "In Claude",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Chats",
+         "Projects",
+         "Artifacts"
+        ],
+        "profile": "R",
+        "top_buttons": [
+         "Share"
+        ],
+        "chat": [
+         {
+          "from": "user",
+          "text": "Draft my client pitch"
+         },
+         {
+          "from": "ai",
+          "text": "Here's a first draft for your pitch..."
+         }
+        ],
+        "input": ""
+       },
+       "action": {
+        "kind": "click",
+        "target": "R",
+        "at": "the web:"
+       }
+      },
+      {
+       "at": "web: Settings,",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Chats",
+         "Projects",
+         "Artifacts"
+        ],
+        "profile": "R",
+        "top_buttons": [
+         "Share"
+        ],
+        "chat": [
+         {
+          "from": "user",
+          "text": "Draft my client pitch"
+         },
+         {
+          "from": "ai",
+          "text": "Here's a first draft for your pitch..."
+         }
+        ],
+        "input": "",
+        "menu": {
+         "items": [
+          "Settings",
+          "Language",
+          "Get help",
+          "Upgrade plan",
+          "Log out"
+         ],
+         "anchor": "profile"
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Settings",
+        "at": "web: Settings,"
+       }
+      },
+      {
+       "at": "Privacy, then",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Chats",
+         "Projects",
+         "Artifacts"
+        ],
+        "profile": "R",
+        "panel": {
+         "title": "Settings",
+         "nav": [
+          "General",
+          "Your Claude",
+          "Privacy",
+          "Billing",
+          "Capabilities",
+          "Connectors"
+         ],
+         "active": "General",
+         "rows": [
+          {
+           "label": "Full name",
+           "kind": "value",
+           "value": "Rohan"
+          },
+          {
+           "label": "Appearance",
+           "kind": "value",
+           "value": "System"
+          },
+          {
+           "label": "Language",
+           "kind": "value",
+           "value": "English"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Privacy",
+        "at": "Privacy, then"
+       }
+      },
+      {
+       "at": "then Manage",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Chats",
+         "Projects",
+         "Artifacts"
+        ],
+        "profile": "R",
+        "panel": {
+         "title": "Settings",
+         "nav": [
+          "General",
+          "Your Claude",
+          "Privacy",
+          "Billing",
+          "Capabilities",
+          "Connectors"
+         ],
+         "active": "Privacy",
+         "rows": [
+          {
+           "label": "Export data",
+           "kind": "button",
+           "value": "Export"
+          },
+          {
+           "label": "Shared chats",
+           "kind": "button",
+           "value": "Manage"
+          },
+          {
+           "label": "Shared artifacts",
+           "kind": "button",
+           "value": "Manage"
+          },
+          {
+           "label": "Help improve our AI models",
+           "kind": "toggle",
+           "on": true
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Shared chats",
+        "at": "to Shared chats."
+       }
+      },
+      {
+       "at": "Hit the trash",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Chats",
+         "Projects",
+         "Artifacts"
+        ],
+        "profile": "R",
+        "panel": {
+         "title": "Shared chats",
+         "rows": [
+          {
+           "label": "Client pitch draft",
+           "kind": "button",
+           "value": "Delete"
+          },
+          {
+           "label": "Salary negotiation tips",
+           "kind": "button",
+           "value": "Delete"
+          },
+          {
+           "label": "Q3 budget summary",
+           "kind": "button",
+           "value": "Delete"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Client pitch draft",
+        "at": "trash icon"
+       }
+      },
+      {
+       "at": "Then do",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Chats",
+         "Projects",
+         "Artifacts"
+        ],
+        "profile": "R",
+        "panel": {
+         "title": "Settings",
+         "nav": [
+          "General",
+          "Your Claude",
+          "Privacy",
+          "Billing",
+          "Capabilities",
+          "Connectors"
+         ],
+         "active": "Privacy",
+         "rows": [
+          {
+           "label": "Export data",
+           "kind": "button",
+           "value": "Export"
+          },
+          {
+           "label": "Shared chats",
+           "kind": "button",
+           "value": "Manage"
+          },
+          {
+           "label": "Shared artifacts",
+           "kind": "button",
+           "value": "Manage"
+          },
+          {
+           "label": "Help improve our AI models",
+           "kind": "toggle",
+           "on": true
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Shared artifacts",
+        "at": "for Shared artifacts."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "In ChatGPT:",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "In ChatGPT:",
+     "device": "web",
+     "url": "chatgpt.com",
+     "app": "ChatGPT",
+     "brand": "chatgpt",
+     "theme": "dark",
+     "step": "Step 2 · ChatGPT links",
+     "steps": [
+      {
+       "at": "In ChatGPT:",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Search chats",
+         "Library",
+         "GPTs"
+        ],
+        "profile": "Rohan",
+        "chat": [
+         {
+          "from": "user",
+          "text": "Rewrite my resume summary"
+         },
+         {
+          "from": "ai",
+          "text": "Here's a sharper version..."
+         }
+        ],
+        "input": ""
+       },
+       "action": {
+        "kind": "click",
+        "target": "Rohan",
+        "at": "In ChatGPT:"
+       }
+      },
+      {
+       "at": "Settings, Data",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Search chats",
+         "Library",
+         "GPTs"
+        ],
+        "profile": "Rohan",
+        "chat": [
+         {
+          "from": "user",
+          "text": "Rewrite my resume summary"
+         },
+         {
+          "from": "ai",
+          "text": "Here's a sharper version..."
+         }
+        ],
+        "input": "",
+        "menu": {
+         "items": [
+          "Upgrade plan",
+          "Personalization",
+          "Settings",
+          "Help",
+          "Log out"
+         ],
+         "anchor": "profile"
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Settings",
+        "at": "Settings, Data"
+       }
+      },
+      {
+       "at": "Data controls,",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Search chats",
+         "Library",
+         "GPTs"
+        ],
+        "profile": "Rohan",
+        "panel": {
+         "title": "Settings",
+         "nav": [
+          "General",
+          "Notifications",
+          "Personalization",
+          "Data controls",
+          "Security"
+         ],
+         "active": "General",
+         "rows": [
+          {
+           "label": "Appearance",
+           "kind": "value",
+           "value": "System"
+          },
+          {
+           "label": "Language",
+           "kind": "value",
+           "value": "Auto-detect"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Data controls",
+        "at": "Data controls,"
+       }
+      },
+      {
+       "at": "Manage next to",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Search chats",
+         "Library",
+         "GPTs"
+        ],
+        "profile": "Rohan",
+        "panel": {
+         "title": "Settings",
+         "nav": [
+          "General",
+          "Notifications",
+          "Personalization",
+          "Data controls",
+          "Security"
+         ],
+         "active": "Data controls",
+         "rows": [
+          {
+           "label": "Improve the model for everyone",
+           "kind": "toggle",
+           "on": true
+          },
+          {
+           "label": "Shared links",
+           "kind": "button",
+           "value": "Manage"
+          },
+          {
+           "label": "Export data",
+           "kind": "button",
+           "value": "Export"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Shared links",
+        "at": "Shared links."
+       }
+      },
+      {
+       "at": "Then More actions,",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Search chats",
+         "Library",
+         "GPTs"
+        ],
+        "profile": "Rohan",
+        "top_buttons": [
+         "More actions"
+        ],
+        "panel": {
+         "title": "Shared links",
+         "rows": [
+          {
+           "label": "Resume summary",
+           "kind": "value",
+           "value": "Shared"
+          },
+          {
+           "label": "Client email draft",
+           "kind": "value",
+           "value": "Shared"
+          },
+          {
+           "label": "Trip itinerary",
+           "kind": "value",
+           "value": "Shared"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "More actions",
+        "at": "More actions,"
+       }
+      },
+      {
+       "at": "Delete all",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Search chats",
+         "Library",
+         "GPTs"
+        ],
+        "profile": "Rohan",
+        "top_buttons": [
+         "More actions"
+        ],
+        "menu": {
+         "items": [
+          "Delete all shared links"
+         ],
+         "anchor": "top"
+        },
+        "panel": {
+         "title": "Shared links",
+         "rows": [
+          {
+           "label": "Resume summary",
+           "kind": "value",
+           "value": "Shared"
+          },
+          {
+           "label": "Client email draft",
+           "kind": "value",
+           "value": "Shared"
+          },
+          {
+           "label": "Trip itinerary",
+           "kind": "value",
+           "value": "Shared"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Delete all shared links",
+        "at": "Delete all"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Honest catch:",
+   "tint": "red",
+   "react": [
+    {
+     "at": "Honest catch:",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "Honest catch:",
+     "text": "HONEST CATCH",
+     "color": "red"
+    },
+    {
+     "type": "stat_row",
+     "at": "kills the link,",
+     "cards": [
+      {
+       "label": "THE LINK",
+       "value": "DEAD",
+       "color": "green",
+       "ill": "broken_chain",
+       "at": "kills the link,"
+      },
+      {
+       "label": "SAVED COPY",
+       "value": "STAYS",
+       "color": "red",
+       "ill": "floppy_disk",
+       "glow": true,
+       "at": "already saved."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Now the part",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "doesn't delete",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "Now the part",
+     "kind": "padlock",
+     "act": "open",
+     "act_at": "people miss.",
+     "size": "m",
+     "caption": "LAST STEP: MEMORY",
+     "caption_at": "people miss."
+    },
+    {
+     "type": "headline",
+     "at": "Deleting a chat",
+     "text": "CHAT GONE ≠ MEMORY GONE",
+     "size": "m",
+     "ill": "brain",
+     "sub": "IT STILL REMEMBERS",
+     "sub_at": "remembered from",
+     "sub_color": "red"
+    }
+   ]
+  },
+  {
+   "at": "So switch",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "So switch",
+     "device": "web",
+     "url": "claude.ai",
+     "app": "Claude",
+     "brand": "claude",
+     "step": "Step 3 · Memory off",
+     "steps": [
+      {
+       "at": "So switch",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Chats",
+         "Projects",
+         "Artifacts"
+        ],
+        "profile": "R",
+        "panel": {
+         "title": "Settings",
+         "nav": [
+          "General",
+          "Your Claude",
+          "Privacy",
+          "Billing",
+          "Capabilities"
+         ],
+         "active": "Privacy",
+         "rows": [
+          {
+           "label": "Shared chats",
+           "kind": "button",
+           "value": "Manage"
+          },
+          {
+           "label": "Shared artifacts",
+           "kind": "button",
+           "value": "Manage"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Your Claude",
+        "at": "Claude: Settings,"
+       }
+      },
+      {
+       "at": "Your Claude.",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Chats",
+         "Projects",
+         "Artifacts"
+        ],
+        "profile": "R",
+        "panel": {
+         "title": "Settings",
+         "nav": [
+          "General",
+          "Your Claude",
+          "Privacy",
+          "Billing",
+          "Capabilities"
+         ],
+         "active": "Your Claude",
+         "rows": [
+          {
+           "label": "Generate memory from chats",
+           "kind": "toggle",
+           "on": true
+          },
+          {
+           "label": "Your memory",
+           "kind": "button",
+           "value": "Manage"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "toggle",
+        "target": "Generate memory from chats",
+        "at": "Your Claude."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Settings, Personalization,",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Settings, Personalization,",
+     "device": "web",
+     "url": "chatgpt.com",
+     "app": "ChatGPT",
+     "brand": "chatgpt",
+     "theme": "dark",
+     "step": "Step 3 · Memory off",
+     "steps": [
+      {
+       "at": "Settings, Personalization,",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Search chats",
+         "Library",
+         "GPTs"
+        ],
+        "profile": "Rohan",
+        "panel": {
+         "title": "Settings",
+         "nav": [
+          "General",
+          "Notifications",
+          "Personalization",
+          "Data controls",
+          "Security"
+         ],
+         "active": "Data controls",
+         "rows": [
+          {
+           "label": "Shared links",
+           "kind": "button",
+           "value": "Manage"
+          },
+          {
+           "label": "Export data",
+           "kind": "button",
+           "value": "Export"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Personalization",
+        "at": "Settings, Personalization,"
+       }
+      },
+      {
+       "at": "Personalization, Memory.",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Search chats",
+         "Library",
+         "GPTs"
+        ],
+        "profile": "Rohan",
+        "panel": {
+         "title": "Settings",
+         "nav": [
+          "General",
+          "Notifications",
+          "Personalization",
+          "Data controls",
+          "Security"
+         ],
+         "active": "Personalization",
+         "rows": [
+          {
+           "label": "Reference saved memories",
+           "kind": "toggle",
+           "on": true
+          },
+          {
+           "label": "Reference chat history",
+           "kind": "toggle",
+           "on": true
+          },
+          {
+           "label": "Manage memories",
+           "kind": "button",
+           "value": "Manage"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "toggle",
+        "target": "Reference saved memories",
+        "at": "Memory."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "When did",
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "When did",
+     "kind": "shield",
+     "act": "glow",
+     "act_at": "shared links?",
+     "size": "m"
+    },
+    {
+     "type": "headline",
+     "at": "last check",
+     "text": "LAST CHECKED?",
+     "size": "l",
+     "color": "gold",
+     "sub": "YOUR SHARED LINKS",
+     "sub_at": "shared links?"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "Send this",
+  "line1": "Send this to",
+  "line1_at": "Send this",
+  "line2": "the AI over-sharer",
+  "line2_at": "work stuff"
+ },
+ "endcard": {
+  "title": "Hack saved?",
+  "terminal": "> links.deleted · memory off"
+ },
+ "media": [
+  {
+   "id": "lib_clock_ticking_and_person_typing",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "credit": "",
+   "file": "clock_ticking_and_person_typing.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A rack-focus shot moves from a close-up of a black twin-bell alarm clock with ticking hands to a bearded man in a light polo typing on a laptop in a dim room, giving a tense, time-pressured mood. Good for: lines about deadlines, time slipping away, long hours of manual work, or the pressure of slow, tedious tasks before an AI tool speeds things up"
+  },
+  {
+   "id": "lib_colleagues_collaborating_around",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "credit": "",
+   "file": "colleagues_collaborating_around.mp4",
+   "frames": 126,
+   "desc": "B-roll (4.2s, VERTICAL 9:16 — best as full: true): colleagues collaborating around Good for: "
+  },
+  {
+   "id": "lib_content_creator_sets_up_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "credit": "",
+   "file": "content_creator_sets_up_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt stands behind a ring light with a phone on a tripod, adjusting the setup while the camera slowly pushes in until his face fills the frame, with a calm, focused mood and moody blue ambient lighting in the background. Good for: setting up to create content, getting started as a creator, or preparing equipment before recording a tutorial"
+  },
+  {
+   "id": "lib_fingers_typing_on_laptop_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "credit": "",
+   "file": "fingers_typing_on_laptop_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): Close-up over-the-shoulder shot of a person typing on a backlit laptop keyboard, with a blurred blue screen in the background and a warm, focused, productive mood. Good for: lines about getting started, writing prompts or code, doing focused work at the computer, or the hands-on steps of a tutorial"
+  },
+  {
+   "id": "lib_hand_dropping_papers_on_desk",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "credit": "",
+   "file": "hand_dropping_papers_on_desk.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a green shirt carries and then drops a thick stack of papers onto an already huge, messy pile of documents with sticky notes on a cluttered desk, while a laptop glows nearby, and the camera pushes in to a close-up of the towering stack, creating a mood of overwhelm and tedious paperwork. Good for: a script line about drowning in manual paperwork or document processing, setting up how AI can automate summarizing, sorting, or extracting information from piles of documents"
+  },
+  {
+   "id": "lib_man_looking_at_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "credit": "",
+   "file": "man_looking_at_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt scowls with intense focus at a laptop in a dim, warmly lit room, then closes his eyes and rubs his hand near his chin in tired frustration. Good for: frustration with slow or difficult work, such as struggling with a tedious task, debugging, or burning out late at night before finding a better way"
+  },
+  {
+   "id": "lib_man_opens_laptop_in_room",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "credit": "",
+   "file": "man_opens_laptop_in_room.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt sits at a laptop in a dimly lit, warmly lit room, and his focused, tense expression builds as he leans toward the screen, which shows blurry blue diagram or flowchart-style blocks, with his fists clenched near his chin in the middle frame. Good for: intense concentration or deep work, such as debugging, building an AI workflow, or struggling with a complex problem"
+  },
+  {
+   "id": "lib_man_pointing_at_camera",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_pointing_at_camera.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_pointing_at_camera.mp4",
+   "credit": "",
+   "file": "man_pointing_at_camera.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a dark henley sits in a car seat working on a laptop with a focused look, then looks up with a warm smile and points playfully at the camera in a confident, friendly mood. Good for: a line that moves from focused work or problem-solving to a direct call to action, such as 'here's the trick you need to try' or 'now it's your turn'"
+  },
+  {
+   "id": "lib_man_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "man_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt stares intently at a laptop screen with blurry blue UI elements floating in front of the camera, then grimaces in frustration and mouths a reaction, and finally tilts his head back in exhausted resignation in a dim, warmly lit room. Good for: frustration with slow, tedious, or failing work, such as waiting on a slow tool, hitting an error, or being exhausted by manual tasks before introducing an AI solution"
+  },
+  {
+   "id": "lib_man_shaking_head_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "credit": "",
+   "file": "man_shaking_head_at_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits in a dark chair looking down at his phone, and his expression shifts from neutral to scrunched-up frustration or confusion, then to a displeased, worried look as he lowers the phone. Good for: frustration or disappointment with a tool or app that isn't working, slow or confusing results, or a bad surprise while checking your phone"
+  },
+  {
+   "id": "lib_man_smiling_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "credit": "",
+   "file": "man_smiling_at_phone.mp4",
+   "frames": 135,
+   "desc": "B-roll (4.5s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a blue smartphone, his expression shifting from neutral to a furrowed-brow frown of confusion and frustration. Good for: a line about frustration with confusing apps or slow tools, or the moment someone hits a problem and doesn't know what to do next"
+  },
+  {
+   "id": "lib_man_staring_at_phone_in",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_staring_at_phone_in.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_staring_at_phone_in.mp4",
+   "credit": "",
+   "file": "man_staring_at_phone_in.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt stares at his smartphone, his expression moving from a focused frown to wide-eyed shock and then to a worried look straight into the camera, in a warm, dimly lit home setting. Good for: a line about a shocking discovery, an unexpected result, or a worrying realization, such as 'you won't believe what this AI tool just did' or 'when you see how much time you've been wasting'"
+  },
+  {
+   "id": "lib_man_studying_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "credit": "",
+   "file": "man_studying_with_laptop.mp4",
+   "frames": 132,
+   "desc": "B-roll (4.4s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits at a desk behind a laptop with a furrowed brow and a frustrated, concentrated look, first staring at the screen, then looking down at an open notebook and writing with a pen, with a warm blurred lamp glowing in the background. Good for: a script line about struggling to understand something complex, frustration with slow or manual work, or the pain of learning a new tool the hard way"
+  },
+  {
+   "id": "lib_man_watching_laptop_waiting",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "credit": "",
+   "file": "man_watching_laptop_waiting.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits at a laptop in a dimly lit room with warm lamp light, resting his chin on his fist with a focused, pensive look, and the camera pushes in closer across the three frames. Good for: a script line about deep thinking, researching or problem-solving, or weighing a decision before trying an AI tool"
+  },
+  {
+   "id": "lib_person_drinking_coffee_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "credit": "",
+   "file": "person_drinking_coffee_with_laptop.mp4",
+   "frames": 93,
+   "desc": "B-roll (3.1s, VERTICAL 9:16 — best as full: true): A bearded man in a green polo sits at a laptop in a modern industrial-style open office, lifting a white cup to his mouth and sipping a hot drink while looking down at the screen, in a calm, focused mood. Good for: a line about taking a breather while the AI does the work, a morning work routine, waiting for a process to finish, or the calm of an automated workflow"
+  },
+  {
+   "id": "lib_person_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "person_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a laptop, his expression moving from concern to a deep frown with glowing blue tear-like effects on his cheeks, then to eyes shut in stress or exhaustion; the mood is frustrated and overwhelmed. Good for: A script line about frustration or overwhelm with a tough task, such as struggling with confusing tools, wasting hours on manual work, or being stuck before finding an AI solution."
+  },
+  {
+   "id": "lib_person_speaking_into_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "credit": "",
+   "file": "person_speaking_into_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt takes a phone call in a modern industrial office with exposed concrete ceilings, moving from a serious, concerned look to a worried talking expression and ending with a relieved, confident smile at the camera. Good for: a script line about getting a surprising call or news, a problem being solved, or the moment of relief after a stressful issue"
+  },
+  {
+   "id": "lib_professional_working_on_laptop_late",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "credit": "",
+   "file": "professional_working_on_laptop_late.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A tired bearded young man in a maroon t-shirt sits at a laptop in a dim apartment at night, resting his head on his hand, rubbing his eyes, then glumly lifting a white coffee mug, with blurred city lights glowing behind him through the window. Good for: A script line about burnout, late-night grinding, or frustration with slow manual work that AI tools can speed up, e.g. 'still stuck doing this by hand at midnight?'"
+  },
+  {
+   "id": "lib_robotic_hand_typing_on_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "credit": "",
+   "file": "robotic_hand_typing_on_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a black robotic hand with segmented, mechanical fingers lowering onto a backlit laptop keyboard and starting to type, shot at shallow depth of field in a warm, softly lit, modern workspace. Good for: A script line about AI doing the work for you, automating repetitive tasks, or AI taking over typing and writing, such as 'let AI handle the busywork' or 'AI writes it for you'."
+  },
+  {
+   "id": "s1_image",
+   "kind": "image",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-04_2001/s1_image.png",
+   "credit": "Image: claude.ai",
+   "desc": "official image from Claude: Settings > Privacy > Shared chats / Shared artifacts, plus Memory. ChatGPT: Settings > Data controls > Shared links, plus Personalization > Memory. (announcement page)"
+  }
+ ],
+ "style": "hisaab",
+ "topic": "Your AI chats can end up in Google search if you share them. Show how to check your shared links, delete them, and turn off the settings that expose your chats and artifacts.",
+ "pick": {
+  "index": 32,
+  "topic": "Your AI chats can end up in Google search if you share them. Show how to check your shared links, delete them, and turn off the settings that expose your chats and artifacts.",
+  "tool": "Claude and ChatGPT sharing and privacy settings (shared links, published artifacts, memory)",
+  "format": "warning",
+  "angle": "Your AI chats aren't as private as you think. One 'Share' click can put them on Google. Check yours in 30 seconds.",
+  "why": "190,851 views and 761 comments in 43s. Privacy warnings pull strong engagement, and the fix is a quick settings walkthrough. It's different from our Incognito and Memory reels because it covers shared links and published content. Frame it accurately: shared or public links and published artifacts can be indexed, not every chat."
+ },
+ "inspired_by": {
+  "url": "https://www.instagram.com/p/DezJ36CRJuh/",
+  "owner": "marcus_lagrone",
+  "plays": 190850,
+  "likes": 1577,
+  "comments": 761
+ },
+ "research": {
+  "verdict": "adjust",
+  "tool": "Claude: Settings > Privacy > Shared chats / Shared artifacts, plus Memory. ChatGPT: Settings > Data controls > Shared links, plus Personalization > Memory.",
+  "availability": "Free on all consumer plans, on web and mobile apps. Claude's Share and Manage flow is documented for desktop web. ChatGPT Business and Enterprise differ: Business links open only to workspace members, and only Enterprise can disable sharing workspace-wide.",
+  "steps": [
+   "CLAUDE (web, claude.ai): click your profile/name at the bottom-left, then click Settings.",
+   "Open the Privacy tab. Under the data section (labelled 'Your data' in recent guides, 'Data controls' in older Anthropic help text), find the 'Shared chats' row and click Manage.",
+   "A 'Shared chats' pop-up lists each chat's title, date shared and link. Click the Unshare (trash can) icon next to each one to kill the link. An empty list says 'No shared content found'.",
+   "Same page: click Manage next to 'Shared artifacts' and unpublish or unshare anything listed. This is a separate list from shared chats.",
+   "Alternative for one chat: open the shared chat, click Share (top right), and under 'Chat shared' choose 'Keep private'.",
+   "CLAUDE MEMORY: Settings > Your Claude (older layout: Settings > Memory). Turn off the memory toggle ('Memory from chats', called 'Generate memory from chats' in the older layout). Click Manage next to 'Your memory' to delete individual topics. Choose Pause (keeps what is saved) or Reset (deletes everything).",
+   "CLAUDE, one chat only: before sending the first message, click '+' and switch Memory off, or use an Incognito (ghost icon) chat.",
+   "CHATGPT (web): click your profile avatar at the bottom-left, then Settings, then Data controls. Next to 'Shared links' click Manage.",
+   "In that list, delete one link ('Delete shared link', or the trash/three-dot menu), or open 'More actions' and choose 'Delete all shared links'.",
+   "CHATGPT MEMORY: Settings > Personalization > Memory. Turn Memory off, or turn off 'Reference saved memories' and 'Reference chat history'. Use Manage or Saved memories to delete entries, or '•••' > 'Delete and turn off memory' to wipe and disable in one step. Labels vary by account."
+  ],
+  "facts": [
+   "<cite index=\"8-2\">Anthropic: chats are always private by default; you create snapshots to share via direct link.</cite>",
+   "<cite index=\"8-8,8-9\">Anyone with the link can view the chat snapshot, which includes all messages before sharing, including artifacts.</cite>",
+   "<cite index=\"8-10,8-11\">Messages sent after sharing stay private. If you unshare and share again, the snapshot updates with the new messages.</cite>",
+   "<cite index=\"2-11\">Android Authority: review shared links at Settings > Privacy > Shared Chats and select Manage, where active links can be disabled.</cite>",
+   "<cite index=\"3-13\">PCWorld: under Privacy you can click 'Shared chats' or 'Shared artifacts' to see what you've shared and make it private again.</cite>",
+   "<cite index=\"13-16\">Shared artifacts have their own row and Manage button under Settings > Privacy, so revoking a chat doesn't revoke an artifact you published from it.</cite>",
+   "July 2026 incident: <cite index=\"4-2\">Reddit members found that a specific Google search phrase pulled up a long list of shared Claude conversations.</cite> <cite index=\"5-4\">The query was site:claude.ai/share.</cite>",
+   "<cite index=\"4-4,4-5\">The links are no longer reachable through that technique. Claude conversations are private by default, and only chats users had shared were affected.</cite>",
+   "<cite index=\"1-6,1-7\">Anthropic says chats become public only when a user creates a share link. It says it doesn't give search engines shared-chat directories, so the likely route is public pages that link to them, such as forums.</cite>",
+   "<cite index=\"2-8\">Google points owners to a noindex tag to keep pages out of Search.</cite>",
+   "<cite index=\"5-8\">Hackread: removing a page from Google Search does not delete the Claude conversation or disable its sharing link.</cite>",
+   "<cite index=\"4-6\">Fortune: it's not the first time Claude chats have reached public Google searches.</cite>",
+   "Artifacts: <cite index=\"30-5,30-6\">Anthropic says artifacts start private to you and nothing is shared until you share it.</cite>",
+   "<cite index=\"30-10,30-11,30-12\">For newer shared artifacts, everyone needs a Claude account, even with the link. The exception is a legacy artifact published from a chat.</cite>",
+   "<cite index=\"30-15\">Anyone with the link can view and use a published chat artifact without a Claude account.</cite>",
+   "<cite index=\"30-19\">Anthropic: you can't publish an artifact again after you unpublish it.</cite>",
+   "<cite index=\"36-9,36-10\">Pagelive (third-party): legacy artifacts, made in a chat before September 16, 2026, can be published on Free, Pro and Max. As of October 2026 the Publish button appears only on legacy artifacts.</cite>",
+   "<cite index=\"28-17\">Codecademy: deleting a chat in Claude also unpublishes its associated artifacts.</cite>",
+   "Claude memory: <cite index=\"44-14\">it's on by default for Free, Pro and Max and off by default on Team and Enterprise.</cite>",
+   "<cite index=\"38-1,38-7\">Anthropic's help page gives the path as Settings > Your Claude (older layout: Settings > Memory). 'Generate memory from chats' is the toggle, and Manage next to 'Your memory' shows what Claude remembers.</cite>",
+   "<cite index=\"41-16,41-17,41-18,41-19,41-20\">Pause keeps what Claude already knows but stops new additions. Reset permanently deletes everything, including project memories, and can't be undone.</cite>",
+   "<cite index=\"45-4\">Chats are deleted within 30 days, but memories saved from them stay until you delete them in Settings > Memory.</cite>",
+   "ChatGPT shared links: <cite index=\"19-12\">URL format is https://chatgpt.com/share/<conversation-ID>.</cite>",
+   "<cite index=\"19-16,19-17,19-18\">OpenAI: view and manage all shared links from Settings > Data Controls. Find 'Shared links', click Manage, then delete individual links or all of them.</cite>",
+   "<cite index=\"23-9\">Bulk delete is under 'More actions' > 'Delete all shared links'.</cite>",
+   "<cite index=\"19-8\">OpenAI: shared links have no granular permissions.</cite>",
+   "<cite index=\"19-4\">If someone replies to a conversation shared with them, a copy lands in their own history and is not deleted when you delete the shared link.</cite>",
+   "ChatGPT 2025 indexing episode: <cite index=\"9-3,9-4\">per OpenAI's FAQ, chats appeared in search only if you manually enabled indexing, via a small 'Make this chat discoverable' checkbox in the share pop-up.</cite>",
+   "<cite index=\"27-13\">A recent guide says ChatGPT used to have a checkbox that made a shared chat discoverable in search.</cite> That implies it has been removed.",
+   "<cite index=\"23-4\">Changing 'Improve the model for everyone' does not delete existing shared links or change who can open them.</cite>",
+   "<cite index=\"47-10,47-13\">OpenAI: turn memory off at Settings > Personalization > Memory. View and delete specific memories, or clear all, via Manage Memory.</cite>",
+   "<cite index=\"54-5,54-6\">Turning off 'Reference saved memories' also turns off 'Reference chat history'.</cite>",
+   "<cite index=\"51-7\">Turning ChatGPT memory off does not delete past chats.</cite> <cite index=\"47-7\">Temporary Chat doesn't use or update memory.</cite>"
+  ],
+  "do_not_claim": [
+   "Do NOT say 'everything you share in Claude shows up in Google' or that 'anyone can Google your Claude chats today'. Only chats you explicitly shared via link were ever affected, and the site:claude.ai/share trick no longer works. Sources: Fortune, Yahoo/TechCrunch, Android Authority.",
+   "Do NOT say private or unshared chats were exposed. Every outlet says they were not.",
+   "Do NOT say Anthropic published or sent chats to Google. Anthropic says it gives search engines no directories. Likely path: someone posted the links publicly. Google says it doesn't control what pages are made public.",
+   "Do NOT claim 'bank statements, medical conditions and personal rants' were found. No source verifies those categories. Fortune lists erotica, programming chats, work notes and fake book reviews.",
+   "Do NOT say memory is public or Google-searchable. Memory is a personalization feature, not a public link. Frame it as 'what Claude remembers about you', not exposure.",
+   "Do NOT say Google will keep showing your chat after you unshare. Say instead that unsharing kills the link, but a copy someone already saved, or a cached snippet, isn't covered. Only 'does not remove a copy someone already saved' is directly sourced (managednerds). No source states cache behaviour.",
+   "Do NOT say 'ChatGPT still has a Make this chat discoverable checkbox'. It was reported in 2025 and appears to have been removed. Only a secondary source confirms the removal, so avoid stating it as current UI.",
+   "Do NOT say deleting a chat always deletes its ChatGPT share link. Sources conflict: Bitdefender says no, Jazz.security says yes. Tell viewers to delete the link in Shared links itself.",
+   "Do NOT say you can unpublish and republish an artifact. Unpublish is permanent for that artifact.",
+   "Do NOT use the older label 'Shared links' for Claude. Current guides say 'Shared chats' and 'Shared artifacts'. 'Shared links' is the ChatGPT label.",
+   "Do NOT say you can only check this on desktop. Privacy International (older, about 13 months) says mobile can view but only the browser can delete. That is unverified for today, so say 'use the web version'."
+  ],
+  "criticism": [
+   "Anthropic describes shared chats as public snapshots, and some reporting says shared pages lacked a noindex directive. <cite index=\"6-4\">MatrixTribe (secondary): Anthropic describes shared chats as publicly accessible snapshots, while reporting found some shared pages lacked a noindex directive.</cite>",
+   "<cite index=\"5-9\">Hackread: many users take 'anyone with the link' to mean only people who receive the URL, not search results.</cite>",
+   "<cite index=\"4-7\">Fortune: shared chats are typically more sensitive than a shared document, because people think out loud about work, health and legal problems.</cite>",
+   "<cite index=\"33-14\">ShareDuo (third-party): Claude does not serve a noindex header on published artifact pages (legacy claude.ai/public/...).</cite> Treat this as unverified by Anthropic.",
+   "<cite index=\"33-19\">ShareDuo (third-party): published artifact links stay live until you manually unpublish them, with no expiry option.</cite>",
+   "<cite index=\"19-8,19-9\">ChatGPT shared links have no granular permissions, and the FAQ points to deleting links as the only way to end access.</cite>",
+   "Deleting a chat does not remove the memory entries made from it, on either Claude or ChatGPT. Anthropic's help page puts the normal deletion window at 30 days.",
+   "Anthropic keeps some data after deletion. Per whizi.io's reading of Anthropic's help pages (secondary source): feedback you sent on a chat (5 years), flagged chats' inputs and outputs (up to 2 years), and safety classifier scores (up to 7 years)."
+  ],
+  "ui": {
+   "platforms": "Web (claude.ai and chatgpt.com) is the main path. iOS and Android apps have the same settings but with a different layout. Claude link deletion is confirmed on web.",
+   "apps": [
+    "claude.ai (web)",
+    "chatgpt.com (web)",
+    "Google Search (optional check)"
+   ],
+   "screens": [
+    "CLAUDE: open claude.ai. Click your profile/initials button at the bottom-left of the left sidebar, then choose Settings from the menu.",
+    "Claude Settings: a left-hand list of tabs that includes Privacy and 'Your Claude'/Memory (the order is not confirmed in any source). In the Privacy tab, the data section has rows with a Manage button on the right: 'Shared chats' and 'Shared artifacts'. Other Privacy items include export data and the 'Help improve our AI models' toggle. The exact order of rows is unverified.",
+    "Click Manage next to 'Shared chats'. A modal titled 'Shared chats' lists each chat: its title, date shared, an 'Open chat' link, and a trash/unshare icon. If it's empty, it reads 'No shared content found'.",
+    "Click the trash/unshare icon next to a chat. The link is revoked.",
+    "Back in Privacy, click Manage next to 'Shared artifacts' for the artifact list. Each artifact has a 'Published'/'Unpublish' control, and the artifact's Share/Published button sits at the top right of the artifact panel.",
+    "Claude chat view: the 'Share' button is in the conversation header, top right of an open chat. Its pop-up has a 'Share' button. After sharing, it shows 'Chat shared' with a 'Keep private' option.",
+    "Claude memory screen: Settings > Your Claude (or Memory in the older layout) has a toggle ('Memory from chats'/'Generate memory from chats') and a 'Your memory' row with Manage. The memory list shows 'Topics', each of which you can open, edit or delete. Pause and Reset options are on this page.",
+    "CHATGPT: click your profile avatar at the bottom-left of the sidebar, then Settings. The Settings modal has a left tab list including Personalization and Data controls (neighbouring tabs elsewhere, e.g. General, Notifications, are not confirmed by these sources).",
+    "Data controls tab: a row labelled 'Shared links' with a Manage button on the right (rows like 'Improve the model for everyone' sit nearby). Clicking Manage opens a list of shared chats. Each has a three-dot or trash icon with 'Delete shared link'. A 'More actions' menu holds 'Delete all shared links'.",
+    "Personalization tab > Memory: shows 'Memory'/'Enable memory', 'Reference saved memories', 'Reference chat history', and a 'Manage' or 'Memory summary' button. The '•••' menu has 'Delete and turn off memory'. Exact labels depend on your account.",
+    "Light or dark default: not verified in any source. The recreation should follow the viewer's device theme and avoid claiming a default."
+   ]
+  },
+  "visuals": "Best shown as a real screen recording: (1) Claude Settings > Privacy, with the 'Shared chats' and 'Shared artifacts' Manage buttons visible, then the 'Shared chats' modal and the Unshare/trash click. (2) ChatGPT Settings > Data controls > Shared links > Manage, then 'Delete all shared links'. (3) A Claude or ChatGPT memory screen with the toggle switched off. Blur or use demo data in the link lists, because real titles are sensitive. Don't show a live Google search for site:claude.ai/share, as it no longer returns results. The ChatGPT equivalent site:chatgpt.com/share is mentioned in sources, but its current behaviour isn't verified.",
+  "sources": [
+   "https://privacy.anthropic.com/en/articles/10593882-sharing-and-unsharing-chats",
+   "https://support.claude.com/en/articles/9547008-publish-and-share-artifacts",
+   "https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context",
+   "https://help.openai.com/en/articles/7925741-chatgpt-projects",
+   "https://help.openai.com/en/articles/8798634-managing-data-sharing-and-privacy-in-chatgpt-business",
+   "https://openai.com/index/memory-and-new-controls-for-chatgpt/",
+   "https://fortune.com/2026/07/27/a-trove-of-users-seemingly-private-conversations-with-anthropics-claude-ai-chatbot-showed-up-in-google-search-results/",
+   "https://www.androidauthority.com/shared-claude-chats-on-google-search-3691594/",
+   "https://www.pcworld.com/article/3200999/claude-chats-showed-up-in-google-search-heres-how-to-keep-yours-private.html",
+   "https://tech.yahoo.com/ai/claude/articles/shared-claude-chats-appeared-search-130000452.html",
+   "https://hackread.com/google-indexed-claude-ai-shared-chats-results-removed/",
+   "https://tech.yahoo.com/ai/articles/careful-tell-chatgpt-chats-could-172728554.html",
+   "https://www.managednerds.tech/blog/think-your-ai-chat-is-private-think-before-you-click-share",
+   "https://jlellis.net/blog/what-to-do-if-your-shared-claude-chats-were-indexed-by-google/",
+   "https://www.bitdefender.com/en-us/blog/hotforsecurity/your-shared-chatgpt-chats-may-be-publicly-searchable-heres-how-to-delete-them"
+  ],
+  "notes": "The topic is real and recent, but the reel's hook needs reframing. In late July 2026, shared Claude chat links were found in Google via site:claude.ai/share. They have since been removed, and only chats people had shared were affected. A safe hook is: 'Anything you've hit Share on is a public link. Check it in 30 seconds.' Avoid implying that private chats leak. Settings labels have changed. Claude's Settings now has 'Your Claude' (older layout: 'Memory'), the Privacy rows read 'Shared chats' and 'Shared artifacts', and Anthropic's own help page also uses 'Data controls'. Artifact sharing changed around September 16, 2026: new shares need a Claude account, and only legacy published artifacts are open to anyone. The exact Claude Share dialog wording (Public/Private visibility versus 'Chat shared' and 'Keep private') comes from third-party pages, so confirm it on a live screen before recreating it. ChatGPT memory labels vary by account, because OpenAI says controls may be missing depending on plan, region or platform. Test in your own accounts before filming. Do not show real chat titles. Unsharing does not delete the chat, and deleting a chat does not delete its memory, so tell viewers to do all three steps (unshare, delete chat, clear memory). ChatGPT's Business plan can't disable sharing, only Enterprise can. The search tool could not retrieve Anthropic's current help-center page for 'Shared artifacts' directly, so the artifact unpublish steps rest on support.claude.com plus third-party guides.",
+  "_searched": 6
+ },
+ "models": {
+  "pick": "claude-sonnet-5-5",
+  "research": "claude-sonnet-5-5",
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 11,
+ "_ident": {
+  "at": 4.06,
+  "dur": 1.5,
+  "title": "AI HACKS",
+  "type": 0.42,
+  "sub": "EP 11 · AI PRIVACY"
+ },
+ "timeline": {
+  "words": [
+   [
+    "Every",
+    0.08
+   ],
+   [
+    "AI",
+    0.48
+   ],
+   [
+    "chat",
+    0.72
+   ],
+   [
+    "you've",
+    1.04
+   ],
+   [
+    "hit",
+    1.28
+   ],
+   [
+    "Share",
+    1.44
+   ],
+   [
+    "on",
+    1.76
+   ],
+   [
+    "is",
+    2.08
+   ],
+   [
+    "a",
+    2.24
+   ],
+   [
+    "link",
+    2.32
+   ],
+   [
+    "anyone",
+    2.72
+   ],
+   [
+    "can",
+    3.2
+   ],
+   [
+    "open.",
+    3.36
+   ],
+   [
+    "In",
+    5.58
+   ],
+   [
+    "July,",
+    5.86
+   ],
+   [
+    "shared",
+    6.46
+   ],
+   [
+    "Claude",
+    6.78
+   ],
+   [
+    "chats",
+    7.1
+   ],
+   [
+    "showed",
+    7.5
+   ],
+   [
+    "up",
+    7.7
+   ],
+   [
+    "in",
+    7.82
+   ],
+   [
+    "Google.",
+    7.98
+   ],
+   [
+    "Stay",
+    8.78
+   ],
+   [
+    "till",
+    9.02
+   ],
+   [
+    "the",
+    9.22
+   ],
+   [
+    "end,",
+    9.34
+   ],
+   [
+    "because",
+    9.82
+   ],
+   [
+    "unsharing",
+    10.22
+   ],
+   [
+    "isn't",
+    10.94
+   ],
+   [
+    "the",
+    11.26
+   ],
+   [
+    "last",
+    11.46
+   ],
+   [
+    "thing",
+    11.66
+   ],
+   [
+    "to",
+    11.86
+   ],
+   [
+    "clean",
+    11.98
+   ],
+   [
+    "up.",
+    12.22
+   ],
+   [
+    "The",
+    12.913
+   ],
+   [
+    "check",
+    13.1
+   ],
+   [
+    "takes",
+    13.42
+   ],
+   [
+    "30",
+    13.82
+   ],
+   [
+    "seconds.",
+    14.14
+   ],
+   [
+    "In",
+    15.18
+   ],
+   [
+    "Claude",
+    15.34
+   ],
+   [
+    "on",
+    15.62
+   ],
+   [
+    "the",
+    15.74
+   ],
+   [
+    "web:",
+    15.82
+   ],
+   [
+    "Settings,",
+    16.74
+   ],
+   [
+    "Privacy,",
+    17.54
+   ],
+   [
+    "then",
+    18.18
+   ],
+   [
+    "Manage",
+    18.38
+   ],
+   [
+    "next",
+    18.86
+   ],
+   [
+    "to",
+    19.14
+   ],
+   [
+    "Shared",
+    19.26
+   ],
+   [
+    "chats.",
+    19.58
+   ],
+   [
+    "Hit",
+    20.38
+   ],
+   [
+    "the",
+    20.54
+   ],
+   [
+    "trash",
+    20.7
+   ],
+   [
+    "icon",
+    21.02
+   ],
+   [
+    "on",
+    21.42
+   ],
+   [
+    "each",
+    21.66
+   ],
+   [
+    "one.",
+    21.9
+   ],
+   [
+    "Then",
+    22.46
+   ],
+   [
+    "do",
+    22.7
+   ],
+   [
+    "the",
+    22.86
+   ],
+   [
+    "same",
+    23.06
+   ],
+   [
+    "for",
+    23.26
+   ],
+   [
+    "Shared",
+    23.42
+   ],
+   [
+    "artifacts.",
+    23.74
+   ],
+   [
+    "It's",
+    24.66
+   ],
+   [
+    "a",
+    24.82
+   ],
+   [
+    "separate",
+    24.94
+   ],
+   [
+    "list.",
+    25.26
+   ],
+   [
+    "In",
+    25.98
+   ],
+   [
+    "ChatGPT:",
+    26.14
+   ],
+   [
+    "Settings,",
+    27.46
+   ],
+   [
+    "Data",
+    28.06
+   ],
+   [
+    "controls,",
+    28.38
+   ],
+   [
+    "Manage",
+    29.26
+   ],
+   [
+    "next",
+    29.74
+   ],
+   [
+    "to",
+    29.98
+   ],
+   [
+    "Shared",
+    30.14
+   ],
+   [
+    "links.",
+    30.46
+   ],
+   [
+    "Then",
+    31.18
+   ],
+   [
+    "More",
+    31.34
+   ],
+   [
+    "actions,",
+    31.58
+   ],
+   [
+    "Delete",
+    32.38
+   ],
+   [
+    "all",
+    32.94
+   ],
+   [
+    "shared",
+    33.18
+   ],
+   [
+    "links.",
+    33.5
+   ],
+   [
+    "Honest",
+    34.3
+   ],
+   [
+    "catch:",
+    34.7
+   ],
+   [
+    "that",
+    35.58
+   ],
+   [
+    "kills",
+    35.74
+   ],
+   [
+    "the",
+    36.06
+   ],
+   [
+    "link,",
+    36.22
+   ],
+   [
+    "but",
+    36.78
+   ],
+   [
+    "not",
+    36.94
+   ],
+   [
+    "a",
+    37.14
+   ],
+   [
+    "copy",
+    37.26
+   ],
+   [
+    "someone",
+    37.58
+   ],
+   [
+    "already",
+    37.9
+   ],
+   [
+    "saved.",
+    38.38
+   ],
+   [
+    "Now",
+    39.3
+   ],
+   [
+    "the",
+    39.5
+   ],
+   [
+    "part",
+    39.7
+   ],
+   [
+    "people",
+    39.9
+   ],
+   [
+    "miss.",
+    40.22
+   ],
+   [
+    "Deleting",
+    41.14
+   ],
+   [
+    "a",
+    41.42
+   ],
+   [
+    "chat",
+    41.66
+   ],
+   [
+    "doesn't",
+    42.06
+   ],
+   [
+    "delete",
+    42.38
+   ],
+   [
+    "what",
+    42.78
+   ],
+   [
+    "the",
+    42.94
+   ],
+   [
+    "AI",
+    43.1
+   ],
+   [
+    "remembered",
+    43.42
+   ],
+   [
+    "from",
+    43.98
+   ],
+   [
+    "it.",
+    44.22
+   ],
+   [
+    "So",
+    44.7
+   ],
+   [
+    "switch",
+    44.86
+   ],
+   [
+    "off",
+    45.18
+   ],
+   [
+    "memory",
+    45.34
+   ],
+   [
+    "too.",
+    45.74
+   ],
+   [
+    "Claude:",
+    46.42
+   ],
+   [
+    "Settings,",
+    47.3
+   ],
+   [
+    "Your",
+    47.94
+   ],
+   [
+    "Claude.",
+    48.14
+   ],
+   [
+    "ChatGPT:",
+    48.9
+   ],
+   [
+    "Settings,",
+    50.1
+   ],
+   [
+    "Personalization,",
+    50.74
+   ],
+   [
+    "Memory.",
+    51.74
+   ],
+   [
+    "When",
+    52.54
+   ],
+   [
+    "did",
+    52.7
+   ],
+   [
+    "you",
+    52.94
+   ],
+   [
+    "last",
+    53.22
+   ],
+   [
+    "check",
+    53.42
+   ],
+   [
+    "your",
+    53.58
+   ],
+   [
+    "shared",
+    53.74
+   ],
+   [
+    "links?",
+    53.98
+   ],
+   [
+    "Send",
+    54.82
+   ],
+   [
+    "this",
+    55.02
+   ],
+   [
+    "to",
+    55.22
+   ],
+   [
+    "the",
+    55.34
+   ],
+   [
+    "friend",
+    55.54
+   ],
+   [
+    "who",
+    55.74
+   ],
+   [
+    "pastes",
+    55.9
+   ],
+   [
+    "work",
+    56.3
+   ],
+   [
+    "stuff",
+    56.66
+   ],
+   [
+    "into",
+    56.9
+   ],
+   [
+    "AI.",
+    57.1
+   ],
+   [
+    "Hack",
+    57.86
+   ],
+   [
+    "saved?",
+    58.06
+   ]
+  ],
+  "duration": 58.72,
+  "ident": {
+   "at": 4.06,
+   "dur": 1.5,
+   "title": "AI HACKS",
+   "type": 0.42,
+   "sub": "EP 11 · AI PRIVACY"
+  },
+  "scenes": [
+   {
+    "t": 0.0,
+    "shows": [
+     "footage:lib_man_staring_at_phone_in",
+     "headline:SHARED = PUBLIC"
+    ]
+   },
+   {
+    "t": 5.58,
+    "shows": [
+     "label:JULY",
+     "headline:CLAUDE CHATS IN GOOGLE"
+    ]
+   },
+   {
+    "t": 8.78,
+    "shows": [
+     "pill:STAY TILL THE END",
+     "object3d:"
+    ]
+   },
+   {
+    "t": 12.91,
+    "shows": [
+     "object3d:"
+    ]
+   },
+   {
+    "t": 15.18,
+    "shows": [
+     "screen:Step 1 · Claude links"
+    ]
+   },
+   {
+    "t": 25.98,
+    "shows": [
+     "screen:Step 2 · ChatGPT links"
+    ]
+   },
+   {
+    "t": 34.3,
+    "shows": [
+     "label:HONEST CATCH",
+     "stat_row:"
+    ]
+   },
+   {
+    "t": 39.3,
+    "shows": [
+     "object3d:",
+     "headline:CHAT GONE ≠ MEMORY GONE"
+    ]
+   },
+   {
+    "t": 44.7,
+    "shows": [
+     "screen:Step 3 · Memory off"
+    ]
+   },
+   {
+    "t": 50.1,
+    "shows": [
+     "screen:Step 3 · Memory off"
+    ]
+   },
+   {
+    "t": 52.54,
+    "shows": [
+     "object3d:",
+     "headline:LAST CHECKED?"
+    ]
+   }
+  ],
+  "beats": [
+   36.25
+  ]
+ }
+}
