@@ -63,7 +63,7 @@ def pool(force=False):
     today = dt.date.today().isoformat()
     try:
         cached = json.loads(POOL.read_text())
-        if cached.get("date") == today and cached.get("items") and not force:
+        if cached.get("date") == today and cached.get("items") and not force and cached.get("tags") == HASHTAGS:
             print(f"      reel pool: {len(cached['items'])} reels (cached today)", flush=True)
             return cached["items"]
     except Exception:
@@ -104,7 +104,7 @@ def pool(force=False):
     out = out[:80]
     if out:
         POOL.parent.mkdir(parents=True, exist_ok=True)
-        POOL.write_text(json.dumps({"date": today, "items": out}, ensure_ascii=False, indent=0))
+        POOL.write_text(json.dumps({"date": today, "tags": HASHTAGS, "items": out}, ensure_ascii=False, indent=0))
     elif POOL.exists():  # scrape failed: fall back to the last pool rather than not posting
         out = json.loads(POOL.read_text()).get("items", [])
         print("      using the last saved reel pool", flush=True)
