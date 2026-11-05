@@ -47,6 +47,13 @@ A Remotion renderer turns your JSON into a 1080x1920 reel in a fixed house style
   ("Step 1 · Set it up", "Step 2 · Install the tools") that stays on while that step plays; show the state CHANGING across a
   screen's steps (empty folder → folders appear, unchecked → ticked, empty box → prompt typed → result appears), so every step
   ends on a visible result. One screen per step; 2–5 screen steps each.
+- REAL SCREENS FIRST: AVAILABLE MEDIA items with ids starting `real_` are LIVE captures of the tool's own website (phone scroll
+  that lands on a gold-outlined price/feature, desktop push-in, or official product screenshots). They are the proof viewers trust
+  — show them (`footage`) exactly when the voiceover talks about that page, price or feature: `real_*_phone` with `full: true`
+  for a big moment (it's vertical), `real_*_web` / screenshots with `tall: true`. Put one small `pill`/card on top with the key
+  fact (e.g. "$10/MO"), only if the capture's description shows it. A review/comparison uses at least 3 real captures; recreate a
+  screen (`screen`) only for steps inside the logged-in app that no real_ capture covers. Never caption a real_ capture with
+  something its description doesn't show.
 - Use `footage` (AVAILABLE MEDIA) for real-world context: the tool's official image, or stock video that matches the moment
   (someone frustrated at a laptop, a phone buzzing). Stock clips are generic — captions must not claim they show the product.
 - SHOW THE TUTORIAL: when a prompt is spoken, show it typing in a `prompt` box; when a shortcut is said, `keys`; a setting →

@@ -19,7 +19,7 @@ import anthropic
 ROOT = Path(__file__).resolve().parent.parent
 POOL = ROOT / "logs" / "reel_pool.json"
 HASHTAGS = [h.strip().lstrip("#") for h in (os.environ.get("IG_HASHTAGS") or
-            "aitools,chatgpt,aihacks,chatgpttips,claudeai,techtips,productivityhacks,aitips,canvatips,techhacks").split(",") if h.strip()]
+            "marketingtips,businesstips,growthhacking,digitalmarketing,aitoolsforbusiness,smallbusinesstips,entrepreneurtips,toolreview,aitools,chatgpttips,productivityhacks,saas").split(",") if h.strip()]
 ACCOUNTS = [a.strip().lstrip("@") for a in (os.environ.get("IG_SOURCE_ACCOUNTS") or "").split(",") if a.strip()]
 PER_TAG = int(os.environ.get("REELS_PER_TAG") or 20)
 AUTO_ACCOUNTS = int(os.environ.get("AUTO_ACCOUNTS") or 6)
@@ -414,8 +414,13 @@ def footage(script, notes, workdir, extra=()):
     from pipeline import media
     h = script.get("media_hints") or {}
     if isinstance(h, list): h = h[0] if h else {}
-    from pipeline import broll
-    out = list(extra) + broll.items()
+    from pipeline import broll, realscreens
+    out = list(extra)
+    try:   # the tool's REAL public pages, captured live (pricing, features, templates, help-centre screenshots)
+        out += realscreens.collect(notes, workdir)
+    except Exception as e:
+        print(f"      (real screens failed, continuing without: {str(e)[:150]})", flush=True)
+    out += broll.items()
     try:
         out += media.collect([{"story": 1, "company": notes.get("tool") or "", "domain": h.get("domain") or "", "broll": h.get("broll") or []}],
                              [{"urls": notes.get("sources") or []}], workdir, raw=False)
@@ -453,6 +458,13 @@ def edit(script, p, sources, notes=None, media=(), note=""):
         if LANGUAGE == "hinglish" and len(d.get("captions") or []) != len(spoken):
             raise ValueError(f"`captions` has {len(d.get('captions') or [])} tokens but the voiceover has {len(spoken)} spoken words — one Roman token per numbered word")
         check_plan(d, script["voiceover"], sources, ids, pacing=tries["n"] <= 3)
+        real = [i for i in ids if i.startswith("real_")]
+        if real and tries["n"] <= 3:
+            used = {e.get("media") for sc in d.get("scenes") or [] for e in sc.get("elements") or [] if e.get("type") == "footage"}
+            need = 3 if p.get("format") == "review" else 2
+            if len(used & set(real)) < min(need, len(real)):
+                raise ValueError(f"REAL SCREENS: show at least {min(need, len(real))} of the real_ captures ({', '.join(real)}) with `footage` "
+                                 "at the moments the voiceover talks about that page/price/feature — they are the proof viewers trust")
     return _ask_json(EDIT_MODEL, sysp, user, check, attempts=5)
 
 
