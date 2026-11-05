@@ -33,7 +33,7 @@ jobs:
           python3 - <<'PY'
           import base64, datetime as dt, json, os, subprocess, time
           REPO = os.environ["REPO"]
-          TIMES = sorted(t.strip() for t in (os.environ.get("POST_TIMES") or "13:00,20:00").split(",") if t.strip())
+          TIMES = sorted(t.strip() for t in (os.environ.get("POST_TIMES") or "13:00,17:00,20:00").split(",") if t.strip())
           AFTER = int(os.environ.get("START_AFTER_MIN") or 0)        # minutes after the window opens (the run takes ~10 min)
           WORKFLOW = "tutorial-reel.yml"
           IST = dt.timezone(dt.timedelta(hours=5, minutes=30))

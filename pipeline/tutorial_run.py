@@ -21,7 +21,8 @@ EPISODE = LOGS / "tutorial_episode.json"
 RUNLOG = LOGS / "tutorial_runs.csv"
 PLANS = LOGS / "plans"
 OUT = ROOT / "out"
-POST_TIMES = sorted(t.strip() for t in (os.environ.get("POST_TIMES") or "13:00,20:00").split(",") if t.strip())
+POST_TIMES = sorted(t.strip() for t in (os.environ.get("POST_TIMES") or "13:00,17:00,20:00").split(",") if t.strip())
+MEMES = LOGS / "meme_runs.csv"
 
 
 def slot_key(now=None):
@@ -103,6 +104,50 @@ def caption_of(plan):
     return f"{plan.get('ig_caption') or plan.get('title', '')}\n\n{tags}"[:2150]
 
 
+def meme_reel(key, slots, dry):
+    """Text-on-B-roll meme + trending song suggestion -> Buffer reminder (the song is added in the Instagram app)."""
+    from pipeline import meme
+    stamp = dt.datetime.now(IST).strftime("%Y-%m-%d_%H%M")
+    recent = []
+    try:
+        with open(MEMES, encoding="utf-8") as f: recent = [f"{r['text']} ({r['clip']})" for r in csv.DictReader(f)][-25:]
+    except Exception: pass
+    try:
+        plan = meme.make(recent, str(OUT / "media" / stamp))
+        OUT.mkdir(exist_ok=True)
+        mp4 = str(OUT / f"{stamp}_meme.mp4")
+        manual = (os.environ.get("MEME_POSTING") or "reminder").lower() == "reminder"
+        print("[3/3] render", flush=True)
+        meme.render(plan, {"path": plan["clip_path"]}, mp4, str(OUT / "media" / stamp), with_music=not manual)
+    except Exception as e:
+        traceback.print_exc(); log("error", "meme", str(e)[:300]); sys.exit(1)
+    s = plan["song"]
+    note = (f"🎵 ADD SONG: {s.get('title')} — {s.get('artist')} ({s.get('snippet') or 'most-used snippet'}) "
+            f"⬅ delete this line before posting\n\n")
+    caption = (note if manual else "") + plan["caption"]
+    PLANS.mkdir(parents=True, exist_ok=True)
+    _save(PLANS / f"meme_{stamp}.json", plan)
+    new = not MEMES.exists()
+    with open(MEMES, "a", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        if new: w.writerow(["run_at_ist", "text", "clip", "song", "artist", "song_source", "status"])
+        w.writerow([dt.datetime.now(IST).strftime("%Y-%m-%d %H:%M"), plan["text"], plan["clip"], s.get("title"), s.get("artist"), s.get("source", ""),
+                    "dry_run" if dry else "reminder" if manual else "posted"])
+    if dry:
+        print(f"DRY RUN — meme reel at {mp4}\n--- caption ---\n{caption}"); log("dry_run", "meme: " + plan["text"][:80], mp4); return
+    from pipeline import buffer
+    try:
+        url = buffer.host_video(mp4, f"reel-{stamp}-meme")
+        pid = buffer.remind(url, caption) if manual else buffer.publish_soon(url, caption)
+    except Exception as e:
+        traceback.print_exc(); log("publish_error", "meme", str(e)[:300]); sys.exit(1)
+    slots[key] = {"status": "posted", "at": dt.datetime.now(IST).strftime("%Y-%m-%d %H:%M"), "post": str(pid), "topic": "meme: " + plan["text"][:80],
+                  "manual": manual}
+    _save(SLOTS, {k: slots[k] for k in sorted(slots)[-120:]})
+    log("reminder_sent" if manual else "posted", "meme: " + plan["text"][:80], str(pid))
+    print(f"{'REMINDER SENT' if manual else 'POSTED'} {pid}")
+
+
 def main():
     LOGS.mkdir(exist_ok=True)
     _log = open(LOGS / "last_run.log", "w", encoding="utf-8")
@@ -122,6 +167,15 @@ def main():
     if os.environ.get("SLOT_GUARD") == "1" and slots.get(key, {}).get("status") == "posted" and not dry:
         print(f"window {key} already has its reel — nothing to do"); return
     print(f"window {key} | posting times {', '.join(POST_TIMES)} IST | dry_run={dry}", flush=True)
+
+    mode = (os.environ.get("REEL_MODE") or "auto").lower()
+    if mode == "auto":   # BUSINESS_SLOTS (default 20:00) = business breakdown, MEME_SLOTS (default 17:00) = text-on-B-roll meme
+        hhmm = key.rsplit("-", 1)[-1]
+        slots_of = lambda var, d: [t.strip().replace(":", "") for t in (os.environ.get(var) or d).split(",") if t.strip()]
+        mode = "business" if hhmm in slots_of("BUSINESS_SLOTS", "20:00") else "meme" if hhmm in slots_of("MEME_SLOTS", "17:00") else "marketing"
+    print(f"      reel type: {mode}", flush=True)
+    if mode == "meme":
+        return meme_reel(key, slots, dry)
 
     covered = [c for c in _load(COVERED, []) if c.get("at", "") >= (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=30)).isoformat()]
     stamp = dt.datetime.now(IST).strftime("%Y-%m-%d_%H%M")
@@ -156,10 +210,6 @@ def main():
             ed = tutorial.edit(old, old["pick"], sources, notes, media)
             plan = {**{k: v for k, v in old.items() if k not in ("scenes", "cta", "endcard", "keywords", "tag", "media", "manual_request")}, **ed, "media": media, "redo_of": os.environ["REDO_PLAN"]}
             plan.pop("manual_request", None)
-        mode = (os.environ.get("REEL_MODE") or "auto").lower()
-        if mode == "auto":   # one slot a day is a business breakdown (BUSINESS_SLOTS, default the 20:00 reel)
-            mode = "business" if key.rsplit("-", 1)[-1] in [t.replace(":", "") for t in (os.environ.get("BUSINESS_SLOTS") or "20:00").split(",")] else "marketing"
-        print(f"      reel type: {mode}", flush=True)
         if not plan and mode == "business":
             from pipeline import business
             try:

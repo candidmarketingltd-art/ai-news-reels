@@ -150,3 +150,22 @@ def publish_soon(video_url, caption, minutes=3):
             errors.append(f"{extra['mode']}: {str(e)[:200]}")
             print(f"      [buffer] {errors[-1]}", flush=True)
     raise RuntimeError("Buffer: " + " | ".join(errors))
+
+
+def remind(video_url, caption, minutes=5):
+    """Buffer *reminder* (notification) post: Buffer pings the owner's phone to publish it by hand in the Instagram app —
+    needed when the reel should use Instagram's own (trending) music, which the API can't attach."""
+    import datetime as _dt
+    due = (_dt.datetime.now(_dt.timezone.utc) + _dt.timedelta(minutes=minutes)).strftime("%Y-%m-%dT%H:%M:%S.000Z")
+    base = {"text": caption, "channelId": os.environ["BUFFER_CHANNEL_ID"], "schedulingType": Enum("notification"),
+            "assets": [{"video": {"url": video_url, "metadata": {"thumbnailOffset": 1500}}}],
+            "metadata": {"instagram": {"type": Enum("reel"), "shouldShareToFeed": True}}}
+    errors = []
+    for extra in ({"mode": Enum("customScheduled"), "dueAt": due}, {"mode": Enum("addToQueue")}):
+        try:
+            pid = _create({**base, **extra})
+            print(f"      [buffer] reminder post {pid} ({extra['mode']})", flush=True)
+            return pid
+        except Exception as e:
+            errors.append(f"{extra['mode']}: {str(e)[:200]}"); print(f"      [buffer] {errors[-1]}", flush=True)
+    raise RuntimeError("Buffer reminder: " + " | ".join(errors))
