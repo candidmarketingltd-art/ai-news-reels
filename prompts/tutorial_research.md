@@ -29,7 +29,7 @@ Then return ONLY a JSON object (no markdown fence), no prose before or after:
  "ui": {"platforms": "web / iOS / Android", "apps": ["every app/site the steps happen in, e.g. 'Google Search', 'Gmail web', 'macOS Finder'"],
         "screens": ["screen-by-screen description with exact labels and positions, in order"]},
  "visuals": "what the viewer should SEE to get it (e.g. 'the generated image', 'the Settings page'); say if only a real screen recording could show it",
- "real_pages": [{"url": "https://official public page", "show": "exact short visible text to highlight (or empty)",
+ "real_pages": [{"url": "https://official public page", "show": "1–4 words copied EXACTLY from the page, e.g. \"$20\" or \"Brand Kit\" (no descriptions)",
                  "kind": "site" (a normal page: recorded on phone + desktop) | "help" (help/app-store page: its product screenshots are used)}],
  "sources": ["url", "url"],
  "notes": "anything the writer must know (e.g. the menu was renamed in 2026)"}

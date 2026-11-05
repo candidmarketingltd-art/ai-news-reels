@@ -106,6 +106,26 @@ def _pan_video(png, out_mp4, size, keys, seconds=6.0):
     return n
 
 
+def _candidates(show):
+    show = str(show or "")
+    q = re.findall(r"[\'\"‘“]([^\'\"’”]{2,40})[\'\"’”]", show)
+    rest = [x.strip() for x in re.split(r"[,;/()]| and ", show) if 2 <= len(x.strip()) <= 30]
+    out = []
+    for x in q + rest:
+        if x not in out: out.append(x)
+    return out[:8]
+
+
+def _mark(page, show):
+    for c in _candidates(show):
+        try:
+            box = page.evaluate(MARK_JS, [c, GOLD])
+        except Exception:
+            box = None
+        if box: return box
+    return None
+
+
 def _capture(browser, url, show, workdir, n):
     out = []
     # phone: real mobile layout, scroll to the highlighted thing
@@ -114,7 +134,7 @@ def _capture(browser, url, show, workdir, n):
                               locale="en-US")
     try:
         page = ctx.new_page(); page.goto(url, timeout=45000, wait_until="domcontentloaded"); _settle(page)
-        box = page.evaluate(MARK_JS, [show or "", GOLD]) if show else None
+        box = _mark(page, show) if show else None
         png = os.path.join(workdir, f"real_{n}_phone.png")
         page.screenshot(path=png, full_page=True, clip=None) if page.evaluate("document.body.scrollHeight") < 7000 else \
             page.screenshot(path=png, clip={"x": 0, "y": 0, "width": 390, "height": 7000})
@@ -136,7 +156,7 @@ def _capture(browser, url, show, workdir, n):
     ctx = browser.new_context(viewport={"width": 1440, "height": 1080}, device_scale_factor=1.5, locale="en-US")
     try:
         page = ctx.new_page(); page.goto(url, timeout=45000, wait_until="domcontentloaded"); _settle(page)
-        box = page.evaluate(MARK_JS, [show or "", GOLD]) if show else None
+        box = _mark(page, show) if show else None
         top = 0
         if box and box["y"] + box["h"] > 1000:   # bring it into the window, a little above centre
             top = max(0, box["y"] - 380); page.evaluate(f"window.scrollTo(0, {top})"); page.wait_for_timeout(500)
@@ -238,10 +258,12 @@ def collect(notes, workdir, max_pages=4):
     with sync_playwright() as pw:
         browser = pw.chromium.launch()
         for n, p in enumerate(pages, 1):
+            got = []
             if p.get("kind") == "help":
-                try: raw += _page_shots(p["url"], workdir, n)
+                try: got = _page_shots(p["url"], workdir, n)
                 except Exception as e: print(f"      (screenshots from {p['url']}: {str(e)[:120]})", flush=True)
-            else:
+            raw += got
+            if not got:   # a normal page, or a help page without usable screenshots: record the page itself
                 raw += _capture(browser, p["url"], p.get("show"), workdir, n)
         browser.close()
     try:
