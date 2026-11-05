@@ -1,0 +1,1978 @@
+{
+ "voiceover": "[conversational] This boring contact form tool makes $44K every single month.\n\nAnd stick around, because the slow, boring move behind it is the one you can actually copy.\n\nIt's called Web3Forms. Despite the name, it has nothing to do with crypto. You point a plain HTML form at their endpoint, and submissions land in your email inbox. No server, no backend code. Developers and agencies pay for volume and uploads.\n\n[serious] These numbers are verified on TrustMRR: $44K MRR, $45K in the last 30 days, 3,204 active subscriptions, and about 412,000 users. Bootstrapped, started December 2020.\n\nBut it wasn't fast. In February 2021, revenue was $101.60, with 11 paid users.\n\nSo what can you steal? One: build the tool you can't find. Two: a free plan, 250 submissions a month, as your funnel.\n\n[whispers] He put effort into SEO from the early days, writing content for related searches, and today he says Google is his number 1 channel.\n\nThe honest catch? It's a crowded market, and growth is about 1% a month now.\n\n[curious] Would you build this, or buy it? Send this to the friend who keeps saying every good idea is already taken. Hack saved?",
+ "open_loop": {
+  "setup": "And stick around, because the slow, boring move behind it is the one you can actually copy.",
+  "payoff": "He put effort into SEO from the early days, writing content for related searches, and today he says Google is his number 1 channel."
+ },
+ "title": "BORING $44K/MONTH TOOL",
+ "ig_caption": "This boring contact form tool makes $44K every single month.\n✅ Build the tool you can't find\n✅ Use a free plan as your funnel\n✅ Start SEO and content on day one\nWould you build this or buy it? 👇\nSave this for later\nFollow @ihackgrowth for daily business & growth hacks",
+ "media_hints": {
+  "domain": "web3forms.com",
+  "broll": [
+   "typing on laptop",
+   "website contact form",
+   "email inbox notification"
+  ]
+ },
+ "hashtags": [
+  "#Web3Forms",
+  "#IndieHackers",
+  "#SaaS",
+  "#BootstrappedBusiness",
+  "#SEO",
+  "#WebDevelopment",
+  "#BusinessBreakdown",
+  "#AIhacks",
+  "#growth"
+ ],
+ "tag": "BUSINESS BREAKDOWN",
+ "keywords": [
+  "Web3Forms",
+  "contact",
+  "form",
+  "crypto",
+  "HTML",
+  "endpoint",
+  "inbox",
+  "server",
+  "backend",
+  "TrustMRR",
+  "MRR",
+  "Bootstrapped",
+  "steal",
+  "funnel",
+  "SEO",
+  "Google",
+  "crowded",
+  "catch"
+ ],
+ "music": "groove",
+ "hud": {
+  "label": "MRR",
+  "items": [
+   {
+    "value": "$44K",
+    "color": "gold"
+   },
+   {
+    "at": "In February",
+    "value": "$101.60",
+    "color": "red"
+   },
+   {
+    "at": "So what",
+    "value": "THE MOVE",
+    "color": "gold"
+   },
+   {
+    "at": "and today",
+    "value": "$44K",
+    "color": "green"
+   },
+   {
+    "at": "about 1%",
+    "value": "+1%/MO",
+    "color": "gold"
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "at": "This boring",
+   "tint": "warm",
+   "react": [
+    {
+     "at": "single month.",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "footage",
+     "at": "This boring",
+     "media": "lib_fingers_typing_on_laptop_keyboard",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "This boring",
+     "text": "A BORING CONTACT FORM",
+     "color": "white",
+     "outline": true
+    },
+    {
+     "type": "title_slam",
+     "at": "makes $44K",
+     "text": "$44K/MO",
+     "sub": "EVERY SINGLE MONTH",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "And stick",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "behind it",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "And stick",
+     "kind": "padlock",
+     "size": "l",
+     "caption": "THE MOVE YOU CAN COPY",
+     "caption_at": "the one you"
+    },
+    {
+     "type": "pill",
+     "at": "slow, boring move",
+     "text": "STAY FOR THE MOVE",
+     "color": "gold",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "It's called",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "It's called",
+     "media": "real_2_phone",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "It's called",
+     "text": "WEB3FORMS",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "Despite the name,",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "nothing to do",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "Despite the name,",
+     "text": "DESPITE THE NAME"
+    },
+    {
+     "type": "title_slam",
+     "at": "nothing to do",
+     "text": "NOT CRYPTO",
+     "color": "red"
+    },
+    {
+     "type": "pill",
+     "at": "with crypto.",
+     "text": "JUST CONTACT FORMS",
+     "color": "white",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "You point",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "You point",
+     "device": "web",
+     "url": "yoursite.com",
+     "app": "Your site",
+     "step": "How it works",
+     "steps": [
+      {
+       "at": "You point",
+       "view": {
+        "kind": "page",
+        "site": "yoursite.com",
+        "nav": [
+         "Home",
+         "Work",
+         "Contact"
+        ],
+        "heading": "Contact us",
+        "sub": "Name · Email · Message",
+        "input": "",
+        "buttons": [
+         "Send"
+        ]
+       },
+       "action": {
+        "kind": "type",
+        "target": "input",
+        "text": "Hi! I'd love a quote.",
+        "at": "a plain HTML"
+       }
+      },
+      {
+       "at": "at their endpoint,",
+       "view": {
+        "kind": "page",
+        "site": "yoursite.com",
+        "nav": [
+         "Home",
+         "Work",
+         "Contact"
+        ],
+        "heading": "Contact us",
+        "sub": "Name · Email · Message",
+        "input": "Hi! I'd love a quote.",
+        "buttons": [
+         "Send"
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "Send",
+        "at": "their endpoint,"
+       }
+      },
+      {
+       "at": "and submissions land",
+       "view": {
+        "kind": "mail",
+        "url": "mail.google.com",
+        "folder": "Inbox",
+        "toolbar": [
+         "Archive",
+         "Delete"
+        ],
+        "rows": [
+         {
+          "from": "Web3Forms",
+          "subject": "New form submission",
+          "meta": "now",
+          "unread": true
+         },
+         {
+          "from": "Team",
+          "subject": "Weekly sync notes",
+          "meta": "Mon"
+         },
+         {
+          "from": "Billing",
+          "subject": "Your receipt",
+          "meta": "Sun"
+         }
+        ]
+       },
+       "action": {
+        "kind": "point",
+        "target": "New form submission",
+        "at": "email inbox."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "No server,",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "strike_list",
+     "at": "No server,",
+     "items": [
+      {
+       "text": "YOUR OWN SERVER",
+       "at": "No server,"
+      },
+      {
+       "text": "BACKEND CODE",
+       "at": "no backend code."
+      }
+     ]
+    },
+    {
+     "type": "stat_row",
+     "at": "Developers and",
+     "cards": [
+      {
+       "label": "WHO PAYS",
+       "value": "DEVS",
+       "at": "Developers and",
+       "ill": "laptop"
+      },
+      {
+       "label": "FOR",
+       "value": "VOLUME",
+       "at": "pay for volume",
+       "color": "gold"
+      },
+      {
+       "label": "AND",
+       "value": "UPLOADS",
+       "at": "and uploads.",
+       "color": "gold"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "These numbers",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "These numbers",
+     "media": "real_1_web",
+     "tall": true
+    },
+    {
+     "type": "pill",
+     "at": "verified on TrustMRR:",
+     "text": "VERIFIED ON TRUSTMRR",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "$44K MRR,",
+   "tint": "green",
+   "react": [
+    {
+     "at": "412,000 users.",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "$44K MRR,",
+     "kind": "coins",
+     "act": "fill",
+     "act_at": "$44K MRR,",
+     "count": 44,
+     "caption": "$44K MRR",
+     "caption_at": "$44K MRR,"
+    },
+    {
+     "type": "stat_row",
+     "at": "$45K in",
+     "cards": [
+      {
+       "label": "LAST 30 DAYS",
+       "value": "$45K",
+       "at": "$45K in",
+       "color": "gold"
+      },
+      {
+       "label": "ACTIVE SUBS",
+       "value": "3,204",
+       "at": "3,204 active"
+      },
+      {
+       "label": "USERS",
+       "value": "412,000",
+       "at": "about 412,000",
+       "color": "green",
+       "glow": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Bootstrapped, started",
+   "elements": [
+    {
+     "type": "headline",
+     "at": "Bootstrapped, started",
+     "text": "BOOTSTRAPPED",
+     "size": "l",
+     "ill": "seedling",
+     "sub": "SINCE DEC 2020",
+     "sub_at": "December 2020."
+    }
+   ]
+  },
+  {
+   "at": "But it wasn't",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "But it wasn't",
+     "media": "lib_clock_ticking_and_person_typing",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "But it wasn't",
+     "text": "IT WASN'T FAST",
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "at": "In February",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "label",
+     "at": "In February",
+     "text": "FEB 2021"
+    },
+    {
+     "type": "big_number",
+     "at": "revenue was",
+     "value": "$101.60",
+     "color": "red",
+     "ill": "coin",
+     "note": "11 PAID USERS",
+     "note_at": "11 paid",
+     "note_color": "muted"
+    }
+   ]
+  },
+  {
+   "at": "So what",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "One: build",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "So what",
+     "kind": "padlock",
+     "act": "open",
+     "act_at": "you steal?",
+     "caption": "WHAT TO STEAL",
+     "caption_at": "you steal?"
+    },
+    {
+     "type": "steps",
+     "at": "One: build",
+     "items": [
+      {
+       "text": "BUILD THE TOOL YOU CAN'T FIND",
+       "at": "One: build",
+       "ill": "magnifying_glass_tilted_left"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Two: a free",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Two: a free",
+     "media": "real_3_phone",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "Two: a free",
+     "text": "#2 FREE FOREVER PLAN",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "250 submissions",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "pile",
+     "at": "250 submissions",
+     "ill": "envelope",
+     "count": 30,
+     "value": "250/MO",
+     "value_at": "250 submissions",
+     "color": "gold",
+     "label": "FREE SUBMISSIONS"
+    },
+    {
+     "type": "pill",
+     "at": "as your funnel.",
+     "text": "YOUR FUNNEL",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "He put effort",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "He put effort",
+     "device": "web",
+     "url": "google.com",
+     "app": "Google",
+     "step": "The move · SEO",
+     "steps": [
+      {
+       "at": "He put effort",
+       "view": {
+        "kind": "search",
+        "query": "",
+        "tabs": [
+         "All",
+         "Images",
+         "Videos",
+         "News"
+        ],
+        "active_tab": "All",
+        "results": []
+       },
+       "action": {
+        "kind": "type",
+        "target": "search",
+        "text": "html contact form",
+        "at": "writing content"
+       }
+      },
+      {
+       "at": "related searches,",
+       "view": {
+        "kind": "search",
+        "query": "html contact form",
+        "tabs": [
+         "All",
+         "Images",
+         "Videos",
+         "News"
+        ],
+        "active_tab": "All",
+        "results": [
+         {
+          "title": "Contact Forms for Modern Websites",
+          "url": "web3forms.com",
+          "snippet": "No server or backend code needed."
+         },
+         {
+          "title": "HTML form basics",
+          "url": "developer.example.com",
+          "snippet": "How forms send data."
+         },
+         {
+          "title": "Free form templates",
+          "url": "templates.example.com",
+          "snippet": "Copy-paste contact forms."
+         }
+        ]
+       },
+       "action": {
+        "kind": "point",
+        "target": "Contact Forms for Modern Websites",
+        "at": "related searches,"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "and today he",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "headline",
+     "at": "and today he",
+     "text": "GOOGLE",
+     "size": "l",
+     "ill": "magnifying_glass_tilted_right",
+     "sub": "#1 CHANNEL",
+     "sub_at": "number 1 channel.",
+     "sub_color": "green"
+    }
+   ]
+  },
+  {
+   "at": "The honest catch?",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "label",
+     "at": "The honest catch?",
+     "text": "THE HONEST CATCH"
+    },
+    {
+     "type": "stat_row",
+     "at": "crowded market,",
+     "cards": [
+      {
+       "label": "MARKET",
+       "value": "CROWDED",
+       "at": "crowded market,",
+       "color": "red",
+       "ill": "warning"
+      },
+      {
+       "label": "GROWTH NOW",
+       "value": "~1%/MO",
+       "at": "about 1%",
+       "color": "gold"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Would you build",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Would you build",
+     "media": "lib_man_pointing_at_camera",
+     "full": true
+    },
+    {
+     "type": "headline",
+     "at": "Would you build",
+     "text": "BUILD OR BUY?",
+     "size": "l",
+     "sub": "COMMENT BELOW",
+     "sub_at": "or buy it?"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "Send this",
+  "line1": "Send this to",
+  "line1_at": "Send this",
+  "line2": "the 'it's taken' friend",
+  "line2_at": "already taken."
+ },
+ "endcard": {
+  "title": "Hack saved?",
+  "terminal": "> form.submitted · $44k mrr"
+ },
+ "media": [
+  {
+   "id": "real_1_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-05_2001/real_1_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-05_2001/real_1_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: trustmrr.com",
+   "desc": "REAL desktop screen recording, pushes in on the gold-outlined part — Desktop TrustMRR listing for Web3Forms (breadcrumb TrustMRR > Startup > Web3Forms, 'Contact Form API for Modern Websites'). Stat cards: All-time revenue $359,894 (Ranked #268 on TrustMRR); MRR $44,110 (3204 active subscriptions); Founder Surjith S... (10.2k followers on X); Founded December 2020, In [Screen: trustmrr.com]"
+  },
+  {
+   "id": "real_2_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-05_2001/real_2_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-05_2001/real_2_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: web3forms.com",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the page (no highlight) — Phone capture of the web3forms.com hero on a dark navy background. Headline 'Contact Forms for Modern Websites'. Subtext: 'Receive your html contact form submissions directly in your email inbox using our contact form api service. No server or backend code needed. It's free!'. Pink-orange button 'Cr [Screen: web3forms.com]"
+  },
+  {
+   "id": "real_3_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-05_2001/real_3_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-05_2001/real_3_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: web3forms.com",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the page (no highlight) — Phone capture of the Web3Forms Pricing section on a dark background. Heading 'Pricing', subheading 'Free for Ever. Only Pay for Extra Features.' Billing toggle 'Monthly Billing' / 'Yearly Billing' (yearly selected) with an '2 months free' badge. The PERSONAL plan is 'Free', with the features: Unlimi [Screen: web3forms.com]"
+  },
+  {
+   "id": "lib_camera_moving_down_server_corridor",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "credit": "",
+   "file": "camera_moving_down_server_corridor.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow forward push down a hazy, fog-filled data center aisle lined with server racks that glow with blue and amber status lights, giving a moody, futuristic feel. Good for: A script line about the infrastructure behind AI, such as cloud computing, model training, heavy compute, data storage, or 'what happens behind the scenes'."
+  },
+  {
+   "id": "lib_clock_ticking_and_person_typing",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "credit": "",
+   "file": "clock_ticking_and_person_typing.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A rack-focus shot moves from a close-up of a black twin-bell alarm clock with ticking hands to a bearded man in a light polo typing on a laptop in a dim room, giving a tense, time-pressured mood. Good for: lines about deadlines, time slipping away, long hours of manual work, or the pressure of slow, tedious tasks before an AI tool speeds things up"
+  },
+  {
+   "id": "lib_colleagues_collaborating_around",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "credit": "",
+   "file": "colleagues_collaborating_around.mp4",
+   "frames": 126,
+   "desc": "B-roll (4.2s, VERTICAL 9:16 — best as full: true): colleagues collaborating around Good for: "
+  },
+  {
+   "id": "lib_content_creator_sets_up_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "credit": "",
+   "file": "content_creator_sets_up_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt stands behind a ring light with a phone on a tripod, adjusting the setup while the camera slowly pushes in until his face fills the frame, with a calm, focused mood and moody blue ambient lighting in the background. Good for: setting up to create content, getting started as a creator, or preparing equipment before recording a tutorial"
+  },
+  {
+   "id": "lib_fingers_typing_on_laptop_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "credit": "",
+   "file": "fingers_typing_on_laptop_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): Close-up over-the-shoulder shot of a person typing on a backlit laptop keyboard, with a blurred blue screen in the background and a warm, focused, productive mood. Good for: lines about getting started, writing prompts or code, doing focused work at the computer, or the hands-on steps of a tutorial"
+  },
+  {
+   "id": "lib_hand_scrolling_smartphone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_scrolling_smartphone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_scrolling_smartphone.mp4",
+   "credit": "",
+   "file": "hand_scrolling_smartphone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a bearded young man in a white t-shirt looking intently at a smartphone in dim, warm lighting, with the camera slowly pushing in until his focused, slightly tense gaze moves from the screen to the lens. Good for: a script line about being glued to your phone, doubt or tension before a reveal, or the moment of realizing something while checking an app or notification"
+  },
+  {
+   "id": "lib_hands_holding_credit_card_near",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hands_holding_credit_card_near.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hands_holding_credit_card_near.mp4",
+   "credit": "",
+   "file": "hands_holding_credit_card_near.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): hands holding credit card near Good for: "
+  },
+  {
+   "id": "lib_man_comparing_phone_and_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "credit": "",
+   "file": "man_comparing_phone_and_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): man comparing phone and laptop Good for: "
+  },
+  {
+   "id": "lib_man_looking_at_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "credit": "",
+   "file": "man_looking_at_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt scowls with intense focus at a laptop in a dim, warmly lit room, then closes his eyes and rubs his hand near his chin in tired frustration. Good for: frustration with slow or difficult work, such as struggling with a tedious task, debugging, or burning out late at night before finding a better way"
+  },
+  {
+   "id": "lib_man_opens_laptop_in_room",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "credit": "",
+   "file": "man_opens_laptop_in_room.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt sits at a laptop in a dimly lit, warmly lit room, and his focused, tense expression builds as he leans toward the screen, which shows blurry blue diagram or flowchart-style blocks, with his fists clenched near his chin in the middle frame. Good for: intense concentration or deep work, such as debugging, building an AI workflow, or struggling with a complex problem"
+  },
+  {
+   "id": "lib_man_pointing_at_camera",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_pointing_at_camera.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_pointing_at_camera.mp4",
+   "credit": "",
+   "file": "man_pointing_at_camera.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a dark henley sits in a car seat working on a laptop with a focused look, then looks up with a warm smile and points playfully at the camera in a confident, friendly mood. Good for: a line that moves from focused work or problem-solving to a direct call to action, such as 'here's the trick you need to try' or 'now it's your turn'"
+  },
+  {
+   "id": "lib_man_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "man_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt stares intently at a laptop screen with blurry blue UI elements floating in front of the camera, then grimaces in frustration and mouths a reaction, and finally tilts his head back in exhausted resignation in a dim, warmly lit room. Good for: frustration with slow, tedious, or failing work, such as waiting on a slow tool, hitting an error, or being exhausted by manual tasks before introducing an AI solution"
+  },
+  {
+   "id": "lib_man_shaking_head_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "credit": "",
+   "file": "man_shaking_head_at_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits in a dark chair looking down at his phone, and his expression shifts from neutral to scrunched-up frustration or confusion, then to a displeased, worried look as he lowers the phone. Good for: frustration or disappointment with a tool or app that isn't working, slow or confusing results, or a bad surprise while checking your phone"
+  },
+  {
+   "id": "lib_man_smiling_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "credit": "",
+   "file": "man_smiling_at_phone.mp4",
+   "frames": 135,
+   "desc": "B-roll (4.5s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a blue smartphone, his expression shifting from neutral to a furrowed-brow frown of confusion and frustration. Good for: a line about frustration with confusing apps or slow tools, or the moment someone hits a problem and doesn't know what to do next"
+  },
+  {
+   "id": "lib_man_studying_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "credit": "",
+   "file": "man_studying_with_laptop.mp4",
+   "frames": 132,
+   "desc": "B-roll (4.4s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits at a desk behind a laptop with a furrowed brow and a frustrated, concentrated look, first staring at the screen, then looking down at an open notebook and writing with a pen, with a warm blurred lamp glowing in the background. Good for: a script line about struggling to understand something complex, frustration with slow or manual work, or the pain of learning a new tool the hard way"
+  },
+  {
+   "id": "lib_man_watching_laptop_waiting",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "credit": "",
+   "file": "man_watching_laptop_waiting.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits at a laptop in a dimly lit room with warm lamp light, resting his chin on his fist with a focused, pensive look, and the camera pushes in closer across the three frames. Good for: a script line about deep thinking, researching or problem-solving, or weighing a decision before trying an AI tool"
+  },
+  {
+   "id": "lib_person_drinking_coffee_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "credit": "",
+   "file": "person_drinking_coffee_with_laptop.mp4",
+   "frames": 93,
+   "desc": "B-roll (3.1s, VERTICAL 9:16 — best as full: true): A bearded man in a green polo sits at a laptop in a modern industrial-style open office, lifting a white cup to his mouth and sipping a hot drink while looking down at the screen, in a calm, focused mood. Good for: a line about taking a breather while the AI does the work, a morning work routine, waiting for a process to finish, or the calm of an automated workflow"
+  },
+  {
+   "id": "lib_person_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "person_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a laptop, his expression moving from concern to a deep frown with glowing blue tear-like effects on his cheeks, then to eyes shut in stress or exhaustion; the mood is frustrated and overwhelmed. Good for: A script line about frustration or overwhelm with a tough task, such as struggling with confusing tools, wasting hours on manual work, or being stuck before finding an AI solution."
+  },
+  {
+   "id": "lib_person_speaking_into_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "credit": "",
+   "file": "person_speaking_into_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt takes a phone call in a modern industrial office with exposed concrete ceilings, moving from a serious, concerned look to a worried talking expression and ending with a relieved, confident smile at the camera. Good for: a script line about getting a surprising call or news, a problem being solved, or the moment of relief after a stressful issue"
+  },
+  {
+   "id": "lib_professional_working_on_laptop_late",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "credit": "",
+   "file": "professional_working_on_laptop_late.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A tired bearded young man in a maroon t-shirt sits at a laptop in a dim apartment at night, resting his head on his hand, rubbing his eyes, then glumly lifting a white coffee mug, with blurred city lights glowing behind him through the window. Good for: A script line about burnout, late-night grinding, or frustration with slow manual work that AI tools can speed up, e.g. 'still stuck doing this by hand at midnight?'"
+  },
+  {
+   "id": "lib_robotic_hand_typing_on_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "credit": "",
+   "file": "robotic_hand_typing_on_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a black robotic hand with segmented, mechanical fingers lowering onto a backlit laptop keyboard and starting to type, shot at shallow depth of field in a warm, softly lit, modern workspace. Good for: A script line about AI doing the work for you, automating repetitive tasks, or AI taking over typing and writing, such as 'let AI handle the busywork' or 'AI writes it for you'."
+  }
+ ],
+ "style": "hisaab",
+ "topic": "Business breakdown: Web3Forms — Contact Form API for Modern Websites",
+ "pick": {
+  "topic": "Business breakdown: Web3Forms — Contact Form API for Modern Websites",
+  "tool": "Web3Forms",
+  "format": "business",
+  "angle": "A boring contact-form API makes about $44K/month, and the site is a single simple product anyone can look at"
+ },
+ "inspired_by": {
+  "url": "https://trustmrr.com/startup/web3forms",
+  "owner": "trustmrr",
+  "plays": 0,
+  "likes": 0,
+  "comments": 0
+ },
+ "research": {
+  "verdict": "ok",
+  "tool": "Web3Forms",
+  "what_it_does": "A contact form API: you point a plain HTML form at their endpoint with an access key, and submissions land in your email inbox. You need no server or backend code.",
+  "who_pays": "Mostly web developers, freelancers and agencies who build static or Jamstack sites. They upgrade for higher volume, file uploads, autoresponders and a longer submission history.",
+  "pricing": "Free plan: 250 submissions/month, unlimited forms and domains. Pro: $15/month or $149/year for 10,000 submissions/month. Agency: $39/month or $399/year for 20,000 submissions/month. A yearly-only $49/year plan with 5,000 submissions/month is by application, for students, startups and non-profits. These figures come from third-party readings of web3forms.com/pricing dated Oct 2026, not the page itself. The page shows prices in the visitor's local currency, so the writer should check it before filming.",
+  "growth": [
+   "Launch: the founder launched on Twitter and shared it in a few Reddit and Telegram groups, which gave him beta testers (Indie Hustle interview). He said it then grew 'really slowly' and that he didn't actively promote it apart from sharing stats on Twitter.",
+   "SEO: the founder says he put effort into SEO from the early days. He created content so Google could pick up many related keywords, and says Google is currently the #1 acquisition channel (Indie Hustle interview).",
+   "SEO, long-term content: Starter Story says he planned a long-term game of adding articles and free resources such as contact form templates to attract people searching for a contact form for static websites.",
+   "Build in public: his Indie Hackers log has monthly transparency reports. The Feb 2021 report listed 2.76k page views, 1.5k unique visitors, 205 free users, 11 paid users (+2) and $101.60 revenue (+12.7%).",
+   "Paid promo test: on Jan 20, 2021 he promoted it on the Instagram page 'Meet the Dev'. The page owner had approached him, and he tried it as a test (Indie Hackers log).",
+   "Slow early revenue: Gaps (citing the founder) says that by mid-2023 he had reached $5,000 in annual recurring revenue. By Nov 2024 it had 100+ paying customers and $1,600 MRR. That figure conflicts with the Stripe/Paddle-verified $44k MRR now, so treat the Gaps number as stale or incomplete.",
+   "Distribution via the pricing model: there is a free tier with 250 submissions/month. AlternativeTo and review sites describe it as the largest metered monthly free tier in the category. Those are third-party comparisons, not founder statements."
+  ],
+  "founder_story": [
+   "Surjith S M is a front-end developer and designer from Kerala, India, and an indie maker since about 2015. He started out freelancing and selling website templates on Envato Market (AI4Chat, Indie Maker List).",
+   "He says he built it out of his own need. Jamstack static sites could be hosted free, but there was no good way to add a contact form, and he found nothing that fit, so he built his own (Indie Hustle).",
+   "He built a proof of concept and tested it over the Christmas holidays, then opened the beta in December 2020 (AI4Chat, Indie Hackers). Indie Maker List lists it as one of his active products, alongside Web3Templates, Astroship and Stablo.",
+   "He is the sole listed founder, and TrustMRR lists no funding (bootstrapped)."
+  ],
+  "lessons": [
+   "Build the tool you can't find. He was a template seller who needed a form backend for static sites, found nothing that fit, and built it. His own use case was the first market.",
+   "Start SEO and content on day one, even if it's slow. He says early SEO effort now makes Google his #1 channel. The curve was slow: about $100/mo early on, $5K ARR by mid-2023, and $44K MRR in 2026.",
+   "A generous free tier can work as the funnel. 250 free submissions a month and unlimited forms drive adoption among developers, and the paid plans sell volume, uploads and history. TrustMRR counts about 412,000 users against 3,204 active subscriptions."
+  ],
+  "criticism": [
+   "Crowded market: Formspree, Formbold, Static Forms, Getform/Forminit, Netlify Forms and splitforms all compete, and several publish pages aimed at Web3Forms users. Competitors also say it gives less volume per dollar than they do, and note that file uploads and autoresponders need the Pro plan.",
+   "Revenue is not profit. TrustMRR hides the margin, though one cached snapshot of its page showed a '95% profit margin'. That is unverified here.",
+   "Growth is now flat, about 1% month-over-month on TrustMRR.",
+   "Free users heavily outnumber paying ones (about 412,000 users vs 3,204 subscriptions), and the free tier limits history to 30 days.",
+   "Early traction was very slow. The business took years to reach meaningful revenue."
+  ],
+  "facts": [
+   "TrustMRR (Stripe-verified, via Paddle API key): $44,110 MRR, $45,577 revenue in the last 30 days, $359,894 all-time, 3,204 active subscriptions, rank #268, about 412,000 users, founded December 2020, bootstrapped.",
+   "Indie Hackers log: Feb 2021 revenue was $101.60 with 11 paid users and 205 free users.",
+   "Starter Story headline: 'How Web3Forms Reached 3,000 Users With a Simple Contact Form Solution'. Its revenue figures ($417K/month, $5M/year, started 2019) are clearly wrong, so don't use them.",
+   "The Indie Hustle interview is titled 'A no-code side project making $10,000' and covers annual revenue at the time. It is undated in the results, so verify before quoting.",
+   "TrustMRR lists the stack as Next.js, Tailwind, Vercel, Hetzner, Cloudflare and Paddle. Starter Story says it was built as a serverless API on AWS.",
+   "The 7-day refund policy comes from a third-party summary (form2lead). Verify on the page.",
+   "Domain Rating is 86/100 (TrustMRR)."
+  ],
+  "do_not_claim": [
+   "Profit or profit margin (hidden on TrustMRR, and the 95% figure is unverified)",
+   "Team size beyond 'founder-led' (only one founder is listed, and no source confirms no employees)",
+   "That the founder has a large X following as a launch driver (TrustMRR lists 10.2k followers, but no source credits X for the growth)",
+   "Any Starter Story revenue numbers ($417K/month, $5M/year, 2019 start)",
+   "Exact current prices unless the pricing page is checked (they show in local currency, and third parties list different figures such as $12, $13 or $18/mo)",
+   "A specific viral moment or Product Hunt launch (none found)",
+   "That the Instagram promo produced customers (the result wasn't found)",
+   "Total time to reach $44K MRR as a single clean timeline (the Gaps $1.6K MRR from Nov 2024 conflicts with the current verified numbers)"
+  ],
+  "real_pages": [
+   {
+    "url": "https://trustmrr.com/startup/web3forms",
+    "show": "$44,110",
+    "kind": "site"
+   },
+   {
+    "url": "https://web3forms.com",
+    "show": "",
+    "kind": "site"
+   },
+   {
+    "url": "https://web3forms.com/pricing",
+    "show": "250 submissions",
+    "kind": "site"
+   },
+   {
+    "url": "https://web3forms.com/pricing",
+    "show": "$149",
+    "kind": "site"
+   }
+  ],
+  "sources": [
+   "https://trustmrr.com/startup/web3forms",
+   "https://www.indiehustle.co/p/a-simple-contact-form-is-making-10000",
+   "https://indiehackers.com/product/web3forms/beta-stats-after-1-week-3-paying-customers--MPTvnaV_5QiKHX6HpRo",
+   "https://www.indiehackers.com/product/web3forms/revenue",
+   "https://www.starterstory.com/web3forms-breakdown",
+   "https://agentdeals.dev/vendor/web3forms",
+   "https://splitforms.com/reviews/web3forms",
+   "https://www.staticforms.dev/blog/web3forms-vs-static-forms-comparison",
+   "https://gaps.com/web-development/",
+   "https://www.ai4chat.co/blog/from-code-to-cash-how-web3forms-is-redefining-contact-forms",
+   "https://indiemakerlist.com/p/surjith-s-m/"
+  ],
+  "notes": "I couldn't open the official pricing page. The pricing and the 'show' strings come from third-party summaries, so confirm the exact on-page text ('$149', '250 submissions', 'It's free!') before recording. Prices display in local currency by visitor location. TrustMRR's 'Founder' line shows his X handle as @surjithctly. The 'Web3' in the name is not about crypto: the product is a plain HTML form backend, so don't pitch it as a crypto or blockchain tool. The Indie Hustle and Indie Hackers sources are older, from 2021 to about 2024, so frame the growth as a slow build over about 6 years. Starter Story says 'Reached 3,000 Users' while TrustMRR shows 3,204 subscriptions, so don't mix users and subscribers.",
+  "_searched": 4,
+  "trustmrr": {
+   "name": "Web3Forms",
+   "one_liner": "Contact Form API for Modern Websites",
+   "website": "https://web3forms.com",
+   "founder": "Surjith S M",
+   "founder_x": "",
+   "founded": "December 2020",
+   "location": "India",
+   "category": "Dev Tools, Saas, No Code, Crypto Web3",
+   "audience": "Developers using modern web technologies (B2C, ~412,000 users)",
+   "pricing": "Free: 250 submissions/month, Paid plans available",
+   "revenue_last_30_days": "$45,577",
+   "revenue_all_time": "$359,894",
+   "mrr": "$44,110",
+   "growth_mom": "1%",
+   "active_subscriptions": "3204",
+   "rank": "#268",
+   "for_sale": "",
+   "verified_by": "Paddle API key",
+   "last_updated": "Nov 5, 2026, 10:09 AM",
+   "other": [
+    "Founder has 10.2k followers on X",
+    "Growth of 1% is shown as 'vs. prev period'",
+    "Profit margin shown as 'XX%' (hidden)",
+    "Funding: Bootstrapped",
+    "Domain Rating: 86/100 (web3forms.com)",
+    "Value proposition: Receive your html contact form submissions directly in your email inbox using our contact form api service. No server or backend code needed. It's free!",
+    "Problem solved: Setting up form is a pain. Web3Forms works without any server or backend code like PHP, allowing users to receive contact form data without using backend code or databases.",
+    "Tech stack frontend: Next.js, Tailwind CSS",
+    "Tech stack backend: Vercel, Hetzner, Cloudflare, Paddle",
+    "Additional info: GDPR Compliant, AWS Powered, Secure & Encrypted"
+   ],
+   "trustmrr_url": "https://trustmrr.com/startup/web3forms"
+  },
+  "say_numbers_as": [
+   "$45,577 (can be said as: $45K, $46K, $50K)",
+   "$359,894 (can be said as: $359K, $360K)",
+   "$44,110 (can be said as: $40K, $44K)"
+  ]
+ },
+ "kind": "business",
+ "episode": 13,
+ "_ident": {
+  "at": 5.1,
+  "dur": 1.5,
+  "title": "AI HACKS",
+  "type": 0.42,
+  "sub": "EP 13 · BUSINESS BREAKDOWN"
+ },
+ "timeline": {
+  "words": [
+   [
+    "This",
+    0.08
+   ],
+   [
+    "boring",
+    0.4
+   ],
+   [
+    "contact",
+    0.8
+   ],
+   [
+    "form",
+    1.2
+   ],
+   [
+    "tool",
+    1.44
+   ],
+   [
+    "makes",
+    1.76
+   ],
+   [
+    "$44K",
+    2.08
+   ],
+   [
+    "every",
+    2.88
+   ],
+   [
+    "single",
+    4.16
+   ],
+   [
+    "month.",
+    4.48
+   ],
+   [
+    "And",
+    6.62
+   ],
+   [
+    "stick",
+    6.78
+   ],
+   [
+    "around,",
+    6.94
+   ],
+   [
+    "because",
+    7.553
+   ],
+   [
+    "the",
+    7.78
+   ],
+   [
+    "slow,",
+    8.1
+   ],
+   [
+    "boring",
+    8.673
+   ],
+   [
+    "move",
+    9.06
+   ],
+   [
+    "behind",
+    9.26
+   ],
+   [
+    "it",
+    9.7
+   ],
+   [
+    "is",
+    9.9
+   ],
+   [
+    "the",
+    10.02
+   ],
+   [
+    "one",
+    10.14
+   ],
+   [
+    "you",
+    10.3
+   ],
+   [
+    "can",
+    10.5
+   ],
+   [
+    "actually",
+    10.7
+   ],
+   [
+    "copy.",
+    11.34
+   ],
+   [
+    "It's",
+    11.9
+   ],
+   [
+    "called",
+    12.26
+   ],
+   [
+    "Web3Forms.",
+    12.54
+   ],
+   [
+    "Despite",
+    14.1
+   ],
+   [
+    "the",
+    14.34
+   ],
+   [
+    "name,",
+    14.46
+   ],
+   [
+    "it",
+    14.9
+   ],
+   [
+    "has",
+    15.02
+   ],
+   [
+    "nothing",
+    15.5
+   ],
+   [
+    "to",
+    15.7
+   ],
+   [
+    "do",
+    15.82
+   ],
+   [
+    "with",
+    15.9
+   ],
+   [
+    "crypto.",
+    16.26
+   ],
+   [
+    "You",
+    16.78
+   ],
+   [
+    "point",
+    16.98
+   ],
+   [
+    "a",
+    17.18
+   ],
+   [
+    "plain",
+    17.34
+   ],
+   [
+    "HTML",
+    17.74
+   ],
+   [
+    "form",
+    18.34
+   ],
+   [
+    "at",
+    18.54
+   ],
+   [
+    "their",
+    18.7
+   ],
+   [
+    "endpoint,",
+    18.86
+   ],
+   [
+    "and",
+    19.58
+   ],
+   [
+    "submissions",
+    19.78
+   ],
+   [
+    "land",
+    20.38
+   ],
+   [
+    "in",
+    20.7
+   ],
+   [
+    "your",
+    20.9
+   ],
+   [
+    "email",
+    21.18
+   ],
+   [
+    "inbox.",
+    21.62
+   ],
+   [
+    "No",
+    22.22
+   ],
+   [
+    "server,",
+    22.46
+   ],
+   [
+    "no",
+    23.1
+   ],
+   [
+    "backend",
+    23.26
+   ],
+   [
+    "code.",
+    23.66
+   ],
+   [
+    "Developers",
+    24.3
+   ],
+   [
+    "and",
+    24.7
+   ],
+   [
+    "agencies",
+    24.86
+   ],
+   [
+    "pay",
+    25.5
+   ],
+   [
+    "for",
+    25.7
+   ],
+   [
+    "volume",
+    26.06
+   ],
+   [
+    "and",
+    26.38
+   ],
+   [
+    "uploads.",
+    26.74
+   ],
+   [
+    "These",
+    27.553
+   ],
+   [
+    "numbers",
+    27.66
+   ],
+   [
+    "are",
+    28.14
+   ],
+   [
+    "verified",
+    28.58
+   ],
+   [
+    "on",
+    28.94
+   ],
+   [
+    "TrustMRR:",
+    29.26
+   ],
+   [
+    "$44K",
+    30.22
+   ],
+   [
+    "MRR,",
+    30.86
+   ],
+   [
+    "$45K",
+    32.58
+   ],
+   [
+    "in",
+    33.18
+   ],
+   [
+    "the",
+    34.02
+   ],
+   [
+    "last",
+    34.18
+   ],
+   [
+    "30",
+    34.38
+   ],
+   [
+    "days,",
+    34.78
+   ],
+   [
+    "3,204",
+    35.42
+   ],
+   [
+    "active",
+    35.58
+   ],
+   [
+    "subscriptions,",
+    37.26
+   ],
+   [
+    "and",
+    38.1
+   ],
+   [
+    "about",
+    38.22
+   ],
+   [
+    "412,000",
+    38.62
+   ],
+   [
+    "users.",
+    39.18
+   ],
+   [
+    "Bootstrapped,",
+    40.98
+   ],
+   [
+    "started",
+    41.74
+   ],
+   [
+    "December",
+    42.38
+   ],
+   [
+    "2020.",
+    42.78
+   ],
+   [
+    "But",
+    43.78
+   ],
+   [
+    "it",
+    43.9
+   ],
+   [
+    "wasn't",
+    44.06
+   ],
+   [
+    "fast.",
+    44.38
+   ],
+   [
+    "In",
+    45.18
+   ],
+   [
+    "February",
+    45.34
+   ],
+   [
+    "2021,",
+    45.82
+   ],
+   [
+    "revenue",
+    46.94
+   ],
+   [
+    "was",
+    47.34
+   ],
+   [
+    "$101.60,",
+    47.66
+   ],
+   [
+    "with",
+    50.1
+   ],
+   [
+    "11",
+    50.3
+   ],
+   [
+    "paid",
+    50.78
+   ],
+   [
+    "users.",
+    51.26
+   ],
+   [
+    "So",
+    51.98
+   ],
+   [
+    "what",
+    52.38
+   ],
+   [
+    "can",
+    52.54
+   ],
+   [
+    "you",
+    52.86
+   ],
+   [
+    "steal?",
+    53.02
+   ],
+   [
+    "One:",
+    53.86
+   ],
+   [
+    "build",
+    54.42
+   ],
+   [
+    "the",
+    54.58
+   ],
+   [
+    "tool",
+    54.7
+   ],
+   [
+    "you",
+    55.1
+   ],
+   [
+    "can't",
+    55.34
+   ],
+   [
+    "find.",
+    55.74
+   ],
+   [
+    "Two:",
+    56.34
+   ],
+   [
+    "a",
+    56.74
+   ],
+   [
+    "free",
+    56.86
+   ],
+   [
+    "plan,",
+    57.1
+   ],
+   [
+    "250",
+    57.62
+   ],
+   [
+    "submissions",
+    57.82
+   ],
+   [
+    "a",
+    58.98
+   ],
+   [
+    "month,",
+    59.1
+   ],
+   [
+    "as",
+    59.58
+   ],
+   [
+    "your",
+    59.74
+   ],
+   [
+    "funnel.",
+    59.9
+   ],
+   [
+    "He",
+    60.597
+   ],
+   [
+    "put",
+    60.7
+   ],
+   [
+    "effort",
+    60.94
+   ],
+   [
+    "into",
+    61.34
+   ],
+   [
+    "SEO",
+    61.66
+   ],
+   [
+    "from",
+    62.14
+   ],
+   [
+    "the",
+    62.3
+   ],
+   [
+    "early",
+    62.46
+   ],
+   [
+    "days,",
+    62.78
+   ],
+   [
+    "writing",
+    63.54
+   ],
+   [
+    "content",
+    63.94
+   ],
+   [
+    "for",
+    64.22
+   ],
+   [
+    "related",
+    64.5
+   ],
+   [
+    "searches,",
+    64.78
+   ],
+   [
+    "and",
+    65.5
+   ],
+   [
+    "today",
+    65.74
+   ],
+   [
+    "he",
+    66.06
+   ],
+   [
+    "says",
+    66.34
+   ],
+   [
+    "Google",
+    66.54
+   ],
+   [
+    "is",
+    66.98
+   ],
+   [
+    "his",
+    67.1
+   ],
+   [
+    "number",
+    67.5
+   ],
+   [
+    "1",
+    67.74
+   ],
+   [
+    "channel.",
+    67.98
+   ],
+   [
+    "The",
+    68.66
+   ],
+   [
+    "honest",
+    68.78
+   ],
+   [
+    "catch?",
+    69.1
+   ],
+   [
+    "It's",
+    69.66
+   ],
+   [
+    "a",
+    69.82
+   ],
+   [
+    "crowded",
+    70.02
+   ],
+   [
+    "market,",
+    70.5
+   ],
+   [
+    "and",
+    70.94
+   ],
+   [
+    "growth",
+    71.1
+   ],
+   [
+    "is",
+    71.54
+   ],
+   [
+    "about",
+    71.66
+   ],
+   [
+    "1%",
+    72.06
+   ],
+   [
+    "a",
+    72.58
+   ],
+   [
+    "month",
+    72.7
+   ],
+   [
+    "now.",
+    72.94
+   ],
+   [
+    "Would",
+    73.553
+   ],
+   [
+    "you",
+    73.66
+   ],
+   [
+    "build",
+    73.82
+   ],
+   [
+    "this,",
+    74.14
+   ],
+   [
+    "or",
+    74.66
+   ],
+   [
+    "buy",
+    74.94
+   ],
+   [
+    "it?",
+    75.18
+   ],
+   [
+    "Send",
+    75.7
+   ],
+   [
+    "this",
+    75.9
+   ],
+   [
+    "to",
+    76.02
+   ],
+   [
+    "the",
+    76.14
+   ],
+   [
+    "friend",
+    76.34
+   ],
+   [
+    "who",
+    76.54
+   ],
+   [
+    "keeps",
+    76.78
+   ],
+   [
+    "saying",
+    77.153
+   ],
+   [
+    "every",
+    77.5
+   ],
+   [
+    "good",
+    77.82
+   ],
+   [
+    "idea",
+    77.98
+   ],
+   [
+    "is",
+    78.38
+   ],
+   [
+    "already",
+    78.62
+   ],
+   [
+    "taken.",
+    79.02
+   ],
+   [
+    "Hack",
+    79.78
+   ],
+   [
+    "saved?",
+    79.98
+   ]
+  ],
+  "duration": 80.64,
+  "ident": {
+   "at": 5.1,
+   "dur": 1.5,
+   "title": "AI HACKS",
+   "type": 0.42,
+   "sub": "EP 13 · BUSINESS BREAKDOWN"
+  },
+  "scenes": [
+   {
+    "t": 0.0,
+    "shows": [
+     "footage:lib_fingers_typing_on_laptop_keyboard",
+     "pill:A BORING CONTACT FORM",
+     "title_slam:$44K/MO"
+    ]
+   },
+   {
+    "t": 6.62,
+    "shows": [
+     "object3d:",
+     "pill:STAY FOR THE MOVE"
+    ]
+   },
+   {
+    "t": 11.9,
+    "shows": [
+     "footage:real_2_phone",
+     "pill:WEB3FORMS"
+    ]
+   },
+   {
+    "t": 14.1,
+    "shows": [
+     "label:DESPITE THE NAME",
+     "title_slam:NOT CRYPTO",
+     "pill:JUST CONTACT FORMS"
+    ]
+   },
+   {
+    "t": 16.78,
+    "shows": [
+     "screen:How it works"
+    ]
+   },
+   {
+    "t": 22.22,
+    "shows": [
+     "strike_list:",
+     "stat_row:"
+    ]
+   },
+   {
+    "t": 27.55,
+    "shows": [
+     "footage:real_1_web",
+     "pill:VERIFIED ON TRUSTMRR"
+    ]
+   },
+   {
+    "t": 30.22,
+    "shows": [
+     "object3d:",
+     "stat_row:"
+    ]
+   },
+   {
+    "t": 40.98,
+    "shows": [
+     "headline:BOOTSTRAPPED"
+    ]
+   },
+   {
+    "t": 43.78,
+    "shows": [
+     "footage:lib_clock_ticking_and_person_typing",
+     "pill:IT WASN'T FAST"
+    ]
+   },
+   {
+    "t": 45.18,
+    "shows": [
+     "label:FEB 2021",
+     "big_number:"
+    ]
+   },
+   {
+    "t": 51.98,
+    "shows": [
+     "object3d:",
+     "steps:"
+    ]
+   },
+   {
+    "t": 56.34,
+    "shows": [
+     "footage:real_3_phone",
+     "pill:#2 FREE FOREVER PLAN"
+    ]
+   },
+   {
+    "t": 57.62,
+    "shows": [
+     "pile:",
+     "pill:YOUR FUNNEL"
+    ]
+   },
+   {
+    "t": 60.6,
+    "shows": [
+     "screen:The move · SEO"
+    ]
+   },
+   {
+    "t": 65.5,
+    "shows": [
+     "headline:GOOGLE"
+    ]
+   },
+   {
+    "t": 68.66,
+    "shows": [
+     "label:THE HONEST CATCH",
+     "stat_row:"
+    ]
+   },
+   {
+    "t": 73.55,
+    "shows": [
+     "footage:lib_man_pointing_at_camera",
+     "headline:BUILD OR BUY?"
+    ]
+   }
+  ],
+  "beats": [
+   34.0,
+   47.72,
+   62.07
+  ]
+ }
+}
