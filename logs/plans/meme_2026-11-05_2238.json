@@ -1,0 +1,33 @@
+{
+ "shots": [
+  {
+   "clip": "lib_person_drinking_coffee_with_laptop",
+   "text": "me telling the client \"we're aware of the issue and looking into it\"",
+   "seconds": 3.0
+  },
+  {
+   "clip": "lib_man_looking_at_laptop",
+   "text": "the issue: me, pushing to main on a friday with zero tests",
+   "seconds": 4.0
+  }
+ ],
+ "style": "meme",
+ "song": {
+  "title": "Be OK",
+  "artist": "Ingrid Michaelson",
+  "mood": "sad",
+  "trend": "Acting fine while nothing is fine. Use it for 'prod is down but I'm OK' bits.",
+  "source": "https://newengen.com/insights/instagram-trends/",
+  "list_date": "November 2026 (updated weekly, seen Nov 2, 2026)",
+  "snippet": "use the most-used snippet, ideally the first soft lines so the cut to shot 2 lands on the beat",
+  "why": "the trend is 'acting fine while nothing is fine', which matches the calm coffee sip over a self-inflicted outage"
+ },
+ "caption": "the calm status update is a lie and we all know it. the coffee is doing the heavy lifting.\n\nbe honest, who's pushed to prod right before the weekend?\n\n#vibecoding #founderlife #startupmemes #devhumor #aimemes #buildinpublic",
+ "cover_word": "prod is down",
+ "text": "me telling the client \"we're aware of the issue and looking into it\" / the issue: me, pushing to main on a friday with zero tests",
+ "clip": "lib_person_drinking_coffee_with_laptop,lib_man_looking_at_laptop",
+ "clip_paths": {
+  "lib_man_looking_at_laptop": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+  "lib_person_drinking_coffee_with_laptop": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4"
+ }
+}
