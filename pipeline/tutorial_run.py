@@ -156,6 +156,16 @@ def main():
             ed = tutorial.edit(old, old["pick"], sources, notes, media)
             plan = {**{k: v for k, v in old.items() if k not in ("scenes", "cta", "endcard", "keywords", "tag", "media", "manual_request")}, **ed, "media": media, "redo_of": os.environ["REDO_PLAN"]}
             plan.pop("manual_request", None)
+        mode = (os.environ.get("REEL_MODE") or "auto").lower()
+        if mode == "auto":   # one slot a day is a business breakdown (BUSINESS_SLOTS, default the 20:00 reel)
+            mode = "business" if key.rsplit("-", 1)[-1] in [t.replace(":", "") for t in (os.environ.get("BUSINESS_SLOTS") or "20:00").split(",")] else "marketing"
+        print(f"      reel type: {mode}", flush=True)
+        if not plan and mode == "business":
+            from pipeline import business
+            try:
+                plan = business.make_plan([c["topic"] for c in covered[-60:]], skip_urls=[c.get("url") for c in _load(COVERED, [])], workdir=mdir)
+            except Exception as e:
+                traceback.print_exc(); print(f"      business breakdown failed ({str(e)[:150]}) -> marketing reel instead", flush=True)
         if not plan:
             plan = tutorial.make_plan([c["topic"] for c in covered[-40:]], skip_urls=[c.get("url") for c in covered]
                                       + [json.loads(f.read_text()).get("plan", {}).get("inspired_by", {}).get("url") for f in recordings.PENDING.glob("*.json")],

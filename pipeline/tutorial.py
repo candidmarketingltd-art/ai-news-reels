@@ -393,14 +393,27 @@ def lessons():
     return f"\n\n## LESSONS FROM OUR OWN RETENTION DATA (follow these — they come from real viewer drop-offs)\n{t}\n" if t else ""
 
 
+BUSINESS = """
+BUSINESS BREAKDOWN FORMAT (this reel): a real online business with Stripe-verified revenue from TrustMRR (`trustmrr` in the notes).
+Aim for 150–200 words (60–75 s). Beats: hook = the money + the surprise ("This boring invoice tool makes $40K a month — and one
+person runs it.") → open loop (the one move that made it work, revealed at the end) → what it is and who pays, in plain words →
+the proof: "these numbers are verified on TrustMRR" with MRR / last-30-days revenue / customers / growth → how it grew (ONLY what
+the notes verify — founder posts, launches, SEO, pricing; if unknown, say what's visible: niche, pricing, who it targets) → what
+the viewer can steal (1–2 concrete lessons) → payoff of the open loop → comment bait ("Would you build this or buy it?") → share line
+→ sign-off. Money numbers: say them as in `say_numbers_as` (e.g. "$368K a month"). Never imply we know profit, team size or
+how-they-grew details the notes don't state. Mention the founder only by the name on TrustMRR.
+"""
+
+
 def write(p, item, notes, tr):
     sources = notes_text(notes, item, tr)
-    story = p.get("format") == "story"
+    story = p.get("format") in ("story", "business")
     sysp = (ROOT / "prompts" / "tutorial_writer.md").read_text(encoding="utf-8").replace("{HANDLE}", HANDLE) \
         .replace("{SIGNOFF}", SIGNOFF).replace("{LANGUAGE}", HINGLISH if LANGUAGE == "hinglish" else "") \
         .replace("{LENGTH}", "STORY reel: 70–90 seconds; 170–220 words — hard limit 235" if story else "45–60 seconds; 120–160 words — hard limit 170") \
         .replace("{STORY}", "\nSTORY FORMAT: tell it as a narrative with stakes — what happened, how it unfolded (2–4 beats with numbers), "
-                 "what it means for the viewer, what to do. Still conversational, still every fact from the notes.\n" if story else "") + lessons()
+                 "what it means for the viewer, what to do. Still conversational, still every fact from the notes.\n" if p.get("format") == "story" else
+                 BUSINESS if p.get("format") == "business" else "") + lessons()
     user = (f"TOPIC: {p['topic']}\nTOOL: {notes.get('tool') or p.get('tool', '')}\nFORMAT: {p.get('format', 'tutorial')}\n"
             f"ANGLE (use it or improve it; negative is fine if TRUE): {p.get('angle', '')}\n\n"
             f"RESEARCH NOTES (the only facts, steps and numbers you may use):\n{sources}\n\n"
@@ -461,7 +474,7 @@ def edit(script, p, sources, notes=None, media=(), note=""):
         real = [i for i in ids if i.startswith("real_")]
         if real and tries["n"] <= 3:
             used = {e.get("media") for sc in d.get("scenes") or [] for e in sc.get("elements") or [] if e.get("type") == "footage"}
-            need = 3 if p.get("format") == "review" else 2
+            need = 3 if p.get("format") in ("review", "business") else 2
             if len(used & set(real)) < min(need, len(real)):
                 raise ValueError(f"REAL SCREENS: show at least {min(need, len(real))} of the real_ captures ({', '.join(real)}) with `footage` "
                                  "at the moments the voiceover talks about that page/price/feature — they are the proof viewers trust")
