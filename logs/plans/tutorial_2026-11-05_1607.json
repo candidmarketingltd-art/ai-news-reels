@@ -1,0 +1,1961 @@
+{
+ "voiceover": "[conversational] A scheduler anyone can download for free now makes $370K a month.\n\n[curious] Stay till the end, because open source isn't the move that made the revenue jump.\n\nIt's called Postiz, and it schedules posts across social networks. Creators, small brands and agencies pay for the hosted cloud version, so they don't have to run servers.\n\n[confident] These numbers are verified on TrustMRR through Stripe: $370K in MRR, $399K in the last 30 days, 10,864 active subscriptions, and 52% growth. Plans start at $29 a month, with a 7-day free trial.\n\nPer Nevo David's own account, he first tried SEO, then went open source instead. Launch posts on r/selfhosted and Product Hunt gave him an audience before revenue. Lesson: open source is your free top-of-funnel.\n\n[serious] The catch? Crowded category, high churn, and revenue isn't profit.\n\n[whispers] Now, the move I promised. In early 2026, he shipped an MCP server, a CLI and an API, so AI agents like Claude or ChatGPT can post for you. In his words: \"My revenue just exploded once I started sending to agents.\" He moved the product to where demand was going.\n\n[curious] Would you open-source your product to grow it?\n\nSend this to the friend who wants to build a SaaS.\n\nHack saved?",
+ "open_loop": {
+  "setup": "Stay till the end, because open source isn't the move that made the revenue jump.",
+  "payoff": "He moved the product to where demand was going."
+ },
+ "title": "FREE CODE, $370K/MO",
+ "ig_caption": "A scheduler anyone can download for free now makes $370K a month 👀\n✅ Open source = free top-of-funnel\n✅ Cloud version charges people who don't want servers\n✅ Reposition to where demand is moving (AI agents)\nWould you open-source your product to grow it?\nSave this for later\nFollow @ihackgrowth for daily AI & tech hacks",
+ "media_hints": {
+  "domain": "postiz.com",
+  "broll": [
+   "typing on laptop",
+   "social media scheduling",
+   "person working startup"
+  ]
+ },
+ "hashtags": [
+  "#Postiz",
+  "#OpenSource",
+  "#SaaS",
+  "#IndieHackers",
+  "#AIagents",
+  "#SocialMedia",
+  "#startup",
+  "#AIhacks",
+  "#business"
+ ],
+ "tag": "POSTIZ",
+ "keywords": [
+  "Postiz",
+  "scheduler",
+  "free",
+  "open",
+  "source",
+  "TrustMRR",
+  "Stripe",
+  "subscriptions",
+  "trial",
+  "SEO",
+  "audience",
+  "funnel",
+  "churn",
+  "profit",
+  "MCP",
+  "agents",
+  "Claude",
+  "ChatGPT",
+  "exploded",
+  "demand"
+ ],
+ "scenes": [
+  {
+   "at": "A scheduler",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "A scheduler",
+     "media": "lib_hand_scrolling_smartphone",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "A scheduler",
+     "text": "FREE TO DOWNLOAD",
+     "color": "gold"
+    },
+    {
+     "type": "headline",
+     "at": "makes $370K",
+     "text": "$370K / MONTH",
+     "size": "l",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "Stay till",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Stay till",
+     "text": "THE REAL MOVE"
+    },
+    {
+     "type": "object3d",
+     "at": "Stay till",
+     "kind": "padlock",
+     "size": "l",
+     "caption": "UNLOCKS AT THE END",
+     "caption_at": "the end,"
+    },
+    {
+     "type": "pill",
+     "at": "open source isn't",
+     "text": "NOT OPEN SOURCE",
+     "color": "red",
+     "outline": true
+    },
+    {
+     "type": "pill",
+     "at": "revenue jump.",
+     "text": "WHAT MADE IT JUMP?",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "It's called Postiz,",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "It's called Postiz,",
+     "media": "real_2_phone",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "schedules posts",
+     "text": "AGENTIC SCHEDULER",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "Creators, small",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Creators, small",
+     "text": "WHO PAYS"
+    },
+    {
+     "type": "strike_list",
+     "at": "Creators, small",
+     "items": [
+      {
+       "text": "CREATORS",
+       "at": "Creators, small",
+       "strike": false
+      },
+      {
+       "text": "SMALL BRANDS",
+       "at": "small brands",
+       "strike": false
+      },
+      {
+       "text": "AGENCIES",
+       "at": "and agencies",
+       "strike": false
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "at": "hosted cloud",
+     "text": "HOSTED CLOUD VERSION",
+     "color": "gold"
+    },
+    {
+     "type": "pill",
+     "at": "run servers.",
+     "text": "NO SERVERS TO RUN",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "These numbers",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "label",
+     "at": "These numbers",
+     "text": "VERIFIED ON TRUSTMRR"
+    },
+    {
+     "type": "object3d",
+     "at": "These numbers",
+     "kind": "coins",
+     "count": 30,
+     "act": "fill",
+     "act_at": "$370K in",
+     "caption": "$370K MRR",
+     "caption_at": "$370K in"
+    },
+    {
+     "type": "stat_row",
+     "at": "$399K in",
+     "cards": [
+      {
+       "label": "LAST 30 DAYS",
+       "value": "$399K",
+       "at": "$399K in",
+       "color": "gold",
+       "glow": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "10,864 active",
+   "tint": "green",
+   "react": [
+    {
+     "at": "10,864 active",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "stat_row",
+     "at": "10,864 active",
+     "cards": [
+      {
+       "label": "ACTIVE SUBS",
+       "value": "10,864",
+       "at": "10,864 active",
+       "color": "gold",
+       "ill": "bust_in_silhouette"
+      },
+      {
+       "label": "GROWTH",
+       "value": "+52%",
+       "at": "52% growth.",
+       "color": "green",
+       "ill": "chart_increasing",
+       "glow": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Plans start",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Plans start",
+     "media": "real_3_phone",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "$29 a month,",
+     "text": "FROM $29/MO",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "with a 7-day",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "with a 7-day",
+     "media": "real_4_web",
+     "tall": true
+    },
+    {
+     "type": "pill",
+     "at": "free trial.",
+     "text": "7-DAY FREE TRIAL",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "Per Nevo",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Per Nevo",
+     "text": "NEVO DAVID'S PATH"
+    },
+    {
+     "type": "strike_list",
+     "at": "tried SEO,",
+     "items": [
+      {
+       "text": "SEO",
+       "at": "tried SEO,",
+       "strike": true
+      },
+      {
+       "text": "OPEN SOURCE",
+       "at": "went open source",
+       "strike": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Launch posts",
+   "elements": [
+    {
+     "type": "steps",
+     "at": "Launch posts",
+     "items": [
+      {
+       "text": "POST ON R/SELFHOSTED",
+       "at": "on r/selfhosted",
+       "ill": "megaphone"
+      },
+      {
+       "text": "LAUNCH ON PRODUCT HUNT",
+       "at": "and Product Hunt",
+       "ill": "rocket"
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "at": "an audience",
+     "text": "AUDIENCE BEFORE REVENUE",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "Lesson: open",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "Lesson: open",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "headline",
+     "at": "Lesson: open",
+     "text": "OPEN SOURCE = FREE FUNNEL",
+     "size": "l",
+     "ill": "magnet",
+     "sub": "TOP-OF-FUNNEL",
+     "sub_at": "free top-of-funnel."
+    }
+   ]
+  },
+  {
+   "at": "The catch?",
+   "tint": "red",
+   "react": [
+    {
+     "at": "The catch?",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "The catch?",
+     "text": "THE CATCH"
+    },
+    {
+     "type": "strike_list",
+     "at": "Crowded category,",
+     "items": [
+      {
+       "text": "CROWDED CATEGORY",
+       "at": "Crowded category,"
+      },
+      {
+       "text": "HIGH CHURN",
+       "at": "high churn,"
+      },
+      {
+       "text": "REVENUE ≠ PROFIT",
+       "at": "revenue isn't profit."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Now, the",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Now, the",
+     "text": "THE MOVE I PROMISED"
+    },
+    {
+     "type": "object3d",
+     "at": "Now, the",
+     "kind": "padlock",
+     "size": "l",
+     "act": "open",
+     "act_at": "I promised.",
+     "caption": "UNLOCKED",
+     "caption_at": "I promised."
+    }
+   ]
+  },
+  {
+   "at": "In early 2026,",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "label",
+     "at": "In early 2026,",
+     "text": "EARLY 2026"
+    },
+    {
+     "type": "steps",
+     "at": "an MCP server,",
+     "items": [
+      {
+       "text": "MCP SERVER",
+       "at": "an MCP server,",
+       "ill": "gear"
+      },
+      {
+       "text": "CLI",
+       "at": "a CLI",
+       "ill": "keyboard"
+      },
+      {
+       "text": "API",
+       "at": "an API,",
+       "ill": "link"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "so AI agents",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "so AI agents",
+     "media": "real_4_phone",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "Claude or ChatGPT",
+     "text": "CLAUDE · CHATGPT POST",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "In his words:",
+   "tint": "green",
+   "react": [
+    {
+     "at": "just exploded",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "headline",
+     "at": "In his words:",
+     "text": "\"MY REVENUE EXPLODED\"",
+     "size": "m",
+     "color": "gold"
+    },
+    {
+     "type": "object3d",
+     "at": "In his words:",
+     "kind": "coins",
+     "act": "fill",
+     "act_at": "just exploded",
+     "caption": "SENDING TO AGENTS",
+     "caption_at": "sending to agents."
+    }
+   ]
+  },
+  {
+   "at": "He moved",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "label",
+     "at": "He moved",
+     "text": "FOLLOW THE DEMAND"
+    },
+    {
+     "type": "arrow_pair",
+     "at": "He moved",
+     "left": {
+      "label": "BUILT FOR",
+      "value": "HUMANS",
+      "color": "muted"
+     },
+     "right": {
+      "label": "MOVED TO",
+      "value": "AGENTS",
+      "color": "green",
+      "at": "where demand"
+     }
+    }
+   ]
+  },
+  {
+   "at": "Would you",
+   "elements": [
+    {
+     "type": "headline",
+     "at": "Would you",
+     "text": "OPEN-SOURCE IT?",
+     "size": "l",
+     "ill": "thinking_face",
+     "sub": "YES OR NO?",
+     "sub_at": "to grow it?"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "Send this",
+  "line1": "Send this to",
+  "line1_at": "Send this",
+  "line2": "the future SaaS founder",
+  "line2_at": "build a SaaS."
+ },
+ "music": "groove",
+ "hud": {
+  "label": "GROWTH LEVER",
+  "items": [
+   {
+    "value": "LOCKED",
+    "color": "red"
+   },
+   {
+    "at": "went open source",
+    "value": "OPEN SRC",
+    "color": "gold"
+   },
+   {
+    "at": "an audience",
+    "value": "AUDIENCE",
+    "color": "gold"
+   },
+   {
+    "at": "I promised.",
+    "value": "UNLOCKED",
+    "color": "green"
+   },
+   {
+    "at": "sending to agents.",
+    "value": "AGENTS",
+    "color": "green"
+   }
+  ]
+ },
+ "endcard": {
+  "title": "Hack saved?",
+  "terminal": "> funnel.open · agents.on"
+ },
+ "media": [
+  {
+   "id": "real_2_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-05_1607/real_2_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-05_1607/real_2_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: postiz.com",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the page (no highlight) — Phone view of the official Postiz homepage on a dark theme. Badges: Product of the day 1st, Product of the week 1st, Product of the month 1st. Headline: 'Run your social media on autopilot with ChatGPT'. Subtext: 'Postiz is the agentic social media scheduler: AI agents plan, generate and schedule po [Screen: postiz.com]"
+  },
+  {
+   "id": "real_2_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-05_1607/real_2_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-05_1607/real_2_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: postiz.com",
+   "desc": "REAL desktop screen recording, pushes in on the page (no highlight) — Desktop view of the official Postiz homepage. Nav: AI Agents, Dev Docs, Channels, News, Blog, Pricing, Log In, and 'Start for $0'. Badges: Product of the day/week/month 1st. Headline: 'Run your social media on autopilot with AI agents'. Subtext: 'Postiz is the agentic social media scheduler: AI agen [Screen: postiz.com]"
+  },
+  {
+   "id": "real_3_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-05_1607/real_3_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-05_1607/real_3_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: postiz.com",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the gold-outlined part — Phone view of the official Postiz pricing page. Headline: 'Postiz Pricing: Agentic Scheduling from $29/month' with 'Pricing' circled in blue. Subtext: 'Every plan includes the MCP server, CLI and API, so Claude, ChatGPT or any agent can schedule for you. Start with a 7-day free trial.' Monthly/Yearl [Screen: postiz.com]"
+  },
+  {
+   "id": "real_3_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-05_1607/real_3_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-05_1607/real_3_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: postiz.com",
+   "desc": "REAL desktop screen recording, pushes in on the gold-outlined part — Desktop view of the official Postiz pricing comparison table. Heading: 'Compare and explore the features of each plan'. Plans: Standard $29 per month (note 'No team support'), Team $39, Pro $49 (marked Popular), Ultimate $99, each with a 'Get Started' button. Monthly/Yearly toggle with 'Save with ye [Screen: postiz.com]"
+  },
+  {
+   "id": "real_4_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-05_1607/real_4_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-05_1607/real_4_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: postiz.com",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the gold-outlined part — Phone view of the official Postiz pricing page, the same view as #4. Headline: 'Postiz Pricing: Agentic Scheduling from $29/month' with 'Pricing' circled in blue. Subtext: 'Every plan includes the MCP server, CLI and API, so Claude, ChatGPT or any agent can schedule for you. Start with a 7-day free  [Screen: postiz.com]"
+  },
+  {
+   "id": "real_4_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-05_1607/real_4_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-05_1607/real_4_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: postiz.com",
+   "desc": "REAL desktop screen recording, pushes in on the gold-outlined part — Desktop view of the official Postiz pricing page. The nav buttons 'Log In' and 'Start for $0' are highlighted. Headline: 'Postiz Pricing: Agentic Scheduling from $29/month'. Subtext: 'Every plan includes the MCP server, CLI and API, so Claude, ChatGPT or any agent can schedule for you. Start with a  [Screen: postiz.com]"
+  },
+  {
+   "id": "lib_camera_moving_down_server_corridor",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "credit": "",
+   "file": "camera_moving_down_server_corridor.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow forward push down a hazy, fog-filled data center aisle lined with server racks that glow with blue and amber status lights, giving a moody, futuristic feel. Good for: A script line about the infrastructure behind AI, such as cloud computing, model training, heavy compute, data storage, or 'what happens behind the scenes'."
+  },
+  {
+   "id": "lib_clock_ticking_and_person_typing",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "credit": "",
+   "file": "clock_ticking_and_person_typing.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A rack-focus shot moves from a close-up of a black twin-bell alarm clock with ticking hands to a bearded man in a light polo typing on a laptop in a dim room, giving a tense, time-pressured mood. Good for: lines about deadlines, time slipping away, long hours of manual work, or the pressure of slow, tedious tasks before an AI tool speeds things up"
+  },
+  {
+   "id": "lib_colleagues_collaborating_around",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "credit": "",
+   "file": "colleagues_collaborating_around.mp4",
+   "frames": 126,
+   "desc": "B-roll (4.2s, VERTICAL 9:16 — best as full: true): colleagues collaborating around Good for: "
+  },
+  {
+   "id": "lib_content_creator_sets_up_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "credit": "",
+   "file": "content_creator_sets_up_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt stands behind a ring light with a phone on a tripod, adjusting the setup while the camera slowly pushes in until his face fills the frame, with a calm, focused mood and moody blue ambient lighting in the background. Good for: setting up to create content, getting started as a creator, or preparing equipment before recording a tutorial"
+  },
+  {
+   "id": "lib_fingers_typing_on_laptop_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "credit": "",
+   "file": "fingers_typing_on_laptop_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): Close-up over-the-shoulder shot of a person typing on a backlit laptop keyboard, with a blurred blue screen in the background and a warm, focused, productive mood. Good for: lines about getting started, writing prompts or code, doing focused work at the computer, or the hands-on steps of a tutorial"
+  },
+  {
+   "id": "lib_hand_scrolling_smartphone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_scrolling_smartphone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_scrolling_smartphone.mp4",
+   "credit": "",
+   "file": "hand_scrolling_smartphone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a bearded young man in a white t-shirt looking intently at a smartphone in dim, warm lighting, with the camera slowly pushing in until his focused, slightly tense gaze moves from the screen to the lens. Good for: a script line about being glued to your phone, doubt or tension before a reveal, or the moment of realizing something while checking an app or notification"
+  },
+  {
+   "id": "lib_hands_holding_credit_card_near",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hands_holding_credit_card_near.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hands_holding_credit_card_near.mp4",
+   "credit": "",
+   "file": "hands_holding_credit_card_near.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): hands holding credit card near Good for: "
+  },
+  {
+   "id": "lib_man_comparing_phone_and_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "credit": "",
+   "file": "man_comparing_phone_and_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): man comparing phone and laptop Good for: "
+  },
+  {
+   "id": "lib_man_looking_at_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "credit": "",
+   "file": "man_looking_at_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt scowls with intense focus at a laptop in a dim, warmly lit room, then closes his eyes and rubs his hand near his chin in tired frustration. Good for: frustration with slow or difficult work, such as struggling with a tedious task, debugging, or burning out late at night before finding a better way"
+  },
+  {
+   "id": "lib_man_opens_laptop_in_room",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "credit": "",
+   "file": "man_opens_laptop_in_room.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt sits at a laptop in a dimly lit, warmly lit room, and his focused, tense expression builds as he leans toward the screen, which shows blurry blue diagram or flowchart-style blocks, with his fists clenched near his chin in the middle frame. Good for: intense concentration or deep work, such as debugging, building an AI workflow, or struggling with a complex problem"
+  },
+  {
+   "id": "lib_man_pointing_at_camera",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_pointing_at_camera.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_pointing_at_camera.mp4",
+   "credit": "",
+   "file": "man_pointing_at_camera.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a dark henley sits in a car seat working on a laptop with a focused look, then looks up with a warm smile and points playfully at the camera in a confident, friendly mood. Good for: a line that moves from focused work or problem-solving to a direct call to action, such as 'here's the trick you need to try' or 'now it's your turn'"
+  },
+  {
+   "id": "lib_man_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "man_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt stares intently at a laptop screen with blurry blue UI elements floating in front of the camera, then grimaces in frustration and mouths a reaction, and finally tilts his head back in exhausted resignation in a dim, warmly lit room. Good for: frustration with slow, tedious, or failing work, such as waiting on a slow tool, hitting an error, or being exhausted by manual tasks before introducing an AI solution"
+  },
+  {
+   "id": "lib_man_shaking_head_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "credit": "",
+   "file": "man_shaking_head_at_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits in a dark chair looking down at his phone, and his expression shifts from neutral to scrunched-up frustration or confusion, then to a displeased, worried look as he lowers the phone. Good for: frustration or disappointment with a tool or app that isn't working, slow or confusing results, or a bad surprise while checking your phone"
+  },
+  {
+   "id": "lib_man_smiling_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "credit": "",
+   "file": "man_smiling_at_phone.mp4",
+   "frames": 135,
+   "desc": "B-roll (4.5s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a blue smartphone, his expression shifting from neutral to a furrowed-brow frown of confusion and frustration. Good for: a line about frustration with confusing apps or slow tools, or the moment someone hits a problem and doesn't know what to do next"
+  },
+  {
+   "id": "lib_man_studying_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "credit": "",
+   "file": "man_studying_with_laptop.mp4",
+   "frames": 132,
+   "desc": "B-roll (4.4s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits at a desk behind a laptop with a furrowed brow and a frustrated, concentrated look, first staring at the screen, then looking down at an open notebook and writing with a pen, with a warm blurred lamp glowing in the background. Good for: a script line about struggling to understand something complex, frustration with slow or manual work, or the pain of learning a new tool the hard way"
+  },
+  {
+   "id": "lib_man_watching_laptop_waiting",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "credit": "",
+   "file": "man_watching_laptop_waiting.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits at a laptop in a dimly lit room with warm lamp light, resting his chin on his fist with a focused, pensive look, and the camera pushes in closer across the three frames. Good for: a script line about deep thinking, researching or problem-solving, or weighing a decision before trying an AI tool"
+  },
+  {
+   "id": "lib_person_drinking_coffee_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "credit": "",
+   "file": "person_drinking_coffee_with_laptop.mp4",
+   "frames": 93,
+   "desc": "B-roll (3.1s, VERTICAL 9:16 — best as full: true): A bearded man in a green polo sits at a laptop in a modern industrial-style open office, lifting a white cup to his mouth and sipping a hot drink while looking down at the screen, in a calm, focused mood. Good for: a line about taking a breather while the AI does the work, a morning work routine, waiting for a process to finish, or the calm of an automated workflow"
+  },
+  {
+   "id": "lib_person_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "person_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a laptop, his expression moving from concern to a deep frown with glowing blue tear-like effects on his cheeks, then to eyes shut in stress or exhaustion; the mood is frustrated and overwhelmed. Good for: A script line about frustration or overwhelm with a tough task, such as struggling with confusing tools, wasting hours on manual work, or being stuck before finding an AI solution."
+  },
+  {
+   "id": "lib_person_speaking_into_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "credit": "",
+   "file": "person_speaking_into_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt takes a phone call in a modern industrial office with exposed concrete ceilings, moving from a serious, concerned look to a worried talking expression and ending with a relieved, confident smile at the camera. Good for: a script line about getting a surprising call or news, a problem being solved, or the moment of relief after a stressful issue"
+  },
+  {
+   "id": "lib_professional_working_on_laptop_late",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "credit": "",
+   "file": "professional_working_on_laptop_late.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A tired bearded young man in a maroon t-shirt sits at a laptop in a dim apartment at night, resting his head on his hand, rubbing his eyes, then glumly lifting a white coffee mug, with blurred city lights glowing behind him through the window. Good for: A script line about burnout, late-night grinding, or frustration with slow manual work that AI tools can speed up, e.g. 'still stuck doing this by hand at midnight?'"
+  },
+  {
+   "id": "lib_robotic_hand_typing_on_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "credit": "",
+   "file": "robotic_hand_typing_on_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a black robotic hand with segmented, mechanical fingers lowering onto a backlit laptop keyboard and starting to type, shot at shallow depth of field in a warm, softly lit, modern workspace. Good for: A script line about AI doing the work for you, automating repetitive tasks, or AI taking over typing and writing, such as 'let AI handle the busywork' or 'AI writes it for you'."
+  },
+  {
+   "id": "s1_image",
+   "kind": "image",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-05_1607/s1_image.png",
+   "credit": "Image: postiz.com",
+   "desc": "official image from Postiz (announcement page)"
+  }
+ ],
+ "style": "hisaab",
+ "topic": "Business breakdown: Postiz — Postiz is the ultimate agentic social media scheduler tool",
+ "pick": {
+  "topic": "Business breakdown: Postiz — Postiz is the ultimate agentic social media scheduler tool",
+  "tool": "Postiz",
+  "format": "business",
+  "angle": "A solo open-source dev built a social media scheduler that now makes $370K, by giving the code away for free"
+ },
+ "inspired_by": {
+  "url": "https://trustmrr.com/startup/postiz",
+  "owner": "trustmrr",
+  "plays": 0,
+  "likes": 0,
+  "comments": 0
+ },
+ "research": {
+  "verdict": "ok",
+  "tool": "Postiz",
+  "what_it_does": "An open-source, agentic social media scheduler. You plan, generate and schedule posts across many networks. It has an MCP server, CLI and API, so AI agents like Claude or ChatGPT can post for you.",
+  "who_pays": "Creators, small brands, agencies and developers or automation teams. They pay for the hosted cloud version instead of self-hosting.",
+  "pricing": "Official pricing page, monthly billing: Standard $29, Team $39, Pro $49, Ultimate $99 per month. Annual billing is $23, $31, $39 and $79 per month (about 20% off). Every plan has a 7-day free trial ('Start for $0'). Every plan includes the MCP server, CLI and API. Standard is marked 'No team support'. Self-hosting is free.",
+  "growth": [
+   "Nevo's first instinct was SEO: he hired an Upwork freelancer to buy backlinks and write articles. He then went open source instead (via a thread by Saurav on X, a secondary source: https://x.com/saguppa/status/2038972079094038712).",
+   "Postiz launched on September 1, 2024. It reached almost 14k GitHub stars, #1 Product of the Day, Week and Month on Product Hunt, 584K Docker downloads and almost 4,000 cloud registrations (same X thread, secondary source).",
+   "Indie Hackers write-up of Nevo's account: Postiz was the first good open-source social scheduler, and every release was published on r/selfhosted. Everything is organic with no ads. Nevo also ran 4 Product Hunt launches (https://www.indiehackers.com/post/tech/growing-an-open-source-product-to-1-3m-arr-in-two-years-hbMiXIoZsueV9D3L58DP).",
+   "Daily.dev summary of Nevo's talk: launch posts on r/selfhosted and similar communities each reached at least 200,000 views with no existing audience. He also pushed for GitHub trending status. Paid quote-repost networks and creator collaborations on X now sustain over 100K views per post (https://daily.dev/posts/the-marketing-playbook-behind-a-207k-month-saas-nevo-david-from-postiz-7w7e75jlr).",
+   "Pivot to AI agents: in early 2026 Nevo shipped an agent CLI, an MCP server, a ClawHub skill and programmatic landing pages when OpenClaw exploded (Super Frameworks, secondary source). Mixergy interview headline: 'Revenue jumped when he sold to AI agents'. The same X thread quotes him: 'My revenue just exploded once I started sending to agents.'",
+   "Per the Creative Chaos newsletter (secondary, citing a founder interview): a user's article about using Postiz with an open-source AI agent got 7.2 million views on X, and trials jumped to roughly 700 per day. Nevo then copied the format with his own article (about 500,000 views) and paid for reposts (about $60–$350 each, about 20 per article). The newsletter says churn fell from the mid-to-high 20% range to 13.7%."
+  ],
+  "founder_story": [
+   "Nevo David spent nearly seven years as an engineer. Several failed startups left him in debt (Sofarbot, a secondary source). He joined open-source notification company Novu in 2022 as a growth marketer to learn distribution (Sofarbot; Super Frameworks says he drove that repo to 30,000 GitHub stars in two years).",
+   "His first product, Gitroom, was an open-source launch-planning tool that went live in March 2024. After about six months he judged the market too small and expanded it into Postiz (Sofarbot).",
+   "Described as a solo, bootstrapped founder for years (Best Million Startups, Super Frameworks, Saurav's X thread). Indie Hackers: 'After many failed startups' he built Postiz and reached $1.3M ARR in two years."
+  ],
+  "lessons": [
+   "Use open source as free top-of-funnel. The GitHub repo, r/selfhosted posts and Product Hunt gave a pre-revenue product an audience. The hosted cloud version then monetises people who don't want to run servers.",
+   "Reposition to where demand is moving. Postiz went from a human-dashboard scheduler to the publishing layer for AI agents (MCP, CLI, API). Per Nevo's own account, revenue jumped after that.",
+   "When a format or story is already winning attention, copy the format and then pay to amplify it. Postiz did this with the OpenClaw article, per the Creative Chaos newsletter."
+  ],
+  "criticism": [
+   "It is a crowded category. Saurav's X thread says there are 1,000+ competitors and that Hootsuite has been around since 2008. Cheaper rivals exist (e.g. Social Champ, PostFast, Socialync).",
+   "Churn has been high. Nevo cited 17% monthly churn in early 2026, and one article says it was in the mid-to-high 20% range before it fell to 13.7%. Subscriber growth depends on constantly bringing in new customers.",
+   "The product is free to self-host. Cloud customers pay for convenience, and Meta and YouTube API approvals can take over a month for self-hosters (Socialync).",
+   "Revenue is not profit. No cost or profit data was found. Early 'founder statements' on revenue are not audits (Sofarbot).",
+   "Some growth leans on a hype cycle (OpenClaw, MCP, agentic AI). That wave could fade."
+  ],
+  "facts": [
+   "Tech stack (from TrustMRR): Backend - Stripe.",
+   "Self-hosted version runs the same codebase as the paid cloud product (Atticus Li, secondary).",
+   "Postiz repo had about 35,300 GitHub stars, 6,700 forks and 80 contributors, and its container package passed 7.5 million downloads. These are distribution indicators, not user counts (Steal What Works, about 67 days old).",
+   "Postiz is AGPL-3.0 licensed per PostFast; Super Frameworks says Apache 2.0, so verify on GitHub before stating a license.",
+   "Early MRR milestones (secondary): about $700 a few months before Jan 2025, then $2K MRR in Jan 2025 with about 15K stars. Super Frameworks says $17K MRR from 472 paying subscribers. Saurav's thread (about 218 days old) says over $45K MRR, up 3x since Jan 2026.",
+   "Indie Hackers: $1.3M ARR in two years.",
+   "Mixergy lists 'Larry', an OpenClaw agent, as co-writer of an article that helped drive Postiz's growth.",
+   "Systemaic (secondary): the brand name 'postiz' alone gets about 85,520 monthly searches."
+  ],
+  "do_not_claim": [
+   "Profit, margins or team size today. Sources say 'solo for years', but TrustMRR and Best Million Startups mention reinvesting in hiring, so don't say it's still solo.",
+   "That Postiz is 'no ads'. The Indie Hackers post says everything is organic, but paid quote-reposts on X are reported later.",
+   "Exact GitHub star count or license. Figures vary by source (14K, 25K, 30K, 33K, 34K, 35K) and the license is AGPL-3.0 vs Apache 2.0.",
+   "The pricing page lists unlimited posts, while a homepage FAQ reportedly says 400 posts per month on Standard (Filip Konecny review). Don't state a post limit.",
+   "That the OpenClaw viral article numbers (7.2M views, 700 trials/day) are first-party. They come from a newsletter citing a founder interview.",
+   "Any claim that open source plus an AI trend guarantees similar results.",
+   "Older third-party MRR figures ($17K, $45K, $170K, $194K) are stale. Use only the TrustMRR numbers for current revenue."
+  ],
+  "real_pages": [
+   {
+    "url": "https://trustmrr.com/startup/postiz",
+    "show": "$369,751",
+    "kind": "site"
+   },
+   {
+    "url": "https://postiz.com",
+    "show": "",
+    "kind": "site"
+   },
+   {
+    "url": "https://postiz.com/pricing",
+    "show": "$29/mo",
+    "kind": "site"
+   },
+   {
+    "url": "https://postiz.com/pricing",
+    "show": "Start for $0",
+    "kind": "site"
+   }
+  ],
+  "sources": [
+   "https://postiz.com/pricing",
+   "https://postiz.com/compare/postiz/later",
+   "https://www.indiehackers.com/post/tech/growing-an-open-source-product-to-1-3m-arr-in-two-years-hbMiXIoZsueV9D3L58DP",
+   "https://mixergy.com/interviews/revenue-jumped-when-he-sold-to-ai-agents/",
+   "https://x.com/saguppa/status/2038972079094038712",
+   "https://daily.dev/posts/the-marketing-playbook-behind-a-207k-month-saas-nevo-david-from-postiz-7w7e75jlr",
+   "https://www.sofarbot.com/stories/postiz-nevo-david-191375-mrr-verified",
+   "https://superframeworks.com/case-study/postiz",
+   "https://creativechaoss.substack.com/p/creative-chaos-8ea",
+   "https://stealwhatworks.com/blogs/news/postiz-making-180k-per-month",
+   "https://atticusli.com/startup/postiz/",
+   "https://www.socialync.io/compare/postiz",
+   "https://postfa.st/compare/postfast-vs-postiz",
+   "https://filipkonecny.com/blog/postiz-pricing/"
+  ],
+  "notes": "The pricing page text was retrieved by search. Check the exact on-screen text when recording (e.g. whether it shows '$29/mo' or '$29'). Most growth details are from secondary sources (X threads, newsletters, write-ups). Attribute them as 'per Nevo's own account' or similar, and don't present them as audited. Dates are exact: Gitroom went live in March 2024, Postiz launched September 1, 2024, and TrustMRR lists the founding as July 2024, a small discrepancy. Revenue figures in the reel should come only from TrustMRR (MRR $369,751, 10,864 active subscriptions).",
+  "_searched": 3,
+  "trustmrr": {
+   "name": "Postiz",
+   "one_liner": "Postiz is the ultimate agentic social media scheduler tool",
+   "website": "https://postiz.com",
+   "founder": "Nevo David",
+   "founder_x": "",
+   "founded": "July 2024",
+   "location": "Hong Kong SAR China",
+   "category": "Social Media, AI, Content Creation, Saas, Marketing",
+   "audience": "Social media managers, developers, automation teams. (B2B)",
+   "pricing": "Plans start at $29/month with a 7-day trial for $0.",
+   "revenue_last_30_days": "$399,660",
+   "revenue_all_time": "$1,740,796",
+   "mrr": "$369,751",
+   "growth_mom": "52% vs. prev period",
+   "active_subscriptions": "10864",
+   "rank": "#69",
+   "for_sale": "",
+   "verified_by": "Stripe API key",
+   "last_updated": "Nov 5, 2026, 08:24 AM",
+   "other": [
+    "Founder has 26.7k followers on 𝕏 (handle not shown)",
+    "Value proposition: Run your social media on autopilot with AI agents.",
+    "Problem solved: Automating social media management by planning, generating, and scheduling posts across multiple platforms automatically.",
+    "Domain Rating: 73/100 (postiz.com)",
+    "Tech stack: Backend - Stripe",
+    "Additional info: Open source"
+   ],
+   "trustmrr_url": "https://trustmrr.com/startup/postiz"
+  },
+  "say_numbers_as": [
+   "$399,660 (can be said as: $399K, $400K)",
+   "$1,740,796 (can be said as: $1.7M, $1740K, $1741K, $2M)",
+   "$369,751 (can be said as: $369K, $370K)"
+  ]
+ },
+ "kind": "business",
+ "episode": 13,
+ "_ident": {
+  "at": 5.82,
+  "dur": 1.5,
+  "title": "AI HACKS",
+  "type": 0.42,
+  "sub": "EP 13 · POSTIZ"
+ },
+ "timeline": {
+  "words": [
+   [
+    "A",
+    0.07
+   ],
+   [
+    "scheduler",
+    0.16
+   ],
+   [
+    "anyone",
+    0.88
+   ],
+   [
+    "can",
+    1.28
+   ],
+   [
+    "download",
+    1.44
+   ],
+   [
+    "for",
+    1.84
+   ],
+   [
+    "free",
+    2.16
+   ],
+   [
+    "now",
+    2.56
+   ],
+   [
+    "makes",
+    2.96
+   ],
+   [
+    "$370K",
+    3.2
+   ],
+   [
+    "a",
+    3.44
+   ],
+   [
+    "month.",
+    4.88
+   ],
+   [
+    "Stay",
+    7.5
+   ],
+   [
+    "till",
+    7.74
+   ],
+   [
+    "the",
+    7.94
+   ],
+   [
+    "end,",
+    8.06
+   ],
+   [
+    "because",
+    8.7
+   ],
+   [
+    "open",
+    8.94
+   ],
+   [
+    "source",
+    9.26
+   ],
+   [
+    "isn't",
+    9.74
+   ],
+   [
+    "the",
+    10.06
+   ],
+   [
+    "move",
+    10.26
+   ],
+   [
+    "that",
+    10.46
+   ],
+   [
+    "made",
+    10.62
+   ],
+   [
+    "the",
+    10.78
+   ],
+   [
+    "revenue",
+    10.9
+   ],
+   [
+    "jump.",
+    11.26
+   ],
+   [
+    "It's",
+    11.94
+   ],
+   [
+    "called",
+    12.14
+   ],
+   [
+    "Postiz,",
+    12.46
+   ],
+   [
+    "and",
+    13.22
+   ],
+   [
+    "it",
+    13.34
+   ],
+   [
+    "schedules",
+    13.5
+   ],
+   [
+    "posts",
+    14.06
+   ],
+   [
+    "across",
+    14.58
+   ],
+   [
+    "social",
+    15.1
+   ],
+   [
+    "networks.",
+    15.34
+   ],
+   [
+    "Creators,",
+    16.46
+   ],
+   [
+    "small",
+    16.94
+   ],
+   [
+    "brands",
+    17.26
+   ],
+   [
+    "and",
+    17.74
+   ],
+   [
+    "agencies",
+    17.98
+   ],
+   [
+    "pay",
+    18.7
+   ],
+   [
+    "for",
+    18.94
+   ],
+   [
+    "the",
+    19.1
+   ],
+   [
+    "hosted",
+    19.34
+   ],
+   [
+    "cloud",
+    19.82
+   ],
+   [
+    "version,",
+    20.06
+   ],
+   [
+    "so",
+    20.66
+   ],
+   [
+    "they",
+    20.86
+   ],
+   [
+    "don't",
+    20.98
+   ],
+   [
+    "have",
+    21.18
+   ],
+   [
+    "to",
+    21.3
+   ],
+   [
+    "run",
+    21.42
+   ],
+   [
+    "servers.",
+    21.58
+   ],
+   [
+    "These",
+    22.46
+   ],
+   [
+    "numbers",
+    22.7
+   ],
+   [
+    "are",
+    23.1
+   ],
+   [
+    "verified",
+    23.5
+   ],
+   [
+    "on",
+    23.82
+   ],
+   [
+    "TrustMRR",
+    24.06
+   ],
+   [
+    "through",
+    24.82
+   ],
+   [
+    "Stripe:",
+    25.02
+   ],
+   [
+    "$370K",
+    25.82
+   ],
+   [
+    "in",
+    25.98
+   ],
+   [
+    "MRR,",
+    27.9
+   ],
+   [
+    "$399K",
+    28.7
+   ],
+   [
+    "in",
+    28.86
+   ],
+   [
+    "the",
+    29.82
+   ],
+   [
+    "last",
+    30.7
+   ],
+   [
+    "30",
+    31.02
+   ],
+   [
+    "days,",
+    31.34
+   ],
+   [
+    "10,864",
+    31.94
+   ],
+   [
+    "active",
+    32.62
+   ],
+   [
+    "subscriptions,",
+    34.38
+   ],
+   [
+    "and",
+    35.38
+   ],
+   [
+    "52%",
+    35.54
+   ],
+   [
+    "growth.",
+    36.14
+   ],
+   [
+    "Plans",
+    37.34
+   ],
+   [
+    "start",
+    37.66
+   ],
+   [
+    "at",
+    37.9
+   ],
+   [
+    "$29",
+    38.22
+   ],
+   [
+    "a",
+    38.62
+   ],
+   [
+    "month,",
+    38.9
+   ],
+   [
+    "with",
+    39.46
+   ],
+   [
+    "a",
+    39.58
+   ],
+   [
+    "7-day",
+    39.74
+   ],
+   [
+    "free",
+    40.3
+   ],
+   [
+    "trial.",
+    40.54
+   ],
+   [
+    "Per",
+    41.26
+   ],
+   [
+    "Nevo",
+    41.42
+   ],
+   [
+    "David's",
+    41.74
+   ],
+   [
+    "own",
+    42.22
+   ],
+   [
+    "account,",
+    42.5
+   ],
+   [
+    "he",
+    43.06
+   ],
+   [
+    "first",
+    43.3
+   ],
+   [
+    "tried",
+    43.5
+   ],
+   [
+    "SEO,",
+    43.82
+   ],
+   [
+    "then",
+    44.54
+   ],
+   [
+    "went",
+    44.82
+   ],
+   [
+    "open",
+    45.02
+   ],
+   [
+    "source",
+    45.34
+   ],
+   [
+    "instead.",
+    45.82
+   ],
+   [
+    "Launch",
+    46.38
+   ],
+   [
+    "posts",
+    46.7
+   ],
+   [
+    "on",
+    47.1
+   ],
+   [
+    "r/selfhosted",
+    47.34
+   ],
+   [
+    "and",
+    48.78
+   ],
+   [
+    "Product",
+    48.94
+   ],
+   [
+    "Hunt",
+    49.34
+   ],
+   [
+    "gave",
+    49.66
+   ],
+   [
+    "him",
+    49.86
+   ],
+   [
+    "an",
+    49.98
+   ],
+   [
+    "audience",
+    50.22
+   ],
+   [
+    "before",
+    50.74
+   ],
+   [
+    "revenue.",
+    50.94
+   ],
+   [
+    "Lesson:",
+    51.86
+   ],
+   [
+    "open",
+    52.42
+   ],
+   [
+    "source",
+    52.62
+   ],
+   [
+    "is",
+    53.06
+   ],
+   [
+    "your",
+    53.18
+   ],
+   [
+    "free",
+    53.5
+   ],
+   [
+    "top-of-funnel.",
+    53.74
+   ],
+   [
+    "The",
+    54.767
+   ],
+   [
+    "catch?",
+    54.86
+   ],
+   [
+    "Crowded",
+    55.62
+   ],
+   [
+    "category,",
+    55.98
+   ],
+   [
+    "high",
+    56.82
+   ],
+   [
+    "churn,",
+    57.02
+   ],
+   [
+    "and",
+    57.58
+   ],
+   [
+    "revenue",
+    57.74
+   ],
+   [
+    "isn't",
+    58.38
+   ],
+   [
+    "profit.",
+    58.86
+   ],
+   [
+    "Now,",
+    59.763
+   ],
+   [
+    "the",
+    59.927
+   ],
+   [
+    "move",
+    60.1
+   ],
+   [
+    "I",
+    60.3
+   ],
+   [
+    "promised.",
+    60.46
+   ],
+   [
+    "In",
+    61.34
+   ],
+   [
+    "early",
+    61.5
+   ],
+   [
+    "2026,",
+    61.9
+   ],
+   [
+    "he",
+    62.86
+   ],
+   [
+    "shipped",
+    63.06
+   ],
+   [
+    "an",
+    63.34
+   ],
+   [
+    "MCP",
+    63.5
+   ],
+   [
+    "server,",
+    64.14
+   ],
+   [
+    "a",
+    64.62
+   ],
+   [
+    "CLI",
+    64.78
+   ],
+   [
+    "and",
+    65.42
+   ],
+   [
+    "an",
+    65.66
+   ],
+   [
+    "API,",
+    65.9
+   ],
+   [
+    "so",
+    66.58
+   ],
+   [
+    "AI",
+    66.74
+   ],
+   [
+    "agents",
+    67.22
+   ],
+   [
+    "like",
+    67.54
+   ],
+   [
+    "Claude",
+    67.78
+   ],
+   [
+    "or",
+    68.1
+   ],
+   [
+    "ChatGPT",
+    68.3
+   ],
+   [
+    "can",
+    69.14
+   ],
+   [
+    "post",
+    69.42
+   ],
+   [
+    "for",
+    69.66
+   ],
+   [
+    "you.",
+    69.94
+   ],
+   [
+    "In",
+    70.22
+   ],
+   [
+    "his",
+    70.42
+   ],
+   [
+    "words:",
+    70.7
+   ],
+   [
+    "My",
+    71.22
+   ],
+   [
+    "revenue",
+    71.42
+   ],
+   [
+    "just",
+    71.82
+   ],
+   [
+    "exploded",
+    72.3
+   ],
+   [
+    "once",
+    72.94
+   ],
+   [
+    "I",
+    73.26
+   ],
+   [
+    "started",
+    73.34
+   ],
+   [
+    "sending",
+    73.82
+   ],
+   [
+    "to",
+    74.02
+   ],
+   [
+    "agents.",
+    74.34
+   ],
+   [
+    "He",
+    74.98
+   ],
+   [
+    "moved",
+    75.22
+   ],
+   [
+    "the",
+    75.42
+   ],
+   [
+    "product",
+    75.7
+   ],
+   [
+    "to",
+    75.98
+   ],
+   [
+    "where",
+    76.14
+   ],
+   [
+    "demand",
+    76.46
+   ],
+   [
+    "was",
+    76.78
+   ],
+   [
+    "going.",
+    76.94
+   ],
+   [
+    "Would",
+    77.7
+   ],
+   [
+    "you",
+    77.82
+   ],
+   [
+    "open-source",
+    78.1
+   ],
+   [
+    "your",
+    78.62
+   ],
+   [
+    "product",
+    78.86
+   ],
+   [
+    "to",
+    79.06
+   ],
+   [
+    "grow",
+    79.18
+   ],
+   [
+    "it?",
+    79.42
+   ],
+   [
+    "Send",
+    79.94
+   ],
+   [
+    "this",
+    80.14
+   ],
+   [
+    "to",
+    80.26
+   ],
+   [
+    "the",
+    80.38
+   ],
+   [
+    "friend",
+    80.58
+   ],
+   [
+    "who",
+    80.78
+   ],
+   [
+    "wants",
+    81.02
+   ],
+   [
+    "to",
+    81.22
+   ],
+   [
+    "build",
+    81.34
+   ],
+   [
+    "a",
+    81.5
+   ],
+   [
+    "SaaS.",
+    81.66
+   ],
+   [
+    "Hack",
+    82.42
+   ],
+   [
+    "saved?",
+    82.62
+   ]
+  ],
+  "duration": 83.28,
+  "ident": {
+   "at": 5.82,
+   "dur": 1.5,
+   "title": "AI HACKS",
+   "type": 0.42,
+   "sub": "EP 13 · POSTIZ"
+  },
+  "scenes": [
+   {
+    "t": 0.0,
+    "shows": [
+     "footage:lib_hand_scrolling_smartphone",
+     "pill:FREE TO DOWNLOAD",
+     "headline:$370K / MONTH"
+    ]
+   },
+   {
+    "t": 7.5,
+    "shows": [
+     "label:THE REAL MOVE",
+     "object3d:",
+     "pill:NOT OPEN SOURCE",
+     "pill:WHAT MADE IT JUMP?"
+    ]
+   },
+   {
+    "t": 11.94,
+    "shows": [
+     "footage:real_2_phone",
+     "pill:AGENTIC SCHEDULER"
+    ]
+   },
+   {
+    "t": 16.46,
+    "shows": [
+     "label:WHO PAYS",
+     "strike_list:",
+     "pill:HOSTED CLOUD VERSION",
+     "pill:NO SERVERS TO RUN"
+    ]
+   },
+   {
+    "t": 22.46,
+    "shows": [
+     "label:VERIFIED ON TRUSTMRR",
+     "object3d:",
+     "stat_row:"
+    ]
+   },
+   {
+    "t": 31.94,
+    "shows": [
+     "stat_row:"
+    ]
+   },
+   {
+    "t": 37.34,
+    "shows": [
+     "footage:real_3_phone",
+     "pill:FROM $29/MO"
+    ]
+   },
+   {
+    "t": 39.46,
+    "shows": [
+     "footage:real_4_web",
+     "pill:7-DAY FREE TRIAL"
+    ]
+   },
+   {
+    "t": 41.26,
+    "shows": [
+     "label:NEVO DAVID'S PATH",
+     "strike_list:"
+    ]
+   },
+   {
+    "t": 46.38,
+    "shows": [
+     "steps:",
+     "pill:AUDIENCE BEFORE REVENUE"
+    ]
+   },
+   {
+    "t": 51.86,
+    "shows": [
+     "headline:OPEN SOURCE = FREE FUNNEL"
+    ]
+   },
+   {
+    "t": 54.77,
+    "shows": [
+     "label:THE CATCH",
+     "strike_list:"
+    ]
+   },
+   {
+    "t": 59.76,
+    "shows": [
+     "label:THE MOVE I PROMISED",
+     "object3d:"
+    ]
+   },
+   {
+    "t": 61.34,
+    "shows": [
+     "label:EARLY 2026",
+     "steps:"
+    ]
+   },
+   {
+    "t": 66.58,
+    "shows": [
+     "footage:real_4_phone",
+     "pill:CLAUDE · CHATGPT POST"
+    ]
+   },
+   {
+    "t": 70.22,
+    "shows": [
+     "headline:\"MY REVENUE EXPLODED\"",
+     "object3d:"
+    ]
+   },
+   {
+    "t": 74.98,
+    "shows": [
+     "label:FOLLOW THE DEMAND",
+     "arrow_pair:"
+    ]
+   },
+   {
+    "t": 77.7,
+    "shows": [
+     "headline:OPEN-SOURCE IT?"
+    ]
+   }
+  ],
+  "beats": [
+   1.52,
+   5.2,
+   14.98,
+   24.14,
+   27.26,
+   30.32,
+   33.74
+  ]
+ }
+}

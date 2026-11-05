@@ -8,49 +8,34 @@ window 2026-11-05-1300 | posting times 13:00, 20:00 IST | dry_run=True
       b-roll library: 25 clips
       recording request #1: still waiting for the video
       recording request #2: still waiting for the video
-[1/6] top AI & tech reels
-      hashtag scrape failed: apify apify/instagram-hashtag-scraper: 403 {
-  "error": {
-    "type": "platform-feature-disabled",
-    "message": "Monthly usage hard limit exceeded"
-  }
-}
-      using the last saved reel pool
-      reel pool: 76 reels
-[2/6] picking the topic
-      → Use Claude as a part-time Instagram manager: sharpen your bio, plan a content calendar, and draft DM replies in your brand voice, with a 3-step setup and where to keep a human check  (tutorial, from @yadarilab, 226,162 views) — 226k views with 6,709 comments and 5,071 likes, the strongest comment-to-view ratio of the business-relevant reels. It is a pure marketing and growth workflow t
-      transcript failed: apify apify/instagram-reel-scraper: 403 {
-  "error": {
-    "type": "platform-feature-disabled",
-    "message": "Monthly usage hard limit exceeded"
-  }
-}
-[3/6] research (0 transcript words)
-      verdict adjust · 6 web searches · 4 steps · 12 sources
+      reel type: business
+[1/6] businesses making money (TrustMRR)
+      trustmrr: 235 startups from 11 lists
+[2/6] picking the business
+      → postiz: A solo open-source dev built a social media scheduler that now makes $370K, by giving the code away for free — Open-source-led growth is a tactic viewers can copy. Nevo David is a recognisable solo founder, and the product has a public site to look at
+[3/6] research: Postiz · MRR $369,751 · 30d $399,660
 [4/6] script + edit
-      real screens: 2 usable of 2 captured from 3 official pages
-      (media: https://claude.ai/login -> 403 Client Error: Forbidden for url: https://claude.ai/login)
-      (media: https://claude.ai/login?plan=free -> 403 Client Error: Forbidden for url: https://claude.ai/login?plan=free)
-      (media: https://claude.ai/login?plan=pro -> 403 Client Error: Forbidden for url: https://claude.ai/login?plan=pro)
-      (media: https://claude.ai/ -> 403 Client Error: Forbidden for url: https://claude.ai/login)
+      real screens: 6 usable of 8 captured from 4 official pages
       (media: pexels 'typing on laptop' failed: 403 Client Error: Forbidden for url: https://api.apify.com/v2/acts/memo23~pexels)
-      (media: pexels 'phone notifications' failed: 403 Client Error: Forbidden for url: https://api.apify.com/v2/acts/memo23~pexels)
-      media: s1_logo
+      (media: pexels 'social media scheduling' failed: 403 Client Error: Forbidden for url: https://api.apify.com/v2/acts/memo23~pexels)
+      media: s1_image
 [5/6] voice + render
-      [eleven] subscription: 200 {"tier":"creator","character_count":6298,"character_limit":131000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796464027,"voice_slots_used":1,"professional_voice_slots_
+      [eleven] subscription: 200 {"tier":"creator","character_count":10506,"character_limit":131000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796464027,"voice_slots_used":1,"professional_voice_slots
       [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
-      voice check: every word heard as written
-      167 words, 63.8s, voice eleven_v4
-      remotion: Reel /tmp/tmpzy5zwwdj/video_only.mp4
-DRY RUN — reel at /home/runner/work/ai-news-reels/ai-news-reels/out/2026-11-05_1538.mp4
+      voice check: 6 word(s) misheard [('nevo', 'naiveau'), ('rselfhosted', 'rslash selfhosted'), ('topoffunnel', 'top of funnel'), ('chatgpt', 'chad gpt'), ('he moved', 'remove')] -> recording another take
+      [eleven] subscription: 200 {"tier":"creator","character_count":10506,"character_limit":131000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796464027,"voice_slots_used":1,"professional_voice_slots
+      [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
+      take 2: 5 misheard [('nevo', 'naiveau'), ('rselfhosted', 'rslash selfhosted'), ('topoffunnel', 'top of funnel'), ('chatgpt', 'chad gpt'), ('hack saved', '')]
+      205 words, 81.8s, voice eleven_v4
+      remotion: Reel /tmp/tmp34t8kee8/video_only.mp4
+DRY RUN — reel at /home/runner/work/ai-news-reels/ai-news-reels/out/2026-11-05_1607.mp4
 --- caption ---
-Claude drafts your Instagram work in minutes, but never let it send DMs.
-✅ Claude > Projects > New project > "Instagram manager"
-✅ Add brand voice + 10-20 past captions in Instructions
-✅ Prompt a bio, a 4-week calendar and DM drafts
-✅ Read it, copy it, send from your own Instagram
-Which DM would you never let AI touch? 👇
-Save this for later 📌
+A scheduler anyone can download for free now makes $370K a month 👀
+✅ Open source = free top-of-funnel
+✅ Cloud version charges people who don't want servers
+✅ Reposition to where demand is moving (AI agents)
+Would you open-source your product to grow it?
+Save this for later
 Follow @ihackgrowth for daily AI & tech hacks
 
-#AItools #AIhacks #Claude #Instagram #SocialMediaTips #ContentCalendar #SmallBusiness #productivity
+#Postiz #OpenSource #SaaS #IndieHackers #AIagents #SocialMedia #startup #AIhacks #business
