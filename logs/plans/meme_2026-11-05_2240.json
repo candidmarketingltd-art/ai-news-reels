@@ -1,0 +1,33 @@
+{
+ "shots": [
+  {
+   "clip": "lib_man_opens_laptop_in_room",
+   "text": "me at 9am: today i ship the whole app",
+   "seconds": 2.5
+  },
+  {
+   "clip": "lib_man_looking_at_laptop",
+   "text": "claude at 12pm: usage limit reached. resets at 5. me: guess that's the workday",
+   "seconds": 4.5
+  }
+ ],
+ "style": "meme",
+ "song": {
+  "title": "Be OK",
+  "artist": "Ingrid Michaelson",
+  "mood": "funny",
+  "trend": "Used for acting fine while nothing is fine. This is a good fit for 'the deploy is on fire' jokes.",
+  "source": "https://newengen.com/insights/instagram-trends/",
+  "list_date": "Nov 2, 2026 (New Engen weekly list)",
+  "snippet": "use the most-used snippet, ideally cutting to shot 2 on the first beat",
+  "why": "it's the 'acting fine while nothing is fine' sound, which matches calling it a day at noon after the rate limit"
+ },
+ "caption": "the 5pm reset is basically a second morning. productivity is a lie, the limit is real.\nbe honest, what time did you hit your limit today?\n\n#claudeai #vibecoding #aimemes #founderlife #devhumor #buildinpublic",
+ "cover_word": "rate limit workday",
+ "text": "me at 9am: today i ship the whole app / claude at 12pm: usage limit reached. resets at 5. me: guess that's the workday",
+ "clip": "lib_man_opens_laptop_in_room,lib_man_looking_at_laptop",
+ "clip_paths": {
+  "lib_man_looking_at_laptop": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+  "lib_man_opens_laptop_in_room": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4"
+ }
+}

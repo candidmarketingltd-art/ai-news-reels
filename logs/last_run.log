@@ -7,16 +7,15 @@
 window 2026-11-05-2000 | posting times 13:00, 17:00, 20:00 IST | dry_run=True
       reel type: meme
 [1/3] trending audio + Claude news this week
-      12 trending songs, 13 news items
+      14 trending songs, 11 news items
 [2/3] meme line
-      “me telling the client "we're aware of the issue and looking into it" / the issue: me, pushing to main on a friday with zero tests” on lib_person_drinking_coffee_with_laptop,lib_man_looking_at_laptop · song: Be OK — Ingrid Michaelson
+      “me at 9am: today i ship the whole app / claude at 12pm: usage limit reached. resets at 5. me: guess that's the workday” on lib_man_opens_laptop_in_room,lib_man_looking_at_laptop · song: Be OK — Ingrid Michaelson
 [3/3] render
-DRY RUN — meme reel at /home/runner/work/ai-news-reels/ai-news-reels/out/2026-11-05_2238_meme.mp4
+DRY RUN — meme reel at /home/runner/work/ai-news-reels/ai-news-reels/out/2026-11-05_2240_meme.mp4
 --- caption ---
-🎵 ADD SONG: Be OK — Ingrid Michaelson (use the most-used snippet, ideally the first soft lines so the cut to shot 2 lands on the beat) ⬅ delete this line before posting
+🎵 ADD SONG: Be OK — Ingrid Michaelson (use the most-used snippet, ideally cutting to shot 2 on the first beat) ⬅ delete this line before posting
 
-the calm status update is a lie and we all know it. the coffee is doing the heavy lifting.
+the 5pm reset is basically a second morning. productivity is a lie, the limit is real.
+be honest, what time did you hit your limit today?
 
-be honest, who's pushed to prod right before the weekend?
-
-#vibecoding #founderlife #startupmemes #devhumor #aimemes #buildinpublic
+#claudeai #vibecoding #aimemes #founderlife #devhumor #buildinpublic
