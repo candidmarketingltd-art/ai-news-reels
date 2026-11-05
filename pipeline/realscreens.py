@@ -21,7 +21,8 @@ GOLD = "#FFC83D"
 HIDE_CSS = """
 [id*=cookie i],[class*=cookie i],[id*=consent i],[class*=consent i],[id*=onetrust i],[class*=onetrust i],[id*=gdpr i],
 [class*=gdpr i],[aria-label*=cookie i],[id^=sp_message],[class*=intercom],[id*=intercom],[class*=drift],[id*=hubspot-messages],
-[class*=crisp-client],[id*=chat-widget i],[class*=newsletter-popup i],[class*=modal-backdrop i] {display:none !important}
+[class*=crisp-client],[id*=chat-widget i],[class*=newsletter-popup i],[class*=modal-backdrop i],[role=dialog],[aria-modal=true],
+dialog,[class*=popup i],[class*=overlay i][style*=fixed] {display:none !important}
 html,body{overflow:visible !important}
 """
 MARK_JS = """([text, gold]) => {
@@ -68,7 +69,17 @@ MARK_JS = """([text, gold]) => {
 def _settle(page):
     try: page.wait_for_load_state("networkidle", timeout=12000)
     except Exception: pass
+    try: page.keyboard.press("Escape")
+    except Exception: pass
     page.add_style_tag(content=HIDE_CSS)
+    try:   # anything fixed that covers a big part of the screen (popups, sign-up modals, dim layers) goes
+        page.evaluate("""() => { const vw = innerWidth, vh = innerHeight;
+          for (const el of document.querySelectorAll('body *')) { const st = getComputedStyle(el);
+            if (st.position !== 'fixed' && st.position !== 'sticky') continue;
+            const r = el.getBoundingClientRect();
+            if (r.width * r.height > vw * vh * 0.3) el.style.setProperty('display', 'none', 'important'); }
+          document.body.style.overflow = 'visible'; document.documentElement.style.overflow = 'visible'; }""")
+    except Exception: pass
     # lazy-loaded sections: walk down the page once so images load, then back to the top
     try:
         page.evaluate("""async () => { for (let y = 0; y < Math.min(document.body.scrollHeight, 9000); y += 600) {

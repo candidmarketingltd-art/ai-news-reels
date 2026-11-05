@@ -202,7 +202,7 @@ def check_script(d, sources, story=False):
     first = re.split(r"(?<=[.!?])\s", _spoken_text(vo))[0]
     if HOOK_BANNED.search(first): raise ValueError(f"the hook starts with a banned opener ('{first[:40]}…'); open with the pain, mistake or claim")
     if len(first.split()) > 16: raise ValueError(f"the hook (first sentence) is {len(first.split())} words; keep it ≤ 14")
-    n = len(_spoken_text(vo).split()); top = MAX_WORDS_STORY if story else MAX_WORDS
+    n = len(_spoken_text(vo).split()); top = 205 if story == "business" else MAX_WORDS_STORY if story else MAX_WORDS
     if n > top: raise ValueError(f"the voiceover is {n} words; keep it under {top} (cut the weakest line)")
     if n < 90: raise ValueError(f"the voiceover is only {n} words; aim for {'170–220' if story else '120–160'}")
     spoken = _spoken_text(vo); low = lambda x: re.sub(r"[^\w\s]", "", x).lower().split()
@@ -419,7 +419,7 @@ def write(p, item, notes, tr):
             f"RESEARCH NOTES (the only facts, steps and numbers you may use):\n{sources}\n\n"
             f"FOR INSPIRATION ONLY — the popular reel's transcript (don't copy its wording; don't trust facts that aren't in the notes):\n"
             f"{(tr or item['caption'])[:2500]}\n\nReturn only the JSON.")
-    return _ask_json(SCRIPT_MODEL, sysp, user, lambda d: check_script(d, sources, story)), sources
+    return _ask_json(SCRIPT_MODEL, sysp, user, lambda d: check_script(d, sources, "business" if p.get("format") == "business" else story)), sources
 
 
 def footage(script, notes, workdir, extra=()):
