@@ -475,6 +475,10 @@ def edit(script, p, sources, notes=None, media=(), note=""):
         if real and tries["n"] <= 3:
             used = {e.get("media") for sc in d.get("scenes") or [] for e in sc.get("elements") or [] if e.get("type") == "footage"}
             need = 3 if p.get("format") in ("review", "business") else 2
+            proof = [m["id"] for m in media if m["id"].startswith("real_") and "trustmrr" in m.get("credit", "")]
+            if p.get("format") == "business" and proof and not used & set(proof):
+                raise ValueError(f"PROOF: show the TrustMRR revenue page ({', '.join(proof)}) with `footage` (full: true) when the voiceover "
+                                 "says the numbers are verified / says the revenue — that real page is the proof")
             if len(used & set(real)) < min(need, len(real)):
                 raise ValueError(f"REAL SCREENS: show at least {min(need, len(real))} of the real_ captures ({', '.join(real)}) with `footage` "
                                  "at the moments the voiceover talks about that page/price/feature — they are the proof viewers trust")

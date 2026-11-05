@@ -221,12 +221,13 @@ def _vision(items, tool):
         im.thumbnail((900, 1400))
         import io
         b = io.BytesIO(); im.save(b, "JPEG", quality=80)
-        content += [{"type": "text", "text": f"#{i} ({m['id']})"},
+        content += [{"type": "text", "text": f"#{i} ({m['id']}, {m.get('credit', '')})"},
                     {"type": "image", "source": {"type": "base64", "media_type": "image/jpeg", "data": base64.b64encode(b.getvalue()).decode()}}]
     content.append({"type": "text", "text": (
         f"These are captures of the official pages of **{tool}** for an Instagram reel. For EACH #, return JSON "
         '{"items": [{"i": 0, "usable": true|false, "desc": "what is on screen, with the exact headline/plan names/prices/buttons you can READ"}]}. '
-        "usable=false if it is an error page, captcha, cookie wall, login wall, blank/broken layout, or not this product. Read text exactly; "
+        "usable=false if it is an error page, captcha, cookie wall, login wall, blank/broken layout, or about a different product. "
+        "Captures from trustmrr.com are this product's verified-revenue listing (revenue, MRR, growth) — usable when they show it. Read text exactly; "
         "never guess numbers you can't read. Return only the JSON.")})
     model = os.environ.get("VISION_MODEL") or os.environ.get("SCRIPT_MODEL") or "claude-sonnet-5-5"
     msg = anthropic.Anthropic().messages.create(model=model, max_tokens=2500, messages=[{"role": "user", "content": content}])
@@ -247,7 +248,11 @@ def _vision(items, tool):
 
 def collect(notes, workdir, max_pages=4):
     """notes.real_pages: [{"url", "show": exact visible text to point at, "kind": "site" | "help"}] from the research step."""
-    pages = [p for p in (notes.get("real_pages") or []) if isinstance(p, dict) and str(p.get("url", "")).startswith("http")][:max_pages]
+    pages, seen = [], set()
+    for p in notes.get("real_pages") or []:
+        if isinstance(p, dict) and str(p.get("url", "")).startswith("http") and p["url"].rstrip("/") not in seen:
+            seen.add(p["url"].rstrip("/")); pages.append(p)
+    pages = pages[:max_pages]
     if not pages: return []
     os.makedirs(workdir, exist_ok=True)
     raw = []
