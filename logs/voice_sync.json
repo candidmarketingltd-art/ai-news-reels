@@ -1,0 +1,7 @@
+{
+ "at": "2026-11-05T09:56:29+00:00",
+ "name_wanted": "Rohan",
+ "subscription": "400 {'detail': {'type': 'authentication_error', 'code': 'invalid_api_key', 'message': \"API key ID used as API key - only valid API keys can be used. API keys start with 'sk_' and are shown when the key is",
+ "workspace_voices": "400 {'detail': {'type': 'authentication_error', 'code': 'invalid_api_key', 'message': \"API key ID used as API key - only valid API keys can be used. API keys start with 'sk_' and are shown when the key is (key may lack 'Voices: Read')",
+ "error": "library search failed: 400 {'detail': {'type': 'authentication_error', 'code': 'invalid_api_key', 'message': \"API key ID used as API key - only valid API keys can be used. API keys start with 'sk_' and are shown when the key is"
+}
