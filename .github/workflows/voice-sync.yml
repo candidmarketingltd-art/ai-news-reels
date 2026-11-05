@@ -1,0 +1,30 @@
+name: Sync Rohan voice
+
+# Finds the Rohan voice for the current ElevenLabs API key (adds it from the Voice Library if needed) and saves its id.
+# Generates no speech, so it spends no credits.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: news-reels
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install requests
+      - env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
+          ELEVENLABS_VOICE_NAME: ${{ vars.ELEVENLABS_VOICE_NAME }}
+        run: python -m pipeline.voice_sync || echo "SYNC_FAILED" >> logs/voice_sync.json.fail
+      - run: |
+          git config user.name "reels-bot"; git config user.email "reels-bot@users.noreply.github.com"
+          git add logs/voice_sync.json
+          git commit -m "voice sync" || exit 0
+          for i in 1 2 3; do git pull --rebase -X theirs && git push && break; sleep 5; done

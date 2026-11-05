@@ -4,7 +4,16 @@ import base64, os
 import requests
 
 API = "https://api.elevenlabs.io/v1"
-VOICE = (os.environ.get("ELEVENLABS_VOICE_ID") or "dVIifp6W0jifqeThgNN0")  # "Rohan"
+def _synced():
+    """Voice id saved by pipeline/voice_sync.py for the current API key."""
+    try:
+        import json, pathlib
+        return json.loads((pathlib.Path(__file__).resolve().parent.parent / "logs" / "voice_sync.json").read_text()).get("voice_id")
+    except Exception:
+        return None
+
+
+VOICE = (os.environ.get("ELEVENLABS_VOICE_ID") or _synced() or "IcsYcP26eMwajlgx2SDe")  # "Rohan"
 # "Natural" delivery: mid stability lets Rohan sound conversational instead of flat. Set ELEVENLABS_STABILITY="" to send no settings.
 STABILITY = os.environ.get("ELEVENLABS_STABILITY", "0.5")
 MODELS = [m for m in ((os.environ.get("ELEVENLABS_MODEL") or "eleven_v4"), "eleven_v3", "eleven_multilingual_v2") if m]
