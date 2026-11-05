@@ -110,6 +110,13 @@ def main():
     dry = "--dry-run" in sys.argv or os.environ.get("DRY_RUN", "").lower() in ("1", "true", "yes")
     for k in ("ANTHROPIC_API_KEY", "ELEVENLABS_API_KEY", "APIFY_TOKEN", "BUFFER_API_KEY", "BUFFER_CHANNEL_ID"):
         print(f"  {k}: {'set' if os.environ.get(k) else 'MISSING'}", flush=True)
+    try:   # make sure the Rohan voice is set up for whichever ElevenLabs key is in the secrets (no credits used)
+        from pipeline import voice_sync, voice
+        rep = voice_sync.main(); _save(voice_sync.OUT, rep)
+        if rep.get("voice_id") and not os.environ.get("ELEVENLABS_VOICE_ID"): voice.VOICE = rep["voice_id"]
+        print(f"      voice: {rep.get('voice_name')} {rep.get('voice_id')} ({rep.get('how') or rep.get('error', '')[:120]})", flush=True)
+    except Exception as e:
+        print(f"      (voice sync skipped: {str(e)[:150]})", flush=True)
     key = slot_key()
     slots = _load(SLOTS, {})
     if os.environ.get("SLOT_GUARD") == "1" and slots.get(key, {}).get("status") == "posted" and not dry:
