@@ -65,6 +65,8 @@ def write(recent, clips, trend):
         if d.get("style") not in ("meme", "quote"): raise ValueError("style: meme or quote")
         s = (d.get("song") or {}).get("title", "").lower()
         if songs and s not in songs: raise ValueError("song must be one of the TRENDING songs, title exactly as listed")
+        used = [r.split("· song:")[-1].strip().lower() for r in recent[-6:] if "· song:" in r]
+        if s in used and len(songs - set(used)) > 2: raise ValueError("that song was used in the last few meme reels — pick a different trending song")
         if not d.get("caption"): raise ValueError("caption missing")
     return _ask_json(SCRIPT_MODEL, sysp, user, check)
 

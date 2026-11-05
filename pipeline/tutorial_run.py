@@ -110,7 +110,7 @@ def meme_reel(key, slots, dry):
     stamp = dt.datetime.now(IST).strftime("%Y-%m-%d_%H%M")
     recent = []
     try:
-        with open(MEMES, encoding="utf-8") as f: recent = [f"{r['text']} ({r['clip']})" for r in csv.DictReader(f)][-25:]
+        with open(MEMES, encoding="utf-8") as f: recent = [f"{r['text']} ({r['clip']}) · song: {r.get('song')}" for r in csv.DictReader(f)][-25:]
     except Exception: pass
     try:
         plan = meme.make(recent, str(OUT / "media" / stamp))
