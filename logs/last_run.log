@@ -3,14 +3,21 @@
   APIFY_TOKEN: set
   BUFFER_API_KEY: set
   BUFFER_CHANNEL_ID: set
-window 2026-11-04-2000 | posting times 13:00, 20:00 IST | dry_run=False
+window 2026-11-05-1300 | posting times 13:00, 20:00 IST | dry_run=False
       b-roll library: 25 clips
       recording request #1: still waiting for the video
       recording request #2: still waiting for the video
 [1/6] top AI & tech reels
-      reel pool: 76 reels (cached today)
+      hashtag scrape failed: apify apify/instagram-hashtag-scraper: 403 {
+  "error": {
+    "type": "platform-feature-disabled",
+    "message": "Monthly usage hard limit exceeded"
+  }
+}
+      using the last saved reel pool
+      reel pool: 76 reels
 [2/6] picking the topic
-      → Your AI chats can end up in Google search if you share them. Show how to check your shared links, delete them, and turn off the settings that expose your chats and artifacts.  (warning, from @marcus_lagrone, 190,850 views) — 190,851 views and 761 comments in 43s. Privacy warnings pull strong engagement, and the fix is a quick settings walkthrough. It's different from our Incognito a
+      → Turn messy meeting notes into a tracker of action items (owner, due date, priority) in 3 steps, using a free AI and Google Sheets or Excel  (tutorial, from @rohit_beria, 503,007 views) — 503k views and 3,401 comments, the top comment-to-view ratio among the practical office tutorials. Everyone who sits in meetings has the problem. The original n
       transcript failed: apify apify/instagram-reel-scraper: 403 {
   "error": {
     "type": "platform-feature-disabled",
@@ -18,22 +25,22 @@ window 2026-11-04-2000 | posting times 13:00, 20:00 IST | dry_run=False
   }
 }
 [3/6] research (0 transcript words)
-      verdict adjust · 6 web searches · 10 steps · 15 sources
+      verdict adjust · 6 web searches · 7 steps · 17 sources
 [4/6] script + edit
       (media: pexels 'typing on laptop' failed: 403 Client Error: Forbidden for url: https://api.apify.com/v2/acts/memo23~pexels)
-      (media: pexels 'person worried at desk' failed: 403 Client Error: Forbidden for url: https://api.apify.com/v2/acts/memo23~pexels)
+      (media: pexels 'team meeting notes' failed: 403 Client Error: Forbidden for url: https://api.apify.com/v2/acts/memo23~pexels)
       media: s1_image, s1_logo
 [5/6] voice + render
       [eleven] workspace voices: Rohan (IcsYcP26eMwajlgx2SDe, cloned)
       [eleven] using Rohan (IcsYcP26eMwajlgx2SDe)
-      [eleven] subscription: 200 {"tier":"starter","character_count":35702,"character_limit":40000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796033014,"voice_slots_used":1,"professional_voice_slots_
+      [eleven] subscription: 200 {"tier":"starter","character_count":38063,"character_limit":40000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796033014,"voice_slots_used":1,"professional_voice_slots_
       [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
-      voice check: 2 word(s) misheard [('too', 'to'), ('pastes', 'pays')] -> recording another take
-      [eleven] subscription: 200 {"tier":"starter","character_count":35702,"character_limit":40000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796033014,"voice_slots_used":1,"professional_voice_slots_
+      voice check: 3 word(s) misheard [('chatgpt', 'chat gbd'), ('chatgpt', 'chat gbd'), ('team', 'teen')] -> recording another take
+      [eleven] subscription: 200 {"tier":"starter","character_count":38063,"character_limit":40000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796033014,"voice_slots_used":1,"professional_voice_slots_
       [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
-      take 2: 1 misheard [('actions delete all shared links honest catch that kills the link but not a copy someone already saved', 'information then more information')]
-      151 words, 57.2s, voice eleven_v4
-      remotion: Reel /tmp/tmpwh2jn5e1/video_only.mp4
+      take 2: 2 misheard [('chatgpt', 'chat gbd'), ('chatgpt', 'chat gbd')]
+      163 words, 66.7s, voice eleven_v4
+      remotion: Reel /tmp/tmp1fcjs8s7/video_only.mp4
 [6/6] publish
-      [buffer] created post 6aeb43f61dd5b1fe45e616e2 (customScheduled)
-POSTED 6aeb43f61dd5b1fe45e616e2 https://github.com/candidmarketingltd-art/ai-news-reels/releases/download/reel-2026-11-04_2001/2026-11-04_2001.mp4
+      [buffer] created post 6aec33bde22643a9879bd79c (customScheduled)
+POSTED 6aec33bde22643a9879bd79c https://github.com/candidmarketingltd-art/ai-news-reels/releases/download/reel-2026-11-05_1301/2026-11-05_1301.mp4

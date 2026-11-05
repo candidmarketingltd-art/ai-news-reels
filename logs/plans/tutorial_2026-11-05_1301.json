@@ -1,0 +1,1876 @@
+{
+ "voiceover": "[conversational] Stop chasing action items through email and final_v3 spreadsheets.\n\n[curious] Free AI can turn messy notes into a tracker in 3 steps. Stay till the end, because one step stops it quietly guessing wrong.\n\nStep 1: open Gemini or ChatGPT, and paste your notes with this: \"Extract every action item into a table: Task, Owner, Due date, Priority, Status. Write TBD if missing.\" Include the meeting date, so Friday becomes a real date.\n\nStep 2: check the table. Step 3: Gemini has Export to Sheets, bottom right. ChatGPT? Copy the table, click A1 in Sheets, paste.\n\n[confident] One-column mess? Ask for CSV in a code block, then Data, Split text to columns.\n\n[amused] Honest catch: it's a plain sheet, so no reminders. Remove sensitive names first.\n\n[serious] Now, that step is step 2. AI can guess owners, dates and priorities, so read every row and fix mistakes in chat.\n\n[playful] What's the messiest tracker your team uses? Send this to the friend who still emails final_v3.\n\nHack saved?",
+ "open_loop": {
+  "setup": "Stay till the end, because one step stops it quietly guessing wrong.",
+  "payoff": "Now, that step is step 2. AI can guess owners, dates and priorities, so read every row and fix mistakes in chat."
+ },
+ "title": "STOP CHASING ACTION ITEMS",
+ "ig_caption": "Stop chasing action items through email and final_v3 spreadsheets.\n✅ Paste your notes into free Gemini or ChatGPT with the table prompt\n✅ Check every owner, date and priority\n✅ Gemini: Export to Sheets. ChatGPT: copy, then paste into A1\nWhat's the messiest tracker your team uses? 👇\nSave this for later 📌\nFollow @ihackgrowth for daily AI & tech hacks",
+ "media_hints": {
+  "domain": "gemini.google.com",
+  "broll": [
+   "typing on laptop",
+   "team meeting notes",
+   "spreadsheet on screen"
+  ]
+ },
+ "hashtags": [
+  "#AItools",
+  "#AIhacks",
+  "#Gemini",
+  "#ChatGPT",
+  "#GoogleSheets",
+  "#productivity",
+  "#meetingnotes",
+  "#projectmanagement"
+ ],
+ "tag": "AI TRACKER",
+ "keywords": [
+  "chasing",
+  "email",
+  "final_v3",
+  "tracker",
+  "messy",
+  "notes",
+  "Gemini",
+  "ChatGPT",
+  "Extract",
+  "Friday",
+  "Export",
+  "Sheets",
+  "A1",
+  "paste",
+  "CSV",
+  "Split",
+  "reminders",
+  "sensitive",
+  "guess",
+  "mistakes"
+ ],
+ "music": "upbeat",
+ "hud": {
+  "label": "STEP",
+  "items": [
+   {
+    "value": "0/3",
+    "color": "red"
+   },
+   {
+    "at": "Step 1:",
+    "value": "1/3",
+    "color": "gold"
+   },
+   {
+    "at": "Step 2:",
+    "value": "2/3",
+    "color": "gold"
+   },
+   {
+    "at": "Step 3:",
+    "value": "3/3",
+    "color": "green"
+   },
+   {
+    "at": "is step 2.",
+    "value": "CHECKED",
+    "color": "green"
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "at": "Stop chasing",
+   "tint": "red",
+   "react": [
+    {
+     "at": "final_v3 spreadsheets.",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Stop chasing",
+     "media": "lib_hand_dropping_papers_on_desk",
+     "full": true
+    },
+    {
+     "type": "title_slam",
+     "at": "Stop chasing",
+     "text": "STOP",
+     "sub": "CHASING ACTION ITEMS",
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "at": "Free AI can",
+   "elements": [
+    {
+     "type": "illustration",
+     "at": "Free AI can",
+     "name": "memo",
+     "size": "l",
+     "caption": "MESSY NOTES",
+     "glow": true,
+     "act": "spin",
+     "act_at": "into a tracker"
+    },
+    {
+     "type": "headline",
+     "at": "into a tracker",
+     "text": "NOTES → TRACKER",
+     "size": "l",
+     "ill": "clipboard",
+     "sub": "3 STEPS · FREE",
+     "sub_at": "in 3 steps.",
+     "sub_color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "Stay till",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "quietly guessing",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "Stay till",
+     "kind": "padlock",
+     "size": "l",
+     "caption": "STAY FOR THE FIX",
+     "caption_at": "one step"
+    },
+    {
+     "type": "pill",
+     "at": "quietly guessing",
+     "text": "AI GUESSES WRONG",
+     "color": "red",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "Step 1:",
+   "react": [
+    {
+     "at": "Step 1:",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Step 1:",
+     "device": "web",
+     "app": "Gemini",
+     "url": "gemini.google.com",
+     "brand": "gemini",
+     "theme": "light",
+     "step": "Step 1 · Paste + prompt",
+     "steps": [
+      {
+       "at": "Step 1:",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "My Stuff",
+         "Q3 planning",
+         "Trip ideas"
+        ],
+        "profile": "Rohan",
+        "title": "Hello, Rohan",
+        "input_buttons": [
+         "+",
+         "Tools"
+        ],
+        "input": "Ask Gemini"
+       },
+       "action": {
+        "kind": "click",
+        "target": "input",
+        "at": "open Gemini"
+       }
+      },
+      {
+       "at": "and paste",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "My Stuff",
+         "Q3 planning",
+         "Trip ideas"
+        ],
+        "profile": "Rohan",
+        "input_buttons": [
+         "+",
+         "Tools"
+        ],
+        "input": ""
+       },
+       "action": {
+        "kind": "type",
+        "target": "input",
+        "text": "mon sync: priya login bug fri?? sam deck... budget tbd",
+        "at": "your notes"
+       }
+      },
+      {
+       "at": "Extract every",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "My Stuff",
+         "Q3 planning",
+         "Trip ideas"
+        ],
+        "profile": "Rohan",
+        "input_buttons": [
+         "+",
+         "Tools"
+        ],
+        "chat": [
+         {
+          "from": "user",
+          "text": "mon sync: priya login bug fri?? sam deck... budget tbd"
+         }
+        ],
+        "input": ""
+       },
+       "action": {
+        "kind": "type",
+        "target": "input",
+        "text": "Extract every action item into a table: Task, Owner, Due date, Priority, Status. Write TBD if missing.",
+        "at": "Extract every"
+       }
+      },
+      {
+       "at": "Include the",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "My Stuff",
+         "Q3 planning",
+         "Trip ideas"
+        ],
+        "profile": "Rohan",
+        "input_buttons": [
+         "+",
+         "Tools"
+        ],
+        "chat": [
+         {
+          "from": "user",
+          "text": "Extract every action item into a table..."
+         },
+         {
+          "from": "ai",
+          "text": "Task | Owner | Due date | Priority | Status"
+         }
+        ],
+        "input": ""
+       },
+       "action": {
+        "kind": "type",
+        "target": "input",
+        "text": "Meeting date: last Monday",
+        "at": "meeting date,"
+       }
+      },
+      {
+       "at": "so Friday",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "My Stuff",
+         "Q3 planning",
+         "Trip ideas"
+        ],
+        "profile": "Rohan",
+        "input_buttons": [
+         "+",
+         "Tools"
+        ],
+        "chat": [
+         {
+          "from": "user",
+          "text": "Meeting date: last Monday"
+         },
+         {
+          "from": "ai",
+          "text": "Fix login bug | Priya | Fri (dated) | High | Open"
+         }
+        ],
+        "input": ""
+       },
+       "action": {
+        "kind": "point",
+        "target": "input",
+        "at": "real date."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Step 2:",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Step 2:",
+     "device": "web",
+     "app": "Gemini",
+     "url": "gemini.google.com",
+     "step": "Step 2 · Check the table",
+     "steps": [
+      {
+       "at": "Step 2:",
+       "view": {
+        "kind": "checklist",
+        "window": "Gemini",
+        "title": "Action items",
+        "items": [
+         {
+          "label": "Fix login bug",
+          "sub": "Priya · Fri · High · Open"
+         },
+         {
+          "label": "Pricing deck",
+          "sub": "Sam · TBD · Medium · Open"
+         },
+         {
+          "label": "Budget sign-off",
+          "sub": "TBD · TBD · Low · Open"
+         }
+        ]
+       },
+       "action": {
+        "kind": "toggle",
+        "target": "Fix login bug",
+        "at": "the table."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Step 3:",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Step 3:",
+     "device": "web",
+     "app": "Gemini",
+     "url": "gemini.google.com",
+     "step": "Step 3 · Send to Sheets",
+     "steps": [
+      {
+       "at": "Step 3:",
+       "view": {
+        "kind": "page",
+        "site": "Gemini",
+        "heading": "Action items",
+        "cards": [
+         {
+          "title": "Fix login bug",
+          "text": "Priya · Fri · High",
+          "status": "Open"
+         },
+         {
+          "title": "Pricing deck",
+          "text": "Sam · TBD · Medium",
+          "status": "Open"
+         }
+        ],
+        "buttons": [
+         "Copy",
+         "Export to Sheets"
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "Export to Sheets",
+        "at": "Export to"
+       }
+      },
+      {
+       "at": "bottom right.",
+       "view": {
+        "kind": "page",
+        "site": "Gemini",
+        "heading": "Exported to Sheets",
+        "sub": "Your table is ready",
+        "buttons": [
+         "Open Sheets"
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "Open Sheets",
+        "at": "bottom right."
+       }
+      },
+      {
+       "at": "ChatGPT? Copy",
+       "view": {
+        "url": "chatgpt.com",
+        "sidebar": [
+         "New chat",
+         "Search chats",
+         "Library",
+         "GPTs"
+        ],
+        "profile": "Rohan",
+        "top_buttons": [
+         "Copy table",
+         "Share"
+        ],
+        "chat": [
+         {
+          "from": "user",
+          "text": "Extract every action item into a table..."
+         },
+         {
+          "from": "ai",
+          "text": "Task | Owner | Due date | Priority | Status"
+         }
+        ],
+        "input": ""
+       },
+       "action": {
+        "kind": "click",
+        "target": "Copy table",
+        "at": "Copy the table,"
+       }
+      },
+      {
+       "at": "click A1",
+       "view": {
+        "kind": "page",
+        "url": "sheets.google.com",
+        "site": "Google Sheets",
+        "nav": [
+         "File",
+         "Edit",
+         "View",
+         "Insert",
+         "Format",
+         "Data",
+         "Tools",
+         "Extensions",
+         "Help"
+        ],
+        "heading": "Untitled spreadsheet",
+        "buttons": [
+         "A1",
+         "Share"
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "A1",
+        "at": "click A1"
+       }
+      },
+      {
+       "at": "Sheets, paste.",
+       "view": {
+        "kind": "page",
+        "url": "sheets.google.com",
+        "site": "Google Sheets",
+        "nav": [
+         "File",
+         "Edit",
+         "View",
+         "Insert",
+         "Format",
+         "Data",
+         "Tools",
+         "Extensions",
+         "Help"
+        ],
+        "heading": "Action tracker",
+        "buttons": [
+         "Share"
+        ],
+        "cards": [
+         {
+          "title": "Fix login bug",
+          "text": "Priya · Fri · High",
+          "status": "Open"
+         },
+         {
+          "title": "Pricing deck",
+          "text": "Sam · TBD · Medium",
+          "status": "Open"
+         },
+         {
+          "title": "Budget sign-off",
+          "text": "TBD · TBD · Low",
+          "status": "Open"
+         }
+        ]
+       },
+       "action": {
+        "kind": "point",
+        "target": "Fix login bug",
+        "at": "paste."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "One-column mess?",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "One-column mess?",
+     "device": "web",
+     "app": "Google Sheets",
+     "url": "sheets.google.com",
+     "step": "Fix · One-column paste",
+     "steps": [
+      {
+       "at": "One-column mess?",
+       "view": {
+        "kind": "page",
+        "site": "Google Sheets",
+        "nav": [
+         "File",
+         "Edit",
+         "View",
+         "Insert",
+         "Format",
+         "Data",
+         "Tools",
+         "Extensions",
+         "Help"
+        ],
+        "heading": "Everything in column A",
+        "cards": [
+         {
+          "title": "Fix login bug,Priya,Fri,High,Open",
+          "text": "Column A"
+         }
+        ]
+       },
+       "action": {
+        "kind": "point",
+        "target": "Fix login bug,Priya,Fri,High,Open",
+        "at": "One-column mess?"
+       }
+      },
+      {
+       "at": "Ask for",
+       "view": {
+        "url": "chatgpt.com",
+        "sidebar": [
+         "New chat",
+         "Search chats",
+         "Library",
+         "GPTs"
+        ],
+        "profile": "Rohan",
+        "input_buttons": [
+         "+",
+         "Tools"
+        ],
+        "input": ""
+       },
+       "action": {
+        "kind": "type",
+        "target": "input",
+        "text": "Give it as CSV in a code block",
+        "at": "Ask for CSV"
+       }
+      },
+      {
+       "at": "then Data,",
+       "view": {
+        "kind": "page",
+        "site": "Google Sheets",
+        "nav": [
+         "File",
+         "Edit",
+         "View",
+         "Insert",
+         "Format",
+         "Data",
+         "Tools",
+         "Extensions",
+         "Help"
+        ],
+        "heading": "Data",
+        "buttons": [
+         "Sort range",
+         "Split text to columns",
+         "Data validation"
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "Split text to columns",
+        "at": "Split text"
+       }
+      },
+      {
+       "at": "to columns.",
+       "view": {
+        "kind": "page",
+        "site": "Google Sheets",
+        "nav": [
+         "File",
+         "Edit",
+         "View",
+         "Insert",
+         "Format",
+         "Data",
+         "Tools",
+         "Extensions",
+         "Help"
+        ],
+        "heading": "Action tracker",
+        "cards": [
+         {
+          "title": "Fix login bug",
+          "text": "Priya · Fri · High",
+          "status": "Open"
+         },
+         {
+          "title": "Pricing deck",
+          "text": "Sam · TBD · Medium",
+          "status": "Open"
+         }
+        ]
+       },
+       "action": {
+        "kind": "point",
+        "target": "Fix login bug",
+        "at": "to columns."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Honest catch:",
+   "tint": "red",
+   "react": [
+    {
+     "at": "no reminders.",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "Honest catch:",
+     "text": "HONEST CATCH",
+     "color": "red"
+    },
+    {
+     "type": "strike_list",
+     "at": "plain sheet,",
+     "items": [
+      {
+       "text": "PLAIN SHEET",
+       "at": "plain sheet,",
+       "strike": false
+      },
+      {
+       "text": "AUTO REMINDERS",
+       "at": "no reminders.",
+       "strike": true
+      },
+      {
+       "text": "REMOVE SENSITIVE NAMES",
+       "at": "Remove sensitive",
+       "strike": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Now, that step",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "is step 2.",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "Now, that step",
+     "kind": "padlock",
+     "size": "l",
+     "act": "open",
+     "act_at": "is step 2.",
+     "caption": "STEP 2 = CHECK IT",
+     "caption_at": "is step 2."
+    },
+    {
+     "type": "strike_list",
+     "at": "AI can guess",
+     "items": [
+      {
+       "text": "OWNERS",
+       "at": "guess owners,",
+       "strike": true
+      },
+      {
+       "text": "DATES",
+       "at": "dates and",
+       "strike": true
+      },
+      {
+       "text": "PRIORITIES",
+       "at": "priorities, so",
+       "strike": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "read every row",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "label",
+     "at": "read every row",
+     "text": "READ EVERY ROW"
+    },
+    {
+     "type": "prompt",
+     "at": "fix mistakes",
+     "app": "GEMINI",
+     "text": "Pricing deck owner is Sam, not Priya. Update the table.",
+     "send_at": "in chat.",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "What's the messiest",
+   "react": [
+    {
+     "at": "your team",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "headline",
+     "at": "What's the messiest",
+     "text": "MESSIEST TRACKER?",
+     "size": "l",
+     "ill": "speech_balloon",
+     "sub": "COMMENT BELOW",
+     "sub_at": "your team"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "Send this",
+  "line1": "Send this to",
+  "line1_at": "Send this",
+  "line2": "the final_v3 emailer",
+  "line2_at": "emails final_v3."
+ },
+ "endcard": {
+  "title": "Hack saved?",
+  "terminal": "> notes.tracked · 3 steps"
+ },
+ "media": [
+  {
+   "id": "lib_camera_moving_down_server_corridor",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "credit": "",
+   "file": "camera_moving_down_server_corridor.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow forward push down a hazy, fog-filled data center aisle lined with server racks that glow with blue and amber status lights, giving a moody, futuristic feel. Good for: A script line about the infrastructure behind AI, such as cloud computing, model training, heavy compute, data storage, or 'what happens behind the scenes'."
+  },
+  {
+   "id": "lib_clock_ticking_and_person_typing",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "credit": "",
+   "file": "clock_ticking_and_person_typing.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A rack-focus shot moves from a close-up of a black twin-bell alarm clock with ticking hands to a bearded man in a light polo typing on a laptop in a dim room, giving a tense, time-pressured mood. Good for: lines about deadlines, time slipping away, long hours of manual work, or the pressure of slow, tedious tasks before an AI tool speeds things up"
+  },
+  {
+   "id": "lib_colleagues_collaborating_around",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "credit": "",
+   "file": "colleagues_collaborating_around.mp4",
+   "frames": 126,
+   "desc": "B-roll (4.2s, VERTICAL 9:16 — best as full: true): colleagues collaborating around Good for: "
+  },
+  {
+   "id": "lib_content_creator_sets_up_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "credit": "",
+   "file": "content_creator_sets_up_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt stands behind a ring light with a phone on a tripod, adjusting the setup while the camera slowly pushes in until his face fills the frame, with a calm, focused mood and moody blue ambient lighting in the background. Good for: setting up to create content, getting started as a creator, or preparing equipment before recording a tutorial"
+  },
+  {
+   "id": "lib_fingers_typing_on_laptop_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "credit": "",
+   "file": "fingers_typing_on_laptop_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): Close-up over-the-shoulder shot of a person typing on a backlit laptop keyboard, with a blurred blue screen in the background and a warm, focused, productive mood. Good for: lines about getting started, writing prompts or code, doing focused work at the computer, or the hands-on steps of a tutorial"
+  },
+  {
+   "id": "lib_hand_dropping_papers_on_desk",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "credit": "",
+   "file": "hand_dropping_papers_on_desk.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a green shirt carries and then drops a thick stack of papers onto an already huge, messy pile of documents with sticky notes on a cluttered desk, while a laptop glows nearby, and the camera pushes in to a close-up of the towering stack, creating a mood of overwhelm and tedious paperwork. Good for: a script line about drowning in manual paperwork or document processing, setting up how AI can automate summarizing, sorting, or extracting information from piles of documents"
+  },
+  {
+   "id": "lib_hands_holding_credit_card_near",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hands_holding_credit_card_near.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hands_holding_credit_card_near.mp4",
+   "credit": "",
+   "file": "hands_holding_credit_card_near.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): hands holding credit card near Good for: "
+  },
+  {
+   "id": "lib_man_looking_at_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "credit": "",
+   "file": "man_looking_at_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt scowls with intense focus at a laptop in a dim, warmly lit room, then closes his eyes and rubs his hand near his chin in tired frustration. Good for: frustration with slow or difficult work, such as struggling with a tedious task, debugging, or burning out late at night before finding a better way"
+  },
+  {
+   "id": "lib_man_opens_laptop_in_room",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "credit": "",
+   "file": "man_opens_laptop_in_room.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt sits at a laptop in a dimly lit, warmly lit room, and his focused, tense expression builds as he leans toward the screen, which shows blurry blue diagram or flowchart-style blocks, with his fists clenched near his chin in the middle frame. Good for: intense concentration or deep work, such as debugging, building an AI workflow, or struggling with a complex problem"
+  },
+  {
+   "id": "lib_man_pointing_at_camera",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_pointing_at_camera.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_pointing_at_camera.mp4",
+   "credit": "",
+   "file": "man_pointing_at_camera.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a dark henley sits in a car seat working on a laptop with a focused look, then looks up with a warm smile and points playfully at the camera in a confident, friendly mood. Good for: a line that moves from focused work or problem-solving to a direct call to action, such as 'here's the trick you need to try' or 'now it's your turn'"
+  },
+  {
+   "id": "lib_man_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "man_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt stares intently at a laptop screen with blurry blue UI elements floating in front of the camera, then grimaces in frustration and mouths a reaction, and finally tilts his head back in exhausted resignation in a dim, warmly lit room. Good for: frustration with slow, tedious, or failing work, such as waiting on a slow tool, hitting an error, or being exhausted by manual tasks before introducing an AI solution"
+  },
+  {
+   "id": "lib_man_shaking_head_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "credit": "",
+   "file": "man_shaking_head_at_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits in a dark chair looking down at his phone, and his expression shifts from neutral to scrunched-up frustration or confusion, then to a displeased, worried look as he lowers the phone. Good for: frustration or disappointment with a tool or app that isn't working, slow or confusing results, or a bad surprise while checking your phone"
+  },
+  {
+   "id": "lib_man_smiling_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "credit": "",
+   "file": "man_smiling_at_phone.mp4",
+   "frames": 135,
+   "desc": "B-roll (4.5s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a blue smartphone, his expression shifting from neutral to a furrowed-brow frown of confusion and frustration. Good for: a line about frustration with confusing apps or slow tools, or the moment someone hits a problem and doesn't know what to do next"
+  },
+  {
+   "id": "lib_man_studying_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "credit": "",
+   "file": "man_studying_with_laptop.mp4",
+   "frames": 132,
+   "desc": "B-roll (4.4s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits at a desk behind a laptop with a furrowed brow and a frustrated, concentrated look, first staring at the screen, then looking down at an open notebook and writing with a pen, with a warm blurred lamp glowing in the background. Good for: a script line about struggling to understand something complex, frustration with slow or manual work, or the pain of learning a new tool the hard way"
+  },
+  {
+   "id": "lib_man_watching_laptop_waiting",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "credit": "",
+   "file": "man_watching_laptop_waiting.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits at a laptop in a dimly lit room with warm lamp light, resting his chin on his fist with a focused, pensive look, and the camera pushes in closer across the three frames. Good for: a script line about deep thinking, researching or problem-solving, or weighing a decision before trying an AI tool"
+  },
+  {
+   "id": "lib_person_drinking_coffee_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "credit": "",
+   "file": "person_drinking_coffee_with_laptop.mp4",
+   "frames": 93,
+   "desc": "B-roll (3.1s, VERTICAL 9:16 — best as full: true): A bearded man in a green polo sits at a laptop in a modern industrial-style open office, lifting a white cup to his mouth and sipping a hot drink while looking down at the screen, in a calm, focused mood. Good for: a line about taking a breather while the AI does the work, a morning work routine, waiting for a process to finish, or the calm of an automated workflow"
+  },
+  {
+   "id": "lib_person_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "person_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a laptop, his expression moving from concern to a deep frown with glowing blue tear-like effects on his cheeks, then to eyes shut in stress or exhaustion; the mood is frustrated and overwhelmed. Good for: A script line about frustration or overwhelm with a tough task, such as struggling with confusing tools, wasting hours on manual work, or being stuck before finding an AI solution."
+  },
+  {
+   "id": "lib_person_speaking_into_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "credit": "",
+   "file": "person_speaking_into_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt takes a phone call in a modern industrial office with exposed concrete ceilings, moving from a serious, concerned look to a worried talking expression and ending with a relieved, confident smile at the camera. Good for: a script line about getting a surprising call or news, a problem being solved, or the moment of relief after a stressful issue"
+  },
+  {
+   "id": "lib_professional_working_on_laptop_late",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "credit": "",
+   "file": "professional_working_on_laptop_late.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A tired bearded young man in a maroon t-shirt sits at a laptop in a dim apartment at night, resting his head on his hand, rubbing his eyes, then glumly lifting a white coffee mug, with blurred city lights glowing behind him through the window. Good for: A script line about burnout, late-night grinding, or frustration with slow manual work that AI tools can speed up, e.g. 'still stuck doing this by hand at midnight?'"
+  },
+  {
+   "id": "lib_robotic_hand_typing_on_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "credit": "",
+   "file": "robotic_hand_typing_on_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a black robotic hand with segmented, mechanical fingers lowering onto a backlit laptop keyboard and starting to type, shot at shallow depth of field in a warm, softly lit, modern workspace. Good for: A script line about AI doing the work for you, automating repetitive tasks, or AI taking over typing and writing, such as 'let AI handle the busywork' or 'AI writes it for you'."
+  },
+  {
+   "id": "s1_image",
+   "kind": "image",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-05_1301/s1_image.png",
+   "credit": "Image: gemini.google.com",
+   "desc": "official image from ChatGPT (Free) or Gemini app (Free) to build the action-item table, then Google Sheets or Excel. Gemini has an 'Export to Sheets' button on tables. The popular reel is about a different tool: the 'SharePoint list agent' in Microsoft 365 Copilot. (homepage)"
+  }
+ ],
+ "style": "hisaab",
+ "topic": "Turn messy meeting notes into a tracker of action items (owner, due date, priority) in 3 steps, using a free AI and Google Sheets or Excel",
+ "pick": {
+  "index": 19,
+  "topic": "Turn messy meeting notes into a tracker of action items (owner, due date, priority) in 3 steps, using a free AI and Google Sheets or Excel",
+  "tool": "ChatGPT or Gemini (free) + Google Sheets or Excel",
+  "format": "tutorial",
+  "angle": "Stop chasing action items over email and 'final_v3' spreadsheets. Paste your notes into AI, get a ready table, and paste it into Sheets.",
+  "why": "503k views and 3,401 comments, the top comment-to-view ratio among the practical office tutorials. Everyone who sits in meetings has the problem. The original needs paid M365 Copilot, so our free-tool version reaches more people."
+ },
+ "inspired_by": {
+  "url": "https://www.instagram.com/p/DeRxzgooNUD/",
+  "owner": "rohit_beria",
+  "plays": 503007,
+  "likes": 5665,
+  "comments": 3401
+ },
+ "research": {
+  "verdict": "adjust",
+  "tool": "ChatGPT (Free) or Gemini app (Free) to build the action-item table, then Google Sheets or Excel. Gemini has an 'Export to Sheets' button on tables. The popular reel is about a different tool: the 'SharePoint list agent' in Microsoft 365 Copilot.",
+  "availability": "Free: ChatGPT Free and the Gemini app with a personal Google account both cost $0, on web and phone. Sheets/Excel also work. The reel's Copilot route needs a paid Microsoft 365 Copilot license, so it is not free. Gemini's 'Export to Sheets' needs a Google account and works best on desktop.",
+  "steps": [
+   "Open chatgpt.com or gemini.google.com (signed in, free account) and start a new chat.",
+   "Paste your raw meeting notes with a prompt like: 'Extract every action item from these notes into a table with columns: Task | Owner | Due date | Priority (High/Medium/Low) | Status. Write TBD if owner or date is missing. Meeting date is [date], so convert words like Friday into real dates (YYYY-MM-DD).'",
+   "Check the table the AI returns. Fix any wrong owner, date or priority by replying in chat.",
+   "Gemini: click 'Export to Sheets' at the bottom right of the table. It saves the table as a new spreadsheet in Google Drive, and you click Open Sheets.",
+   "ChatGPT: copy the table (the table's Copy control if shown, or select the whole table). In Google Sheets or Excel, click cell A1 and paste with Ctrl+V / Cmd+V.",
+   "If everything lands in one column, ask the AI to 'output as CSV in a code block'. Paste it into A1 and use Data > Split text to columns. Or paste into a .txt file and rename it to .csv.",
+   "Share the sheet with your team: Share button, top-right of Google Sheets."
+  ],
+  "facts": [
+   "Gemini help page: the 'Export to Sheets' button is at the bottom right of the table and saves the table in a new spreadsheet in Google Drive (support.google.com/gemini/answer/14184041).",
+   "Export to Sheets only appears for responses that contain a table, and tables with images can't be exported (same Google help page).",
+   "Export to Sheets always creates a new spreadsheet; it does not insert into an existing sheet (aitxtformatter.com). To add to an existing sheet, copy and paste, or use File > Import > Upload.",
+   "ChatGPT free: OpenAI's help page (updated within the last week) says Free and Go users have unlimited everyday text chats, subject to abuse-prevention safeguards. File uploads, image generation, voice, data analysis and other tools have separate limits (help.openai.com/en/articles/20001354).",
+   "PCWorld and Engadget (about 90 days old): OpenAI removed text-chat rate limits for Free/Go and made GPT-5.6 Luna the default Free model. Older '10 messages every 5 hours' articles are outdated.",
+   "A third-party summary of OpenAI's upload article says the Free plan allows 3 file uploads a day (runelab.ai, 3 Nov 2026). This is not confirmed first-hand, so verify before quoting.",
+   "Gemini free: $0 with a Google account, compute-based limits that refresh every 5 hours up to a weekly limit (dapta.ai).",
+   "Gemini app context window: 32K tokens with no AI plan, 128K on Google AI Plus, 1 million on AI Pro and Ultra (geotoolbox.ai, datastudios.org, citing Google's help page).",
+   "Since Oct 9, 2026 Gemini's free tier is limited to the Flash-Lite model (aipricecompare.org, techjacksolutions.com).",
+   "Gemini paid plans: AI Plus $4.99/mo, AI Pro $19.99/mo (costbench.com, datastudios.org).",
+   "Gemini built into Google Sheets (the 'Ask Gemini' side panel) is a paid / Workspace feature, not part of the free app. Free users should use the Gemini app plus Export to Sheets (tech.yahoo.com, techjacksolutions.com).",
+   "Pasting a ChatGPT/Gemini markdown table can collapse into one cell. Copying the rendered table, or using CSV/TSV, usually fixes it (backrun.co, dev.to, thebricks.com).",
+   "Excel option: Gemini has no Excel export. Export to Sheets first, then File > Download > Microsoft Excel (.xlsx) (note.com guide).",
+   "SharePoint list agent (the reel's actual tool): Microsoft 365 Copilot license required. It is on by default for orgs with Copilot, can be disabled by admins, and works in Copilot Chat, Teams, Outlook and Word (supersimple365.com, topedia.com).",
+   "SharePoint list agent is not available in Excel. It can only create new lists, including initial rows, and cannot update existing ones (blog-en.topedia.com).",
+   "SharePoint list agent previews the proposed columns and sample rows before the list is finalized (hubsite365 summary of the Microsoft 365 demo). So the reel's 'review before it's created' claim is supported."
+  ],
+  "do_not_claim": [
+   "Do not present the SharePoint list agent / Microsoft 365 Copilot route as free. It needs a Microsoft 365 Copilot license (the reel's caption cuts off at 'You need a Mic...').",
+   "Do not say 'live list your whole team can edit, filter and open in Teams' for our Sheets/Excel method. That is the SharePoint feature. Sheets is shared via Share, and Excel via OneDrive/SharePoint.",
+   "Do not say ChatGPT free is limited to '10 messages per 5 hours'. That is outdated for text chat as of Aug 2026.",
+   "Do not say Gemini free gives you the Pro/Flash model or 'Gemini 3'. Free accounts are on Flash-Lite since Oct 9, 2026.",
+   "Do not promise one-click export for ChatGPT. Only Gemini has 'Export to Sheets'. ChatGPT needs copy and paste, and its UI table-copy button is described inconsistently across sources.",
+   "Do not say the AI is always accurate. Owners, dates and priorities may be guessed, so the user must review them. This is general knowledge, not tied to a specific source.",
+   "Do not claim the 'Gemini in Sheets' side panel is free.",
+   "The reel's 'works for expense requests, vendor lists, hiring pipelines' is marketing. No source verifies it."
+  ],
+  "criticism": [
+   "Free Gemini has a 32K-token context window, so very long notes or transcripts may be cut off or need splitting.",
+   "ChatGPT free caps file uploads and attachments (limits reported at about 3 uploads a day). Pasting text into the chat avoids this.",
+   "The free ChatGPT tier shows ads to US users since Feb 2026 (techjacksolutions.com, secondary source).",
+   "Gemini 'Export to Sheets' can be missing on work or school Google accounts if an admin or the Workspace extension setting turns it off (note.com guide).",
+   "Pasting a markdown table can collapse into one column and needs cleanup (aiifi.ai, backrun.co).",
+   "Privacy (no source checked): pasting confidential meeting notes into a consumer AI chat deserves a caution. The writer should say 'remove sensitive names/info' rather than make specific claims about data use.",
+   "A plain Sheets/Excel tracker is not a 'live' workflow tool. It has no reminders or automatic assignments, and the AI doesn't keep it updated."
+  ],
+  "ui": {
+   "platforms": "Web (desktop) is best. Phone apps for ChatGPT, Gemini and Sheets exist, but 'Export to Sheets' and table copy are easier on desktop.",
+   "apps": [
+    "ChatGPT web (chatgpt.com)",
+    "Gemini web (gemini.google.com)",
+    "Google Sheets web (sheets.google.com)",
+    "Microsoft Excel (desktop or web)"
+   ],
+   "screens": [
+    "UI details below come from general knowledge, not search results. Check against a live screen before recreating them.",
+    "ChatGPT web: left sidebar with 'New chat', chat history and the profile name at bottom-left. A large centered message box at the bottom with a '+' attach button and send button, and the prompt text 'Ask anything'. Replies render as a real table with header row, and hovering the table shows a copy control. Default theme follows the system, usually light.",
+    "Gemini web: left collapsible menu with 'New chat' and 'My Stuff' / recent chats. A centered greeting such as 'Hello, [name]' and a rounded 'Ask Gemini' box with '+' and a model picker. A table in the reply has an 'Export to Sheets' button at the bottom-right corner of the table (per Google's help page). Clicking it shows an 'Open Sheets' link. Default is light, following the system.",
+    "Google Sheets web: a blank spreadsheet with menu bar 'File, Edit, View, Insert, Format, Data, Tools, Extensions, Help', a green 'Share' button top-right, and A1 selected. After pasting you should see 5 columns: Task, Owner, Due date, Priority, Status. For a cleaner look, bold the header row and add a dropdown for Priority.",
+    "If the paste lands in one column: Data menu > 'Split text to columns', then choose the separator.",
+    "Excel: Home tab > Paste, with A1 selected and the same table result. Use 'Paste Special' / 'Match Destination Formatting' to remove web styling (itechtips.blog)."
+   ]
+  },
+  "visuals": "Show the messy pasted notes, then the AI's clean 5-column table (Task, Owner, Due date, Priority, Status). Then show Sheets with the same table in A1:E?. A real screen recording is best for the 'Export to Sheets' click on Gemini or for the Ctrl+V paste. A mock-up of the final sheet will do for the result.",
+  "sources": [
+   "https://support.google.com/gemini/answer/14184041?hl=en&co=GENIE.Platform%3DDesktop",
+   "https://help.openai.com/en/articles/20001354-gpt-6-and-other-models-in-chatgpt",
+   "https://www.pcworld.com/article/3208588/openai-is-finally-killing-chatgpt-text-chat-limits-for-free-users.html",
+   "https://www.engadget.com/2231807/openai-no-longer-limit-how-many-texts-free-accounts-send-chatgpt/",
+   "https://runelab.ai/en/blog/post/chatgpt-usage-limits",
+   "https://geotoolbox.ai/blog/gemini-pricing",
+   "https://aipricecompare.org/providers/gemini.html",
+   "https://dapta.ai/blog-posts/is-gemini-free/",
+   "https://www.datastudios.org/post/gemini-pricing-and-subscriptions-explained-free-version-compared-to-advanced-plus-pro-and-ultra",
+   "https://aitxtformatter.com/gemini-to-google-sheets",
+   "https://backrun.co/blog/copy-paste-table-chatgpt-google-sheets",
+   "https://dev.to/thattoolsite/how-to-copy-a-chatgpt-table-into-excel-or-google-sheets-419o",
+   "https://note.com/shiny_vole7937/n/n625e014cb46f?hl=en",
+   "https://blog-en.topedia.com/2026/03/sharepoint-list-agent-in-microsoft-365-copilot/",
+   "https://supersimple365.com/sharepoint-list-creation-with-the-new-copilot-list-agent/",
+   "https://www.hubsite365.com/en-ww/crm-pages/introduction-to-list-agent-in-microsoft-365-copilot.htm",
+   "https://learn.microsoft.com/en-us/sharepoint/copilot-in-sharepoint-get-started"
+  ],
+  "notes": "Our topic works, but it is a different workflow from the popular reel, so don't copy its claims. The reel is about the paid SharePoint list agent. Ours uses free AI plus Sheets/Excel. Free-tier details changed a lot in 2026: ChatGPT text chat became unlimited in Aug 2026, and Gemini free moved to Flash-Lite only on Oct 9, 2026. Avoid naming specific model versions or message counts on screen. Say 'free ChatGPT or Gemini'. Gemini is the only one with a one-click 'Export to Sheets', so lead with Gemini for the 3-step flow: 1 paste notes + prompt, 2 check the table, 3 Export to Sheets or copy-paste. Give ChatGPT users the copy-paste route. Tell viewers to give the meeting date in the prompt so 'by Friday' becomes a real date. For Excel users, Export to Sheets then download .xlsx, or paste directly into A1. Verify the ChatGPT UI labels (copy icon placement) on a live screen before recreating them.",
+  "_searched": 6
+ },
+ "models": {
+  "pick": "claude-sonnet-5-5",
+  "research": "claude-sonnet-5-5",
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 12,
+ "_ident": {
+  "at": 5.06,
+  "dur": 1.5,
+  "title": "AI HACKS",
+  "type": 0.42,
+  "sub": "EP 12 · AI TRACKER"
+ },
+ "timeline": {
+  "words": [
+   [
+    "Stop",
+    0.08
+   ],
+   [
+    "chasing",
+    0.4
+   ],
+   [
+    "action",
+    0.88
+   ],
+   [
+    "items",
+    1.2
+   ],
+   [
+    "through",
+    1.6
+   ],
+   [
+    "email",
+    1.92
+   ],
+   [
+    "and",
+    2.4
+   ],
+   [
+    "final_v3",
+    2.72
+   ],
+   [
+    "spreadsheets.",
+    4.08
+   ],
+   [
+    "Free",
+    6.78
+   ],
+   [
+    "AI",
+    7.1
+   ],
+   [
+    "can",
+    7.527
+   ],
+   [
+    "turn",
+    7.66
+   ],
+   [
+    "messy",
+    7.98
+   ],
+   [
+    "notes",
+    8.3
+   ],
+   [
+    "into",
+    8.66
+   ],
+   [
+    "a",
+    8.82
+   ],
+   [
+    "tracker",
+    8.94
+   ],
+   [
+    "in",
+    9.42
+   ],
+   [
+    "3",
+    9.66
+   ],
+   [
+    "steps.",
+    9.9
+   ],
+   [
+    "Stay",
+    10.74
+   ],
+   [
+    "till",
+    10.9
+   ],
+   [
+    "the",
+    11.1
+   ],
+   [
+    "end,",
+    11.26
+   ],
+   [
+    "because",
+    11.66
+   ],
+   [
+    "one",
+    12.06
+   ],
+   [
+    "step",
+    12.3
+   ],
+   [
+    "stops",
+    12.7
+   ],
+   [
+    "it",
+    13.14
+   ],
+   [
+    "quietly",
+    13.34
+   ],
+   [
+    "guessing",
+    13.82
+   ],
+   [
+    "wrong.",
+    14.3
+   ],
+   [
+    "Step",
+    15.06
+   ],
+   [
+    "1:",
+    15.26
+   ],
+   [
+    "open",
+    15.98
+   ],
+   [
+    "Gemini",
+    16.26
+   ],
+   [
+    "or",
+    16.7
+   ],
+   [
+    "ChatGPT,",
+    16.86
+   ],
+   [
+    "and",
+    17.86
+   ],
+   [
+    "paste",
+    18.1
+   ],
+   [
+    "your",
+    18.3
+   ],
+   [
+    "notes",
+    18.62
+   ],
+   [
+    "with",
+    18.9
+   ],
+   [
+    "this:",
+    19.22
+   ],
+   [
+    "Extract",
+    19.847
+   ],
+   [
+    "every",
+    20.3
+   ],
+   [
+    "action",
+    20.62
+   ],
+   [
+    "item",
+    21.02
+   ],
+   [
+    "into",
+    21.34
+   ],
+   [
+    "a",
+    21.62
+   ],
+   [
+    "table:",
+    21.74
+   ],
+   [
+    "Task,",
+    22.62
+   ],
+   [
+    "Owner,",
+    23.1
+   ],
+   [
+    "Due",
+    23.74
+   ],
+   [
+    "date,",
+    23.98
+   ],
+   [
+    "Priority,",
+    24.78
+   ],
+   [
+    "Status.",
+    25.62
+   ],
+   [
+    "Write",
+    26.34
+   ],
+   [
+    "TBD",
+    26.62
+   ],
+   [
+    "if",
+    27.34
+   ],
+   [
+    "missing.",
+    27.58
+   ],
+   [
+    "Include",
+    28.38
+   ],
+   [
+    "the",
+    28.62
+   ],
+   [
+    "meeting",
+    28.78
+   ],
+   [
+    "date,",
+    29.1
+   ],
+   [
+    "so",
+    29.58
+   ],
+   [
+    "Friday",
+    29.74
+   ],
+   [
+    "becomes",
+    30.22
+   ],
+   [
+    "a",
+    30.58
+   ],
+   [
+    "real",
+    30.7
+   ],
+   [
+    "date.",
+    31.02
+   ],
+   [
+    "Step",
+    31.82
+   ],
+   [
+    "2:",
+    32.06
+   ],
+   [
+    "check",
+    32.66
+   ],
+   [
+    "the",
+    32.82
+   ],
+   [
+    "table.",
+    32.94
+   ],
+   [
+    "Step",
+    33.78
+   ],
+   [
+    "3:",
+    33.98
+   ],
+   [
+    "Gemini",
+    34.7
+   ],
+   [
+    "has",
+    35.1
+   ],
+   [
+    "Export",
+    35.42
+   ],
+   [
+    "to",
+    35.9
+   ],
+   [
+    "Sheets,",
+    36.14
+   ],
+   [
+    "bottom",
+    36.78
+   ],
+   [
+    "right.",
+    37.02
+   ],
+   [
+    "ChatGPT?",
+    37.62
+   ],
+   [
+    "Copy",
+    38.58
+   ],
+   [
+    "the",
+    38.78
+   ],
+   [
+    "table,",
+    38.86
+   ],
+   [
+    "click",
+    39.58
+   ],
+   [
+    "A1",
+    39.82
+   ],
+   [
+    "in",
+    40.3
+   ],
+   [
+    "Sheets,",
+    40.46
+   ],
+   [
+    "paste.",
+    41.3
+   ],
+   [
+    "One-column",
+    41.9
+   ],
+   [
+    "mess?",
+    42.46
+   ],
+   [
+    "Ask",
+    43.14
+   ],
+   [
+    "for",
+    43.34
+   ],
+   [
+    "CSV",
+    43.58
+   ],
+   [
+    "in",
+    44.14
+   ],
+   [
+    "a",
+    44.26
+   ],
+   [
+    "code",
+    44.38
+   ],
+   [
+    "block,",
+    44.78
+   ],
+   [
+    "then",
+    45.26
+   ],
+   [
+    "Data,",
+    45.5
+   ],
+   [
+    "Split",
+    46.14
+   ],
+   [
+    "text",
+    46.54
+   ],
+   [
+    "to",
+    46.86
+   ],
+   [
+    "columns.",
+    47.02
+   ],
+   [
+    "Honest",
+    47.82
+   ],
+   [
+    "catch:",
+    48.3
+   ],
+   [
+    "it's",
+    48.82
+   ],
+   [
+    "a",
+    49.02
+   ],
+   [
+    "plain",
+    49.1
+   ],
+   [
+    "sheet,",
+    49.5
+   ],
+   [
+    "so",
+    49.98
+   ],
+   [
+    "no",
+    50.14
+   ],
+   [
+    "reminders.",
+    50.38
+   ],
+   [
+    "Remove",
+    51.34
+   ],
+   [
+    "sensitive",
+    51.58
+   ],
+   [
+    "names",
+    52.06
+   ],
+   [
+    "first.",
+    52.38
+   ],
+   [
+    "Now,",
+    53.3
+   ],
+   [
+    "that",
+    53.7
+   ],
+   [
+    "step",
+    53.9
+   ],
+   [
+    "is",
+    54.3
+   ],
+   [
+    "step",
+    54.46
+   ],
+   [
+    "2.",
+    54.78
+   ],
+   [
+    "AI",
+    55.38
+   ],
+   [
+    "can",
+    55.66
+   ],
+   [
+    "guess",
+    55.82
+   ],
+   [
+    "owners,",
+    56.14
+   ],
+   [
+    "dates",
+    56.86
+   ],
+   [
+    "and",
+    57.1
+   ],
+   [
+    "priorities,",
+    57.34
+   ],
+   [
+    "so",
+    58.22
+   ],
+   [
+    "read",
+    58.46
+   ],
+   [
+    "every",
+    58.7
+   ],
+   [
+    "row",
+    59.02
+   ],
+   [
+    "and",
+    59.46
+   ],
+   [
+    "fix",
+    59.7
+   ],
+   [
+    "mistakes",
+    59.9
+   ],
+   [
+    "in",
+    60.38
+   ],
+   [
+    "chat.",
+    60.62
+   ],
+   [
+    "What's",
+    61.237
+   ],
+   [
+    "the",
+    61.38
+   ],
+   [
+    "messiest",
+    61.58
+   ],
+   [
+    "tracker",
+    62.06
+   ],
+   [
+    "your",
+    62.46
+   ],
+   [
+    "team",
+    62.7
+   ],
+   [
+    "uses?",
+    62.94
+   ],
+   [
+    "Send",
+    63.78
+   ],
+   [
+    "this",
+    63.98
+   ],
+   [
+    "to",
+    64.1
+   ],
+   [
+    "the",
+    64.22
+   ],
+   [
+    "friend",
+    64.42
+   ],
+   [
+    "who",
+    64.62
+   ],
+   [
+    "still",
+    64.86
+   ],
+   [
+    "emails",
+    65.18
+   ],
+   [
+    "final_v3.",
+    65.66
+   ],
+   [
+    "Hack",
+    67.38
+   ],
+   [
+    "saved?",
+    67.58
+   ]
+  ],
+  "duration": 68.24,
+  "ident": {
+   "at": 5.06,
+   "dur": 1.5,
+   "title": "AI HACKS",
+   "type": 0.42,
+   "sub": "EP 12 · AI TRACKER"
+  },
+  "scenes": [
+   {
+    "t": 0.0,
+    "shows": [
+     "footage:lib_hand_dropping_papers_on_desk",
+     "title_slam:STOP"
+    ]
+   },
+   {
+    "t": 6.78,
+    "shows": [
+     "illustration:memo",
+     "headline:NOTES → TRACKER"
+    ]
+   },
+   {
+    "t": 10.74,
+    "shows": [
+     "object3d:",
+     "pill:AI GUESSES WRONG"
+    ]
+   },
+   {
+    "t": 15.06,
+    "shows": [
+     "screen:Step 1 · Paste + prompt"
+    ]
+   },
+   {
+    "t": 31.82,
+    "shows": [
+     "screen:Step 2 · Check the table"
+    ]
+   },
+   {
+    "t": 33.78,
+    "shows": [
+     "screen:Step 3 · Send to Sheets"
+    ]
+   },
+   {
+    "t": 41.9,
+    "shows": [
+     "screen:Fix · One-column paste"
+    ]
+   },
+   {
+    "t": 47.82,
+    "shows": [
+     "label:HONEST CATCH",
+     "strike_list:"
+    ]
+   },
+   {
+    "t": 53.3,
+    "shows": [
+     "object3d:",
+     "strike_list:"
+    ]
+   },
+   {
+    "t": 58.46,
+    "shows": [
+     "label:READ EVERY ROW",
+     "prompt:Pricing deck owner is Sam, not Priya. Up"
+    ]
+   },
+   {
+    "t": 61.24,
+    "shows": [
+     "headline:MESSIEST TRACKER?"
+    ]
+   }
+  ],
+  "beats": [
+   4.75,
+   22.23,
+   24.61,
+   26.49
+  ]
+ }
+}
