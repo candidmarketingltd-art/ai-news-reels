@@ -1,7 +1,40 @@
 {
- "at": "2026-11-05T09:56:29+00:00",
+ "at": "2026-11-05T09:59:48+00:00",
  "name_wanted": "Rohan",
- "subscription": "400 {'detail': {'type': 'authentication_error', 'code': 'invalid_api_key', 'message': \"API key ID used as API key - only valid API keys can be used. API keys start with 'sk_' and are shown when the key is",
- "workspace_voices": "400 {'detail': {'type': 'authentication_error', 'code': 'invalid_api_key', 'message': \"API key ID used as API key - only valid API keys can be used. API keys start with 'sk_' and are shown when the key is (key may lack 'Voices: Read')",
- "error": "library search failed: 400 {'detail': {'type': 'authentication_error', 'code': 'invalid_api_key', 'message': \"API key ID used as API key - only valid API keys can be used. API keys start with 'sk_' and are shown when the key is"
+ "subscription": {
+  "tier": "creator",
+  "character_count": 5357,
+  "character_limit": 131000,
+  "next_character_count_reset_unix": 1796464027,
+  "status": "active"
+ },
+ "workspace_voices": [
+  "Roger - Laid-Back, Casual, Resonant (CwhRBWXzGAHq8TQ4Fs17, premade)",
+  "Sarah - Mature, Reassuring, Confident (EXAVITQu4vr4xnSDxMaL, premade)",
+  "Laura - Enthusiast, Quirky Attitude (FGY2WhTYpPnrIDTdsKH5, premade)",
+  "Charlie - Deep, Confident, Energetic (IKne3meq5aSn9XLyUdCD, premade)",
+  "George - Warm, Captivating Storyteller (JBFqnCBsd6RMkjVDRZzb, premade)",
+  "Callum - Husky Trickster (N2lVS1w4EtoT3dr4eOWO, premade)",
+  "River - Relaxed, Neutral, Informative (SAz9YHcvj6GT2YYXdXww, premade)",
+  "Harry - Fierce Warrior (SOYHLrjzK2X1ezoPC6cr, premade)",
+  "Liam - Energetic, Social Media Creator (TX3LPaxmHKxFdv7VOQHJ, premade)",
+  "Alice - Clear, Engaging Educator (Xb7hH8MSUJpSbSDYk0k2, premade)",
+  "Matilda - Knowledgable, Professional (XrExE9yKIg1WjnnlVkGX, premade)",
+  "Will - Relaxed Optimist (bIHbv24MWmeRgasZH58o, premade)",
+  "Jessica - Playful, Bright, Warm (cgSgspJ2msm6clMCkdW9, premade)",
+  "Eric - Smooth, Trustworthy (cjVigY5qzO86Huf0OWal, premade)",
+  "Bella - Professional, Bright, Warm (hpp4J3VqNfWAUOO0d1Us, premade)",
+  "Chris - Charming, Down-to-Earth (iP95p4xoKVk53GoZ742B, premade)",
+  "Brian - Deep, Resonant and Comforting (nPczCjzI2devNBz1zQrb, premade)",
+  "Daniel - Steady Broadcaster (onwK4e9ZLuTAKqWW03F9, premade)",
+  "Lily - Velvety Actress (pFZP5JQG7iQjIQuC4Bku, premade)",
+  "Adam - Dominant, Firm (pNInz6obpgDQGcFmaJgB, premade)",
+  "Bill - Wise, Mature, Balanced (pqHfZKP75CvOlQylNhV4, premade)",
+  "Rohan (0ynj1kxK93EAXGRqL9Rm, cloned)",
+  "Matt - Deep Authoritative Narrator (0aXOy31Cjamp6gJcyqYu, professional)"
+ ],
+ "voice_id": "0ynj1kxK93EAXGRqL9Rm",
+ "voice_name": "Rohan",
+ "category": "cloned",
+ "how": "found by name in this workspace"
 }
