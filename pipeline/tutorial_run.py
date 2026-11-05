@@ -3,7 +3,7 @@
 python -m pipeline.tutorial_run              # scheduled run (posts)
 python -m pipeline.tutorial_run --dry-run    # everything except posting
 """
-import csv, datetime as dt, json, os, sys, tempfile, traceback
+import csv, datetime as dt, json, os, re, sys, tempfile, traceback
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -122,7 +122,9 @@ def meme_reel(key, slots, dry):
     except Exception as e:
         traceback.print_exc(); log("error", "meme", str(e)[:300]); sys.exit(1)
     s = plan["song"]
-    note = (f"🎵 ADD SONG: {s.get('title')} — {s.get('artist')} ({s.get('snippet') or 'most-used snippet'}) "
+    artist = s.get("artist") or ""
+    artist = "" if re.search(r"not (stated|listed|known)|unknown|n/?a", artist, re.I) else f" — {artist}"
+    note = (f"🎵 ADD SONG: {s.get('title')}{artist} ({s.get('snippet') or 'most-used snippet'}) "
             f"⬅ delete this line before posting\n\n")
     caption = (note if manual else "") + plan["caption"]
     PLANS.mkdir(parents=True, exist_ok=True)

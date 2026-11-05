@@ -24,7 +24,7 @@ W, H = 1080, 1920
 def _research():
     """What's trending this week: Instagram audio lists + Claude/AI news worth riffing on."""
     import anthropic
-    sysp = ("You prepare an Instagram meme reel for @ihackgrowth (business, marketing, AI tools — audience: founders, marketers, "
+    sysp = ("You prepare an Instagram meme reel for @ihackgrowth (business, marketing, tech, vibe coding, AI tools — audience: founders, devs, marketers, "
             "freelancers who use Claude/ChatGPT at work). Use web search for (1) this week's trending Instagram Reels audio lists "
             "(SocialPilot, Later, Metricool, Buffer, Hootsuite publish weekly lists) and (2) what tech / startup / vibe-coding / AI-tools "
             "people are joking about this week (launches, outages, viral takes, new lingo). Return ONLY JSON: "
