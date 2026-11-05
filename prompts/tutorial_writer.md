@@ -50,7 +50,7 @@ Start with `[conversational]` or `[curious]`. Use light, natural tags: `[amused]
   sentence that pays it off (copied from the voiceover)}.
 - `title`: the hook as a 2–6 word cover title (e.g. "STOP TYPING PROMPTS").
 - `ig_caption`: 3–6 short lines: the hook, the steps as a mini checklist (✅ lines), the comment question, "Save this for later",
-  "Follow {HANDLE} for daily AI & tech hacks". Max 3 emojis besides ✅.
+  "Follow {HANDLE} for daily business & growth hacks". Max 3 emojis besides ✅.
 - `media_hints`: `{"domain": official website of the tool (e.g. "openai.com", "canva.com"; empty if none),
   "broll": ["2–3 word stock-video search", "another"]}` — generic filmable visuals that match the story (e.g. "typing on laptop",
   "person frustrated at desk", "phone notifications"); no brand or people's names.

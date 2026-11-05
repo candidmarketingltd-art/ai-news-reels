@@ -53,8 +53,10 @@ def check(mp3, script):
     audio = np.frombuffer(pcm, np.int16).astype(np.float32) / 32768.0
     segs, _ = _MODEL["m"].transcribe(audio, beam_size=5, initial_prompt=re.sub(r"\[[^\]]*\]", " ", script)[:220])
     heard = " ".join(s.text for s in segs)
-    a = [_num(_norm(w)) for w in re.sub(r"\[[^\]]*\]", " ", script).split() if _norm(w)]
-    b = [_num(_norm(w)) for w in heard.split() if _norm(w)]
+    split = lambda t: re.sub(r"[-/]", " ", re.sub(r"\[[^\]]*\]", " ", t)).split()
+    a = [_num(_norm(w)) for w in split(script) if _norm(w)]
+    b = [_num(_norm(w)) for w in split(heard) if _norm(w) and _norm(w) != "slash"]
+    names = {_norm(w) for w in split(script) if re.match(r"^[A-Z]", w) and _norm(w) not in ("i",)} | {_norm(w) for w in split(script) if re.search(r"[a-z][A-Z]", w)}
     out = []
     for tag, i1, i2, j1, j2 in difflib.SequenceMatcher(None, a, b, autojunk=False).get_opcodes():
         if tag == "equal": continue
@@ -64,5 +66,6 @@ def check(mp3, script):
         if sa and sb and len(sa) == len(sb) and all(_same(x, y) for x, y in zip(sa, sb)): continue
         if sa and sb and _same("".join(sa), "".join(sb)): continue
         if _ignorable(sa, sb): continue
+        if sa and all(w in names for w in sa) and len(sb) <= len(sa) + 1: continue   # names/brands (Nevo, ChatGPT): spelling, not speech
         out.append((" ".join(a[i1:i2]), " ".join(b[j1:j2])))
     return out, heard
