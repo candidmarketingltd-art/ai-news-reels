@@ -1,0 +1,33 @@
+{
+ "shots": [
+  {
+   "clip": "lib_man_watching_laptop_waiting",
+   "text": "me: ok today i finally start marketing the product",
+   "seconds": 2.5
+  },
+  {
+   "clip": "lib_robotic_hand_typing_on_keyboard",
+   "text": "also me: ok but first, one more feature",
+   "seconds": 4.5
+  }
+ ],
+ "style": "meme",
+ "song": {
+  "title": "Be OK",
+  "artist": "Ingrid Michaelson",
+  "mood": "funny",
+  "trend": "Acting fine while nothing is fine. It suits outage and rate-limit jokes.",
+  "source": "https://newengen.com/insights/instagram-trends/",
+  "list_date": "2026-11 (November 2026 weekly update, ~Nov 2)",
+  "snippet": "use the most-used snippet, starting on the first vocal line so the cut to shot 2 lands on the beat",
+  "why": "It's the 'acting fine while avoiding the real problem' sound, which suits building features to dodge marketing."
+ },
+ "caption": "feature #14 shipped. users: 3. one of them is my mom.\n\nbe honest, what are you building right now instead of marketing it?\n\n#vibecoding #founderlife #marketingmemes #aimemes #buildinpublic #claudeai",
+ "cover_word": "avoiding marketing",
+ "text": "me: ok today i finally start marketing the product / also me: ok but first, one more feature",
+ "clip": "lib_man_watching_laptop_waiting,lib_robotic_hand_typing_on_keyboard",
+ "clip_paths": {
+  "lib_man_watching_laptop_waiting": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+  "lib_robotic_hand_typing_on_keyboard": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4"
+ }
+}
