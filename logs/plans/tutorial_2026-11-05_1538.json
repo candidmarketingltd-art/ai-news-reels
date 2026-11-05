@@ -1,0 +1,1682 @@
+{
+ "voiceover": "[conversational] Claude drafts your Instagram work in minutes, but never let it send DMs.\n\nStay till the end, because one kind of DM should never go out unedited.\n\nClaude can't see your Instagram, so you paste things in.\n\nStep 1. In claude.ai, open Projects, click New project, name it Instagram manager. In Instructions, paste your brand voice, your offer, and the rule: draft only, never claim a reply was sent. Upload 10 to 20 past captions.\n\nStep 2. Ask: \"Rewrite my bio in 4 versions, keep it under 150 characters, with a clear call to action.\" Then ask for a 4-week content calendar. Then paste one DM and ask for a draft reply.\n\n[playful] Step 3. Read every draft, copy it into Instagram, and send it yourself. Strip customer names first.\n\n[serious] Complaints, refunds, legal, health or money DMs: never send those from a draft you haven't edited.\n\nWhich DM would you never let AI touch?\n\nSend this to the friend who types every DM reply from scratch.\n\nHack saved?",
+ "open_loop": {
+  "setup": "Stay till the end, because one kind of DM should never go out unedited.",
+  "payoff": "Complaints, refunds, legal, health or money DMs: never send those from a draft you haven't edited."
+ },
+ "title": "CLAUDE DRAFTS, YOU SEND",
+ "ig_caption": "Claude drafts your Instagram work in minutes, but never let it send DMs.\n✅ Claude > Projects > New project > \"Instagram manager\"\n✅ Add brand voice + 10-20 past captions in Instructions\n✅ Prompt a bio, a 4-week calendar and DM drafts\n✅ Read it, copy it, send from your own Instagram\nWhich DM would you never let AI touch? 👇\nSave this for later 📌\nFollow @ihackgrowth for daily AI & tech hacks",
+ "media_hints": {
+  "domain": "claude.ai",
+  "broll": [
+   "typing on laptop",
+   "phone notifications",
+   "person reading phone",
+   "content planning desk"
+  ]
+ },
+ "hashtags": [
+  "#AItools",
+  "#AIhacks",
+  "#Claude",
+  "#Instagram",
+  "#SocialMediaTips",
+  "#ContentCalendar",
+  "#SmallBusiness",
+  "#productivity"
+ ],
+ "tag": "CLAUDE HACK",
+ "keywords": [
+  "Claude",
+  "Instagram",
+  "DMs",
+  "unedited",
+  "paste",
+  "Projects",
+  "Instructions",
+  "brand",
+  "voice",
+  "captions",
+  "bio",
+  "calendar",
+  "draft",
+  "yourself",
+  "customer",
+  "Complaints",
+  "refunds",
+  "legal",
+  "edited",
+  "scratch"
+ ],
+ "music": "upbeat",
+ "hud": {
+  "label": "SETUP",
+  "items": [
+   {
+    "value": "0/3",
+    "color": "red"
+   },
+   {
+    "at": "Step 1.",
+    "value": "1/3",
+    "color": "gold"
+   },
+   {
+    "at": "Step 2.",
+    "value": "2/3",
+    "color": "gold"
+   },
+   {
+    "at": "Step 3.",
+    "value": "3/3",
+    "color": "green"
+   },
+   {
+    "at": "Complaints, refunds,",
+    "value": "CHECK",
+    "color": "red"
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "at": "Claude drafts",
+   "tint": "warm",
+   "react": [
+    {
+     "at": "never let",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Claude drafts",
+     "media": "lib_hand_scrolling_smartphone",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "Claude drafts",
+     "text": "CLAUDE = IG MANAGER",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "Stay till",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "pill",
+     "at": "Stay till",
+     "text": "STAY FOR THE ONE DM",
+     "color": "gold",
+     "outline": true
+    },
+    {
+     "type": "object3d",
+     "at": "one kind",
+     "kind": "padlock",
+     "size": "l",
+     "caption": "NEVER UNEDITED",
+     "caption_at": "never go"
+    }
+   ]
+  },
+  {
+   "at": "Claude can't",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Claude can't",
+     "media": "real_1_phone",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "paste things",
+     "text": "YOU PASTE IT IN",
+     "color": "blue"
+    }
+   ]
+  },
+  {
+   "at": "Step 1.",
+   "react": [
+    {
+     "at": "Step 1.",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "Step 1.",
+     "text": "STEP 1 · OPEN CLAUDE"
+    },
+    {
+     "type": "footage",
+     "at": "Step 1.",
+     "media": "real_1_web",
+     "tall": true
+    },
+    {
+     "type": "pill",
+     "at": "In claude.ai,",
+     "text": "FREE PLAN · $0",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "open Projects,",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "open Projects,",
+     "device": "web",
+     "url": "claude.ai",
+     "app": "Claude",
+     "brand": "claude",
+     "theme": "light",
+     "step": "Step 1 · Set up the Project",
+     "steps": [
+      {
+       "at": "open Projects,",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Chats",
+         "Projects",
+         "Artifacts"
+        ],
+        "profile": "R",
+        "chat": [],
+        "input": ""
+       },
+       "action": {
+        "kind": "click",
+        "target": "Projects",
+        "at": "open Projects,"
+       }
+      },
+      {
+       "at": "click New",
+       "view": {
+        "kind": "page",
+        "site": "claude.ai",
+        "heading": "Projects",
+        "buttons": [
+         "New project"
+        ],
+        "cards": [
+         {
+          "title": "Client work",
+          "text": "Updated recently"
+         },
+         {
+          "title": "Newsletter",
+          "text": "Updated recently"
+         }
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "New project",
+        "at": "New project,"
+       }
+      },
+      {
+       "at": "name it",
+       "view": {
+        "kind": "page",
+        "site": "claude.ai",
+        "heading": "Create a project",
+        "sub": "What are you working on?",
+        "input": "",
+        "buttons": [
+         "Create project"
+        ]
+       },
+       "action": {
+        "kind": "type",
+        "target": "input",
+        "text": "Instagram manager",
+        "at": "Instagram manager."
+       }
+      },
+      {
+       "at": "In Instructions,",
+       "view": {
+        "kind": "page",
+        "site": "claude.ai",
+        "heading": "Instagram manager",
+        "input": "",
+        "cards": [
+         {
+          "title": "Instructions",
+          "text": "Add instructions to tailor Claude's responses"
+         },
+         {
+          "title": "Files",
+          "text": "No files yet"
+         }
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "Instructions",
+        "at": "In Instructions,"
+       }
+      },
+      {
+       "at": "paste your",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Chats",
+         "Projects",
+         "Artifacts"
+        ],
+        "profile": "R",
+        "panel": {
+         "title": "Set project instructions",
+         "rows": [
+          {
+           "label": "Instructions",
+           "kind": "field",
+           "value": ""
+          },
+          {
+           "label": "Save instructions",
+           "kind": "button"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "type",
+        "target": "Instructions",
+        "text": "Brand voice: warm, punchy. Offer: my course. Rule: draft only, never claim a reply was sent.",
+        "at": "brand voice,"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Upload 10",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Upload 10",
+     "text": "TEACH IT YOUR VOICE"
+    },
+    {
+     "type": "pile",
+     "at": "Upload 10",
+     "ill": "page_facing_up",
+     "count": 20,
+     "value": "10–20",
+     "value_at": "10 to",
+     "label": "PAST CAPTIONS",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "Step 2.",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Step 2.",
+     "device": "web",
+     "url": "claude.ai",
+     "app": "Claude",
+     "brand": "claude",
+     "theme": "light",
+     "step": "Step 2 · Bio + calendar",
+     "steps": [
+      {
+       "at": "Step 2.",
+       "view": {
+        "title": "Instagram manager",
+        "input_buttons": [
+         "+"
+        ],
+        "chat": [],
+        "input": ""
+       },
+       "action": {
+        "kind": "type",
+        "target": "input",
+        "text": "Rewrite my bio in 4 versions, keep it under 150 characters, with a clear call to action.",
+        "at": "Rewrite my"
+       }
+      },
+      {
+       "at": "Then ask for",
+       "view": {
+        "title": "Instagram manager",
+        "input_buttons": [
+         "+"
+        ],
+        "chat": [
+         {
+          "from": "user",
+          "text": "Rewrite my bio in 4 versions, under 150 characters…"
+         },
+         {
+          "from": "ai",
+          "text": "1. Fitness for busy moms → free plan below\n2. Strong in 20 mins a day → DM START\n3. …\n4. …"
+         }
+        ],
+        "input": ""
+       },
+       "action": {
+        "kind": "type",
+        "target": "input",
+        "text": "Now plan a 4-week content calendar.",
+        "at": "4-week content"
+       }
+      },
+      {
+       "at": "content calendar.",
+       "view": {
+        "title": "Instagram manager",
+        "input_buttons": [
+         "+"
+        ],
+        "chat": [
+         {
+          "from": "user",
+          "text": "Now plan a 4-week content calendar."
+         },
+         {
+          "from": "ai",
+          "text": "Week 1: Mon Reel · Wed Carousel · Fri Story\nWeek 2: Mon Tips · Wed Reel · Fri Q&A\n…"
+         }
+        ],
+        "input": ""
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Then paste",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Then paste",
+     "text": "PASTE ONE DM"
+    },
+    {
+     "type": "before_after",
+     "at": "Then paste",
+     "left": {
+      "label": "CUSTOMER DM",
+      "text": "Hi! Is the course still open? Bit pricey for me…"
+     },
+     "right": {
+      "label": "CLAUDE'S DRAFT",
+      "text": "Hey! Yes, it's open. Want the details on the payment plan?",
+      "at": "draft reply."
+     }
+    }
+   ]
+  },
+  {
+   "at": "Step 3.",
+   "tint": "green",
+   "react": [
+    {
+     "at": "Step 3.",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "Step 3.",
+     "text": "STEP 3 · HUMAN CHECK"
+    },
+    {
+     "type": "steps",
+     "at": "Read every",
+     "items": [
+      {
+       "text": "READ EVERY DRAFT",
+       "at": "Read every",
+       "ill": "eyes"
+      },
+      {
+       "text": "COPY INTO INSTAGRAM",
+       "at": "copy it",
+       "ill": "mobile_phone"
+      },
+      {
+       "text": "SEND IT YOURSELF",
+       "at": "send it",
+       "ill": "thumbs_up"
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "at": "Strip customer",
+     "text": "STRIP CUSTOMER NAMES",
+     "color": "red",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "Complaints, refunds,",
+   "tint": "red",
+   "react": [
+    {
+     "at": "never send",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "strike_list",
+     "at": "Complaints, refunds,",
+     "items": [
+      {
+       "text": "COMPLAINTS",
+       "at": "Complaints,"
+      },
+      {
+       "text": "REFUNDS",
+       "at": "refunds,"
+      },
+      {
+       "text": "LEGAL",
+       "at": "legal,"
+      },
+      {
+       "text": "HEALTH OR MONEY",
+       "at": "health or money"
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "at": "haven't edited.",
+     "text": "ALWAYS EDIT THESE",
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "at": "Which DM",
+   "react": [
+    {
+     "at": "let AI",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "headline",
+     "at": "Which DM",
+     "text": "WHICH DM IS OFF-LIMITS?",
+     "size": "l",
+     "ill": "speech_balloon",
+     "sub": "COMMENT BELOW",
+     "sub_at": "never let"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "Send this",
+  "line1": "Send this to",
+  "line1_at": "Send this",
+  "line2": "the from-scratch typer",
+  "line2_at": "from scratch."
+ },
+ "endcard": {
+  "title": "Hack saved?",
+  "terminal": "> ig.manager · drafts only"
+ },
+ "media": [
+  {
+   "id": "real_1_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-05_1538/real_1_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-05_1538/real_1_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: claude.com",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the page (no highlight) — Mobile view of the Claude Pricing page. Header has the Claude logo (orange asterisk) and a hamburger menu. Sub-nav reads 'Pricing' and 'Explore here' with a dropdown chevron. Large headline 'Pricing'. A dropdown selector shows 'Individual'. Below it is the Free plan card: 'Free', 'Try Claude', '$0', [Screen: claude.com]"
+  },
+  {
+   "id": "real_1_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-05_1538/real_1_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-05_1538/real_1_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: claude.com",
+   "desc": "REAL desktop screen recording, pushes in on the page (no highlight) — Desktop view of the Claude Pricing page, scrolled slightly. Sub-nav shows 'Pricing' and 'Explore here'. Headline 'Pricing' (partly cropped at top). Tabs: 'Individual' (selected), 'Team & Enterprise', 'API'. Four plan cards, each with a 'Try Claude' button. Free: 'Try Claude', $0, 'Free for everyone' [Screen: claude.com]"
+  },
+  {
+   "id": "lib_camera_moving_down_server_corridor",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "credit": "",
+   "file": "camera_moving_down_server_corridor.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow forward push down a hazy, fog-filled data center aisle lined with server racks that glow with blue and amber status lights, giving a moody, futuristic feel. Good for: A script line about the infrastructure behind AI, such as cloud computing, model training, heavy compute, data storage, or 'what happens behind the scenes'."
+  },
+  {
+   "id": "lib_clock_ticking_and_person_typing",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "credit": "",
+   "file": "clock_ticking_and_person_typing.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A rack-focus shot moves from a close-up of a black twin-bell alarm clock with ticking hands to a bearded man in a light polo typing on a laptop in a dim room, giving a tense, time-pressured mood. Good for: lines about deadlines, time slipping away, long hours of manual work, or the pressure of slow, tedious tasks before an AI tool speeds things up"
+  },
+  {
+   "id": "lib_colleagues_collaborating_around",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "credit": "",
+   "file": "colleagues_collaborating_around.mp4",
+   "frames": 126,
+   "desc": "B-roll (4.2s, VERTICAL 9:16 — best as full: true): colleagues collaborating around Good for: "
+  },
+  {
+   "id": "lib_content_creator_sets_up_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "credit": "",
+   "file": "content_creator_sets_up_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt stands behind a ring light with a phone on a tripod, adjusting the setup while the camera slowly pushes in until his face fills the frame, with a calm, focused mood and moody blue ambient lighting in the background. Good for: setting up to create content, getting started as a creator, or preparing equipment before recording a tutorial"
+  },
+  {
+   "id": "lib_fingers_typing_on_laptop_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "credit": "",
+   "file": "fingers_typing_on_laptop_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): Close-up over-the-shoulder shot of a person typing on a backlit laptop keyboard, with a blurred blue screen in the background and a warm, focused, productive mood. Good for: lines about getting started, writing prompts or code, doing focused work at the computer, or the hands-on steps of a tutorial"
+  },
+  {
+   "id": "lib_hand_scrolling_smartphone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_scrolling_smartphone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_scrolling_smartphone.mp4",
+   "credit": "",
+   "file": "hand_scrolling_smartphone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a bearded young man in a white t-shirt looking intently at a smartphone in dim, warm lighting, with the camera slowly pushing in until his focused, slightly tense gaze moves from the screen to the lens. Good for: a script line about being glued to your phone, doubt or tension before a reveal, or the moment of realizing something while checking an app or notification"
+  },
+  {
+   "id": "lib_hands_holding_credit_card_near",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hands_holding_credit_card_near.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hands_holding_credit_card_near.mp4",
+   "credit": "",
+   "file": "hands_holding_credit_card_near.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): hands holding credit card near Good for: "
+  },
+  {
+   "id": "lib_man_comparing_phone_and_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "credit": "",
+   "file": "man_comparing_phone_and_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): man comparing phone and laptop Good for: "
+  },
+  {
+   "id": "lib_man_looking_at_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "credit": "",
+   "file": "man_looking_at_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt scowls with intense focus at a laptop in a dim, warmly lit room, then closes his eyes and rubs his hand near his chin in tired frustration. Good for: frustration with slow or difficult work, such as struggling with a tedious task, debugging, or burning out late at night before finding a better way"
+  },
+  {
+   "id": "lib_man_opens_laptop_in_room",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "credit": "",
+   "file": "man_opens_laptop_in_room.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt sits at a laptop in a dimly lit, warmly lit room, and his focused, tense expression builds as he leans toward the screen, which shows blurry blue diagram or flowchart-style blocks, with his fists clenched near his chin in the middle frame. Good for: intense concentration or deep work, such as debugging, building an AI workflow, or struggling with a complex problem"
+  },
+  {
+   "id": "lib_man_pointing_at_camera",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_pointing_at_camera.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_pointing_at_camera.mp4",
+   "credit": "",
+   "file": "man_pointing_at_camera.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a dark henley sits in a car seat working on a laptop with a focused look, then looks up with a warm smile and points playfully at the camera in a confident, friendly mood. Good for: a line that moves from focused work or problem-solving to a direct call to action, such as 'here's the trick you need to try' or 'now it's your turn'"
+  },
+  {
+   "id": "lib_man_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "man_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt stares intently at a laptop screen with blurry blue UI elements floating in front of the camera, then grimaces in frustration and mouths a reaction, and finally tilts his head back in exhausted resignation in a dim, warmly lit room. Good for: frustration with slow, tedious, or failing work, such as waiting on a slow tool, hitting an error, or being exhausted by manual tasks before introducing an AI solution"
+  },
+  {
+   "id": "lib_man_shaking_head_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "credit": "",
+   "file": "man_shaking_head_at_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits in a dark chair looking down at his phone, and his expression shifts from neutral to scrunched-up frustration or confusion, then to a displeased, worried look as he lowers the phone. Good for: frustration or disappointment with a tool or app that isn't working, slow or confusing results, or a bad surprise while checking your phone"
+  },
+  {
+   "id": "lib_man_smiling_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "credit": "",
+   "file": "man_smiling_at_phone.mp4",
+   "frames": 135,
+   "desc": "B-roll (4.5s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a blue smartphone, his expression shifting from neutral to a furrowed-brow frown of confusion and frustration. Good for: a line about frustration with confusing apps or slow tools, or the moment someone hits a problem and doesn't know what to do next"
+  },
+  {
+   "id": "lib_man_studying_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "credit": "",
+   "file": "man_studying_with_laptop.mp4",
+   "frames": 132,
+   "desc": "B-roll (4.4s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits at a desk behind a laptop with a furrowed brow and a frustrated, concentrated look, first staring at the screen, then looking down at an open notebook and writing with a pen, with a warm blurred lamp glowing in the background. Good for: a script line about struggling to understand something complex, frustration with slow or manual work, or the pain of learning a new tool the hard way"
+  },
+  {
+   "id": "lib_man_watching_laptop_waiting",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "credit": "",
+   "file": "man_watching_laptop_waiting.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits at a laptop in a dimly lit room with warm lamp light, resting his chin on his fist with a focused, pensive look, and the camera pushes in closer across the three frames. Good for: a script line about deep thinking, researching or problem-solving, or weighing a decision before trying an AI tool"
+  },
+  {
+   "id": "lib_person_drinking_coffee_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "credit": "",
+   "file": "person_drinking_coffee_with_laptop.mp4",
+   "frames": 93,
+   "desc": "B-roll (3.1s, VERTICAL 9:16 — best as full: true): A bearded man in a green polo sits at a laptop in a modern industrial-style open office, lifting a white cup to his mouth and sipping a hot drink while looking down at the screen, in a calm, focused mood. Good for: a line about taking a breather while the AI does the work, a morning work routine, waiting for a process to finish, or the calm of an automated workflow"
+  },
+  {
+   "id": "lib_person_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "person_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a laptop, his expression moving from concern to a deep frown with glowing blue tear-like effects on his cheeks, then to eyes shut in stress or exhaustion; the mood is frustrated and overwhelmed. Good for: A script line about frustration or overwhelm with a tough task, such as struggling with confusing tools, wasting hours on manual work, or being stuck before finding an AI solution."
+  },
+  {
+   "id": "lib_person_speaking_into_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "credit": "",
+   "file": "person_speaking_into_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt takes a phone call in a modern industrial office with exposed concrete ceilings, moving from a serious, concerned look to a worried talking expression and ending with a relieved, confident smile at the camera. Good for: a script line about getting a surprising call or news, a problem being solved, or the moment of relief after a stressful issue"
+  },
+  {
+   "id": "lib_professional_working_on_laptop_late",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "credit": "",
+   "file": "professional_working_on_laptop_late.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A tired bearded young man in a maroon t-shirt sits at a laptop in a dim apartment at night, resting his head on his hand, rubbing his eyes, then glumly lifting a white coffee mug, with blurred city lights glowing behind him through the window. Good for: A script line about burnout, late-night grinding, or frustration with slow manual work that AI tools can speed up, e.g. 'still stuck doing this by hand at midnight?'"
+  },
+  {
+   "id": "lib_robotic_hand_typing_on_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "credit": "",
+   "file": "robotic_hand_typing_on_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a black robotic hand with segmented, mechanical fingers lowering onto a backlit laptop keyboard and starting to type, shot at shallow depth of field in a warm, softly lit, modern workspace. Good for: A script line about AI doing the work for you, automating repetitive tasks, or AI taking over typing and writing, such as 'let AI handle the busywork' or 'AI writes it for you'."
+  }
+ ],
+ "style": "hisaab",
+ "topic": "Use Claude as a part-time Instagram manager: sharpen your bio, plan a content calendar, and draft DM replies in your brand voice, with a 3-step setup and where to keep a human check",
+ "pick": {
+  "index": 21,
+  "topic": "Use Claude as a part-time Instagram manager: sharpen your bio, plan a content calendar, and draft DM replies in your brand voice, with a 3-step setup and where to keep a human check",
+  "tool": "Claude (Instagram / social media workflow)",
+  "format": "tutorial",
+  "angle": "Stop paying a social media manager for what Claude drafts in 5 minutes, but never let it send DM replies unreviewed",
+  "why": "226k views with 6,709 comments and 5,071 likes, the strongest comment-to-view ratio of the business-relevant reels. It is a pure marketing and growth workflow that fits the 40% marketing slice. Instagram growth is core to our audience, and it is easy to show in 3 steps: bio, content plan, DM replies."
+ },
+ "inspired_by": {
+  "url": "https://www.instagram.com/p/DehKz6zq4-B/",
+  "owner": "yadarilab",
+  "plays": 226162,
+  "likes": 5071,
+  "comments": 6709
+ },
+ "research": {
+  "verdict": "adjust",
+  "tool": "Claude (claude.ai chat with Projects and Instructions) used as a drafting assistant for Instagram. No native Instagram integration exists.",
+  "availability": "<cite index='50-3'>Free plan is $0 with Projects up to 5; Pro adds more usage.</cite> Drafting works on web, desktop and mobile with no connector. Auto-posting and DM access need a third-party connector, and that is not needed for this workflow.",
+  "steps": [
+   "Step 1, set up: In claude.ai, open Projects from the left sidebar and click New project (top-right). Name it 'Instagram manager'. Open the Instructions panel, click the edit icon ('Set project instructions') and paste your brand voice, audience, offer, words you use or avoid, and the rule 'draft only, never claim a reply was sent'. Upload 10-20 past captions and your best past DM replies as project files.",
+   "Step 2, three prompts in that Project: (a) 'Rewrite my bio in 4 versions, keep it under 150 characters, with a clear call to action.' (b) 'Plan a 4-week content calendar: 3 posts a week, hook, format, caption draft and CTA, built around [pillars].' (c) Paste one customer DM and ask 'Draft a reply in my brand voice, plus a shorter version, and flag anything I need to check, such as price, stock, refunds or complaints.'",
+   "Step 3, human check: Read every DM draft yourself. Copy it into the Instagram app and press send from your own account. Check prices, promises and tone. Never route sensitive DMs (complaints, refunds, legal, health or money topics) through a draft you haven't edited. Don't connect an auto-send connector.",
+   "Optional: set account-wide voice rules. Click your initials in the lower-left corner, then Settings, then 'Your Claude' (or 'Account' in the older layout), then the 'Instructions' box."
+  ],
+  "facts": [
+   "<cite index='9-3'>One source says Claude has no Instagram connector in its directory, and Meta's own MCP covers ads only.</cite> Other third-party connectors (Porter, Metricool, Upload-Post, PostFast, Markifact, Composio) exist, but they are separate products. So Claude can draft Instagram content but doesn't manage the account on its own.",
+   "<cite index='8-5'>In a regular chat, Claude has no access to your Instagram account.</cite>",
+   "<cite index='6-1'>Claude cannot reach Instagram on its own, so you add a connector that holds your Instagram connection.</cite>",
+   "The reel's caption credits its video and avatar editing to Higgsfield's MCP. <cite index='10-3,10-4'>Higgsfield connects to Claude as a custom connector with the URL https://mcp.higgsfield.ai/mcp.</cite> <cite index='10-6'>An active paid subscription is required.</cite> That connector generates images, video and audio. It doesn't manage Instagram.",
+   "<cite index='14-6'>Anything generated through Higgsfield MCP deducts credits at standard rates; unlimited access applies only on higgsfield.ai.</cite>",
+   "Claude pricing per third-party trackers (read the live page for exact numbers): <cite index='25-12'>Pro costs $20 a month, or about $17 a month when you pay $200 for the year up front.</cite> <cite index='21-4'>Max tiers are $100 or $200 per month.</cite> Some trackers also call the $200 tier 'Ultra', so don't quote the Max/Ultra naming.",
+   "The official pricing page lists Projects as 'Up to 5' on Free. <cite index='50-3'>Its Free column shows 'Claude Design, Slides, Docs', and Pro adds Claude Code and Projects.</cite>",
+   "<cite index='50-6'>Pro gives you at least 5x more usage per 5-hour session than Free.</cite>",
+   "Meta's DM rules (via third-party summaries of Meta's docs): <cite index='40-1'>an automated reply has to go out within 24 hours of the customer's last message, and only a person can reply after that, for up to 7 days.</cite>",
+   "<cite index='41-7'>Meta scopes the human agent tag to a human manually answering an inquiry that couldn't be resolved in the standard window, and it needs its own App Review.</cite>",
+   "<cite index='40-7'>The rules include a path to a human and a bot disclosure where the law requires one, such as for users in California and Germany.</cite>",
+   "<cite index='48-1'>Meta says Instagram Messaging apps 'must have an escalation path to a human agent'.</cite>",
+   "Connectors with an approval step exist. For example, <cite index='2-6'>Porter's connector asks before writing anything to Instagram, so Claude drafts the reply, comment or post and waits for your yes.</cite> Draft-then-approve is the safe pattern, and it supports the reel's angle.",
+   "<cite index='6-8'>Claude's Free plan allows one custom connector added by URL.</cite>",
+   "<cite index='35-1,35-2'>Instructions are account-wide settings; to set them, click your initials in the lower left corner.</cite> The label differs by Settings layout: 'Instructions' under 'Your Claude', or 'Instructions for Claude' in the older layout.",
+   "Instagram bio limit is 150 characters. This is general knowledge and was not re-verified in this search, so check help.instagram.com before stating it on screen."
+  ],
+  "do_not_claim": [
+   "'Claude can now manage your Instagram.' Claude has no native Instagram or DM access. The reel is a Higgsfield MCP promo ('Avatar & Video Editing fully automated with @higgsfield.ai MCP').",
+   "'Your profile, content and conversations start working together.' This is marketing language. No verified feature links them.",
+   "That Claude reads, sends or monitors your DMs by itself in a normal chat. It can't. You paste the text in.",
+   "That Claude replaces a social media manager. There is no source for this. It drafts text. It doesn't handle community management, reporting, shooting or accountability.",
+   "'In 5 minutes' as a guaranteed time. Say 'a first draft in minutes' and don't present it as a measured result.",
+   "That Higgsfield or any connector is free or unlimited through Claude. Higgsfield needs a paid plan, and MCP generations use credits.",
+   "That the Instagram connector exists in Claude's official directory. One source says it doesn't, and others describe third-party connectors, so this is conflicting.",
+   "Any claim that Claude learns your voice automatically. It follows what you put in instructions and uploaded examples.",
+   "The exact Max and Ultra naming and prices. Sources conflict on the labels, so only quote Free and Pro.",
+   "Any claim about follower growth or engagement results. None are sourced."
+  ],
+  "criticism": [
+   "Claude can't see your Instagram. You must paste in DMs, captions and analytics, or add a third-party connector that gets access to your account.",
+   "Meta limits automated DMs. <cite index='40-1'>Automated replies must go out within 24 hours of the customer's last message.</cite> The human agent tag is for real people, not bots.",
+   "<cite index='45-6'>Using Meta's message tags outside their approved purpose can result in restrictions on the account's ability to send messages.</cite>",
+   "Disclosure and compliance rules for bots apply in some places (California, Germany), so unreviewed AI replies carry legal and brand risk.",
+   "Free plan limits: <cite index='50-3'>Projects are capped at 'Up to 5'</cite> and usage is limited. One help-center snippet says project instructions are paid-only, while other sources say Free gets them, so check before claiming the setup is 100% free.",
+   "Pasting customer DMs into any AI tool is a privacy decision. Remove names and personal data first. (Writer caution, not sourced in this search.)"
+  ],
+  "ui": {
+   "platforms": "Web (claude.ai) and iOS/Android Claude app. Projects and Instructions are on both. The Instagram step happens in the Instagram mobile app.",
+   "apps": [
+    "Claude web (claude.ai)",
+    "Instagram app (iOS/Android) for the bio edit and sending DMs",
+    "Optional: Instagram web inbox"
+   ],
+   "screens": [
+    "claude.ai: left sidebar with New chat, Chats, Projects (exact order and extra items change over time; recreate loosely). Profile circle with your initials sits at the bottom-left of the sidebar. Verified: the help article says to click your initials in the lower left corner, then Settings.",
+    "Projects page: header 'Projects', blue/orange 'New project' button at top-right (per third-party guide). Create form has name and description fields.",
+    "Inside the project: a chat box at the center-bottom and a right-hand panel with 'Instructions' (edit/pencil icon opens 'Set project instructions') and 'Files'.",
+    "Chat view: a prompt box with a '+' button at lower-left (attach files, connectors). Claude's reply shows as text, with the bio options as a numbered list and the calendar as a table or list.",
+    "Settings > 'Your Claude' (or 'Account' in the older layout) > 'Instructions' text box for account-wide voice rules.",
+    "Instagram app: Profile > Edit profile > Bio field (150 characters), then paste the chosen bio. DMs: paper-plane icon, top-right of the Home feed. Paste the reviewed draft and tap Send. (Instagram UI labels not re-verified in this search.)",
+    "Default theme is not verified in this search. Claude web follows the system setting and is commonly light with a warm cream background. Check live before recreating."
+   ]
+  },
+  "visuals": "Show a Claude Project with the brand-voice instructions, the bio prompt with 3-4 bio options returned, a 7-day calendar table, and a pasted customer DM next to Claude's draft reply. End on a 'Review → copy → send from Instagram yourself' beat. Don't fake Claude sending DMs. A real screen recording of the Claude Project is best, and mocked text is fine for the DM example.",
+  "real_pages": [
+   {
+    "url": "https://claude.com/pricing",
+    "show": "Free / Pro, 'Try Claude', and the Projects row ('Up to 5' on Free). Read the current dollar figures live on the page.",
+    "kind": "site"
+   },
+   {
+    "url": "https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features",
+    "show": "Heading 'Instructions for Claude' and the line about clicking your initials in the lower left corner",
+    "kind": "help"
+   },
+   {
+    "url": "https://higgsfield.ai/creator-hub/help-center/integrations/how-do-i-connect-higgsfield-to-ai-agent",
+    "show": "'An active paid subscription is required.' Use only to show the reel's tool is separate and paid.",
+    "kind": "help"
+   }
+  ],
+  "sources": [
+   "https://claude.com/pricing",
+   "https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features",
+   "https://higgsfield.ai/creator-hub/help-center/integrations/how-do-i-connect-higgsfield-to-ai-agent",
+   "https://higgsfield.ai/creator-hub/help-center/integrations/what-is-higgsfield-mcp",
+   "https://www.usecarly.com/blog/claude-instagram-integration/",
+   "https://postfa.st/blog/connect-claude-to-instagram",
+   "https://portermetrics.com/en/connectors/claude/instagram/",
+   "https://www.eesel.ai/blog/ai-for-instagram-dms",
+   "https://www.blotato.com/blog/instagram-messaging-api",
+   "https://zian.ai/how-to-automate-instagram-dm-replies/",
+   "https://www.wearetandem.ai/en/blog/tools/claude-max-pro-pricing-plans",
+   "https://www.ai-toolbox.co/claude-management-and-productivity/how-to-use-claude-projects-guide-2026"
+  ],
+  "notes": "The popular reel is mostly an ad for Higgsfield MCP (the 'Comment Claude' link-bait pattern). The 'Claude manages Instagram' framing is misleading, and the transcript wasn't available to check. Our reel should say 'Claude drafts, you send'. That is accurate and fits the angle, with no connector, no extra cost and no ban risk. The Claude UI is changing: Settings labels differ between layouts ('Your Claude' vs 'Account'), Styles are reportedly becoming Skills, and one source says Projects only reached the Free plan in mid-September 2026. Prices come from third-party trackers, because the official pricing page snippet showed no dollar figures. Show the live claude.com/pricing page and read the numbers off it. Only state Free and Pro prices. If the writer says 'never let it send unreviewed', the Meta policy (24-hour window, human escalation path, bot disclosure in some regions) is the verified backing.",
+  "_searched": 6
+ },
+ "models": {
+  "pick": "claude-sonnet-5-5",
+  "research": "claude-sonnet-5-5",
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 13,
+ "_ident": {
+  "at": 4.78,
+  "dur": 1.5,
+  "title": "AI HACKS",
+  "type": 0.42,
+  "sub": "EP 13 · CLAUDE HACK"
+ },
+ "timeline": {
+  "words": [
+   [
+    "Claude",
+    0.08
+   ],
+   [
+    "drafts",
+    0.4
+   ],
+   [
+    "your",
+    0.8
+   ],
+   [
+    "Instagram",
+    1.12
+   ],
+   [
+    "work",
+    1.44
+   ],
+   [
+    "in",
+    1.8
+   ],
+   [
+    "minutes,",
+    2.0
+   ],
+   [
+    "but",
+    2.84
+   ],
+   [
+    "never",
+    3.12
+   ],
+   [
+    "let",
+    3.44
+   ],
+   [
+    "it",
+    3.56
+   ],
+   [
+    "send",
+    3.68
+   ],
+   [
+    "DMs.",
+    3.92
+   ],
+   [
+    "Stay",
+    6.34
+   ],
+   [
+    "till",
+    6.5
+   ],
+   [
+    "the",
+    6.7
+   ],
+   [
+    "end,",
+    6.86
+   ],
+   [
+    "because",
+    7.26
+   ],
+   [
+    "one",
+    7.66
+   ],
+   [
+    "kind",
+    7.9
+   ],
+   [
+    "of",
+    8.14
+   ],
+   [
+    "DM",
+    8.3
+   ],
+   [
+    "should",
+    8.78
+   ],
+   [
+    "never",
+    9.02
+   ],
+   [
+    "go",
+    9.34
+   ],
+   [
+    "out",
+    9.5
+   ],
+   [
+    "unedited.",
+    9.74
+   ],
+   [
+    "Claude",
+    10.78
+   ],
+   [
+    "can't",
+    11.18
+   ],
+   [
+    "see",
+    11.46
+   ],
+   [
+    "your",
+    11.58
+   ],
+   [
+    "Instagram,",
+    11.94
+   ],
+   [
+    "so",
+    12.62
+   ],
+   [
+    "you",
+    12.86
+   ],
+   [
+    "paste",
+    13.14
+   ],
+   [
+    "things",
+    13.34
+   ],
+   [
+    "in.",
+    13.66
+   ],
+   [
+    "Step",
+    14.22
+   ],
+   [
+    "1.",
+    14.54
+   ],
+   [
+    "In",
+    15.22
+   ],
+   [
+    "claude.ai,",
+    15.42
+   ],
+   [
+    "open",
+    16.66
+   ],
+   [
+    "Projects,",
+    16.94
+   ],
+   [
+    "click",
+    17.86
+   ],
+   [
+    "New",
+    18.06
+   ],
+   [
+    "project,",
+    18.3
+   ],
+   [
+    "name",
+    19.18
+   ],
+   [
+    "it",
+    19.42
+   ],
+   [
+    "Instagram",
+    19.74
+   ],
+   [
+    "manager.",
+    20.3
+   ],
+   [
+    "In",
+    21.18
+   ],
+   [
+    "Instructions,",
+    21.62
+   ],
+   [
+    "paste",
+    22.26
+   ],
+   [
+    "your",
+    22.46
+   ],
+   [
+    "brand",
+    22.74
+   ],
+   [
+    "voice,",
+    22.94
+   ],
+   [
+    "your",
+    23.5
+   ],
+   [
+    "offer,",
+    23.66
+   ],
+   [
+    "and",
+    24.3
+   ],
+   [
+    "the",
+    24.42
+   ],
+   [
+    "rule:",
+    24.54
+   ],
+   [
+    "draft",
+    25.18
+   ],
+   [
+    "only,",
+    25.66
+   ],
+   [
+    "never",
+    26.38
+   ],
+   [
+    "claim",
+    26.74
+   ],
+   [
+    "a",
+    26.94
+   ],
+   [
+    "reply",
+    27.02
+   ],
+   [
+    "was",
+    27.42
+   ],
+   [
+    "sent.",
+    27.58
+   ],
+   [
+    "Upload",
+    28.42
+   ],
+   [
+    "10",
+    28.7
+   ],
+   [
+    "to",
+    28.94
+   ],
+   [
+    "20",
+    29.1
+   ],
+   [
+    "past",
+    29.5
+   ],
+   [
+    "captions.",
+    29.82
+   ],
+   [
+    "Step",
+    30.9
+   ],
+   [
+    "2.",
+    31.18
+   ],
+   [
+    "Ask:",
+    31.94
+   ],
+   [
+    "Rewrite",
+    32.54
+   ],
+   [
+    "my",
+    32.94
+   ],
+   [
+    "bio",
+    33.26
+   ],
+   [
+    "in",
+    33.5
+   ],
+   [
+    "4",
+    33.74
+   ],
+   [
+    "versions,",
+    33.98
+   ],
+   [
+    "keep",
+    34.78
+   ],
+   [
+    "it",
+    34.9
+   ],
+   [
+    "under",
+    35.02
+   ],
+   [
+    "150",
+    35.34
+   ],
+   [
+    "characters,",
+    35.46
+   ],
+   [
+    "with",
+    36.74
+   ],
+   [
+    "a",
+    36.86
+   ],
+   [
+    "clear",
+    37.02
+   ],
+   [
+    "call",
+    37.34
+   ],
+   [
+    "to",
+    37.62
+   ],
+   [
+    "action.",
+    37.74
+   ],
+   [
+    "Then",
+    38.54
+   ],
+   [
+    "ask",
+    38.78
+   ],
+   [
+    "for",
+    39.1
+   ],
+   [
+    "a",
+    39.26
+   ],
+   [
+    "4-week",
+    39.42
+   ],
+   [
+    "content",
+    39.9
+   ],
+   [
+    "calendar.",
+    40.3
+   ],
+   [
+    "Then",
+    41.18
+   ],
+   [
+    "paste",
+    41.34
+   ],
+   [
+    "one",
+    41.74
+   ],
+   [
+    "DM",
+    41.98
+   ],
+   [
+    "and",
+    42.46
+   ],
+   [
+    "ask",
+    42.62
+   ],
+   [
+    "for",
+    42.9
+   ],
+   [
+    "a",
+    43.02
+   ],
+   [
+    "draft",
+    43.1
+   ],
+   [
+    "reply.",
+    43.5
+   ],
+   [
+    "Step",
+    44.22
+   ],
+   [
+    "3.",
+    44.62
+   ],
+   [
+    "Read",
+    45.5
+   ],
+   [
+    "every",
+    45.74
+   ],
+   [
+    "draft,",
+    46.06
+   ],
+   [
+    "copy",
+    46.82
+   ],
+   [
+    "it",
+    47.02
+   ],
+   [
+    "into",
+    47.22
+   ],
+   [
+    "Instagram,",
+    47.62
+   ],
+   [
+    "and",
+    48.1
+   ],
+   [
+    "send",
+    48.3
+   ],
+   [
+    "it",
+    48.54
+   ],
+   [
+    "yourself.",
+    48.7
+   ],
+   [
+    "Strip",
+    49.66
+   ],
+   [
+    "customer",
+    49.9
+   ],
+   [
+    "names",
+    50.3
+   ],
+   [
+    "first.",
+    50.74
+   ],
+   [
+    "Complaints,",
+    51.393
+   ],
+   [
+    "refunds,",
+    52.14
+   ],
+   [
+    "legal,",
+    53.18
+   ],
+   [
+    "health",
+    53.82
+   ],
+   [
+    "or",
+    54.06
+   ],
+   [
+    "money",
+    54.3
+   ],
+   [
+    "DMs:",
+    54.54
+   ],
+   [
+    "never",
+    55.42
+   ],
+   [
+    "send",
+    55.66
+   ],
+   [
+    "those",
+    56.02
+   ],
+   [
+    "from",
+    56.22
+   ],
+   [
+    "a",
+    56.34
+   ],
+   [
+    "draft",
+    56.54
+   ],
+   [
+    "you",
+    56.78
+   ],
+   [
+    "haven't",
+    57.02
+   ],
+   [
+    "edited.",
+    57.42
+   ],
+   [
+    "Which",
+    58.34
+   ],
+   [
+    "DM",
+    58.54
+   ],
+   [
+    "would",
+    58.86
+   ],
+   [
+    "you",
+    59.18
+   ],
+   [
+    "never",
+    59.42
+   ],
+   [
+    "let",
+    59.58
+   ],
+   [
+    "AI",
+    59.82
+   ],
+   [
+    "touch?",
+    60.14
+   ],
+   [
+    "Send",
+    60.9
+   ],
+   [
+    "this",
+    61.06
+   ],
+   [
+    "to",
+    61.18
+   ],
+   [
+    "the",
+    61.34
+   ],
+   [
+    "friend",
+    61.54
+   ],
+   [
+    "who",
+    61.74
+   ],
+   [
+    "types",
+    62.02
+   ],
+   [
+    "every",
+    62.3
+   ],
+   [
+    "DM",
+    62.66
+   ],
+   [
+    "reply",
+    62.94
+   ],
+   [
+    "from",
+    63.34
+   ],
+   [
+    "scratch.",
+    63.5
+   ],
+   [
+    "Hack",
+    64.42
+   ],
+   [
+    "saved?",
+    64.62
+   ]
+  ],
+  "duration": 65.28,
+  "ident": {
+   "at": 4.78,
+   "dur": 1.5,
+   "title": "AI HACKS",
+   "type": 0.42,
+   "sub": "EP 13 · CLAUDE HACK"
+  },
+  "scenes": [
+   {
+    "t": 0.0,
+    "shows": [
+     "footage:lib_hand_scrolling_smartphone",
+     "pill:CLAUDE = IG MANAGER"
+    ]
+   },
+   {
+    "t": 6.34,
+    "shows": [
+     "pill:STAY FOR THE ONE DM",
+     "object3d:"
+    ]
+   },
+   {
+    "t": 10.78,
+    "shows": [
+     "footage:real_1_phone",
+     "pill:YOU PASTE IT IN"
+    ]
+   },
+   {
+    "t": 14.22,
+    "shows": [
+     "label:STEP 1 · OPEN CLAUDE",
+     "footage:real_1_web",
+     "pill:FREE PLAN · $0"
+    ]
+   },
+   {
+    "t": 16.66,
+    "shows": [
+     "screen:Step 1 · Set up the Project"
+    ]
+   },
+   {
+    "t": 28.42,
+    "shows": [
+     "label:TEACH IT YOUR VOICE",
+     "pile:"
+    ]
+   },
+   {
+    "t": 30.9,
+    "shows": [
+     "screen:Step 2 · Bio + calendar"
+    ]
+   },
+   {
+    "t": 41.18,
+    "shows": [
+     "label:PASTE ONE DM",
+     "before_after:"
+    ]
+   },
+   {
+    "t": 44.22,
+    "shows": [
+     "label:STEP 3 · HUMAN CHECK",
+     "steps:",
+     "pill:STRIP CUSTOMER NAMES"
+    ]
+   },
+   {
+    "t": 51.39,
+    "shows": [
+     "strike_list:",
+     "pill:ALWAYS EDIT THESE"
+    ]
+   },
+   {
+    "t": 58.34,
+    "shows": [
+     "headline:WHICH DM IS OFF-LIMITS?"
+    ]
+   }
+  ],
+  "beats": [
+   1.6,
+   25.12,
+   26.77,
+   34.92,
+   36.73
+  ]
+ }
+}

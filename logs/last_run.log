@@ -3,7 +3,8 @@
   APIFY_TOKEN: set
   BUFFER_API_KEY: set
   BUFFER_CHANNEL_ID: set
-window 2026-11-05-1300 | posting times 13:00, 20:00 IST | dry_run=False
+      voice: Rohan 0ynj1kxK93EAXGRqL9Rm (found by name in this workspace)
+window 2026-11-05-1300 | posting times 13:00, 20:00 IST | dry_run=True
       b-roll library: 25 clips
       recording request #1: still waiting for the video
       recording request #2: still waiting for the video
@@ -17,7 +18,7 @@ window 2026-11-05-1300 | posting times 13:00, 20:00 IST | dry_run=False
       using the last saved reel pool
       reel pool: 76 reels
 [2/6] picking the topic
-      → Turn messy meeting notes into a tracker of action items (owner, due date, priority) in 3 steps, using a free AI and Google Sheets or Excel  (tutorial, from @rohit_beria, 503,007 views) — 503k views and 3,401 comments, the top comment-to-view ratio among the practical office tutorials. Everyone who sits in meetings has the problem. The original n
+      → Use Claude as a part-time Instagram manager: sharpen your bio, plan a content calendar, and draft DM replies in your brand voice, with a 3-step setup and where to keep a human check  (tutorial, from @yadarilab, 226,162 views) — 226k views with 6,709 comments and 5,071 likes, the strongest comment-to-view ratio of the business-relevant reels. It is a pure marketing and growth workflow t
       transcript failed: apify apify/instagram-reel-scraper: 403 {
   "error": {
     "type": "platform-feature-disabled",
@@ -25,22 +26,31 @@ window 2026-11-05-1300 | posting times 13:00, 20:00 IST | dry_run=False
   }
 }
 [3/6] research (0 transcript words)
-      verdict adjust · 6 web searches · 7 steps · 17 sources
+      verdict adjust · 6 web searches · 4 steps · 12 sources
 [4/6] script + edit
+      real screens: 2 usable of 2 captured from 3 official pages
+      (media: https://claude.ai/login -> 403 Client Error: Forbidden for url: https://claude.ai/login)
+      (media: https://claude.ai/login?plan=free -> 403 Client Error: Forbidden for url: https://claude.ai/login?plan=free)
+      (media: https://claude.ai/login?plan=pro -> 403 Client Error: Forbidden for url: https://claude.ai/login?plan=pro)
+      (media: https://claude.ai/ -> 403 Client Error: Forbidden for url: https://claude.ai/login)
       (media: pexels 'typing on laptop' failed: 403 Client Error: Forbidden for url: https://api.apify.com/v2/acts/memo23~pexels)
-      (media: pexels 'team meeting notes' failed: 403 Client Error: Forbidden for url: https://api.apify.com/v2/acts/memo23~pexels)
-      media: s1_image, s1_logo
+      (media: pexels 'phone notifications' failed: 403 Client Error: Forbidden for url: https://api.apify.com/v2/acts/memo23~pexels)
+      media: s1_logo
 [5/6] voice + render
-      [eleven] workspace voices: Rohan (IcsYcP26eMwajlgx2SDe, cloned)
-      [eleven] using Rohan (IcsYcP26eMwajlgx2SDe)
-      [eleven] subscription: 200 {"tier":"starter","character_count":38063,"character_limit":40000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796033014,"voice_slots_used":1,"professional_voice_slots_
+      [eleven] subscription: 200 {"tier":"creator","character_count":6298,"character_limit":131000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796464027,"voice_slots_used":1,"professional_voice_slots_
       [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
-      voice check: 3 word(s) misheard [('chatgpt', 'chat gbd'), ('chatgpt', 'chat gbd'), ('team', 'teen')] -> recording another take
-      [eleven] subscription: 200 {"tier":"starter","character_count":38063,"character_limit":40000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796033014,"voice_slots_used":1,"professional_voice_slots_
-      [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
-      take 2: 2 misheard [('chatgpt', 'chat gbd'), ('chatgpt', 'chat gbd')]
-      163 words, 66.7s, voice eleven_v4
-      remotion: Reel /tmp/tmp1fcjs8s7/video_only.mp4
-[6/6] publish
-      [buffer] created post 6aec33bde22643a9879bd79c (customScheduled)
-POSTED 6aec33bde22643a9879bd79c https://github.com/candidmarketingltd-art/ai-news-reels/releases/download/reel-2026-11-05_1301/2026-11-05_1301.mp4
+      voice check: every word heard as written
+      167 words, 63.8s, voice eleven_v4
+      remotion: Reel /tmp/tmpzy5zwwdj/video_only.mp4
+DRY RUN — reel at /home/runner/work/ai-news-reels/ai-news-reels/out/2026-11-05_1538.mp4
+--- caption ---
+Claude drafts your Instagram work in minutes, but never let it send DMs.
+✅ Claude > Projects > New project > "Instagram manager"
+✅ Add brand voice + 10-20 past captions in Instructions
+✅ Prompt a bio, a 4-week calendar and DM drafts
+✅ Read it, copy it, send from your own Instagram
+Which DM would you never let AI touch? 👇
+Save this for later 📌
+Follow @ihackgrowth for daily AI & tech hacks
+
+#AItools #AIhacks #Claude #Instagram #SocialMediaTips #ContentCalendar #SmallBusiness #productivity
