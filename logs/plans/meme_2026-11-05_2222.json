@@ -1,0 +1,33 @@
+{
+ "shots": [
+  {
+   "clip": "lib_content_creator_sets_up_phone",
+   "text": "me setting up the ring light like I'm about to go viral",
+   "seconds": 3
+  },
+  {
+   "clip": "lib_hand_scrolling_smartphone",
+   "text": "the reel: 41 views. 38 are me.",
+   "seconds": 4
+  }
+ ],
+ "style": "meme",
+ "song": {
+  "title": "Nicole Kidman",
+  "artist": "ADÉLA",
+  "mood": "funny",
+  "trend": "'Nicole Kidman era' glow-up, acting like you're already famous.",
+  "source": "https://postdom.com/blog/instagram-trends",
+  "list_date": "Nov 2–8, 2026 (updated Nov 2)",
+  "snippet": "use the most-used snippet, ideally the part where the beat kicks in as the cut to shot 2 happens",
+  "why": "The 'acting like you're already famous' sound fits the ring-light confidence, and the cut to 41 views makes the joke land."
+ },
+ "caption": "ring light on. tripod ready. the algorithm: 'no.'\nbe honest, how many of your views are just you refreshing?\n\n#marketingmemes #contentcreator #creatorlife #founderlife #socialmediamarketing #aimemes",
+ "cover_word": "41 views",
+ "text": "me setting up the ring light like I'm about to go viral / the reel: 41 views. 38 are me.",
+ "clip": "lib_content_creator_sets_up_phone,lib_hand_scrolling_smartphone",
+ "clip_paths": {
+  "lib_content_creator_sets_up_phone": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+  "lib_hand_scrolling_smartphone": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_scrolling_smartphone.mp4"
+ }
+}
