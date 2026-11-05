@@ -146,7 +146,11 @@ def _overlay(text, style, png, face):
 
 def _segment(clip, text, style, dur, out, workdir, k):
     png = os.path.join(workdir, f"meme_text_{k}.png")
-    _overlay(text, style, png, _faces(clip, dur))
+    try:
+        face = _faces(clip, dur)
+    except Exception as e:   # no detector: assume a centred head and keep text in the lower third
+        print(f"      (face check skipped: {str(e)[:100]})", flush=True); face = (200, 150, 880, 1150)
+    _overlay(text, style, png, face)
     dark = "eq=brightness=-0.06:saturation=0.92," if style == "quote" else ""
     vf = (f"[0:v]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},{dark}fps=30,trim=0:{dur},setpts=PTS-STARTPTS,"
           f"zoompan=z='min(1.0+0.0008*on,1.06)':x='iw/2-iw/zoom/2':y='ih/2-ih/zoom/2':d=1:s={W}x{H}:fps=30[v];"
