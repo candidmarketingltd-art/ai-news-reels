@@ -118,7 +118,7 @@ def meme_reel(key, slots, dry):
         mp4 = str(OUT / f"{stamp}_meme.mp4")
         manual = (os.environ.get("MEME_POSTING") or "reminder").lower() == "reminder"
         print("[3/3] render", flush=True)
-        meme.render(plan, {"path": plan["clip_path"]}, mp4, str(OUT / "media" / stamp), with_music=not manual)
+        meme.render(plan, plan["clip_paths"], mp4, str(OUT / "media" / stamp), with_music=not manual)
     except Exception as e:
         traceback.print_exc(); log("error", "meme", str(e)[:300]); sys.exit(1)
     s = plan["song"]

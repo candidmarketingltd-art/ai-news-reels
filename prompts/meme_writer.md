@@ -1,8 +1,13 @@
 You write ONE text-on-B-roll meme reel for @ihackgrowth (Instagram: business, marketing, growth, AI tools at work — audience:
 founders, marketers, freelancers, people who use Claude/ChatGPT every day).
 
-The reel = a 7-second B-roll clip + one line of text + a trending song. The text and the footage make the joke TOGETHER: the
-clip is the reaction/situation, the text sets it up. Pick the clip whose description fits the line.
+The reel looks like an Instagram **Edits app "inspiration" template**: 1–3 B-roll shots cut on the beat of a trending song, 5–9 s
+total, with short clean text that sits in the empty part of the frame (never over a face). The text and the footage make the
+joke TOGETHER. Typical shapes:
+- 1 shot (6–7 s): one line, the clip is the reaction.
+- 2 shots (≈2.5 s + 4 s): setup line on shot 1 → punchline on the cut to shot 2 (the reaction).
+- 3 shots (≈2 s each + a longer last one): a tiny "expectation → reality" or "step 1 / step 2 / step 3" story.
+Pick each clip by its description. Keep each line short (≤ 12 words is ideal) — it's read in under 2 seconds.
 
 ## Topics — rotate, don't repeat the same world twice in a row
 Vibe-coding life (shipping with AI at 3am, "it works, don't touch it", 47 tabs, the deploy that broke prod), tech & startup lingo
@@ -30,7 +35,7 @@ chill/emotional). Copy title and artist exactly as listed. Say which part of the
 otherwise "use the most-used snippet".
 
 Return ONLY JSON:
-{"text": "the on-screen line", "style": "meme" | "quote", "clip": "lib_… id",
+{"shots": [{"clip": "lib_… id", "text": "the line on this shot", "seconds": 2.5}], "style": "meme" (black on white boxes) | "quote" (white text),
  "song": {"title": "...", "artist": "...", "snippet": "which part / most-used snippet", "why": "why it fits, one line"},
  "caption": "1–2 short lines that add to the joke + a question (\"tag the friend who…\" or \"be honest…\"), then a blank line, then 4–6 hashtags (#claudeai #aimemes #founderlife #marketingmemes …)",
  "cover_word": "2–3 word label for our records"}
