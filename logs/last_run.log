@@ -12,30 +12,30 @@ window 2026-11-05-1300 | posting times 13:00, 20:00 IST | dry_run=True
 [1/6] businesses making money (TrustMRR)
       trustmrr: 235 startups from 11 lists
 [2/6] picking the business
-      → postiz: A solo open-source dev built a social media scheduler that now makes $370K, by giving the code away for free — Open-source-led growth is a tactic viewers can copy. Nevo David is a recognisable solo founder, and the product has a public site to look at
-[3/6] research: Postiz · MRR $369,751 · 30d $399,660
+      → marky: A tool for self-publishing authors, a niche most founders ignore, has crossed $1M in verified revenue — Clear niche, small team, $1.0M total revenue, and a public site viewers can check. The 'serve a boring audience' lesson is easy to copy.
+[3/6] research: Marky · MRR $22,011 · 30d $16,664
 [4/6] script + edit
-      real screens: 6 usable of 8 captured from 4 official pages
-      (media: pexels 'typing on laptop' failed: 403 Client Error: Forbidden for url: https://api.apify.com/v2/acts/memo23~pexels)
+      real screens: 5 usable of 6 captured from 3 official pages
       (media: pexels 'social media scheduling' failed: 403 Client Error: Forbidden for url: https://api.apify.com/v2/acts/memo23~pexels)
-      media: s1_image
+      (media: pexels 'typing on laptop' failed: 403 Client Error: Forbidden for url: https://api.apify.com/v2/acts/memo23~pexels)
+      media: s1_image, s1_logo
 [5/6] voice + render
-      [eleven] subscription: 200 {"tier":"creator","character_count":10506,"character_limit":131000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796464027,"voice_slots_used":1,"professional_voice_slots
+      [eleven] subscription: 200 {"tier":"creator","character_count":11600,"character_limit":131000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796464027,"voice_slots_used":1,"professional_voice_slots
       [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
-      voice check: 6 word(s) misheard [('nevo', 'naiveau'), ('rselfhosted', 'rslash selfhosted'), ('topoffunnel', 'top of funnel'), ('chatgpt', 'chad gpt'), ('he moved', 'remove')] -> recording another take
-      [eleven] subscription: 200 {"tier":"creator","character_count":10506,"character_limit":131000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796464027,"voice_slots_used":1,"professional_voice_slots
+      voice check: 1 word(s) misheard [('honest catch', 'on a sketch')] -> recording another take
+      [eleven] subscription: 200 {"tier":"creator","character_count":12193,"character_limit":131000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796464027,"voice_slots_used":1,"professional_voice_slots
       [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
-      take 2: 5 misheard [('nevo', 'naiveau'), ('rselfhosted', 'rslash selfhosted'), ('topoffunnel', 'top of funnel'), ('chatgpt', 'chad gpt'), ('hack saved', '')]
-      205 words, 81.8s, voice eleven_v4
-      remotion: Reel /tmp/tmp34t8kee8/video_only.mp4
-DRY RUN — reel at /home/runner/work/ai-news-reels/ai-news-reels/out/2026-11-05_1607.mp4
+      take 2: 0 misheard []
+      227 words, 87.8s, voice eleven_v4
+      remotion: Reel /tmp/tmph0hx_57f/video_only.mp4
+DRY RUN — reel at /home/runner/work/ai-news-reels/ai-news-reels/out/2026-11-05_1623.mp4
 --- caption ---
-A scheduler anyone can download for free now makes $370K a month 👀
-✅ Open source = free top-of-funnel
-✅ Cloud version charges people who don't want servers
-✅ Reposition to where demand is moving (AI agents)
-Would you open-source your product to grow it?
+This social media tool has quietly made over $1M in verified revenue.
+✅ $22K MRR, 476 subscriptions (Stripe-verified on TrustMRR)
+✅ Sells the finished post, not just a scheduler
+✅ White-label plan for agencies
+Would you build this or buy it? Tell me below.
 Save this for later
-Follow @ihackgrowth for daily AI & tech hacks
+Follow @ihackgrowth for daily business & growth hacks
 
-#Postiz #OpenSource #SaaS #IndieHackers #AIagents #SocialMedia #startup #AIhacks #business
+#AIhacks #AItools #Marky #SaaS #SocialMediaMarketing #Bootstrapped #StartupLessons #business
