@@ -4,12 +4,27 @@
   BUFFER_API_KEY: set
   BUFFER_CHANNEL_ID: set
       voice: Rohan 0ynj1kxK93EAXGRqL9Rm (found by name in this workspace)
-window 2026-11-06-1700 | posting times 13:00, 17:00, 20:00 IST | dry_run=False
-      reel type: meme
-[1/3] trending audio + Claude news this week
-      14 trending songs, 7 news items
-[2/3] meme line
-      “me: claude, just fix the typo in the headline / claude: on it ✨ / 14 files changed. the footer is now in italian.” on lib_professional_working_on_laptop_late,lib_robotic_hand_typing_on_keyboard,lib_person_reacting_to_laptop_screen · song: Upside Down — Diana Ross
-[3/3] render
-      [buffer] reminder post 6aedbacae68314120e816ab2 (customScheduled)
-REMINDER SENT 6aedbacae68314120e816ab2
+window 2026-11-06-2000 | posting times 13:00, 17:00, 20:00 IST | dry_run=False
+      reel type: business
+      b-roll library: 25 clips
+      recording request #1: still waiting for the video
+      recording request #2: still waiting for the video
+[1/6] businesses making money (TrustMRR)
+      trustmrr: 230 startups from 11 lists
+[2/6] picking the business
+      → post-bridge: A solo founder built a 'post once, publish everywhere' tool that makes about $50K, and he grew it by posting on the same platforms it serves — Solo founder, a simple product Instagram creators already know, a copyable build-in-public growth tactic, and a public site viewers can try.
+[3/6] research: POST BRIDGE · MRR $49,969 · 30d $45,867
+[4/6] script + edit
+      real screens: 5 usable of 6 captured from 3 official pages
+      (media: pexels 'typing on laptop' failed: 403 Client Error: Forbidden for url: https://api.apify.com/v2/acts/memo23~pexels)
+      (media: pexels 'social media scrolling' failed: 403 Client Error: Forbidden for url: https://api.apify.com/v2/acts/memo23~pexels)
+      media: s1_image, s1_logo
+[5/6] voice + render
+      [eleven] subscription: 200 {"tier":"creator","character_count":15272,"character_limit":131000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796464027,"voice_slots_used":1,"professional_voice_slots
+      [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
+      voice check: every word heard as written
+      193 words, 69.8s, voice eleven_v4
+      remotion: Reel /tmp/tmpskuayab1/video_only.mp4
+[6/6] publish
+      [buffer] created post 6aede7b30a30a4b11eed9c19 (customScheduled)
+POSTED 6aede7b30a30a4b11eed9c19 https://github.com/candidmarketingltd-art/ai-news-reels/releases/download/reel-2026-11-06_2001/2026-11-06_2001.mp4

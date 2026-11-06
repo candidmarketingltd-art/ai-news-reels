@@ -1,0 +1,1795 @@
+{
+ "voiceover": "[conversational] One guy built a posting tool that now makes $50K a month.\n\n[curious] And the move that made it work isn't the code. I'll tell you at the end.\n\nIt's called Post Bridge. You write one post, and it publishes to up to 10 platforms at once. It's for solo founders marketing their own business. Their pricing page says $39 a month for 15 accounts, unlimited posts.\n\n[confident] These numbers are verified on TrustMRR. About $50K MRR. $45K in the last 30 days. 1,651 active subscriptions. 10% growth. [serious] Quick catch: that's revenue, not profit. We don't know what he keeps.\n\nThe founder is Jack Friks, a solo developer. He spent about four years struggling to make money online. Then he built the fix for his own posting headache in about a month.\n\n[whispers] Here's the real lesson. He built in public on X and short-form video, and grew to 186.8K followers on X. Creators and solo marketers, exactly who buys a scheduler. He didn't hunt for customers. He was already standing in front of them.\n\n[playful] Would you build this, or buy it?\n\nSend this to the friend who keeps saying they'll launch something someday.\n\nHack saved?",
+ "open_loop": {
+  "setup": "And the move that made it work isn't the code. I'll tell you at the end.",
+  "payoff": "He didn't hunt for customers. He was already standing in front of them."
+ },
+ "title": "ONE GUY, $50K/MONTH",
+ "ig_caption": "One guy built a posting tool that now makes $50K a month.\n✅ Scratch your own itch: build the tool you need\n✅ Build in public where your buyers hang out\n✅ Sell to the audience you already reach\nWould you build this or buy it? 👇\nSave this for later\nFollow @ihackgrowth for daily business & growth hacks",
+ "media_hints": {
+  "domain": "post-bridge.com",
+  "broll": [
+   "typing on laptop",
+   "social media scrolling",
+   "solo founder working"
+  ]
+ },
+ "hashtags": [
+  "#PostBridge",
+  "#BusinessBreakdown",
+  "#SaaS",
+  "#IndieHacker",
+  "#BuildInPublic",
+  "#SocialMediaMarketing",
+  "#AIhacks",
+  "#Entrepreneurship"
+ ],
+ "tag": "BUSINESS BREAKDOWN",
+ "keywords": [
+  "posting",
+  "Bridge",
+  "platforms",
+  "solo",
+  "founders",
+  "pricing",
+  "accounts",
+  "TrustMRR",
+  "verified",
+  "subscriptions",
+  "revenue",
+  "profit",
+  "Jack",
+  "Friks",
+  "headache",
+  "public",
+  "followers",
+  "customers",
+  "build",
+  "buy"
+ ],
+ "music": "groove",
+ "hud": {
+  "label": "BREAKDOWN",
+  "items": [
+   {
+    "value": "THE HOOK",
+    "color": "gold"
+   },
+   {
+    "at": "It's called",
+    "value": "PRODUCT",
+    "color": "gold"
+   },
+   {
+    "at": "These numbers",
+    "value": "REVENUE",
+    "color": "green"
+   },
+   {
+    "at": "Quick catch:",
+    "value": "CATCH",
+    "color": "red"
+   },
+   {
+    "at": "The founder",
+    "value": "FOUNDER",
+    "color": "gold"
+   },
+   {
+    "at": "real lesson.",
+    "value": "THE MOVE",
+    "color": "green"
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "at": "One guy",
+   "tint": "warm",
+   "react": [
+    {
+     "at": "posting tool",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "footage",
+     "at": "One guy",
+     "media": "lib_man_staring_at_phone_in",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "One guy",
+     "text": "ONE GUY · ONE TOOL",
+     "color": "gold",
+     "outline": true
+    },
+    {
+     "type": "title_slam",
+     "at": "$50K a",
+     "text": "$50K/MONTH",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "And the move",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "label",
+     "at": "And the move",
+     "text": "THE REAL MOVE"
+    },
+    {
+     "type": "object3d",
+     "at": "And the move",
+     "kind": "padlock",
+     "size": "l",
+     "caption": "NOT THE CODE",
+     "caption_at": "isn't the code."
+    },
+    {
+     "type": "pill",
+     "at": "at the end.",
+     "text": "UNLOCKS AT THE END",
+     "color": "gold",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "It's called",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "It's called",
+     "media": "real_2_phone",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "Post Bridge.",
+     "text": "POST BRIDGE",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "You write",
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "You write",
+     "kind": "phone",
+     "act": "buzz",
+     "act_at": "at once.",
+     "caption": "1 POST",
+     "caption_at": "You write"
+    },
+    {
+     "type": "pill",
+     "at": "up to 10",
+     "text": "UP TO 10 PLATFORMS",
+     "color": "green"
+    },
+    {
+     "type": "headline",
+     "at": "It's for solo",
+     "text": "FOR SOLO FOUNDERS",
+     "size": "m",
+     "ill": "bust_in_silhouette",
+     "sub": "MARKETING THEIR OWN BIZ",
+     "sub_at": "marketing their"
+    }
+   ]
+  },
+  {
+   "at": "Their pricing page",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Their pricing page",
+     "media": "real_3_phone",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "$39 a month",
+     "text": "$39/MO · 15 ACCOUNTS",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "These numbers",
+   "elements": [
+    {
+     "type": "label",
+     "at": "These numbers",
+     "text": "VERIFIED REVENUE"
+    },
+    {
+     "type": "footage",
+     "at": "These numbers",
+     "media": "real_1_web",
+     "tall": true,
+     "caption": "TRUSTMRR LISTING",
+     "caption_at": "verified on"
+    }
+   ]
+  },
+  {
+   "at": "About $50K",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "About $50K",
+     "kind": "coins",
+     "act": "fill",
+     "act_at": "About $50K",
+     "count": 24,
+     "caption": "$50K MRR",
+     "caption_at": "About $50K"
+    },
+    {
+     "type": "stat_row",
+     "at": "$45K in",
+     "cards": [
+      {
+       "label": "LAST 30 DAYS",
+       "value": "$45K",
+       "at": "$45K in",
+       "color": "gold"
+      },
+      {
+       "label": "ACTIVE SUBS",
+       "value": "1,651",
+       "at": "1,651 active",
+       "color": "white"
+      },
+      {
+       "label": "GROWTH",
+       "value": "+10%",
+       "at": "10% growth.",
+       "color": "green",
+       "glow": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Quick catch:",
+   "tint": "red",
+   "react": [
+    {
+     "at": "Quick catch:",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "Quick catch:",
+     "text": "THE CATCH"
+    },
+    {
+     "type": "vs",
+     "at": "Quick catch:",
+     "left": {
+      "label": "REVENUE",
+      "value": "$50K"
+     },
+     "right": {
+      "label": "PROFIT",
+      "value": "???",
+      "color": "red",
+      "ill": "red_question_mark",
+      "at": "not profit."
+     }
+    },
+    {
+     "type": "pill",
+     "at": "what he keeps.",
+     "text": "PROFIT UNKNOWN",
+     "color": "red",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "The founder",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "The founder",
+     "media": "real_2_web",
+     "tall": true,
+     "caption": "FOUNDER SUPPORT FROM JACK",
+     "caption_at": "Jack Friks,"
+    },
+    {
+     "type": "headline",
+     "at": "Jack Friks,",
+     "text": "JACK FRIKS",
+     "size": "l",
+     "sub": "SOLO DEVELOPER",
+     "sub_at": "solo developer."
+    }
+   ]
+  },
+  {
+   "at": "He spent",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "He spent",
+     "media": "lib_professional_working_on_laptop_late",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "four years",
+     "text": "4 YEARS STRUGGLING",
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "at": "Then he built",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Then he built",
+     "text": "HIS OWN PROBLEM"
+    },
+    {
+     "type": "illustration",
+     "at": "posting headache",
+     "name": "mobile_phone",
+     "size": "m",
+     "act": "shake",
+     "act_at": "posting headache"
+    },
+    {
+     "type": "object3d",
+     "at": "about a month.",
+     "kind": "clock",
+     "act": "tick",
+     "act_at": "about a month.",
+     "caption": "BUILT IN ~1 MONTH",
+     "caption_at": "about a month."
+    }
+   ]
+  },
+  {
+   "at": "Here's the real",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "real lesson.",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "Here's the real",
+     "kind": "padlock",
+     "act": "open",
+     "act_at": "real lesson.",
+     "size": "l",
+     "caption": "THE MOVE",
+     "caption_at": "real lesson."
+    },
+    {
+     "type": "headline",
+     "at": "built in public",
+     "text": "BUILD IN PUBLIC",
+     "size": "l",
+     "color": "gold",
+     "sub": "X + SHORT-FORM VIDEO",
+     "sub_at": "short-form video,"
+    }
+   ]
+  },
+  {
+   "at": "and grew to",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "big_number",
+     "at": "and grew to",
+     "value": "186.8K",
+     "color": "gold",
+     "ill": "speaking_head",
+     "note": "FOLLOWERS ON X",
+     "note_at": "followers on X.",
+     "note_color": "green"
+    }
+   ]
+  },
+  {
+   "at": "Creators and",
+   "elements": [
+    {
+     "type": "headline",
+     "at": "Creators and",
+     "text": "AUDIENCE = BUYERS",
+     "size": "m",
+     "ill": "bullseye",
+     "sub": "WHO BUYS A SCHEDULER",
+     "sub_at": "buys a scheduler."
+    },
+    {
+     "type": "before_after",
+     "at": "He didn't hunt",
+     "left": {
+      "label": "MOST FOUNDERS",
+      "text": "Hunt for customers"
+     },
+     "right": {
+      "label": "JACK",
+      "text": "Already standing in front of them",
+      "at": "already standing"
+     }
+    }
+   ]
+  },
+  {
+   "at": "Would you",
+   "react": [
+    {
+     "at": "or buy it?",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "headline",
+     "at": "Would you",
+     "text": "BUILD IT?",
+     "size": "l",
+     "ill": "hammer_and_wrench"
+    },
+    {
+     "type": "pill",
+     "at": "or buy it?",
+     "text": "OR BUY IT?",
+     "color": "gold",
+     "outline": true
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "Send this",
+  "line1": "Send this to",
+  "line1_at": "Send this",
+  "line2": "the someday launcher",
+  "line2_at": "launch something"
+ },
+ "endcard": {
+  "title": "Hack saved?",
+  "terminal": "> build.in_public · audience first"
+ },
+ "media": [
+  {
+   "id": "real_1_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-06_2001/real_1_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-06_2001/real_1_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: trustmrr.com",
+   "desc": "REAL desktop screen recording, pushes in on the gold-outlined part — Desktop capture of the trustmrr.com listing for POST BRIDGE (breadcrumb 'TrustMRR > Startup > POST BRIDGE'). Tagline: 'Post your content to multiple social media platforms at the same time, all-in one place.' Highlighted stat cards: All-time revenue $570,991 (Ranked #199 on TrustMRR); MRR $49,969 (1 [Screen: trustmrr.com]"
+  },
+  {
+   "id": "real_2_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-06_2001/real_2_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-06_2001/real_2_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: post-bridge.com",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the page (no highlight) — Phone capture of the post-bridge.com homepage hero. Row of social icons (X, Instagram, LinkedIn, Facebook, TikTok, YouTube, Bluesky, Threads, Pinterest, Google Business). Headline: 'Post to all your social accounts from one dashboard'. Subtext: 'built for one person marketing a business. simple, fai [Screen: post-bridge.com]"
+  },
+  {
+   "id": "real_2_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-06_2001/real_2_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-06_2001/real_2_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: post-bridge.com",
+   "desc": "REAL desktop screen recording, pushes in on the page (no highlight) — Desktop capture of the post-bridge.com homepage. Social platform icons at the top. Headline: 'Post to all your social accounts from one dashboard'. Subtext: 'built for one person marketing a business. simple, fairly priced, with founder support from jack'. Green 'Try it for free →' button. 'posting  [Screen: post-bridge.com]"
+  },
+  {
+   "id": "real_3_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-06_2001/real_3_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-06_2001/real_3_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: post-bridge.com",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the gold-outlined part — Phone capture of the post-bridge.com Pricing page with a Monthly / Yearly toggle ('Yearly 2 months free'). Marketer plan, tagged 'Most popular' and 'For one person marketing a business': $39/month, 15 accounts, billed monthly (highlighted). Button: 'Start 7 day free trial →', with '$0.00 due today,  [Screen: post-bridge.com]"
+  },
+  {
+   "id": "real_3_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-06_2001/real_3_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-06_2001/real_3_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: post-bridge.com",
+   "desc": "REAL desktop screen recording, pushes in on the gold-outlined part — Desktop capture of the post-bridge.com Pricing page. Nav: Product, Pricing, API, Resources, Login. Toggle: Monthly / Yearly ('2 months free'). Marketer plan, 'Most popular', 'For one person marketing a business': $39/month (highlighted), 15 accounts billed monthly, button 'Start 7 day free trial →', [Screen: post-bridge.com]"
+  },
+  {
+   "id": "lib_camera_moving_down_server_corridor",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "credit": "",
+   "file": "camera_moving_down_server_corridor.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow forward push down a hazy, fog-filled data center aisle lined with server racks that glow with blue and amber status lights, giving a moody, futuristic feel. Good for: A script line about the infrastructure behind AI, such as cloud computing, model training, heavy compute, data storage, or 'what happens behind the scenes'."
+  },
+  {
+   "id": "lib_colleagues_collaborating_around",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "credit": "",
+   "file": "colleagues_collaborating_around.mp4",
+   "frames": 126,
+   "desc": "B-roll (4.2s, VERTICAL 9:16 — best as full: true): colleagues collaborating around Good for: "
+  },
+  {
+   "id": "lib_content_creator_sets_up_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "credit": "",
+   "file": "content_creator_sets_up_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt stands behind a ring light with a phone on a tripod, adjusting the setup while the camera slowly pushes in until his face fills the frame, with a calm, focused mood and moody blue ambient lighting in the background. Good for: setting up to create content, getting started as a creator, or preparing equipment before recording a tutorial"
+  },
+  {
+   "id": "lib_eye_reflecting_laptop_screen_glow",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "credit": "",
+   "file": "eye_reflecting_laptop_screen_glow.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow zoom into an extreme close-up of a brown eye with a bright blue screen reflected in the pupil, framed by a thick eyebrow and warm skin tones, fading into a cool blue gradient at the bottom, with a focused, intense and cinematic mood. Good for: lines about being glued to a screen, intense focus or attention, watching AI work, or 'seeing' a new opportunity or insight"
+  },
+  {
+   "id": "lib_hand_scrolling_smartphone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_scrolling_smartphone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_scrolling_smartphone.mp4",
+   "credit": "",
+   "file": "hand_scrolling_smartphone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a bearded young man in a white t-shirt looking intently at a smartphone in dim, warm lighting, with the camera slowly pushing in until his focused, slightly tense gaze moves from the screen to the lens. Good for: a script line about being glued to your phone, doubt or tension before a reveal, or the moment of realizing something while checking an app or notification"
+  },
+  {
+   "id": "lib_hands_holding_credit_card_near",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hands_holding_credit_card_near.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hands_holding_credit_card_near.mp4",
+   "credit": "",
+   "file": "hands_holding_credit_card_near.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): hands holding credit card near Good for: "
+  },
+  {
+   "id": "lib_man_comparing_phone_and_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "credit": "",
+   "file": "man_comparing_phone_and_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): man comparing phone and laptop Good for: "
+  },
+  {
+   "id": "lib_man_looking_at_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "credit": "",
+   "file": "man_looking_at_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt scowls with intense focus at a laptop in a dim, warmly lit room, then closes his eyes and rubs his hand near his chin in tired frustration. Good for: frustration with slow or difficult work, such as struggling with a tedious task, debugging, or burning out late at night before finding a better way"
+  },
+  {
+   "id": "lib_man_opens_laptop_in_room",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "credit": "",
+   "file": "man_opens_laptop_in_room.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt sits at a laptop in a dimly lit, warmly lit room, and his focused, tense expression builds as he leans toward the screen, which shows blurry blue diagram or flowchart-style blocks, with his fists clenched near his chin in the middle frame. Good for: intense concentration or deep work, such as debugging, building an AI workflow, or struggling with a complex problem"
+  },
+  {
+   "id": "lib_man_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "man_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt stares intently at a laptop screen with blurry blue UI elements floating in front of the camera, then grimaces in frustration and mouths a reaction, and finally tilts his head back in exhausted resignation in a dim, warmly lit room. Good for: frustration with slow, tedious, or failing work, such as waiting on a slow tool, hitting an error, or being exhausted by manual tasks before introducing an AI solution"
+  },
+  {
+   "id": "lib_man_smiling_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "credit": "",
+   "file": "man_smiling_at_phone.mp4",
+   "frames": 135,
+   "desc": "B-roll (4.5s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a blue smartphone, his expression shifting from neutral to a furrowed-brow frown of confusion and frustration. Good for: a line about frustration with confusing apps or slow tools, or the moment someone hits a problem and doesn't know what to do next"
+  },
+  {
+   "id": "lib_man_staring_at_phone_in",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_staring_at_phone_in.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_staring_at_phone_in.mp4",
+   "credit": "",
+   "file": "man_staring_at_phone_in.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt stares at his smartphone, his expression moving from a focused frown to wide-eyed shock and then to a worried look straight into the camera, in a warm, dimly lit home setting. Good for: a line about a shocking discovery, an unexpected result, or a worrying realization, such as 'you won't believe what this AI tool just did' or 'when you see how much time you've been wasting'"
+  },
+  {
+   "id": "lib_man_studying_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "credit": "",
+   "file": "man_studying_with_laptop.mp4",
+   "frames": 132,
+   "desc": "B-roll (4.4s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits at a desk behind a laptop with a furrowed brow and a frustrated, concentrated look, first staring at the screen, then looking down at an open notebook and writing with a pen, with a warm blurred lamp glowing in the background. Good for: a script line about struggling to understand something complex, frustration with slow or manual work, or the pain of learning a new tool the hard way"
+  },
+  {
+   "id": "lib_man_watching_laptop_waiting",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "credit": "",
+   "file": "man_watching_laptop_waiting.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits at a laptop in a dimly lit room with warm lamp light, resting his chin on his fist with a focused, pensive look, and the camera pushes in closer across the three frames. Good for: a script line about deep thinking, researching or problem-solving, or weighing a decision before trying an AI tool"
+  },
+  {
+   "id": "lib_person_drinking_coffee_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "credit": "",
+   "file": "person_drinking_coffee_with_laptop.mp4",
+   "frames": 93,
+   "desc": "B-roll (3.1s, VERTICAL 9:16 — best as full: true): A bearded man in a green polo sits at a laptop in a modern industrial-style open office, lifting a white cup to his mouth and sipping a hot drink while looking down at the screen, in a calm, focused mood. Good for: a line about taking a breather while the AI does the work, a morning work routine, waiting for a process to finish, or the calm of an automated workflow"
+  },
+  {
+   "id": "lib_person_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "person_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a laptop, his expression moving from concern to a deep frown with glowing blue tear-like effects on his cheeks, then to eyes shut in stress or exhaustion; the mood is frustrated and overwhelmed. Good for: A script line about frustration or overwhelm with a tough task, such as struggling with confusing tools, wasting hours on manual work, or being stuck before finding an AI solution."
+  },
+  {
+   "id": "lib_person_speaking_into_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "credit": "",
+   "file": "person_speaking_into_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt takes a phone call in a modern industrial office with exposed concrete ceilings, moving from a serious, concerned look to a worried talking expression and ending with a relieved, confident smile at the camera. Good for: a script line about getting a surprising call or news, a problem being solved, or the moment of relief after a stressful issue"
+  },
+  {
+   "id": "lib_person_taking_selfie_with_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "credit": "",
+   "file": "person_taking_selfie_with_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt sits in a car holding a blue smartphone up close to his face, and across the clip he leans toward the screen with a furrowed brow, looking skeptical and intensely focused. Good for: a script line about doubting or double-checking AI output, being confused or frustrated by an app or tool, or looking closely at a result on your phone, e.g. 'wait, is this actually right?'"
+  },
+  {
+   "id": "lib_professional_working_on_laptop_late",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "credit": "",
+   "file": "professional_working_on_laptop_late.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A tired bearded young man in a maroon t-shirt sits at a laptop in a dim apartment at night, resting his head on his hand, rubbing his eyes, then glumly lifting a white coffee mug, with blurred city lights glowing behind him through the window. Good for: A script line about burnout, late-night grinding, or frustration with slow manual work that AI tools can speed up, e.g. 'still stuck doing this by hand at midnight?'"
+  },
+  {
+   "id": "lib_robotic_hand_typing_on_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "credit": "",
+   "file": "robotic_hand_typing_on_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a black robotic hand with segmented, mechanical fingers lowering onto a backlit laptop keyboard and starting to type, shot at shallow depth of field in a warm, softly lit, modern workspace. Good for: A script line about AI doing the work for you, automating repetitive tasks, or AI taking over typing and writing, such as 'let AI handle the busywork' or 'AI writes it for you'."
+  },
+  {
+   "id": "s1_image",
+   "kind": "image",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-06_2001/s1_image.png",
+   "credit": "Image: post-bridge.com",
+   "desc": "official image from POST BRIDGE (announcement page)"
+  }
+ ],
+ "style": "hisaab",
+ "topic": "Business breakdown: POST BRIDGE — Post your content to multiple social media platforms at the same time, all-in one place.",
+ "pick": {
+  "topic": "Business breakdown: POST BRIDGE — Post your content to multiple social media platforms at the same time, all-in one place.",
+  "tool": "POST BRIDGE",
+  "format": "business",
+  "angle": "A solo founder built a 'post once, publish everywhere' tool that makes about $50K, and he grew it by posting on the same platforms it serves"
+ },
+ "inspired_by": {
+  "url": "https://trustmrr.com/startup/post-bridge",
+  "owner": "trustmrr",
+  "plays": 0,
+  "likes": 0,
+  "comments": 0
+ },
+ "research": {
+  "verdict": "ok",
+  "tool": "POST BRIDGE",
+  "what_it_does": "A social media scheduler that publishes one post to up to 10 platforms at once (Instagram, TikTok, YouTube, X, LinkedIn, Facebook, Pinterest, Threads, Bluesky, Google Business). It also has an API and an MCP server for AI agents.",
+  "who_pays": "Solo creators, founders and small teams who do their own marketing. The site says it is built for one person marketing a business.",
+  "pricing": "Official pricing page: Marketer is $39/month for 15 connected accounts, billed monthly. Operator is $99/month for 99 accounts, then $1 per extra account with no maximum. Both plans have unlimited posts, a 7-day free trial and $0 due today. Per the About page, yearly billing saves two months. The pricing page lists API and MCP as included in Marketer. Operator adds team invites.",
+  "growth": [
+   "Built to solve the founder's own problem. Per the Starter Story summary and a Stork.ai review, he made Post Bridge in late 2024 to cross-post for his first app, Curiosity Quench. It later grew '10 times, 100 times bigger' than that app (https://www.stork.ai/blog/his-selfish-app-replaced-hootsuite).",
+   "Founder X post: Curiosity Quench hit its first $15k month in September, and one month later he started Post Bridge to help scale it (https://x.com/jackfriks/status/1908506318165426344). On Apr 5, 2025 he posted that his 'little startup just hit 10k mrr'.",
+   "Build-in-public on X and short-form video. IndieMakerList says this has grown his X audience past 175,000 followers. Marketer Gems says Jack built an audience while building the product, and that this created natural distribution channels (https://www.marketergems.com/p/jack-friks-postbridge-story-personal-problem-to-profitable-saas).",
+   "Founder-led demos and education. In a July 2025 X post he explained a 'send as draft' TikTok feature and said he had seen 30+ million Instagram video views posting only through the API over 5 months (https://x.com/jackfriks/status/1947352793150324874).",
+   "Product-led SEO and positioning. The site has comparison pages such as 'Later alternatives', and its pricing pitch contrasts per-channel pricing with its own. Its About page says Buffer's $6 per channel makes 15 channels about $90/mo, versus $39/mo on Post Bridge.",
+   "AI-agent distribution. A Sept 11, 2026 GLOBE NEWSWIRE press release (a company-issued source) says Post Bridge was listed as a ChatGPT plugin, after an earlier listing in Anthropic's Claude connector directory. It reports 341, 508, 645 and 713 new signups on Sept 4–7, each an all-time daily record, against a previous average of about 50 a day (https://finance.yahoo.com/technology/articles/post-bridge-lands-inside-chatgpt-120000219.html).",
+   "Conversion work. A Side Hustler Story newsletter says he doubled the site's conversion rate from 2.2% to 4.32% with two changes (https://sidehustlerstory.substack.com/p/jack-friks)."
+  ],
+  "founder_story": [
+   "Jack Friks is a Canadian solo developer. The About page says Post Bridge is 'built by one person' and that he studied computer programming at Durham College. He still builds the product and answers support himself.",
+   "In his Indie Hackers post he says he spent about four years trying to make money online, including a year learning to code, and was still struggling to break $3k/mo. He says he cried on a walk three months before Post Bridge. He also says he built Post Bridge from scratch in about a month.",
+   "Before Post Bridge he built Curiosity Quench, an anti-doomscrolling mobile app. IndieMakerList and Stork.ai say it passed 100,000 downloads. He has since shipped other apps (Lovelee, Doof and others).",
+   "The company was founded in Sept 2024 and launched the following month. The legal entity is Jack Ingram Media Inc., Ontario, Canada (About page and press release)."
+  ],
+  "lessons": [
+   "Scratch your own itch. He spent about an hour a day posting the same content everywhere, so he built the tool he wanted. His first customer was himself, which is a ready-made use case for marketing.",
+   "Sell to the people you already reach. He markets his own apps with short-form content and posts about it publicly. His audience of creators and solo marketers is the same audience that buys the scheduler.",
+   "Be the cheap, simple option in a category full of bloated incumbents. Pricing is by accounts with unlimited posts, and the site compares itself directly against per-channel pricing from Buffer.",
+   "Ride new distribution surfaces early. The ChatGPT and Claude listings, plus MCP and API on every plan, produced record signups, according to the company press release.",
+   "Add features that answer real objections. The 'send as draft' TikTok feature came from users seeing zero views on API posts."
+  ],
+  "criticism": [
+   "Revenue is not profit. TrustMRR shows the profit margin as masked (XX%), and no source gives the founder's profit or costs.",
+   "Churn may be high. A YouTube episode description (Tibo Maker, E12) claims 20% of customers leave every month. This is a third-party claim I could not trace to the founder's own data, so treat it as unconfirmed.",
+   "Competitive and commoditized market. Rivals include Buffer, Later, Hootsuite, Upload-Post (from $0) and Postiz (open source). Rival pages position it as a lean scheduler. Reviews say it has no inbox, no Canva integration and only beta analytics.",
+   "Platform dependency. The founder himself says API-based posting can get lower reach on TikTok and YouTube, and recommends manual posting for the first 10+ videos of a new account. The site says its own testing found no reach difference.",
+   "Heavy dependence on one founder's personal brand and a solo operation (186.8k X followers per TrustMRR). Third-party sources such as Indie Hackers describe an eight-month plateau before revenue doubled."
+  ],
+  "facts": [
+   "TrustMRR (Stripe-verified): $49,969 MRR, $45,867 in the last 30 days, $570,991 all-time, 1,651 active subscriptions, and 10% growth vs the prior period.",
+   "Homepage counters (these change, so re-check before filming): 10 social platforms supported, 3,443,878 posts published by users, 2 min average time to post everywhere.",
+   "Indie Hackers, June 2026: Jack said it launched about 1.5 years earlier and makes $50k CAD ($35K USD) MRR. TrustMRR now shows about $50k MRR, so growth continued after that.",
+   "Press release (Sept 2026) says Post Bridge is bootstrapped with no outside funding and publishes its revenue in real time via TrustMRR.",
+   "Jack posted that he made $59,347 in May 2026 across his products (reported via an X trending summary). That figure covers his whole portfolio, not just Post Bridge, so don't use it as Post Bridge revenue.",
+   "Tech stack per TrustMRR: Next.js, Supabase, Stripe. In his Indie Hackers post he mentions using R2 to cut egress costs."
+  ],
+  "do_not_claim": [
+   "Profit, margin or take-home pay",
+   "Team size beyond 'solo founder'. The About page says one person, but check for contractors.",
+   "The $1M offer he reportedly declined in spring 2025. It appears only on jackfriks.com/wiki, an unverified secondary source, so I couldn't confirm it.",
+   "The '20% monthly churn' figure",
+   "Pricing of '$29' or '$7.50/mo' or the older Starter/Creator/Pro plans. Those come from the press release and old review sites. The current pricing page shows $39 and $99, matching TrustMRR.",
+   "That ChatGPT or Claude listings caused the revenue growth. The press release reports only the signup spike and a count of 1,400+ paying customers. TrustMRR shows 1,651 active subscriptions.",
+   "Exact reach claims such as 'no reach difference'. These are the company's own claims."
+  ],
+  "real_pages": [
+   {
+    "url": "https://trustmrr.com/startup/post-bridge",
+    "show": "$49,969",
+    "kind": "site"
+   },
+   {
+    "url": "https://post-bridge.com",
+    "show": "",
+    "kind": "site"
+   },
+   {
+    "url": "https://www.post-bridge.com/pricing",
+    "show": "$39/month",
+    "kind": "site"
+   },
+   {
+    "url": "https://www.post-bridge.com/pricing",
+    "show": "$99/month",
+    "kind": "site"
+   }
+  ],
+  "sources": [
+   "https://www.post-bridge.com/pricing",
+   "https://www.post-bridge.com/about",
+   "https://www.post-bridge.com/",
+   "https://finance.yahoo.com/technology/articles/post-bridge-lands-inside-chatgpt-120000219.html",
+   "https://www.indiehackers.com/post/tech/hitting-35k-mrr-after-struggling-to-make-money-online-for-four-years-CNVpxrwIVqxcsfZ4fERw",
+   "https://x.com/jackfriks/status/1908506318165426344",
+   "https://x.com/jackfriks/status/1947352793150324874",
+   "https://thebootstrappedfounder.com/jack-friks-building-tools-that-empower-without-overwhelming/",
+   "https://www.marketergems.com/p/jack-friks-postbridge-story-personal-problem-to-profitable-saas",
+   "https://www.stork.ai/blog/his-selfish-app-replaced-hootsuite",
+   "https://sidehustlerstory.substack.com/p/jack-friks",
+   "https://indiemakerlist.com/p/jack-friks/",
+   "https://www.post-bridge.com/later-alternative",
+   "https://www.upload-post.com/post-bridge-alternative/"
+  ],
+  "notes": "The reliable hook is the story of a solo founder who spent about four years failing, then built a tool for himself in about a month, and it reached about $50k MRR. Use TrustMRR for all current revenue numbers. Third-party review sites show old or wrong prices, so only use the official pricing page ($39 / $99). The pricing page snapshot I saw is labelled as old, but five third-party pages checked in Oct–Nov 2026 agree on $39 and $99, and TrustMRR matches. The homepage 'loved by 1,405 users' is older than TrustMRR's 1,651 active subscriptions, so don't show it. I verified the pricing page text only via search snippets, not a live visit. Re-check the exact wording on screen before recording. Some other facts above (e.g. 'Duration College', conversion-rate doubling) come from secondary sources. The press release is company-issued, not independent journalism.",
+  "_searched": 5,
+  "trustmrr": {
+   "name": "POST BRIDGE",
+   "one_liner": "Post your content to multiple social media platforms at the same time, all-in one place.",
+   "website": "https://post-bridge.com",
+   "founder": "jack friks",
+   "founder_x": "@jackfriks",
+   "founded": "September 2024",
+   "location": "Canada",
+   "category": "Social Media, Productivity, Marketing, Saas",
+   "audience": "One person marketing a business (B2C, ~1,913 users)",
+   "pricing": "Marketer: $39/month, Operator: $99/month",
+   "revenue_last_30_days": "$45,867",
+   "revenue_all_time": "$570,991",
+   "mrr": "$49,969",
+   "growth_mom": "10%",
+   "active_subscriptions": "1651",
+   "rank": "#199",
+   "for_sale": "",
+   "verified_by": "Stripe API key",
+   "last_updated": "Nov 6, 2026, 02:02 PM",
+   "other": [
+    "Founder has 186.8k followers on 𝕏",
+    "10% vs. prev period",
+    "Profit margin shown as XX%",
+    "Value proposition: Post to all your social accounts from one dashboard",
+    "Problem solved: Helps individuals manage and publish content across multiple social media platforms efficiently from one place.",
+    "Domain Rating: 55/100 (post-bridge.com)",
+    "Tech stack: Frontend Next.js; Backend Supabase, Stripe",
+    "Product update from @jackfriks (7mo ago): added PDF support for linked in posts through the API. (11 likes, 0 comments)"
+   ],
+   "trustmrr_url": "https://trustmrr.com/startup/post-bridge"
+  },
+  "say_numbers_as": [
+   "$45,867 (can be said as: $45K, $46K, $50K)",
+   "$570,991 (can be said as: $570K, $571K)",
+   "$49,969 (can be said as: $49K, $50K)"
+  ]
+ },
+ "kind": "business",
+ "episode": 15,
+ "_ident": {
+  "at": 4.3,
+  "dur": 1.5,
+  "title": "AI HACKS",
+  "type": 0.42,
+  "sub": "EP 15 · BUSINESS BREAKDOWN"
+ },
+ "timeline": {
+  "words": [
+   [
+    "One",
+    0.16
+   ],
+   [
+    "guy",
+    0.36
+   ],
+   [
+    "built",
+    0.56
+   ],
+   [
+    "a",
+    0.8
+   ],
+   [
+    "posting",
+    1.08
+   ],
+   [
+    "tool",
+    1.36
+   ],
+   [
+    "that",
+    1.68
+   ],
+   [
+    "now",
+    1.84
+   ],
+   [
+    "makes",
+    2.12
+   ],
+   [
+    "$50K",
+    2.48
+   ],
+   [
+    "a",
+    2.96
+   ],
+   [
+    "month.",
+    3.36
+   ],
+   [
+    "And",
+    5.964
+   ],
+   [
+    "the",
+    6.06
+   ],
+   [
+    "move",
+    6.34
+   ],
+   [
+    "that",
+    6.54
+   ],
+   [
+    "made",
+    6.78
+   ],
+   [
+    "it",
+    6.94
+   ],
+   [
+    "work",
+    7.1
+   ],
+   [
+    "isn't",
+    7.5
+   ],
+   [
+    "the",
+    7.74
+   ],
+   [
+    "code.",
+    7.9
+   ],
+   [
+    "I'll",
+    8.54
+   ],
+   [
+    "tell",
+    8.7
+   ],
+   [
+    "you",
+    8.82
+   ],
+   [
+    "at",
+    8.9
+   ],
+   [
+    "the",
+    9.02
+   ],
+   [
+    "end.",
+    9.18
+   ],
+   [
+    "It's",
+    9.713
+   ],
+   [
+    "called",
+    9.9
+   ],
+   [
+    "Post",
+    10.22
+   ],
+   [
+    "Bridge.",
+    10.54
+   ],
+   [
+    "You",
+    11.233
+   ],
+   [
+    "write",
+    11.34
+   ],
+   [
+    "one",
+    11.66
+   ],
+   [
+    "post,",
+    11.9
+   ],
+   [
+    "and",
+    12.38
+   ],
+   [
+    "it",
+    12.54
+   ],
+   [
+    "publishes",
+    12.78
+   ],
+   [
+    "to",
+    13.18
+   ],
+   [
+    "up",
+    13.34
+   ],
+   [
+    "to",
+    13.54
+   ],
+   [
+    "10",
+    13.78
+   ],
+   [
+    "platforms",
+    13.98
+   ],
+   [
+    "at",
+    14.46
+   ],
+   [
+    "once.",
+    14.7
+   ],
+   [
+    "It's",
+    15.313
+   ],
+   [
+    "for",
+    15.5
+   ],
+   [
+    "solo",
+    15.66
+   ],
+   [
+    "founders",
+    15.98
+   ],
+   [
+    "marketing",
+    16.58
+   ],
+   [
+    "their",
+    16.9
+   ],
+   [
+    "own",
+    17.1
+   ],
+   [
+    "business.",
+    17.66
+   ],
+   [
+    "Their",
+    18.167
+   ],
+   [
+    "pricing",
+    18.42
+   ],
+   [
+    "page",
+    18.74
+   ],
+   [
+    "says",
+    19.06
+   ],
+   [
+    "$39",
+    19.34
+   ],
+   [
+    "a",
+    19.82
+   ],
+   [
+    "month",
+    20.1
+   ],
+   [
+    "for",
+    20.54
+   ],
+   [
+    "15",
+    20.74
+   ],
+   [
+    "accounts,",
+    21.38
+   ],
+   [
+    "unlimited",
+    21.74
+   ],
+   [
+    "posts.",
+    22.62
+   ],
+   [
+    "These",
+    23.23
+   ],
+   [
+    "numbers",
+    23.46
+   ],
+   [
+    "are",
+    23.74
+   ],
+   [
+    "verified",
+    24.14
+   ],
+   [
+    "on",
+    24.46
+   ],
+   [
+    "TrustMRR.",
+    24.78
+   ],
+   [
+    "About",
+    25.66
+   ],
+   [
+    "$50K",
+    26.02
+   ],
+   [
+    "MRR.",
+    26.46
+   ],
+   [
+    "$45K",
+    28.06
+   ],
+   [
+    "in",
+    28.62
+   ],
+   [
+    "the",
+    29.42
+   ],
+   [
+    "last",
+    29.62
+   ],
+   [
+    "30",
+    29.82
+   ],
+   [
+    "days.",
+    30.14
+   ],
+   [
+    "1,651",
+    30.78
+   ],
+   [
+    "active",
+    31.42
+   ],
+   [
+    "subscriptions.",
+    33.02
+   ],
+   [
+    "10%",
+    34.033
+   ],
+   [
+    "growth.",
+    34.22
+   ],
+   [
+    "Quick",
+    35.397
+   ],
+   [
+    "catch:",
+    35.5
+   ],
+   [
+    "that's",
+    36.167
+   ],
+   [
+    "revenue,",
+    36.46
+   ],
+   [
+    "not",
+    37.1
+   ],
+   [
+    "profit.",
+    37.66
+   ],
+   [
+    "We",
+    38.033
+   ],
+   [
+    "don't",
+    38.14
+   ],
+   [
+    "know",
+    38.38
+   ],
+   [
+    "what",
+    38.5
+   ],
+   [
+    "he",
+    38.62
+   ],
+   [
+    "keeps.",
+    38.78
+   ],
+   [
+    "The",
+    39.553
+   ],
+   [
+    "founder",
+    39.66
+   ],
+   [
+    "is",
+    40.18
+   ],
+   [
+    "Jack",
+    40.42
+   ],
+   [
+    "Friks,",
+    40.62
+   ],
+   [
+    "a",
+    41.18
+   ],
+   [
+    "solo",
+    41.34
+   ],
+   [
+    "developer.",
+    41.66
+   ],
+   [
+    "He",
+    42.407
+   ],
+   [
+    "spent",
+    42.54
+   ],
+   [
+    "about",
+    42.78
+   ],
+   [
+    "four",
+    43.1
+   ],
+   [
+    "years",
+    43.5
+   ],
+   [
+    "struggling",
+    43.74
+   ],
+   [
+    "to",
+    44.18
+   ],
+   [
+    "make",
+    44.3
+   ],
+   [
+    "money",
+    44.58
+   ],
+   [
+    "online.",
+    45.02
+   ],
+   [
+    "Then",
+    45.42
+   ],
+   [
+    "he",
+    45.9
+   ],
+   [
+    "built",
+    46.06
+   ],
+   [
+    "the",
+    46.22
+   ],
+   [
+    "fix",
+    46.38
+   ],
+   [
+    "for",
+    46.62
+   ],
+   [
+    "his",
+    46.82
+   ],
+   [
+    "own",
+    47.02
+   ],
+   [
+    "posting",
+    47.46
+   ],
+   [
+    "headache",
+    47.74
+   ],
+   [
+    "in",
+    48.1
+   ],
+   [
+    "about",
+    48.22
+   ],
+   [
+    "a",
+    48.54
+   ],
+   [
+    "month.",
+    48.967
+   ],
+   [
+    "Here's",
+    49.26
+   ],
+   [
+    "the",
+    49.58
+   ],
+   [
+    "real",
+    49.78
+   ],
+   [
+    "lesson.",
+    50.3
+   ],
+   [
+    "He",
+    50.807
+   ],
+   [
+    "built",
+    50.94
+   ],
+   [
+    "in",
+    51.18
+   ],
+   [
+    "public",
+    51.42
+   ],
+   [
+    "on",
+    51.9
+   ],
+   [
+    "X",
+    52.38
+   ],
+   [
+    "and",
+    52.58
+   ],
+   [
+    "short-form",
+    52.82
+   ],
+   [
+    "video,",
+    53.42
+   ],
+   [
+    "and",
+    53.767
+   ],
+   [
+    "grew",
+    53.9
+   ],
+   [
+    "to",
+    54.18
+   ],
+   [
+    "186.8K",
+    54.38
+   ],
+   [
+    "followers",
+    56.42
+   ],
+   [
+    "on",
+    56.7
+   ],
+   [
+    "X.",
+    57.18
+   ],
+   [
+    "Creators",
+    57.42
+   ],
+   [
+    "and",
+    58.1
+   ],
+   [
+    "solo",
+    58.26
+   ],
+   [
+    "marketers,",
+    58.54
+   ],
+   [
+    "exactly",
+    59.5
+   ],
+   [
+    "who",
+    60.06
+   ],
+   [
+    "buys",
+    60.18
+   ],
+   [
+    "a",
+    60.34
+   ],
+   [
+    "scheduler.",
+    60.46
+   ],
+   [
+    "He",
+    61.233
+   ],
+   [
+    "didn't",
+    61.34
+   ],
+   [
+    "hunt",
+    61.7
+   ],
+   [
+    "for",
+    61.9
+   ],
+   [
+    "customers.",
+    62.34
+   ],
+   [
+    "He",
+    62.78
+   ],
+   [
+    "was",
+    62.98
+   ],
+   [
+    "already",
+    63.18
+   ],
+   [
+    "standing",
+    63.66
+   ],
+   [
+    "in",
+    64.06
+   ],
+   [
+    "front",
+    64.26
+   ],
+   [
+    "of",
+    64.42
+   ],
+   [
+    "them.",
+    64.54
+   ],
+   [
+    "Would",
+    65.02
+   ],
+   [
+    "you",
+    65.18
+   ],
+   [
+    "build",
+    65.42
+   ],
+   [
+    "this,",
+    65.58
+   ],
+   [
+    "or",
+    66.14
+   ],
+   [
+    "buy",
+    66.54
+   ],
+   [
+    "it?",
+    66.7
+   ],
+   [
+    "Send",
+    67.18
+   ],
+   [
+    "this",
+    67.42
+   ],
+   [
+    "to",
+    67.54
+   ],
+   [
+    "the",
+    67.66
+   ],
+   [
+    "friend",
+    67.86
+   ],
+   [
+    "who",
+    68.1
+   ],
+   [
+    "keeps",
+    68.26
+   ],
+   [
+    "saying",
+    68.58
+   ],
+   [
+    "they'll",
+    68.82
+   ],
+   [
+    "launch",
+    69.14
+   ],
+   [
+    "something",
+    69.46
+   ],
+   [
+    "someday.",
+    69.7
+   ],
+   [
+    "Hack",
+    70.38
+   ],
+   [
+    "saved?",
+    70.62
+   ]
+  ],
+  "duration": 71.28,
+  "ident": {
+   "at": 4.3,
+   "dur": 1.5,
+   "title": "AI HACKS",
+   "type": 0.42,
+   "sub": "EP 15 · BUSINESS BREAKDOWN"
+  },
+  "scenes": [
+   {
+    "t": 0.0,
+    "shows": [
+     "footage:lib_man_staring_at_phone_in",
+     "pill:ONE GUY · ONE TOOL",
+     "title_slam:$50K/MONTH"
+    ]
+   },
+   {
+    "t": 5.96,
+    "shows": [
+     "label:THE REAL MOVE",
+     "object3d:",
+     "pill:UNLOCKS AT THE END"
+    ]
+   },
+   {
+    "t": 9.71,
+    "shows": [
+     "footage:real_2_phone",
+     "pill:POST BRIDGE"
+    ]
+   },
+   {
+    "t": 11.23,
+    "shows": [
+     "object3d:",
+     "pill:UP TO 10 PLATFORMS",
+     "headline:FOR SOLO FOUNDERS"
+    ]
+   },
+   {
+    "t": 18.17,
+    "shows": [
+     "footage:real_3_phone",
+     "pill:$39/MO · 15 ACCOUNTS"
+    ]
+   },
+   {
+    "t": 23.23,
+    "shows": [
+     "label:VERIFIED REVENUE",
+     "footage:real_1_web"
+    ]
+   },
+   {
+    "t": 25.66,
+    "shows": [
+     "object3d:",
+     "stat_row:"
+    ]
+   },
+   {
+    "t": 35.4,
+    "shows": [
+     "label:THE CATCH",
+     "vs:",
+     "pill:PROFIT UNKNOWN"
+    ]
+   },
+   {
+    "t": 39.55,
+    "shows": [
+     "footage:real_2_web",
+     "headline:JACK FRIKS"
+    ]
+   },
+   {
+    "t": 42.41,
+    "shows": [
+     "footage:lib_professional_working_on_laptop_late",
+     "pill:4 YEARS STRUGGLING"
+    ]
+   },
+   {
+    "t": 45.42,
+    "shows": [
+     "label:HIS OWN PROBLEM",
+     "illustration:mobile_phone",
+     "object3d:"
+    ]
+   },
+   {
+    "t": 49.26,
+    "shows": [
+     "object3d:",
+     "headline:BUILD IN PUBLIC"
+    ]
+   },
+   {
+    "t": 53.77,
+    "shows": [
+     "big_number:"
+    ]
+   },
+   {
+    "t": 57.42,
+    "shows": [
+     "headline:AUDIENCE = BUYERS",
+     "before_after:"
+    ]
+   },
+   {
+    "t": 65.02,
+    "shows": [
+     "headline:BUILD IT?",
+     "pill:OR BUY IT?"
+    ]
+   }
+  ],
+  "beats": [
+   21.29,
+   32.41
+  ]
+ }
+}
