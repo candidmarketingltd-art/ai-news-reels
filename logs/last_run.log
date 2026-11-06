@@ -4,19 +4,40 @@
   BUFFER_API_KEY: set
   BUFFER_CHANNEL_ID: set
       voice: Rohan 0ynj1kxK93EAXGRqL9Rm (found by name in this workspace)
-window 2026-11-05-2000 | posting times 13:00, 17:00, 20:00 IST | dry_run=True
-      reel type: meme
-[1/3] trending audio + Claude news this week
-      14 trending songs, 10 news items
-[2/3] meme line
-      “me: ok today i finally start marketing the product / also me: ok but first, one more feature” on lib_man_watching_laptop_waiting,lib_robotic_hand_typing_on_keyboard · song: Be OK — Ingrid Michaelson
-[3/3] render
-DRY RUN — meme reel at /home/runner/work/ai-news-reels/ai-news-reels/out/2026-11-05_2307_meme.mp4
---- caption ---
-🎵 ADD SONG: Be OK — Ingrid Michaelson (use the most-used snippet, starting on the first vocal line so the cut to shot 2 lands on the beat) ⬅ delete this line before posting
-
-feature #14 shipped. users: 3. one of them is my mom.
-
-be honest, what are you building right now instead of marketing it?
-
-#vibecoding #founderlife #marketingmemes #aimemes #buildinpublic #claudeai
+window 2026-11-06-1300 | posting times 13:00, 17:00, 20:00 IST | dry_run=False
+      reel type: marketing
+      b-roll library: 25 clips
+      recording request #1: still waiting for the video
+      recording request #2: still waiting for the video
+[1/6] top AI & tech reels
+      hashtag scrape failed: apify apify/instagram-hashtag-scraper: 403 {
+  "error": {
+    "type": "platform-feature-disabled",
+    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and o
+      using the last saved reel pool
+      reel pool: 76 reels
+[2/6] picking the topic
+      → Use Claude as a social media manager for your business Instagram: sharpen the bio, plan a week of content, and draft on-brand DM replies, in 3 steps  (tutorial, from @yadarilab, 226,162 views) — 226k views, 5,071 likes and 6,709 comments (about 3% comment rate) on a business-focused Instagram topic. It's squarely Instagram growth plus an AI workflow, ea
+      transcript failed: apify apify/instagram-reel-scraper: 403 {
+  "error": {
+    "type": "platform-feature-disabled",
+    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe
+[3/6] research (0 transcript words)
+      verdict adjust · 6 web searches · 5 steps · 13 sources
+[4/6] script + edit
+      real screens: 8 usable of 8 captured from 4 official pages
+      (media: pexels 'typing on laptop' failed: 403 Client Error: Forbidden for url: https://api.apify.com/v2/acts/memo23~pexels)
+      (media: pexels 'phone notifications' failed: 403 Client Error: Forbidden for url: https://api.apify.com/v2/acts/memo23~pexels)
+      media: s1_image, s1_logo
+[5/6] voice + render
+      [eleven] subscription: 200 {"tier":"creator","character_count":14362,"character_limit":131000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796464027,"voice_slots_used":1,"professional_voice_slots
+      [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
+      voice check: 1 word(s) misheard [('eats', 'is')] -> recording another take
+      [eleven] subscription: 200 {"tier":"creator","character_count":14362,"character_limit":131000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796464027,"voice_slots_used":1,"professional_voice_slots
+      [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
+      take 2: 3 misheard [('', 'totaling'), ('', 'and then use it'), ('eats', 'each')]
+      166 words, 65.7s, voice eleven_v4
+      remotion: Reel /tmp/tmpzcrxxovt/video_only.mp4
+[6/6] publish
+      [buffer] created post 6aed851af3498efda7798093 (customScheduled)
+POSTED 6aed851af3498efda7798093 https://github.com/candidmarketingltd-art/ai-news-reels/releases/download/reel-2026-11-06_1301/2026-11-06_1301.mp4
