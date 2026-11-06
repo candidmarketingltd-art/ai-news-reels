@@ -1,0 +1,43 @@
+{
+ "shots": [
+  {
+   "clip": "lib_professional_working_on_laptop_late",
+   "text": "me: claude, just fix the typo in the headline",
+   "seconds": 2.2
+  },
+  {
+   "clip": "lib_robotic_hand_typing_on_keyboard",
+   "text": "claude: on it ✨",
+   "seconds": 2.0
+  },
+  {
+   "clip": "lib_person_reacting_to_laptop_screen",
+   "text": "14 files changed. the footer is now in italian.",
+   "seconds": 3.5
+  }
+ ],
+ "style": "meme",
+ "song": {
+  "title": "Upside Down",
+  "artist": "Diana Ross",
+  "mood": "funny",
+  "trend": "Transition-reveal sound. Use it for a before/after, such as the prompt vs. the output, or the mockup vs. what shipped.",
+  "source": "https://creatordb.app/free-tools/trending-instagram-audio/",
+  "list_date": "November 4, 2026",
+  "snippet": "use the most-used snippet. Land the cut to the last shot on the beat for the reveal.",
+  "why": "It's a prompt vs. output reveal sound, and this joke is 'asked for a typo fix, got a rewrite'."
+ },
+ "backup_song": {
+  "title": "Sunshine (Instrumental)",
+  "artist": "Twista"
+ },
+ "caption": "asked for one typo fix. got a full redesign and a new opinion on my footer.\nbe honest, how many files did claude touch the last time you asked for something 'small'?\n\n#claudeai #aimemes #vibecoding #founderlife #aitools #techhumor",
+ "cover_word": "typo fix",
+ "text": "me: claude, just fix the typo in the headline / claude: on it ✨ / 14 files changed. the footer is now in italian.",
+ "clip": "lib_professional_working_on_laptop_late,lib_robotic_hand_typing_on_keyboard,lib_person_reacting_to_laptop_screen",
+ "clip_paths": {
+  "lib_person_reacting_to_laptop_screen": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+  "lib_professional_working_on_laptop_late": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+  "lib_robotic_hand_typing_on_keyboard": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4"
+ }
+}
