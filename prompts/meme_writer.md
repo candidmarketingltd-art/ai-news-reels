@@ -30,12 +30,15 @@ marketing & content life (the algorithm, posting at the "best time", the client 
   from the news list.
 
 ## Song
-Pick ONE song from TRENDING THIS WEEK whose mood fits the joke (funny/awkward line → comedic or dramatic-ironic audio; quote →
+Pick the song whose TREND FORMAT (how creators use it) matches the joke's shape — e.g. a "confession / final trick" audio for
+an "it was me all along" joke, a "war is over" cue for "the workday is done" — not just the mood. Also pick a BACKUP from the
+same list (business accounts can't use every licensed track). Pick from TRENDING THIS WEEK, a song whose mood fits the joke (funny/awkward line → comedic or dramatic-ironic audio; quote →
 chill/emotional). Copy title and artist exactly as listed. Say which part of the song to use if you know it ("the drop at 0:12"),
 otherwise "use the most-used snippet".
 
 Return ONLY JSON:
 {"shots": [{"clip": "lib_… id", "text": "the line on this shot", "seconds": 2.5}], "style": "meme" (black on white boxes) | "quote" (white text),
  "song": {"title": "...", "artist": "...", "snippet": "which part / most-used snippet", "why": "why it fits, one line"},
+ "backup_song": {"title": "...", "artist": "..."},
  "caption": "1–2 short lines that add to the joke + a question (\"tag the friend who…\" or \"be honest…\"), then a blank line, then 4–6 hashtags (#claudeai #aimemes #founderlife #marketingmemes …)",
  "cover_word": "2–3 word label for our records"}

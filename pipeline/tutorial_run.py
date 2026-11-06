@@ -125,7 +125,8 @@ def meme_reel(key, slots, dry):
     artist = s.get("artist") or ""
     artist = "" if re.search(r"not (stated|listed|known)|unknown|n/?a", artist, re.I) else f" — {artist}"
     note = (f"🎵 ADD SONG: {s.get('title')}{artist} ({s.get('snippet') or 'most-used snippet'}) "
-            f"⬅ delete this line before posting\n\n")
+            + (f" · backup: {plan['backup_song'].get('title')} — {plan['backup_song'].get('artist')}" if (plan.get("backup_song") or {}).get("title") else "")
+            + " ⬅ delete this line before posting\n\n")
     caption = (note if manual else "") + plan["caption"]
     PLANS.mkdir(parents=True, exist_ok=True)
     _save(PLANS / f"meme_{stamp}.json", plan)
