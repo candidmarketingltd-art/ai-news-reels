@@ -1,0 +1,1705 @@
+{
+ "voiceover": "[conversational] Don't pay for Higgsfield until you see what the credits actually buy. Stay till the end, because the free route has a catch.\n\nIn Marketing Studio, pick Product Link, paste your product page, and it builds a short vertical ad. There are 1,500+ templates, plus Kling, Seedance and Veo under one login.\n\n[serious] Look at their pricing page. When I checked, Basic was $9 for 120 credits, and Pro was $29 for 600. Basic is about 7 Seedance videos, and credits expire in 30 days. Plans keep changing.\n\nMy verdict: worth it for beauty or fashion ads. Skip it if you make a few clips a month.\n\n[whispers] The free route is ComfyUI with Wan 2.2. No watermark, no per-clip fee. The catch: you need a GPU and setup time, and some open-source Higgsfield tools just call a paid API.\n\n[playful] Would you pay $9 to test it, or set up ComfyUI? Send this to the friend who pays for AI tools he barely uses. Hack saved?",
+ "open_loop": {
+  "setup": "Stay till the end, because the free route has a catch.",
+  "payoff": "The catch: you need a GPU and setup time, and some open-source Higgsfield tools just call a paid API."
+ },
+ "title": "BEFORE YOU PAY HIGGSFIELD",
+ "ig_caption": "Don't pay for Higgsfield until you see what the credits actually buy.\n✅ Marketing Studio > Product Link > paste your product page\n✅ Check the live pricing page: credits expire in 30 days\n✅ Free route: ComfyUI + Wan 2.2 (needs a GPU and setup)\nWould you pay $9 to test it, or set up ComfyUI? 👇\nSave this for later\nFollow @ihackgrowth for daily business & growth hacks",
+ "media_hints": {
+  "domain": "higgsfield.ai",
+  "broll": [
+   "typing on laptop",
+   "online shopping product",
+   "video editing timeline"
+  ]
+ },
+ "hashtags": [
+  "#AItools",
+  "#AIhacks",
+  "#Higgsfield",
+  "#ComfyUI",
+  "#AIvideo",
+  "#MarketingTips",
+  "#productivity",
+  "#SmallBusiness"
+ ],
+ "tag": "HIGGSFIELD",
+ "keywords": [
+  "Higgsfield",
+  "credits",
+  "free",
+  "catch",
+  "Marketing",
+  "Product",
+  "templates",
+  "Kling",
+  "Seedance",
+  "Veo",
+  "pricing",
+  "Basic",
+  "Pro",
+  "expire",
+  "verdict",
+  "ComfyUI",
+  "watermark",
+  "GPU",
+  "API"
+ ],
+ "music": "groove",
+ "hud": {
+  "label": "VERDICT",
+  "items": [
+   {
+    "value": "PAY?",
+    "color": "gold"
+   },
+   {
+    "at": "Basic was",
+    "value": "$9",
+    "color": "gold"
+   },
+   {
+    "at": "credits expire",
+    "value": "EXPIRES",
+    "color": "red"
+   },
+   {
+    "at": "My verdict:",
+    "value": "NICHE",
+    "color": "gold"
+   },
+   {
+    "at": "free route is",
+    "value": "FREE",
+    "color": "green"
+   },
+   {
+    "at": "The catch:",
+    "value": "GPU NEEDED",
+    "color": "red"
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "at": "Don't pay",
+   "tint": "red",
+   "react": [
+    {
+     "at": "credits actually",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Don't pay",
+     "media": "lib_hands_holding_credit_card_near",
+     "full": true
+    },
+    {
+     "type": "title_slam",
+     "at": "Don't pay",
+     "text": "DON'T PAY",
+     "sub": "UNTIL YOU SEE THIS",
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "at": "Stay till",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "pill",
+     "at": "Stay till",
+     "text": "STAY TILL THE END",
+     "color": "gold",
+     "outline": true
+    },
+    {
+     "type": "object3d",
+     "at": "the free",
+     "kind": "padlock",
+     "size": "l",
+     "caption": "THE FREE ROUTE · LOCKED",
+     "caption_at": "a catch."
+    }
+   ]
+  },
+  {
+   "at": "In Marketing",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "In Marketing",
+     "media": "real_3_phone",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "pick Product",
+     "text": "PRODUCT LINK → AD",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "and it builds",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "and it builds",
+     "media": "real_2_phone",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "vertical ad.",
+     "text": "SHORT VERTICAL AD",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "There are",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "There are",
+     "media": "s1_image",
+     "tall": true,
+     "caption": "ONE HUB, MANY MODELS",
+     "caption_at": "under one"
+    },
+    {
+     "type": "stat_row",
+     "at": "1,500+ templates,",
+     "cards": [
+      {
+       "label": "TEMPLATES",
+       "value": "1,500+",
+       "at": "1,500+ templates,",
+       "color": "gold",
+       "ill": "film_frames"
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "at": "plus Kling,",
+     "text": "KLING · SEEDANCE · VEO",
+     "color": "blue"
+    }
+   ]
+  },
+  {
+   "at": "Look at their",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Look at their",
+     "media": "real_4_phone",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "pricing page.",
+     "text": "CHECK PRICING FIRST",
+     "color": "red",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "When I checked,",
+   "elements": [
+    {
+     "type": "label",
+     "at": "When I checked,",
+     "text": "WHEN I CHECKED"
+    },
+    {
+     "type": "stat_row",
+     "at": "Basic was",
+     "cards": [
+      {
+       "label": "BASIC",
+       "value": "$9",
+       "sub": "120 CREDITS",
+       "at": "Basic was",
+       "color": "gold"
+      },
+      {
+       "label": "PRO",
+       "value": "$29",
+       "sub": "600 CREDITS",
+       "at": "Pro was",
+       "color": "gold"
+      }
+     ]
+    },
+    {
+     "type": "object3d",
+     "at": "120 credits,",
+     "kind": "coins",
+     "act": "fill",
+     "act_at": "for 600.",
+     "count": 20,
+     "caption": "CREDITS IN THE BOX"
+    }
+   ]
+  },
+  {
+   "at": "Basic is",
+   "tint": "red",
+   "react": [
+    {
+     "at": "credits expire",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "Basic is",
+     "text": "WHAT $9 BUYS"
+    },
+    {
+     "type": "pile",
+     "at": "Basic is",
+     "ill": "clapper_board",
+     "count": 7,
+     "value": "7 VIDEOS",
+     "value_at": "7 Seedance",
+     "color": "gold",
+     "label": "SEEDANCE CLIPS",
+     "collapse_at": "credits expire"
+    },
+    {
+     "type": "pill",
+     "at": "30 days.",
+     "text": "EXPIRE IN 30 DAYS",
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "at": "Plans keep",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Plans keep",
+     "media": "real_4_web",
+     "tall": true,
+     "caption": "PLANS KEEP CHANGING"
+    }
+   ]
+  },
+  {
+   "at": "My verdict:",
+   "tint": "green",
+   "react": [
+    {
+     "at": "My verdict:",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "My verdict:",
+     "text": "MY VERDICT"
+    },
+    {
+     "type": "strike_list",
+     "at": "worth it",
+     "items": [
+      {
+       "text": "BEAUTY & FASHION ADS",
+       "at": "beauty or",
+       "strike": false
+      },
+      {
+       "text": "A FEW CLIPS A MONTH",
+       "at": "Skip it",
+       "strike": true
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "at": "few clips",
+     "text": "LOW VOLUME = SKIP",
+     "color": "red",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "free route is",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "free route is",
+     "kind": "padlock",
+     "act": "open",
+     "act_at": "ComfyUI with",
+     "size": "l",
+     "caption": "COMFYUI + WAN 2.2",
+     "caption_at": "ComfyUI with"
+    },
+    {
+     "type": "stat_row",
+     "at": "No watermark,",
+     "cards": [
+      {
+       "label": "WATERMARK",
+       "value": "NONE",
+       "at": "No watermark,",
+       "color": "green"
+      },
+      {
+       "label": "PER CLIP",
+       "value": "NO FEE",
+       "at": "per-clip fee.",
+       "color": "green",
+       "glow": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "The catch:",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "The catch:",
+     "device": "desktop",
+     "step": "The catch · Setup",
+     "steps": [
+      {
+       "at": "The catch:",
+       "view": {
+        "kind": "checklist",
+        "window": "ComfyUI setup",
+        "title": "Before your first clip",
+        "items": [
+         {
+          "label": "Local GPU",
+          "sub": "runs on your machine"
+         },
+         {
+          "label": "Install ComfyUI"
+         },
+         {
+          "label": "Load Wan 2.2 template"
+         }
+        ]
+       },
+       "action": {
+        "kind": "toggle",
+        "target": "Local GPU",
+        "at": "a GPU"
+       }
+      },
+      {
+       "at": "setup time,",
+       "view": {
+        "kind": "checklist",
+        "window": "ComfyUI setup",
+        "title": "Before your first clip",
+        "items": [
+         {
+          "label": "Local GPU",
+          "sub": "runs on your machine",
+          "checked": true
+         },
+         {
+          "label": "Install ComfyUI"
+         },
+         {
+          "label": "Load Wan 2.2 template"
+         }
+        ]
+       },
+       "action": {
+        "kind": "toggle",
+        "target": "Install ComfyUI",
+        "at": "setup time,"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "and some open-source",
+   "tint": "red",
+   "react": [
+    {
+     "at": "paid API.",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "and some open-source",
+     "text": "\"FREE\" HIGGSFIELD CLONES"
+    },
+    {
+     "type": "vs",
+     "at": "and some open-source",
+     "left": {
+      "label": "LOOKS LIKE",
+      "value": "FREE"
+     },
+     "right": {
+      "label": "UNDER THE HOOD",
+      "value": "PAID API",
+      "color": "red",
+      "ill": "money_bag",
+      "at": "just call"
+     },
+     "strike_at": "paid API."
+    }
+   ]
+  },
+  {
+   "at": "Would you pay",
+   "react": [
+    {
+     "at": "Would you pay",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Would you pay",
+     "media": "lib_man_comparing_phone_and_laptop",
+     "full": true
+    },
+    {
+     "type": "headline",
+     "at": "Would you pay",
+     "text": "$9 OR COMFYUI?",
+     "size": "l",
+     "sub": "COMMENT BELOW",
+     "sub_at": "set up ComfyUI?"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "Send this",
+  "line1": "Send this to",
+  "line1_at": "Send this",
+  "line2": "the AI tool hoarder",
+  "line2_at": "barely uses."
+ },
+ "endcard": {
+  "title": "Hack saved?",
+  "terminal": "> credits.checked · free route unlocked"
+ },
+ "media": [
+  {
+   "id": "real_2_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-07_1301/real_2_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-07_1301/real_2_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: higgsfield.ai",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the gold-outlined part — Mobile Higgsfield URL to Video AI landing page. Headline 'URL TO VIDEO AI'. Subtext: 'Turn your product link into a video without writing a script. URL to Video AI pulls your product from a product page, website, or social profile and builds a 12 to 15 second ad video. Try free.' White button 'Gener [Screen: higgsfield.ai]"
+  },
+  {
+   "id": "real_2_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-07_1301/real_2_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-07_1301/real_2_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: higgsfield.ai",
+   "desc": "REAL desktop screen recording, pushes in on the gold-outlined part — Desktop URL to Video AI page, FAQ section 'GOT ANY QUESTIONS LEFT?'. The expanded and highlighted question is 'What is URL to Video AI?': 'URL to Video AI is an AI tool by Higgsfield that turns your product link into a finished video. It pulls the product name, description, and photos from a product [Screen: higgsfield.ai]"
+  },
+  {
+   "id": "real_3_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-07_1301/real_3_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-07_1301/real_3_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: higgsfield.ai",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the gold-outlined part — Mobile Higgsfield Marketing Studio page. Label 'POWERED BY HERMES AGENT'. Headline 'AI AD GENERATOR FROM PRODUCT LINK TO VIDEO AD IN 2 MINUTES'. Highlighted line: 'Paste a URL. Pick a format. Get a finished ad. No shoots, no crew, no production cycles'. Button 'Start creating', top-right 'Sign up'.  [Screen: higgsfield.ai]"
+  },
+  {
+   "id": "real_3_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-07_1301/real_3_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-07_1301/real_3_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: higgsfield.ai",
+   "desc": "REAL desktop screen recording, pushes in on the gold-outlined part — Desktop Higgsfield Marketing Studio page. 'POWERED BY HERMES AGENT', headline 'AI AD GENERATOR FROM PRODUCT LINK TO VIDEO AD IN 2 MINUTES', highlighted line 'Paste a URL. Pick a format. Get a finished ad. No shoots, no crew, no production cycles', button 'Start creating'. Format cards: 'UGC Virtual  [Screen: higgsfield.ai]"
+  },
+  {
+   "id": "real_4_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-07_1301/real_4_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-07_1301/real_4_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: higgsfield.ai",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the gold-outlined part — Mobile Higgsfield Creator Hub blog article dated Oct 24, 2026: 'HIGGSFIELD PRICING EXPLAINED: PLANS, CREDITS, AND WHAT'S INCLUDED', by Higgsfield, 8 min read. Hero image shows a woman in a pink jacket holding out a lime-green card in front of a cable car and a gas station. 'Sign Up' button at the to [Screen: higgsfield.ai]"
+  },
+  {
+   "id": "real_4_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-07_1301/real_4_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-07_1301/real_4_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: higgsfield.ai",
+   "desc": "REAL desktop screen recording, pushes in on the gold-outlined part — Desktop Higgsfield blog article 'Higgsfield Pricing Explained: Plans, Credits, and What's Included'. Intro: 'Higgsfield pricing is a monthly subscription that gives you credits: Starter includes 200 credits a month, Plus 1,000, and Ultra 3,000. Team plans add credits per seat.' Individual plans tabl [Screen: higgsfield.ai]"
+  },
+  {
+   "id": "lib_camera_moving_down_server_corridor",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "credit": "",
+   "file": "camera_moving_down_server_corridor.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow forward push down a hazy, fog-filled data center aisle lined with server racks that glow with blue and amber status lights, giving a moody, futuristic feel. Good for: A script line about the infrastructure behind AI, such as cloud computing, model training, heavy compute, data storage, or 'what happens behind the scenes'."
+  },
+  {
+   "id": "lib_colleagues_collaborating_around",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "credit": "",
+   "file": "colleagues_collaborating_around.mp4",
+   "frames": 126,
+   "desc": "B-roll (4.2s, VERTICAL 9:16 — best as full: true): colleagues collaborating around Good for: "
+  },
+  {
+   "id": "lib_content_creator_sets_up_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "credit": "",
+   "file": "content_creator_sets_up_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt stands behind a ring light with a phone on a tripod, adjusting the setup while the camera slowly pushes in until his face fills the frame, with a calm, focused mood and moody blue ambient lighting in the background. Good for: setting up to create content, getting started as a creator, or preparing equipment before recording a tutorial"
+  },
+  {
+   "id": "lib_eye_reflecting_laptop_screen_glow",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "credit": "",
+   "file": "eye_reflecting_laptop_screen_glow.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow zoom into an extreme close-up of a brown eye with a bright blue screen reflected in the pupil, framed by a thick eyebrow and warm skin tones, fading into a cool blue gradient at the bottom, with a focused, intense and cinematic mood. Good for: lines about being glued to a screen, intense focus or attention, watching AI work, or 'seeing' a new opportunity or insight"
+  },
+  {
+   "id": "lib_hand_dropping_papers_on_desk",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "credit": "",
+   "file": "hand_dropping_papers_on_desk.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a green shirt carries and then drops a thick stack of papers onto an already huge, messy pile of documents with sticky notes on a cluttered desk, while a laptop glows nearby, and the camera pushes in to a close-up of the towering stack, creating a mood of overwhelm and tedious paperwork. Good for: a script line about drowning in manual paperwork or document processing, setting up how AI can automate summarizing, sorting, or extracting information from piles of documents"
+  },
+  {
+   "id": "lib_hand_scrolling_smartphone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_scrolling_smartphone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_scrolling_smartphone.mp4",
+   "credit": "",
+   "file": "hand_scrolling_smartphone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a bearded young man in a white t-shirt looking intently at a smartphone in dim, warm lighting, with the camera slowly pushing in until his focused, slightly tense gaze moves from the screen to the lens. Good for: a script line about being glued to your phone, doubt or tension before a reveal, or the moment of realizing something while checking an app or notification"
+  },
+  {
+   "id": "lib_hands_holding_credit_card_near",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hands_holding_credit_card_near.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hands_holding_credit_card_near.mp4",
+   "credit": "",
+   "file": "hands_holding_credit_card_near.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): hands holding credit card near Good for: "
+  },
+  {
+   "id": "lib_man_comparing_phone_and_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "credit": "",
+   "file": "man_comparing_phone_and_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): man comparing phone and laptop Good for: "
+  },
+  {
+   "id": "lib_man_looking_at_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "credit": "",
+   "file": "man_looking_at_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt scowls with intense focus at a laptop in a dim, warmly lit room, then closes his eyes and rubs his hand near his chin in tired frustration. Good for: frustration with slow or difficult work, such as struggling with a tedious task, debugging, or burning out late at night before finding a better way"
+  },
+  {
+   "id": "lib_man_opens_laptop_in_room",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "credit": "",
+   "file": "man_opens_laptop_in_room.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt sits at a laptop in a dimly lit, warmly lit room, and his focused, tense expression builds as he leans toward the screen, which shows blurry blue diagram or flowchart-style blocks, with his fists clenched near his chin in the middle frame. Good for: intense concentration or deep work, such as debugging, building an AI workflow, or struggling with a complex problem"
+  },
+  {
+   "id": "lib_man_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "man_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt stares intently at a laptop screen with blurry blue UI elements floating in front of the camera, then grimaces in frustration and mouths a reaction, and finally tilts his head back in exhausted resignation in a dim, warmly lit room. Good for: frustration with slow, tedious, or failing work, such as waiting on a slow tool, hitting an error, or being exhausted by manual tasks before introducing an AI solution"
+  },
+  {
+   "id": "lib_man_smiling_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "credit": "",
+   "file": "man_smiling_at_phone.mp4",
+   "frames": 135,
+   "desc": "B-roll (4.5s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a blue smartphone, his expression shifting from neutral to a furrowed-brow frown of confusion and frustration. Good for: a line about frustration with confusing apps or slow tools, or the moment someone hits a problem and doesn't know what to do next"
+  },
+  {
+   "id": "lib_man_studying_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "credit": "",
+   "file": "man_studying_with_laptop.mp4",
+   "frames": 132,
+   "desc": "B-roll (4.4s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits at a desk behind a laptop with a furrowed brow and a frustrated, concentrated look, first staring at the screen, then looking down at an open notebook and writing with a pen, with a warm blurred lamp glowing in the background. Good for: a script line about struggling to understand something complex, frustration with slow or manual work, or the pain of learning a new tool the hard way"
+  },
+  {
+   "id": "lib_man_watching_laptop_waiting",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "credit": "",
+   "file": "man_watching_laptop_waiting.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits at a laptop in a dimly lit room with warm lamp light, resting his chin on his fist with a focused, pensive look, and the camera pushes in closer across the three frames. Good for: a script line about deep thinking, researching or problem-solving, or weighing a decision before trying an AI tool"
+  },
+  {
+   "id": "lib_person_drinking_coffee_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "credit": "",
+   "file": "person_drinking_coffee_with_laptop.mp4",
+   "frames": 93,
+   "desc": "B-roll (3.1s, VERTICAL 9:16 — best as full: true): A bearded man in a green polo sits at a laptop in a modern industrial-style open office, lifting a white cup to his mouth and sipping a hot drink while looking down at the screen, in a calm, focused mood. Good for: a line about taking a breather while the AI does the work, a morning work routine, waiting for a process to finish, or the calm of an automated workflow"
+  },
+  {
+   "id": "lib_person_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "person_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a laptop, his expression moving from concern to a deep frown with glowing blue tear-like effects on his cheeks, then to eyes shut in stress or exhaustion; the mood is frustrated and overwhelmed. Good for: A script line about frustration or overwhelm with a tough task, such as struggling with confusing tools, wasting hours on manual work, or being stuck before finding an AI solution."
+  },
+  {
+   "id": "lib_person_speaking_into_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "credit": "",
+   "file": "person_speaking_into_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt takes a phone call in a modern industrial office with exposed concrete ceilings, moving from a serious, concerned look to a worried talking expression and ending with a relieved, confident smile at the camera. Good for: a script line about getting a surprising call or news, a problem being solved, or the moment of relief after a stressful issue"
+  },
+  {
+   "id": "lib_person_taking_selfie_with_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "credit": "",
+   "file": "person_taking_selfie_with_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt sits in a car holding a blue smartphone up close to his face, and across the clip he leans toward the screen with a furrowed brow, looking skeptical and intensely focused. Good for: a script line about doubting or double-checking AI output, being confused or frustrated by an app or tool, or looking closely at a result on your phone, e.g. 'wait, is this actually right?'"
+  },
+  {
+   "id": "lib_robotic_hand_typing_on_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "credit": "",
+   "file": "robotic_hand_typing_on_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a black robotic hand with segmented, mechanical fingers lowering onto a backlit laptop keyboard and starting to type, shot at shallow depth of field in a warm, softly lit, modern workspace. Good for: A script line about AI doing the work for you, automating repetitive tasks, or AI taking over typing and writing, such as 'let AI handle the busywork' or 'AI writes it for you'."
+  },
+  {
+   "id": "s1_image",
+   "kind": "image",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-07_1301/s1_image.png",
+   "credit": "Image: higgsfield.ai",
+   "desc": "official image from Higgsfield (higgsfield.ai) — Marketing Studio (Product Link / URL to Video / Ad Reference), plus Cinema Studio and a multi-model hub (Kling, Seedance, Veo, Nano Banana, Soul) (announcement page)"
+  }
+ ],
+ "style": "hisaab",
+ "topic": "Honest review of Higgsfield for business video: what the AI video tool actually does for ads and product videos, what it costs, and the free or open-source alternative",
+ "pick": {
+  "index": 20,
+  "topic": "Honest review of Higgsfield for business video: what the AI video tool actually does for ads and product videos, what it costs, and the free or open-source alternative",
+  "tool": "Higgsfield (higgsfield.ai)",
+  "format": "review",
+  "angle": "Before you pay for Higgsfield to make your ads, see what the pricing page really gets you and which free alternative does 80% of it",
+  "why": "Two reels on the same tool are in the list: [20] has 140k views and 4,935 comments, and the duplicate [44] has 49k views and 961 comments. [29] 'Why pay for Higgsfield when this exists' adds 1,858 comments on 44k views. People are clearly asking whether it's worth the money. Its public site shows pricing, credits and templates, so we can film real screens."
+ },
+ "inspired_by": {
+  "url": "https://www.instagram.com/p/De0QCyLRXYk/",
+  "owner": "kevinqvdang",
+  "plays": 139994,
+  "likes": 8277,
+  "comments": 4935
+ },
+ "research": {
+  "verdict": "adjust",
+  "tool": "Higgsfield (higgsfield.ai) — Marketing Studio (Product Link / URL to Video / Ad Reference), plus Cinema Studio and a multi-model hub (Kling, Seedance, Veo, Nano Banana, Soul)",
+  "availability": "Paid credit-based subscription on web (higgsfield.ai) with commercial use on paid plans. A Free tier exists on some pages, but it is reported as watermarked with no credits. A mobile app called Diffuse exists. Prices below are US dollars, excluding tax. The free alternative (ComfyUI + Wan 2.2) is free and open-source but needs a capable GPU, a technical setup, and is not a Higgsfield clone.",
+  "steps": [
+   "Open higgsfield.ai and sign in. (A paid plan with credits is needed for real output.)",
+   "Open Marketing Studio. (Higgsfield's help page calls it its tool for performance marketing content.)",
+   "In the Marketing Studio sidebar, pick Product Link. Paste your product page URL, or upload product images instead. Higgsfield's pages say it pulls in the product name, description and photos, and you can build a product profile manually with up to 5 images.",
+   "Choose a format. Higgsfield's AI Ad Generator page lists UGC, Professional, or General. A different Higgsfield blog describes a template library organized by task.",
+   "Pick an avatar if the ad needs a person, then hit generate. Credits are shown before each paid task.",
+   "Review the result, then export and upload to TikTok, Reels or Shorts.",
+   "Alternative route: Ad Reference in the same sidebar. Upload a reference ad you're allowed to use, add your product, and it recreates the reference's structure with your product. A separate Higgsfield blog says this is for UGC templates only."
+  ],
+  "facts": [
+   "Pricing is inconsistent across sources. Higgsfield shows different pricing layouts and has changed plans repeatedly in 2026, so the writer must screen-record the live page and quote only what is visible that day.",
+   "Most recent reports (pricing page checked 4 Nov 2026): Basic $9/month for 120 credits; Pro $29/month or $23 billed yearly for 600 credits (a 900-credit option exists); Max $79/month or $59 billed yearly for 1,800 credits. Basic costs $9 either way. Team plans start at $65 per seat on annual billing.",
+   "Credits on Basic are described as about 60 Nano Banana Pro images or about 7 Seedance 2.0 Fast videos. Pro is about 300 Nano Banana Pro images or about 40 Seedance 2.5 videos. Max is about 900 images or about 120 Seedance 2.5 videos.",
+   "A third-party October 2026 test put Pro at $0.048 per credit monthly and $0.038 annually; one clip at 52 credits costs about $2.51 on Pro monthly. Treat this as a third-party estimate.",
+   "Higgsfield's own blog (dated 15 Sept 2026, per camclo3d) listed an older ladder: Starter $15 (200 credits), Plus $49 ($39 annual, 1,000 credits), Ultra $129 ($99 annual, 3,000 credits). Other third-party pages (Krea, HeyGen, Krater) list Starter $19 / Plus $59 ($47 annual) / Ultra $129 ($99 annual) with 270 / 1,200 / 3,000 credits. These layouts appear outdated or A/B-tested.",
+   "Credit expiry: monthly-plan credits expire after 30 days and do not roll over; weekly grants expire after 7 days. Pack credits last 90 days or 365 days depending on the source and layout (Krater says annual and one-time packs last 365 days; Versely says packs last 90 days).",
+   "Free tier: pricing pages checked 20 Oct 2026 showed no $0 card, and two third-party reviews describe free accounts as watermarked with no credits. Higgsfield's URL-to-video page still says 'with a free plan to start'.",
+   "Basic and higher plans list some free tool generations: Basic has 10 AI Influencer and 10 Ads Studio; Pro and Max have 30 AI Influencer, 10 Ads Studio and 3 Genjutsu at 720p. These are third-party readings of the pricing page.",
+   "'Unlimited' models and free generations are 7-day windows on specific models (e.g. Nano Banana Pro, Kling 3.0). They work only on higgsfield.ai, not through MCP, CLI, Canvas or Supercomputer.",
+   "Marketing Studio: the URL to Video page says it produces a finished ad video of 12 to 15 seconds, one link per video. It is for products, not blog posts or news pages. Another source says Higgsfield product ads are about 3 to 8 seconds in 9:16, so don't state a single length.",
+   "Higgsfield's help center says Marketing Studio is template-based, with 'no prompt required'. Its blog says the template library has 1,500+ options in six categories: Product Shots, Ads, Marketplace listings, Posters, UGC Videos and Motion.",
+   "Higgsfield's URL to Video page says it brings together Kling 3.0, Seedance 2.5, Veo 3.1 and Higgsfield Soul, with 100+ avatars.",
+   "Commercial use is allowed on paid plans (Higgsfield's pricing blog table; Cybernews and Zeely say the same).",
+   "Free alternative: Wan 2.2 is Alibaba's open-weight video model, released 28 July 2025 under Apache 2.0, which permits commercial use. ComfyUI supports it natively through templates.",
+   "Wan 2.2 hardware: the TI2V-5B model runs at 720p/24fps and ComfyUI's docs say it fits about 8 GB VRAM with native offloading. The 14B models need about 24 GB VRAM at fp8 per Runpod. Other sources give much higher numbers for 14B (reference implementation 80 GB or more).",
+   "A local ComfyUI setup produces clips with no watermark and no per-second fee (tech-insider, citing a roundup), but it needs a suitable GPU and technical setup.",
+   "Open-source Higgsfield-style projects exist. Freefield (MIT, went public 27 Oct 2026) rebuilds 120 Higgsfield apps as ComfyUI workflows on open-weight models; its video app needs about 21.5 GB VRAM. Others include Open Higgsfield AI (Muapi-based) and Comfy's #OpenSourceHiggsfield challenge entries. Several 'open-source' studios only provide a free interface and send generations to a paid API.",
+   "Hosted free-tool alternatives from comparison sites: Runway (Free; $15/mo Standard) and Kling AI (limited free; $10 list). These are not open-source."
+  ],
+  "do_not_claim": [
+   "Don't say Higgsfield is free. The pricing page reportedly shows no $0 plan, and the free tier is watermarked with no credits.",
+   "Don't quote a single fixed Higgsfield price as 'the' price without screen-recording the live pricing page. Layouts vary: $9/$29/$79, $19/$59/$129, $15/$49/$129.",
+   "Don't say the free alternative does '80% of it'. No source supports that figure. Say instead that ComfyUI + Wan 2.2 covers basic text and image to video with no per-clip fee, but lacks Higgsfield's one-click Marketing Studio, URL to ad, avatars and hosted premium models (Veo, Seedance, Kling).",
+   "Don't call ComfyUI a one-click clone. Sources say it is not a polished Higgsfield clone and has a hardware and setup burden.",
+   "Don't claim 'unlimited' video generation. The unlimited windows are 7-day windows on specific models and plans.",
+   "Don't claim credits roll over or never expire. Subscription credits expire.",
+   "Don't claim that Higgsfield makes finished, ready-to-run ad campaigns. Reviewers say you still need to handle publishing and testing, and product accuracy can need extra work.",
+   "Don't claim the viral reel's 'katana' tool is Higgsfield or anything specific. The caption gives no tool name, and the reel is tagged #HiggsfieldCreator, which suggests a sponsored or affiliate post. The transcript was not available, so none of its claims can be verified.",
+   "Don't claim 'Higgsfield has no lip sync, avatars or URL input'. That v4v.ai claim is contradicted by Higgsfield's own pages (Product Link, avatars, Speak).",
+   "Don't repeat the open-source README table that says Higgsfield has 'No' lip sync. Higgsfield has LipSync and Speak."
+  ],
+  "criticism": [
+   "Credit-metered and expensive per clip: roughly $2.51 per 52-credit Seedance 2.5 clip on Pro monthly (third-party estimate). A Starter or Basic allowance covers only a handful of premium clips. HeyGen says about 3 Seedance 2.5 takes on a 270-credit plan, and aiforesight360 says Basic equals about 7 Seedance 2.0 Fast videos.",
+   "Monthly subscription credits expire after 30 days, so unused balances are lost.",
+   "Basic is the worst value per credit: $0.075 per credit versus $0.038 on Pro annual, and Basic has no annual discount.",
+   "Pricing and plan names have changed repeatedly in 2026, and third-party pricing guides disagree. This makes it hard to budget.",
+   "Reviewers say Higgsfield is cinematic-first and not built for hyper-accurate product rendering or high-volume e-commerce ad pipelines. Cybernews says it suits fashion, beauty and lifestyle ads best.",
+   "Aiforesight360's 30-day review gave pricing transparency 3 out of 5 and an overall 4.2 out of 5.",
+   "The 'unlimited' offers are time-limited windows on specific models and apply only on the website.",
+   "Free alternative downsides: the 14B Wan model needs a 24 GB or larger GPU, and 8 GB runs only the smaller 5B model. Setup is technical, and some open-source 'alternatives' still call paid APIs."
+  ],
+  "ui": {
+   "platforms": "Web (higgsfield.ai) is the main product. A mobile app called Diffuse exists. Marketing Studio steps are described for web.",
+   "apps": [
+    "Higgsfield web (higgsfield.ai pricing page)",
+    "Higgsfield Marketing Studio (web)",
+    "ComfyUI (local app / browser UI) for the free alternative"
+   ],
+   "screens": [
+    "The Higgsfield pricing page lists plan cards with a Monthly/Annual toggle. Annual is shown by default on some layouts. Cards are Basic, Pro and Max, plus a business 'For Teams' option (Team from $65/seat, Scale). The cards show price, credits per month, and 'about X images / Y videos' call-outs. Pro and Max have a credit-size selector (e.g. 600/900 for Pro). Some layouts show a 'Lite Monthly' / 'Premium Annual' tab instead. Exact layout and default theme are not verified by sources. The writer should confirm light or dark mode by looking at the live page.",
+    "The Marketing Studio sidebar contains tools including Product Link and Ad Reference (per Higgsfield's help page). Other exact sidebar labels beyond these two were not verified.",
+    "Marketing Studio's product box reads 'ADD YOUR PRODUCT: Add a link or upload images to use your product across generations' (per crossroadmedia's guide). It has a URL field with the placeholder 'www.yourproduct.com' and a 'Create manually' option.",
+    "Style selection: 'Choose style > Video > UGC' (crossroadmedia). Higgsfield's AI Ad Generator page lists UGC, Professional, General, or a template library with six categories.",
+    "The final result is a short vertical ad video (reported 12–15 s on the URL to Video page, 3–8 s elsewhere) with an avatar or product-only shot and native audio, then export. This could not be fully verified, so the writer should use a real screen recording or the product's own page imagery.",
+    "ComfyUI: a node-graph canvas. Wan 2.2 is loaded from the built-in workflow templates (Workflow > Browse Templates > Video in current ComfyUI). The model files go in the ComfyUI models folders. Exact labels were not verified in these searches."
+   ]
+  },
+  "visuals": "Best to show Higgsfield's real pricing page with the three plan cards and the credit call-outs. Next, show the Marketing Studio / URL to Video public page with its 'Paste your URL' hero text. For the free alternative, show the ComfyUI Wan 2.2 template page or a GitHub README (Freefield or Open Higgsfield). The logged-in Marketing Studio sidebar and generated ads can only be shown by a real screen recording, and that needs a paid account.",
+  "real_pages": [
+   {
+    "url": "https://higgsfield.ai/pricing",
+    "show": "Pro",
+    "kind": "site"
+   },
+   {
+    "url": "https://higgsfield.ai/url-to-video",
+    "show": "URL to Video AI",
+    "kind": "site"
+   },
+   {
+    "url": "https://higgsfield.ai/ai-ad-generator",
+    "show": "Paste a URL.",
+    "kind": "site"
+   },
+   {
+    "url": "https://higgsfield.ai/blog/higgsfield-pricing-explained",
+    "show": "Credits per month",
+    "kind": "site"
+   },
+   {
+    "url": "https://higgsfield.ai/creator-hub/help-center/tools/how-do-i-use-marketing-studio-to-create-video-ads",
+    "show": "Product Link",
+    "kind": "help"
+   },
+   {
+    "url": "https://github.com/thehananasif/Free-Higgsfield-AI",
+    "show": "Open Higgsfield AI",
+    "kind": "site"
+   }
+  ],
+  "sources": [
+   "https://higgsfield.ai/blog/higgsfield-pricing-explained",
+   "https://higgsfield.ai/creator-hub/help-center/tools/how-do-i-use-marketing-studio-to-create-video-ads",
+   "https://higgsfield.ai/url-to-video",
+   "https://higgsfield.ai/ai-ad-generator",
+   "https://higgsfield.ai/blog/new-marketing-studio-higgsfield",
+   "https://www.versely.studio/blog/higgsfield-pricing-2026",
+   "https://www.aieatingtheworld.com/articles/higgsfield-ai-pricing",
+   "https://aiforesight360.com/higgsfield-ai-pricing/",
+   "https://kenerateai.com/blogs/is-higgsfield-ai-free",
+   "https://fluxnote.io/guides/higgsfield-ai-questions-answered",
+   "https://camclo3d.com/blog/higgsfield-pricing",
+   "https://krater.ai/blog/higgsfield-pricing",
+   "https://www.krea.ai/blog/higgsfield-pricing-explained-2026-unlimited-credits-and-real-monthly-costs",
+   "https://www.heygen.com/blog/higgsfield-pricing",
+   "https://www.runpod.io/articles/guides/comfyui-wan-2-2",
+   "https://www.bestfreewebresources.com/comfyui-video-generation-local-guide-2026",
+   "https://freakyjolly.com/freefield-open-source-higgsfield-alternative-comfyui/",
+   "https://astorie.ai/blog/higgsfield-alternatives",
+   "https://jutsustudio.com/blog/higgsfield-open-source-alternatives/",
+   "https://cybernews.com/ai-tools/higgsfield-ai-review/",
+   "https://v4v.ai/blog/higgsfield-ai-review-2026/",
+   "https://crossroadmedia.ca/ugc/"
+  ],
+  "notes": "Frame this as the honest review of the pricing page, not a 'free vs paid' fight. (1) Pricing is the weakest-verified part: the writer must open higgsfield.ai/pricing live on the day of recording and quote the visible numbers. As of 4 Nov 2026 the most consistent reading is Basic $9 / Pro $29 ($23 annual) / Max $79 ($59 annual), with 120 / 600 / 1,800 credits. Older layouts ($15/$49/$129 and $19/$59/$129) still circulate. (2) The 'free alternative that does 80% of it' angle has no source. Rephrase as 'free open-source route: ComfyUI + Wan 2.2 (Apache 2.0, commercial use OK), but you need a GPU (about 8 GB for the 5B model, about 24 GB for 14B) and setup time.' Also mention Freefield (MIT, 120 apps) as a Higgsfield-style layer. Many 'open-source Higgsfield' repos only provide a front end that calls paid APIs, so check each before recommending. (3) The viral reel's transcript is unavailable, and its #HiggsfieldCreator tag suggests a promotional post, so disclose that any numbers from it are unverified. (4) The strongest verified positives are product-link-to-ad, the 1,500+ template library, and the multi-model access under one login. The negatives are credit burn per clip, 30-day expiry, and the cinematic rather than product-accurate focus. (5) The only fallback for hosted free-ish alternatives is Runway (Free; $15/mo Standard) and Kling (limited free), per a comparison site (astorie.ai) that appears to be a competitor, so treat it as soft.",
+  "_searched": 6
+ },
+ "models": {
+  "pick": "claude-sonnet-5-5",
+  "research": "claude-sonnet-5-5",
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 16,
+ "_ident": {
+  "at": 4.14,
+  "dur": 1.5,
+  "title": "AI HACKS",
+  "type": 0.42,
+  "sub": "EP 16 · HIGGSFIELD"
+ },
+ "timeline": {
+  "words": [
+   [
+    "Don't",
+    0.16
+   ],
+   [
+    "pay",
+    0.48
+   ],
+   [
+    "for",
+    0.64
+   ],
+   [
+    "Higgsfield",
+    0.8
+   ],
+   [
+    "until",
+    1.44
+   ],
+   [
+    "you",
+    1.76
+   ],
+   [
+    "see",
+    2.0
+   ],
+   [
+    "what",
+    2.24
+   ],
+   [
+    "the",
+    2.36
+   ],
+   [
+    "credits",
+    2.48
+   ],
+   [
+    "actually",
+    2.96
+   ],
+   [
+    "buy.",
+    3.44
+   ],
+   [
+    "Stay",
+    5.7
+   ],
+   [
+    "till",
+    5.86
+   ],
+   [
+    "the",
+    6.06
+   ],
+   [
+    "end,",
+    6.22
+   ],
+   [
+    "because",
+    6.74
+   ],
+   [
+    "the",
+    6.94
+   ],
+   [
+    "free",
+    7.14
+   ],
+   [
+    "route",
+    7.34
+   ],
+   [
+    "has",
+    7.74
+   ],
+   [
+    "a",
+    7.9
+   ],
+   [
+    "catch.",
+    8.18
+   ],
+   [
+    "In",
+    8.82
+   ],
+   [
+    "Marketing",
+    8.94
+   ],
+   [
+    "Studio,",
+    9.34
+   ],
+   [
+    "pick",
+    9.98
+   ],
+   [
+    "Product",
+    10.3
+   ],
+   [
+    "Link,",
+    10.7
+   ],
+   [
+    "paste",
+    11.3
+   ],
+   [
+    "your",
+    11.5
+   ],
+   [
+    "product",
+    11.66
+   ],
+   [
+    "page,",
+    11.98
+   ],
+   [
+    "and",
+    12.5
+   ],
+   [
+    "it",
+    12.62
+   ],
+   [
+    "builds",
+    12.78
+   ],
+   [
+    "a",
+    13.02
+   ],
+   [
+    "short",
+    13.3
+   ],
+   [
+    "vertical",
+    13.5
+   ],
+   [
+    "ad.",
+    13.98
+   ],
+   [
+    "There",
+    14.62
+   ],
+   [
+    "are",
+    14.78
+   ],
+   [
+    "1,500+",
+    14.94
+   ],
+   [
+    "templates,",
+    15.66
+   ],
+   [
+    "plus",
+    17.38
+   ],
+   [
+    "Kling,",
+    17.58
+   ],
+   [
+    "Seedance",
+    18.3
+   ],
+   [
+    "and",
+    18.78
+   ],
+   [
+    "Veo",
+    19.1
+   ],
+   [
+    "under",
+    19.5
+   ],
+   [
+    "one",
+    19.9
+   ],
+   [
+    "login.",
+    20.14
+   ],
+   [
+    "Look",
+    20.94
+   ],
+   [
+    "at",
+    21.1
+   ],
+   [
+    "their",
+    21.26
+   ],
+   [
+    "pricing",
+    21.54
+   ],
+   [
+    "page.",
+    21.82
+   ],
+   [
+    "When",
+    22.54
+   ],
+   [
+    "I",
+    22.7
+   ],
+   [
+    "checked,",
+    22.86
+   ],
+   [
+    "Basic",
+    23.42
+   ],
+   [
+    "was",
+    23.82
+   ],
+   [
+    "$9",
+    24.18
+   ],
+   [
+    "for",
+    24.38
+   ],
+   [
+    "120",
+    25.1
+   ],
+   [
+    "credits,",
+    25.26
+   ],
+   [
+    "and",
+    26.7
+   ],
+   [
+    "Pro",
+    26.86
+   ],
+   [
+    "was",
+    27.34
+   ],
+   [
+    "$29",
+    27.74
+   ],
+   [
+    "for",
+    28.22
+   ],
+   [
+    "600.",
+    28.86
+   ],
+   [
+    "Basic",
+    29.94
+   ],
+   [
+    "is",
+    30.22
+   ],
+   [
+    "about",
+    30.38
+   ],
+   [
+    "7",
+    30.78
+   ],
+   [
+    "Seedance",
+    31.1
+   ],
+   [
+    "videos,",
+    31.58
+   ],
+   [
+    "and",
+    32.22
+   ],
+   [
+    "credits",
+    32.38
+   ],
+   [
+    "expire",
+    32.78
+   ],
+   [
+    "in",
+    33.26
+   ],
+   [
+    "30",
+    33.54
+   ],
+   [
+    "days.",
+    33.82
+   ],
+   [
+    "Plans",
+    34.66
+   ],
+   [
+    "keep",
+    34.94
+   ],
+   [
+    "changing.",
+    35.18
+   ],
+   [
+    "My",
+    36.06
+   ],
+   [
+    "verdict:",
+    36.22
+   ],
+   [
+    "worth",
+    37.06
+   ],
+   [
+    "it",
+    37.26
+   ],
+   [
+    "for",
+    37.42
+   ],
+   [
+    "beauty",
+    37.58
+   ],
+   [
+    "or",
+    38.06
+   ],
+   [
+    "fashion",
+    38.22
+   ],
+   [
+    "ads.",
+    38.62
+   ],
+   [
+    "Skip",
+    39.34
+   ],
+   [
+    "it",
+    39.58
+   ],
+   [
+    "if",
+    39.82
+   ],
+   [
+    "you",
+    39.94
+   ],
+   [
+    "make",
+    40.06
+   ],
+   [
+    "a",
+    40.22
+   ],
+   [
+    "few",
+    40.38
+   ],
+   [
+    "clips",
+    40.58
+   ],
+   [
+    "a",
+    40.82
+   ],
+   [
+    "month.",
+    40.94
+   ],
+   [
+    "The",
+    41.637
+   ],
+   [
+    "free",
+    41.74
+   ],
+   [
+    "route",
+    41.98
+   ],
+   [
+    "is",
+    42.38
+   ],
+   [
+    "ComfyUI",
+    42.62
+   ],
+   [
+    "with",
+    43.5
+   ],
+   [
+    "Wan",
+    43.74
+   ],
+   [
+    "2.2.",
+    44.1
+   ],
+   [
+    "No",
+    45.26
+   ],
+   [
+    "watermark,",
+    45.42
+   ],
+   [
+    "no",
+    46.3
+   ],
+   [
+    "per-clip",
+    46.46
+   ],
+   [
+    "fee.",
+    46.94
+   ],
+   [
+    "The",
+    47.46
+   ],
+   [
+    "catch:",
+    47.58
+   ],
+   [
+    "you",
+    48.26
+   ],
+   [
+    "need",
+    48.38
+   ],
+   [
+    "a",
+    48.62
+   ],
+   [
+    "GPU",
+    48.78
+   ],
+   [
+    "and",
+    49.34
+   ],
+   [
+    "setup",
+    49.58
+   ],
+   [
+    "time,",
+    49.9
+   ],
+   [
+    "and",
+    50.5
+   ],
+   [
+    "some",
+    50.7
+   ],
+   [
+    "open-source",
+    50.94
+   ],
+   [
+    "Higgsfield",
+    51.5
+   ],
+   [
+    "tools",
+    51.98
+   ],
+   [
+    "just",
+    52.46
+   ],
+   [
+    "call",
+    52.78
+   ],
+   [
+    "a",
+    52.98
+   ],
+   [
+    "paid",
+    53.14
+   ],
+   [
+    "API.",
+    53.34
+   ],
+   [
+    "Would",
+    54.197
+   ],
+   [
+    "you",
+    54.3
+   ],
+   [
+    "pay",
+    54.46
+   ],
+   [
+    "$9",
+    54.7
+   ],
+   [
+    "to",
+    54.94
+   ],
+   [
+    "test",
+    55.54
+   ],
+   [
+    "it,",
+    55.74
+   ],
+   [
+    "or",
+    56.18
+   ],
+   [
+    "set",
+    56.38
+   ],
+   [
+    "up",
+    56.62
+   ],
+   [
+    "ComfyUI?",
+    56.78
+   ],
+   [
+    "Send",
+    57.78
+   ],
+   [
+    "this",
+    57.98
+   ],
+   [
+    "to",
+    58.1
+   ],
+   [
+    "the",
+    58.22
+   ],
+   [
+    "friend",
+    58.38
+   ],
+   [
+    "who",
+    58.7
+   ],
+   [
+    "pays",
+    58.82
+   ],
+   [
+    "for",
+    59.1
+   ],
+   [
+    "AI",
+    59.26
+   ],
+   [
+    "tools",
+    59.58
+   ],
+   [
+    "he",
+    59.94
+   ],
+   [
+    "barely",
+    60.14
+   ],
+   [
+    "uses.",
+    60.54
+   ],
+   [
+    "Hack",
+    61.38
+   ],
+   [
+    "saved?",
+    61.58
+   ]
+  ],
+  "duration": 62.24,
+  "ident": {
+   "at": 4.14,
+   "dur": 1.5,
+   "title": "AI HACKS",
+   "type": 0.42,
+   "sub": "EP 16 · HIGGSFIELD"
+  },
+  "scenes": [
+   {
+    "t": 0.0,
+    "shows": [
+     "footage:lib_hands_holding_credit_card_near",
+     "title_slam:DON'T PAY"
+    ]
+   },
+   {
+    "t": 5.7,
+    "shows": [
+     "pill:STAY TILL THE END",
+     "object3d:"
+    ]
+   },
+   {
+    "t": 8.82,
+    "shows": [
+     "footage:real_3_phone",
+     "pill:PRODUCT LINK → AD"
+    ]
+   },
+   {
+    "t": 12.5,
+    "shows": [
+     "footage:real_2_phone",
+     "pill:SHORT VERTICAL AD"
+    ]
+   },
+   {
+    "t": 14.62,
+    "shows": [
+     "footage:s1_image",
+     "stat_row:",
+     "pill:KLING · SEEDANCE · VEO"
+    ]
+   },
+   {
+    "t": 20.94,
+    "shows": [
+     "footage:real_4_phone",
+     "pill:CHECK PRICING FIRST"
+    ]
+   },
+   {
+    "t": 22.54,
+    "shows": [
+     "label:WHEN I CHECKED",
+     "stat_row:",
+     "object3d:"
+    ]
+   },
+   {
+    "t": 29.94,
+    "shows": [
+     "label:WHAT $9 BUYS",
+     "pile:",
+     "pill:EXPIRE IN 30 DAYS"
+    ]
+   },
+   {
+    "t": 34.66,
+    "shows": [
+     "footage:real_4_web"
+    ]
+   },
+   {
+    "t": 36.06,
+    "shows": [
+     "label:MY VERDICT",
+     "strike_list:",
+     "pill:LOW VOLUME = SKIP"
+    ]
+   },
+   {
+    "t": 41.74,
+    "shows": [
+     "object3d:",
+     "stat_row:"
+    ]
+   },
+   {
+    "t": 47.46,
+    "shows": [
+     "screen:The catch · Setup"
+    ]
+   },
+   {
+    "t": 50.5,
+    "shows": [
+     "label:\"FREE\" HIGGSFIELD CLONES",
+     "vs:"
+    ]
+   },
+   {
+    "t": 54.2,
+    "shows": [
+     "footage:lib_man_comparing_phone_and_laptop",
+     "headline:$9 OR COMFYUI?"
+    ]
+   }
+  ],
+  "beats": []
+ }
+}
