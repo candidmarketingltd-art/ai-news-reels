@@ -1,0 +1,37 @@
+{
+ "shots": [
+  {
+   "clip": "lib_person_speaking_into_phone",
+   "text": "\"it's just a quick sync\" 47 minutes later:",
+   "seconds": 2.5
+  },
+  {
+   "clip": "lib_eye_reflecting_laptop_screen_glow",
+   "text": "me, mentally gone since minute 3: this could've been a prompt",
+   "seconds": 4.0
+  }
+ ],
+ "style": "meme",
+ "song": {
+  "title": "Christmas (Baby Please Come Home)",
+  "artist": "Darlene Love",
+  "mood": "funny",
+  "trend": "The 'Sorry, I Wasn't Listening' format. On-screen text admits your mind is already on the holidays while you show the daydream. It suits meeting or standup jokes.",
+  "source": "https://newengen.com/insights/instagram-trends/",
+  "list_date": "Nov 5, 2026 (last updated)",
+  "snippet": "use the most-used snippet from the 'Sorry, I Wasn't Listening' trend, and cut to shot 2 on the first vocal line",
+  "why": "The trend format is on-screen text admitting your mind is somewhere else during a meeting, which is exactly this joke."
+ },
+ "backup_song": {
+  "title": "Dame Hombro",
+  "artist": "Bulin 47, Kevin Wai, Breyco En Producidera"
+ },
+ "caption": "the \"quick sync\" has now outlived my coffee, my battery and my will to live. be honest, how many minutes before you zone out? tag the coworker who schedules these\n\n#claudeai #aimemes #founderlife #workmemes #startuplife #remotework",
+ "cover_word": "quick sync",
+ "text": "\"it's just a quick sync\" 47 minutes later: / me, mentally gone since minute 3: this could've been a prompt",
+ "clip": "lib_person_speaking_into_phone,lib_eye_reflecting_laptop_screen_glow",
+ "clip_paths": {
+  "lib_eye_reflecting_laptop_screen_glow": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+  "lib_person_speaking_into_phone": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4"
+ }
+}
