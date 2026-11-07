@@ -1,0 +1,1902 @@
+{
+ "voiceover": "[conversational] This social media tool has made over $1M, and it started in Google Sheets.\n\n[curious] And the move that got it going happened before the founder built the software. Stay for that.\n\nIt's called Marky. You paste in your website, and it makes a month of on-brand posts, designs the images, and posts to 7 platforms. Small businesses and agencies are who pay for it.\n\n[confident] These numbers are verified on TrustMRR through Stripe. $22K a month in recurring revenue, $16K in the last 30 days, 478 active subscriptions, and 33% month-over-month growth.\n\nSo what can you steal? One: let people see the result before they pay. The first 30 posts are free, no card. Two: sell the part competitors skip. Marky designs the image, not just the caption.\n\n[serious] The honest catch? That's revenue, not profit. It's a crowded market. And it's currently listed for sale at $495K.\n\n[whispers] Now the move. He started with Google Sheets, Zapier and about 10 customers, and built the software after that. Find your first paying customer before you write code.\n\n[playful] Would you build this or buy it? Send this to the friend who keeps saying they'll start a business once the app is ready. Hack saved?",
+ "open_loop": {
+  "setup": "And the move that got it going happened before the founder built the software.",
+  "payoff": "He started with Google Sheets, Zapier and about 10 customers, and built the software after that."
+ },
+ "title": "$1M FROM GOOGLE SHEETS",
+ "ig_caption": "This social media tool has made over $1M, and it started in Google Sheets.\n✅ Find paying customers before you build\n✅ Let people see the result free (30 posts, no card)\n✅ Sell the part competitors skip\nWould you build this or buy it? 👇\nSave this for later\nFollow @ihackgrowth for daily business & growth hacks",
+ "media_hints": {
+  "domain": "mymarky.ai",
+  "broll": [
+   "social media scrolling",
+   "typing on laptop",
+   "spreadsheet on screen"
+  ]
+ },
+ "hashtags": [
+  "#Marky",
+  "#SaaS",
+  "#StartupStories",
+  "#BusinessBreakdown",
+  "#IndieHackers",
+  "#SocialMediaMarketing",
+  "#TrustMRR",
+  "#growthhacks",
+  "#entrepreneur"
+ ],
+ "tag": "BUSINESS BREAKDOWN",
+ "keywords": [
+  "Marky",
+  "Sheets",
+  "Zapier",
+  "website",
+  "platforms",
+  "TrustMRR",
+  "Stripe",
+  "verified",
+  "steal",
+  "result",
+  "free",
+  "image",
+  "caption",
+  "catch",
+  "profit",
+  "crowded",
+  "customer",
+  "code"
+ ],
+ "music": "groove",
+ "hud": {
+  "label": "BREAKDOWN",
+  "items": [
+   {
+    "value": "$1M+",
+    "color": "gold"
+   },
+   {
+    "at": "$22K a month",
+    "value": "$22K/MO",
+    "color": "gold"
+   },
+   {
+    "at": "33% month-over-month",
+    "value": "+33%",
+    "color": "green"
+   },
+   {
+    "at": "The honest catch?",
+    "value": "NOT PROFIT",
+    "color": "red"
+   },
+   {
+    "at": "Now the move.",
+    "value": "UNLOCKED",
+    "color": "green"
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "at": "This social",
+   "tint": "warm",
+   "react": [
+    {
+     "at": "over $1M,",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "footage",
+     "at": "This social",
+     "media": "lib_hand_scrolling_smartphone",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "This social",
+     "text": "SOCIAL MEDIA TOOL",
+     "color": "gold",
+     "outline": true
+    },
+    {
+     "type": "title_slam",
+     "at": "over $1M,",
+     "text": "$1M+",
+     "color": "gold"
+    },
+    {
+     "type": "pill",
+     "at": "it started",
+     "text": "STARTED IN GOOGLE SHEETS",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "And the move",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "And the move",
+     "kind": "padlock",
+     "size": "l",
+     "caption": "THE MOVE"
+    },
+    {
+     "type": "label",
+     "at": "before the founder",
+     "text": "BEFORE THE SOFTWARE"
+    },
+    {
+     "type": "pill",
+     "at": "Stay for that.",
+     "text": "STAY FOR THE MOVE",
+     "color": "gold",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "It's called Marky.",
+   "elements": [
+    {
+     "type": "label",
+     "at": "It's called Marky.",
+     "text": "THE TOOL · MYMARKY.AI"
+    },
+    {
+     "type": "footage",
+     "at": "It's called Marky.",
+     "media": "real_2_web",
+     "tall": true
+    }
+   ]
+  },
+  {
+   "at": "You paste in",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "You paste in",
+     "media": "real_2_phone",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "You paste in",
+     "text": "PASTE YOUR WEBSITE",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "and it makes",
+   "elements": [
+    {
+     "type": "label",
+     "at": "and it makes",
+     "text": "WHAT IT DOES"
+    },
+    {
+     "type": "stat_row",
+     "at": "a month of",
+     "cards": [
+      {
+       "label": "POSTS",
+       "value": "A MONTH",
+       "at": "a month of",
+       "color": "gold",
+       "ill": "calendar"
+      },
+      {
+       "label": "IMAGES",
+       "value": "DESIGNS",
+       "at": "designs the images,",
+       "color": "blue",
+       "ill": "artist_palette"
+      },
+      {
+       "label": "PLATFORMS",
+       "value": "7",
+       "at": "7 platforms.",
+       "color": "green",
+       "glow": true
+      }
+     ]
+    },
+    {
+     "type": "headline",
+     "at": "Small businesses",
+     "text": "SMBs + AGENCIES PAY",
+     "size": "m",
+     "ill": "briefcase"
+    }
+   ]
+  },
+  {
+   "at": "These numbers",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "These numbers",
+     "kind": "shield",
+     "act": "glow",
+     "act_at": "through Stripe.",
+     "size": "l",
+     "caption": "VERIFIED · TRUSTMRR",
+     "caption_at": "through Stripe."
+    }
+   ]
+  },
+  {
+   "at": "$22K a month",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "big_number",
+     "at": "$22K a month",
+     "value": "$22K",
+     "color": "gold",
+     "note": "MONTHLY RECURRING",
+     "note_at": "recurring revenue,"
+    },
+    {
+     "type": "object3d",
+     "at": "$22K a month",
+     "kind": "coins",
+     "act": "fill",
+     "act_at": "recurring revenue,",
+     "count": 22,
+     "size": "m"
+    }
+   ]
+  },
+  {
+   "at": "$16K in the",
+   "tint": "green",
+   "react": [
+    {
+     "at": "33% month-over-month",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "stat_row",
+     "at": "$16K in the",
+     "cards": [
+      {
+       "label": "LAST 30 DAYS",
+       "value": "$16K",
+       "at": "$16K in the",
+       "color": "gold"
+      },
+      {
+       "label": "ACTIVE SUBS",
+       "value": "478",
+       "at": "478 active",
+       "color": "blue"
+      },
+      {
+       "label": "MONTHLY GROWTH",
+       "value": "+33%",
+       "at": "33% month-over-month",
+       "color": "green",
+       "glow": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "So what can",
+   "elements": [
+    {
+     "type": "headline",
+     "at": "So what can",
+     "text": "WHAT CAN YOU STEAL?",
+     "size": "l",
+     "ill": "money_bag"
+    }
+   ]
+  },
+  {
+   "at": "One: let",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "One: let",
+     "media": "real_3_web",
+     "tall": true
+    },
+    {
+     "type": "pill",
+     "at": "before they pay.",
+     "text": "TRY BEFORE YOU PAY",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "The first 30",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "pile",
+     "at": "The first 30",
+     "ill": "framed_picture",
+     "count": 30,
+     "value": "30 FREE",
+     "value_at": "are free,",
+     "color": "green",
+     "label": "FIRST POSTS"
+    },
+    {
+     "type": "pill",
+     "at": "no card.",
+     "text": "NO CARD NEEDED",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "Two: sell",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Two: sell",
+     "text": "SELL WHAT THEY SKIP"
+    },
+    {
+     "type": "before_after",
+     "at": "Two: sell",
+     "left": {
+      "label": "COMPETITORS",
+      "text": "Caption only"
+     },
+     "right": {
+      "label": "MARKY",
+      "text": "Caption + a designed image",
+      "at": "designs the image,"
+     }
+    }
+   ]
+  },
+  {
+   "at": "The honest catch?",
+   "tint": "red",
+   "react": [
+    {
+     "at": "The honest catch?",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "vs",
+     "at": "The honest catch?",
+     "left": {
+      "label": "REVENUE",
+      "value": "$22K"
+     },
+     "right": {
+      "label": "PROFIT",
+      "value": "?",
+      "color": "red",
+      "ill": "red_question_mark",
+      "at": "not profit."
+     }
+    },
+    {
+     "type": "pill",
+     "at": "crowded market.",
+     "text": "CROWDED MARKET",
+     "color": "red",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "And it's currently",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "And it's currently",
+     "media": "real_1_web",
+     "tall": true
+    },
+    {
+     "type": "pill",
+     "at": "$495K.",
+     "text": "ASKING $495K",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "Now the move.",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "Now the move.",
+     "kind": "padlock",
+     "act": "open",
+     "act_at": "Now the move.",
+     "size": "l",
+     "caption": "THE MOVE"
+    }
+   ]
+  },
+  {
+   "at": "He started with",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "He started with",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "He started with",
+     "text": "THE NO-CODE START"
+    },
+    {
+     "type": "steps",
+     "at": "Sheets, Zapier",
+     "items": [
+      {
+       "text": "GOOGLE SHEETS",
+       "at": "Sheets, Zapier",
+       "ill": "ledger"
+      },
+      {
+       "text": "ZAPIER",
+       "at": "Zapier and",
+       "ill": "high_voltage"
+      },
+      {
+       "text": "~10 CUSTOMERS",
+       "at": "10 customers,",
+       "ill": "bust_in_silhouette"
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "at": "software after that.",
+     "text": "THEN THE SOFTWARE",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "Find your first",
+   "tint": "green",
+   "react": [
+    {
+     "at": "Find your first",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Find your first",
+     "media": "lib_man_pointing_at_camera",
+     "full": true
+    },
+    {
+     "type": "headline",
+     "at": "Find your first",
+     "text": "FIRST PAYING CUSTOMER",
+     "size": "l",
+     "color": "green",
+     "sub": "THEN WRITE CODE",
+     "sub_at": "write code."
+    }
+   ]
+  },
+  {
+   "at": "Would you build",
+   "react": [
+    {
+     "at": "Would you build",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "headline",
+     "at": "Would you build",
+     "text": "BUILD OR BUY?",
+     "size": "l",
+     "ill": "thinking_face",
+     "sub": "COMMENT BELOW",
+     "sub_at": "or buy it?"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "Send this to",
+  "line1": "Send this to",
+  "line1_at": "Send this",
+  "line2": "the someday founder",
+  "line2_at": "start a business"
+ },
+ "endcard": {
+  "title": "Hack saved?",
+  "terminal": "> customer.first · code.later"
+ },
+ "media": [
+  {
+   "id": "real_1_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-07_2002/real_1_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-07_2002/real_1_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: trustmrr.com",
+   "desc": "REAL desktop screen recording, pushes in on the gold-outlined part — Desktop capture of the trustmrr.com listing for Marky, described as 'A tool for self-publishing authors to manage their social media.' Banner reads 'This startup is for sale. Asking price: $495,000', with 2.5x revenue, 6,549 people saw this, 35 buyers interested, and a 'Contact Seller' button. Stats [Screen: trustmrr.com]"
+  },
+  {
+   "id": "real_2_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-07_2002/real_2_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-07_2002/real_2_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: mymarky.ai",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the page (no highlight) — Phone capture of the mymarky.ai homepage. Headline: 'Fast, quality content for your socials'. Subhead: 'Create consistent posts and publish across all your platforms. Posts that sound like you, in your brand's look.' A 'yourbusiness.com' input with a 'Get my posts' button. Small text: 'Free for 14 d [Screen: mymarky.ai]"
+  },
+  {
+   "id": "real_2_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-07_2002/real_2_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-07_2002/real_2_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: mymarky.ai",
+   "desc": "REAL desktop screen recording, pushes in on the page (no highlight) — Desktop capture of the mymarky.ai homepage. Nav: Home, Features, Industries, Pricing, Blog, About Us, Log in, 'Try for free'. Headline: 'Fast, quality content for your socials'. Subhead: 'Create consistent posts and publish across all your platforms. Posts that sound like you, in your brand's look.' [Screen: mymarky.ai]"
+  },
+  {
+   "id": "real_3_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-07_2002/real_3_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-07_2002/real_3_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: mymarky.ai",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the page (no highlight) — Phone capture of the mymarky.ai pricing page. Headline: 'Try any plan free for 14 days'. Subhead: 'Start with 5 posts made from your website. Cancel before the trial ends and you pay nothing.' Monthly/Yearly toggle with Monthly selected. First plan card visible: Solo, 'For individuals just starting  [Screen: mymarky.ai]"
+  },
+  {
+   "id": "real_3_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-07_2002/real_3_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-07_2002/real_3_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: mymarky.ai",
+   "desc": "REAL desktop screen recording, pushes in on the page (no highlight) — Desktop capture of the mymarky.ai pricing page. Headline: 'Try any plan free for 14 days'. Subhead: 'Start with 5 posts made from your website. Cancel before the trial ends and you pay nothing.' Monthly/Yearly toggle. Three plans: Solo $39 per month (1 Workspace, 3 Channels, 1 User, 3 custom videos  [Screen: mymarky.ai]"
+  },
+  {
+   "id": "lib_camera_moving_down_server_corridor",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "credit": "",
+   "file": "camera_moving_down_server_corridor.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow forward push down a hazy, fog-filled data center aisle lined with server racks that glow with blue and amber status lights, giving a moody, futuristic feel. Good for: A script line about the infrastructure behind AI, such as cloud computing, model training, heavy compute, data storage, or 'what happens behind the scenes'."
+  },
+  {
+   "id": "lib_clock_ticking_and_person_typing",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "credit": "",
+   "file": "clock_ticking_and_person_typing.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A rack-focus shot moves from a close-up of a black twin-bell alarm clock with ticking hands to a bearded man in a light polo typing on a laptop in a dim room, giving a tense, time-pressured mood. Good for: lines about deadlines, time slipping away, long hours of manual work, or the pressure of slow, tedious tasks before an AI tool speeds things up"
+  },
+  {
+   "id": "lib_colleagues_collaborating_around",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "credit": "",
+   "file": "colleagues_collaborating_around.mp4",
+   "frames": 126,
+   "desc": "B-roll (4.2s, VERTICAL 9:16 — best as full: true): colleagues collaborating around Good for: "
+  },
+  {
+   "id": "lib_content_creator_sets_up_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "credit": "",
+   "file": "content_creator_sets_up_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt stands behind a ring light with a phone on a tripod, adjusting the setup while the camera slowly pushes in until his face fills the frame, with a calm, focused mood and moody blue ambient lighting in the background. Good for: setting up to create content, getting started as a creator, or preparing equipment before recording a tutorial"
+  },
+  {
+   "id": "lib_eye_reflecting_laptop_screen_glow",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "credit": "",
+   "file": "eye_reflecting_laptop_screen_glow.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow zoom into an extreme close-up of a brown eye with a bright blue screen reflected in the pupil, framed by a thick eyebrow and warm skin tones, fading into a cool blue gradient at the bottom, with a focused, intense and cinematic mood. Good for: lines about being glued to a screen, intense focus or attention, watching AI work, or 'seeing' a new opportunity or insight"
+  },
+  {
+   "id": "lib_fingers_typing_on_laptop_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "credit": "",
+   "file": "fingers_typing_on_laptop_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): Close-up over-the-shoulder shot of a person typing on a backlit laptop keyboard, with a blurred blue screen in the background and a warm, focused, productive mood. Good for: lines about getting started, writing prompts or code, doing focused work at the computer, or the hands-on steps of a tutorial"
+  },
+  {
+   "id": "lib_hand_dropping_papers_on_desk",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "credit": "",
+   "file": "hand_dropping_papers_on_desk.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a green shirt carries and then drops a thick stack of papers onto an already huge, messy pile of documents with sticky notes on a cluttered desk, while a laptop glows nearby, and the camera pushes in to a close-up of the towering stack, creating a mood of overwhelm and tedious paperwork. Good for: a script line about drowning in manual paperwork or document processing, setting up how AI can automate summarizing, sorting, or extracting information from piles of documents"
+  },
+  {
+   "id": "lib_hand_scrolling_smartphone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_scrolling_smartphone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_scrolling_smartphone.mp4",
+   "credit": "",
+   "file": "hand_scrolling_smartphone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a bearded young man in a white t-shirt looking intently at a smartphone in dim, warm lighting, with the camera slowly pushing in until his focused, slightly tense gaze moves from the screen to the lens. Good for: a script line about being glued to your phone, doubt or tension before a reveal, or the moment of realizing something while checking an app or notification"
+  },
+  {
+   "id": "lib_man_looking_at_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "credit": "",
+   "file": "man_looking_at_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt scowls with intense focus at a laptop in a dim, warmly lit room, then closes his eyes and rubs his hand near his chin in tired frustration. Good for: frustration with slow or difficult work, such as struggling with a tedious task, debugging, or burning out late at night before finding a better way"
+  },
+  {
+   "id": "lib_man_opens_laptop_in_room",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "credit": "",
+   "file": "man_opens_laptop_in_room.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt sits at a laptop in a dimly lit, warmly lit room, and his focused, tense expression builds as he leans toward the screen, which shows blurry blue diagram or flowchart-style blocks, with his fists clenched near his chin in the middle frame. Good for: intense concentration or deep work, such as debugging, building an AI workflow, or struggling with a complex problem"
+  },
+  {
+   "id": "lib_man_pointing_at_camera",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_pointing_at_camera.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_pointing_at_camera.mp4",
+   "credit": "",
+   "file": "man_pointing_at_camera.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a dark henley sits in a car seat working on a laptop with a focused look, then looks up with a warm smile and points playfully at the camera in a confident, friendly mood. Good for: a line that moves from focused work or problem-solving to a direct call to action, such as 'here's the trick you need to try' or 'now it's your turn'"
+  },
+  {
+   "id": "lib_man_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "man_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt stares intently at a laptop screen with blurry blue UI elements floating in front of the camera, then grimaces in frustration and mouths a reaction, and finally tilts his head back in exhausted resignation in a dim, warmly lit room. Good for: frustration with slow, tedious, or failing work, such as waiting on a slow tool, hitting an error, or being exhausted by manual tasks before introducing an AI solution"
+  },
+  {
+   "id": "lib_man_smiling_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "credit": "",
+   "file": "man_smiling_at_phone.mp4",
+   "frames": 135,
+   "desc": "B-roll (4.5s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a blue smartphone, his expression shifting from neutral to a furrowed-brow frown of confusion and frustration. Good for: a line about frustration with confusing apps or slow tools, or the moment someone hits a problem and doesn't know what to do next"
+  },
+  {
+   "id": "lib_man_studying_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "credit": "",
+   "file": "man_studying_with_laptop.mp4",
+   "frames": 132,
+   "desc": "B-roll (4.4s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits at a desk behind a laptop with a furrowed brow and a frustrated, concentrated look, first staring at the screen, then looking down at an open notebook and writing with a pen, with a warm blurred lamp glowing in the background. Good for: a script line about struggling to understand something complex, frustration with slow or manual work, or the pain of learning a new tool the hard way"
+  },
+  {
+   "id": "lib_man_watching_laptop_waiting",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "credit": "",
+   "file": "man_watching_laptop_waiting.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits at a laptop in a dimly lit room with warm lamp light, resting his chin on his fist with a focused, pensive look, and the camera pushes in closer across the three frames. Good for: a script line about deep thinking, researching or problem-solving, or weighing a decision before trying an AI tool"
+  },
+  {
+   "id": "lib_person_drinking_coffee_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "credit": "",
+   "file": "person_drinking_coffee_with_laptop.mp4",
+   "frames": 93,
+   "desc": "B-roll (3.1s, VERTICAL 9:16 — best as full: true): A bearded man in a green polo sits at a laptop in a modern industrial-style open office, lifting a white cup to his mouth and sipping a hot drink while looking down at the screen, in a calm, focused mood. Good for: a line about taking a breather while the AI does the work, a morning work routine, waiting for a process to finish, or the calm of an automated workflow"
+  },
+  {
+   "id": "lib_person_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "person_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a laptop, his expression moving from concern to a deep frown with glowing blue tear-like effects on his cheeks, then to eyes shut in stress or exhaustion; the mood is frustrated and overwhelmed. Good for: A script line about frustration or overwhelm with a tough task, such as struggling with confusing tools, wasting hours on manual work, or being stuck before finding an AI solution."
+  },
+  {
+   "id": "lib_person_speaking_into_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "credit": "",
+   "file": "person_speaking_into_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt takes a phone call in a modern industrial office with exposed concrete ceilings, moving from a serious, concerned look to a worried talking expression and ending with a relieved, confident smile at the camera. Good for: a script line about getting a surprising call or news, a problem being solved, or the moment of relief after a stressful issue"
+  },
+  {
+   "id": "lib_person_taking_selfie_with_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "credit": "",
+   "file": "person_taking_selfie_with_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt sits in a car holding a blue smartphone up close to his face, and across the clip he leans toward the screen with a furrowed brow, looking skeptical and intensely focused. Good for: a script line about doubting or double-checking AI output, being confused or frustrated by an app or tool, or looking closely at a result on your phone, e.g. 'wait, is this actually right?'"
+  },
+  {
+   "id": "lib_robotic_hand_typing_on_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "credit": "",
+   "file": "robotic_hand_typing_on_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a black robotic hand with segmented, mechanical fingers lowering onto a backlit laptop keyboard and starting to type, shot at shallow depth of field in a warm, softly lit, modern workspace. Good for: A script line about AI doing the work for you, automating repetitive tasks, or AI taking over typing and writing, such as 'let AI handle the busywork' or 'AI writes it for you'."
+  },
+  {
+   "id": "s1_image",
+   "kind": "image",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-07_2002/s1_image.png",
+   "credit": "Image: mymarky.ai",
+   "desc": "official image from Marky (announcement page)"
+  }
+ ],
+ "style": "hisaab",
+ "topic": "Business breakdown: Marky — A tool for self-publishing authors to manage their social media.",
+ "pick": {
+  "topic": "Business breakdown: Marky — A tool for self-publishing authors to manage their social media.",
+  "tool": "Marky",
+  "format": "business",
+  "angle": "A tiny SaaS for self-publishing authors has made over $1M by solving one boring problem: authors hate doing social media"
+ },
+ "inspired_by": {
+  "url": "https://trustmrr.com/startup/marky",
+  "owner": "trustmrr",
+  "plays": 0,
+  "likes": 0,
+  "comments": 0
+ },
+ "research": {
+  "verdict": "ok",
+  "tool": "Marky",
+  "what_it_does": "You add your website and Marky makes a month of on-brand posts, designs the image in your brand, and posts them to 7 platforms.",
+  "who_pays": "Small businesses and agencies. The Pro plan is for agencies. Agencies can resell Marky under their own brand, with a client portal that carries their logo and colors.",
+  "pricing": "Official pricing page: first 30 posts free, no credit card needed. Solo is $39 a month (1 workspace, 3 channels, 1 user). Growth is $79 a month (5 channels, unlimited users, marked Most Popular). Pro is $229 a month (8 channels, white-label portal). Extra channels cost +$7/mo. The page also advertises $19/month billed annually.",
+  "growth": [
+   "TrustMRR lists the marketing channels as Facebook, Meta Ads, word of mouth and influencers. No source I found gives numbers for any of them.",
+   "Early days, in the founder's own Medium post: he started with Google Sheets and Zapier and about 10 customers, and says to find your first paying customer. He also writes that he spent hours a day talking to customers.",
+   "In the founder's podcast interview, he describes viewing yourself as a consultant for the first customer, and says that is how you get your first customer.",
+   "Marky is listed on AppSumo, and its YouTube channel links to an AppSumo page. AppSumo describes it as bootstrapped from day one. I found no source on how AppSumo contributed to revenue.",
+   "The company ships SEO-style comparison content. One example is a <cite index=\"3-4,3-8\">'Best AI social media post generator' page comparing Marky with Buffer and SocialBee.</cite> No source gives traffic or results from it."
+  ],
+  "founder_story": [
+   "The product's own pages and AppSumo name Josiah Coad as founder and CEO, not Arian Adeli. <cite index=\"44-1,44-2\">Marky's own blog lists Josiah Coad as Marky CEO.</cite> TrustMRR's founder field says Arian Adeli. Arian Adeli's public profiles describe him as the founder of Evernomic, <cite index=\"31-3\">a media-first venture studio that builds, backs and acquires media brands and startups.</cite> He is probably the seller or listing contact. This is an inference and no source confirms it.",
+   "<cite index=\"43-5,43-6\">Josiah Coad is an Austin-based software engineer. He started Marky while he was at Tesla.</cite> His past roles include <cite index=\"56-4\">Tesla, John Deere, General Motors and Facebook (2019), per a RocketReach profile.</cite>",
+   "In his Medium post he says <cite index=\"47-9\">he didn't quit his job until 8 months in, only when he couldn't do both at the same time.</cite>",
+   "On AppSumo he wrote: <cite index=\"41-5,41-7\">he had been tinkering since college, and Marky is his first project that actually got traction.</cite>",
+   "<cite index=\"43-4\">The podcast page says he grew Marky from a one-person operation to a 12-person team.</cite>"
+  ],
+  "lessons": [
+   "Sell before you build. He started with Google Sheets, Zapier and about 10 paying customers, then built the software. The founder says to find your first PAYING customer before investing in code (Medium).",
+   "Show the result with no signup friction. You paste a website URL and get a month of branded posts, with 30 free posts and no card (pricing page, podcast). Let people see the finished product before they pay.",
+   "Sell the part competitors skip. Marky's own pages pitch that it designs the branded image and not just the caption, and offers a white-label tier for agencies, which gives it a $229 plan (about page, pricing page)."
+  ],
+  "criticism": [
+   "Crowded market. Marky is compared against Buffer and SocialBee, plus many AI post generators. Marky's own comparison page is marketing and not neutral.",
+   "Revenue is not profit. The $336K net income figure is a founder-written message on TrustMRR, and I could not verify it independently. TrustMRR shows the profit margin as hidden.",
+   "It runs on third-party platforms. The AppSumo listing says <cite index=\"39-9\">it depends on social media APIs (Facebook, etc.) and OpenAI.</cite> A change by either could hit the product.",
+   "A user review mentions <cite index=\"32-6\">'Fast and Helpful, AI Needs Work'</cite> as its headline, so AI output quality is a recurring concern.",
+   "The business is for sale at $495,000 (2.5x revenue) on TrustMRR. The 'for sale' status and the seller's identity are worth mentioning on screen if you cover it."
+  ],
+  "facts": [
+   "TrustMRR (given): $22,204 MRR, $1,016,714 all-time revenue, 478 active subscriptions, 33% MoM growth.",
+   "<cite index=\"39-5\">AppSumo lists the founding date as September 1, 2023</cite> and Austin, TX. TrustMRR says July 2023, and a RocketReach/Success.ai-style profile says Jun 2023. Dates conflict, so say 'launched in 2023'.",
+   "<cite index=\"41-9\">AppSumo (the listing is dated about Dec 2024) gives a team breakdown of 5 developers, 2 designers, 3 support and 1 marketing/outreach.</cite>",
+   "<cite index=\"12-6\">Getlatka says Marky has raised no outside funding.</cite> It lists 8 employees, which conflicts with the AppSumo breakdown above. It also lists $880K revenue for 2025 and a $2.6M valuation, which are unverified third-party estimates.",
+   "<cite index=\"15-1\">It schedules to Facebook, Instagram, X, LinkedIn, TikTok, Pinterest and Google Business.</cite>",
+   "A recent Marky blog post (about 6 days old) shows it now offers an API and integrations for AI agents and n8n, per <cite index=\"44-6\">'Connect Marky to your AI agent, your code, or your favorite tools'.</cite>",
+   "<cite index=\"34-1\">Marky's Facebook page has 2,399 followers.</cite>"
+  ],
+  "do_not_claim": [
+   "Do NOT say it is for self-publishing authors. That TrustMRR one-liner contradicts Marky's own site, which targets small businesses and agencies.",
+   "Do NOT say Arian Adeli built or founded Marky. Every product source names Josiah Coad.",
+   "Do NOT claim profit, net income of $336K, or margin as verified.",
+   "Do NOT claim team size as a firm number (sources say 8, 11 or 12).",
+   "Do NOT cite the ~200,000 users figure. I could not verify it. Some third-party pages say 30,000+ users, and they are not Marky's official pages.",
+   "Do NOT claim Meta Ads or influencers drove growth with numbers. Only the channel names come from TrustMRR.",
+   "Do NOT use the $97/$197/$397 pricing. It comes from mymarky.com, a separate site that is apparently for sale and not the official one.",
+   "Do NOT claim any viral moment, Product Hunt launch or the AppSumo deal's revenue. I found no source."
+  ],
+  "real_pages": [
+   {
+    "url": "https://trustmrr.com/startup/marky",
+    "show": "$22,204",
+    "kind": "site"
+   },
+   {
+    "url": "https://mymarky.ai",
+    "show": "",
+    "kind": "site"
+   },
+   {
+    "url": "https://www.mymarky.ai/pricing/",
+    "show": "first 30 posts free",
+    "kind": "site"
+   },
+   {
+    "url": "https://www.mymarky.ai/pricing/",
+    "show": "$79",
+    "kind": "site"
+   }
+  ],
+  "sources": [
+   "https://www.mymarky.ai/pricing/",
+   "https://www.mymarky.ai/about",
+   "https://www.mymarky.ai/best-ai-social-media-post-generator",
+   "https://appsumo.com/products/marky/",
+   "https://appsumo.com/products/marky/questions/with-tictok-being-primarily-a-video-cont-1064981/1064987/",
+   "https://medium.com/@josiahcoad/startup-0-1-boosters-and-bananas-e05b6459e4e8",
+   "https://www.momentum91.com/resources/podcasts/ex-tesla-engineers-journey-of-building-a-saas-company",
+   "https://getlatka.com/companies/mymarky.ai",
+   "https://www.linkedin.com/in/josiahcoad/",
+   "https://evernomic.com/",
+   "https://trustmrr.com/startup/marky"
+  ],
+  "notes": "Two TrustMRR fields don't match the product's own pages. The one-liner says 'self-publishing authors', but mymarky.ai targets SMBs and agencies. The founder field says Arian Adeli, but Josiah Coad is named founder/CEO everywhere else, and Arian runs the venture studio Evernomic. I found no source confirming who the current owner is. Josiah's LinkedIn snippet shows a LangChain role and the phrase 'past founder', so his current involvement is unclear. Don't state this as fact. The pricing page text above is current (Solo $39, Growth $79, Pro $229). Older third-party pages show different prices. I could not find any Product Hunt, Indie Hackers or X build-in-public source for acquisition. The only sourced growth detail is the founder's early-stage approach, so the script should lean on the 'sell before you build', free-30-posts and white-label angles. The 'for sale' price is $495K and the 2.5x revenue multiple comes from TrustMRR.",
+  "_searched": 6,
+  "trustmrr": {
+   "name": "Marky",
+   "one_liner": "A tool for self-publishing authors to manage their social media.",
+   "website": "https://mymarky.ai",
+   "founder": "Arian Adeli",
+   "founder_x": "",
+   "founded": "July 2023",
+   "location": "United States",
+   "category": "Content Creation",
+   "audience": "Local service-based businesses, including healthcare practices, professional services firms, home services companies, retail, hospitality businesses, and real estate professionals.",
+   "pricing": "",
+   "revenue_last_30_days": "$16,292",
+   "revenue_all_time": "$1,016,714",
+   "mrr": "$22,204",
+   "growth_mom": "33%",
+   "active_subscriptions": "478",
+   "rank": "#122",
+   "for_sale": "$495,000",
+   "verified_by": "Stripe API key",
+   "last_updated": "Nov 7, 2026, 10:26 AM",
+   "other": [
+    "2.5x revenue multiple",
+    "6,548 people saw this",
+    "36 buyers interested",
+    "Founder has 1,899 followers on X",
+    "Profit margin shown as XX%",
+    "B2B",
+    "~200,000 users",
+    "Domain Rating: 42/100",
+    "Marketing channels: Facebook, Meta Ads, Word of mouth, Influencers",
+    "Market: Content Creation, Social Media, Saas, Marketing, Productivity",
+    "Tech stack: React, FastAPI, Stripe, PostgreSQL, AWS, Supabase, Render, OpenAI, Sentry",
+    "Value proposition: Fast, quality content for your socials. Create consistent posts and publish across all your platforms. Professional, on-brand templates in your voice, not AI slop.",
+    "Problem solved: Helps businesses create and schedule high-quality content across multiple social media platforms quickly and efficiently.",
+    "Founder message: \"AI-powered social media content platform for SMBs. $516K TTM revenue, $336K net income, $22.7K MRR, 505 subscribers, automated content creation and scheduling.\" - Josiah Coad, Founder of Marky",
+    "Affiliate: Know a buyer for Marky? You could earn $7,425."
+   ],
+   "trustmrr_url": "https://trustmrr.com/startup/marky"
+  },
+  "say_numbers_as": [
+   "$16,292 (can be said as: $16K, $20K)",
+   "$1,016,714 (can be said as: $1.0M, $1016K, $1017K, $1020K, $1M)",
+   "$22,204 (can be said as: $20K, $22K)",
+   "$495,000 (can be said as: $495K, $500K)",
+   "$7,425 (can be said as: $10K, $7K)"
+  ]
+ },
+ "kind": "business",
+ "episode": 17,
+ "_ident": {
+  "at": 5.66,
+  "dur": 1.5,
+  "title": "AI HACKS",
+  "type": 0.42,
+  "sub": "EP 17 · BUSINESS BREAKDOWN"
+ },
+ "timeline": {
+  "words": [
+   [
+    "This",
+    0.08
+   ],
+   [
+    "social",
+    0.4
+   ],
+   [
+    "media",
+    0.64
+   ],
+   [
+    "tool",
+    0.96
+   ],
+   [
+    "has",
+    1.28
+   ],
+   [
+    "made",
+    1.56
+   ],
+   [
+    "over",
+    1.76
+   ],
+   [
+    "$1M,",
+    2.16
+   ],
+   [
+    "and",
+    3.64
+   ],
+   [
+    "it",
+    3.76
+   ],
+   [
+    "started",
+    4.0
+   ],
+   [
+    "in",
+    4.4
+   ],
+   [
+    "Google",
+    4.6
+   ],
+   [
+    "Sheets.",
+    4.88
+   ],
+   [
+    "And",
+    7.167
+   ],
+   [
+    "the",
+    7.26
+   ],
+   [
+    "move",
+    7.54
+   ],
+   [
+    "that",
+    7.74
+   ],
+   [
+    "got",
+    7.98
+   ],
+   [
+    "it",
+    8.14
+   ],
+   [
+    "going",
+    8.46
+   ],
+   [
+    "happened",
+    8.74
+   ],
+   [
+    "before",
+    9.34
+   ],
+   [
+    "the",
+    9.62
+   ],
+   [
+    "founder",
+    9.74
+   ],
+   [
+    "built",
+    10.14
+   ],
+   [
+    "the",
+    10.3
+   ],
+   [
+    "software.",
+    10.62
+   ],
+   [
+    "Stay",
+    11.26
+   ],
+   [
+    "for",
+    11.5
+   ],
+   [
+    "that.",
+    11.7
+   ],
+   [
+    "It's",
+    12.18
+   ],
+   [
+    "called",
+    12.38
+   ],
+   [
+    "Marky.",
+    12.7
+   ],
+   [
+    "You",
+    13.527
+   ],
+   [
+    "paste",
+    13.7
+   ],
+   [
+    "in",
+    13.86
+   ],
+   [
+    "your",
+    13.98
+   ],
+   [
+    "website,",
+    14.34
+   ],
+   [
+    "and",
+    14.7
+   ],
+   [
+    "it",
+    14.86
+   ],
+   [
+    "makes",
+    15.02
+   ],
+   [
+    "a",
+    15.18
+   ],
+   [
+    "month",
+    15.46
+   ],
+   [
+    "of",
+    15.7
+   ],
+   [
+    "on-brand",
+    15.9
+   ],
+   [
+    "posts,",
+    16.38
+   ],
+   [
+    "designs",
+    17.14
+   ],
+   [
+    "the",
+    17.46
+   ],
+   [
+    "images,",
+    17.58
+   ],
+   [
+    "and",
+    18.22
+   ],
+   [
+    "posts",
+    18.46
+   ],
+   [
+    "to",
+    18.7
+   ],
+   [
+    "7",
+    19.1
+   ],
+   [
+    "platforms.",
+    19.54
+   ],
+   [
+    "Small",
+    20.353
+   ],
+   [
+    "businesses",
+    20.54
+   ],
+   [
+    "and",
+    21.1
+   ],
+   [
+    "agencies",
+    21.26
+   ],
+   [
+    "are",
+    21.9
+   ],
+   [
+    "who",
+    22.06
+   ],
+   [
+    "pay",
+    22.22
+   ],
+   [
+    "for",
+    22.46
+   ],
+   [
+    "it.",
+    22.74
+   ],
+   [
+    "These",
+    23.02
+   ],
+   [
+    "numbers",
+    23.26
+   ],
+   [
+    "are",
+    23.66
+   ],
+   [
+    "verified",
+    24.06
+   ],
+   [
+    "on",
+    24.38
+   ],
+   [
+    "TrustMRR",
+    24.7
+   ],
+   [
+    "through",
+    25.46
+   ],
+   [
+    "Stripe.",
+    25.66
+   ],
+   [
+    "$22K",
+    26.46
+   ],
+   [
+    "a",
+    26.94
+   ],
+   [
+    "month",
+    27.26
+   ],
+   [
+    "in",
+    27.98
+   ],
+   [
+    "recurring",
+    28.22
+   ],
+   [
+    "revenue,",
+    28.62
+   ],
+   [
+    "$16K",
+    29.34
+   ],
+   [
+    "in",
+    29.82
+   ],
+   [
+    "the",
+    30.7
+   ],
+   [
+    "last",
+    30.94
+   ],
+   [
+    "30",
+    31.18
+   ],
+   [
+    "days,",
+    31.5
+   ],
+   [
+    "478",
+    32.14
+   ],
+   [
+    "active",
+    32.34
+   ],
+   [
+    "subscriptions,",
+    34.22
+   ],
+   [
+    "and",
+    34.7
+   ],
+   [
+    "33%",
+    34.94
+   ],
+   [
+    "month-over-month",
+    35.58
+   ],
+   [
+    "growth.",
+    36.7
+   ],
+   [
+    "So",
+    37.42
+   ],
+   [
+    "what",
+    37.82
+   ],
+   [
+    "can",
+    37.98
+   ],
+   [
+    "you",
+    38.22
+   ],
+   [
+    "steal?",
+    38.46
+   ],
+   [
+    "One:",
+    39.38
+   ],
+   [
+    "let",
+    39.74
+   ],
+   [
+    "people",
+    40.1
+   ],
+   [
+    "see",
+    40.38
+   ],
+   [
+    "the",
+    40.54
+   ],
+   [
+    "result",
+    40.82
+   ],
+   [
+    "before",
+    41.1
+   ],
+   [
+    "they",
+    41.5
+   ],
+   [
+    "pay.",
+    41.82
+   ],
+   [
+    "The",
+    42.167
+   ],
+   [
+    "first",
+    42.38
+   ],
+   [
+    "30",
+    42.62
+   ],
+   [
+    "posts",
+    42.94
+   ],
+   [
+    "are",
+    43.42
+   ],
+   [
+    "free,",
+    43.7
+   ],
+   [
+    "no",
+    44.22
+   ],
+   [
+    "card.",
+    44.7
+   ],
+   [
+    "Two:",
+    45.34
+   ],
+   [
+    "sell",
+    45.58
+   ],
+   [
+    "the",
+    45.82
+   ],
+   [
+    "part",
+    45.98
+   ],
+   [
+    "competitors",
+    46.38
+   ],
+   [
+    "skip.",
+    46.94
+   ],
+   [
+    "Marky",
+    47.66
+   ],
+   [
+    "designs",
+    48.02
+   ],
+   [
+    "the",
+    48.3
+   ],
+   [
+    "image,",
+    48.74
+   ],
+   [
+    "not",
+    49.127
+   ],
+   [
+    "just",
+    49.26
+   ],
+   [
+    "the",
+    49.46
+   ],
+   [
+    "caption.",
+    49.9
+   ],
+   [
+    "The",
+    50.369
+   ],
+   [
+    "honest",
+    50.46
+   ],
+   [
+    "catch?",
+    50.78
+   ],
+   [
+    "That's",
+    51.527
+   ],
+   [
+    "revenue,",
+    51.82
+   ],
+   [
+    "not",
+    52.54
+   ],
+   [
+    "profit.",
+    52.94
+   ],
+   [
+    "It's",
+    53.313
+   ],
+   [
+    "a",
+    53.5
+   ],
+   [
+    "crowded",
+    53.66
+   ],
+   [
+    "market.",
+    54.22
+   ],
+   [
+    "And",
+    54.593
+   ],
+   [
+    "it's",
+    54.7
+   ],
+   [
+    "currently",
+    55.06
+   ],
+   [
+    "listed",
+    55.42
+   ],
+   [
+    "for",
+    55.66
+   ],
+   [
+    "sale",
+    55.82
+   ],
+   [
+    "at",
+    56.14
+   ],
+   [
+    "$495K.",
+    56.46
+   ],
+   [
+    "Now",
+    58.86
+   ],
+   [
+    "the",
+    59.1
+   ],
+   [
+    "move.",
+    59.54
+   ],
+   [
+    "He",
+    59.98
+   ],
+   [
+    "started",
+    60.22
+   ],
+   [
+    "with",
+    60.66
+   ],
+   [
+    "Google",
+    60.9
+   ],
+   [
+    "Sheets,",
+    61.18
+   ],
+   [
+    "Zapier",
+    61.74
+   ],
+   [
+    "and",
+    62.3
+   ],
+   [
+    "about",
+    62.54
+   ],
+   [
+    "10",
+    62.82
+   ],
+   [
+    "customers,",
+    63.26
+   ],
+   [
+    "and",
+    63.66
+   ],
+   [
+    "built",
+    64.02
+   ],
+   [
+    "the",
+    64.18
+   ],
+   [
+    "software",
+    64.3
+   ],
+   [
+    "after",
+    64.86
+   ],
+   [
+    "that.",
+    65.34
+   ],
+   [
+    "Find",
+    65.66
+   ],
+   [
+    "your",
+    66.02
+   ],
+   [
+    "first",
+    66.22
+   ],
+   [
+    "paying",
+    66.54
+   ],
+   [
+    "customer",
+    66.78
+   ],
+   [
+    "before",
+    67.46
+   ],
+   [
+    "you",
+    67.74
+   ],
+   [
+    "write",
+    67.94
+   ],
+   [
+    "code.",
+    68.34
+   ],
+   [
+    "Would",
+    68.7
+   ],
+   [
+    "you",
+    68.86
+   ],
+   [
+    "build",
+    69.14
+   ],
+   [
+    "this",
+    69.46
+   ],
+   [
+    "or",
+    69.74
+   ],
+   [
+    "buy",
+    69.98
+   ],
+   [
+    "it?",
+    70.14
+   ],
+   [
+    "Send",
+    70.62
+   ],
+   [
+    "this",
+    70.86
+   ],
+   [
+    "to",
+    71.02
+   ],
+   [
+    "the",
+    71.14
+   ],
+   [
+    "friend",
+    71.26
+   ],
+   [
+    "who",
+    71.5
+   ],
+   [
+    "keeps",
+    71.78
+   ],
+   [
+    "saying",
+    72.06
+   ],
+   [
+    "they'll",
+    72.34
+   ],
+   [
+    "start",
+    72.54
+   ],
+   [
+    "a",
+    72.78
+   ],
+   [
+    "business",
+    72.86
+   ],
+   [
+    "once",
+    73.38
+   ],
+   [
+    "the",
+    73.58
+   ],
+   [
+    "app",
+    73.74
+   ],
+   [
+    "is",
+    73.98
+   ],
+   [
+    "ready.",
+    74.14
+   ],
+   [
+    "Hack",
+    74.7
+   ],
+   [
+    "saved?",
+    74.94
+   ]
+  ],
+  "duration": 75.6,
+  "ident": {
+   "at": 5.66,
+   "dur": 1.5,
+   "title": "AI HACKS",
+   "type": 0.42,
+   "sub": "EP 17 · BUSINESS BREAKDOWN"
+  },
+  "scenes": [
+   {
+    "t": 0.0,
+    "shows": [
+     "footage:lib_hand_scrolling_smartphone",
+     "pill:SOCIAL MEDIA TOOL",
+     "title_slam:$1M+",
+     "pill:STARTED IN GOOGLE SHEETS"
+    ]
+   },
+   {
+    "t": 7.17,
+    "shows": [
+     "object3d:",
+     "label:BEFORE THE SOFTWARE",
+     "pill:STAY FOR THE MOVE"
+    ]
+   },
+   {
+    "t": 12.18,
+    "shows": [
+     "label:THE TOOL · MYMARKY.AI",
+     "footage:real_2_web"
+    ]
+   },
+   {
+    "t": 13.53,
+    "shows": [
+     "footage:real_2_phone",
+     "pill:PASTE YOUR WEBSITE"
+    ]
+   },
+   {
+    "t": 14.7,
+    "shows": [
+     "label:WHAT IT DOES",
+     "stat_row:",
+     "headline:SMBs + AGENCIES PAY"
+    ]
+   },
+   {
+    "t": 23.02,
+    "shows": [
+     "object3d:"
+    ]
+   },
+   {
+    "t": 26.46,
+    "shows": [
+     "big_number:",
+     "object3d:"
+    ]
+   },
+   {
+    "t": 29.34,
+    "shows": [
+     "stat_row:"
+    ]
+   },
+   {
+    "t": 37.42,
+    "shows": [
+     "headline:WHAT CAN YOU STEAL?"
+    ]
+   },
+   {
+    "t": 39.38,
+    "shows": [
+     "footage:real_3_web",
+     "pill:TRY BEFORE YOU PAY"
+    ]
+   },
+   {
+    "t": 42.17,
+    "shows": [
+     "pile:",
+     "pill:NO CARD NEEDED"
+    ]
+   },
+   {
+    "t": 45.34,
+    "shows": [
+     "label:SELL WHAT THEY SKIP",
+     "before_after:"
+    ]
+   },
+   {
+    "t": 50.37,
+    "shows": [
+     "vs:",
+     "pill:CROWDED MARKET"
+    ]
+   },
+   {
+    "t": 54.59,
+    "shows": [
+     "footage:real_1_web",
+     "pill:ASKING $495K"
+    ]
+   },
+   {
+    "t": 58.86,
+    "shows": [
+     "object3d:"
+    ]
+   },
+   {
+    "t": 59.98,
+    "shows": [
+     "label:THE NO-CODE START",
+     "steps:",
+     "pill:THEN THE SOFTWARE"
+    ]
+   },
+   {
+    "t": 65.66,
+    "shows": [
+     "footage:lib_man_pointing_at_camera",
+     "headline:FIRST PAYING CUSTOMER"
+    ]
+   },
+   {
+    "t": 68.7,
+    "shows": [
+     "headline:BUILD OR BUY?"
+    ]
+   }
+  ],
+  "beats": [
+   30.74
+  ]
+ }
+}
