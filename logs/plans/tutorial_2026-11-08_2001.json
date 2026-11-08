@@ -1,0 +1,1899 @@
+{
+ "voiceover": "[curious] This Reddit tool made $38K in 30 days, with under $100K total ever.\n\nAnd stay till the end, because the one move behind it is something you can copy today.\n\n[conversational] It's called Bazzly. It finds Reddit posts where your SaaS fits, drafts a reply, and posts it for you. It costs $199 a month per project.\n\n[confident] These numbers are verified on TrustMRR through Stripe. $35K a month in recurring revenue, 190 subscriptions, and 137% growth versus the previous period. But that's revenue, not profit.\n\nThe founder, Filip Panoski, failed at 5+ products over 7 years. Then he sat at $100 a month for 6 months. When growth got slow, he launched a new offer and went from $1K to $5K a month in two months.\n\n[serious] The catch? The space is crowded, cheaper rivals exist, and Reddit moderators can remove promotional comments.\n\n[whispers] Here's the move. He sells Reddit marketing, and he got customers by doing Reddit marketing himself, every day. No audience, no newsletter, no Product Hunt launch. Just a daily system in front of the right people.\n\n[conversational] Would you build this or buy it? Send this to the friend who keeps \"planning\" their startup.\n\nHack saved?",
+ "open_loop": {
+  "setup": "And stay till the end, because the one move behind it is something you can copy today.",
+  "payoff": "He sells Reddit marketing, and he got customers by doing Reddit marketing himself, every day."
+ },
+ "title": "BAZZLY'S $38K MONTH",
+ "ig_caption": "This Reddit tool made $38K in 30 days, with under $100K total ever 👀\n✅ Dogfood your own channel\n✅ Skip the audience, build a daily system\n✅ Change the offer when growth is slow\nWould you build this or buy it?\nSave this for later\nFollow @ihackgrowth for daily business & growth hacks",
+ "media_hints": {
+  "domain": "bazzly.ai",
+  "broll": [
+   "typing on laptop",
+   "startup founder working",
+   "phone scrolling social"
+  ]
+ },
+ "hashtags": [
+  "#AIhacks",
+  "#AItools",
+  "#Bazzly",
+  "#Reddit",
+  "#SaaS",
+  "#startups",
+  "#indiehackers",
+  "#marketing",
+  "#growth"
+ ],
+ "tag": "BUSINESS BREAKDOWN",
+ "keywords": [
+  "Reddit",
+  "Bazzly",
+  "SaaS",
+  "reply",
+  "TrustMRR",
+  "Stripe",
+  "subscriptions",
+  "growth",
+  "profit",
+  "founder",
+  "Filip",
+  "offer",
+  "catch",
+  "moderators",
+  "move",
+  "daily",
+  "system",
+  "startup"
+ ],
+ "music": "groove",
+ "hud": {
+  "label": "REVENUE",
+  "items": [
+   {
+    "value": "$38K/30D",
+    "color": "gold"
+   },
+   {
+    "at": "$199 a month",
+    "value": "$199/MO",
+    "color": "gold"
+   },
+   {
+    "at": "$35K a month",
+    "value": "$35K/MO",
+    "color": "green"
+   },
+   {
+    "at": "Then he sat",
+    "value": "$100/MO",
+    "color": "red"
+   },
+   {
+    "at": "to $5K",
+    "value": "$5K/MO",
+    "color": "gold"
+   },
+   {
+    "at": "Here's the move.",
+    "value": "UNLOCKED",
+    "color": "green"
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "at": "This Reddit",
+   "tint": "warm",
+   "react": [
+    {
+     "at": "under $100K",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "footage",
+     "at": "This Reddit",
+     "media": "lib_man_staring_at_phone_in",
+     "full": true
+    },
+    {
+     "type": "title_slam",
+     "at": "This Reddit",
+     "text": "$38K",
+     "sub": "IN 30 DAYS",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "And stay",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "And stay",
+     "kind": "padlock",
+     "size": "l",
+     "caption": "COPY IT TODAY",
+     "caption_at": "copy today."
+    },
+    {
+     "type": "pill",
+     "at": "the one move",
+     "text": "STAY FOR THE MOVE",
+     "color": "gold",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "It's called Bazzly.",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "It's called Bazzly.",
+     "media": "real_2_phone",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "It's called Bazzly.",
+     "text": "BAZZLY.AI",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "It finds",
+   "react": [
+    {
+     "at": "It finds",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "screen",
+     "at": "It finds",
+     "device": "web",
+     "url": "bazzly.ai",
+     "app": "Bazzly",
+     "step": "How it works",
+     "steps": [
+      {
+       "at": "It finds",
+       "view": {
+        "kind": "page",
+        "site": "Bazzly",
+        "heading": "Matching posts",
+        "nav": [
+         "Posts",
+         "Replies",
+         "Settings"
+        ],
+        "cards": [
+         {
+          "title": "Best tool for cold email?",
+          "text": "r/SaaS · 2h ago",
+          "status": "MATCH"
+         },
+         {
+          "title": "How do you get first users?",
+          "text": "r/startups · 5h ago",
+          "status": "MATCH"
+         }
+        ]
+       },
+       "action": {
+        "kind": "point",
+        "target": "Best tool for cold email?",
+        "at": "your SaaS fits,"
+       }
+      },
+      {
+       "at": "drafts a reply,",
+       "view": {
+        "kind": "page",
+        "site": "Bazzly",
+        "heading": "Reply ready",
+        "nav": [
+         "Posts",
+         "Replies",
+         "Settings"
+        ],
+        "cards": [
+         {
+          "title": "Best tool for cold email?",
+          "text": "Draft: We hit the same wall, here's what worked for us…",
+          "status": "DRAFT",
+          "buttons": [
+           "Approve",
+           "Reject"
+          ]
+         },
+         {
+          "title": "How do you get first users?",
+          "text": "r/startups · 5h ago",
+          "status": "MATCH"
+         }
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "Approve",
+        "at": "posts it for"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "It costs",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "It costs",
+     "media": "real_3_web",
+     "tall": true
+    },
+    {
+     "type": "pill",
+     "at": "$199 a month",
+     "text": "$199/MONTH",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "These numbers",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "label",
+     "at": "These numbers",
+     "text": "TRUSTMRR.COM"
+    },
+    {
+     "type": "footage",
+     "at": "These numbers",
+     "media": "real_1_web",
+     "tall": true
+    },
+    {
+     "type": "pill",
+     "at": "through Stripe.",
+     "text": "VERIFIED",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "$35K a month",
+   "tint": "green",
+   "react": [
+    {
+     "at": "not profit.",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "$35K a month",
+     "kind": "coins",
+     "act": "fill",
+     "act_at": "recurring revenue,",
+     "size": "m",
+     "caption": "MRR"
+    },
+    {
+     "type": "stat_row",
+     "at": "$35K a month",
+     "cards": [
+      {
+       "label": "MRR",
+       "value": "$35K",
+       "at": "$35K a month",
+       "color": "gold"
+      },
+      {
+       "label": "SUBS",
+       "value": "190",
+       "at": "190 subscriptions,",
+       "color": "white"
+      },
+      {
+       "label": "GROWTH",
+       "value": "+137%",
+       "at": "137% growth",
+       "color": "green",
+       "glow": true
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "at": "not profit.",
+     "text": "REVENUE ≠ PROFIT",
+     "color": "red",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "The founder,",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "headline",
+     "at": "The founder,",
+     "text": "FILIP PANOSKI",
+     "size": "l",
+     "sub": "THE FOUNDER",
+     "sub_at": "Filip Panoski,"
+    },
+    {
+     "type": "stat_row",
+     "at": "5+ products",
+     "cards": [
+      {
+       "label": "FAILED PRODUCTS",
+       "value": "5+",
+       "at": "5+ products",
+       "color": "red"
+      },
+      {
+       "label": "YEARS",
+       "value": "7 YRS",
+       "at": "7 years.",
+       "color": "muted"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Then he sat",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Then he sat",
+     "media": "lib_professional_working_on_laptop_late",
+     "full": true
+    },
+    {
+     "type": "headline",
+     "at": "Then he sat",
+     "text": "$100/MO",
+     "size": "l",
+     "color": "red",
+     "sub": "FOR 6 MONTHS",
+     "sub_at": "6 months."
+    }
+   ]
+  },
+  {
+   "at": "When growth got",
+   "tint": "green",
+   "react": [
+    {
+     "at": "to $5K",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "When growth got",
+     "text": "WHEN GROWTH STALLED"
+    },
+    {
+     "type": "pill",
+     "at": "a new offer",
+     "text": "NEW OFFER",
+     "color": "gold"
+    },
+    {
+     "type": "arrow_pair",
+     "at": "went from",
+     "left": {
+      "label": "BEFORE",
+      "value": "$1K",
+      "sub": "/MONTH",
+      "color": "muted"
+     },
+     "right": {
+      "label": "AFTER",
+      "value": "$5K",
+      "sub": "IN 2 MONTHS",
+      "color": "green",
+      "at": "to $5K"
+     }
+    }
+   ]
+  },
+  {
+   "at": "The catch?",
+   "tint": "red",
+   "react": [
+    {
+     "at": "The catch?",
+     "mood": "serious"
+    }
+   ],
+   "elements": [
+    {
+     "type": "headline",
+     "at": "The catch?",
+     "text": "THE CATCH",
+     "size": "m",
+     "color": "red",
+     "ill": "warning"
+    },
+    {
+     "type": "strike_list",
+     "at": "is crowded,",
+     "items": [
+      {
+       "text": "CROWDED SPACE",
+       "at": "is crowded,"
+      },
+      {
+       "text": "CHEAPER RIVALS",
+       "at": "cheaper rivals"
+      },
+      {
+       "text": "MODS REMOVE PROMOS",
+       "at": "Reddit moderators"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Here's the move.",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "doing Reddit",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "Here's the move.",
+     "kind": "padlock",
+     "act": "open",
+     "act_at": "Here's the move.",
+     "size": "m",
+     "caption": "THE MOVE"
+    },
+    {
+     "type": "headline",
+     "at": "He sells",
+     "text": "USE YOUR OWN PRODUCT",
+     "size": "m",
+     "color": "gold",
+     "sub": "EVERY DAY",
+     "sub_at": "every day."
+    }
+   ]
+  },
+  {
+   "at": "No audience,",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "label",
+     "at": "No audience,",
+     "text": "WHAT HE DIDN'T NEED"
+    },
+    {
+     "type": "strike_list",
+     "at": "No audience,",
+     "items": [
+      {
+       "text": "AUDIENCE",
+       "at": "No audience,"
+      },
+      {
+       "text": "NEWSLETTER",
+       "at": "no newsletter,"
+      },
+      {
+       "text": "PRODUCT HUNT LAUNCH",
+       "at": "no Product Hunt"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Just a daily",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Just a daily",
+     "media": "lib_fingers_typing_on_laptop_keyboard",
+     "full": true
+    },
+    {
+     "type": "headline",
+     "at": "Just a daily",
+     "text": "DAILY SYSTEM",
+     "size": "m",
+     "color": "green",
+     "sub": "THE RIGHT PEOPLE",
+     "sub_at": "the right people.",
+     "sub_color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "Would you build",
+   "react": [
+    {
+     "at": "or buy",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "vs",
+     "at": "Would you build",
+     "left": {
+      "label": "OPTION A",
+      "value": "BUILD"
+     },
+     "right": {
+      "label": "OPTION B",
+      "value": "BUY",
+      "color": "gold",
+      "at": "or buy"
+     }
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "Send this",
+  "line1": "Send this to",
+  "line1_at": "Send this",
+  "line2": "the startup planner",
+  "line2_at": "their startup."
+ },
+ "endcard": {
+  "title": "Hack saved?",
+  "terminal": "> move.copied · reddit daily"
+ },
+ "media": [
+  {
+   "id": "real_1_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-08_2001/real_1_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-08_2001/real_1_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: trustmrr.com",
+   "desc": "REAL desktop screen recording, pushes in on the gold-outlined part — trustmrr.com Bazzly listing on desktop, with the stats row highlighted. All-time revenue $98,496 (Ranked #639 on TrustMRR). MRR $35,130 (190 active subscriptions). Founder Filip Pan... (7,078 followers on X). Founded June 2025, United States. Below is a revenue chart showing $38,604, up 137% vs. pre [Screen: trustmrr.com]"
+  },
+  {
+   "id": "real_2_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-08_2001/real_2_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-08_2001/real_2_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: bazzly.ai",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the page (no highlight) — bazzly.ai homepage on a phone. Headline 'Get Customers From Reddit on Autopilot'. Subhead: 'Comment, DM and rank on Google to get leads and traffic from Reddit. All hands-off.' Buttons: 'Join with Google' and 'Get Started for Free'. Header has the Bazzly logo and a 'Get Started' button. Social proof [Screen: bazzly.ai]"
+  },
+  {
+   "id": "real_2_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-08_2001/real_2_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-08_2001/real_2_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: bazzly.ai",
+   "desc": "REAL desktop screen recording, pushes in on the page (no highlight) — bazzly.ai homepage on desktop. Nav: How It Works, Pricing, For Agencies, Sign In, Get Started. Headline 'Get Customers From Reddit on Autopilot'. Subhead: 'Comment, DM and rank on Google to get leads and traffic from Reddit. All hands-off.' Buttons: 'Join with Google' and 'Get Started for Free'. Han [Screen: bazzly.ai]"
+  },
+  {
+   "id": "real_3_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-08_2001/real_3_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-08_2001/real_3_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: bazzly.ai",
+   "desc": "REAL desktop screen recording, pushes in on the gold-outlined part — bazzly.ai pricing section on desktop, slightly dimmed. Heading 'Start Growing Today'. 'One plan. Everything included. Top up credits when you need more.' The highlighted plan card is 'All in One': 'Reddit marketing on autopilot. All features included.' $199/month, button 'Get Started for Free', 'Can [Screen: bazzly.ai]"
+  },
+  {
+   "id": "lib_camera_moving_down_server_corridor",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "credit": "",
+   "file": "camera_moving_down_server_corridor.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow forward push down a hazy, fog-filled data center aisle lined with server racks that glow with blue and amber status lights, giving a moody, futuristic feel. Good for: A script line about the infrastructure behind AI, such as cloud computing, model training, heavy compute, data storage, or 'what happens behind the scenes'."
+  },
+  {
+   "id": "lib_clock_ticking_and_person_typing",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "credit": "",
+   "file": "clock_ticking_and_person_typing.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A rack-focus shot moves from a close-up of a black twin-bell alarm clock with ticking hands to a bearded man in a light polo typing on a laptop in a dim room, giving a tense, time-pressured mood. Good for: lines about deadlines, time slipping away, long hours of manual work, or the pressure of slow, tedious tasks before an AI tool speeds things up"
+  },
+  {
+   "id": "lib_colleagues_collaborating_around",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "credit": "",
+   "file": "colleagues_collaborating_around.mp4",
+   "frames": 126,
+   "desc": "B-roll (4.2s, VERTICAL 9:16 — best as full: true): colleagues collaborating around Good for: "
+  },
+  {
+   "id": "lib_content_creator_sets_up_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "credit": "",
+   "file": "content_creator_sets_up_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt stands behind a ring light with a phone on a tripod, adjusting the setup while the camera slowly pushes in until his face fills the frame, with a calm, focused mood and moody blue ambient lighting in the background. Good for: setting up to create content, getting started as a creator, or preparing equipment before recording a tutorial"
+  },
+  {
+   "id": "lib_eye_reflecting_laptop_screen_glow",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "credit": "",
+   "file": "eye_reflecting_laptop_screen_glow.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow zoom into an extreme close-up of a brown eye with a bright blue screen reflected in the pupil, framed by a thick eyebrow and warm skin tones, fading into a cool blue gradient at the bottom, with a focused, intense and cinematic mood. Good for: lines about being glued to a screen, intense focus or attention, watching AI work, or 'seeing' a new opportunity or insight"
+  },
+  {
+   "id": "lib_fingers_typing_on_laptop_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "credit": "",
+   "file": "fingers_typing_on_laptop_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): Close-up over-the-shoulder shot of a person typing on a backlit laptop keyboard, with a blurred blue screen in the background and a warm, focused, productive mood. Good for: lines about getting started, writing prompts or code, doing focused work at the computer, or the hands-on steps of a tutorial"
+  },
+  {
+   "id": "lib_hand_dropping_papers_on_desk",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "credit": "",
+   "file": "hand_dropping_papers_on_desk.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a green shirt carries and then drops a thick stack of papers onto an already huge, messy pile of documents with sticky notes on a cluttered desk, while a laptop glows nearby, and the camera pushes in to a close-up of the towering stack, creating a mood of overwhelm and tedious paperwork. Good for: a script line about drowning in manual paperwork or document processing, setting up how AI can automate summarizing, sorting, or extracting information from piles of documents"
+  },
+  {
+   "id": "lib_man_looking_at_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "credit": "",
+   "file": "man_looking_at_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt scowls with intense focus at a laptop in a dim, warmly lit room, then closes his eyes and rubs his hand near his chin in tired frustration. Good for: frustration with slow or difficult work, such as struggling with a tedious task, debugging, or burning out late at night before finding a better way"
+  },
+  {
+   "id": "lib_man_opens_laptop_in_room",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "credit": "",
+   "file": "man_opens_laptop_in_room.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt sits at a laptop in a dimly lit, warmly lit room, and his focused, tense expression builds as he leans toward the screen, which shows blurry blue diagram or flowchart-style blocks, with his fists clenched near his chin in the middle frame. Good for: intense concentration or deep work, such as debugging, building an AI workflow, or struggling with a complex problem"
+  },
+  {
+   "id": "lib_man_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "man_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt stares intently at a laptop screen with blurry blue UI elements floating in front of the camera, then grimaces in frustration and mouths a reaction, and finally tilts his head back in exhausted resignation in a dim, warmly lit room. Good for: frustration with slow, tedious, or failing work, such as waiting on a slow tool, hitting an error, or being exhausted by manual tasks before introducing an AI solution"
+  },
+  {
+   "id": "lib_man_smiling_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "credit": "",
+   "file": "man_smiling_at_phone.mp4",
+   "frames": 135,
+   "desc": "B-roll (4.5s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a blue smartphone, his expression shifting from neutral to a furrowed-brow frown of confusion and frustration. Good for: a line about frustration with confusing apps or slow tools, or the moment someone hits a problem and doesn't know what to do next"
+  },
+  {
+   "id": "lib_man_staring_at_phone_in",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_staring_at_phone_in.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_staring_at_phone_in.mp4",
+   "credit": "",
+   "file": "man_staring_at_phone_in.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt stares at his smartphone, his expression moving from a focused frown to wide-eyed shock and then to a worried look straight into the camera, in a warm, dimly lit home setting. Good for: a line about a shocking discovery, an unexpected result, or a worrying realization, such as 'you won't believe what this AI tool just did' or 'when you see how much time you've been wasting'"
+  },
+  {
+   "id": "lib_man_studying_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "credit": "",
+   "file": "man_studying_with_laptop.mp4",
+   "frames": 132,
+   "desc": "B-roll (4.4s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits at a desk behind a laptop with a furrowed brow and a frustrated, concentrated look, first staring at the screen, then looking down at an open notebook and writing with a pen, with a warm blurred lamp glowing in the background. Good for: a script line about struggling to understand something complex, frustration with slow or manual work, or the pain of learning a new tool the hard way"
+  },
+  {
+   "id": "lib_man_watching_laptop_waiting",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "credit": "",
+   "file": "man_watching_laptop_waiting.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits at a laptop in a dimly lit room with warm lamp light, resting his chin on his fist with a focused, pensive look, and the camera pushes in closer across the three frames. Good for: a script line about deep thinking, researching or problem-solving, or weighing a decision before trying an AI tool"
+  },
+  {
+   "id": "lib_person_drinking_coffee_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "credit": "",
+   "file": "person_drinking_coffee_with_laptop.mp4",
+   "frames": 93,
+   "desc": "B-roll (3.1s, VERTICAL 9:16 — best as full: true): A bearded man in a green polo sits at a laptop in a modern industrial-style open office, lifting a white cup to his mouth and sipping a hot drink while looking down at the screen, in a calm, focused mood. Good for: a line about taking a breather while the AI does the work, a morning work routine, waiting for a process to finish, or the calm of an automated workflow"
+  },
+  {
+   "id": "lib_person_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "person_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a laptop, his expression moving from concern to a deep frown with glowing blue tear-like effects on his cheeks, then to eyes shut in stress or exhaustion; the mood is frustrated and overwhelmed. Good for: A script line about frustration or overwhelm with a tough task, such as struggling with confusing tools, wasting hours on manual work, or being stuck before finding an AI solution."
+  },
+  {
+   "id": "lib_person_speaking_into_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "credit": "",
+   "file": "person_speaking_into_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt takes a phone call in a modern industrial office with exposed concrete ceilings, moving from a serious, concerned look to a worried talking expression and ending with a relieved, confident smile at the camera. Good for: a script line about getting a surprising call or news, a problem being solved, or the moment of relief after a stressful issue"
+  },
+  {
+   "id": "lib_person_taking_selfie_with_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "credit": "",
+   "file": "person_taking_selfie_with_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt sits in a car holding a blue smartphone up close to his face, and across the clip he leans toward the screen with a furrowed brow, looking skeptical and intensely focused. Good for: a script line about doubting or double-checking AI output, being confused or frustrated by an app or tool, or looking closely at a result on your phone, e.g. 'wait, is this actually right?'"
+  },
+  {
+   "id": "lib_professional_working_on_laptop_late",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "credit": "",
+   "file": "professional_working_on_laptop_late.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A tired bearded young man in a maroon t-shirt sits at a laptop in a dim apartment at night, resting his head on his hand, rubbing his eyes, then glumly lifting a white coffee mug, with blurred city lights glowing behind him through the window. Good for: A script line about burnout, late-night grinding, or frustration with slow manual work that AI tools can speed up, e.g. 'still stuck doing this by hand at midnight?'"
+  },
+  {
+   "id": "lib_robotic_hand_typing_on_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "credit": "",
+   "file": "robotic_hand_typing_on_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a black robotic hand with segmented, mechanical fingers lowering onto a backlit laptop keyboard and starting to type, shot at shallow depth of field in a warm, softly lit, modern workspace. Good for: A script line about AI doing the work for you, automating repetitive tasks, or AI taking over typing and writing, such as 'let AI handle the busywork' or 'AI writes it for you'."
+  },
+  {
+   "id": "s1_image",
+   "kind": "image",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-08_2001/s1_image.png",
+   "credit": "Image: bazzly.ai",
+   "desc": "official image from Bazzly (announcement page)"
+  }
+ ],
+ "style": "hisaab",
+ "topic": "Business breakdown: Bazzly — Get customers from Reddit on autopilot 🔥",
+ "pick": {
+  "topic": "Business breakdown: Bazzly — Get customers from Reddit on autopilot 🔥",
+  "tool": "Bazzly",
+  "format": "business",
+  "angle": "A tool that gets customers from Reddit on autopilot hit $40K in 30 days, and the whole business is under $100K total revenue"
+ },
+ "inspired_by": {
+  "url": "https://trustmrr.com/startup/bazzly",
+  "owner": "trustmrr",
+  "plays": 0,
+  "likes": 0,
+  "comments": 0
+ },
+ "research": {
+  "verdict": "ok",
+  "tool": "Bazzly",
+  "what_it_does": "A Reddit marketing platform for SaaS: it finds Reddit posts and Google-ranking Reddit threads where your product fits, drafts a reply, posts it from your own account or from an aged, warmed-up Bazzly account, adds upvotes, sends DMs to leads and tracks brand mentions (bazzly.ai/about).",
+  "who_pays": "SaaS founders and small product teams who want customers from Reddit. The homepage plan is aimed at 'busy founders', and the Indie Hackers profile says it is for early-stage SaaS founders.",
+  "pricing": "One plan, 'All in One', at $199/month per project with 170 credits that refresh monthly, plus a 7-day free trial with 5 credits. Credit costs: a post via a warmed-up account is 50, a comment via a warmed-up account is 10, an upvote is 0.2, and an AI draft is 0.1. Comments and DMs from your own account are free. Extra credits are $1 each. Each additional project costs $199/month and gets its own 170 credits (bazzly.ai homepage and /about). Older third-party pages list $19, $39 and $99 plans, so Bazzly appears to have raised its price over time.",
+  "growth": [
+   "Founder-stated channels: 'Reddit (dogfooding Bazzly), X, and Indie Hackers' as distribution channels (Indie Hackers interview, 'After five failed products… hit $7.5k/mo in 12 months').",
+   "Per the same interview, once he hit $1k MRR he judged that growth would take about eight months to reach $3k MRR. He launched a new offer and grew from $1k to $5k MRR in two months using the same channels. The interview does not say what the offer was.",
+   "Per the same interview, he started building in public on X, Indie Hackers and Reddit only after he had real wins and proven strategies. He says that content kept driving organic traffic to Bazzly.",
+   "Founder's Indie Hackers post (June 2026): he crossed $2.5K MRR with 'No audience. No newsletter. No Product Hunt launch', and credits a daily system of marketing on Reddit.",
+   "X post, Sep 28 (2026, per the thread date): 'I sat at $100 MRR for 6 months. today: $15k MRR. nothing viral happened.' He says he did 4 things in order, but the 4 things were not visible in the source.",
+   "Founder DM playbook (X): reach out only to people who would actually want the offer, and lead with a personalized, value-first offer with no pitch. He says the same approach landed his partner Tibo.",
+   "Partnership and affiliates: Tibo (@tibo_maker) posted about Bazzly on X, and a third-party comparison blog says this sent a real wave of traffic (RunByte blog, a competitor, so treat as secondhand). On Oct 29, Tibo announced an affiliate program (bazzly.ai/affiliate). Filip cites $800 LTV and 50% trial-to-paid for the program on X.",
+   "Directory listings: Uneed launch on 2026-01-13, plus Micro SaaS Examples and bestreddit.tools listings.",
+   "Programmatic comparison and 'best of' pages on its own site: /compare/redship, /compare/crowdreply and /best-reddit-monitoring-tools, which ranks Bazzly #1 of 19 on its own checklist. This is an inference from the pages' existence; no source calls it an SEO strategy.",
+   "Social proof on the site: public customer reviews linked to original posts (17 per /is-bazzly-legit), including X posts saying it helps with GEO/AEO (showing up in AI answers)."
+  ],
+  "founder_story": [
+   "Filip Panoski founded Bazzly; his X bio says 'Quit my $7k/mo job to build SaaS' (X, Indie Hackers profile).",
+   "His site bio says he failed at 5+ products over 7 years that made $0 before Bazzly (kaijubeam.com bio, X post on Oct 29). In his Indie Hackers interview he says avoiding X and social media as an introvert for years cost him those seven years.",
+   "X post: '14 months ago I quit my job and lived on savings. Today I finally hit $1k MRR with Bazzly.'",
+   "Bazzly matched its first Reddit post for a customer on June 2, 2025 (/about).",
+   "Team: it is built by Filip and Tibo (Tibo Louis-Lucas, @tibo_maker, who has built and sold several bootstrapped products per the RunByte blog). It is operated by Meeteo Labs, LLC, a US company (/about)."
+  ],
+  "lessons": [
+   "Dogfood your channel. The product sells Reddit marketing, and the founder says he got customers by doing Reddit marketing himself, plus X and Indie Hackers.",
+   "Don't build an audience first. Build a daily system that puts you in front of the right people. He reached $2.5K MRR with no audience, newsletter or Product Hunt launch.",
+   "Change the offer when growth is slow. He projected 8 months to get from $1k to $3k MRR, then launched a new offer and hit $5k in two months through the same channels.",
+   "Share only proven results. He started building in public after he had real wins to show, so the content came from real experience.",
+   "Value-first DMs work for customers and partners. He says the same personalized, no-pitch DM got both customers and his co-founder Tibo.",
+   "Plan for years, not months. He sat at $100 MRR for 6 months before it took off, and failed at 5+ products before that."
+  ],
+  "criticism": [
+   "The category is crowded. Bazzly's own comparison pages name RedShip, CrowdReply, ReplyAgent, RedReach, Replymer, RedditGrow, KWatch.io, MediaFast and Subreddit Signals. Cheaper rivals exist, e.g. RunByte at $19/mo (competitor's claim).",
+   "Platform risk: moderators can remove promotional comments on Reddit. Bazzly says it refunds warmed-account comments removed within 48 hours (/is-bazzly-legit). Competitors say its auto-posting through aged accounts puts accounts at risk, which is a biased source, and a reviewer site notes automated replies and DMs can read as spammy.",
+   "Revenue is not profit. No cost or profit data was found.",
+   "Some of the founder's self-reported numbers have been challenged. A commenter on his Indie Hackers post (June 2026) said TrustMRR then showed $1,131 MRR with 39 subscriptions against his claimed $2.5K. The founder replied that he had linked TrustMRR in the post. His bio MRR also varies by snapshot ($15k, $17k, $23k), so use the Stripe-verified numbers.",
+   "Reddit-only: Bazzly's own page concedes it is Reddit only and offers a free trial, not a free plan.",
+   "His Indie Hackers interview says part of his earlier revenue was one-time payments inside the platform: $5k MRR plus $2.5k in monthly expansion revenue. That is not recurring."
+  ],
+  "facts": [
+   "1,235 brands had been set up in Bazzly by October 12, 2026 (/is-bazzly-legit).",
+   "It has an MCP server (Streamable HTTP), a REST API and a Chrome extension (compare pages and /is-bazzly-legit).",
+   "Bazzly's compare page says CrowdReply charges $7 to $10 per comment, against 17 warmed-account comments included in Bazzly's $199.",
+   "An Indie Hackers headline says he reached $7.5k/mo in 12 months. That figure was MRR plus expansion revenue, as noted above.",
+   "Founder X post: 'almost every day people are switching from our competitors to Bazzly' (self-reported)."
+  ],
+  "do_not_claim": [
+   "Profit, margins or costs",
+   "Team size beyond Filip and Tibo, or any equity or ownership split",
+   "What the '4 things' behind $100 to $15k MRR were, or what the new $1k to $5k offer was",
+   "Any virality: the founder says 'nothing viral happened'",
+   "That Bazzly is bootstrapped or has no funding (no source states it)",
+   "That Reddit comments never get banned or removed. 'Zero ban risk' is marketing copy, and the site itself offers removal refunds.",
+   "Exact traffic or conversion numbers",
+   "That the affiliate program or Tibo's post drove any specific revenue number",
+   "The $19, $39 or $99 prices as current. They are from older third-party pages."
+  ],
+  "real_pages": [
+   {
+    "url": "https://trustmrr.com/startup/bazzly",
+    "show": "$35,130",
+    "kind": "site"
+   },
+   {
+    "url": "https://bazzly.ai",
+    "show": "",
+    "kind": "site"
+   },
+   {
+    "url": "https://www.bazzly.ai/",
+    "show": "$199",
+    "kind": "site"
+   },
+   {
+    "url": "https://www.bazzly.ai/",
+    "show": "Get Customers From Reddit on Autopilot",
+    "kind": "site"
+   }
+  ],
+  "sources": [
+   "https://www.bazzly.ai/",
+   "https://www.bazzly.ai/about",
+   "https://www.bazzly.ai/is-bazzly-legit",
+   "https://www.bazzly.ai/compare/crowdreply",
+   "https://www.bazzly.ai/best-reddit-monitoring-tools",
+   "https://www.indiehackers.com/post/tech/after-five-failed-products-this-founder-quit-his-job-and-hit-7-5k-mo-in-12-months-xaDBfmynasknHQkim3sO",
+   "https://www.indiehackers.com/post/i-didnt-build-an-audience-i-built-a-system-AwMFRZ9xB1XNfUT4X8Pz",
+   "https://www.indiehackers.com/filippanoski",
+   "https://x.com/tibo_maker/status/2104647092413276215",
+   "https://x.com/FilipPanoski/status/2084278299669250495",
+   "https://x.com/FilipPanoski/status/2029210401934610590",
+   "https://twitter.com/FilipPanoski",
+   "https://www.kaijubeam.com/",
+   "https://runbyte.tech/blog/bazzly-alternative-runbyte-comparison",
+   "https://www.uneed.best/tool/bazzly",
+   "https://bestreddit.tools/tool/bazzly"
+  ],
+  "notes": "Use the TrustMRR figures for revenue (MRR $35,130, 190 subscriptions). Founder bios and posts show older, stale MRR numbers ($15k, $17k, $23k), so don't quote them as current. The official price is $199/month; many third-party sites still show $99 or $19. The founder is on X as @FilipPanoski, and the TrustMRR record's founder_x field was empty. The competitor-run sites (RunByte, Reppit) are biased sources. Treat the claim that Tibo's X post sent a wave of traffic as secondhand. Bazzly's 'best of' rankings are self-ranked. Safe hook: a solo founder who failed at 5+ products over 7 years and sat at $100 MRR for 6 months, now at $35k MRR by dogfooding Reddit marketing.",
+  "_searched": 3,
+  "trustmrr": {
+   "name": "Bazzly",
+   "one_liner": "Get customers from Reddit on autopilot 🔥",
+   "website": "https://bazzly.ai",
+   "founder": "Filip Panoski",
+   "founder_x": "",
+   "founded": "June 2025",
+   "location": "United States",
+   "category": "Marketing, Saas, Productivity",
+   "audience": "Solo founders and small teams (B2B, ~1,616 users)",
+   "pricing": "$199/month",
+   "revenue_last_30_days": "$38,604",
+   "revenue_all_time": "$98,496",
+   "mrr": "$35,130",
+   "growth_mom": "137% vs. prev period",
+   "active_subscriptions": "190",
+   "rank": "#639",
+   "for_sale": "",
+   "verified_by": "Stripe API key",
+   "last_updated": "Nov 8, 2026, 08:48 AM",
+   "other": [
+    "Founder has 7,078 followers on 𝕏",
+    "Value proposition: Get Customers From Reddit on Autopilot",
+    "Problem solved: Turns Reddit traffic into customers with zero ban risk.",
+    "Domain Rating: 34/100 (bazzly.ai)",
+    "Tech stack (Backend): Stripe"
+   ],
+   "trustmrr_url": "https://trustmrr.com/startup/bazzly"
+  },
+  "say_numbers_as": [
+   "$38,604 (can be said as: $38K, $39K, $40K)",
+   "$98,496 (can be said as: $100K, $98K)",
+   "$35,130 (can be said as: $35K, $40K)"
+  ]
+ },
+ "kind": "business",
+ "episode": 19,
+ "_ident": {
+  "at": 7.26,
+  "dur": 1.5,
+  "title": "AI HACKS",
+  "type": 0.42,
+  "sub": "EP 19 · BUSINESS BREAKDOWN"
+ },
+ "timeline": {
+  "words": [
+   [
+    "This",
+    0.08
+   ],
+   [
+    "Reddit",
+    0.32
+   ],
+   [
+    "tool",
+    0.72
+   ],
+   [
+    "made",
+    1.04
+   ],
+   [
+    "$38K",
+    1.36
+   ],
+   [
+    "in",
+    2.0
+   ],
+   [
+    "30",
+    3.24
+   ],
+   [
+    "days,",
+    3.6
+   ],
+   [
+    "with",
+    4.24
+   ],
+   [
+    "under",
+    4.48
+   ],
+   [
+    "$100K",
+    4.72
+   ],
+   [
+    "total",
+    5.28
+   ],
+   [
+    "ever.",
+    6.56
+   ],
+   [
+    "And",
+    8.78
+   ],
+   [
+    "stay",
+    8.94
+   ],
+   [
+    "till",
+    9.153
+   ],
+   [
+    "the",
+    9.34
+   ],
+   [
+    "end,",
+    9.54
+   ],
+   [
+    "because",
+    9.94
+   ],
+   [
+    "the",
+    10.18
+   ],
+   [
+    "one",
+    10.38
+   ],
+   [
+    "move",
+    10.62
+   ],
+   [
+    "behind",
+    10.86
+   ],
+   [
+    "it",
+    11.18
+   ],
+   [
+    "is",
+    11.5
+   ],
+   [
+    "something",
+    11.78
+   ],
+   [
+    "you",
+    12.14
+   ],
+   [
+    "can",
+    12.38
+   ],
+   [
+    "copy",
+    12.62
+   ],
+   [
+    "today.",
+    12.94
+   ],
+   [
+    "It's",
+    13.5
+   ],
+   [
+    "called",
+    13.78
+   ],
+   [
+    "Bazzly.",
+    13.98
+   ],
+   [
+    "It",
+    14.887
+   ],
+   [
+    "finds",
+    15.06
+   ],
+   [
+    "Reddit",
+    15.34
+   ],
+   [
+    "posts",
+    15.66
+   ],
+   [
+    "where",
+    16.06
+   ],
+   [
+    "your",
+    16.22
+   ],
+   [
+    "SaaS",
+    16.34
+   ],
+   [
+    "fits,",
+    16.7
+   ],
+   [
+    "drafts",
+    17.42
+   ],
+   [
+    "a",
+    17.66
+   ],
+   [
+    "reply,",
+    17.74
+   ],
+   [
+    "and",
+    18.38
+   ],
+   [
+    "posts",
+    18.58
+   ],
+   [
+    "it",
+    18.78
+   ],
+   [
+    "for",
+    18.94
+   ],
+   [
+    "you.",
+    19.22
+   ],
+   [
+    "It",
+    19.473
+   ],
+   [
+    "costs",
+    19.58
+   ],
+   [
+    "$199",
+    20.06
+   ],
+   [
+    "a",
+    20.54
+   ],
+   [
+    "month",
+    21.34
+   ],
+   [
+    "per",
+    21.82
+   ],
+   [
+    "project.",
+    22.22
+   ],
+   [
+    "These",
+    22.986
+   ],
+   [
+    "numbers",
+    23.22
+   ],
+   [
+    "are",
+    23.5
+   ],
+   [
+    "verified",
+    23.9
+   ],
+   [
+    "on",
+    24.22
+   ],
+   [
+    "TrustMRR",
+    24.46
+   ],
+   [
+    "through",
+    25.22
+   ],
+   [
+    "Stripe.",
+    25.42
+   ],
+   [
+    "$35K",
+    26.22
+   ],
+   [
+    "a",
+    26.54
+   ],
+   [
+    "month",
+    26.94
+   ],
+   [
+    "in",
+    27.66
+   ],
+   [
+    "recurring",
+    27.82
+   ],
+   [
+    "revenue,",
+    28.22
+   ],
+   [
+    "190",
+    28.94
+   ],
+   [
+    "subscriptions,",
+    29.1
+   ],
+   [
+    "and",
+    30.62
+   ],
+   [
+    "137%",
+    30.94
+   ],
+   [
+    "growth",
+    31.5
+   ],
+   [
+    "versus",
+    32.98
+   ],
+   [
+    "the",
+    33.26
+   ],
+   [
+    "previous",
+    33.54
+   ],
+   [
+    "period.",
+    34.06
+   ],
+   [
+    "But",
+    34.433
+   ],
+   [
+    "that's",
+    34.54
+   ],
+   [
+    "revenue,",
+    34.86
+   ],
+   [
+    "not",
+    35.58
+   ],
+   [
+    "profit.",
+    36.02
+   ],
+   [
+    "The",
+    36.487
+   ],
+   [
+    "founder,",
+    36.66
+   ],
+   [
+    "Filip",
+    37.1
+   ],
+   [
+    "Panoski,",
+    37.42
+   ],
+   [
+    "failed",
+    38.06
+   ],
+   [
+    "at",
+    38.3
+   ],
+   [
+    "5+",
+    38.62
+   ],
+   [
+    "products",
+    38.94
+   ],
+   [
+    "over",
+    39.66
+   ],
+   [
+    "7",
+    40.14
+   ],
+   [
+    "years.",
+    40.58
+   ],
+   [
+    "Then",
+    41.073
+   ],
+   [
+    "he",
+    41.26
+   ],
+   [
+    "sat",
+    41.42
+   ],
+   [
+    "at",
+    41.58
+   ],
+   [
+    "$100",
+    41.9
+   ],
+   [
+    "a",
+    42.38
+   ],
+   [
+    "month",
+    42.66
+   ],
+   [
+    "for",
+    43.14
+   ],
+   [
+    "6",
+    43.34
+   ],
+   [
+    "months.",
+    43.86
+   ],
+   [
+    "When",
+    44.247
+   ],
+   [
+    "growth",
+    44.38
+   ],
+   [
+    "got",
+    44.74
+   ],
+   [
+    "slow,",
+    45.1
+   ],
+   [
+    "he",
+    45.393
+   ],
+   [
+    "launched",
+    45.5
+   ],
+   [
+    "a",
+    45.9
+   ],
+   [
+    "new",
+    45.98
+   ],
+   [
+    "offer",
+    46.22
+   ],
+   [
+    "and",
+    46.62
+   ],
+   [
+    "went",
+    46.78
+   ],
+   [
+    "from",
+    47.06
+   ],
+   [
+    "$1K",
+    47.26
+   ],
+   [
+    "to",
+    47.46
+   ],
+   [
+    "$5K",
+    47.82
+   ],
+   [
+    "a",
+    49.38
+   ],
+   [
+    "month",
+    49.5
+   ],
+   [
+    "in",
+    49.82
+   ],
+   [
+    "two",
+    50.14
+   ],
+   [
+    "months.",
+    50.54
+   ],
+   [
+    "The",
+    50.929
+   ],
+   [
+    "catch?",
+    51.02
+   ],
+   [
+    "The",
+    51.713
+   ],
+   [
+    "space",
+    51.82
+   ],
+   [
+    "is",
+    52.14
+   ],
+   [
+    "crowded,",
+    52.42
+   ],
+   [
+    "cheaper",
+    53.02
+   ],
+   [
+    "rivals",
+    53.34
+   ],
+   [
+    "exist,",
+    53.94
+   ],
+   [
+    "and",
+    54.3
+   ],
+   [
+    "Reddit",
+    54.54
+   ],
+   [
+    "moderators",
+    54.86
+   ],
+   [
+    "can",
+    55.5
+   ],
+   [
+    "remove",
+    55.66
+   ],
+   [
+    "promotional",
+    56.1
+   ],
+   [
+    "comments.",
+    56.94
+   ],
+   [
+    "Here's",
+    57.55
+   ],
+   [
+    "the",
+    57.74
+   ],
+   [
+    "move.",
+    58.22
+   ],
+   [
+    "He",
+    58.78
+   ],
+   [
+    "sells",
+    58.9
+   ],
+   [
+    "Reddit",
+    59.26
+   ],
+   [
+    "marketing,",
+    59.58
+   ],
+   [
+    "and",
+    60.193
+   ],
+   [
+    "he",
+    60.3
+   ],
+   [
+    "got",
+    60.58
+   ],
+   [
+    "customers",
+    60.78
+   ],
+   [
+    "by",
+    61.34
+   ],
+   [
+    "doing",
+    61.62
+   ],
+   [
+    "Reddit",
+    61.9
+   ],
+   [
+    "marketing",
+    62.26
+   ],
+   [
+    "himself,",
+    62.54
+   ],
+   [
+    "every",
+    63.42
+   ],
+   [
+    "day.",
+    63.82
+   ],
+   [
+    "No",
+    64.3
+   ],
+   [
+    "audience,",
+    64.58
+   ],
+   [
+    "no",
+    65.18
+   ],
+   [
+    "newsletter,",
+    65.66
+   ],
+   [
+    "no",
+    66.14
+   ],
+   [
+    "Product",
+    66.46
+   ],
+   [
+    "Hunt",
+    66.7
+   ],
+   [
+    "launch.",
+    67.14
+   ],
+   [
+    "Just",
+    67.5
+   ],
+   [
+    "a",
+    67.9
+   ],
+   [
+    "daily",
+    68.113
+   ],
+   [
+    "system",
+    68.46
+   ],
+   [
+    "in",
+    68.78
+   ],
+   [
+    "front",
+    68.94
+   ],
+   [
+    "of",
+    69.1
+   ],
+   [
+    "the",
+    69.26
+   ],
+   [
+    "right",
+    69.46
+   ],
+   [
+    "people.",
+    69.66
+   ],
+   [
+    "Would",
+    70.362
+   ],
+   [
+    "you",
+    70.46
+   ],
+   [
+    "build",
+    70.62
+   ],
+   [
+    "this",
+    70.86
+   ],
+   [
+    "or",
+    71.26
+   ],
+   [
+    "buy",
+    71.42
+   ],
+   [
+    "it?",
+    71.58
+   ],
+   [
+    "Send",
+    72.06
+   ],
+   [
+    "this",
+    72.3
+   ],
+   [
+    "to",
+    72.42
+   ],
+   [
+    "the",
+    72.54
+   ],
+   [
+    "friend",
+    72.74
+   ],
+   [
+    "who",
+    72.94
+   ],
+   [
+    "keeps",
+    73.1
+   ],
+   [
+    "planning",
+    73.633
+   ],
+   [
+    "their",
+    74.14
+   ],
+   [
+    "startup.",
+    74.38
+   ],
+   [
+    "Hack",
+    75.1
+   ],
+   [
+    "saved?",
+    75.34
+   ]
+  ],
+  "duration": 76.0,
+  "ident": {
+   "at": 7.26,
+   "dur": 1.5,
+   "title": "AI HACKS",
+   "type": 0.42,
+   "sub": "EP 19 · BUSINESS BREAKDOWN"
+  },
+  "scenes": [
+   {
+    "t": 0.0,
+    "shows": [
+     "footage:lib_man_staring_at_phone_in",
+     "title_slam:$38K"
+    ]
+   },
+   {
+    "t": 8.78,
+    "shows": [
+     "object3d:",
+     "pill:STAY FOR THE MOVE"
+    ]
+   },
+   {
+    "t": 13.5,
+    "shows": [
+     "footage:real_2_phone",
+     "pill:BAZZLY.AI"
+    ]
+   },
+   {
+    "t": 14.89,
+    "shows": [
+     "screen:How it works"
+    ]
+   },
+   {
+    "t": 19.47,
+    "shows": [
+     "footage:real_3_web",
+     "pill:$199/MONTH"
+    ]
+   },
+   {
+    "t": 22.99,
+    "shows": [
+     "label:TRUSTMRR.COM",
+     "footage:real_1_web",
+     "pill:VERIFIED"
+    ]
+   },
+   {
+    "t": 26.22,
+    "shows": [
+     "object3d:",
+     "stat_row:",
+     "pill:REVENUE ≠ PROFIT"
+    ]
+   },
+   {
+    "t": 36.49,
+    "shows": [
+     "headline:FILIP PANOSKI",
+     "stat_row:"
+    ]
+   },
+   {
+    "t": 41.07,
+    "shows": [
+     "footage:lib_professional_working_on_laptop_late",
+     "headline:$100/MO"
+    ]
+   },
+   {
+    "t": 44.25,
+    "shows": [
+     "label:WHEN GROWTH STALLED",
+     "pill:NEW OFFER",
+     "arrow_pair:"
+    ]
+   },
+   {
+    "t": 50.93,
+    "shows": [
+     "headline:THE CATCH",
+     "strike_list:"
+    ]
+   },
+   {
+    "t": 57.55,
+    "shows": [
+     "object3d:",
+     "headline:USE YOUR OWN PRODUCT"
+    ]
+   },
+   {
+    "t": 64.3,
+    "shows": [
+     "label:WHAT HE DIDN'T NEED",
+     "strike_list:"
+    ]
+   },
+   {
+    "t": 67.5,
+    "shows": [
+     "footage:lib_fingers_typing_on_laptop_keyboard",
+     "headline:DAILY SYSTEM"
+    ]
+   },
+   {
+    "t": 70.36,
+    "shows": [
+     "vs:"
+    ]
+   }
+  ],
+  "beats": [
+   2.28,
+   6.63,
+   21.52,
+   33.18,
+   49.2,
+   56.05,
+   60.2
+  ]
+ }
+}

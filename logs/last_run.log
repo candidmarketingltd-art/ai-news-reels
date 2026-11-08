@@ -4,12 +4,30 @@
   BUFFER_API_KEY: set
   BUFFER_CHANNEL_ID: set
       voice: Rohan 0ynj1kxK93EAXGRqL9Rm (found by name in this workspace)
-window 2026-11-08-1700 | posting times 13:00, 17:00, 20:00 IST | dry_run=False
-      reel type: meme
-[1/3] trending audio + Claude news this week
-      12 trending songs, 8 news items
-[2/3] meme line
-      “client: it's just a few small tweaks, shouldn't take long / the tweaks:” on lib_person_speaking_into_phone,lib_hand_dropping_papers_on_desk · song: Luminary — Joel Sunny
-[3/3] render
-      [buffer] reminder post 6af05ddd562f2e6de9b52f57 (customScheduled)
-REMINDER SENT 6af05ddd562f2e6de9b52f57
+window 2026-11-08-2000 | posting times 13:00, 17:00, 20:00 IST | dry_run=False
+      reel type: business
+      b-roll library: 25 clips
+      recording request #1: still waiting for the video
+      recording request #2: still waiting for the video
+[1/6] businesses making money (TrustMRR)
+      trustmrr: 230 startups from 11 lists
+[2/6] picking the business
+      → bazzly: A tool that gets customers from Reddit on autopilot hit $40K in 30 days, and the whole business is under $100K total revenue — A fast-growing, copyable growth tactic (Reddit marketing) with a simple product that has a public site. It's a different angle from the soci
+[3/6] research: Bazzly · MRR $35,130 · 30d $38,604
+[4/6] script + edit
+      real screens: 4 usable of 6 captured from 3 official pages
+      (media: pexels 'typing on laptop' failed: 403 Client Error: Forbidden for url: https://api.apify.com/v2/acts/memo23~pexels)
+      (media: pexels 'startup founder working' failed: 403 Client Error: Forbidden for url: https://api.apify.com/v2/acts/memo23~pexels)
+      media: s1_image
+[5/6] voice + render
+      [eleven] subscription: 200 {"tier":"creator","character_count":20141,"character_limit":131000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796464027,"voice_slots_used":1,"professional_voice_slots
+      [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
+      voice check: 1 word(s) misheard [('', 'plus')] -> recording another take
+      [eleven] subscription: 200 {"tier":"creator","character_count":20141,"character_limit":131000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796464027,"voice_slots_used":1,"professional_voice_slots
+      [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
+      take 2: 2 misheard [('', 'f'), ('', 'plus')]
+      196 words, 74.5s, voice eleven_v4
+      remotion: Reel /tmp/tmp7van8_nn/video_only.mp4
+[6/6] publish
+      [buffer] created post 6af08a229214322f685c2232 (customScheduled)
+POSTED 6af08a229214322f685c2232 https://github.com/candidmarketingltd-art/ai-news-reels/releases/download/reel-2026-11-08_2001/2026-11-08_2001.mp4
