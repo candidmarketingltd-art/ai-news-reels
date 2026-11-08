@@ -1,0 +1,37 @@
+{
+ "shots": [
+  {
+   "clip": "lib_person_speaking_into_phone",
+   "text": "client: it's just a few small tweaks, shouldn't take long",
+   "seconds": 2.5
+  },
+  {
+   "clip": "lib_hand_dropping_papers_on_desk",
+   "text": "the tweaks:",
+   "seconds": 4.0
+  }
+ ],
+ "style": "meme",
+ "song": {
+  "title": "Luminary",
+  "artist": "Joel Sunny",
+  "mood": "dramatic",
+  "trend": "Epic, dramatic reveals. It's Reels-only and rising.",
+  "source": "https://creatordb.app/free-tools/trending-instagram-audio/",
+  "list_date": "Nov 4, 2026",
+  "snippet": "Use the most-used snippet, and land the build-up's hit on the cut to the paper drop.",
+  "why": "It's an epic dramatic-reveal audio, so the 'small tweaks' stack landing on an already huge pile plays as the big reveal."
+ },
+ "backup_song": {
+  "title": "November Rain",
+  "artist": "Guns N' Roses"
+ },
+ "caption": "\"just a few small tweaks\" is the most expensive sentence in freelancing 😭\n\ntag the client who said it. be honest, how many 'small tweaks' deep are you right now?\n\n#freelancerlife #clientproblems #marketingmemes #agencylife #founderlife #aimemes",
+ "cover_word": "small tweaks",
+ "text": "client: it's just a few small tweaks, shouldn't take long / the tweaks:",
+ "clip": "lib_person_speaking_into_phone,lib_hand_dropping_papers_on_desk",
+ "clip_paths": {
+  "lib_hand_dropping_papers_on_desk": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+  "lib_person_speaking_into_phone": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4"
+ }
+}
