@@ -1,0 +1,1732 @@
+{
+ "voiceover": "[conversational] Your AI-built landing page screams \"AI made this\", and visitors notice.\n\nAnd fixing it takes one extra file most people skip.\n\nSparkle logos, \"Revolutionize Your Workflow\", a fake \"10,000% ROI\".\n\n[confident] It's called Anti Slop. Free, open source, MIT licensed. On their GitHub page you'll see almost 40 rules, and a pass or fail report before anything ships.\n\nStep 1, open a terminal in your project folder. Step 2, run npx skills add miqdadbadjuber/anti-slop and pick Claude Code. Step 3, start a session and choose \"During\" to build, or \"After\" to audit an existing page.\n\n[serious] It's a filter, not a designer. It stops fake stats and words like \"Seamless\", but it won't give you a look.\n\n[whispers] The extra file is DESIGN.md. Describe your look there, and that's what makes it yours.\n\nWorth it if you ship AI-built pages.\n\nWhat's the cringiest line AI ever wrote on your site? Send this to the friend who builds every page with AI. Hack saved?",
+ "open_loop": {
+  "setup": "And fixing it takes one extra file most people skip.",
+  "payoff": "The extra file is DESIGN.md."
+ },
+ "title": "STOP THE AI SLOP",
+ "ig_caption": "Your AI-built landing page screams \"AI made this\" 👀\n✅ Open a terminal in your project folder\n✅ Run: npx skills add miqdadbadjuber/anti-slop (pick Claude Code)\n✅ Choose \"During\" to build or \"After\" to audit a page\n✅ Add a DESIGN.md so the look is yours\nWhat's the cringiest line AI ever wrote on your site?\nSave this for later 🔖\nFollow @ihackgrowth for daily business & growth hacks",
+ "media_hints": {
+  "domain": "github.com",
+  "broll": [
+   "typing on laptop",
+   "person frustrated at desk",
+   "website design screen"
+  ]
+ },
+ "hashtags": [
+  "#AIhacks",
+  "#AItools",
+  "#ClaudeCode",
+  "#AntiSlop",
+  "#WebDesign",
+  "#LandingPage",
+  "#OpenSource",
+  "#productivity"
+ ],
+ "tag": "ANTI SLOP",
+ "keywords": [
+  "landing",
+  "visitors",
+  "Sparkle",
+  "Revolutionize",
+  "fake",
+  "Anti",
+  "Slop",
+  "GitHub",
+  "rules",
+  "terminal",
+  "npx",
+  "Claude",
+  "During",
+  "After",
+  "filter",
+  "Seamless",
+  "DESIGN.md",
+  "cringiest"
+ ],
+ "music": "warning",
+ "hud": {
+  "label": "YOUR PAGE",
+  "items": [
+   {
+    "value": "AI SLOP",
+    "color": "red"
+   },
+   {
+    "at": "Step 1,",
+    "value": "STEP 1/3",
+    "color": "gold"
+   },
+   {
+    "at": "Step 2,",
+    "value": "STEP 2/3",
+    "color": "gold"
+   },
+   {
+    "at": "Step 3,",
+    "value": "STEP 3/3",
+    "color": "gold"
+   },
+   {
+    "at": "is DESIGN.md.",
+    "value": "ORIGINAL",
+    "color": "green"
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "at": "Your AI-built",
+   "tint": "red",
+   "react": [
+    {
+     "at": "screams",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Your AI-built",
+     "media": "lib_man_shaking_head_at_phone",
+     "full": true
+    },
+    {
+     "type": "title_slam",
+     "at": "Your AI-built",
+     "text": "AI MADE THIS",
+     "color": "red"
+    },
+    {
+     "type": "pill",
+     "at": "and visitors",
+     "text": "VISITORS NOTICE",
+     "color": "red",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "And fixing",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "And fixing",
+     "kind": "padlock",
+     "size": "l",
+     "caption": "1 EXTRA FILE",
+     "caption_at": "one extra"
+    },
+    {
+     "type": "pill",
+     "at": "most people",
+     "text": "MOST PEOPLE SKIP IT",
+     "color": "gold",
+     "outline": true
+    },
+    {
+     "type": "label",
+     "at": "people skip.",
+     "text": "STAY FOR THE FILE",
+     "color": "muted"
+    }
+   ]
+  },
+  {
+   "at": "Sparkle logos,",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Sparkle logos,",
+     "text": "SPOT THE SLOP",
+     "color": "red"
+    },
+    {
+     "type": "screen",
+     "at": "Sparkle logos,",
+     "device": "web",
+     "url": "nexora-ai.com",
+     "app": "Landing page",
+     "steps": [
+      {
+       "at": "Sparkle logos,",
+       "view": {
+        "kind": "page",
+        "site": "✨ Nexora AI",
+        "nav": [
+         "Features",
+         "Pricing",
+         "About"
+        ],
+        "heading": "Revolutionize Your Workflow",
+        "sub": "Seamless AI-powered synergy",
+        "buttons": [
+         "Get Started ✨"
+        ],
+        "cards": [
+         {
+          "title": "10,000% ROI",
+          "text": "Unlock limitless growth"
+         }
+        ],
+        "dark": true,
+        "accent": "#8b5cf6"
+       },
+       "action": {
+        "kind": "point",
+        "target": "Get Started ✨",
+        "at": "Revolutionize Your"
+       }
+      },
+      {
+       "at": "a fake",
+       "view": {
+        "kind": "page",
+        "site": "✨ Nexora AI",
+        "nav": [
+         "Features",
+         "Pricing",
+         "About"
+        ],
+        "heading": "Revolutionize Your Workflow",
+        "sub": "Seamless AI-powered synergy",
+        "buttons": [
+         "Get Started ✨"
+        ],
+        "cards": [
+         {
+          "title": "10,000% ROI",
+          "text": "Unlock limitless growth"
+         }
+        ],
+        "dark": true,
+        "accent": "#8b5cf6"
+       },
+       "action": {
+        "kind": "point",
+        "target": "10,000% ROI",
+        "at": "a fake"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "It's called",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "It's called",
+     "media": "real_1_phone",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "Free, open",
+     "text": "FREE · OPEN SOURCE",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "On their",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "almost 40",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "footage",
+     "at": "On their",
+     "media": "real_1_web",
+     "tall": true
+    },
+    {
+     "type": "stat_row",
+     "at": "almost 40",
+     "cards": [
+      {
+       "label": "RULES",
+       "value": "40",
+       "at": "40 rules,",
+       "color": "gold"
+      },
+      {
+       "label": "BEFORE SHIP",
+       "value": "PASS",
+       "sub": "OR FAIL",
+       "at": "pass or",
+       "color": "green",
+       "glow": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Step 1,",
+   "react": [
+    {
+     "at": "Step 1,",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Step 1,",
+     "device": "desktop",
+     "step": "Step 1 · Open a terminal",
+     "app": "Finder",
+     "steps": [
+      {
+       "at": "Step 1,",
+       "view": {
+        "kind": "files",
+        "window": "my-landing-page",
+        "path": "Documents › my-landing-page",
+        "items": [
+         {
+          "name": "index.html",
+          "type": "file"
+         },
+         {
+          "name": "styles.css",
+          "type": "file"
+         },
+         {
+          "name": "assets",
+          "type": "folder"
+         }
+        ],
+        "toolbar": [
+         "Open in Terminal"
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "Open in Terminal",
+        "at": "a terminal"
+       }
+      },
+      {
+       "at": "project folder.",
+       "view": {
+        "kind": "terminal",
+        "window": "Terminal",
+        "lines": [
+         "$ cd ~/my-landing-page",
+         "~/my-landing-page $"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Step 2,",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Step 2,",
+     "device": "desktop",
+     "step": "Step 2 · Install the skill",
+     "app": "Terminal",
+     "steps": [
+      {
+       "at": "Step 2,",
+       "view": {
+        "kind": "terminal",
+        "window": "Terminal",
+        "lines": [
+         "~/my-landing-page $"
+        ]
+       },
+       "action": {
+        "kind": "type",
+        "target": "terminal",
+        "text": "npx skills add miqdadbadjuber/anti-slop",
+        "at": "run npx"
+       }
+      },
+      {
+       "at": "and pick",
+       "view": {
+        "kind": "terminal",
+        "window": "Terminal",
+        "lines": [
+         "$ npx skills add miqdadbadjuber/anti-slop",
+         "? Pick your agent",
+         "› Claude Code"
+        ]
+       },
+       "action": {
+        "kind": "point",
+        "target": "terminal",
+        "at": "Claude Code."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Step 3,",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Step 3,",
+     "device": "desktop",
+     "step": "Step 3 · Pick a mode",
+     "app": "Claude Code",
+     "steps": [
+      {
+       "at": "Step 3,",
+       "view": {
+        "kind": "terminal",
+        "window": "Terminal",
+        "lines": [
+         "~/my-landing-page $"
+        ]
+       },
+       "action": {
+        "kind": "type",
+        "target": "terminal",
+        "text": "claude",
+        "at": "a session"
+       }
+      },
+      {
+       "at": "and choose",
+       "view": {
+        "kind": "checklist",
+        "window": "Claude Code",
+        "title": "Antislop mode",
+        "items": [
+         {
+          "label": "During",
+          "sub": "build with the rules"
+         },
+         {
+          "label": "After",
+          "sub": "audit an existing page"
+         }
+        ]
+       },
+       "action": {
+        "kind": "toggle",
+        "target": "During",
+        "at": "to build,"
+       }
+      },
+      {
+       "at": "to audit",
+       "view": {
+        "kind": "checklist",
+        "window": "Claude Code",
+        "title": "Antislop mode",
+        "items": [
+         {
+          "label": "During",
+          "sub": "build with the rules",
+          "checked": true
+         },
+         {
+          "label": "After",
+          "sub": "audit an existing page"
+         }
+        ]
+       },
+       "action": {
+        "kind": "toggle",
+        "target": "After",
+        "at": "existing page."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "It's a filter,",
+   "tint": "red",
+   "react": [
+    {
+     "at": "a filter,",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "headline",
+     "at": "It's a filter,",
+     "text": "FILTER, NOT DESIGNER",
+     "size": "m",
+     "ill": "shield"
+    },
+    {
+     "type": "strike_list",
+     "at": "stops fake",
+     "items": [
+      {
+       "text": "FAKE STATS",
+       "at": "stops fake"
+      },
+      {
+       "text": "\"SEAMLESS\"",
+       "at": "words like"
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "at": "won't give",
+     "text": "NO LOOK INCLUDED",
+     "color": "red",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "The extra",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "The extra",
+     "kind": "padlock",
+     "size": "l",
+     "act": "open",
+     "act_at": "is DESIGN.md.",
+     "caption": "DESIGN.md",
+     "caption_at": "is DESIGN.md."
+    }
+   ]
+  },
+  {
+   "at": "Describe your",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Describe your",
+     "device": "desktop",
+     "app": "DESIGN.md",
+     "steps": [
+      {
+       "at": "Describe your",
+       "view": {
+        "kind": "doc",
+        "title": "DESIGN.md",
+        "lines": [
+         "# Our look"
+        ],
+        "toolbar": [
+         "Bold",
+         "Heading",
+         "List"
+        ]
+       },
+       "action": {
+        "kind": "type",
+        "target": "doc",
+        "text": "Warm cream background, hand-drawn icons, plain words.",
+        "at": "look there,"
+       }
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "at": "makes it yours.",
+     "text": "MAKES IT YOURS",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "Worth it",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Worth it",
+     "media": "real_2_phone",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "Worth it",
+     "text": "BEFORE → AFTER",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "What's the",
+   "react": [
+    {
+     "at": "cringiest line",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "headline",
+     "at": "What's the",
+     "text": "CRINGIEST AI LINE?",
+     "size": "l",
+     "ill": "speech_balloon",
+     "sub": "COMMENT BELOW",
+     "sub_at": "on your site?"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "Send this",
+  "line1": "Send this to",
+  "line1_at": "Send this",
+  "line2": "the AI page builder",
+  "line2_at": "with AI."
+ },
+ "endcard": {
+  "title": "Hack saved?",
+  "terminal": "> antislop.installed · 0 slop"
+ },
+ "media": [
+  {
+   "id": "real_1_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-08_1302/real_1_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-08_1302/real_1_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: github.com",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the gold-outlined part — Phone view of the GitHub repo page miqdadbadjuber/anti-slop (Public). Tabs: Code, Issues 1, More. Buttons: Notifications, Fork 581, star. About: 'Rules for an AI coding agent to filter out generic AI-generated UI designs, text, and code.' Link antislop.ai.id. Topic tags: accessibility, agent-skills, [Screen: github.com]"
+  },
+  {
+   "id": "real_1_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-08_1302/real_1_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-08_1302/real_1_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: github.com",
+   "desc": "REAL desktop screen recording, pushes in on the gold-outlined part — Desktop GitHub README view, tabs README, Code of conduct, Contributing, MIT license, Security. Shows install snippets 'pi install git:github.com/miqdadbadjuber/anti-slop' and 'curl -o antislop.md https://raw.githubusercontent.com/miqdadbadjuber/anti-slop/main/antislop.md'. Section 'What it does' is  [Screen: github.com]"
+  },
+  {
+   "id": "real_2_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-08_1302/real_2_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-08_1302/real_2_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: antislop.ai.id",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the page (no highlight) — Phone view of antislop.ai.id. Header has '/antislop' logo, 'Install antislop' button and 'Menu'. The top hero area is mostly empty dark space. Below is a pill tab switcher: Default AI, Antislop Only, DESIGN.md Only, Antislop+. 'Section 01 • User Interface — Before & After: UI Design.' with the text  [Screen: antislop.ai.id]"
+  },
+  {
+   "id": "real_3_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-08_1302/real_3_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-08_1302/real_3_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: github.com",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the gold-outlined part — Phone view of GUIDE.md in the GitHub repo miqdadbadjuber/anti-slop on branch main, committed by miqdadbadjuber 3 days ago, 767 lines (487 loc), 43.2 KB. Preview/Code/Blame tabs. Highlighted heading 'The antislop guide'. Text: 'antislop is a set of rules and optional skills for the AI assistant you a [Screen: github.com]"
+  },
+  {
+   "id": "real_3_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-08_1302/real_3_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-08_1302/real_3_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: github.com",
+   "desc": "REAL desktop screen recording, pushes in on the gold-outlined part — Desktop GitHub view of GUIDE.md in anti-slop (branch main). Commit message 'v3.2.26: three copywriting patterns from community PR #57', 3 days ago. Tabs: Code, Issues 1, Pull requests 1, Actions, Security and quality, Insights. File tree shows folders .agents, .claude-plugin, .cline-plugin, .codex-p [Screen: github.com]"
+  },
+  {
+   "id": "lib_camera_moving_down_server_corridor",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "credit": "",
+   "file": "camera_moving_down_server_corridor.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow forward push down a hazy, fog-filled data center aisle lined with server racks that glow with blue and amber status lights, giving a moody, futuristic feel. Good for: A script line about the infrastructure behind AI, such as cloud computing, model training, heavy compute, data storage, or 'what happens behind the scenes'."
+  },
+  {
+   "id": "lib_clock_ticking_and_person_typing",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "credit": "",
+   "file": "clock_ticking_and_person_typing.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A rack-focus shot moves from a close-up of a black twin-bell alarm clock with ticking hands to a bearded man in a light polo typing on a laptop in a dim room, giving a tense, time-pressured mood. Good for: lines about deadlines, time slipping away, long hours of manual work, or the pressure of slow, tedious tasks before an AI tool speeds things up"
+  },
+  {
+   "id": "lib_colleagues_collaborating_around",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "credit": "",
+   "file": "colleagues_collaborating_around.mp4",
+   "frames": 126,
+   "desc": "B-roll (4.2s, VERTICAL 9:16 — best as full: true): colleagues collaborating around Good for: "
+  },
+  {
+   "id": "lib_content_creator_sets_up_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "credit": "",
+   "file": "content_creator_sets_up_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt stands behind a ring light with a phone on a tripod, adjusting the setup while the camera slowly pushes in until his face fills the frame, with a calm, focused mood and moody blue ambient lighting in the background. Good for: setting up to create content, getting started as a creator, or preparing equipment before recording a tutorial"
+  },
+  {
+   "id": "lib_eye_reflecting_laptop_screen_glow",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "credit": "",
+   "file": "eye_reflecting_laptop_screen_glow.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow zoom into an extreme close-up of a brown eye with a bright blue screen reflected in the pupil, framed by a thick eyebrow and warm skin tones, fading into a cool blue gradient at the bottom, with a focused, intense and cinematic mood. Good for: lines about being glued to a screen, intense focus or attention, watching AI work, or 'seeing' a new opportunity or insight"
+  },
+  {
+   "id": "lib_fingers_typing_on_laptop_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "credit": "",
+   "file": "fingers_typing_on_laptop_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): Close-up over-the-shoulder shot of a person typing on a backlit laptop keyboard, with a blurred blue screen in the background and a warm, focused, productive mood. Good for: lines about getting started, writing prompts or code, doing focused work at the computer, or the hands-on steps of a tutorial"
+  },
+  {
+   "id": "lib_hand_dropping_papers_on_desk",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "credit": "",
+   "file": "hand_dropping_papers_on_desk.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a green shirt carries and then drops a thick stack of papers onto an already huge, messy pile of documents with sticky notes on a cluttered desk, while a laptop glows nearby, and the camera pushes in to a close-up of the towering stack, creating a mood of overwhelm and tedious paperwork. Good for: a script line about drowning in manual paperwork or document processing, setting up how AI can automate summarizing, sorting, or extracting information from piles of documents"
+  },
+  {
+   "id": "lib_man_looking_at_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "credit": "",
+   "file": "man_looking_at_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt scowls with intense focus at a laptop in a dim, warmly lit room, then closes his eyes and rubs his hand near his chin in tired frustration. Good for: frustration with slow or difficult work, such as struggling with a tedious task, debugging, or burning out late at night before finding a better way"
+  },
+  {
+   "id": "lib_man_opens_laptop_in_room",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "credit": "",
+   "file": "man_opens_laptop_in_room.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt sits at a laptop in a dimly lit, warmly lit room, and his focused, tense expression builds as he leans toward the screen, which shows blurry blue diagram or flowchart-style blocks, with his fists clenched near his chin in the middle frame. Good for: intense concentration or deep work, such as debugging, building an AI workflow, or struggling with a complex problem"
+  },
+  {
+   "id": "lib_man_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "man_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt stares intently at a laptop screen with blurry blue UI elements floating in front of the camera, then grimaces in frustration and mouths a reaction, and finally tilts his head back in exhausted resignation in a dim, warmly lit room. Good for: frustration with slow, tedious, or failing work, such as waiting on a slow tool, hitting an error, or being exhausted by manual tasks before introducing an AI solution"
+  },
+  {
+   "id": "lib_man_shaking_head_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "credit": "",
+   "file": "man_shaking_head_at_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits in a dark chair looking down at his phone, and his expression shifts from neutral to scrunched-up frustration or confusion, then to a displeased, worried look as he lowers the phone. Good for: frustration or disappointment with a tool or app that isn't working, slow or confusing results, or a bad surprise while checking your phone"
+  },
+  {
+   "id": "lib_man_smiling_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "credit": "",
+   "file": "man_smiling_at_phone.mp4",
+   "frames": 135,
+   "desc": "B-roll (4.5s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a blue smartphone, his expression shifting from neutral to a furrowed-brow frown of confusion and frustration. Good for: a line about frustration with confusing apps or slow tools, or the moment someone hits a problem and doesn't know what to do next"
+  },
+  {
+   "id": "lib_man_studying_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "credit": "",
+   "file": "man_studying_with_laptop.mp4",
+   "frames": 132,
+   "desc": "B-roll (4.4s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits at a desk behind a laptop with a furrowed brow and a frustrated, concentrated look, first staring at the screen, then looking down at an open notebook and writing with a pen, with a warm blurred lamp glowing in the background. Good for: a script line about struggling to understand something complex, frustration with slow or manual work, or the pain of learning a new tool the hard way"
+  },
+  {
+   "id": "lib_man_watching_laptop_waiting",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "credit": "",
+   "file": "man_watching_laptop_waiting.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits at a laptop in a dimly lit room with warm lamp light, resting his chin on his fist with a focused, pensive look, and the camera pushes in closer across the three frames. Good for: a script line about deep thinking, researching or problem-solving, or weighing a decision before trying an AI tool"
+  },
+  {
+   "id": "lib_person_drinking_coffee_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "credit": "",
+   "file": "person_drinking_coffee_with_laptop.mp4",
+   "frames": 93,
+   "desc": "B-roll (3.1s, VERTICAL 9:16 — best as full: true): A bearded man in a green polo sits at a laptop in a modern industrial-style open office, lifting a white cup to his mouth and sipping a hot drink while looking down at the screen, in a calm, focused mood. Good for: a line about taking a breather while the AI does the work, a morning work routine, waiting for a process to finish, or the calm of an automated workflow"
+  },
+  {
+   "id": "lib_person_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "person_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a laptop, his expression moving from concern to a deep frown with glowing blue tear-like effects on his cheeks, then to eyes shut in stress or exhaustion; the mood is frustrated and overwhelmed. Good for: A script line about frustration or overwhelm with a tough task, such as struggling with confusing tools, wasting hours on manual work, or being stuck before finding an AI solution."
+  },
+  {
+   "id": "lib_person_speaking_into_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "credit": "",
+   "file": "person_speaking_into_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt takes a phone call in a modern industrial office with exposed concrete ceilings, moving from a serious, concerned look to a worried talking expression and ending with a relieved, confident smile at the camera. Good for: a script line about getting a surprising call or news, a problem being solved, or the moment of relief after a stressful issue"
+  },
+  {
+   "id": "lib_person_taking_selfie_with_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "credit": "",
+   "file": "person_taking_selfie_with_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt sits in a car holding a blue smartphone up close to his face, and across the clip he leans toward the screen with a furrowed brow, looking skeptical and intensely focused. Good for: a script line about doubting or double-checking AI output, being confused or frustrated by an app or tool, or looking closely at a result on your phone, e.g. 'wait, is this actually right?'"
+  },
+  {
+   "id": "lib_robotic_hand_typing_on_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "credit": "",
+   "file": "robotic_hand_typing_on_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a black robotic hand with segmented, mechanical fingers lowering onto a backlit laptop keyboard and starting to type, shot at shallow depth of field in a warm, softly lit, modern workspace. Good for: A script line about AI doing the work for you, automating repetitive tasks, or AI taking over typing and writing, such as 'let AI handle the busywork' or 'AI writes it for you'."
+  },
+  {
+   "id": "s1_image",
+   "kind": "image",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-08_1302/s1_image.png",
+   "credit": "Image: github.com",
+   "desc": "official image from Anti Slop (\"antislop\"): Rules for AI Coding Agents, by miqdadbadjuber. It is an open-source skill pack with a core skill plus UI, copywriting, human/accessibility, mobile-layout and code-comment skills. (announcement page)"
+  }
+ ],
+ "style": "hisaab",
+ "topic": "Why AI-built websites and landing pages all look the same (glossy logos, 'Revolutionize Your Workflow', made-up '10,000% ROI' numbers) and how to fix it with a free 'anti-slop' rules file for your AI coding agent, so your site looks original and doesn't scare off buyers",
+ "pick": {
+  "index": 25,
+  "topic": "Why AI-built websites and landing pages all look the same (glossy logos, 'Revolutionize Your Workflow', made-up '10,000% ROI' numbers) and how to fix it with a free 'anti-slop' rules file for your AI coding agent, so your site looks original and doesn't scare off buyers",
+  "tool": "Anti Slop skill for Claude Code (free, open-source)",
+  "format": "mistake",
+  "angle": "Your AI-built landing page screams 'AI made this', and visitors notice. Here's the free rule set that fixes it before you publish.",
+  "why": "102k views and 5,361 likes (about 5% like rate) on a 42s reel shows strong resonance. It's on-mix for landing pages and conversion, and the 'AI slop' negative hook is true and checkable. We can show real before/after pages and the skill's rules on screen."
+ },
+ "inspired_by": {
+  "url": "https://www.instagram.com/p/DfGyTzSE4ie/",
+  "owner": "fajarmandorai",
+  "plays": 102630,
+  "likes": 5361,
+  "comments": 38
+ },
+ "research": {
+  "verdict": "adjust",
+  "tool": "Anti Slop (\"antislop\"): Rules for AI Coding Agents, by miqdadbadjuber. It is an open-source skill pack with a core skill plus UI, copywriting, human/accessibility, mobile-layout and code-comment skills.",
+  "availability": "Free, MIT-licensed, open source. It is a text rulebook that runs inside a coding agent: Claude Code, Codex, Cursor, Cline, Gemini CLI, GitHub Copilot and others. It is not region-limited. A single antislop.md file can also be pasted into any chat window.",
+  "steps": [
+   "Open a terminal in your project folder.",
+   "Run: npx skills add miqdadbadjuber/anti-slop (the skills CLI then asks which agent and scope to install for; pick Claude Code).",
+   "Alternative inside Claude Code: /plugin marketplace add https://github.com/miqdadbadjuber/anti-slop, then /plugin install antislop@anti-slop.",
+   "Alternative single file: curl -o antislop.md https://raw.githubusercontent.com/miqdadbadjuber/anti-slop/main/antislop.md. This works in any chat, but the gate is not enforced there.",
+   "Optional but recommended for UI you plan to ship: add a DESIGN.md to the project describing the look you want. The README says it is mandatory for UI you intend to ship.",
+   "Start a session. By default the agent asks which mode to use. 'During' follows the rules while building and ends with the Delivery Gate report. 'After' audits an existing page: it writes a numbered findings list, you approve which to fix, then it gives a follow-up report.",
+   "If Claude Code was already running, you may need to run /reload-skills (per the qai.io listing)."
+  ],
+  "facts": [
+   "The GitHub README currently says: \"40 mandatory rules (R-01 to R-40) in three tiers: Hard Gate, Purpose-Gate, and Quality Locks.\" Older README versions, antislop.ai.id and most articles still say 38 rules (R-01 to R-38).",
+   "The Delivery Gate is a mandatory PASS/FAIL report in four blocks, run before anything ships. Each PASS must be backed by concrete evidence, and delivery without a clean gate counts as a failure.",
+   "There are six skills: antislop (core, always loaded), antislop-ui, antislop-copywriting (headlines, CTAs, tone, fake stats), antislop-human (contrast, keyboard, focus, states), antislop-layoutmobile, and antislop-code (which AI comments to remove and which to keep).",
+   "The repo is MIT-licensed and written in JavaScript. At the time of the search it showed about 8.6k stars and 580 forks. The reel's \"7.6k\" is outdated.",
+   "The README says it is \"a filter, not a style guide\": no prescribed colors, fonts or layouts. Direction comes from your DESIGN.md.",
+   "The README's before/after example describes a generic landing page with a sparkle logo, a \"NEXT-GEN AI 2.0 beta\" pill, and a fake terminal reporting 0.0001ms latency.",
+   "The Hard Gate tier includes honesty, function and accessibility rules such as fake stats and dead links (from the v2.0.0 release notes). The Delivery Gate also checks for AI buzzwords such as AI Powered, Seamless, Revolutionary and Cutting Edge.",
+   "Supported agents per the README FAQ: Claude Code, Codex, Antigravity, OpenCode, Cursor, Cline, Amp, Gemini CLI, Hermes, GitHub Copilot, Kimi Code, Pi and Oh My Pi.",
+   "Other install routes: npx antislop-ai (an interactive installer) and the site antislop.ai.id.",
+   "The latest release at the time of the search was v3.2.21, dated 16 Oct. The qai.io listing shows the skill last changed 1 Nov 2026."
+  ],
+  "do_not_claim": [
+   "Do not say \"7.6k stars\". It is now about 8.5–8.6k and rising. Say \"8k+ stars\", or leave the number out.",
+   "Do not say \"40 rules\" without checking: the repo README and GUIDE say 40, but antislop.ai.id and several articles still say 38. Use \"almost 40 rules\" or \"dozens of rules\".",
+   "Do not say it makes your design original or beautiful by itself. The README says it removes slop and stops there, and that a DESIGN.md supplies the direction. Without DESIGN.md the agent labels UI work a \"draft without direction\".",
+   "Do not say \"the agent is forced to produce a pass/fail report\" as a guarantee. The gate is an instruction the agent follows, and the guide admits nothing enforces it in plain chat apps.",
+   "Do not say it is a single \"rules file\". The main install is a set of six skills. The single antislop.md is a fallback.",
+   "Do not claim it works by running plain \"npx antislop\". The README says that npm name belongs to a different package. The correct commands are npx skills add miqdadbadjuber/anti-slop or npx antislop-ai.",
+   "Do not claim the 'zero comments in code' angle. The code skill removes generic AI comments but keeps valuable ones.",
+   "Do not say the tool is endorsed by Anthropic. It is a third-party community skill. There are also several similarly named but unrelated 'anti-slop' skills (hardikpandya/stop-slop, Nutlope/hallmark, rand/cc-polymath) that should not be confused with this one."
+  ],
+  "criticism": [
+   "It is a filter, not a designer. The README's own 'before/after' notes the plain filter result is 'the slop is gone, but so is the direction', and you must write a DESIGN.md yourself for a finished look.",
+   "Compliance relies on the AI following instructions. The guide says that in a chat paste, the rules are context and nothing enforces them or runs the gate.",
+   "Extra reading load: the UI skill alone is 344 lines (28.4 KB), and the core plus five skills add context tokens. The skill loads on demand, per the TypingMind listing.",
+   "The rules reflect one author's taste, for example banning em dashes and certain gradients. That is not a universal standard.",
+   "The project is young. GitGem tracks it from 12 Aug 2026, and the release history shows rapid change, with multiple releases per week in Sept and Oct. Rule counts and install paths are still changing.",
+   "Third-party advice (TypingMind) says to read the skill source before installing any skill. That is sensible, since skills are instructions your agent executes."
+  ],
+  "ui": {
+   "platforms": "Terminal / CLI (macOS, Windows, Linux) plus GitHub web pages. The skill runs in coding-agent CLIs and IDE agents, not in a phone app.",
+   "apps": [
+    "Terminal (npx)",
+    "Claude Code",
+    "GitHub web (repo README)",
+    "antislop.ai.id website"
+   ],
+   "screens": [
+    "GitHub repo page github.com/miqdadbadjuber/anti-slop: the repo title appears top-left, with the Star and Fork buttons top-right (Star count about 8.6k, Fork about 580). Below is the file list, then the README rendered with the heading 'Anti Slop: Rules for AI Coding Agents'. Near the top of the README are the before/after UI comparison images and the install block with 'npx skills add miqdadbadjuber/anti-slop'. GitHub's default theme follows the system setting (light or dark).",
+    "README 'What it does' section: bullet list with '40 mandatory rules (R-01 to R-40) in three tiers: Hard Gate, Purpose-Gate, and Quality Locks.' and 'A Delivery Gate: a mandatory PASS/FAIL report in four blocks, run before anything ships.' Below it is the 'Skills' table with the columns Skill / Covers / Pick it for. Rows: antislop, antislop-ui, antislop-copywriting, antislop-human, antislop-layoutmobile, antislop-code.",
+    "Terminal: the command 'npx skills add miqdadbadjuber/anti-slop' is typed at the shell prompt. The skills CLI then shows an interactive prompt for choosing the agent (e.g. Claude Code) and the install scope. I could not verify the exact wording or layout of the prompt. Show it only as a real recording, or keep the mock minimal.",
+    "Claude Code session: a terminal chat interface. After installation the agent asks, at the start of a session, whether to use 'During' or 'After' mode (per the GUIDE). Skills are stored under .claude/skills/antislop (per qai.io). The final output ends with a PASS/FAIL list with one line per rule and evidence (e.g. 'R-26 PASS: all buttons have real href/onClick; no dead controls').",
+    "Result view: a landing page that has no sparkle logo, no 'Revolutionize Your Workflow'-style buzzword copy, and no invented ROI numbers, shown beside the slop version. The README's before/after images show this contrast."
+   ]
+  },
+  "visuals": "Best shown as a split screen of a slop landing page (sparkle logo, buzzword headline, '10,000% ROI') against the cleaned-up version, using the repo's own before/after images. Add the install command in a terminal and the PASS/FAIL gate report at the end of a Claude Code session. The real agent output can only be shown with a real screen recording. The terminal install prompt and the gate report are not visible on any public page.",
+  "real_pages": [
+   {
+    "url": "https://github.com/miqdadbadjuber/anti-slop",
+    "show": "40 mandatory rules",
+    "kind": "site"
+   },
+   {
+    "url": "https://github.com/miqdadbadjuber/anti-slop",
+    "show": "npx skills add miqdadbadjuber/anti-slop",
+    "kind": "site"
+   },
+   {
+    "url": "https://antislop.ai.id/",
+    "show": "Rules for AI coding agents",
+    "kind": "site"
+   },
+   {
+    "url": "https://github.com/miqdadbadjuber/anti-slop/blob/main/GUIDE.md",
+    "show": "The antislop guide",
+    "kind": "site"
+   }
+  ],
+  "sources": [
+   "https://github.com/miqdadbadjuber/anti-slop",
+   "https://github.com/miqdadbadjuber/anti-slop/blob/main/README.md",
+   "https://github.com/miqdadbadjuber/anti-slop/blob/main/GUIDE.md",
+   "https://github.com/miqdadbadjuber/anti-slop/blob/main/antislop.md",
+   "https://github.com/miqdadbadjuber/anti-slop/releases",
+   "https://antislop.ai.id/",
+   "https://qai.io/skills/miqdadbadjuber/anti-slop/antislop",
+   "https://dev.to/renolu/anti-slop-is-a-filter-for-ai-coding-agents-not-a-style-guide-and-its-readme-explains-why-that-1m71",
+   "https://www.devpik.com/open-source/anti-slop",
+   "https://www.typingmind.com/skills/miqdadbadjuber-antislop-code"
+  ],
+  "notes": "The skill exists and the reel's install command is correct. The reel's numbers are stale: stars are now about 8.6k, not 7.6k, and the rule count is 40 on GitHub but 38 on antislop.ai.id and in articles. I rated this 'adjust' because the angle 'fixes it before you publish' overpromises. It removes slop (fake stats, buzzwords, generic UI patterns) and runs a PASS/FAIL gate, but originality needs your own DESIGN.md. Suggested framing: 'it stops your AI from inventing fake stats and buzzword copy, and makes it prove it with a checklist. Add your own DESIGN.md for a look that is yours.' The page text 'Revolutionize Your Workflow' and '10,000% ROI' is the reel's own example and not a quote from the repo. The repo's own example is 'NEXT-GEN AI 2.0 beta' and '0.0001ms latency'. Do not confuse it with other 'anti-slop' skills: Nutlope/hallmark, hardikpandya/stop-slop (text only), rand/cc-polymath. The creator's handle is miqdadbadjuber (Indonesia), and the repo exists in an Indonesian version too (ANTISLOP-ID.md), which suits the Indonesian audience.",
+  "_searched": 4
+ },
+ "models": {
+  "pick": "claude-sonnet-5-5",
+  "research": "claude-sonnet-5-5",
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 18,
+ "_ident": {
+  "at": 5.18,
+  "dur": 1.5,
+  "title": "AI HACKS",
+  "type": 0.42,
+  "sub": "EP 18 · ANTI SLOP"
+ },
+ "timeline": {
+  "words": [
+   [
+    "Your",
+    0.08
+   ],
+   [
+    "AI-built",
+    0.4
+   ],
+   [
+    "landing",
+    0.96
+   ],
+   [
+    "page",
+    1.36
+   ],
+   [
+    "screams",
+    1.76
+   ],
+   [
+    "AI",
+    2.56
+   ],
+   [
+    "made",
+    2.96
+   ],
+   [
+    "this,",
+    3.36
+   ],
+   [
+    "and",
+    3.84
+   ],
+   [
+    "visitors",
+    4.0
+   ],
+   [
+    "notice.",
+    4.48
+   ],
+   [
+    "And",
+    6.78
+   ],
+   [
+    "fixing",
+    7.02
+   ],
+   [
+    "it",
+    7.42
+   ],
+   [
+    "takes",
+    7.86
+   ],
+   [
+    "one",
+    8.14
+   ],
+   [
+    "extra",
+    8.46
+   ],
+   [
+    "file",
+    8.7
+   ],
+   [
+    "most",
+    9.1
+   ],
+   [
+    "people",
+    9.34
+   ],
+   [
+    "skip.",
+    9.78
+   ],
+   [
+    "Sparkle",
+    10.38
+   ],
+   [
+    "logos,",
+    10.86
+   ],
+   [
+    "Revolutionize",
+    11.66
+   ],
+   [
+    "Your",
+    12.46
+   ],
+   [
+    "Workflow,",
+    12.62
+   ],
+   [
+    "a",
+    13.5
+   ],
+   [
+    "fake",
+    13.66
+   ],
+   [
+    "10,000%",
+    14.06
+   ],
+   [
+    "ROI.",
+    14.78
+   ],
+   [
+    "It's",
+    16.06
+   ],
+   [
+    "called",
+    16.34
+   ],
+   [
+    "Anti",
+    16.62
+   ],
+   [
+    "Slop.",
+    17.02
+   ],
+   [
+    "Free,",
+    17.78
+   ],
+   [
+    "open",
+    18.22
+   ],
+   [
+    "source,",
+    18.54
+   ],
+   [
+    "MIT",
+    19.1
+   ],
+   [
+    "licensed.",
+    19.5
+   ],
+   [
+    "On",
+    20.34
+   ],
+   [
+    "their",
+    20.46
+   ],
+   [
+    "GitHub",
+    20.62
+   ],
+   [
+    "page",
+    21.02
+   ],
+   [
+    "you'll",
+    21.34
+   ],
+   [
+    "see",
+    21.58
+   ],
+   [
+    "almost",
+    21.98
+   ],
+   [
+    "40",
+    22.38
+   ],
+   [
+    "rules,",
+    22.78
+   ],
+   [
+    "and",
+    23.38
+   ],
+   [
+    "a",
+    23.5
+   ],
+   [
+    "pass",
+    23.66
+   ],
+   [
+    "or",
+    23.98
+   ],
+   [
+    "fail",
+    24.14
+   ],
+   [
+    "report",
+    24.46
+   ],
+   [
+    "before",
+    24.86
+   ],
+   [
+    "anything",
+    25.38
+   ],
+   [
+    "ships.",
+    25.66
+   ],
+   [
+    "Step",
+    26.58
+   ],
+   [
+    "1,",
+    26.78
+   ],
+   [
+    "open",
+    27.38
+   ],
+   [
+    "a",
+    27.58
+   ],
+   [
+    "terminal",
+    27.66
+   ],
+   [
+    "in",
+    28.14
+   ],
+   [
+    "your",
+    28.3
+   ],
+   [
+    "project",
+    28.54
+   ],
+   [
+    "folder.",
+    28.78
+   ],
+   [
+    "Step",
+    29.66
+   ],
+   [
+    "2,",
+    29.9
+   ],
+   [
+    "run",
+    30.5
+   ],
+   [
+    "npx",
+    30.78
+   ],
+   [
+    "skills",
+    31.1
+   ],
+   [
+    "add",
+    31.9
+   ],
+   [
+    "miqdadbadjuber/anti-slop",
+    32.3
+   ],
+   [
+    "and",
+    34.78
+   ],
+   [
+    "pick",
+    35.02
+   ],
+   [
+    "Claude",
+    35.34
+   ],
+   [
+    "Code.",
+    35.74
+   ],
+   [
+    "Step",
+    36.5
+   ],
+   [
+    "3,",
+    36.7
+   ],
+   [
+    "start",
+    37.26
+   ],
+   [
+    "a",
+    37.58
+   ],
+   [
+    "session",
+    37.66
+   ],
+   [
+    "and",
+    38.14
+   ],
+   [
+    "choose",
+    38.3
+   ],
+   [
+    "During",
+    38.7
+   ],
+   [
+    "to",
+    39.22
+   ],
+   [
+    "build,",
+    39.34
+   ],
+   [
+    "or",
+    39.9
+   ],
+   [
+    "After",
+    40.06
+   ],
+   [
+    "to",
+    40.66
+   ],
+   [
+    "audit",
+    40.86
+   ],
+   [
+    "an",
+    41.18
+   ],
+   [
+    "existing",
+    41.26
+   ],
+   [
+    "page.",
+    41.74
+   ],
+   [
+    "It's",
+    42.46
+   ],
+   [
+    "a",
+    42.673
+   ],
+   [
+    "filter,",
+    42.78
+   ],
+   [
+    "not",
+    43.5
+   ],
+   [
+    "a",
+    43.74
+   ],
+   [
+    "designer.",
+    44.007
+   ],
+   [
+    "It",
+    44.58
+   ],
+   [
+    "stops",
+    44.7
+   ],
+   [
+    "fake",
+    45.1
+   ],
+   [
+    "stats",
+    45.54
+   ],
+   [
+    "and",
+    45.82
+   ],
+   [
+    "words",
+    46.06
+   ],
+   [
+    "like",
+    46.34
+   ],
+   [
+    "Seamless,",
+    46.62
+   ],
+   [
+    "but",
+    47.46
+   ],
+   [
+    "it",
+    47.58
+   ],
+   [
+    "won't",
+    47.74
+   ],
+   [
+    "give",
+    47.9
+   ],
+   [
+    "you",
+    48.06
+   ],
+   [
+    "a",
+    48.22
+   ],
+   [
+    "look.",
+    48.3
+   ],
+   [
+    "The",
+    49.02
+   ],
+   [
+    "extra",
+    49.18
+   ],
+   [
+    "file",
+    49.58
+   ],
+   [
+    "is",
+    49.9
+   ],
+   [
+    "DESIGN.md.",
+    50.22
+   ],
+   [
+    "Describe",
+    51.9
+   ],
+   [
+    "your",
+    52.38
+   ],
+   [
+    "look",
+    52.58
+   ],
+   [
+    "there,",
+    52.78
+   ],
+   [
+    "and",
+    53.34
+   ],
+   [
+    "that's",
+    53.5
+   ],
+   [
+    "what",
+    53.847
+   ],
+   [
+    "makes",
+    53.98
+   ],
+   [
+    "it",
+    54.22
+   ],
+   [
+    "yours.",
+    54.38
+   ],
+   [
+    "Worth",
+    55.02
+   ],
+   [
+    "it",
+    55.34
+   ],
+   [
+    "if",
+    55.5
+   ],
+   [
+    "you",
+    55.66
+   ],
+   [
+    "ship",
+    55.82
+   ],
+   [
+    "AI-built",
+    56.06
+   ],
+   [
+    "pages.",
+    56.62
+   ],
+   [
+    "What's",
+    57.58
+   ],
+   [
+    "the",
+    57.9
+   ],
+   [
+    "cringiest",
+    58.06
+   ],
+   [
+    "line",
+    58.62
+   ],
+   [
+    "AI",
+    58.94
+   ],
+   [
+    "ever",
+    59.42
+   ],
+   [
+    "wrote",
+    59.66
+   ],
+   [
+    "on",
+    59.9
+   ],
+   [
+    "your",
+    60.06
+   ],
+   [
+    "site?",
+    60.3
+   ],
+   [
+    "Send",
+    60.78
+   ],
+   [
+    "this",
+    61.02
+   ],
+   [
+    "to",
+    61.18
+   ],
+   [
+    "the",
+    61.3
+   ],
+   [
+    "friend",
+    61.42
+   ],
+   [
+    "who",
+    61.74
+   ],
+   [
+    "builds",
+    61.94
+   ],
+   [
+    "every",
+    62.3
+   ],
+   [
+    "page",
+    62.62
+   ],
+   [
+    "with",
+    62.86
+   ],
+   [
+    "AI.",
+    63.1
+   ],
+   [
+    "Hack",
+    63.74
+   ],
+   [
+    "saved?",
+    63.98
+   ]
+  ],
+  "duration": 64.72,
+  "ident": {
+   "at": 5.18,
+   "dur": 1.5,
+   "title": "AI HACKS",
+   "type": 0.42,
+   "sub": "EP 18 · ANTI SLOP"
+  },
+  "scenes": [
+   {
+    "t": 0.0,
+    "shows": [
+     "footage:lib_man_shaking_head_at_phone",
+     "title_slam:AI MADE THIS",
+     "pill:VISITORS NOTICE"
+    ]
+   },
+   {
+    "t": 6.78,
+    "shows": [
+     "object3d:",
+     "pill:MOST PEOPLE SKIP IT",
+     "label:STAY FOR THE FILE"
+    ]
+   },
+   {
+    "t": 10.38,
+    "shows": [
+     "label:SPOT THE SLOP",
+     "screen:"
+    ]
+   },
+   {
+    "t": 16.06,
+    "shows": [
+     "footage:real_1_phone",
+     "pill:FREE · OPEN SOURCE"
+    ]
+   },
+   {
+    "t": 20.34,
+    "shows": [
+     "footage:real_1_web",
+     "stat_row:"
+    ]
+   },
+   {
+    "t": 26.58,
+    "shows": [
+     "screen:Step 1 · Open a terminal"
+    ]
+   },
+   {
+    "t": 29.66,
+    "shows": [
+     "screen:Step 2 · Install the skill"
+    ]
+   },
+   {
+    "t": 36.5,
+    "shows": [
+     "screen:Step 3 · Pick a mode"
+    ]
+   },
+   {
+    "t": 42.46,
+    "shows": [
+     "headline:FILTER, NOT DESIGNER",
+     "strike_list:",
+     "pill:NO LOOK INCLUDED"
+    ]
+   },
+   {
+    "t": 49.02,
+    "shows": [
+     "object3d:"
+    ]
+   },
+   {
+    "t": 51.9,
+    "shows": [
+     "screen:",
+     "pill:MAKES IT YOURS"
+    ]
+   },
+   {
+    "t": 55.02,
+    "shows": [
+     "footage:real_2_phone",
+     "pill:BEFORE → AFTER"
+    ]
+   },
+   {
+    "t": 57.58,
+    "shows": [
+     "headline:CRINGIEST AI LINE?"
+    ]
+   }
+  ],
+  "beats": [
+   25.12,
+   32.64
+  ]
+ }
+}
