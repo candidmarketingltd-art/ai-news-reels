@@ -1,0 +1,37 @@
+{
+ "shots": [
+  {
+   "clip": "lib_hands_holding_credit_card_near",
+   "text": "not every founder can stop at one ai subscription,",
+   "seconds": 2.5
+  },
+  {
+   "clip": "lib_man_pointing_at_camera",
+   "text": "some of us need claude, chatgpt, cursor + 3 free trials we forgot to cancel",
+   "seconds": 4.0
+  }
+ ],
+ "style": "meme",
+ "song": {
+  "title": "Angel Of My Dreams",
+  "artist": "JADE",
+  "mood": "funny",
+  "trend": "On-screen text 'Not every angel can walk VSFS, some of us need to…' finished with something mundane and relatable. Also used for 'too pretty to be real' reveals. Easy to adapt to 'not every founder can ship on Friday, some of us need to…'.",
+  "source": "https://later.com/blog/instagram-reels-trends/",
+  "list_date": "Nov 6, 2026",
+  "snippet": "use the most-used snippet, the 'Not every angel can walk VSFS, some of us need to…' section. Cut to shot 2 on the line's turn.",
+  "why": "The trend is 'not every X can…, some of us need to…' finished with something mundane, and this joke uses that exact two-beat shape."
+ },
+ "backup_song": {
+  "title": "The Blue Danube Waltz",
+  "artist": "Royal Symphony Orchestra"
+ },
+ "caption": "my bank statement is just a list of ai tools i swore i'd 'try for a week' 💳\n\nbe honest, how many AI subscriptions are you paying for right now?\n\n#claudeai #aimemes #founderlife #aitools #saasfounder #techhumor",
+ "cover_word": "ai subscription stack",
+ "text": "not every founder can stop at one ai subscription, / some of us need claude, chatgpt, cursor + 3 free trials we forgot to cancel",
+ "clip": "lib_hands_holding_credit_card_near,lib_man_pointing_at_camera",
+ "clip_paths": {
+  "lib_hands_holding_credit_card_near": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hands_holding_credit_card_near.mp4",
+  "lib_man_pointing_at_camera": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_pointing_at_camera.mp4"
+ }
+}
