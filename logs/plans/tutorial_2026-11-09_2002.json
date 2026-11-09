@@ -1,0 +1,1889 @@
+{
+ "voiceover": "[conversational] The most boring tool on Instagram quietly makes about $32K every month.\n\nAnd the move that got it started isn't what you'd guess. Stay till the end.\n\nIt's called Liinks. One link-in-bio page that holds your links, socials, forms and QR codes. Starter is $5 a month, Pro is $12.\n\n[serious] These numbers are verified on TrustMRR. About $32K in monthly recurring revenue. About $31K in the last 30 days. 5,534 active subscriptions, growing 3% a month. One person runs it: Charlie Clark, bootstrapped.\n\nHow'd it grow? Version one was free. Then he added features and charged $3 a month. Later he leaned on Google Search ads, because people searching for link-in-bio tools already want one.\n\n[amused] Honest catch: revenue isn't profit, and close to 100 tools compete here.\n\n[whispers] So what was the first move? Charlie was already talking to artists for his earlier marketplace. They became his first customers, and he set up their pages himself.\n\n[confident] He didn't go find an audience. He built for one he already had.\n\nWould you build a boring business like this, or just use one?\n\nSend this to the friend who thinks boring businesses don't make money.\n\nHack saved?",
+ "open_loop": {
+  "setup": "And the move that got it started isn't what you'd guess.",
+  "payoff": "He didn't go find an audience. He built for one he already had."
+ },
+ "title": "BORING $32K BUSINESS",
+ "ig_caption": "The most boring tool on Instagram makes about $32K a month 👀\n✅ Verified on TrustMRR: ~$32K MRR, 5,534 subscriptions\n✅ Started free, then added features and charged\n✅ Google Search ads on high-intent terms\n✅ First customers: people he already talked to\nWould you build this or just use one? Save this for later.\nFollow @ihackgrowth for daily business & growth hacks",
+ "media_hints": {
+  "domain": "liinks.co",
+  "broll": [
+   "person scrolling phone",
+   "typing on laptop",
+   "entrepreneur working alone"
+  ]
+ },
+ "hashtags": [
+  "#AIhacks",
+  "#Liinks",
+  "#LinkInBio",
+  "#SideHustle",
+  "#Bootstrapped",
+  "#SaaS",
+  "#IndieHacker",
+  "#BusinessBreakdown",
+  "#growth"
+ ],
+ "tag": "BUSINESS BREAKDOWN",
+ "keywords": [
+  "Instagram",
+  "boring",
+  "Liinks",
+  "link-in-bio",
+  "socials",
+  "Starter",
+  "Pro",
+  "TrustMRR",
+  "verified",
+  "subscriptions",
+  "Charlie",
+  "bootstrapped",
+  "free",
+  "Google",
+  "artists",
+  "customers",
+  "audience",
+  "profit"
+ ],
+ "music": "groove",
+ "scenes": [
+  {
+   "at": "The most",
+   "tint": "warm",
+   "react": [
+    {
+     "at": "quietly makes",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "footage",
+     "at": "The most",
+     "media": "lib_hand_scrolling_smartphone",
+     "full": true
+    },
+    {
+     "type": "headline",
+     "at": "The most",
+     "text": "THE MOST BORING TOOL",
+     "size": "l",
+     "color": "white",
+     "sub": "$32K / MONTH",
+     "sub_at": "about $32K",
+     "sub_color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "And the move",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "And the move",
+     "kind": "padlock",
+     "size": "l",
+     "caption": "THE FIRST MOVE",
+     "caption_at": "got it started"
+    },
+    {
+     "type": "pill",
+     "at": "Stay till",
+     "text": "STAY TILL THE END",
+     "color": "gold",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "It's called",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "It's called",
+     "media": "real_2_phone",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "It's called",
+     "text": "LIINKS.CO",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "One link-in-bio",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "One link-in-bio",
+     "media": "real_2_web",
+     "caption": "ONE LINK FOR EVERYTHING",
+     "caption_at": "page that"
+    },
+    {
+     "type": "strike_list",
+     "at": "your links,",
+     "items": [
+      {
+       "text": "LINKS",
+       "at": "your links,",
+       "strike": false
+      },
+      {
+       "text": "SOCIALS",
+       "at": "socials,",
+       "strike": false
+      },
+      {
+       "text": "FORMS",
+       "at": "forms and",
+       "strike": false
+      },
+      {
+       "text": "QR CODES",
+       "at": "QR codes.",
+       "strike": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Starter is",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Starter is",
+     "media": "real_3_web",
+     "caption": "HOW MUCH DOES LIINKS COST?"
+    },
+    {
+     "type": "stat_row",
+     "cards": [
+      {
+       "label": "STARTER",
+       "value": "$5/MO",
+       "at": "$5 a month,",
+       "color": "gold",
+       "ill": "seedling"
+      },
+      {
+       "label": "PRO",
+       "value": "$12/MO",
+       "at": "Pro is $12.",
+       "color": "green",
+       "ill": "gem_stone",
+       "glow": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "These numbers",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "label",
+     "at": "These numbers",
+     "text": "THE RECEIPTS"
+    },
+    {
+     "type": "footage",
+     "at": "These numbers",
+     "media": "real_1_web",
+     "tall": true,
+     "caption": "VERIFIED ON TRUSTMRR",
+     "caption_at": "on TrustMRR."
+    }
+   ]
+  },
+  {
+   "at": "About $32K in",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "About $32K in",
+     "kind": "coins",
+     "count": 32,
+     "act": "fill",
+     "act_at": "monthly recurring",
+     "caption": "$32K MRR",
+     "caption_at": "recurring revenue."
+    },
+    {
+     "type": "stat_row",
+     "cards": [
+      {
+       "label": "LAST 30 DAYS",
+       "value": "$31K",
+       "at": "About $31K",
+       "color": "gold"
+      },
+      {
+       "label": "ACTIVE SUBS",
+       "value": "5,534",
+       "at": "5,534 active",
+       "color": "white"
+      },
+      {
+       "label": "GROWTH",
+       "value": "+3%/MO",
+       "at": "growing 3%",
+       "color": "green",
+       "glow": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "One person runs",
+   "tint": "green",
+   "react": [
+    {
+     "at": "One person runs",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "big_number",
+     "at": "One person runs",
+     "value": "1",
+     "color": "gold",
+     "ill": "bust_in_silhouette",
+     "note": "CHARLIE CLARK",
+     "note_at": "Charlie Clark,"
+    },
+    {
+     "type": "pill",
+     "at": "bootstrapped.",
+     "text": "BOOTSTRAPPED",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "How'd it grow?",
+   "react": [
+    {
+     "at": "Version one",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "How'd it grow?",
+     "text": "THE GROWTH PATH"
+    },
+    {
+     "type": "steps",
+     "at": "Version one",
+     "items": [
+      {
+       "text": "V1 · FREE",
+       "at": "Version one",
+       "ill": "wrapped_gift"
+      },
+      {
+       "text": "MORE FEATURES · $3/MO",
+       "at": "charged $3",
+       "ill": "gear"
+      },
+      {
+       "text": "GOOGLE SEARCH ADS",
+       "at": "Google Search ads,",
+       "ill": "magnifying_glass_tilted_right"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "because people searching",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "because people searching",
+     "device": "web",
+     "app": "Google",
+     "url": "google.com",
+     "step": "Buyers already searching",
+     "steps": [
+      {
+       "at": "because people searching",
+       "view": {
+        "kind": "search",
+        "query": "",
+        "tabs": [
+         "All",
+         "Images",
+         "Videos",
+         "News"
+        ],
+        "active_tab": "All",
+        "results": [
+         {
+          "title": "Liinks · One link for everything",
+          "url": "liinks.co",
+          "snippet": "Sponsored · One beautiful link in bio."
+         },
+         {
+          "title": "Best link in bio tools compared",
+          "url": "blog.example.com",
+          "snippet": "A roundup of popular options for creators."
+         },
+         {
+          "title": "How to add a link to your Instagram bio",
+          "url": "help.example.com",
+          "snippet": "Step-by-step guide for creators."
+         }
+        ]
+       },
+       "action": {
+        "kind": "type",
+        "target": "search",
+        "text": "link in bio tool",
+        "at": "people searching"
+       }
+      },
+      {
+       "at": "already want",
+       "view": {
+        "kind": "search",
+        "query": "link in bio tool",
+        "tabs": [
+         "All",
+         "Images",
+         "Videos",
+         "News"
+        ],
+        "active_tab": "All",
+        "results": [
+         {
+          "title": "Liinks · One link for everything",
+          "url": "liinks.co",
+          "snippet": "Sponsored · One beautiful link in bio."
+         },
+         {
+          "title": "Best link in bio tools compared",
+          "url": "blog.example.com",
+          "snippet": "A roundup of popular options for creators."
+         },
+         {
+          "title": "How to add a link to your Instagram bio",
+          "url": "help.example.com",
+          "snippet": "Step-by-step guide for creators."
+         }
+        ]
+       },
+       "action": {
+        "kind": "point",
+        "target": "Liinks · One link for everything",
+        "at": "want one."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Honest catch:",
+   "tint": "red",
+   "react": [
+    {
+     "at": "revenue isn't",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "Honest catch:",
+     "text": "HONEST CATCH"
+    },
+    {
+     "type": "headline",
+     "at": "revenue isn't",
+     "text": "REVENUE ≠ PROFIT",
+     "size": "m",
+     "color": "red"
+    },
+    {
+     "type": "big_number",
+     "at": "close to",
+     "value": "~100",
+     "color": "red",
+     "ill": "crossed_swords",
+     "note": "RIVAL TOOLS",
+     "note_at": "compete here.",
+     "note_color": "red"
+    }
+   ]
+  },
+  {
+   "at": "So what",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "So what",
+     "kind": "padlock",
+     "size": "l",
+     "act": "open",
+     "act_at": "Charlie was",
+     "caption": "THE FIRST MOVE"
+    },
+    {
+     "type": "pill",
+     "at": "talking to artists",
+     "text": "HIS MARKETPLACE ARTISTS",
+     "color": "gold",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "They became",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "arrow_pair",
+     "at": "They became",
+     "left": {
+      "label": "OLD MARKETPLACE",
+      "value": "ARTISTS",
+      "color": "white"
+     },
+     "right": {
+      "label": "LIINKS",
+      "value": "CUSTOMERS",
+      "color": "green",
+      "at": "first customers,"
+     }
+    },
+    {
+     "type": "pill",
+     "at": "set up their",
+     "text": "HE BUILT THEIR PAGES",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "He didn't",
+   "tint": "green",
+   "react": [
+    {
+     "at": "He built",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "He didn't",
+     "text": "THE REAL LESSON"
+    },
+    {
+     "type": "strike_list",
+     "at": "go find",
+     "items": [
+      {
+       "text": "FIND AN AUDIENCE",
+       "at": "go find",
+       "strike": true
+      },
+      {
+       "text": "BUILD FOR THE ONE YOU HAVE",
+       "at": "He built",
+       "strike": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Would you",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Would you",
+     "media": "lib_man_comparing_phone_and_laptop",
+     "full": true
+    },
+    {
+     "type": "headline",
+     "at": "Would you",
+     "text": "BUILD IT OR USE IT?",
+     "size": "l",
+     "ill": "speech_balloon",
+     "sub": "COMMENT BELOW",
+     "sub_at": "just use one?"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "Send this",
+  "line1": "Send this to",
+  "line1_at": "Send this",
+  "line2": "the boring-biz doubter",
+  "line2_at": "don't make money."
+ },
+ "hud": {
+  "label": "LIINKS",
+  "items": [
+   {
+    "value": "$32K/MO",
+    "color": "gold"
+   },
+   {
+    "at": "verified on TrustMRR.",
+    "value": "VERIFIED",
+    "color": "green"
+   },
+   {
+    "at": "One person runs",
+    "value": "1 FOUNDER",
+    "color": "gold"
+   },
+   {
+    "at": "100 tools",
+    "value": "100 RIVALS",
+    "color": "red"
+   },
+   {
+    "at": "first customers,",
+    "value": "UNLOCKED",
+    "color": "green"
+   }
+  ]
+ },
+ "endcard": {
+  "title": "Hack saved?",
+  "terminal": "> liinks.breakdown · $32k/mo · 1 founder"
+ },
+ "media": [
+  {
+   "id": "real_1_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-09_2002/real_1_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-09_2002/real_1_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: trustmrr.com",
+   "desc": "REAL desktop screen recording, pushes in on the gold-outlined part — TrustMRR desktop listing for Liinks with the stat cards highlighted: 'All-time revenue $1,799,591' (Ranked #66 on TrustMRR), 'MRR $31,641' (5534 active subscriptions), 'Founder Charlie C...' (12.5k followers on X), 'Founded May 2020' (United States). Below is a revenue chart showing $30,961, down 3% [Screen: trustmrr.com]"
+  },
+  {
+   "id": "real_2_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-09_2002/real_2_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-09_2002/real_2_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: liinks.co",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the page (no highlight) — Liinks.co mobile homepage hero: logo 'liinks', 'Get started' button, menu icon, five-star badge '10,000+ creators & businesses', headline 'One link for everything', subtext 'Share everything you create, sell, and stand for, from one beautiful link in bio. Claim yours today.', and a claim field 'liin [Screen: liinks.co]"
+  },
+  {
+   "id": "real_2_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-09_2002/real_2_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-09_2002/real_2_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: liinks.co",
+   "desc": "REAL desktop screen recording, pushes in on the page (no highlight) — Liinks.co desktop homepage: nav with Customers, Pricing, Resources, Log in and 'Get started'. Headline 'One link for everything', subtext 'Share everything you create, sell, and stand for, from one beautiful link in bio. Claim yours today.' Field 'liinks.co/ maya.makes' with a 'Get Started' button,  [Screen: liinks.co]"
+  },
+  {
+   "id": "real_3_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-09_2002/real_3_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-09_2002/real_3_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: liinks.co",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the gold-outlined part — Liinks.co mobile homepage hero, same as the top of the page: 'Get started' button, '10,000+ creators & businesses' badge, headline 'One link for everything', subtext 'Share everything you create, sell, and stand for, from one beautiful link in bio. Claim yours today.', and the 'liinks.co/ maya.makes [Screen: liinks.co]"
+  },
+  {
+   "id": "real_3_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-09_2002/real_3_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-09_2002/real_3_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: liinks.co",
+   "desc": "REAL desktop screen recording, pushes in on the gold-outlined part — Liinks.co desktop page scrolled to the bottom: FAQ items ('How much does Liinks cost?', 'Can I cancel anytime?', 'Do I get analytics?'), then a highlighted CTA 'Claim your link today - One link for everything you create, sell, and share. Free to build, live in minutes.' with the field 'liinks.co/ ma [Screen: liinks.co]"
+  },
+  {
+   "id": "lib_camera_moving_down_server_corridor",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "credit": "",
+   "file": "camera_moving_down_server_corridor.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow forward push down a hazy, fog-filled data center aisle lined with server racks that glow with blue and amber status lights, giving a moody, futuristic feel. Good for: A script line about the infrastructure behind AI, such as cloud computing, model training, heavy compute, data storage, or 'what happens behind the scenes'."
+  },
+  {
+   "id": "lib_clock_ticking_and_person_typing",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "credit": "",
+   "file": "clock_ticking_and_person_typing.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A rack-focus shot moves from a close-up of a black twin-bell alarm clock with ticking hands to a bearded man in a light polo typing on a laptop in a dim room, giving a tense, time-pressured mood. Good for: lines about deadlines, time slipping away, long hours of manual work, or the pressure of slow, tedious tasks before an AI tool speeds things up"
+  },
+  {
+   "id": "lib_colleagues_collaborating_around",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "credit": "",
+   "file": "colleagues_collaborating_around.mp4",
+   "frames": 126,
+   "desc": "B-roll (4.2s, VERTICAL 9:16 — best as full: true): colleagues collaborating around Good for: "
+  },
+  {
+   "id": "lib_content_creator_sets_up_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "credit": "",
+   "file": "content_creator_sets_up_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt stands behind a ring light with a phone on a tripod, adjusting the setup while the camera slowly pushes in until his face fills the frame, with a calm, focused mood and moody blue ambient lighting in the background. Good for: setting up to create content, getting started as a creator, or preparing equipment before recording a tutorial"
+  },
+  {
+   "id": "lib_eye_reflecting_laptop_screen_glow",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "credit": "",
+   "file": "eye_reflecting_laptop_screen_glow.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow zoom into an extreme close-up of a brown eye with a bright blue screen reflected in the pupil, framed by a thick eyebrow and warm skin tones, fading into a cool blue gradient at the bottom, with a focused, intense and cinematic mood. Good for: lines about being glued to a screen, intense focus or attention, watching AI work, or 'seeing' a new opportunity or insight"
+  },
+  {
+   "id": "lib_hand_dropping_papers_on_desk",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "credit": "",
+   "file": "hand_dropping_papers_on_desk.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a green shirt carries and then drops a thick stack of papers onto an already huge, messy pile of documents with sticky notes on a cluttered desk, while a laptop glows nearby, and the camera pushes in to a close-up of the towering stack, creating a mood of overwhelm and tedious paperwork. Good for: a script line about drowning in manual paperwork or document processing, setting up how AI can automate summarizing, sorting, or extracting information from piles of documents"
+  },
+  {
+   "id": "lib_hand_scrolling_smartphone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_scrolling_smartphone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_scrolling_smartphone.mp4",
+   "credit": "",
+   "file": "hand_scrolling_smartphone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a bearded young man in a white t-shirt looking intently at a smartphone in dim, warm lighting, with the camera slowly pushing in until his focused, slightly tense gaze moves from the screen to the lens. Good for: a script line about being glued to your phone, doubt or tension before a reveal, or the moment of realizing something while checking an app or notification"
+  },
+  {
+   "id": "lib_hands_holding_credit_card_near",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hands_holding_credit_card_near.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hands_holding_credit_card_near.mp4",
+   "credit": "",
+   "file": "hands_holding_credit_card_near.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): hands holding credit card near Good for: "
+  },
+  {
+   "id": "lib_man_comparing_phone_and_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "credit": "",
+   "file": "man_comparing_phone_and_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): man comparing phone and laptop Good for: "
+  },
+  {
+   "id": "lib_man_looking_at_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "credit": "",
+   "file": "man_looking_at_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt scowls with intense focus at a laptop in a dim, warmly lit room, then closes his eyes and rubs his hand near his chin in tired frustration. Good for: frustration with slow or difficult work, such as struggling with a tedious task, debugging, or burning out late at night before finding a better way"
+  },
+  {
+   "id": "lib_man_opens_laptop_in_room",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "credit": "",
+   "file": "man_opens_laptop_in_room.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt sits at a laptop in a dimly lit, warmly lit room, and his focused, tense expression builds as he leans toward the screen, which shows blurry blue diagram or flowchart-style blocks, with his fists clenched near his chin in the middle frame. Good for: intense concentration or deep work, such as debugging, building an AI workflow, or struggling with a complex problem"
+  },
+  {
+   "id": "lib_man_pointing_at_camera",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_pointing_at_camera.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_pointing_at_camera.mp4",
+   "credit": "",
+   "file": "man_pointing_at_camera.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a dark henley sits in a car seat working on a laptop with a focused look, then looks up with a warm smile and points playfully at the camera in a confident, friendly mood. Good for: a line that moves from focused work or problem-solving to a direct call to action, such as 'here's the trick you need to try' or 'now it's your turn'"
+  },
+  {
+   "id": "lib_man_smiling_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "credit": "",
+   "file": "man_smiling_at_phone.mp4",
+   "frames": 135,
+   "desc": "B-roll (4.5s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a blue smartphone, his expression shifting from neutral to a furrowed-brow frown of confusion and frustration. Good for: a line about frustration with confusing apps or slow tools, or the moment someone hits a problem and doesn't know what to do next"
+  },
+  {
+   "id": "lib_man_studying_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "credit": "",
+   "file": "man_studying_with_laptop.mp4",
+   "frames": 132,
+   "desc": "B-roll (4.4s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits at a desk behind a laptop with a furrowed brow and a frustrated, concentrated look, first staring at the screen, then looking down at an open notebook and writing with a pen, with a warm blurred lamp glowing in the background. Good for: a script line about struggling to understand something complex, frustration with slow or manual work, or the pain of learning a new tool the hard way"
+  },
+  {
+   "id": "lib_man_watching_laptop_waiting",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "credit": "",
+   "file": "man_watching_laptop_waiting.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits at a laptop in a dimly lit room with warm lamp light, resting his chin on his fist with a focused, pensive look, and the camera pushes in closer across the three frames. Good for: a script line about deep thinking, researching or problem-solving, or weighing a decision before trying an AI tool"
+  },
+  {
+   "id": "lib_person_drinking_coffee_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "credit": "",
+   "file": "person_drinking_coffee_with_laptop.mp4",
+   "frames": 93,
+   "desc": "B-roll (3.1s, VERTICAL 9:16 — best as full: true): A bearded man in a green polo sits at a laptop in a modern industrial-style open office, lifting a white cup to his mouth and sipping a hot drink while looking down at the screen, in a calm, focused mood. Good for: a line about taking a breather while the AI does the work, a morning work routine, waiting for a process to finish, or the calm of an automated workflow"
+  },
+  {
+   "id": "lib_person_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "person_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a laptop, his expression moving from concern to a deep frown with glowing blue tear-like effects on his cheeks, then to eyes shut in stress or exhaustion; the mood is frustrated and overwhelmed. Good for: A script line about frustration or overwhelm with a tough task, such as struggling with confusing tools, wasting hours on manual work, or being stuck before finding an AI solution."
+  },
+  {
+   "id": "lib_person_speaking_into_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "credit": "",
+   "file": "person_speaking_into_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt takes a phone call in a modern industrial office with exposed concrete ceilings, moving from a serious, concerned look to a worried talking expression and ending with a relieved, confident smile at the camera. Good for: a script line about getting a surprising call or news, a problem being solved, or the moment of relief after a stressful issue"
+  },
+  {
+   "id": "lib_person_taking_selfie_with_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "credit": "",
+   "file": "person_taking_selfie_with_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt sits in a car holding a blue smartphone up close to his face, and across the clip he leans toward the screen with a furrowed brow, looking skeptical and intensely focused. Good for: a script line about doubting or double-checking AI output, being confused or frustrated by an app or tool, or looking closely at a result on your phone, e.g. 'wait, is this actually right?'"
+  },
+  {
+   "id": "lib_robotic_hand_typing_on_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "credit": "",
+   "file": "robotic_hand_typing_on_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a black robotic hand with segmented, mechanical fingers lowering onto a backlit laptop keyboard and starting to type, shot at shallow depth of field in a warm, softly lit, modern workspace. Good for: A script line about AI doing the work for you, automating repetitive tasks, or AI taking over typing and writing, such as 'let AI handle the busywork' or 'AI writes it for you'."
+  },
+  {
+   "id": "s1_image",
+   "kind": "image",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-09_2002/s1_image.png",
+   "credit": "Image: liinks.co",
+   "desc": "official image from Liinks (announcement page)"
+  }
+ ],
+ "style": "hisaab",
+ "topic": "Business breakdown: Liinks — Link to your content and social accounts. Customize colors and styles. Automatically add l",
+ "pick": {
+  "topic": "Business breakdown: Liinks — Link to your content and social accounts. Customize colors and styles. Automatically add l",
+  "tool": "Liinks",
+  "format": "business",
+  "angle": "A 'link in bio' page, the most boring tool on Instagram, quietly makes about $32K every month"
+ },
+ "inspired_by": {
+  "url": "https://trustmrr.com/startup/liinks",
+  "owner": "trustmrr",
+  "plays": 0,
+  "likes": 0,
+  "comments": 0
+ },
+ "research": {
+  "verdict": "ok",
+  "tool": "Liinks",
+  "what_it_does": "A link-in-bio and mini-website builder. One page, built from blocks, holds a creator's links, socials, forms, QR codes and an Instagram post sync.",
+  "who_pays": "Creators and small businesses pay for a Starter plan. Pro is for professionals and teams who manage several profiles.",
+  "pricing": "Starter is $5/month or $48/year. Pro is $12/month or $120/year, and adds multi-profile management, custom domains and API access. Both plans include a 14-day free trial (liinks.co pricing and help center). The liinks.co page says a free trial, with no free tier mentioned.",
+  "growth": [
+   "Idea: Charlie Clark was running a print-on-demand art marketplace and noticed many of the artists he talked to used Linktree-style tools to share their work (Starter Story; AppSumo 'Mind Your Business' newsletter).",
+   "First users: artists from his earlier marketplace were his first customers. He did 'white-glove' onboarding and set up their pages for them (AppSumo newsletter).",
+   "Launch model: v1 was free because it was too simple to charge for. He later bundled enough features and added a $3/month Premium plan (Starter Story). AppSumo says he flipped to paid 2–3 months after launch.",
+   "Cold outreach: during the free era he targeted Instagram users who had no link-in-bio page (MoneyMint, summarizing the Starter Story interview).",
+   "Product Hunt: Clark said he launched on Product Hunt in 2021, after a soft launch at the end of January (Indie Hustle, quoting his post).",
+   "Early milestones per Indie Hustle: about 4 months later it hit $1,000 MRR, after more features, a 14-day free trial and a decent amount of paid Instagram marketing. About 2 months after that he raised the price from $3 to $3.99 and hit $2,000 MRR. It reached $15K in Dec 2022 and $20K in July 2023.",
+   "Main channel at scale: from $1–5K MRR onward he leaned on Google Search ads for link-in-bio-style terms, which AppSumo calls high intent and high ROI. Starter Story's 2025 interview summary (BigGo) calls it the easiest channel because people are actively searching.",
+   "Pricing lever: a Starter Story interview summary (BigGo) credits undercutting Linktree on price, plus a price increase of about $1 that added nearly $5,000 in MRR."
+  ],
+  "founder_story": [
+   "Charlie Clark is the solo founder. His background is in design and software engineering (Starter Story).",
+   "In 2019 he quit his full-time job to build a print-on-demand marketplace for artists. Liinks came out of the outreach he did for it (Starter Story).",
+   "Liinks started in 2020 as a side project (official About page). AppSumo says about 4 years of nights and weekends got it to $27K MRR, while he kept a day job and raised a toddler.",
+   "He was a software engineer at Squarespace and built Liinks alongside that job. He reportedly waited until Liinks matched his salary, then quit in August 2024 to go full time (BigGo summary of the Starter Story video).",
+   "The About page says Liinks is independently built and operated, with no investors."
+  ],
+  "lessons": [
+   "Build for a market you already talk to. The idea came from artists he was already doing outreach to, and they became his first customers.",
+   "Launch simple and free to get users, then add features and start charging. He charged only once there were enough features to justify it.",
+   "Pick one high-intent channel. Google Search ads on 'link-in-bio' terms worked in a category with close to 100 competing tools (AppSumo).",
+   "Undercut the incumbent on price, then raise prices as the product improves. The $3 to $3.99 rise and a later roughly $1 increase are both sourced.",
+   "Keep the day job until the side project can replace the salary. He quit in August 2024, after about 4 years of side-project work."
+  ],
+  "criticism": [
+   "The market is crowded. AppSumo says there are close to 100 link-in-bio tools, and Linktree is the dominant incumbent.",
+   "Liinks does not sell anything. There is no product block, checkout or payments, so it competes on page design and a flat price (startupbase review).",
+   "Revenue is not profit. The data shows no costs, and Google Search ads are a major acquisition channel.",
+   "It is a one-person business, so there is key-person risk. The slow side-project path took about 4 years to reach $27K MRR."
+  ],
+  "facts": [
+   "Starter Story lists Brooklyn, NY and a February 2020 start. TrustMRR says May 2020 and the About page says only 2020, so use 2020 only.",
+   "MoneyMint quotes Charlie describing Liinks as 'ramen profitable' at an earlier stage.",
+   "Features include multi-tab navigation, QR codes, forms, short links, Mailchimp and Instagram integrations, and scheduling (official Features page).",
+   "Pro plan pricing for team members: it includes 5 profiles, with extra packs of 5 for $10/month, up to 100 profiles (help center).",
+   "Charlie Clark's site, charliie.co, says he bootstrapped Liinks solo to $30k+ MRR."
+  ],
+  "do_not_claim": [
+   "Profit or margin: the only source is the 'ramen profitable' quote from an earlier period.",
+   "Exact number of users. TrustMRR says ~10,000 and a liinks.us page says 10,000+, but neither is a primary stat.",
+   "That Product Hunt or the Instagram ads drove a specific number of customers.",
+   "Any exact CAC or ad spend.",
+   "That Liinks has a free plan. liinks.co shows a 14-day trial only, while a liinks.us page lists a $0 Free plan, so this is unclear.",
+   "Any 'viral moment'. None was found."
+  ],
+  "real_pages": [
+   {
+    "url": "https://trustmrr.com/startup/liinks",
+    "show": "$31,641",
+    "kind": "site"
+   },
+   {
+    "url": "https://liinks.co",
+    "show": "",
+    "kind": "site"
+   },
+   {
+    "url": "https://www.liinks.co/",
+    "show": "One link for everything",
+    "kind": "site"
+   },
+   {
+    "url": "https://www.liinks.co/",
+    "show": "Simple, affordable pricing",
+    "kind": "site"
+   }
+  ],
+  "sources": [
+   "https://www.liinks.co/about",
+   "https://www.liinks.co/",
+   "https://www.liinks.co/features",
+   "https://help.liinks.co/help/article/what-plans-are-available",
+   "https://help.liinks.co/article/56-pro-plan-team-members",
+   "https://www.starterstory.com/stories/liinks-supercharge-your-link-in-bio",
+   "https://mindyourbusiness.appsumo.com/p/boring-part-2",
+   "https://moneymint.org/p/25000-per-month-with-link-in-bio-tool",
+   "https://www.indiehustle.co/p/a-simple-link-in-bio-tool-making",
+   "https://finance.biggo.com/podcast/4b179d35e0a91da6",
+   "https://startupbase.io/blog/liinks-review",
+   "https://charliie.co/"
+  ],
+  "notes": "Use TrustMRR figures for revenue, not the older press figures. These were $20K, $25K and $27K MRR, and the two stork.ai articles quote $31,500. The three Starter Story, AppSumo and BigGo items are third-party summaries of the Starter Story interview. The 2025 interview details (the Aug 2024 quit, the roughly $1 price rise worth nearly $5K MRR) come only from BigGo's summary, so attribute them to the Starter Story interview, not to the official site. The exact on-page text for 'Pro $12/month' was not confirmed, so the pricing pages to show are the homepage pricing section (Starter $5/month) and Features. A separate domain, liinks.us, shows a Free plan. Check which domain is current before recording, and treat all on-screen text as something to verify live.",
+  "_searched": 2,
+  "trustmrr": {
+   "name": "Liinks",
+   "one_liner": "Link to your content and social accounts. Customize colors and styles. Automatically add links from your Instagram posts. Track how your audience interacts with your links.",
+   "website": "https://liinks.co",
+   "founder": "Charlie Clark",
+   "founder_x": "",
+   "founded": "May 2020",
+   "location": "United States",
+   "category": "Social Media, Content Creation, Productivity",
+   "audience": "Creators and teams managing multiple profiles and brands (B2B, B2C)",
+   "pricing": "Starter: $5/mo, Pro: $12/mo",
+   "revenue_last_30_days": "$30,961",
+   "revenue_all_time": "$1,799,591",
+   "mrr": "$31,641",
+   "growth_mom": "3%",
+   "active_subscriptions": "5534",
+   "rank": "#66",
+   "for_sale": "",
+   "verified_by": "Stripe API key",
+   "last_updated": "Nov 9, 2026, 02:12 PM",
+   "other": [
+    "Founder has 12.5k followers on 𝕏",
+    "~10,000 users",
+    "Team size: 1 person",
+    "Funding: Bootstrapped",
+    "Domain Rating: 74/100 (liinks.co)",
+    "Tech stack: Backend - Stripe",
+    "Value proposition: Share everything you create, sell, and stand for, from one beautiful link in bio.",
+    "Problem solved: Simplifies connecting with an audience by providing a single customizable link to share all important links and content."
+   ],
+   "trustmrr_url": "https://trustmrr.com/startup/liinks"
+  },
+  "say_numbers_as": [
+   "$30,961 (can be said as: $30K, $31K)",
+   "$1,799,591 (can be said as: $1.7M, $1.8M, $1799K, $1800K, $2M)",
+   "$31,641 (can be said as: $30K, $31K, $32K)"
+  ]
+ },
+ "kind": "business",
+ "episode": 21,
+ "_ident": {
+  "at": 5.927,
+  "dur": 1.5,
+  "title": "AI HACKS",
+  "type": 0.42,
+  "sub": "EP 21 · BUSINESS BREAKDOWN"
+ },
+ "timeline": {
+  "words": [
+   [
+    "The",
+    0.14
+   ],
+   [
+    "most",
+    0.32
+   ],
+   [
+    "boring",
+    0.64
+   ],
+   [
+    "tool",
+    1.16
+   ],
+   [
+    "on",
+    1.32
+   ],
+   [
+    "Instagram",
+    1.44
+   ],
+   [
+    "quietly",
+    2.24
+   ],
+   [
+    "makes",
+    2.8
+   ],
+   [
+    "about",
+    3.04
+   ],
+   [
+    "$32K",
+    3.4
+   ],
+   [
+    "every",
+    3.92
+   ],
+   [
+    "month.",
+    5.2
+   ],
+   [
+    "And",
+    5.893
+   ],
+   [
+    "the",
+    7.5
+   ],
+   [
+    "move",
+    7.66
+   ],
+   [
+    "that",
+    7.9
+   ],
+   [
+    "got",
+    8.14
+   ],
+   [
+    "it",
+    8.3
+   ],
+   [
+    "started",
+    8.46
+   ],
+   [
+    "isn't",
+    9.02
+   ],
+   [
+    "what",
+    9.42
+   ],
+   [
+    "you'd",
+    9.553
+   ],
+   [
+    "guess.",
+    9.82
+   ],
+   [
+    "Stay",
+    10.46
+   ],
+   [
+    "till",
+    10.62
+   ],
+   [
+    "the",
+    10.78
+   ],
+   [
+    "end.",
+    10.94
+   ],
+   [
+    "It's",
+    11.54
+   ],
+   [
+    "called",
+    11.74
+   ],
+   [
+    "Liinks.",
+    12.14
+   ],
+   [
+    "One",
+    13.02
+   ],
+   [
+    "link-in-bio",
+    13.26
+   ],
+   [
+    "page",
+    13.9
+   ],
+   [
+    "that",
+    14.3
+   ],
+   [
+    "holds",
+    14.46
+   ],
+   [
+    "your",
+    14.7
+   ],
+   [
+    "links,",
+    15.1
+   ],
+   [
+    "socials,",
+    15.5
+   ],
+   [
+    "forms",
+    16.22
+   ],
+   [
+    "and",
+    16.78
+   ],
+   [
+    "QR",
+    17.1
+   ],
+   [
+    "codes.",
+    17.34
+   ],
+   [
+    "Starter",
+    18.06
+   ],
+   [
+    "is",
+    18.54
+   ],
+   [
+    "$5",
+    18.78
+   ],
+   [
+    "a",
+    19.02
+   ],
+   [
+    "month,",
+    19.3
+   ],
+   [
+    "Pro",
+    19.98
+   ],
+   [
+    "is",
+    20.22
+   ],
+   [
+    "$12.",
+    20.46
+   ],
+   [
+    "These",
+    21.7
+   ],
+   [
+    "numbers",
+    21.98
+   ],
+   [
+    "are",
+    22.3
+   ],
+   [
+    "verified",
+    22.74
+   ],
+   [
+    "on",
+    23.1
+   ],
+   [
+    "TrustMRR.",
+    23.42
+   ],
+   [
+    "About",
+    24.54
+   ],
+   [
+    "$32K",
+    24.78
+   ],
+   [
+    "in",
+    25.26
+   ],
+   [
+    "monthly",
+    26.46
+   ],
+   [
+    "recurring",
+    26.7
+   ],
+   [
+    "revenue.",
+    27.1
+   ],
+   [
+    "About",
+    27.953
+   ],
+   [
+    "$31K",
+    28.1
+   ],
+   [
+    "in",
+    28.7
+   ],
+   [
+    "the",
+    29.62
+   ],
+   [
+    "last",
+    29.74
+   ],
+   [
+    "30",
+    30.06
+   ],
+   [
+    "days.",
+    30.38
+   ],
+   [
+    "5,534",
+    31.1
+   ],
+   [
+    "active",
+    31.94
+   ],
+   [
+    "subscriptions,",
+    33.5
+   ],
+   [
+    "growing",
+    34.487
+   ],
+   [
+    "3%",
+    34.78
+   ],
+   [
+    "a",
+    35.02
+   ],
+   [
+    "month.",
+    35.5
+   ],
+   [
+    "One",
+    36.22
+   ],
+   [
+    "person",
+    36.46
+   ],
+   [
+    "runs",
+    36.86
+   ],
+   [
+    "it:",
+    37.18
+   ],
+   [
+    "Charlie",
+    37.66
+   ],
+   [
+    "Clark,",
+    37.9
+   ],
+   [
+    "bootstrapped.",
+    38.54
+   ],
+   [
+    "How'd",
+    39.54
+   ],
+   [
+    "it",
+    39.74
+   ],
+   [
+    "grow?",
+    39.9
+   ],
+   [
+    "Version",
+    40.62
+   ],
+   [
+    "one",
+    40.86
+   ],
+   [
+    "was",
+    41.22
+   ],
+   [
+    "free.",
+    41.46
+   ],
+   [
+    "Then",
+    42.02
+   ],
+   [
+    "he",
+    42.22
+   ],
+   [
+    "added",
+    42.54
+   ],
+   [
+    "features",
+    42.94
+   ],
+   [
+    "and",
+    43.26
+   ],
+   [
+    "charged",
+    43.62
+   ],
+   [
+    "$3",
+    43.9
+   ],
+   [
+    "a",
+    44.06
+   ],
+   [
+    "month.",
+    44.42
+   ],
+   [
+    "Later",
+    45.18
+   ],
+   [
+    "he",
+    45.42
+   ],
+   [
+    "leaned",
+    45.58
+   ],
+   [
+    "on",
+    45.82
+   ],
+   [
+    "Google",
+    46.1
+   ],
+   [
+    "Search",
+    46.38
+   ],
+   [
+    "ads,",
+    46.7
+   ],
+   [
+    "because",
+    47.22
+   ],
+   [
+    "people",
+    47.58
+   ],
+   [
+    "searching",
+    47.86
+   ],
+   [
+    "for",
+    48.14
+   ],
+   [
+    "link-in-bio",
+    48.3
+   ],
+   [
+    "tools",
+    49.14
+   ],
+   [
+    "already",
+    49.42
+   ],
+   [
+    "want",
+    49.9
+   ],
+   [
+    "one.",
+    50.14
+   ],
+   [
+    "Honest",
+    50.7
+   ],
+   [
+    "catch:",
+    51.1
+   ],
+   [
+    "revenue",
+    51.74
+   ],
+   [
+    "isn't",
+    52.22
+   ],
+   [
+    "profit,",
+    52.74
+   ],
+   [
+    "and",
+    53.127
+   ],
+   [
+    "close",
+    53.3
+   ],
+   [
+    "to",
+    53.5
+   ],
+   [
+    "100",
+    53.82
+   ],
+   [
+    "tools",
+    54.38
+   ],
+   [
+    "compete",
+    54.7
+   ],
+   [
+    "here.",
+    55.3
+   ],
+   [
+    "So",
+    55.66
+   ],
+   [
+    "what",
+    55.9
+   ],
+   [
+    "was",
+    56.06
+   ],
+   [
+    "the",
+    56.22
+   ],
+   [
+    "first",
+    56.54
+   ],
+   [
+    "move?",
+    56.78
+   ],
+   [
+    "Charlie",
+    57.66
+   ],
+   [
+    "was",
+    57.9
+   ],
+   [
+    "already",
+    58.14
+   ],
+   [
+    "talking",
+    58.54
+   ],
+   [
+    "to",
+    58.86
+   ],
+   [
+    "artists",
+    59.02
+   ],
+   [
+    "for",
+    59.42
+   ],
+   [
+    "his",
+    59.62
+   ],
+   [
+    "earlier",
+    59.82
+   ],
+   [
+    "marketplace.",
+    60.22
+   ],
+   [
+    "They",
+    61.127
+   ],
+   [
+    "became",
+    61.26
+   ],
+   [
+    "his",
+    61.58
+   ],
+   [
+    "first",
+    61.74
+   ],
+   [
+    "customers,",
+    62.06
+   ],
+   [
+    "and",
+    62.727
+   ],
+   [
+    "he",
+    62.86
+   ],
+   [
+    "set",
+    63.02
+   ],
+   [
+    "up",
+    63.18
+   ],
+   [
+    "their",
+    63.34
+   ],
+   [
+    "pages",
+    63.58
+   ],
+   [
+    "himself.",
+    63.82
+   ],
+   [
+    "He",
+    64.7
+   ],
+   [
+    "didn't",
+    64.82
+   ],
+   [
+    "go",
+    65.14
+   ],
+   [
+    "find",
+    65.34
+   ],
+   [
+    "an",
+    65.62
+   ],
+   [
+    "audience.",
+    65.74
+   ],
+   [
+    "He",
+    66.38
+   ],
+   [
+    "built",
+    66.74
+   ],
+   [
+    "for",
+    66.94
+   ],
+   [
+    "one",
+    67.1
+   ],
+   [
+    "he",
+    67.38
+   ],
+   [
+    "already",
+    67.7
+   ],
+   [
+    "had.",
+    68.06
+   ],
+   [
+    "Would",
+    68.62
+   ],
+   [
+    "you",
+    68.86
+   ],
+   [
+    "build",
+    69.1
+   ],
+   [
+    "a",
+    69.26
+   ],
+   [
+    "boring",
+    69.313
+   ],
+   [
+    "business",
+    69.74
+   ],
+   [
+    "like",
+    69.98
+   ],
+   [
+    "this,",
+    70.38
+   ],
+   [
+    "or",
+    70.833
+   ],
+   [
+    "just",
+    71.02
+   ],
+   [
+    "use",
+    71.26
+   ],
+   [
+    "one?",
+    71.5
+   ],
+   [
+    "Send",
+    71.98
+   ],
+   [
+    "this",
+    72.22
+   ],
+   [
+    "to",
+    72.38
+   ],
+   [
+    "the",
+    72.46
+   ],
+   [
+    "friend",
+    72.62
+   ],
+   [
+    "who",
+    72.86
+   ],
+   [
+    "thinks",
+    73.02
+   ],
+   [
+    "boring",
+    73.34
+   ],
+   [
+    "businesses",
+    73.66
+   ],
+   [
+    "don't",
+    74.26
+   ],
+   [
+    "make",
+    74.58
+   ],
+   [
+    "money.",
+    74.94
+   ],
+   [
+    "Hack",
+    75.26
+   ],
+   [
+    "saved?",
+    75.5
+   ]
+  ],
+  "duration": 76.16,
+  "ident": {
+   "at": 5.927,
+   "dur": 1.5,
+   "title": "AI HACKS",
+   "type": 0.42,
+   "sub": "EP 21 · BUSINESS BREAKDOWN"
+  },
+  "scenes": [
+   {
+    "t": 0.0,
+    "shows": [
+     "footage:lib_hand_scrolling_smartphone",
+     "headline:THE MOST BORING TOOL"
+    ]
+   },
+   {
+    "t": 5.89,
+    "shows": [
+     "object3d:",
+     "pill:STAY TILL THE END"
+    ]
+   },
+   {
+    "t": 11.54,
+    "shows": [
+     "footage:real_2_phone",
+     "pill:LIINKS.CO"
+    ]
+   },
+   {
+    "t": 13.02,
+    "shows": [
+     "footage:real_2_web",
+     "strike_list:"
+    ]
+   },
+   {
+    "t": 18.06,
+    "shows": [
+     "footage:real_3_web",
+     "stat_row:"
+    ]
+   },
+   {
+    "t": 21.7,
+    "shows": [
+     "label:THE RECEIPTS",
+     "footage:real_1_web"
+    ]
+   },
+   {
+    "t": 24.54,
+    "shows": [
+     "object3d:",
+     "stat_row:"
+    ]
+   },
+   {
+    "t": 36.22,
+    "shows": [
+     "big_number:",
+     "pill:BOOTSTRAPPED"
+    ]
+   },
+   {
+    "t": 39.54,
+    "shows": [
+     "label:THE GROWTH PATH",
+     "steps:"
+    ]
+   },
+   {
+    "t": 47.22,
+    "shows": [
+     "screen:Buyers already searching"
+    ]
+   },
+   {
+    "t": 50.7,
+    "shows": [
+     "label:HONEST CATCH",
+     "headline:REVENUE ≠ PROFIT",
+     "big_number:"
+    ]
+   },
+   {
+    "t": 55.66,
+    "shows": [
+     "object3d:",
+     "pill:HIS MARKETPLACE ARTISTS"
+    ]
+   },
+   {
+    "t": 61.13,
+    "shows": [
+     "arrow_pair:",
+     "pill:HE BUILT THEIR PAGES"
+    ]
+   },
+   {
+    "t": 64.7,
+    "shows": [
+     "label:THE REAL LESSON",
+     "strike_list:"
+    ]
+   },
+   {
+    "t": 68.62,
+    "shows": [
+     "footage:lib_man_comparing_phone_and_laptop",
+     "headline:BUILD IT OR USE IT?"
+    ]
+   }
+  ],
+  "beats": [
+   4.46,
+   29.52,
+   32.8,
+   42.12
+  ]
+ }
+}
