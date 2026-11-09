@@ -1,0 +1,2074 @@
+{
+ "voiceover": "[conversational] ChatGPT is just a chatbot until you plug it into your apps.\n\nStay till the end for the one permission you should never give it.\n\nComposio connects 1,500+ apps, and its plan is free. The catch: ChatGPT needs a paid plan, and write access depends on which one.\n\nOn ChatGPT web, open Plugins, hit plus, then Add custom MCP server. Name it Composio, paste connect.composio.dev/mcp as the Server URL, accept the risk warning, then Create as a plugin. Open it, sign in to Composio, connect Gmail.\n\n[playful] Now type @, pick the plugin, and ask: Read my 10 latest unread emails and add each lead to my Notion Leads database.\n\n[serious] Here's the mistake: giving it full Gmail access when you only need triage. An email can hide instructions that steer the AI. Pick minimal scopes, keep send and delete toggled off, and read every confirmation.\n\nWould you trust AI with your inbox? Send this to the friend who copy-pastes emails into Notion.\n\nHack saved?",
+ "open_loop": {
+  "setup": "Stay till the end for the one permission you should never give it.",
+  "payoff": "Here's the mistake: giving it full Gmail access when you only need triage."
+ },
+ "title": "CHATGPT NEEDS APPS",
+ "ig_caption": "ChatGPT is just a chatbot until you plug it into your apps.\n✅ ChatGPT web → Plugins → plus → Add custom MCP server\n✅ Name it Composio, Server URL: connect.composio.dev/mcp → Create as a plugin\n✅ Sign in to Composio, connect Gmail & Notion with minimal scopes\nComposio's plan is free, but ChatGPT needs a paid plan. Would you let AI touch your inbox? 🤔\nSave this for later\nFollow @ihackgrowth for daily business & growth hacks",
+ "media_hints": {
+  "domain": "composio.dev",
+  "broll": [
+   "typing on laptop",
+   "overflowing email inbox",
+   "person frustrated at desk"
+  ]
+ },
+ "hashtags": [
+  "#AItools",
+  "#AIhacks",
+  "#ChatGPT",
+  "#Composio",
+  "#MCP",
+  "#Notion",
+  "#Gmail",
+  "#automation",
+  "#productivity"
+ ],
+ "tag": "COMPOSIO",
+ "keywords": [
+  "ChatGPT",
+  "chatbot",
+  "apps",
+  "permission",
+  "Composio",
+  "free",
+  "paid",
+  "Plugins",
+  "MCP",
+  "Gmail",
+  "plugin",
+  "Notion",
+  "Leads",
+  "mistake",
+  "triage",
+  "instructions",
+  "minimal",
+  "scopes",
+  "confirmation",
+  "inbox"
+ ],
+ "music": "upbeat",
+ "hud": {
+  "label": "SETUP",
+  "items": [
+   {
+    "value": "0/3",
+    "color": "red"
+   },
+   {
+    "at": "On ChatGPT",
+    "value": "1/3",
+    "color": "gold"
+   },
+   {
+    "at": "Name it",
+    "value": "2/3",
+    "color": "gold"
+   },
+   {
+    "at": "Open it,",
+    "value": "3/3",
+    "color": "green"
+   },
+   {
+    "at": "Here's the mistake:",
+    "value": "RISKY",
+    "color": "red"
+   },
+   {
+    "at": "Pick minimal",
+    "value": "SAFE",
+    "color": "green"
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "at": "ChatGPT is",
+   "tint": "red",
+   "react": [
+    {
+     "at": "until you",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "footage",
+     "at": "ChatGPT is",
+     "media": "lib_man_reacting_to_laptop_screen",
+     "full": true
+    },
+    {
+     "type": "title_slam",
+     "at": "ChatGPT is",
+     "text": "JUST A CHATBOT?",
+     "sub": "PLUG IT INTO YOUR APPS",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "Stay till",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "Stay till",
+     "kind": "padlock",
+     "size": "l",
+     "caption": "THE ONE PERMISSION",
+     "caption_at": "one permission"
+    },
+    {
+     "type": "pill",
+     "at": "never give",
+     "text": "NEVER GIVE IT",
+     "color": "red",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "Composio connects",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Composio connects",
+     "media": "real_2_phone",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "1,500+ apps,",
+     "text": "1,500+ APPS",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "and its",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "and its",
+     "media": "real_1_phone",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "is free.",
+     "text": "START FOR FREE",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "The catch:",
+   "tint": "red",
+   "react": [
+    {
+     "at": "paid plan,",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "The catch:",
+     "text": "THE CATCH",
+     "color": "red"
+    },
+    {
+     "type": "vs",
+     "at": "The catch:",
+     "left": {
+      "label": "COMPOSIO",
+      "value": "FREE"
+     },
+     "right": {
+      "label": "CHATGPT",
+      "value": "PAID",
+      "color": "red",
+      "ill": "credit_card",
+      "at": "paid plan,"
+     }
+    },
+    {
+     "type": "pill",
+     "at": "write access",
+     "text": "WRITE ACCESS: BY PLAN",
+     "color": "gold",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "On ChatGPT",
+   "react": [
+    {
+     "at": "On ChatGPT",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "screen",
+     "at": "On ChatGPT",
+     "device": "web",
+     "theme": "dark",
+     "brand": "chatgpt",
+     "app": "ChatGPT",
+     "url": "chatgpt.com",
+     "step": "Step 1 · Add the server",
+     "steps": [
+      {
+       "at": "On ChatGPT",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Search chats",
+         "Library",
+         "Plugins",
+         "GPTs"
+        ],
+        "profile": "Rohan",
+        "input": ""
+       },
+       "action": {
+        "kind": "click",
+        "target": "Plugins",
+        "at": "open Plugins,"
+       }
+      },
+      {
+       "at": "hit plus,",
+       "view": {
+        "kind": "page",
+        "url": "chatgpt.com/plugins",
+        "site": "ChatGPT",
+        "heading": "Plugins",
+        "buttons": [
+         "+"
+        ],
+        "dark": true,
+        "cards": [
+         {
+          "title": "Drive",
+          "text": "Search your files"
+         },
+         {
+          "title": "Calendar",
+          "text": "See your events"
+         }
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "+",
+        "at": "hit plus,"
+       }
+      },
+      {
+       "at": "then Add",
+       "view": {
+        "kind": "page",
+        "url": "chatgpt.com/plugins",
+        "site": "ChatGPT",
+        "heading": "New plugin",
+        "buttons": [
+         "Add custom MCP server",
+         "Browse"
+        ],
+        "dark": true
+       },
+       "action": {
+        "kind": "click",
+        "target": "Add custom MCP server",
+        "at": "Add custom"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Name it",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Name it",
+     "device": "web",
+     "theme": "dark",
+     "brand": "chatgpt",
+     "app": "ChatGPT",
+     "url": "chatgpt.com/plugins",
+     "step": "Step 2 · Fill the form",
+     "steps": [
+      {
+       "at": "Name it",
+       "view": {
+        "panel": {
+         "title": "Add custom MCP server",
+         "rows": [
+          {
+           "label": "Name",
+           "kind": "field",
+           "value": ""
+          },
+          {
+           "label": "Server URL",
+           "kind": "field",
+           "value": ""
+          },
+          {
+           "label": "I understand and want to continue",
+           "kind": "button"
+          },
+          {
+           "label": "Create as a plugin",
+           "kind": "button"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "type",
+        "target": "Name",
+        "text": "Composio",
+        "at": "Name it"
+       }
+      },
+      {
+       "at": "paste connect.composio.dev/mcp",
+       "view": {
+        "panel": {
+         "title": "Add custom MCP server",
+         "rows": [
+          {
+           "label": "Name",
+           "kind": "field",
+           "value": "Composio"
+          },
+          {
+           "label": "Server URL",
+           "kind": "field",
+           "value": ""
+          },
+          {
+           "label": "I understand and want to continue",
+           "kind": "button"
+          },
+          {
+           "label": "Create as a plugin",
+           "kind": "button"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "type",
+        "target": "Server URL",
+        "text": "https://connect.composio.dev/mcp",
+        "at": "paste connect.composio.dev/mcp"
+       }
+      },
+      {
+       "at": "accept the",
+       "view": {
+        "panel": {
+         "title": "Add custom MCP server",
+         "rows": [
+          {
+           "label": "Name",
+           "kind": "field",
+           "value": "Composio"
+          },
+          {
+           "label": "Server URL",
+           "kind": "field",
+           "value": "https://connect.composio.dev/mcp"
+          },
+          {
+           "label": "I understand and want to continue",
+           "kind": "button"
+          },
+          {
+           "label": "Create as a plugin",
+           "kind": "button"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "I understand and want to continue",
+        "at": "risk warning,"
+       }
+      },
+      {
+       "at": "then Create",
+       "view": {
+        "panel": {
+         "title": "Add custom MCP server",
+         "rows": [
+          {
+           "label": "Name",
+           "kind": "field",
+           "value": "Composio"
+          },
+          {
+           "label": "Server URL",
+           "kind": "field",
+           "value": "https://connect.composio.dev/mcp"
+          },
+          {
+           "label": "Create as a plugin",
+           "kind": "button"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Create as a plugin",
+        "at": "Create as"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Open it,",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Open it,",
+     "device": "web",
+     "app": "Composio",
+     "url": "chatgpt.com/plugins",
+     "step": "Step 3 · Connect Gmail",
+     "steps": [
+      {
+       "at": "Open it,",
+       "view": {
+        "kind": "page",
+        "site": "ChatGPT",
+        "heading": "Your plugins",
+        "dark": true,
+        "cards": [
+         {
+          "title": "Composio",
+          "text": "Custom MCP server",
+          "status": "New"
+         }
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "Composio",
+        "at": "Open it,"
+       }
+      },
+      {
+       "at": "sign in",
+       "view": {
+        "kind": "page",
+        "url": "composio.dev",
+        "site": "Composio",
+        "heading": "Sign in to Composio",
+        "buttons": [
+         "Continue with Google",
+         "Sign in"
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "Continue with Google",
+        "at": "to Composio,"
+       }
+      },
+      {
+       "at": "connect Gmail.",
+       "view": {
+        "kind": "page",
+        "url": "composio.dev",
+        "site": "Composio",
+        "heading": "Connect your apps",
+        "cards": [
+         {
+          "title": "Gmail",
+          "text": "Read and label email",
+          "buttons": [
+           "Connect"
+          ]
+         },
+         {
+          "title": "Notion",
+          "text": "Pages and databases",
+          "buttons": [
+           "Connect"
+          ]
+         }
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "Gmail",
+        "at": "connect Gmail."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Now type",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Now type",
+     "device": "web",
+     "theme": "dark",
+     "brand": "chatgpt",
+     "app": "ChatGPT",
+     "url": "chatgpt.com",
+     "step": "The workflow · Log leads",
+     "steps": [
+      {
+       "at": "Now type",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Search chats",
+         "Library",
+         "Plugins",
+         "GPTs"
+        ],
+        "profile": "Rohan",
+        "input_buttons": [
+         "+",
+         "Tools"
+        ],
+        "input": ""
+       },
+       "action": {
+        "kind": "type",
+        "target": "input",
+        "text": "@",
+        "at": "type @,"
+       }
+      },
+      {
+       "at": "pick the",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Search chats",
+         "Library",
+         "Plugins",
+         "GPTs"
+        ],
+        "profile": "Rohan",
+        "input_buttons": [
+         "+",
+         "Tools"
+        ],
+        "input": "@",
+        "menu": {
+         "items": [
+          "Composio",
+          "Drive",
+          "Calendar"
+         ],
+         "anchor": "top"
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Composio",
+        "at": "the plugin,"
+       }
+      },
+      {
+       "at": "and ask:",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Search chats",
+         "Library",
+         "Plugins",
+         "GPTs"
+        ],
+        "profile": "Rohan",
+        "input_buttons": [
+         "+",
+         "Tools"
+        ],
+        "input": ""
+       },
+       "action": {
+        "kind": "type",
+        "target": "input",
+        "text": "@Composio Read my 10 latest unread emails and add each lead to my Notion Leads database.",
+        "at": "Read my"
+       }
+      },
+      {
+       "at": "Leads database.",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Search chats",
+         "Library",
+         "Plugins",
+         "GPTs"
+        ],
+        "profile": "Rohan",
+        "chat": [
+         {
+          "from": "user",
+          "text": "Read my 10 latest unread emails, add each lead to Notion Leads."
+         },
+         {
+          "from": "ai",
+          "text": "Reading 10 emails… Add leads to Notion? Approve / Deny"
+         }
+        ],
+        "input": ""
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Here's the mistake:",
+   "tint": "red",
+   "react": [
+    {
+     "at": "Here's the mistake:",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "Here's the mistake:",
+     "text": "THE ONE PERMISSION",
+     "color": "red"
+    },
+    {
+     "type": "object3d",
+     "at": "Here's the mistake:",
+     "kind": "padlock",
+     "act": "open",
+     "act_at": "full Gmail",
+     "size": "l",
+     "caption": "FULL GMAIL ACCESS",
+     "caption_at": "full Gmail"
+    },
+    {
+     "type": "pill",
+     "at": "only need",
+     "text": "YOU ONLY NEED TRIAGE",
+     "color": "gold",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "An email",
+   "tint": "red",
+   "react": [
+    {
+     "at": "steer the",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "illustration",
+     "at": "An email",
+     "name": "envelope",
+     "size": "l",
+     "act": "shake",
+     "act_at": "hide instructions"
+    },
+    {
+     "type": "headline",
+     "at": "hide instructions",
+     "text": "HIDDEN INSTRUCTIONS",
+     "color": "red",
+     "sub": "STEER THE AI",
+     "sub_at": "steer the",
+     "sub_color": "red"
+    }
+   ]
+  },
+  {
+   "at": "Pick minimal",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Pick minimal",
+     "device": "web",
+     "theme": "dark",
+     "brand": "chatgpt",
+     "app": "ChatGPT",
+     "url": "chatgpt.com/plugins",
+     "step": "The fix · Minimal scopes",
+     "steps": [
+      {
+       "at": "Pick minimal",
+       "view": {
+        "panel": {
+         "title": "Composio · Gmail tools",
+         "rows": [
+          {
+           "label": "Read emails",
+           "kind": "toggle",
+           "on": true
+          },
+          {
+           "label": "Add labels",
+           "kind": "toggle",
+           "on": true
+          },
+          {
+           "label": "Send emails",
+           "kind": "toggle",
+           "on": true
+          },
+          {
+           "label": "Delete emails",
+           "kind": "toggle",
+           "on": true
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "point",
+        "target": "Read emails",
+        "at": "minimal scopes,"
+       }
+      },
+      {
+       "at": "keep send",
+       "view": {
+        "panel": {
+         "title": "Composio · Gmail tools",
+         "rows": [
+          {
+           "label": "Read emails",
+           "kind": "toggle",
+           "on": true
+          },
+          {
+           "label": "Add labels",
+           "kind": "toggle",
+           "on": true
+          },
+          {
+           "label": "Send emails",
+           "kind": "toggle",
+           "on": true
+          },
+          {
+           "label": "Delete emails",
+           "kind": "toggle",
+           "on": true
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "toggle",
+        "target": "Send emails",
+        "at": "send and"
+       }
+      },
+      {
+       "at": "and delete",
+       "view": {
+        "panel": {
+         "title": "Composio · Gmail tools",
+         "rows": [
+          {
+           "label": "Read emails",
+           "kind": "toggle",
+           "on": true
+          },
+          {
+           "label": "Add labels",
+           "kind": "toggle",
+           "on": true
+          },
+          {
+           "label": "Send emails",
+           "kind": "toggle",
+           "on": false
+          },
+          {
+           "label": "Delete emails",
+           "kind": "toggle",
+           "on": true
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "toggle",
+        "target": "Delete emails",
+        "at": "toggled off,"
+       }
+      },
+      {
+       "at": "read every",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Search chats",
+         "Library",
+         "Plugins",
+         "GPTs"
+        ],
+        "profile": "Rohan",
+        "chat": [
+         {
+          "from": "user",
+          "text": "Add each lead to my Notion Leads database."
+         },
+         {
+          "from": "ai",
+          "text": "Confirm: create pages in Leads? Approve / Deny"
+         }
+        ],
+        "input": ""
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Would you",
+   "react": [
+    {
+     "at": "your inbox?",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "headline",
+     "at": "Would you",
+     "text": "TRUST AI WITH YOUR INBOX?",
+     "size": "l",
+     "ill": "inbox_tray",
+     "sub": "COMMENT BELOW",
+     "sub_at": "your inbox?"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "Send this",
+  "line1": "Send this to",
+  "line1_at": "Send this",
+  "line2": "the copy-paster",
+  "line2_at": "copy-pastes emails"
+ },
+ "endcard": {
+  "title": "Hack saved?",
+  "terminal": "> composio.connected · send: off"
+ },
+ "media": [
+  {
+   "id": "real_1_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-09_1301/real_1_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-09_1301/real_1_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: composio.dev",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the gold-outlined part — Composio pricing page on mobile. Top banner: 'NEW Firewall · Your agents. Your rules.' Nav has the Composio logo, a 'GET STARTED - FREE' button and a hamburger menu. Headline: 'Start for free. Then pay as you go.' Subtext: '100,000 tool calls, 50,000 triggers, and 3 team members included free each m [Screen: composio.dev]"
+  },
+  {
+   "id": "real_1_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-09_1301/real_1_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-09_1301/real_1_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: composio.dev",
+   "desc": "REAL desktop screen recording, pushes in on the gold-outlined part — Composio desktop pricing page, 'Compare features by plan' table with Hobby, Pro and Enterprise columns. The highlighted row is 'Custom tools & MCP': Hobby 'Shared only', Pro and Enterprise checkmarks. Other rows: 1500+ toolkits, OAuth management, Triggers, Sessions, Composio-managed apps, Self-manag [Screen: composio.dev]"
+  },
+  {
+   "id": "real_2_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-09_1301/real_2_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-09_1301/real_2_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: composio.dev",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the gold-outlined part — Composio homepage hero on mobile. Banner: 'NEW Firewall · Your agents. Your rules.' Headline: 'Plug every app into your agents'. Highlighted subtext: 'Connect Claude, ChatGPT, Cursor, and any AI you use to Gmail, Slack, GitHub, Notion, and 1,500+ more apps — through MCP or a direct API.' Black 'GET  [Screen: composio.dev]"
+  },
+  {
+   "id": "real_2_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-09_1301/real_2_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-09_1301/real_2_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: composio.dev",
+   "desc": "REAL desktop screen recording, pushes in on the gold-outlined part — Composio homepage hero on desktop. Banner: 'NEW Composio Firewall · Control what your agents can do. EXPLORE'. Headline: 'Plug every app into your agents'. Highlighted subtext: 'Connect Claude, ChatGPT, Cursor, and any AI you use to Gmail, Slack, GitHub, Notion, and 1,500+ more apps — through MCP or [Screen: composio.dev]"
+  },
+  {
+   "id": "real_3_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-09_1301/real_3_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-09_1301/real_3_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: composio.dev",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the gold-outlined part — Composio landing page on mobile. Banner: 'NEW Firewall · Your agents. Your rules.' Headline: 'Working with AI is smarter with Composio'. Subtext: 'Connect Claude or ChatGPT to the apps you already use — Gmail, Slack, Notion, Calendar, and 1,500+ more. One prompt, real work, done.' Button: 'GET START [Screen: composio.dev]"
+  },
+  {
+   "id": "real_3_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-09_1301/real_3_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-09_1301/real_3_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: composio.dev",
+   "desc": "REAL desktop screen recording, pushes in on the gold-outlined part — Composio desktop page with prompt cards to copy and paste. Cards: 'Summarize today's unread emails into 5 bullets and tell me the one I have to reply to.' (Summarize today's unread emails); 'Catch me up on Slack — what did I miss in #general and #product since yesterday?' (Slack catch-up); highlight [Screen: composio.dev]"
+  },
+  {
+   "id": "real_4_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-09_1301/real_4_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-09_1301/real_4_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: composio.dev",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the gold-outlined part — Composio blog post on mobile, titled 'How to add MCP servers to ChatGPT Work'. By Prathit Joshi, Jul 13, 2026, 12 min read. Tags: MCP, OPEN AI. A collapsed 'CONTENTS' dropdown follows. The intro begins: 'Everything ChatGPT Work does outside the chat window is done through plugins. That's the mechani [Screen: composio.dev]"
+  },
+  {
+   "id": "real_4_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-09_1301/real_4_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-09_1301/real_4_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: composio.dev",
+   "desc": "REAL desktop screen recording, pushes in on the gold-outlined part — Composio blog post on desktop, 'How to add MCP servers to ChatGPT Work', with a table of contents on the left. Sections: What you are connecting, Before you start, Connect MCP servers on ChatGPT Work Desktop, Connect MCP on ChatGPT Web, What happens when you send a prompt, Prompts worth trying, Perm [Screen: composio.dev]"
+  },
+  {
+   "id": "lib_camera_moving_down_server_corridor",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "credit": "",
+   "file": "camera_moving_down_server_corridor.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow forward push down a hazy, fog-filled data center aisle lined with server racks that glow with blue and amber status lights, giving a moody, futuristic feel. Good for: A script line about the infrastructure behind AI, such as cloud computing, model training, heavy compute, data storage, or 'what happens behind the scenes'."
+  },
+  {
+   "id": "lib_clock_ticking_and_person_typing",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "credit": "",
+   "file": "clock_ticking_and_person_typing.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A rack-focus shot moves from a close-up of a black twin-bell alarm clock with ticking hands to a bearded man in a light polo typing on a laptop in a dim room, giving a tense, time-pressured mood. Good for: lines about deadlines, time slipping away, long hours of manual work, or the pressure of slow, tedious tasks before an AI tool speeds things up"
+  },
+  {
+   "id": "lib_colleagues_collaborating_around",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "credit": "",
+   "file": "colleagues_collaborating_around.mp4",
+   "frames": 126,
+   "desc": "B-roll (4.2s, VERTICAL 9:16 — best as full: true): colleagues collaborating around Good for: "
+  },
+  {
+   "id": "lib_content_creator_sets_up_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "credit": "",
+   "file": "content_creator_sets_up_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt stands behind a ring light with a phone on a tripod, adjusting the setup while the camera slowly pushes in until his face fills the frame, with a calm, focused mood and moody blue ambient lighting in the background. Good for: setting up to create content, getting started as a creator, or preparing equipment before recording a tutorial"
+  },
+  {
+   "id": "lib_eye_reflecting_laptop_screen_glow",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "credit": "",
+   "file": "eye_reflecting_laptop_screen_glow.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow zoom into an extreme close-up of a brown eye with a bright blue screen reflected in the pupil, framed by a thick eyebrow and warm skin tones, fading into a cool blue gradient at the bottom, with a focused, intense and cinematic mood. Good for: lines about being glued to a screen, intense focus or attention, watching AI work, or 'seeing' a new opportunity or insight"
+  },
+  {
+   "id": "lib_hand_dropping_papers_on_desk",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "credit": "",
+   "file": "hand_dropping_papers_on_desk.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a green shirt carries and then drops a thick stack of papers onto an already huge, messy pile of documents with sticky notes on a cluttered desk, while a laptop glows nearby, and the camera pushes in to a close-up of the towering stack, creating a mood of overwhelm and tedious paperwork. Good for: a script line about drowning in manual paperwork or document processing, setting up how AI can automate summarizing, sorting, or extracting information from piles of documents"
+  },
+  {
+   "id": "lib_hands_holding_credit_card_near",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hands_holding_credit_card_near.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hands_holding_credit_card_near.mp4",
+   "credit": "",
+   "file": "hands_holding_credit_card_near.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): hands holding credit card near Good for: "
+  },
+  {
+   "id": "lib_man_comparing_phone_and_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "credit": "",
+   "file": "man_comparing_phone_and_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): man comparing phone and laptop Good for: "
+  },
+  {
+   "id": "lib_man_looking_at_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "credit": "",
+   "file": "man_looking_at_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt scowls with intense focus at a laptop in a dim, warmly lit room, then closes his eyes and rubs his hand near his chin in tired frustration. Good for: frustration with slow or difficult work, such as struggling with a tedious task, debugging, or burning out late at night before finding a better way"
+  },
+  {
+   "id": "lib_man_opens_laptop_in_room",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "credit": "",
+   "file": "man_opens_laptop_in_room.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt sits at a laptop in a dimly lit, warmly lit room, and his focused, tense expression builds as he leans toward the screen, which shows blurry blue diagram or flowchart-style blocks, with his fists clenched near his chin in the middle frame. Good for: intense concentration or deep work, such as debugging, building an AI workflow, or struggling with a complex problem"
+  },
+  {
+   "id": "lib_man_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "man_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt stares intently at a laptop screen with blurry blue UI elements floating in front of the camera, then grimaces in frustration and mouths a reaction, and finally tilts his head back in exhausted resignation in a dim, warmly lit room. Good for: frustration with slow, tedious, or failing work, such as waiting on a slow tool, hitting an error, or being exhausted by manual tasks before introducing an AI solution"
+  },
+  {
+   "id": "lib_man_smiling_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "credit": "",
+   "file": "man_smiling_at_phone.mp4",
+   "frames": 135,
+   "desc": "B-roll (4.5s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a blue smartphone, his expression shifting from neutral to a furrowed-brow frown of confusion and frustration. Good for: a line about frustration with confusing apps or slow tools, or the moment someone hits a problem and doesn't know what to do next"
+  },
+  {
+   "id": "lib_man_studying_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "credit": "",
+   "file": "man_studying_with_laptop.mp4",
+   "frames": 132,
+   "desc": "B-roll (4.4s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits at a desk behind a laptop with a furrowed brow and a frustrated, concentrated look, first staring at the screen, then looking down at an open notebook and writing with a pen, with a warm blurred lamp glowing in the background. Good for: a script line about struggling to understand something complex, frustration with slow or manual work, or the pain of learning a new tool the hard way"
+  },
+  {
+   "id": "lib_man_watching_laptop_waiting",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "credit": "",
+   "file": "man_watching_laptop_waiting.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits at a laptop in a dimly lit room with warm lamp light, resting his chin on his fist with a focused, pensive look, and the camera pushes in closer across the three frames. Good for: a script line about deep thinking, researching or problem-solving, or weighing a decision before trying an AI tool"
+  },
+  {
+   "id": "lib_person_drinking_coffee_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "credit": "",
+   "file": "person_drinking_coffee_with_laptop.mp4",
+   "frames": 93,
+   "desc": "B-roll (3.1s, VERTICAL 9:16 — best as full: true): A bearded man in a green polo sits at a laptop in a modern industrial-style open office, lifting a white cup to his mouth and sipping a hot drink while looking down at the screen, in a calm, focused mood. Good for: a line about taking a breather while the AI does the work, a morning work routine, waiting for a process to finish, or the calm of an automated workflow"
+  },
+  {
+   "id": "lib_person_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "person_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a laptop, his expression moving from concern to a deep frown with glowing blue tear-like effects on his cheeks, then to eyes shut in stress or exhaustion; the mood is frustrated and overwhelmed. Good for: A script line about frustration or overwhelm with a tough task, such as struggling with confusing tools, wasting hours on manual work, or being stuck before finding an AI solution."
+  },
+  {
+   "id": "lib_person_speaking_into_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "credit": "",
+   "file": "person_speaking_into_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt takes a phone call in a modern industrial office with exposed concrete ceilings, moving from a serious, concerned look to a worried talking expression and ending with a relieved, confident smile at the camera. Good for: a script line about getting a surprising call or news, a problem being solved, or the moment of relief after a stressful issue"
+  },
+  {
+   "id": "lib_person_taking_selfie_with_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "credit": "",
+   "file": "person_taking_selfie_with_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt sits in a car holding a blue smartphone up close to his face, and across the clip he leans toward the screen with a furrowed brow, looking skeptical and intensely focused. Good for: a script line about doubting or double-checking AI output, being confused or frustrated by an app or tool, or looking closely at a result on your phone, e.g. 'wait, is this actually right?'"
+  },
+  {
+   "id": "lib_robotic_hand_typing_on_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "credit": "",
+   "file": "robotic_hand_typing_on_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a black robotic hand with segmented, mechanical fingers lowering onto a backlit laptop keyboard and starting to type, shot at shallow depth of field in a warm, softly lit, modern workspace. Good for: A script line about AI doing the work for you, automating repetitive tasks, or AI taking over typing and writing, such as 'let AI handle the busywork' or 'AI writes it for you'."
+  },
+  {
+   "id": "s1_image",
+   "kind": "image",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-09_1301/s1_image.png",
+   "credit": "Image: composio.dev",
+   "desc": "official image from Composio MCP server (https://connect.composio.dev/mcp) added to ChatGPT as a custom MCP server / plugin. This was previously called Developer Mode and Connectors. (announcement page)"
+  }
+ ],
+ "style": "hisaab",
+ "topic": "Connect ChatGPT to Gmail, Notion, YouTube and about 1,000 other apps through Composio in about a minute, so it does real business tasks (triage email, log leads, update docs) instead of just chatting. Show the 3 setup steps and one practical workflow.",
+ "pick": {
+  "index": 41,
+  "topic": "Connect ChatGPT to Gmail, Notion, YouTube and about 1,000 other apps through Composio in about a minute, so it does real business tasks (triage email, log leads, update docs) instead of just chatting. Show the 3 setup steps and one practical workflow.",
+  "tool": "Composio (composio.dev) + ChatGPT developer mode/connectors",
+  "format": "tutorial",
+  "angle": "ChatGPT is just a chatbot until you plug it into your apps. Here's the free way to do it, and the permission mistake to avoid when you give an AI access to your inbox.",
+  "why": "594 comments on 21.8k views is about 2.7%, a very high comment rate for a niche automation topic. It's a business workflow with a free account and a real public site (composio.dev) we can show live. It also isn't covered in our recent list."
+ },
+ "inspired_by": {
+  "url": "https://www.instagram.com/p/DfKypWLsn0h/",
+  "owner": "abramov_aicreator",
+  "plays": 21830,
+  "likes": 515,
+  "comments": 594
+ },
+ "research": {
+  "verdict": "adjust",
+  "tool": "Composio MCP server (https://connect.composio.dev/mcp) added to ChatGPT as a custom MCP server / plugin. This was previously called Developer Mode and Connectors.",
+  "availability": "Composio: free Hobby plan, no credit card. ChatGPT side: NOT free. Custom MCP servers need a paid ChatGPT plan (Plus/Pro/Business/Enterprise/Edu), on ChatGPT web. Plan rules for write actions conflict between sources (see notes). Region limits not verified.",
+  "steps": [
+   "Open ChatGPT on the web (a paid plan is required) and go to Plugins (chatgpt.com/plugins; also reachable via Settings → Plugins).",
+   "Select the plus button, then 'Add custom MCP server'. OpenAI's current docs no longer mention a separate Developer Mode toggle step, but older guides, and some Composio pages, still say Settings → Apps/Connectors → Advanced settings → Developer Mode. Check which your account shows.",
+   "Enter a name (e.g. Composio), set the Server URL to https://connect.composio.dev/mcp, and configure authentication as the form asks. Review the risk warning, select 'I understand and want to continue', then select 'Create as a plugin'.",
+   "Open the new plugin and authenticate: sign in to your Composio account (free Hobby plan) and approve the permissions. Then connect each app (Gmail, Notion, etc.) through Composio's Connect Link flow, choosing only the scopes you need.",
+   "Use it in a chat: type @ in the prompt box and select the installed plugin. Example prompt (Composio's own): 'Take this email from my CEO and create a Notion task with a due date.' ChatGPT will ask you to confirm any write action."
+  ],
+  "facts": [
+   "OpenAI docs: custom MCP servers are added via ChatGPT Plugins → plus button → 'Add custom MCP server' → 'Create as a plugin'. ChatGPT supports both read and write tools. Supported protocols are SSE and streaming HTTP.",
+   "OpenAI docs: after setup, use the app in a chat by typing @ in the prompt box and selecting the installed plugin. In the plugin's settings you can toggle individual tools on or off.",
+   "OpenAI docs: 'Workspace permissions and security restrictions, including Lockdown, apply' to custom MCP servers. Custom MCP servers are 'not developed or verified by OpenAI'.",
+   "Composio MCP URL: https://connect.composio.dev/mcp (one URL; you connect apps behind it, so no second server is needed per app).",
+   "Composio's own site says '1,500+ more apps' (Gmail, Slack, GitHub, Notion). An older Composio article said '1,000+ pre-built toolkits'. 'About 1,000' understates it; '1,500+' is current.",
+   "Composio pricing (composio.dev/pricing, via secondary sources dated Oct–Nov 2026): Hobby $0, no credit card, 100,000 tool calls and 50,000 trigger events per month, 3 team members, hard cap. Usage pauses at the cap, with no surprise bill.",
+   "Composio Pro is $29/month and includes $29 in usage credit. Overage is $0.0003 per tool call.",
+   "Composio-managed OAuth apps have a smaller free allowance: 20,000 of the 100,000 tool calls (secondary sources).",
+   "Pricing changed on 15 Aug 2026 (old 20K/200K/2M tiers replaced); per-app credit pricing for managed apps applies to signups on/after Nov 3, 2026 (per pricing page). Ignore the older '20K free' figures.",
+   "Composio Gmail toolkit: its own article cites '63 available methods' for Gmail. A Composio article says Notion access is controlled at two levels: scopes chosen at OAuth, and which pages/databases you share with the integration.",
+   "Composio's own 'Email → Notion Task' prompt example is on composio.dev/product/composio-for-everyday-ai-users, so a Gmail → Notion workflow is officially demonstrated.",
+   "Composio guide: Notion on a team workspace may need approval from a workspace owner."
+  ],
+  "do_not_claim": [
+   "'Free' for the whole setup. Composio is free, but ChatGPT's custom MCP needs a paid plan. Composio's own article says free-tier ChatGPT accounts can't access the custom connector interface.",
+   "'One minute' as a verified time. No source confirms it. Composio's own Notion guide says 'under 15 minutes'. Say 'a few minutes' or 'three steps'.",
+   "'Developer mode in settings' as the first step, without a caveat. As of Nov 2026 OpenAI's docs use Plugins → Add custom MCP server. A third-party report cites OpenAI's help center as saying Developer Mode is no longer needed first and that you acknowledge a risk warning per server (not verified directly). Some Composio guides still show the old path.",
+   "'About 1,000 apps' stated as current. Composio's site now says 1,500+.",
+   "'Link in the Plugins section' as if you just paste a Composio link. You add the MCP server URL https://connect.composio.dev/mcp via 'Add custom MCP server', then authenticate.",
+   "'ChatGPT runs Gmail, YouTube and Notion by itself, no code'. A YouTube toolkit on Composio was not verified in this check. ChatGPT also asks for manual confirmation before write actions, so it isn't fully autonomous. 'Without code' is accurate for setup.",
+   "Any claim that Composio is an official OpenAI product or that OpenAI verifies it. OpenAI says custom servers are not verified by OpenAI.",
+   "Do not say all paid plans can write (send email, edit Notion). Sources conflict: one says Business/Enterprise/Edu only, with Pro read/fetch only, and another says Plus/Pro work. Say 'check your plan'."
+  ],
+  "criticism": [
+   "Prompt injection: an email can hide instructions that steer the AI. With a write-enabled connector (send/delete/forward), a malicious email could trigger actions. OpenAI's docs list this as a risk and say custom servers are third-party and unverified.",
+   "Permission mistake to show: granting full Gmail scopes and write tools when you only need to triage. Safer: connect read-only/minimal scopes, keep tools like send and delete toggled off in the plugin's tool list, and never skip the confirmation prompt before writes. Read the destination in any confirmation.",
+   "A reported flaw (Tweakers, 8 Sep 2026, via a secondary source) showed attackers could use linked apps (Gmail, Drive, Teams, GitHub) through crafted prompts. Treat connected-app access as sensitive.",
+   "Data retention: Composio's zero data retention is an optional add-on, not included on the free Hobby plan (per pricing page, via a secondary review). Avoid sending highly sensitive mail through the free tier.",
+   "The free tier is hard-capped (100K tool calls). It is fine for personal use, but the cap pauses your workflows when reached.",
+   "Third-party MCP server in the middle: Composio holds your OAuth tokens and sees the data passing through it, so you are trusting a second company in addition to OpenAI and Google."
+  ],
+  "ui": {
+   "platforms": "Web only for adding the server (ChatGPT web, per OpenAI docs: 'Use ChatGPT on the web'). Desktop/mobile apps can use the plugin afterwards. Not verified in detail.",
+   "apps": [
+    "ChatGPT web (chatgpt.com)",
+    "Composio sign-in / Connect Link page (composio.dev)",
+    "Gmail web (permission consent screen)",
+    "Notion (authorization screen)"
+   ],
+   "screens": [
+    "I could not view live screens, so the layout below is from text docs and not pixel-verified. Labels are exact; positions are approximate.",
+    "ChatGPT web → Plugins page (chatgpt.com/plugins), a directory of plugins/apps. A plus button creates a new one. Selecting it shows 'Add custom MCP server'.",
+    "'Add custom MCP server' form: fields for a user-facing name and description; a 'Connection' section with the Server URL (or 'Tunnel'); an Authentication option (e.g. 'No authentication' or OAuth); a risk warning with a button 'I understand and want to continue'; then a 'Create as a plugin' button.",
+    "After creation: the plugin appears under your personal plugins. It lists the tools discovered from the server, each with a toggle, plus a refresh option. Open the plugin and select the plus button to install it.",
+    "Older UI (many guides still show it, and may still exist on some accounts): Settings → Connectors (or Apps) → Advanced settings → toggle 'Developer Mode'; then 'Create' with Server URL; a 'Developer Mode' option appears in the + menu in chat.",
+    "Auth step: a Composio sign-in/approval page opens, then Gmail's Google consent screen and Notion's access-approval screen. Gmail shows the requested permissions; keep them minimal.",
+    "Chat: type @ and pick the plugin. ChatGPT shows tool-call cards and asks for confirmation (approve/deny) before a write action. The result is the Notion task/page created or the Gmail labels/drafts.",
+    "Default theme: ChatGPT follows the system theme; not verified. Record in dark or light and keep it consistent."
+   ]
+  },
+  "visuals": "Best shown as a real screen recording of the ChatGPT Plugins → Add custom MCP server form with the Composio URL, then a chat where ChatGPT reads a Gmail message and creates a Notion task, with the confirmation prompt visible. The final result is the new task in Notion. The pricing page and the OpenAI docs page can be used as B-roll proof.",
+  "real_pages": [
+   {
+    "url": "https://composio.dev/pricing",
+    "show": "Hobby",
+    "kind": "site"
+   },
+   {
+    "url": "https://composio.dev/toolkits",
+    "show": "1,500+ more apps",
+    "kind": "site"
+   },
+   {
+    "url": "https://composio.dev/product/composio-for-everyday-ai-users",
+    "show": "Email → Notion Task",
+    "kind": "site"
+   },
+   {
+    "url": "https://composio.dev/content/mcp-with-chatgpt-work",
+    "show": "Composio MCP server",
+    "kind": "site"
+   },
+   {
+    "url": "https://developers.openai.com/api/docs/guides/custom-mcp-server",
+    "show": "Add custom MCP server",
+    "kind": "help"
+   }
+  ],
+  "sources": [
+   "https://developers.openai.com/api/docs/guides/custom-mcp-server",
+   "https://developers.openai.com/plugins/deploy/connect-chatgpt",
+   "https://developers.openai.com/api/docs/mcp",
+   "https://platform.openai.com/docs/mcp",
+   "https://composio.dev/pricing",
+   "https://composio.dev/toolkits",
+   "https://composio.dev/content/mcp-with-chatgpt-work",
+   "https://composio.dev/content/chatgpt-mcp-how-to-connect-chatgpt-to-your-apps-without-code",
+   "https://composio.dev/content/how-to-connect-chatgpt-to-notion",
+   "https://composio.dev/content/notion-mcp-setup",
+   "https://composio.dev/product/composio-for-everyday-ai-users",
+   "https://parallel.ai/articles/best-mcp-servers-for-chatgpt",
+   "https://coworker.ai/blog/chatgpt-mcp",
+   "https://eseospace.com/blog/chatgpt-developer-mode-mcp/",
+   "https://www.reachkit.ai/directory/tools/composio",
+   "https://www.softr.io/blog/mcp-security-risks",
+   "https://www.usecarly.com/blog/is-it-safe-to-connect-chatgpt-to-gmail/"
+  ],
+  "notes": "Verdict is 'adjust'. The trick works, but the transcript's claims are outdated or misleading. (1) The ChatGPT menu changed: as of Jul–Nov 2026 apps/connectors became 'Plugins', and OpenAI's docs say Plugins → + → Add custom MCP server. The old Developer Mode guide URL reportedly 404s, and some Composio pages still show the old Settings → Apps/Connectors → Advanced → Developer Mode path. Composio's pages also vary (Security and Login; 'ChatGPT Work'), so the writer should say 'Developer mode / Plugins' and show whatever the live account displays. (2) The 'free way' angle must be reworded to 'Composio's plan is free, but you need a paid ChatGPT plan'. (3) Plan conflict: one source cites OpenAI's help center as saying full MCP with write actions is only for Business/Enterprise/Edu, with Pro read/fetch only; other sources say Plus/Pro work in Developer Mode. I couldn't open the OpenAI help center directly, so state 'paid plan; write access depends on plan'. (4) Pricing figures: use the 100K calls/month free Hobby plan (hard cap, no card). Ignore blog posts that say 20K free, since they are outdated. Managed-OAuth apps have a 20K sub-allowance. (5) Suggested practical workflow: 'Read my 10 latest unread emails, label leads vs support, and add each lead as a row in my Notion Leads database'; start read-only for Gmail. (6) The caption's 'send GPT in comments for my materials' is a lead-magnet ad hook, so don't copy it. Note that the original reel's transcript was not available, so claims are inferred from the caption only.",
+  "_searched": 6
+ },
+ "models": {
+  "pick": "claude-sonnet-5-5",
+  "research": "claude-sonnet-5-5",
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 20,
+ "_ident": {
+  "at": 4.38,
+  "dur": 1.5,
+  "title": "AI HACKS",
+  "type": 0.42,
+  "sub": "EP 20 · COMPOSIO"
+ },
+ "timeline": {
+  "words": [
+   [
+    "ChatGPT",
+    0.08
+   ],
+   [
+    "is",
+    0.96
+   ],
+   [
+    "just",
+    1.28
+   ],
+   [
+    "a",
+    1.52
+   ],
+   [
+    "chatbot",
+    1.68
+   ],
+   [
+    "until",
+    2.48
+   ],
+   [
+    "you",
+    2.76
+   ],
+   [
+    "plug",
+    2.96
+   ],
+   [
+    "it",
+    3.12
+   ],
+   [
+    "into",
+    3.32
+   ],
+   [
+    "your",
+    3.52
+   ],
+   [
+    "apps.",
+    3.68
+   ],
+   [
+    "Stay",
+    5.9
+   ],
+   [
+    "till",
+    6.1
+   ],
+   [
+    "the",
+    6.3
+   ],
+   [
+    "end",
+    6.46
+   ],
+   [
+    "for",
+    6.7
+   ],
+   [
+    "the",
+    6.9
+   ],
+   [
+    "one",
+    7.1
+   ],
+   [
+    "permission",
+    7.62
+   ],
+   [
+    "you",
+    7.98
+   ],
+   [
+    "should",
+    8.26
+   ],
+   [
+    "never",
+    8.54
+   ],
+   [
+    "give",
+    8.86
+   ],
+   [
+    "it.",
+    9.02
+   ],
+   [
+    "Composio",
+    9.58
+   ],
+   [
+    "connects",
+    10.22
+   ],
+   [
+    "1,500+",
+    10.74
+   ],
+   [
+    "apps,",
+    11.34
+   ],
+   [
+    "and",
+    12.673
+   ],
+   [
+    "its",
+    12.78
+   ],
+   [
+    "plan",
+    13.14
+   ],
+   [
+    "is",
+    13.46
+   ],
+   [
+    "free.",
+    13.86
+   ],
+   [
+    "The",
+    14.247
+   ],
+   [
+    "catch:",
+    14.5
+   ],
+   [
+    "ChatGPT",
+    15.18
+   ],
+   [
+    "needs",
+    15.94
+   ],
+   [
+    "a",
+    16.14
+   ],
+   [
+    "paid",
+    16.34
+   ],
+   [
+    "plan,",
+    16.54
+   ],
+   [
+    "and",
+    17.127
+   ],
+   [
+    "write",
+    17.26
+   ],
+   [
+    "access",
+    17.74
+   ],
+   [
+    "depends",
+    18.14
+   ],
+   [
+    "on",
+    18.38
+   ],
+   [
+    "which",
+    18.58
+   ],
+   [
+    "one.",
+    18.78
+   ],
+   [
+    "On",
+    19.367
+   ],
+   [
+    "ChatGPT",
+    19.54
+   ],
+   [
+    "web,",
+    20.14
+   ],
+   [
+    "open",
+    20.7
+   ],
+   [
+    "Plugins,",
+    21.3
+   ],
+   [
+    "hit",
+    21.82
+   ],
+   [
+    "plus,",
+    22.06
+   ],
+   [
+    "then",
+    22.7
+   ],
+   [
+    "Add",
+    23.02
+   ],
+   [
+    "custom",
+    23.34
+   ],
+   [
+    "MCP",
+    23.82
+   ],
+   [
+    "server.",
+    24.62
+   ],
+   [
+    "Name",
+    25.02
+   ],
+   [
+    "it",
+    25.26
+   ],
+   [
+    "Composio,",
+    25.42
+   ],
+   [
+    "paste",
+    26.38
+   ],
+   [
+    "connect.composio.dev/mcp",
+    26.7
+   ],
+   [
+    "as",
+    29.02
+   ],
+   [
+    "the",
+    29.82
+   ],
+   [
+    "Server",
+    29.98
+   ],
+   [
+    "URL,",
+    30.3
+   ],
+   [
+    "accept",
+    31.14
+   ],
+   [
+    "the",
+    31.38
+   ],
+   [
+    "risk",
+    31.54
+   ],
+   [
+    "warning,",
+    31.74
+   ],
+   [
+    "then",
+    32.42
+   ],
+   [
+    "Create",
+    32.74
+   ],
+   [
+    "as",
+    33.02
+   ],
+   [
+    "a",
+    33.18
+   ],
+   [
+    "plugin.",
+    33.26
+   ],
+   [
+    "Open",
+    34.02
+   ],
+   [
+    "it,",
+    34.22
+   ],
+   [
+    "sign",
+    34.7
+   ],
+   [
+    "in",
+    34.98
+   ],
+   [
+    "to",
+    35.1
+   ],
+   [
+    "Composio,",
+    35.26
+   ],
+   [
+    "connect",
+    36.06
+   ],
+   [
+    "Gmail.",
+    36.46
+   ],
+   [
+    "Now",
+    37.237
+   ],
+   [
+    "type",
+    37.34
+   ],
+   [
+    "@,",
+    37.58
+   ],
+   [
+    "pick",
+    38.38
+   ],
+   [
+    "the",
+    38.5
+   ],
+   [
+    "plugin,",
+    38.62
+   ],
+   [
+    "and",
+    39.18
+   ],
+   [
+    "ask:",
+    39.34
+   ],
+   [
+    "Read",
+    39.98
+   ],
+   [
+    "my",
+    40.22
+   ],
+   [
+    "10",
+    40.58
+   ],
+   [
+    "latest",
+    40.78
+   ],
+   [
+    "unread",
+    41.26
+   ],
+   [
+    "emails",
+    41.66
+   ],
+   [
+    "and",
+    42.14
+   ],
+   [
+    "add",
+    42.46
+   ],
+   [
+    "each",
+    42.7
+   ],
+   [
+    "lead",
+    42.94
+   ],
+   [
+    "to",
+    43.22
+   ],
+   [
+    "my",
+    43.34
+   ],
+   [
+    "Notion",
+    43.62
+   ],
+   [
+    "Leads",
+    43.9
+   ],
+   [
+    "database.",
+    44.22
+   ],
+   [
+    "Here's",
+    45.26
+   ],
+   [
+    "the",
+    45.54
+   ],
+   [
+    "mistake:",
+    45.74
+   ],
+   [
+    "giving",
+    46.46
+   ],
+   [
+    "it",
+    46.74
+   ],
+   [
+    "full",
+    46.94
+   ],
+   [
+    "Gmail",
+    47.26
+   ],
+   [
+    "access",
+    47.82
+   ],
+   [
+    "when",
+    48.14
+   ],
+   [
+    "you",
+    48.34
+   ],
+   [
+    "only",
+    48.54
+   ],
+   [
+    "need",
+    48.86
+   ],
+   [
+    "triage.",
+    49.1
+   ],
+   [
+    "An",
+    49.927
+   ],
+   [
+    "email",
+    50.06
+   ],
+   [
+    "can",
+    50.58
+   ],
+   [
+    "hide",
+    50.78
+   ],
+   [
+    "instructions",
+    51.02
+   ],
+   [
+    "that",
+    51.78
+   ],
+   [
+    "steer",
+    51.98
+   ],
+   [
+    "the",
+    52.3
+   ],
+   [
+    "AI.",
+    52.46
+   ],
+   [
+    "Pick",
+    53.1
+   ],
+   [
+    "minimal",
+    53.26
+   ],
+   [
+    "scopes,",
+    53.66
+   ],
+   [
+    "keep",
+    54.46
+   ],
+   [
+    "send",
+    54.62
+   ],
+   [
+    "and",
+    54.94
+   ],
+   [
+    "delete",
+    55.18
+   ],
+   [
+    "toggled",
+    55.38
+   ],
+   [
+    "off,",
+    55.9
+   ],
+   [
+    "and",
+    56.3
+   ],
+   [
+    "read",
+    56.66
+   ],
+   [
+    "every",
+    56.94
+   ],
+   [
+    "confirmation.",
+    57.26
+   ],
+   [
+    "Would",
+    58.327
+   ],
+   [
+    "you",
+    58.46
+   ],
+   [
+    "trust",
+    58.74
+   ],
+   [
+    "AI",
+    58.94
+   ],
+   [
+    "with",
+    59.18
+   ],
+   [
+    "your",
+    59.42
+   ],
+   [
+    "inbox?",
+    59.58
+   ],
+   [
+    "Send",
+    60.487
+   ],
+   [
+    "this",
+    60.62
+   ],
+   [
+    "to",
+    60.78
+   ],
+   [
+    "the",
+    60.9
+   ],
+   [
+    "friend",
+    61.02
+   ],
+   [
+    "who",
+    61.34
+   ],
+   [
+    "copy-pastes",
+    61.5
+   ],
+   [
+    "emails",
+    62.14
+   ],
+   [
+    "into",
+    62.54
+   ],
+   [
+    "Notion.",
+    62.82
+   ],
+   [
+    "Hack",
+    63.42
+   ],
+   [
+    "saved?",
+    63.74
+   ]
+  ],
+  "duration": 64.4,
+  "ident": {
+   "at": 4.38,
+   "dur": 1.5,
+   "title": "AI HACKS",
+   "type": 0.42,
+   "sub": "EP 20 · COMPOSIO"
+  },
+  "scenes": [
+   {
+    "t": 0.0,
+    "shows": [
+     "footage:lib_man_reacting_to_laptop_screen",
+     "title_slam:JUST A CHATBOT?"
+    ]
+   },
+   {
+    "t": 5.9,
+    "shows": [
+     "object3d:",
+     "pill:NEVER GIVE IT"
+    ]
+   },
+   {
+    "t": 9.58,
+    "shows": [
+     "footage:real_2_phone",
+     "pill:1,500+ APPS"
+    ]
+   },
+   {
+    "t": 12.67,
+    "shows": [
+     "footage:real_1_phone",
+     "pill:START FOR FREE"
+    ]
+   },
+   {
+    "t": 14.25,
+    "shows": [
+     "label:THE CATCH",
+     "vs:",
+     "pill:WRITE ACCESS: BY PLAN"
+    ]
+   },
+   {
+    "t": 19.37,
+    "shows": [
+     "screen:Step 1 · Add the server"
+    ]
+   },
+   {
+    "t": 25.02,
+    "shows": [
+     "screen:Step 2 · Fill the form"
+    ]
+   },
+   {
+    "t": 34.02,
+    "shows": [
+     "screen:Step 3 · Connect Gmail"
+    ]
+   },
+   {
+    "t": 37.24,
+    "shows": [
+     "screen:The workflow · Log leads"
+    ]
+   },
+   {
+    "t": 45.26,
+    "shows": [
+     "label:THE ONE PERMISSION",
+     "object3d:",
+     "pill:YOU ONLY NEED TRIAGE"
+    ]
+   },
+   {
+    "t": 49.93,
+    "shows": [
+     "illustration:envelope",
+     "headline:HIDDEN INSTRUCTIONS"
+    ]
+   },
+   {
+    "t": 53.1,
+    "shows": [
+     "screen:The fix · Minimal scopes"
+    ]
+   },
+   {
+    "t": 58.33,
+    "shows": [
+     "headline:TRUST AI WITH YOUR INBOX?"
+    ]
+   }
+  ],
+  "beats": [
+   28.62,
+   41.94
+  ]
+ }
+}
