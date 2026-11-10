@@ -1,0 +1,1922 @@
+{
+ "voiceover": "[curious] Two boring Chrome extensions make about $8K a month from Facebook friend lists.\n\nStay till the end for the first move that started it all.\n\n[conversational] FriendFilter and GroupFilter show which Facebook friends or group members never engage, so you can remove them. Creators, marketers and group admins with huge lists are the ones paying.\n\nThese numbers are verified on TrustMRR: $8K a month, 337 active subscriptions, about $1.8M all-time revenue. [serious] That's revenue, not profit. It lives on Facebook and Chrome, so one Meta change could break it. And it's listed for sale.\n\nA free plan with 5 removals a day. A $9 trial for 7 days, then $29 or $49 a month. Landing pages for searches like Facebook friend remover. And affiliates paying up to 50% recurring, so creators sell it for you.\n\n[playful] Steal that: one narrow search niche, a free tier, a cheap trial, and affiliates.\n\n[whispers] Now the first move. The founder asked in Facebook Groups how to remove inactive friends. The answers were bad, so he built the fix.\n\nWould you build this or buy it?\n\nSend this to the friend who wants to start a software business. Hack saved?",
+ "open_loop": {
+  "setup": "Stay till the end for the first move that started it all.",
+  "payoff": "The founder asked in Facebook Groups how to remove inactive friends. The answers were bad, so he built the fix."
+ },
+ "title": "BORING EXTENSIONS, REAL MONEY",
+ "ig_caption": "Two boring Chrome extensions make about $8K a month 👀\n✅ Verified on TrustMRR: 337 active subscriptions\n✅ Free tier + $9 trial, then $29-$49/month\n✅ Niche SEO pages + affiliates up to 50%\nWould you build this or buy it?\nSave this for later. Follow @ihackgrowth for daily business & growth hacks",
+ "media_hints": {
+  "domain": "friendfilter.com",
+  "broll": [
+   "scrolling social media",
+   "typing on laptop",
+   "person counting money"
+  ]
+ },
+ "hashtags": [
+  "#business",
+  "#SaaS",
+  "#ChromeExtension",
+  "#TrustMRR",
+  "#startup",
+  "#sidehustle",
+  "#growthhacks",
+  "#entrepreneur",
+  "#AIhacks"
+ ],
+ "tag": "BUSINESS BREAKDOWN",
+ "keywords": [
+  "boring",
+  "Chrome",
+  "extensions",
+  "Facebook",
+  "FriendFilter",
+  "GroupFilter",
+  "engage",
+  "TrustMRR",
+  "subscriptions",
+  "revenue",
+  "profit",
+  "Meta",
+  "sale",
+  "trial",
+  "affiliates",
+  "recurring",
+  "niche",
+  "founder",
+  "fix"
+ ],
+ "music": "groove",
+ "hud": {
+  "label": "STATUS",
+  "items": [
+   {
+    "value": "$8K/MO",
+    "color": "gold"
+   },
+   {
+    "at": "337 active",
+    "value": "337 SUBS",
+    "color": "gold"
+   },
+   {
+    "at": "That's revenue,",
+    "value": "AT RISK",
+    "color": "red"
+   },
+   {
+    "at": "listed for sale.",
+    "value": "FOR SALE",
+    "color": "gold"
+   },
+   {
+    "at": "Steal that:",
+    "value": "STOLEN",
+    "color": "green"
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "at": "Two boring",
+   "react": [
+    {
+     "at": "$8K a",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Two boring",
+     "media": "lib_man_staring_at_phone_in",
+     "full": true
+    },
+    {
+     "type": "headline",
+     "at": "Two boring",
+     "text": "2 BORING EXTENSIONS",
+     "size": "l",
+     "color": "white",
+     "sub": "$8K / MONTH",
+     "sub_at": "$8K a",
+     "sub_color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "Stay till",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "Stay till",
+     "kind": "padlock",
+     "size": "l",
+     "caption": "THE FIRST MOVE",
+     "caption_at": "first move"
+    },
+    {
+     "type": "pill",
+     "at": "started it",
+     "text": "STAY FOR THE FIRST MOVE",
+     "color": "gold",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "FriendFilter and",
+   "elements": [
+    {
+     "type": "label",
+     "at": "FriendFilter and",
+     "text": "FRIENDFILTER.COM"
+    },
+    {
+     "type": "footage",
+     "at": "FriendFilter and",
+     "media": "real_2_web",
+     "tall": true
+    }
+   ]
+  },
+  {
+   "at": "which Facebook friends",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "label",
+     "at": "which Facebook friends",
+     "text": "FRIENDS + GROUP MEMBERS"
+    },
+    {
+     "type": "pile",
+     "at": "which Facebook friends",
+     "ill": "bust_in_silhouette",
+     "count": 24,
+     "label": "YOUR LIST",
+     "color": "red",
+     "collapse_at": "remove them."
+    },
+    {
+     "type": "pill",
+     "at": "never engage,",
+     "text": "NEVER ENGAGE",
+     "color": "red",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "Creators, marketers",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Creators, marketers",
+     "text": "WHO PAYS"
+    },
+    {
+     "type": "strike_list",
+     "at": "Creators, marketers",
+     "items": [
+      {
+       "text": "CREATORS",
+       "at": "Creators, marketers",
+       "strike": false
+      },
+      {
+       "text": "MARKETERS",
+       "at": "marketers and",
+       "strike": false
+      },
+      {
+       "text": "GROUP ADMINS",
+       "at": "group admins",
+       "strike": false
+      },
+      {
+       "text": "HUGE LISTS",
+       "at": "huge lists",
+       "strike": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "These numbers",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "These numbers",
+     "media": "real_1_web",
+     "tall": true
+    },
+    {
+     "type": "pill",
+     "at": "verified on",
+     "text": "VERIFIED ON TRUSTMRR",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "$8K a month,",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "$8K a month,",
+     "kind": "coins",
+     "count": 18,
+     "act": "fill",
+     "act_at": "about $1.8M",
+     "caption": "ALL-TIME REVENUE",
+     "caption_at": "all-time revenue."
+    },
+    {
+     "type": "stat_row",
+     "at": "$8K a month,",
+     "cards": [
+      {
+       "label": "MRR",
+       "value": "$8K",
+       "at": "$8K a month,",
+       "color": "gold"
+      },
+      {
+       "label": "ACTIVE SUBS",
+       "value": "337",
+       "at": "337 active",
+       "color": "white"
+      },
+      {
+       "label": "ALL-TIME",
+       "value": "$1.8M",
+       "at": "about $1.8M",
+       "color": "green",
+       "glow": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "That's revenue,",
+   "tint": "red",
+   "react": [
+    {
+     "at": "not profit.",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "headline",
+     "at": "That's revenue,",
+     "text": "REVENUE",
+     "size": "l",
+     "color": "white"
+    },
+    {
+     "type": "title_slam",
+     "at": "not profit.",
+     "text": "NOT PROFIT",
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "at": "It lives",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "label",
+     "at": "It lives",
+     "text": "THE RISK"
+    },
+    {
+     "type": "illustration",
+     "at": "It lives",
+     "name": "warning",
+     "size": "l",
+     "act": "shake",
+     "act_at": "could break"
+    },
+    {
+     "type": "pill",
+     "at": "one Meta change",
+     "text": "1 META CHANGE = BROKEN",
+     "color": "red",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "And it's listed",
+   "react": [
+    {
+     "at": "listed for sale.",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "headline",
+     "at": "And it's listed",
+     "text": "LISTED FOR SALE",
+     "size": "l",
+     "color": "gold",
+     "ill": "label"
+    }
+   ]
+  },
+  {
+   "at": "A free plan",
+   "elements": [
+    {
+     "type": "label",
+     "at": "A free plan",
+     "text": "THE PRICING"
+    },
+    {
+     "type": "stat_row",
+     "at": "A free plan",
+     "cards": [
+      {
+       "label": "FREE PLAN",
+       "value": "FREE",
+       "sub": "5 REMOVALS/DAY",
+       "at": "A free plan",
+       "color": "green"
+      },
+      {
+       "label": "TRIAL",
+       "value": "$9",
+       "sub": "7 DAYS",
+       "at": "A $9 trial",
+       "color": "gold"
+      },
+      {
+       "label": "MONTHLY",
+       "value": "$29",
+       "sub": "OR $49",
+       "at": "then $29 or",
+       "color": "gold",
+       "glow": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Landing pages",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Landing pages",
+     "device": "web",
+     "url": "google.com",
+     "app": "Google",
+     "step": "Growth · Own the search",
+     "steps": [
+      {
+       "at": "Landing pages",
+       "view": {
+        "kind": "search",
+        "query": "",
+        "tabs": [
+         "All",
+         "Images",
+         "Videos",
+         "News"
+        ],
+        "active_tab": "All",
+        "results": [
+         {
+          "title": "FriendFilter – Facebook Friend Remover",
+          "url": "friendfilter.com",
+          "snippet": "See which friends never engage and remove them."
+         },
+         {
+          "title": "How to remove inactive Facebook friends",
+          "url": "friendfilter.com/guide",
+          "snippet": "A simple guide to cleaning your friend list."
+         },
+         {
+          "title": "Facebook Help Center",
+          "url": "facebook.com/help",
+          "snippet": "Unfriend or block someone."
+         }
+        ]
+       },
+       "action": {
+        "kind": "type",
+        "target": "search",
+        "text": "facebook friend remover",
+        "at": "searches like"
+       }
+      },
+      {
+       "at": "friend remover.",
+       "view": {
+        "kind": "search",
+        "query": "facebook friend remover",
+        "tabs": [
+         "All",
+         "Images",
+         "Videos",
+         "News"
+        ],
+        "active_tab": "All",
+        "results": [
+         {
+          "title": "FriendFilter – Facebook Friend Remover",
+          "url": "friendfilter.com",
+          "snippet": "See which friends never engage and remove them."
+         },
+         {
+          "title": "How to remove inactive Facebook friends",
+          "url": "friendfilter.com/guide",
+          "snippet": "A simple guide to cleaning your friend list."
+         },
+         {
+          "title": "Facebook Help Center",
+          "url": "facebook.com/help",
+          "snippet": "Unfriend or block someone."
+         }
+        ]
+       },
+       "action": {
+        "kind": "point",
+        "target": "FriendFilter – Facebook Friend Remover",
+        "at": "friend remover."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "And affiliates",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "big_number",
+     "at": "And affiliates",
+     "value": "50%",
+     "color": "green",
+     "ill": "money_bag",
+     "note": "RECURRING",
+     "note_at": "recurring, so",
+     "note_color": "gold"
+    },
+    {
+     "type": "pill",
+     "at": "creators sell",
+     "text": "CREATORS SELL IT FOR YOU",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "Steal that:",
+   "tint": "green",
+   "react": [
+    {
+     "at": "Steal that:",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "Steal that:",
+     "text": "STEAL THE PLAYBOOK"
+    },
+    {
+     "type": "strike_list",
+     "at": "Steal that:",
+     "items": [
+      {
+       "text": "NARROW SEARCH NICHE",
+       "at": "one narrow search",
+       "strike": false
+      },
+      {
+       "text": "FREE TIER",
+       "at": "a free tier,",
+       "strike": false
+      },
+      {
+       "text": "CHEAP TRIAL",
+       "at": "a cheap trial,",
+       "strike": false
+      },
+      {
+       "text": "AFFILIATES",
+       "at": "and affiliates.",
+       "strike": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Now the first",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "Now the first",
+     "kind": "padlock",
+     "size": "l",
+     "act": "open",
+     "act_at": "first move.",
+     "caption": "THE FIRST MOVE",
+     "caption_at": "first move."
+    }
+   ]
+  },
+  {
+   "at": "The founder asked",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "The founder asked",
+     "device": "web",
+     "url": "facebook.com/groups",
+     "app": "Facebook",
+     "step": "The first move",
+     "steps": [
+      {
+       "at": "The founder asked",
+       "view": {
+        "kind": "page",
+        "site": "Facebook Groups",
+        "nav": [
+         "Feed",
+         "Discover",
+         "Your groups"
+        ],
+        "heading": "Group discussion",
+        "cards": [
+         {
+          "title": "How do I remove inactive friends?",
+          "text": "Thousands of friends, almost no engagement. Any tool?",
+          "status": "New post"
+         }
+        ]
+       },
+       "action": {
+        "kind": "point",
+        "target": "How do I remove inactive friends?",
+        "at": "remove inactive friends."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "The answers were",
+   "tint": "red",
+   "react": [
+    {
+     "at": "built the fix.",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "footage",
+     "at": "The answers were",
+     "media": "lib_man_looking_at_laptop",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "built the fix.",
+     "text": "SO HE BUILT THE FIX",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "Would you build",
+   "react": [
+    {
+     "at": "or buy",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "headline",
+     "at": "Would you build",
+     "text": "BUILD OR BUY?",
+     "size": "l",
+     "ill": "thinking_face",
+     "sub": "BUILD · BUY",
+     "sub_at": "or buy"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "Send this",
+  "line1": "Send this to",
+  "line1_at": "Send this",
+  "line2": "the future founder",
+  "line2_at": "software business."
+ },
+ "endcard": {
+  "title": "Hack saved?",
+  "terminal": "> playbook.saved · $8k/mo"
+ },
+ "media": [
+  {
+   "id": "real_1_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-10_2007/real_1_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-10_2007/real_1_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: trustmrr.com",
+   "desc": "REAL desktop screen recording, pushes in on the gold-outlined part — Desktop trustmrr.com listing for FriendFilter + GroupFilter. Description: 'Chrome extensions for Facebook friend and group management. $11.3K MRR / $135.6K ARR from ~390 subscribers. Stack: Rails, Vue.js, PostgreSQL. Recent v7.2.4 maintenance release. Bonus asset: 100K dormant email list (2019-prese [Screen: trustmrr.com]"
+  },
+  {
+   "id": "real_2_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-10_2007/real_2_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-10_2007/real_2_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: friendfilter.com",
+   "desc": "REAL desktop screen recording, pushes in on the page (no highlight) — friendfilter.com desktop homepage. Headline: 'Clean up your Facebook friends. Get your reach back.' Subtext: 'FriendFilter shows you which Facebook friends never engage — so you can remove inactive connections and get your posts seen by people who actually care.' Buttons: 'Add to Chrome — Free' and  [Screen: friendfilter.com]"
+  },
+  {
+   "id": "lib_camera_moving_down_server_corridor",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "credit": "",
+   "file": "camera_moving_down_server_corridor.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow forward push down a hazy, fog-filled data center aisle lined with server racks that glow with blue and amber status lights, giving a moody, futuristic feel. Good for: A script line about the infrastructure behind AI, such as cloud computing, model training, heavy compute, data storage, or 'what happens behind the scenes'."
+  },
+  {
+   "id": "lib_clock_ticking_and_person_typing",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "credit": "",
+   "file": "clock_ticking_and_person_typing.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A rack-focus shot moves from a close-up of a black twin-bell alarm clock with ticking hands to a bearded man in a light polo typing on a laptop in a dim room, giving a tense, time-pressured mood. Good for: lines about deadlines, time slipping away, long hours of manual work, or the pressure of slow, tedious tasks before an AI tool speeds things up"
+  },
+  {
+   "id": "lib_content_creator_sets_up_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "credit": "",
+   "file": "content_creator_sets_up_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt stands behind a ring light with a phone on a tripod, adjusting the setup while the camera slowly pushes in until his face fills the frame, with a calm, focused mood and moody blue ambient lighting in the background. Good for: setting up to create content, getting started as a creator, or preparing equipment before recording a tutorial"
+  },
+  {
+   "id": "lib_eye_reflecting_laptop_screen_glow",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "credit": "",
+   "file": "eye_reflecting_laptop_screen_glow.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow zoom into an extreme close-up of a brown eye with a bright blue screen reflected in the pupil, framed by a thick eyebrow and warm skin tones, fading into a cool blue gradient at the bottom, with a focused, intense and cinematic mood. Good for: lines about being glued to a screen, intense focus or attention, watching AI work, or 'seeing' a new opportunity or insight"
+  },
+  {
+   "id": "lib_fingers_typing_on_laptop_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "credit": "",
+   "file": "fingers_typing_on_laptop_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): Close-up over-the-shoulder shot of a person typing on a backlit laptop keyboard, with a blurred blue screen in the background and a warm, focused, productive mood. Good for: lines about getting started, writing prompts or code, doing focused work at the computer, or the hands-on steps of a tutorial"
+  },
+  {
+   "id": "lib_hand_dropping_papers_on_desk",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "credit": "",
+   "file": "hand_dropping_papers_on_desk.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a green shirt carries and then drops a thick stack of papers onto an already huge, messy pile of documents with sticky notes on a cluttered desk, while a laptop glows nearby, and the camera pushes in to a close-up of the towering stack, creating a mood of overwhelm and tedious paperwork. Good for: a script line about drowning in manual paperwork or document processing, setting up how AI can automate summarizing, sorting, or extracting information from piles of documents"
+  },
+  {
+   "id": "lib_hands_holding_credit_card_near",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hands_holding_credit_card_near.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hands_holding_credit_card_near.mp4",
+   "credit": "",
+   "file": "hands_holding_credit_card_near.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): hands holding credit card near Good for: "
+  },
+  {
+   "id": "lib_man_looking_at_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "credit": "",
+   "file": "man_looking_at_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt scowls with intense focus at a laptop in a dim, warmly lit room, then closes his eyes and rubs his hand near his chin in tired frustration. Good for: frustration with slow or difficult work, such as struggling with a tedious task, debugging, or burning out late at night before finding a better way"
+  },
+  {
+   "id": "lib_man_opens_laptop_in_room",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "credit": "",
+   "file": "man_opens_laptop_in_room.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt sits at a laptop in a dimly lit, warmly lit room, and his focused, tense expression builds as he leans toward the screen, which shows blurry blue diagram or flowchart-style blocks, with his fists clenched near his chin in the middle frame. Good for: intense concentration or deep work, such as debugging, building an AI workflow, or struggling with a complex problem"
+  },
+  {
+   "id": "lib_man_pointing_at_camera",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_pointing_at_camera.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_pointing_at_camera.mp4",
+   "credit": "",
+   "file": "man_pointing_at_camera.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a dark henley sits in a car seat working on a laptop with a focused look, then looks up with a warm smile and points playfully at the camera in a confident, friendly mood. Good for: a line that moves from focused work or problem-solving to a direct call to action, such as 'here's the trick you need to try' or 'now it's your turn'"
+  },
+  {
+   "id": "lib_man_smiling_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "credit": "",
+   "file": "man_smiling_at_phone.mp4",
+   "frames": 135,
+   "desc": "B-roll (4.5s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a blue smartphone, his expression shifting from neutral to a furrowed-brow frown of confusion and frustration. Good for: a line about frustration with confusing apps or slow tools, or the moment someone hits a problem and doesn't know what to do next"
+  },
+  {
+   "id": "lib_man_staring_at_phone_in",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_staring_at_phone_in.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_staring_at_phone_in.mp4",
+   "credit": "",
+   "file": "man_staring_at_phone_in.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt stares at his smartphone, his expression moving from a focused frown to wide-eyed shock and then to a worried look straight into the camera, in a warm, dimly lit home setting. Good for: a line about a shocking discovery, an unexpected result, or a worrying realization, such as 'you won't believe what this AI tool just did' or 'when you see how much time you've been wasting'"
+  },
+  {
+   "id": "lib_man_studying_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "credit": "",
+   "file": "man_studying_with_laptop.mp4",
+   "frames": 132,
+   "desc": "B-roll (4.4s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits at a desk behind a laptop with a furrowed brow and a frustrated, concentrated look, first staring at the screen, then looking down at an open notebook and writing with a pen, with a warm blurred lamp glowing in the background. Good for: a script line about struggling to understand something complex, frustration with slow or manual work, or the pain of learning a new tool the hard way"
+  },
+  {
+   "id": "lib_man_watching_laptop_waiting",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "credit": "",
+   "file": "man_watching_laptop_waiting.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits at a laptop in a dimly lit room with warm lamp light, resting his chin on his fist with a focused, pensive look, and the camera pushes in closer across the three frames. Good for: a script line about deep thinking, researching or problem-solving, or weighing a decision before trying an AI tool"
+  },
+  {
+   "id": "lib_person_drinking_coffee_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "credit": "",
+   "file": "person_drinking_coffee_with_laptop.mp4",
+   "frames": 93,
+   "desc": "B-roll (3.1s, VERTICAL 9:16 — best as full: true): A bearded man in a green polo sits at a laptop in a modern industrial-style open office, lifting a white cup to his mouth and sipping a hot drink while looking down at the screen, in a calm, focused mood. Good for: a line about taking a breather while the AI does the work, a morning work routine, waiting for a process to finish, or the calm of an automated workflow"
+  },
+  {
+   "id": "lib_person_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "person_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a laptop, his expression moving from concern to a deep frown with glowing blue tear-like effects on his cheeks, then to eyes shut in stress or exhaustion; the mood is frustrated and overwhelmed. Good for: A script line about frustration or overwhelm with a tough task, such as struggling with confusing tools, wasting hours on manual work, or being stuck before finding an AI solution."
+  },
+  {
+   "id": "lib_person_taking_selfie_with_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "credit": "",
+   "file": "person_taking_selfie_with_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt sits in a car holding a blue smartphone up close to his face, and across the clip he leans toward the screen with a furrowed brow, looking skeptical and intensely focused. Good for: a script line about doubting or double-checking AI output, being confused or frustrated by an app or tool, or looking closely at a result on your phone, e.g. 'wait, is this actually right?'"
+  },
+  {
+   "id": "lib_professional_working_on_laptop_late",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "credit": "",
+   "file": "professional_working_on_laptop_late.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A tired bearded young man in a maroon t-shirt sits at a laptop in a dim apartment at night, resting his head on his hand, rubbing his eyes, then glumly lifting a white coffee mug, with blurred city lights glowing behind him through the window. Good for: A script line about burnout, late-night grinding, or frustration with slow manual work that AI tools can speed up, e.g. 'still stuck doing this by hand at midnight?'"
+  },
+  {
+   "id": "lib_robotic_hand_typing_on_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "credit": "",
+   "file": "robotic_hand_typing_on_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a black robotic hand with segmented, mechanical fingers lowering onto a backlit laptop keyboard and starting to type, shot at shallow depth of field in a warm, softly lit, modern workspace. Good for: A script line about AI doing the work for you, automating repetitive tasks, or AI taking over typing and writing, such as 'let AI handle the busywork' or 'AI writes it for you'."
+  }
+ ],
+ "style": "hisaab",
+ "topic": "Business breakdown: FriendFilter + GroupFilter — FriendFilter and GroupFilter are established Chrome extensions for Facebook friend and gro",
+ "pick": {
+  "topic": "Business breakdown: FriendFilter + GroupFilter — FriendFilter and GroupFilter are established Chrome extensions for Facebook friend and gro",
+  "tool": "FriendFilter + GroupFilter",
+  "format": "business",
+  "angle": "Two boring Chrome extensions for managing Facebook friends and groups make about $11K a month from ~390 subscribers"
+ },
+ "inspired_by": {
+  "url": "https://trustmrr.com/startup/friendfilter-groupfilter",
+  "owner": "trustmrr",
+  "plays": 0,
+  "likes": 0,
+  "comments": 0
+ },
+ "research": {
+  "verdict": "ok",
+  "tool": "FriendFilter + GroupFilter",
+  "what_it_does": "Chrome extensions that show which Facebook friends (FriendFilter) or group members (GroupFilter) never engage, so you can remove the inactive ones.",
+  "who_pays": "Facebook creators, marketers, influencers and group admins with big friend lists or groups. The free tier is limited, and the paid tiers raise the removal and scan limits.",
+  "pricing": "friendfilter.com: Free $0 (forever free, 5 removals per day). Growth $29/month (scan up to 5,000 friends, 100 removals per day, daily auto-sync, CSV export). Pro $49/month (up to 3 Facebook profiles, auto friend requests, auto reactions, priority support). The $9 intro offer gives 7 days of full Growth access, then renews at $29/mo. The Chrome Web Store listing also shows Annual $199/year. The site shows an 'Annual billing, save up to 40%' toggle.",
+  "growth": [
+   "Chrome Web Store distribution: the FriendFilter listing shows 10,000 users and a 3.8 rating from 142 ratings (store listing, as indexed). The site claims 'Trusted by 120,000+ users'. The GroupFilter store listing says FriendFilter has '15,000+ active users and 120,000+ installs'.",
+   "Founder-written Medium post (FriendFilter team): the founder asked in Facebook Groups how to remove inactive friends. The answers he got were bad, so he had his developers build a Chrome extension. The post says it took about 2 months to build.",
+   "SEO content: the site runs many landing and comparison pages, such as 'Best Facebook Friend Remover Extensions in 2026 (Compared)', 'Facebook Group Analytics Tool' and 'Facebook Friend Filter Remover Extension'. The TrustMRR listing says an SEO landing page is a growth lever already built.",
+   "Affiliate program: friendfilter.com/affiliate says 'up to 50% lifetime recurring commissions'. The pitch targets parenting, tech safety and wellbeing creators. The TrustMRR listing names Rewardful as the affiliate tool.",
+   "Cross-sell: GroupFilter's Chrome Web Store page says it is built by the same team as FriendFilter and has been 'trusted by group admins since 2021'. It has 2,000 users and links to the FriendFilter extension.",
+   "Low-friction funnel: free forever plan, a 14-day free trial with no credit card, then a $9 7-day Growth trial. The pricing page and FAQ describe each of these."
+  ],
+  "founder_story": [
+   "TrustMRR lists the founder as Jeffery Lebowski (X handle fpslebowski, 1,713 followers) and the business as founded March 2019 in the United States.",
+   "A FriendFilter team Medium post, written in the founder's first person, says he is a software developer with a full-time staff of developers. He asked his legal team whether such an extension would violate Facebook's rules, and the post says it came back as fine. The post says development took about 2 months.",
+   "The TrustMRR listing describes an asset sale to a buyer's LLC with 30 days of transition support, so the business is being sold. Treat the founder as the seller, not a long-term operator."
+  ],
+  "lessons": [
+   "Build the product for a pain you saw people ask about publicly. The founder asked in Facebook Groups how to remove inactive friends, then built an extension to solve it.",
+   "Ship a real free tier plus a cheap $9 trial to get people in, then charge $29-$49/month once they see the engagement data (pricing page).",
+   "Own one narrow, high-intent search niche (Facebook friend remover, group analytics) with dedicated landing and comparison pages.",
+   "Add a lifetime recurring affiliate program (up to 50%) so creators, who are the target users, sell it for you.",
+   "Extend a working extension into a sibling product (GroupFilter) and cross-link the two."
+  ],
+  "criticism": [
+   "Platform risk: it depends on Facebook and Chrome. The site says 'NOT endorsed by Meta / Facebook'. Meta could change the UI or its rules at any time, and the extension would break.",
+   "The TrustMRR listing is a business-for-sale listing. Its description claims $11.3K MRR and about 390 subscribers, while the verified figures are $8,237 MRR and 337 active subscriptions. Use the verified figures only.",
+   "The Stripe API key has expired, so the revenue data may be stale (last updated Sep 18, 2026). Profit margin is hidden (shown as XX%), so revenue is not profit.",
+   "The Chrome Web Store rating is middling: 3.8 from 142 ratings for FriendFilter and 4.3 from 77 ratings for GroupFilter (store pages, as indexed).",
+   "Competitors exist, for example Friender, which has a comparison page pricing from $9/month against FriendFilter's $29/month Growth tier.",
+   "The extension automates unfriending on Facebook. It may carry account-limit risk, and the support FAQ advises starting with small batches to test Facebook's limits."
+  ],
+  "facts": [
+   "Verified: $8,237 MRR, 337 active subscriptions, $1,796,102 all-time revenue, rank #67 on TrustMRR.",
+   "Pricing is Free $0, Growth $29/mo, Pro $49/mo.",
+   "The site claims 120,000+ users. Per TrustMRR, the domain rating is 33/100 and the stack is Rails, Vue.js, PostgreSQL, Redis, DigitalOcean and Stripe.",
+   "TrustMRR lists a 100K dormant email list (2019–present) and a Chrome Web Store 'Featured badge' renomination submitted in Q1 2026 as bonus assets and levers.",
+   "The Chrome Web Store listing shows version 7.4.4 (extension.vn mirror), while TrustMRR mentions a v7.2.4 maintenance release.",
+   "The site states it is not a scraper and runs locally in your browser (support FAQ: it uses your local browser and internet connection)."
+  ],
+  "do_not_claim": [
+   "Profit or margin (hidden, shown as XX%)",
+   "Team size today (the Medium post claims a full-time developer staff, but that is unverified)",
+   "Any launch date, Product Hunt launch, or viral moment (none found)",
+   "That the $11.3K MRR / ~390 subscribers figures are real (the verified figures are lower)",
+   "Sale price or reason for selling (not found)",
+   "That the 120,000+ users figure means active users (the Chrome Web Store shows 10,000 users, and the store text says 15,000+ active)",
+   "How much revenue comes from affiliates, SEO or the Chrome Web Store (no source)",
+   "Exact Rewardful commission rate for FriendFilter beyond the 'up to 50%' on its own page"
+  ],
+  "real_pages": [
+   {
+    "url": "https://trustmrr.com/startup/friendfilter-groupfilter",
+    "show": "$8,237",
+    "kind": "site"
+   },
+   {
+    "url": "https://friendfilter.com",
+    "show": "",
+    "kind": "site"
+   },
+   {
+    "url": "https://friendfilter.com/",
+    "show": "Get your reach back.",
+    "kind": "site"
+   },
+   {
+    "url": "https://friendfilter.com/",
+    "show": "Trusted by 120,000+ users",
+    "kind": "site"
+   }
+  ],
+  "sources": [
+   "https://friendfilter.com/",
+   "https://friendfilter.com/facebook-friend-filter-remover-extension/",
+   "https://friendfilter.com/best-facebook-friend-remover-extensions/",
+   "https://friendfilter.com/affiliate/",
+   "https://chromewebstore.google.com/detail/friendfilter-friend-list/bbahhbngjiangjdlmleihmlphoamikhg",
+   "https://chromewebstore.google.com/detail/groupfilter-remove-inacti/cdagifmianmcjaikddlepjhdmaleninb",
+   "https://medium.com/@friendfilterapp/how-to-safely-remove-inactive-facebook-friends-29120b2f0c21",
+   "https://friendfilter.freshdesk.com/support/solutions/articles/44002076456-how-to-use-friendfilter-",
+   "https://start.friender.io/blog/friend-filter-alternatives",
+   "https://trustmrr.com/startup/friendfilter-groupfilter"
+  ],
+  "notes": "The business is listed for sale, so frame it as 'a Chrome extension business with real Stripe-verified revenue' and not as a founder's current growth story. Use $8,237 MRR and 337 subscriptions, not the listing's $11.3K / ~390. Pricing is consistent across the site and store: $29 and $49 per month, a $9 7-day trial, and Annual $199/year (from the store listing only). The site text offers a '14 day free trial' on some landing pages and a '$9 for 7 days' trial on the homepage, so be careful which one you show. The Medium post is undated but indexed as about 2,400 days old, which fits the March 2019 founding. No founder X posts, interviews, Product Hunt or Indie Hackers pages were found, so the growth section is thin. No third-party source confirmed the Rewardful setup beyond TrustMRR. The 'Best Facebook Friend Remover Extensions' page is the company's own comparison page, so treat its claims as marketing.",
+  "_searched": 5,
+  "trustmrr": {
+   "name": "FriendFilter + GroupFilter",
+   "one_liner": "FriendFilter and GroupFilter are established Chrome extensions for Facebook friend and group management.",
+   "website": "https://friendfilter.com",
+   "founder": "Jeffery Lebowski",
+   "founder_x": "",
+   "founded": "March 2019",
+   "location": "United States",
+   "category": "SaaS, Social Media, Productivity, Analytics",
+   "audience": "creators, professionals, parents, and anyone who wants a healthier Facebook experience",
+   "pricing": "Free: $0/mo, Growth: $29/mo, Pro: $49/mo",
+   "revenue_last_30_days": "",
+   "revenue_all_time": "$1,796,102",
+   "mrr": "$8,237",
+   "growth_mom": "",
+   "active_subscriptions": "337",
+   "rank": "#67",
+   "for_sale": "",
+   "verified_by": "Stripe API key (page notes the key has expired)",
+   "last_updated": "Sep 18, 2026",
+   "other": [
+    "Founder has 1,713 followers on 𝕏",
+    "Listing description claims $11.3K MRR / $135.6K ARR from ~390 subscribers, which differs from the verified MRR of $8,237 and 337 active subscriptions",
+    "Listing description stack: Rails, Vue.js, PostgreSQL",
+    "Recent v7.2.4 maintenance release",
+    "Bonus asset: 100K dormant email list (2019–present)",
+    "Growth levers already built: CWS Featured badge renomination (submitted Q1 2026), SEO landing page, Rewardful affiliate program",
+    "Asset sale to buyer's LLC",
+    "30 days transition support included",
+    "Profit margin shown as XX%",
+    "Stripe API key expired; update the API key to sync latest revenue",
+    "Value proposition: FriendFilter shows you which Facebook friends never engage, so you can remove inactive connections and get your posts seen by people who actually care",
+    "Problem solved: FriendFilter analyzes engagement data from your Facebook connections to help you identify inactive, low-quality, or potentially fake accounts",
+    "B2C, ~120,000 users",
+    "Domain Rating: 33/100 (friendfilter.com)",
+    "Tech stack: Frontend Vue.js; Backend Ruby on Rails, PostgreSQL, Redis, DigitalOcean, Stripe"
+   ],
+   "trustmrr_url": "https://trustmrr.com/startup/friendfilter-groupfilter"
+  },
+  "say_numbers_as": [
+   "$1,796,102 (can be said as: $1.7M, $1.8M, $1796K, $1800K, $2M)",
+   "$8,237 (can be said as: $10K, $8K)",
+   "$8,237 (can be said as: $10K, $8K)"
+  ]
+ },
+ "kind": "business",
+ "episode": 23,
+ "_ident": {
+  "at": 5.82,
+  "dur": 1.5,
+  "title": "AI HACKS",
+  "type": 0.42,
+  "sub": "EP 23 · BUSINESS BREAKDOWN"
+ },
+ "timeline": {
+  "words": [
+   [
+    "Two",
+    0.2
+   ],
+   [
+    "boring",
+    0.4
+   ],
+   [
+    "Chrome",
+    0.88
+   ],
+   [
+    "extensions",
+    1.12
+   ],
+   [
+    "make",
+    1.84
+   ],
+   [
+    "about",
+    2.0
+   ],
+   [
+    "$8K",
+    2.48
+   ],
+   [
+    "a",
+    2.72
+   ],
+   [
+    "month",
+    3.12
+   ],
+   [
+    "from",
+    4.0
+   ],
+   [
+    "Facebook",
+    4.24
+   ],
+   [
+    "friend",
+    4.72
+   ],
+   [
+    "lists.",
+    4.96
+   ],
+   [
+    "Stay",
+    7.38
+   ],
+   [
+    "till",
+    7.54
+   ],
+   [
+    "the",
+    7.74
+   ],
+   [
+    "end",
+    7.9
+   ],
+   [
+    "for",
+    8.1
+   ],
+   [
+    "the",
+    8.22
+   ],
+   [
+    "first",
+    8.46
+   ],
+   [
+    "move",
+    8.78
+   ],
+   [
+    "that",
+    9.22
+   ],
+   [
+    "started",
+    9.42
+   ],
+   [
+    "it",
+    9.82
+   ],
+   [
+    "all.",
+    9.98
+   ],
+   [
+    "FriendFilter",
+    10.82
+   ],
+   [
+    "and",
+    11.34
+   ],
+   [
+    "GroupFilter",
+    11.5
+   ],
+   [
+    "show",
+    12.34
+   ],
+   [
+    "which",
+    12.54
+   ],
+   [
+    "Facebook",
+    12.78
+   ],
+   [
+    "friends",
+    13.26
+   ],
+   [
+    "or",
+    13.66
+   ],
+   [
+    "group",
+    13.82
+   ],
+   [
+    "members",
+    14.3
+   ],
+   [
+    "never",
+    14.62
+   ],
+   [
+    "engage,",
+    15.1
+   ],
+   [
+    "so",
+    15.58
+   ],
+   [
+    "you",
+    15.7
+   ],
+   [
+    "can",
+    15.82
+   ],
+   [
+    "remove",
+    16.06
+   ],
+   [
+    "them.",
+    16.3
+   ],
+   [
+    "Creators,",
+    17.02
+   ],
+   [
+    "marketers",
+    17.5
+   ],
+   [
+    "and",
+    18.14
+   ],
+   [
+    "group",
+    18.5
+   ],
+   [
+    "admins",
+    18.7
+   ],
+   [
+    "with",
+    19.22
+   ],
+   [
+    "huge",
+    19.42
+   ],
+   [
+    "lists",
+    19.82
+   ],
+   [
+    "are",
+    20.3
+   ],
+   [
+    "the",
+    20.42
+   ],
+   [
+    "ones",
+    20.58
+   ],
+   [
+    "paying.",
+    20.78
+   ],
+   [
+    "These",
+    21.42
+   ],
+   [
+    "numbers",
+    21.66
+   ],
+   [
+    "are",
+    22.14
+   ],
+   [
+    "verified",
+    22.5
+   ],
+   [
+    "on",
+    22.86
+   ],
+   [
+    "TrustMRR:",
+    23.02
+   ],
+   [
+    "$8K",
+    24.14
+   ],
+   [
+    "a",
+    24.3
+   ],
+   [
+    "month,",
+    24.62
+   ],
+   [
+    "337",
+    25.66
+   ],
+   [
+    "active",
+    25.82
+   ],
+   [
+    "subscriptions,",
+    27.58
+   ],
+   [
+    "about",
+    28.34
+   ],
+   [
+    "$1.8M",
+    28.62
+   ],
+   [
+    "all-time",
+    29.18
+   ],
+   [
+    "revenue.",
+    30.86
+   ],
+   [
+    "That's",
+    31.713
+   ],
+   [
+    "revenue,",
+    31.98
+   ],
+   [
+    "not",
+    32.7
+   ],
+   [
+    "profit.",
+    32.94
+   ],
+   [
+    "It",
+    33.7
+   ],
+   [
+    "lives",
+    33.82
+   ],
+   [
+    "on",
+    34.06
+   ],
+   [
+    "Facebook",
+    34.46
+   ],
+   [
+    "and",
+    34.78
+   ],
+   [
+    "Chrome,",
+    35.1
+   ],
+   [
+    "so",
+    35.58
+   ],
+   [
+    "one",
+    35.9
+   ],
+   [
+    "Meta",
+    36.06
+   ],
+   [
+    "change",
+    36.38
+   ],
+   [
+    "could",
+    36.82
+   ],
+   [
+    "break",
+    37.06
+   ],
+   [
+    "it.",
+    37.26
+   ],
+   [
+    "And",
+    37.927
+   ],
+   [
+    "it's",
+    38.14
+   ],
+   [
+    "listed",
+    38.38
+   ],
+   [
+    "for",
+    38.82
+   ],
+   [
+    "sale.",
+    39.26
+   ],
+   [
+    "A",
+    39.687
+   ],
+   [
+    "free",
+    39.86
+   ],
+   [
+    "plan",
+    40.14
+   ],
+   [
+    "with",
+    40.42
+   ],
+   [
+    "5",
+    40.66
+   ],
+   [
+    "removals",
+    40.86
+   ],
+   [
+    "a",
+    41.34
+   ],
+   [
+    "day.",
+    41.42
+   ],
+   [
+    "A",
+    41.927
+   ],
+   [
+    "$9",
+    42.06
+   ],
+   [
+    "trial",
+    42.22
+   ],
+   [
+    "for",
+    42.86
+   ],
+   [
+    "7",
+    43.14
+   ],
+   [
+    "days,",
+    43.34
+   ],
+   [
+    "then",
+    43.98
+   ],
+   [
+    "$29",
+    44.18
+   ],
+   [
+    "or",
+    44.54
+   ],
+   [
+    "$49",
+    45.1
+   ],
+   [
+    "a",
+    45.74
+   ],
+   [
+    "month.",
+    46.06
+   ],
+   [
+    "Landing",
+    46.78
+   ],
+   [
+    "pages",
+    47.3
+   ],
+   [
+    "for",
+    47.58
+   ],
+   [
+    "searches",
+    47.78
+   ],
+   [
+    "like",
+    48.14
+   ],
+   [
+    "Facebook",
+    48.46
+   ],
+   [
+    "friend",
+    48.98
+   ],
+   [
+    "remover.",
+    49.18
+   ],
+   [
+    "And",
+    49.873
+   ],
+   [
+    "affiliates",
+    49.98
+   ],
+   [
+    "paying",
+    50.58
+   ],
+   [
+    "up",
+    50.82
+   ],
+   [
+    "to",
+    50.94
+   ],
+   [
+    "50%",
+    51.18
+   ],
+   [
+    "recurring,",
+    51.9
+   ],
+   [
+    "so",
+    52.647
+   ],
+   [
+    "creators",
+    52.78
+   ],
+   [
+    "sell",
+    53.34
+   ],
+   [
+    "it",
+    53.5
+   ],
+   [
+    "for",
+    53.78
+   ],
+   [
+    "you.",
+    54.1
+   ],
+   [
+    "Steal",
+    54.46
+   ],
+   [
+    "that:",
+    54.78
+   ],
+   [
+    "one",
+    55.42
+   ],
+   [
+    "narrow",
+    55.62
+   ],
+   [
+    "search",
+    56.06
+   ],
+   [
+    "niche,",
+    56.34
+   ],
+   [
+    "a",
+    56.807
+   ],
+   [
+    "free",
+    56.98
+   ],
+   [
+    "tier,",
+    57.18
+   ],
+   [
+    "a",
+    57.687
+   ],
+   [
+    "cheap",
+    57.86
+   ],
+   [
+    "trial,",
+    58.06
+   ],
+   [
+    "and",
+    58.62
+   ],
+   [
+    "affiliates.",
+    58.98
+   ],
+   [
+    "Now",
+    60.11
+   ],
+   [
+    "the",
+    60.22
+   ],
+   [
+    "first",
+    60.46
+   ],
+   [
+    "move.",
+    60.7
+   ],
+   [
+    "The",
+    61.473
+   ],
+   [
+    "founder",
+    61.58
+   ],
+   [
+    "asked",
+    61.98
+   ],
+   [
+    "in",
+    62.3
+   ],
+   [
+    "Facebook",
+    62.58
+   ],
+   [
+    "Groups",
+    62.98
+   ],
+   [
+    "how",
+    63.26
+   ],
+   [
+    "to",
+    63.46
+   ],
+   [
+    "remove",
+    63.58
+   ],
+   [
+    "inactive",
+    63.98
+   ],
+   [
+    "friends.",
+    64.46
+   ],
+   [
+    "The",
+    65.153
+   ],
+   [
+    "answers",
+    65.26
+   ],
+   [
+    "were",
+    65.86
+   ],
+   [
+    "bad,",
+    66.26
+   ],
+   [
+    "so",
+    66.62
+   ],
+   [
+    "he",
+    66.78
+   ],
+   [
+    "built",
+    67.06
+   ],
+   [
+    "the",
+    67.26
+   ],
+   [
+    "fix.",
+    67.66
+   ],
+   [
+    "Would",
+    68.087
+   ],
+   [
+    "you",
+    68.22
+   ],
+   [
+    "build",
+    68.38
+   ],
+   [
+    "this",
+    68.62
+   ],
+   [
+    "or",
+    69.1
+   ],
+   [
+    "buy",
+    69.26
+   ],
+   [
+    "it?",
+    69.42
+   ],
+   [
+    "Send",
+    69.9
+   ],
+   [
+    "this",
+    70.14
+   ],
+   [
+    "to",
+    70.3
+   ],
+   [
+    "the",
+    70.42
+   ],
+   [
+    "friend",
+    70.54
+   ],
+   [
+    "who",
+    70.82
+   ],
+   [
+    "wants",
+    70.94
+   ],
+   [
+    "to",
+    71.18
+   ],
+   [
+    "start",
+    71.34
+   ],
+   [
+    "a",
+    71.58
+   ],
+   [
+    "software",
+    71.86
+   ],
+   [
+    "business.",
+    72.42
+   ],
+   [
+    "Hack",
+    72.86
+   ],
+   [
+    "saved?",
+    73.1
+   ]
+  ],
+  "duration": 73.76,
+  "ident": {
+   "at": 5.82,
+   "dur": 1.5,
+   "title": "AI HACKS",
+   "type": 0.42,
+   "sub": "EP 23 · BUSINESS BREAKDOWN"
+  },
+  "scenes": [
+   {
+    "t": 0.0,
+    "shows": [
+     "footage:lib_man_staring_at_phone_in",
+     "headline:2 BORING EXTENSIONS"
+    ]
+   },
+   {
+    "t": 7.38,
+    "shows": [
+     "object3d:",
+     "pill:STAY FOR THE FIRST MOVE"
+    ]
+   },
+   {
+    "t": 10.82,
+    "shows": [
+     "label:FRIENDFILTER.COM",
+     "footage:real_2_web"
+    ]
+   },
+   {
+    "t": 12.54,
+    "shows": [
+     "label:FRIENDS + GROUP MEMBERS",
+     "pile:",
+     "pill:NEVER ENGAGE"
+    ]
+   },
+   {
+    "t": 17.02,
+    "shows": [
+     "label:WHO PAYS",
+     "strike_list:"
+    ]
+   },
+   {
+    "t": 21.42,
+    "shows": [
+     "footage:real_1_web",
+     "pill:VERIFIED ON TRUSTMRR"
+    ]
+   },
+   {
+    "t": 24.14,
+    "shows": [
+     "object3d:",
+     "stat_row:"
+    ]
+   },
+   {
+    "t": 31.71,
+    "shows": [
+     "headline:REVENUE",
+     "title_slam:NOT PROFIT"
+    ]
+   },
+   {
+    "t": 33.7,
+    "shows": [
+     "label:THE RISK",
+     "illustration:warning",
+     "pill:1 META CHANGE = BROKEN"
+    ]
+   },
+   {
+    "t": 37.93,
+    "shows": [
+     "headline:LISTED FOR SALE"
+    ]
+   },
+   {
+    "t": 39.69,
+    "shows": [
+     "label:THE PRICING",
+     "stat_row:"
+    ]
+   },
+   {
+    "t": 46.78,
+    "shows": [
+     "screen:Growth · Own the search"
+    ]
+   },
+   {
+    "t": 49.87,
+    "shows": [
+     "big_number:",
+     "pill:CREATORS SELL IT FOR YOU"
+    ]
+   },
+   {
+    "t": 54.46,
+    "shows": [
+     "label:STEAL THE PLAYBOOK",
+     "strike_list:"
+    ]
+   },
+   {
+    "t": 60.11,
+    "shows": [
+     "object3d:"
+    ]
+   },
+   {
+    "t": 61.47,
+    "shows": [
+     "screen:The first move"
+    ]
+   },
+   {
+    "t": 65.15,
+    "shows": [
+     "footage:lib_man_looking_at_laptop",
+     "pill:SO HE BUILT THE FIX"
+    ]
+   },
+   {
+    "t": 68.09,
+    "shows": [
+     "headline:BUILD OR BUY?"
+    ]
+   }
+  ],
+  "beats": [
+   4.72,
+   45.38
+  ]
+ }
+}
