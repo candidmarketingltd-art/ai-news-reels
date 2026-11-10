@@ -1,0 +1,37 @@
+{
+ "shots": [
+  {
+   "clip": "lib_fingers_typing_on_laptop_keyboard",
+   "text": "what i tell people: i'm building an ai product",
+   "seconds": 2.5
+  },
+  {
+   "clip": "lib_man_studying_with_laptop",
+   "text": "what i actually do: watch claude type, nod, press enter",
+   "seconds": 4.4
+  }
+ ],
+ "style": "meme",
+ "song": {
+  "title": "Housewife",
+  "artist": "Tate McRae",
+  "mood": "hype",
+  "trend": "Confidence clips, duo choreography and \"I just wanna…\" text overlays; the #1 sound on most lists this week. Fits a \"what founders say they do vs. what they do\" format.",
+  "source": "https://www.socialpilot.co/blog/instagram-reels-trends",
+  "list_date": "2026-10-31 to 2026-11-10",
+  "snippet": "use the most-used snippet, cut on the first beat for the 'what I say vs what I do' switch",
+  "why": "the trend is a confidence 'what I say vs what I do' format, and this joke is that format exactly."
+ },
+ "backup_song": {
+  "title": "What You Waiting For?",
+  "artist": "Gwen Stefani"
+ },
+ "caption": "the job title says builder. the job is approving.\nbe honest: how many of your last 10 commits did you actually read?\n\n#claudeai #vibecoding #aimemes #founderlife #buildinpublic #techhumor",
+ "cover_word": "press enter",
+ "text": "what i tell people: i'm building an ai product / what i actually do: watch claude type, nod, press enter",
+ "clip": "lib_fingers_typing_on_laptop_keyboard,lib_man_studying_with_laptop",
+ "clip_paths": {
+  "lib_fingers_typing_on_laptop_keyboard": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+  "lib_man_studying_with_laptop": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4"
+ }
+}

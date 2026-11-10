@@ -4,41 +4,12 @@
   BUFFER_API_KEY: set
   BUFFER_CHANNEL_ID: set
       voice: Rohan 0ynj1kxK93EAXGRqL9Rm (found by name in this workspace)
-window 2026-11-10-1300 | posting times 13:00, 17:00, 20:00 IST | dry_run=False
-      reel type: marketing
-      b-roll library: 25 clips
-      recording request #1: still waiting for the video
-      recording request #2: still waiting for the video
-[1/6] top AI & tech reels
-      hashtag scrape failed: apify apify/instagram-hashtag-scraper: 403 {
-  "error": {
-    "type": "platform-feature-disabled",
-    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and o
-      using the last saved reel pool
-      reel pool: 76 reels
-[2/6] picking the topic
-      → Honest review of Quo (formerly OpenPhone), a shared business phone number for calls, texts and voicemail with one team inbox: what it does, what it costs, who needs it and who doesn't  (review, from @lifewithleenor, 136,157 views) — 136k views on a business-owner pain point: missed calls and a messy customer inbox. The 0 comments and the promo tone suggest a sponsored post, so an honest rev
-      transcript failed: apify apify/instagram-reel-scraper: 403 {
-  "error": {
-    "type": "platform-feature-disabled",
-    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe
-[3/6] research (0 transcript words)
-      verdict adjust · 6 web searches · 6 steps · 18 sources
-[4/6] script + edit
-      (real screen check failed: Expecting ',' delimiter: line 8 column 644 (char 5118))
-      real screens: 0 usable of 8 captured from 4 official pages
-      (media: pexels 'business phone call' failed: 403 Client Error: Forbidden for url: https://api.apify.com/v2/acts/memo23~pexels)
-      (media: pexels 'team working laptop' failed: 403 Client Error: Forbidden for url: https://api.apify.com/v2/acts/memo23~pexels)
-      media: s1_image, s1_logo
-[5/6] voice + render
-      [eleven] subscription: 200 {"tier":"creator","character_count":25147,"character_limit":131000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796464027,"voice_slots_used":1,"professional_voice_slots
-      [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
-      voice check: 1 word(s) misheard [('', 'p')] -> recording another take
-      [eleven] subscription: 200 {"tier":"creator","character_count":25147,"character_limit":131000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796464027,"voice_slots_used":1,"professional_voice_slots
-      [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
-      take 2: 0 misheard []
-      155 words, 56.3s, voice eleven_v4
-      remotion: Reel /tmp/tmps1k8o_g_/video_only.mp4
-[6/6] publish
-      [buffer] created post 6af2cabcb59b34913a63a087 (customScheduled)
-POSTED 6af2cabcb59b34913a63a087 https://github.com/candidmarketingltd-art/ai-news-reels/releases/download/reel-2026-11-10_1301/2026-11-10_1301.mp4
+window 2026-11-10-1700 | posting times 13:00, 17:00, 20:00 IST | dry_run=False
+      reel type: meme
+[1/3] trending audio + Claude news this week
+      14 trending songs, 10 news items
+[2/3] meme line
+      “what i tell people: i'm building an ai product / what i actually do: watch claude type, nod, press enter” on lib_fingers_typing_on_laptop_keyboard,lib_man_studying_with_laptop · song: Housewife — Tate McRae
+[3/3] render
+      [buffer] reminder post 6af302cfcbbac94e1ea34e47 (customScheduled)
+REMINDER SENT 6af302cfcbbac94e1ea34e47
