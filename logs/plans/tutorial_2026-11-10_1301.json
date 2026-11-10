@@ -1,0 +1,1831 @@
+{
+ "voiceover": "[conversational] Your customers shouldn't have your personal number, and there's a cheap fix.\n\nBut stay till the end, because one catch can block your texts on day one.\n\nIt's Quo, formerly OpenPhone: one business number for calls, texts and voicemail, shared in one team inbox with Chats, Calls and Tasks tabs.\n\n[confident] Look at their pricing page. Starter is $15 per user per month, but only on annual billing. Monthly, it's $19. Business is $23 and adds phone menus. No free plan, just a 7-day trial.\n\nGood for small US or Canada teams that call and text customers. Skip it if your phone barely rings.\n\n[serious] Now the catch. To text US numbers, an admin must finish carrier registration in Settings > Trust Center, and until it's approved, you can't text. It needs a paid plan, not the trial.\n\n[curious] Still using your personal number for work? Send this to the friend who gives customers their personal number. Hack saved?",
+ "open_loop": {
+  "setup": "But stay till the end, because one catch can block your texts on day one.",
+  "payoff": "To text US numbers, an admin must finish carrier registration in Settings > Trust Center, and until it's approved, you can't text."
+ },
+ "title": "STOP USING PERSONAL NUMBER",
+ "ig_caption": "Your customers shouldn't have your personal number 📞\n✅ Starter is $15/user/month on annual billing ($19 monthly)\n✅ Business is $23 and adds phone menus\n✅ US texting needs carrier registration in Settings > Trust Center, on a paid plan, and approval first\nStill using your personal number for work? Tell me below.\nSave this for later.\nFollow @ihackgrowth for daily business & growth hacks",
+ "media_hints": {
+  "domain": "quo.com",
+  "broll": [
+   "business phone call",
+   "team working laptop",
+   "phone notifications"
+  ]
+ },
+ "hashtags": [
+  "#Quo",
+  "#OpenPhone",
+  "#BusinessPhone",
+  "#SmallBusiness",
+  "#AItools",
+  "#AIhacks",
+  "#CustomerService",
+  "#productivity"
+ ],
+ "tag": "QUO REVIEW",
+ "keywords": [
+  "Quo",
+  "OpenPhone",
+  "customers",
+  "personal",
+  "cheap",
+  "inbox",
+  "Chats",
+  "Calls",
+  "Tasks",
+  "Starter",
+  "annual",
+  "Monthly",
+  "Business",
+  "menus",
+  "trial",
+  "catch",
+  "registration",
+  "Trust",
+  "approved",
+  "paid"
+ ],
+ "music": "groove",
+ "scenes": [
+  {
+   "at": "Your customers",
+   "tint": "red",
+   "react": [
+    {
+     "at": "there's a cheap",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Your customers",
+     "media": "lib_man_shaking_head_at_phone",
+     "full": true
+    },
+    {
+     "type": "title_slam",
+     "at": "Your customers",
+     "text": "STOP",
+     "sub": "SHARING YOUR PERSONAL #",
+     "color": "red"
+    },
+    {
+     "type": "pill",
+     "at": "personal number,",
+     "text": "PERSONAL # EXPOSED",
+     "color": "red",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "But stay",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "label",
+     "at": "But stay",
+     "text": "STAY TILL THE END"
+    },
+    {
+     "type": "object3d",
+     "at": "But stay",
+     "kind": "padlock",
+     "size": "l",
+     "caption": "TEXTS LOCKED?",
+     "caption_at": "block your texts"
+    },
+    {
+     "type": "pill",
+     "at": "one catch",
+     "text": "1 CATCH · DAY ONE",
+     "color": "red",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "It's Quo,",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "It's Quo,",
+     "media": "s1_image",
+     "tall": true,
+     "caption": "QUO · FORMERLY OPENPHONE",
+     "caption_at": "formerly OpenPhone:"
+    },
+    {
+     "type": "pill",
+     "at": "one business",
+     "text": "1 BUSINESS NUMBER",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "for calls,",
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "for calls,",
+     "kind": "phone",
+     "act": "buzz",
+     "act_at": "for calls,",
+     "size": "m"
+    },
+    {
+     "type": "strike_list",
+     "at": "for calls,",
+     "items": [
+      {
+       "text": "CALLS",
+       "at": "for calls,",
+       "strike": false
+      },
+      {
+       "text": "TEXTS",
+       "at": "texts and",
+       "strike": false
+      },
+      {
+       "text": "VOICEMAIL",
+       "at": "and voicemail,",
+       "strike": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "shared in one",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "shared in one",
+     "device": "web",
+     "url": "my.quo.com",
+     "app": "Quo",
+     "step": "Team inbox · 1 number",
+     "steps": [
+      {
+       "at": "shared in one",
+       "view": {
+        "kind": "page",
+        "site": "Quo",
+        "nav": [
+         "Chats",
+         "Calls",
+         "Tasks"
+        ],
+        "heading": "Main line",
+        "sub": "Shared team inbox",
+        "cards": [
+         {
+          "title": "Maria G.",
+          "text": "Is the 3pm slot still open?",
+          "status": "Text"
+         },
+         {
+          "title": "Dev P.",
+          "text": "Thanks, see you Monday!",
+          "status": "Text"
+         },
+         {
+          "title": "Sam K.",
+          "text": "Can you send the quote?",
+          "status": "Unread"
+         }
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "Chats",
+        "at": "with Chats,"
+       }
+      },
+      {
+       "at": "Calls and",
+       "view": {
+        "kind": "page",
+        "site": "Quo",
+        "nav": [
+         "Chats",
+         "Calls",
+         "Tasks"
+        ],
+        "heading": "Calls",
+        "sub": "Unresponded · Missed · Voicemail",
+        "cards": [
+         {
+          "title": "Missed call",
+          "text": "Sam K.",
+          "status": "Missed"
+         },
+         {
+          "title": "Voicemail",
+          "text": "Maria G.",
+          "status": "New"
+         },
+         {
+          "title": "Outgoing call",
+          "text": "Dev P.",
+          "status": "Done"
+         }
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "Calls",
+        "at": "Calls and"
+       }
+      },
+      {
+       "at": "Tasks tabs.",
+       "view": {
+        "kind": "page",
+        "site": "Quo",
+        "nav": [
+         "Chats",
+         "Calls",
+         "Tasks"
+        ],
+        "heading": "Tasks",
+        "sub": "Assigned to your team",
+        "cards": [
+         {
+          "title": "Call back Sam",
+          "text": "Send the quote",
+          "status": "Open"
+         },
+         {
+          "title": "Reply to Maria",
+          "text": "Confirm the slot",
+          "status": "Open"
+         }
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "Tasks",
+        "at": "Tasks tabs."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Look at",
+   "react": [
+    {
+     "at": "Look at",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Look at",
+     "device": "web",
+     "url": "quo.com/pricing",
+     "app": "Quo",
+     "step": "The pricing page",
+     "steps": [
+      {
+       "at": "Look at",
+       "view": {
+        "kind": "page",
+        "site": "Quo",
+        "nav": [
+         "Product",
+         "Pricing",
+         "Log in"
+        ],
+        "heading": "Pricing",
+        "buttons": [
+         "Annual",
+         "Monthly"
+        ],
+        "cards": [
+         {
+          "title": "Starter",
+          "text": "$15 / user / month",
+          "status": "Billed annually"
+         },
+         {
+          "title": "Business",
+          "text": "$23 / user / month",
+          "status": "Billed annually"
+         },
+         {
+          "title": "Scale",
+          "text": "For larger teams"
+         }
+        ]
+       },
+       "action": {
+        "kind": "point",
+        "target": "Starter",
+        "at": "$15 per"
+       }
+      },
+      {
+       "at": "but only",
+       "view": {
+        "kind": "page",
+        "site": "Quo",
+        "nav": [
+         "Product",
+         "Pricing",
+         "Log in"
+        ],
+        "heading": "Pricing",
+        "buttons": [
+         "Annual",
+         "Monthly"
+        ],
+        "cards": [
+         {
+          "title": "Starter",
+          "text": "$15 / user / month",
+          "status": "Billed annually"
+         },
+         {
+          "title": "Business",
+          "text": "$23 / user / month",
+          "status": "Billed annually"
+         },
+         {
+          "title": "Scale",
+          "text": "For larger teams"
+         }
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "Annual",
+        "at": "annual billing."
+       }
+      },
+      {
+       "at": "Monthly, it's",
+       "view": {
+        "kind": "page",
+        "site": "Quo",
+        "nav": [
+         "Product",
+         "Pricing",
+         "Log in"
+        ],
+        "heading": "Pricing",
+        "buttons": [
+         "Annual",
+         "Monthly"
+        ],
+        "cards": [
+         {
+          "title": "Starter",
+          "text": "$19 / user / month",
+          "status": "Billed monthly"
+         },
+         {
+          "title": "Business",
+          "text": "Adds phone menus"
+         },
+         {
+          "title": "Scale",
+          "text": "For larger teams"
+         }
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "Monthly",
+        "at": "Monthly, it's"
+       }
+      },
+      {
+       "at": "Business is",
+       "view": {
+        "kind": "page",
+        "site": "Quo",
+        "nav": [
+         "Product",
+         "Pricing",
+         "Log in"
+        ],
+        "heading": "Pricing",
+        "buttons": [
+         "Annual",
+         "Monthly"
+        ],
+        "cards": [
+         {
+          "title": "Starter",
+          "text": "$15 / user / month",
+          "status": "Billed annually"
+         },
+         {
+          "title": "Business",
+          "text": "$23 · adds phone menus",
+          "status": "Billed annually"
+         },
+         {
+          "title": "Scale",
+          "text": "For larger teams"
+         }
+        ]
+       },
+       "action": {
+        "kind": "point",
+        "target": "Business",
+        "at": "phone menus."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "No free",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "stat_row",
+     "at": "No free",
+     "cards": [
+      {
+       "label": "FREE PLAN",
+       "value": "NONE",
+       "color": "red",
+       "ill": "cross_mark",
+       "at": "No free"
+      },
+      {
+       "label": "TRIAL",
+       "value": "7 DAYS",
+       "color": "gold",
+       "ill": "spiral_calendar",
+       "glow": true,
+       "at": "7-day trial."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Good for",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Good for",
+     "media": "lib_colleagues_collaborating_around",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "Canada teams",
+     "text": "SMALL US + CANADA TEAMS",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "Skip it",
+   "tint": "red",
+   "react": [
+    {
+     "at": "barely rings.",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "headline",
+     "at": "Skip it",
+     "text": "SKIP IT IF…",
+     "size": "l",
+     "color": "red"
+    },
+    {
+     "type": "illustration",
+     "at": "Skip it",
+     "name": "bell_with_slash",
+     "size": "l",
+     "caption": "PHONE BARELY RINGS",
+     "act": "shake",
+     "act_at": "barely rings."
+    }
+   ]
+  },
+  {
+   "at": "Now the catch.",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "Now the catch.",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "Now the catch.",
+     "text": "THE CATCH"
+    },
+    {
+     "type": "object3d",
+     "at": "Now the catch.",
+     "kind": "padlock",
+     "size": "l",
+     "caption": "US TEXTS LOCKED",
+     "caption_at": "To text"
+    }
+   ]
+  },
+  {
+   "at": "an admin",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "an admin",
+     "device": "web",
+     "url": "my.quo.com",
+     "app": "Quo",
+     "step": "Admin · Carrier registration",
+     "steps": [
+      {
+       "at": "an admin",
+       "view": {
+        "kind": "page",
+        "site": "Quo",
+        "nav": [
+         "Inboxes",
+         "Contacts",
+         "Settings"
+        ],
+        "heading": "Main line",
+        "sub": "Shared team inbox",
+        "cards": [
+         {
+          "title": "Maria G.",
+          "text": "Is the 3pm slot still open?",
+          "status": "Text"
+         },
+         {
+          "title": "Sam K.",
+          "text": "Can you send the quote?",
+          "status": "Unread"
+         }
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "Settings",
+        "at": "registration in"
+       }
+      },
+      {
+       "at": "Trust Center,",
+       "view": {
+        "kind": "page",
+        "site": "Quo",
+        "nav": [
+         "General",
+         "Members",
+         "Trust Center"
+        ],
+        "heading": "Trust Center",
+        "sub": "US carrier registration",
+        "cards": [
+         {
+          "title": "Carrier registration",
+          "text": "Required to text US numbers",
+          "status": "Not started",
+          "buttons": [
+           "Start registration"
+          ]
+         }
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "Start registration",
+        "at": "Trust Center,"
+       }
+      },
+      {
+       "at": "until it's approved,",
+       "view": {
+        "kind": "page",
+        "site": "Quo",
+        "nav": [
+         "General",
+         "Members",
+         "Trust Center"
+        ],
+        "heading": "Trust Center",
+        "sub": "US carrier registration",
+        "cards": [
+         {
+          "title": "Carrier registration",
+          "text": "Under review",
+          "status": "Pending"
+         },
+         {
+          "title": "US texting",
+          "text": "Blocked until approved",
+          "status": "Off"
+         }
+        ]
+       },
+       "action": {
+        "kind": "point",
+        "target": "US texting",
+        "at": "you can't text."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "It needs",
+   "tint": "red",
+   "react": [
+    {
+     "at": "not the trial.",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "vs",
+     "at": "It needs",
+     "left": {
+      "label": "7-DAY TRIAL",
+      "value": "NO"
+     },
+     "right": {
+      "label": "PAID PLAN",
+      "value": "YES",
+      "color": "green",
+      "ill": "credit_card",
+      "at": "paid plan,"
+     },
+     "strike_at": "not the trial."
+    }
+   ]
+  },
+  {
+   "at": "Still using",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Still using",
+     "media": "lib_person_speaking_into_phone",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "personal number for",
+     "text": "STILL ON YOUR PERSONAL #?",
+     "color": "gold"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "Send this",
+  "line1": "Send this to",
+  "line1_at": "Send this",
+  "line2": "the personal-number friend",
+  "line2_at": "their personal number."
+ },
+ "endcard": {
+  "title": "Hack saved?",
+  "terminal": "> number.split · texts need trust center"
+ },
+ "hud": {
+  "label": "BIZ PHONE",
+  "items": [
+   {
+    "value": "PERSONAL #",
+    "color": "red"
+   },
+   {
+    "at": "It's Quo,",
+    "value": "1 BIZ #",
+    "color": "gold"
+   },
+   {
+    "at": "$15 per",
+    "value": "$15/USER",
+    "color": "gold"
+   },
+   {
+    "at": "Now the catch.",
+    "value": "TEXTS OFF",
+    "color": "red"
+   },
+   {
+    "at": "paid plan,",
+    "value": "PAID ONLY",
+    "color": "gold"
+   }
+  ]
+ },
+ "media": [
+  {
+   "id": "lib_camera_moving_down_server_corridor",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "credit": "",
+   "file": "camera_moving_down_server_corridor.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow forward push down a hazy, fog-filled data center aisle lined with server racks that glow with blue and amber status lights, giving a moody, futuristic feel. Good for: A script line about the infrastructure behind AI, such as cloud computing, model training, heavy compute, data storage, or 'what happens behind the scenes'."
+  },
+  {
+   "id": "lib_clock_ticking_and_person_typing",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "credit": "",
+   "file": "clock_ticking_and_person_typing.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A rack-focus shot moves from a close-up of a black twin-bell alarm clock with ticking hands to a bearded man in a light polo typing on a laptop in a dim room, giving a tense, time-pressured mood. Good for: lines about deadlines, time slipping away, long hours of manual work, or the pressure of slow, tedious tasks before an AI tool speeds things up"
+  },
+  {
+   "id": "lib_colleagues_collaborating_around",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "credit": "",
+   "file": "colleagues_collaborating_around.mp4",
+   "frames": 126,
+   "desc": "B-roll (4.2s, VERTICAL 9:16 — best as full: true): colleagues collaborating around Good for: "
+  },
+  {
+   "id": "lib_content_creator_sets_up_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "credit": "",
+   "file": "content_creator_sets_up_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt stands behind a ring light with a phone on a tripod, adjusting the setup while the camera slowly pushes in until his face fills the frame, with a calm, focused mood and moody blue ambient lighting in the background. Good for: setting up to create content, getting started as a creator, or preparing equipment before recording a tutorial"
+  },
+  {
+   "id": "lib_eye_reflecting_laptop_screen_glow",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "credit": "",
+   "file": "eye_reflecting_laptop_screen_glow.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow zoom into an extreme close-up of a brown eye with a bright blue screen reflected in the pupil, framed by a thick eyebrow and warm skin tones, fading into a cool blue gradient at the bottom, with a focused, intense and cinematic mood. Good for: lines about being glued to a screen, intense focus or attention, watching AI work, or 'seeing' a new opportunity or insight"
+  },
+  {
+   "id": "lib_hand_dropping_papers_on_desk",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "credit": "",
+   "file": "hand_dropping_papers_on_desk.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a green shirt carries and then drops a thick stack of papers onto an already huge, messy pile of documents with sticky notes on a cluttered desk, while a laptop glows nearby, and the camera pushes in to a close-up of the towering stack, creating a mood of overwhelm and tedious paperwork. Good for: a script line about drowning in manual paperwork or document processing, setting up how AI can automate summarizing, sorting, or extracting information from piles of documents"
+  },
+  {
+   "id": "lib_hands_holding_credit_card_near",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hands_holding_credit_card_near.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hands_holding_credit_card_near.mp4",
+   "credit": "",
+   "file": "hands_holding_credit_card_near.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): hands holding credit card near Good for: "
+  },
+  {
+   "id": "lib_man_looking_at_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "credit": "",
+   "file": "man_looking_at_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt scowls with intense focus at a laptop in a dim, warmly lit room, then closes his eyes and rubs his hand near his chin in tired frustration. Good for: frustration with slow or difficult work, such as struggling with a tedious task, debugging, or burning out late at night before finding a better way"
+  },
+  {
+   "id": "lib_man_opens_laptop_in_room",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "credit": "",
+   "file": "man_opens_laptop_in_room.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt sits at a laptop in a dimly lit, warmly lit room, and his focused, tense expression builds as he leans toward the screen, which shows blurry blue diagram or flowchart-style blocks, with his fists clenched near his chin in the middle frame. Good for: intense concentration or deep work, such as debugging, building an AI workflow, or struggling with a complex problem"
+  },
+  {
+   "id": "lib_man_pointing_at_camera",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_pointing_at_camera.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_pointing_at_camera.mp4",
+   "credit": "",
+   "file": "man_pointing_at_camera.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a dark henley sits in a car seat working on a laptop with a focused look, then looks up with a warm smile and points playfully at the camera in a confident, friendly mood. Good for: a line that moves from focused work or problem-solving to a direct call to action, such as 'here's the trick you need to try' or 'now it's your turn'"
+  },
+  {
+   "id": "lib_man_shaking_head_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "credit": "",
+   "file": "man_shaking_head_at_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits in a dark chair looking down at his phone, and his expression shifts from neutral to scrunched-up frustration or confusion, then to a displeased, worried look as he lowers the phone. Good for: frustration or disappointment with a tool or app that isn't working, slow or confusing results, or a bad surprise while checking your phone"
+  },
+  {
+   "id": "lib_man_smiling_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "credit": "",
+   "file": "man_smiling_at_phone.mp4",
+   "frames": 135,
+   "desc": "B-roll (4.5s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a blue smartphone, his expression shifting from neutral to a furrowed-brow frown of confusion and frustration. Good for: a line about frustration with confusing apps or slow tools, or the moment someone hits a problem and doesn't know what to do next"
+  },
+  {
+   "id": "lib_man_studying_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "credit": "",
+   "file": "man_studying_with_laptop.mp4",
+   "frames": 132,
+   "desc": "B-roll (4.4s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits at a desk behind a laptop with a furrowed brow and a frustrated, concentrated look, first staring at the screen, then looking down at an open notebook and writing with a pen, with a warm blurred lamp glowing in the background. Good for: a script line about struggling to understand something complex, frustration with slow or manual work, or the pain of learning a new tool the hard way"
+  },
+  {
+   "id": "lib_man_watching_laptop_waiting",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "credit": "",
+   "file": "man_watching_laptop_waiting.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits at a laptop in a dimly lit room with warm lamp light, resting his chin on his fist with a focused, pensive look, and the camera pushes in closer across the three frames. Good for: a script line about deep thinking, researching or problem-solving, or weighing a decision before trying an AI tool"
+  },
+  {
+   "id": "lib_person_drinking_coffee_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "credit": "",
+   "file": "person_drinking_coffee_with_laptop.mp4",
+   "frames": 93,
+   "desc": "B-roll (3.1s, VERTICAL 9:16 — best as full: true): A bearded man in a green polo sits at a laptop in a modern industrial-style open office, lifting a white cup to his mouth and sipping a hot drink while looking down at the screen, in a calm, focused mood. Good for: a line about taking a breather while the AI does the work, a morning work routine, waiting for a process to finish, or the calm of an automated workflow"
+  },
+  {
+   "id": "lib_person_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "person_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a laptop, his expression moving from concern to a deep frown with glowing blue tear-like effects on his cheeks, then to eyes shut in stress or exhaustion; the mood is frustrated and overwhelmed. Good for: A script line about frustration or overwhelm with a tough task, such as struggling with confusing tools, wasting hours on manual work, or being stuck before finding an AI solution."
+  },
+  {
+   "id": "lib_person_speaking_into_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "credit": "",
+   "file": "person_speaking_into_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt takes a phone call in a modern industrial office with exposed concrete ceilings, moving from a serious, concerned look to a worried talking expression and ending with a relieved, confident smile at the camera. Good for: a script line about getting a surprising call or news, a problem being solved, or the moment of relief after a stressful issue"
+  },
+  {
+   "id": "lib_person_taking_selfie_with_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "credit": "",
+   "file": "person_taking_selfie_with_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt sits in a car holding a blue smartphone up close to his face, and across the clip he leans toward the screen with a furrowed brow, looking skeptical and intensely focused. Good for: a script line about doubting or double-checking AI output, being confused or frustrated by an app or tool, or looking closely at a result on your phone, e.g. 'wait, is this actually right?'"
+  },
+  {
+   "id": "lib_robotic_hand_typing_on_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "credit": "",
+   "file": "robotic_hand_typing_on_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a black robotic hand with segmented, mechanical fingers lowering onto a backlit laptop keyboard and starting to type, shot at shallow depth of field in a warm, softly lit, modern workspace. Good for: A script line about AI doing the work for you, automating repetitive tasks, or AI taking over typing and writing, such as 'let AI handle the busywork' or 'AI writes it for you'."
+  },
+  {
+   "id": "s1_image",
+   "kind": "image",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-10_1301/s1_image.png",
+   "credit": "Image: quo.com",
+   "desc": "official image from Quo (formerly OpenPhone), a business phone system with shared numbers, a team inbox, and the Sona AI agent (announcement page)"
+  }
+ ],
+ "style": "hisaab",
+ "topic": "Honest review of Quo (formerly OpenPhone), a shared business phone number for calls, texts and voicemail with one team inbox: what it does, what it costs, who needs it and who doesn't",
+ "pick": {
+  "index": 16,
+  "topic": "Honest review of Quo (formerly OpenPhone), a shared business phone number for calls, texts and voicemail with one team inbox: what it does, what it costs, who needs it and who doesn't",
+  "tool": "Quo (gowithquo.com)",
+  "format": "review",
+  "angle": "Still using your personal number for customers? Here's what a shared business line really costs, and the catch before you pay.",
+  "why": "136k views on a business-owner pain point: missed calls and a messy customer inbox. The 0 comments and the promo tone suggest a sponsored post, so an honest review with real pricing and plan limits is the gap. Quo's site shows pricing, features and integrations on screen."
+ },
+ "inspired_by": {
+  "url": "https://www.instagram.com/p/DfPq83FlbuR/",
+  "owner": "lifewithleenor",
+  "plays": 136157,
+  "likes": 907,
+  "comments": 0
+ },
+ "research": {
+  "verdict": "adjust",
+  "tool": "Quo (formerly OpenPhone), a business phone system with shared numbers, a team inbox, and the Sona AI agent",
+  "availability": "Paid only, with no free plan and a 7-day free trial (credit card required, per a third-party source). It covers US and Canada numbers, with apps for web, desktop, iOS and Android. US texting needs carrier registration (A2P 10DLC) on a paid plan, so the trial has no US texting.",
+  "steps": [
+   "Sign up at my.quo.com/signup and start the 7-day free trial (Starter or Business).",
+   "Pick a new local or toll-free US/Canada number, or port an existing one.",
+   "Invite teammates and share the number with them, so it appears in everyone's sidebar under Inboxes.",
+   "To text US numbers: an owner or admin opens Settings > Trust Center on web or desktop and completes the US carrier registration form (A2P 10DLC). Approval is required first. You must be on a paid plan, not the trial.",
+   "Use the number's inbox. Open the Chats tab for texts and the Calls tab for calls and voicemails. The Tasks tab sits next to them.",
+   "Optional: switch on Sona, the AI agent, in the call flow. 10 Sona calls per month are included."
+  ],
+  "facts": [
+   "OpenPhone rebranded to Quo in September 2025. The App Store listing reads 'Quo (formerly OpenPhone)'.",
+   "Quo's own pricing guide gives annual-billing prices of Starter $15, Business $23 and Scale $35 per user per month ($180, $276 and $420 per user per year). (quo.com/blog/quo-pricing)",
+   "Monthly billing is $19 (Starter), $33 (Business) and $47 (Scale) per user per month. Annual billing saves $48, $120 and $144 per user per year. (Third-party sites read from Quo's pricing page: bestbusinessphonesystem.com, ecommerceparadise.com)",
+   "Quo's blog says Starter includes one local or toll-free number per user, unlimited calling and messaging to the US and Canada, voicemail transcripts, on-demand call recording, Zapier and Make integrations, and 10 free Sona calls.",
+   "Business adds phone menus (IVR), call transfers, analytics, CRM integrations, automatic call recording and live chat support. Quo's blog also lists AI call summaries and transcripts on Business. On Starter, summaries cover Sona calls only (third-party source).",
+   "Scale adds AI call tags, dedicated onboarding, inbound phone support, and priority chat and email support.",
+   "Shared numbers are limited to 10 paid users on Starter and unlimited on Business and Scale (third-party source: bestbusinessphonesystem.com).",
+   "Extra phone numbers cost $5 per number per month. (quo.com/blog/get-business-phone-number)",
+   "Texting registration fees: Low Volume Standard $1.50/month (has an EIN), Sole Proprietor $2/month (no EIN), Non-profit $3/month. (quo.com/blog/quo-pricing)",
+   "Sona answers calls 24/7, answers common questions, captures caller details and logs each interaction. 10 Sona calls per month are free on every plan. Paid tiers start at $25/month for 50 calls, then $49, $99 and $199. (quo.com/blog/quo-pricing)",
+   "Third-party sources say 1 Sona call = 100 credits and every plan includes 1,000 credits a month. Extra calls cost about $0.45-$1.00 each depending on tier.",
+   "The 7-day free trial gives full access to all plan features. It has no texting and no international calls, and it ends if you add more numbers than you have users. (quo.com/blog/quo-pricing)",
+   "Quo's help center says every Quo customer texting US numbers must register, and you can't message US numbers while registration is pending. Only paid customers can register. A third-party source says most approvals take 24-48 hours and some take up to 20 days or longer.",
+   "Toll-free numbers need a separate, free registration to text US/Canadian numbers.",
+   "Each phone number has its own inbox with Chats, Calls and Tasks tabs. Calls view filters include Unresponded, Missed, Voicemail, Direction, Handled by Sona, Team member and AI call tags. (support.quo.com)",
+   "Quo Agent ('Ask Quo' in the side menu) is a separate internal AI assistant. It is web and desktop only (and in beta per a third-party source).",
+   "Phone support is Scale-only, weekdays 8 to 5 Pacific (third-party source: usecarly.com)."
+  ],
+  "do_not_claim": [
+   "Don't claim 'gowithquo.com' is the official site. Quo's pages are at quo.com, and @gowithquo is the social handle. The topic's domain could not be verified.",
+   "Don't say it's free, or imply there's a free plan. There is only a 7-day trial.",
+   "Don't say 'unlimited texting' without the catch: US texting needs registration and a paid plan, and calls and texts are subject to a fair-use policy.",
+   "Don't say Sona is unlimited or free. Only about 10 calls a month are included, and more costs from $25/month.",
+   "Don't say Sona 'manages texts' as a settled feature. Sona SMS lead capture is reported as beta (third-party source), and the official Sona description focuses on calls.",
+   "The popular caption's list of 'Notes' in the shared inbox could not be confirmed on an official page. Safer wording: calls, texts, voicemails, contact history and tasks.",
+   "Don't use old prices or the old Sona '$49 for 50 calls' add-on. Older reviews are outdated, and one source wrongly says Business is $23 on monthly billing. It is $33.",
+   "The caption's 'Try Quo today!' is an ad or promo. It never mentions the price, the registration step or the trial limits.",
+   "Don't say '$15 total'. Real bills include taxes and fees, extra numbers, registration fees and Sona credits. One third-party estimate puts a 5-user Starter team at $97-$108/month all-in (ecommerceparadise.com)."
+  ],
+  "criticism": [
+   "The $15 headline needs annual billing. Monthly billing is $19 per user.",
+   "US texting can't start until carrier registration is approved. It is not available during the trial, and approval time varies.",
+   "Starter lacks phone menus (IVR), automatic recording and native CRM connectors. Many teams end up on Business at $23 per user. (third-party sources)",
+   "Support complaints: reviews on Trustpilot and G2 cite slow human support, and the Forbes review could not reach live support. Phone support is Scale-only. Product Hunt reviews mention inconsistent call quality and a few bugs.",
+   "The service is US/Canada-focused. International calls and messages are billed separately.",
+   "No assigned conversations (the assignee field is only on Tasks), and one inbox per number. (third-party source: usecarly.com)",
+   "Per-user pricing adds up for larger teams. For example, 10 Business users cost $230/month before extras.",
+   "Sona usage is metered by credits, and costs rise with call volume."
+  ],
+  "ui": {
+   "platforms": "Web app, desktop app, iOS, Android. Quo Agent is web and desktop only.",
+   "apps": [
+    "quo.com (public site)",
+    "Quo web app (my.quo.com)",
+    "Quo iOS/Android app",
+    "Quo Resource Center (support.quo.com)"
+   ],
+   "screens": [
+    "Sign-up: a web form (business email and password), then plan and number selection. The 7-day trial requires a card, per a third-party source.",
+    "Web app layout: a left sidebar with Search (magnifier), Contacts and 'Ask Quo'. It also has an Inboxes section listing your phone numbers. Click a number to open its inbox.",
+    "Inside an inbox, the top tabs are Chats, Calls and Tasks, with the Tasks tab next to Chats and Calls. Chats shows one thread per contact, mixing texts, calls and voicemails. Calls has filters such as Unresponded, Missed and Voicemail.",
+    "Opening a conversation shows the message thread in the middle. A phone icon at the top calls the contact, and the right sidebar shows contact info, custom properties and Tasks. A viewers indicator shows which teammates have viewed the conversation.",
+    "Quick dial: press Ctrl+C on Mac or Alt+C on Windows, or click the dialer icon at the top of the page.",
+    "Mobile: tap your account image in the upper left to pick a number. Tap Calls at the top of the inbox, and use the filter icon at the upper right. The dial pad is a keypad icon.",
+    "Settings > Trust Center is where US carrier registration lives, and registration status is under Settings > Trust.",
+    "Appearance: a dark mode exists (per the changelog). The default theme could not be confirmed, so record it live."
+   ]
+  },
+  "visuals": "Show the real quo.com pricing page (three plans), then a shared inbox screen with the Chats and Calls tabs. Real screen recordings are needed for the inbox and the Trust Center registration form, which requires a login. The help-center pages and App Store screenshots can stand in for the logged-in UI.",
+  "real_pages": [
+   {
+    "url": "https://www.quo.com/pricing",
+    "show": "Starter",
+    "kind": "site"
+   },
+   {
+    "url": "https://www.quo.com/blog/quo-pricing/",
+    "show": "Scale",
+    "kind": "site"
+   },
+   {
+    "url": "https://www.quo.com/sona",
+    "show": "Sona",
+    "kind": "site"
+   },
+   {
+    "url": "https://support.quo.com/getting-started/carrier-registration/carrier-registration",
+    "show": "Carrier registration (A2P 10DLC)",
+    "kind": "help"
+   },
+   {
+    "url": "https://support.quo.com/core-concepts/inboxes/views-and-filter",
+    "show": "Inbox filters",
+    "kind": "help"
+   },
+   {
+    "url": "https://apps.apple.com/us/app/id1241817309",
+    "show": "Quo (formerly OpenPhone)",
+    "kind": "help"
+   }
+  ],
+  "sources": [
+   "https://www.quo.com/blog/quo-pricing/",
+   "https://www.quo.com/blog/get-business-phone-number/",
+   "https://www.quo.com/blog/best-small-business-phone-systems/",
+   "https://support.quo.com/getting-started/carrier-registration/carrier-registration",
+   "https://www.quo.com/blog/what-is-a2p-10dlc/",
+   "https://support.quo.com/core-concepts/inboxes/views-and-filter",
+   "https://support.quo.com/core-concepts/inboxes/call-views",
+   "https://support.quo.com/core-concepts/team-collaboration/tasks",
+   "https://support.quo.com/core-concepts/ai-automations/quo-agent",
+   "https://support.quo.com/core-concepts/calling/making-calls",
+   "https://x.com/OpenPhone/status/1975951197149491501",
+   "https://bestbusinessphonesystem.com/quo-review/",
+   "https://www.usecarly.com/blog/quo-review/",
+   "https://www.usecarly.com/blog/quo-phone-system/",
+   "https://thebusinessdive.com/quo-review",
+   "https://www.forbes.com/advisor/business/software/openphone-review/",
+   "https://www.producthunt.com/products/openphone/reviews?review=818815",
+   "https://ecommerceparadise.com/quo-pricing/"
+  ],
+  "notes": "Prices were consistent across Quo's own blog and many third-party sites as of Nov 2026. I could not open quo.com/pricing directly, so the 'show' text on real_pages is inferred from plan names and prices reported from that page. Check it live before recording. The pricing page may show '$15' or '$23' next to plan names. The suggested angle works: a shared line starts at $15 per user per month on annual billing, but the catches are (1) annual billing is required for that price, (2) US texting needs carrier registration and a paid plan, with approval taking 1-2 days or longer, (3) the $15 Starter lacks phone menus (IVR), automatic recording and native CRM connectors, so many teams end up on Business at $23, and (4) Sona is capped at about 10 free calls a month. Who needs it: small US/Canada teams that text and call customers and want to stop using personal cell numbers. Who doesn't: solo people who rarely get calls, teams needing desk phones or many international numbers, or heavy mass-texting or marketing users. Sona's pricing was restructured in October 2025 and some articles are outdated. Sona tiers show 40 vs 50 calls for $25 in different sources, and Quo's own blog says 50, so use that or avoid the call count.",
+  "_searched": 6
+ },
+ "models": {
+  "pick": "claude-sonnet-5-5",
+  "research": "claude-sonnet-5-5",
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 22,
+ "_ident": {
+  "at": 4.3,
+  "dur": 1.5,
+  "title": "AI HACKS",
+  "type": 0.42,
+  "sub": "EP 22 · QUO REVIEW"
+ },
+ "timeline": {
+  "words": [
+   [
+    "Your",
+    0.08
+   ],
+   [
+    "customers",
+    0.32
+   ],
+   [
+    "shouldn't",
+    0.88
+   ],
+   [
+    "have",
+    1.28
+   ],
+   [
+    "your",
+    1.44
+   ],
+   [
+    "personal",
+    1.6
+   ],
+   [
+    "number,",
+    2.0
+   ],
+   [
+    "and",
+    2.72
+   ],
+   [
+    "there's",
+    3.04
+   ],
+   [
+    "a",
+    3.2
+   ],
+   [
+    "cheap",
+    3.28
+   ],
+   [
+    "fix.",
+    3.6
+   ],
+   [
+    "But",
+    5.82
+   ],
+   [
+    "stay",
+    6.02
+   ],
+   [
+    "till",
+    6.18
+   ],
+   [
+    "the",
+    6.34
+   ],
+   [
+    "end,",
+    6.46
+   ],
+   [
+    "because",
+    7.02
+   ],
+   [
+    "one",
+    7.34
+   ],
+   [
+    "catch",
+    7.58
+   ],
+   [
+    "can",
+    7.98
+   ],
+   [
+    "block",
+    8.22
+   ],
+   [
+    "your",
+    8.54
+   ],
+   [
+    "texts",
+    8.86
+   ],
+   [
+    "on",
+    9.22
+   ],
+   [
+    "day",
+    9.42
+   ],
+   [
+    "one.",
+    9.66
+   ],
+   [
+    "It's",
+    10.38
+   ],
+   [
+    "Quo,",
+    10.62
+   ],
+   [
+    "formerly",
+    11.42
+   ],
+   [
+    "OpenPhone:",
+    11.74
+   ],
+   [
+    "one",
+    12.7
+   ],
+   [
+    "business",
+    12.86
+   ],
+   [
+    "number",
+    13.26
+   ],
+   [
+    "for",
+    13.58
+   ],
+   [
+    "calls,",
+    13.94
+   ],
+   [
+    "texts",
+    14.5
+   ],
+   [
+    "and",
+    14.78
+   ],
+   [
+    "voicemail,",
+    15.02
+   ],
+   [
+    "shared",
+    15.86
+   ],
+   [
+    "in",
+    16.06
+   ],
+   [
+    "one",
+    16.3
+   ],
+   [
+    "team",
+    16.46
+   ],
+   [
+    "inbox",
+    16.94
+   ],
+   [
+    "with",
+    17.3
+   ],
+   [
+    "Chats,",
+    17.46
+   ],
+   [
+    "Calls",
+    17.98
+   ],
+   [
+    "and",
+    18.38
+   ],
+   [
+    "Tasks",
+    18.62
+   ],
+   [
+    "tabs.",
+    19.22
+   ],
+   [
+    "Look",
+    19.82
+   ],
+   [
+    "at",
+    19.94
+   ],
+   [
+    "their",
+    20.06
+   ],
+   [
+    "pricing",
+    20.22
+   ],
+   [
+    "page.",
+    20.62
+   ],
+   [
+    "Starter",
+    21.26
+   ],
+   [
+    "is",
+    21.74
+   ],
+   [
+    "$15",
+    22.02
+   ],
+   [
+    "per",
+    22.46
+   ],
+   [
+    "user",
+    23.18
+   ],
+   [
+    "per",
+    23.58
+   ],
+   [
+    "month,",
+    23.82
+   ],
+   [
+    "but",
+    24.42
+   ],
+   [
+    "only",
+    24.62
+   ],
+   [
+    "on",
+    25.02
+   ],
+   [
+    "annual",
+    25.26
+   ],
+   [
+    "billing.",
+    25.58
+   ],
+   [
+    "Monthly,",
+    26.14
+   ],
+   [
+    "it's",
+    26.74
+   ],
+   [
+    "$19.",
+    27.02
+   ],
+   [
+    "Business",
+    28.14
+   ],
+   [
+    "is",
+    28.62
+   ],
+   [
+    "$23",
+    28.94
+   ],
+   [
+    "and",
+    29.42
+   ],
+   [
+    "adds",
+    30.1
+   ],
+   [
+    "phone",
+    30.3
+   ],
+   [
+    "menus.",
+    30.78
+   ],
+   [
+    "No",
+    31.34
+   ],
+   [
+    "free",
+    31.5
+   ],
+   [
+    "plan,",
+    31.74
+   ],
+   [
+    "just",
+    32.3
+   ],
+   [
+    "a",
+    32.46
+   ],
+   [
+    "7-day",
+    32.62
+   ],
+   [
+    "trial.",
+    33.02
+   ],
+   [
+    "Good",
+    33.66
+   ],
+   [
+    "for",
+    33.82
+   ],
+   [
+    "small",
+    33.98
+   ],
+   [
+    "US",
+    34.38
+   ],
+   [
+    "or",
+    34.7
+   ],
+   [
+    "Canada",
+    34.98
+   ],
+   [
+    "teams",
+    35.26
+   ],
+   [
+    "that",
+    35.58
+   ],
+   [
+    "call",
+    35.82
+   ],
+   [
+    "and",
+    36.14
+   ],
+   [
+    "text",
+    36.34
+   ],
+   [
+    "customers.",
+    36.54
+   ],
+   [
+    "Skip",
+    37.5
+   ],
+   [
+    "it",
+    37.74
+   ],
+   [
+    "if",
+    37.9
+   ],
+   [
+    "your",
+    38.06
+   ],
+   [
+    "phone",
+    38.34
+   ],
+   [
+    "barely",
+    38.62
+   ],
+   [
+    "rings.",
+    38.98
+   ],
+   [
+    "Now",
+    39.82
+   ],
+   [
+    "the",
+    40.06
+   ],
+   [
+    "catch.",
+    40.22
+   ],
+   [
+    "To",
+    40.98
+   ],
+   [
+    "text",
+    41.1
+   ],
+   [
+    "US",
+    41.5
+   ],
+   [
+    "numbers,",
+    41.82
+   ],
+   [
+    "an",
+    42.46
+   ],
+   [
+    "admin",
+    42.7
+   ],
+   [
+    "must",
+    43.18
+   ],
+   [
+    "finish",
+    43.5
+   ],
+   [
+    "carrier",
+    43.82
+   ],
+   [
+    "registration",
+    44.5
+   ],
+   [
+    "in",
+    44.94
+   ],
+   [
+    "Settings",
+    45.18
+   ],
+   [
+    ">",
+    45.66
+   ],
+   [
+    "Trust",
+    45.94
+   ],
+   [
+    "Center,",
+    46.14
+   ],
+   [
+    "and",
+    46.78
+   ],
+   [
+    "until",
+    47.02
+   ],
+   [
+    "it's",
+    47.22
+   ],
+   [
+    "approved,",
+    47.58
+   ],
+   [
+    "you",
+    48.06
+   ],
+   [
+    "can't",
+    48.22
+   ],
+   [
+    "text.",
+    48.66
+   ],
+   [
+    "It",
+    49.18
+   ],
+   [
+    "needs",
+    49.34
+   ],
+   [
+    "a",
+    49.5
+   ],
+   [
+    "paid",
+    49.66
+   ],
+   [
+    "plan,",
+    49.9
+   ],
+   [
+    "not",
+    50.54
+   ],
+   [
+    "the",
+    50.7
+   ],
+   [
+    "trial.",
+    50.78
+   ],
+   [
+    "Still",
+    51.58
+   ],
+   [
+    "using",
+    51.82
+   ],
+   [
+    "your",
+    52.14
+   ],
+   [
+    "personal",
+    52.38
+   ],
+   [
+    "number",
+    52.62
+   ],
+   [
+    "for",
+    52.94
+   ],
+   [
+    "work?",
+    53.1
+   ],
+   [
+    "Send",
+    53.78
+   ],
+   [
+    "this",
+    53.98
+   ],
+   [
+    "to",
+    54.14
+   ],
+   [
+    "the",
+    54.26
+   ],
+   [
+    "friend",
+    54.38
+   ],
+   [
+    "who",
+    54.7
+   ],
+   [
+    "gives",
+    54.86
+   ],
+   [
+    "customers",
+    55.26
+   ],
+   [
+    "their",
+    55.62
+   ],
+   [
+    "personal",
+    55.94
+   ],
+   [
+    "number.",
+    56.3
+   ],
+   [
+    "Hack",
+    56.9
+   ],
+   [
+    "saved?",
+    57.1
+   ]
+  ],
+  "duration": 57.76,
+  "ident": {
+   "at": 4.3,
+   "dur": 1.5,
+   "title": "AI HACKS",
+   "type": 0.42,
+   "sub": "EP 22 · QUO REVIEW"
+  },
+  "scenes": [
+   {
+    "t": 0.0,
+    "shows": [
+     "footage:lib_man_shaking_head_at_phone",
+     "title_slam:STOP",
+     "pill:PERSONAL # EXPOSED"
+    ]
+   },
+   {
+    "t": 5.82,
+    "shows": [
+     "label:STAY TILL THE END",
+     "object3d:",
+     "pill:1 CATCH · DAY ONE"
+    ]
+   },
+   {
+    "t": 10.38,
+    "shows": [
+     "footage:s1_image",
+     "pill:1 BUSINESS NUMBER"
+    ]
+   },
+   {
+    "t": 13.58,
+    "shows": [
+     "object3d:",
+     "strike_list:"
+    ]
+   },
+   {
+    "t": 15.86,
+    "shows": [
+     "screen:Team inbox · 1 number"
+    ]
+   },
+   {
+    "t": 19.82,
+    "shows": [
+     "screen:The pricing page"
+    ]
+   },
+   {
+    "t": 31.34,
+    "shows": [
+     "stat_row:"
+    ]
+   },
+   {
+    "t": 33.66,
+    "shows": [
+     "footage:lib_colleagues_collaborating_around",
+     "pill:SMALL US + CANADA TEAMS"
+    ]
+   },
+   {
+    "t": 37.5,
+    "shows": [
+     "headline:SKIP IT IF…",
+     "illustration:bell_with_slash"
+    ]
+   },
+   {
+    "t": 39.82,
+    "shows": [
+     "label:THE CATCH",
+     "object3d:"
+    ]
+   },
+   {
+    "t": 42.46,
+    "shows": [
+     "screen:Admin · Carrier registration"
+    ]
+   },
+   {
+    "t": 49.18,
+    "shows": [
+     "vs:"
+    ]
+   },
+   {
+    "t": 51.58,
+    "shows": [
+     "footage:lib_person_speaking_into_phone",
+     "pill:STILL ON YOUR PERSONAL #?"
+    ]
+   }
+  ],
+  "beats": []
+ }
+}
