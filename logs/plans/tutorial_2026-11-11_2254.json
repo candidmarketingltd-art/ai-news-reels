@@ -1,0 +1,1954 @@
+{
+ "voiceover": "[conversational] This boring database of investors makes about $25K a month.\n\nAnd the fix that got it unstuck is something you can check on your own site today.\n\n[curious] It's called Angel Match. A database of 125,000+ angels and VCs, with emails, outreach and pitch deck hosting. Founders raising money pay for it. Plans start at $59 a month.\n\n[confident] These numbers are verified on TrustMRR: about $25K MRR, $23K in the last 30 days, 320 active subscriptions, and almost $993K all-time. Revenue, not profit, and it's below the peak the founder once posted.\n\nThe founder, Rashid Khasanov, built it after his first startup failed. He'd struggled to find investors, so he started by collecting 600 to 700 of them by hand.\n\nGrowth was mostly SEO. Programmatic SEO pages got 6.34K clicks, blogs got 1.42K. He also made \"Angel Match versus competitor\" pages, because people searching for alternatives are ready to buy.\n\n[whispers] So, the fix. It sat at about $5K for a long time, until an SEO expert came in. One summary says old pages kept getting deleted whenever the app updated, so search authority never built up.\n\n[playful] Would you build a database business like this?\n\nSend this to the friend who's raising a seed round.\n\nHack saved?",
+ "open_loop": {
+  "setup": "And the fix that got it unstuck is something you can check on your own site today.",
+  "payoff": "One summary says old pages kept getting deleted whenever the app updated, so search authority never built up."
+ },
+ "title": "BORING DATABASE, $25K/MO",
+ "ig_caption": "This boring database of investors makes about $25K a month.\n✅ Built from a pain the founder lived\n✅ SEO as the main channel\n✅ \"Vs competitor\" pages for ready-to-buy searchers\n✅ Check your site for deleted pages\nWould you build a database business like this?\nSave this for later 📌\nFollow @ihackgrowth for daily business & growth hacks",
+ "media_hints": {
+  "domain": "angelmatch.io",
+  "broll": [
+   "founder working laptop",
+   "startup pitch meeting",
+   "typing on laptop"
+  ]
+ },
+ "hashtags": [
+  "#AngelMatch",
+  "#startups",
+  "#SEO",
+  "#SaaS",
+  "#bootstrapped",
+  "#businessbreakdown",
+  "#growthhacks",
+  "#fundraising",
+  "#AIhacks"
+ ],
+ "tag": "BUSINESS BREAKDOWN",
+ "keywords": [
+  "boring",
+  "database",
+  "investors",
+  "fix",
+  "Angel",
+  "Match",
+  "angels",
+  "VCs",
+  "TrustMRR",
+  "verified",
+  "profit",
+  "peak",
+  "failed",
+  "hand",
+  "SEO",
+  "Programmatic",
+  "competitor",
+  "deleted",
+  "authority",
+  "seed"
+ ],
+ "music": "groove",
+ "scenes": [
+  {
+   "at": "This boring",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "This boring",
+     "media": "lib_camera_moving_down_server_corridor",
+     "full": true
+    },
+    {
+     "type": "title_slam",
+     "at": "$25K a",
+     "text": "$25K/MO",
+     "sub": "A BORING DATABASE",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "And the fix",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "own site",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "And the fix",
+     "text": "THE FIX · STAY TILL THE END",
+     "color": "gold"
+    },
+    {
+     "type": "object3d",
+     "at": "got it unstuck",
+     "kind": "padlock",
+     "size": "l",
+     "caption": "LOCKED UNTIL THE END",
+     "caption_at": "something you"
+    },
+    {
+     "type": "pill",
+     "at": "own site",
+     "text": "CHECK YOUR OWN SITE",
+     "color": "gold",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "It's called",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "It's called",
+     "media": "real_2_phone",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "angels and VCs,",
+     "text": "125,000+ INVESTORS",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "with emails,",
+   "elements": [
+    {
+     "type": "app",
+     "at": "with emails,",
+     "name": "Angel Match",
+     "label": "WHAT YOU GET",
+     "ill": "card_file_box",
+     "color": "gold"
+    },
+    {
+     "type": "strike_list",
+     "at": "with emails,",
+     "items": [
+      {
+       "text": "INVESTOR EMAILS",
+       "at": "with emails,",
+       "strike": false
+      },
+      {
+       "text": "OUTREACH",
+       "at": "outreach and",
+       "strike": false
+      },
+      {
+       "text": "PITCH DECK HOSTING",
+       "at": "pitch deck",
+       "strike": false
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "at": "Founders raising",
+     "text": "FOUNDERS PAY",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "Plans start",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Plans start",
+     "media": "real_3_web",
+     "tall": true
+    },
+    {
+     "type": "pill",
+     "at": "$59 a",
+     "text": "FROM $59/MO",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "These numbers",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "label",
+     "at": "These numbers",
+     "text": "VERIFIED ON TRUSTMRR"
+    },
+    {
+     "type": "footage",
+     "at": "verified on",
+     "media": "real_1_web",
+     "tall": true,
+     "caption": "TRUSTMRR LISTING",
+     "caption_at": "on TrustMRR:"
+    },
+    {
+     "type": "pill",
+     "at": "$25K MRR,",
+     "text": "$25K MRR",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "$23K in",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "stat_row",
+     "at": "$23K in",
+     "cards": [
+      {
+       "label": "LAST 30 DAYS",
+       "value": "$23K",
+       "at": "$23K in",
+       "color": "gold"
+      },
+      {
+       "label": "ACTIVE SUBS",
+       "value": "320",
+       "at": "320 active",
+       "color": "white",
+       "ill": "bust_in_silhouette"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "and almost",
+   "react": [
+    {
+     "at": "below the peak",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "and almost",
+     "kind": "coins",
+     "act": "fill",
+     "act_at": "almost $993K",
+     "count": 30,
+     "size": "m"
+    },
+    {
+     "type": "big_number",
+     "at": "almost $993K",
+     "value": "$993K",
+     "color": "gold",
+     "note": "REVENUE, NOT PROFIT",
+     "note_at": "Revenue, not",
+     "note_color": "muted"
+    },
+    {
+     "type": "pill",
+     "at": "below the peak",
+     "text": "BELOW ITS PEAK",
+     "color": "red",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "The founder,",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "The founder,",
+     "media": "lib_person_reacting_to_laptop_screen",
+     "full": true
+    },
+    {
+     "type": "headline",
+     "at": "Rashid Khasanov,",
+     "text": "RASHID KHASANOV",
+     "size": "m",
+     "sub": "FIRST STARTUP FAILED",
+     "sub_at": "startup failed.",
+     "sub_color": "red"
+    }
+   ]
+  },
+  {
+   "at": "He'd struggled",
+   "react": [
+    {
+     "at": "by hand.",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "He'd struggled",
+     "text": "HOW IT STARTED"
+    },
+    {
+     "type": "pile",
+     "at": "collecting 600",
+     "ill": "bust_in_silhouette",
+     "count": 30,
+     "value": "600-700",
+     "value_at": "600 to 700",
+     "color": "gold",
+     "label": "INVESTORS, BY HAND"
+    },
+    {
+     "type": "pill",
+     "at": "by hand.",
+     "text": "COLLECTED BY HAND",
+     "color": "gold",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "Growth was",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "title_slam",
+     "at": "Growth was",
+     "text": "SEO",
+     "sub": "THE GROWTH ENGINE",
+     "color": "blue"
+    },
+    {
+     "type": "split_bar",
+     "at": "Programmatic SEO",
+     "parts": [
+      {
+       "label": "PROGRAMMATIC SEO",
+       "value": 6340,
+       "text": "6.34K",
+       "color": "gold",
+       "at": "Programmatic SEO"
+      },
+      {
+       "label": "BLOGS",
+       "value": 1420,
+       "text": "1.42K",
+       "color": "blue",
+       "at": "blogs got"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "He also made",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "He also made",
+     "media": "real_4_phone",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "versus competitor",
+     "text": "\"VS\" PAGES",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "because people",
+   "tint": "green",
+   "react": [
+    {
+     "at": "ready to buy.",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "screen",
+     "at": "because people",
+     "device": "web",
+     "url": "google.com",
+     "app": "Google",
+     "steps": [
+      {
+       "at": "because people",
+       "view": {
+        "kind": "search",
+        "query": "",
+        "tabs": [
+         "All",
+         "News",
+         "Images",
+         "Videos"
+        ],
+        "active_tab": "All",
+        "results": [
+         {
+          "title": "Angel Match vs PitchBook",
+          "url": "angelmatch.io",
+          "snippet": "Honest comparison for founders raising capital."
+         },
+         {
+          "title": "Best PitchBook alternatives",
+          "url": "example-blog.com",
+          "snippet": "Tools founders use to find investors."
+         },
+         {
+          "title": "PitchBook pricing explained",
+          "url": "example-review.com",
+          "snippet": "Plans, features and who it's for."
+         }
+        ]
+       },
+       "action": {
+        "kind": "type",
+        "target": "search",
+        "text": "pitchbook alternatives",
+        "at": "people searching"
+       }
+      },
+      {
+       "at": "are ready",
+       "view": {
+        "kind": "search",
+        "query": "pitchbook alternatives",
+        "tabs": [
+         "All",
+         "News",
+         "Images",
+         "Videos"
+        ],
+        "active_tab": "All",
+        "results": [
+         {
+          "title": "Angel Match vs PitchBook",
+          "url": "angelmatch.io",
+          "snippet": "Honest comparison for founders raising capital."
+         },
+         {
+          "title": "Best PitchBook alternatives",
+          "url": "example-blog.com",
+          "snippet": "Tools founders use to find investors."
+         },
+         {
+          "title": "PitchBook pricing explained",
+          "url": "example-review.com",
+          "snippet": "Plans, features and who it's for."
+         }
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "Angel Match vs PitchBook",
+        "at": "ready to buy."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "So, the fix.",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "label",
+     "at": "So, the fix.",
+     "text": "THE FIX",
+     "color": "gold"
+    },
+    {
+     "type": "headline",
+     "at": "about $5K",
+     "text": "STUCK AT $5K",
+     "size": "l",
+     "color": "red",
+     "sub": "FOR A LONG TIME",
+     "sub_at": "long time,"
+    },
+    {
+     "type": "pill",
+     "at": "SEO expert",
+     "text": "ENTER: SEO EXPERT",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "One summary says",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "getting deleted",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "pile",
+     "at": "One summary says",
+     "ill": "page_facing_up",
+     "count": 24,
+     "label": "OLD PAGES",
+     "color": "gold",
+     "collapse_at": "getting deleted"
+    },
+    {
+     "type": "object3d",
+     "at": "app updated,",
+     "kind": "padlock",
+     "act": "open",
+     "act_at": "search authority",
+     "size": "m",
+     "caption": "AUTHORITY NEVER BUILT",
+     "caption_at": "never built"
+    }
+   ]
+  },
+  {
+   "at": "Would you build",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Would you build",
+     "media": "lib_man_pointing_at_camera",
+     "full": true
+    },
+    {
+     "type": "headline",
+     "at": "Would you build",
+     "text": "WOULD YOU BUILD THIS?",
+     "size": "m",
+     "ill": "thinking_face"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "Send this",
+  "line1": "Send this to",
+  "line1_at": "Send this",
+  "line2": "your seed-round friend",
+  "line2_at": "seed round."
+ },
+ "hud": {
+  "label": "MRR",
+  "items": [
+   {
+    "value": "$25K",
+    "color": "gold"
+   },
+   {
+    "at": "$23K in",
+    "value": "$23K/30D",
+    "color": "gold"
+   },
+   {
+    "at": "almost $993K",
+    "value": "$993K ALL",
+    "color": "green"
+   },
+   {
+    "at": "about $5K",
+    "value": "$5K STUCK",
+    "color": "red"
+   },
+   {
+    "at": "getting deleted",
+    "value": "PAGES LOST",
+    "color": "red"
+   }
+  ]
+ },
+ "endcard": {
+  "title": "Hack saved?",
+  "terminal": "> old_pages.kept · authority++"
+ },
+ "media": [
+  {
+   "id": "real_1_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-11_2254/real_1_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-11_2254/real_1_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: trustmrr.com",
+   "desc": "REAL desktop screen recording, pushes in on the gold-outlined part — Web capture of the trustmrr.com listing for Angel Match, with the description 'Angel Match is a database of 124,000 angels and VCs to raise your seed round.' Stats cards: All-time revenue $993,534 (Ranked #128 on TrustMRR); MRR $24,804 (320 active subscriptions); Founder Rashid Kh... (1,825 follower [Screen: trustmrr.com]"
+  },
+  {
+   "id": "real_2_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-11_2254/real_2_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-11_2254/real_2_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: angelmatch.io",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the page (no highlight) — Phone capture of the angelmatch.io hero on a dark background. Headline: 'Connect with thousands of investors in seconds'. Subtext: 'Angel Match connects you with 125,000+ angel investors and venture capitalists in one platform, helping founders find investors, secure startup funding, and raise capit [Screen: angelmatch.io]"
+  },
+  {
+   "id": "real_2_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-11_2254/real_2_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-11_2254/real_2_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: angelmatch.io",
+   "desc": "REAL desktop screen recording, pushes in on the page (no highlight) — Web capture of the angelmatch.io hero. Nav: AI Fundraising Agent (NEW), Resources, Investor Lists, Products, Pricing, Login, Sign up. Headline: 'Connect with thousands of investors in seconds'. Subtext: 'Angel Match connects you with 125,000+ angel investors and venture capitalists in one platform.. [Screen: angelmatch.io]"
+  },
+  {
+   "id": "real_3_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-11_2254/real_3_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-11_2254/real_3_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: angelmatch.io",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the gold-outlined part — Phone capture of the angelmatch.io pricing page. Headline: 'Get connected with top investors in minutes and start raising your round today.' Subtext: 'Get a 3-day free trial of Angel Match. No contracts involved. Get 6 months free when you pay yearly.' Monthly/Yearly toggle with '6+ month free'. The [Screen: angelmatch.io]"
+  },
+  {
+   "id": "real_3_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-11_2254/real_3_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-11_2254/real_3_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: angelmatch.io",
+   "desc": "REAL desktop screen recording, pushes in on the gold-outlined part — Web capture of the angelmatch.io pricing page. Headline: 'Get connected with top investors in minutes and start raising your round today.' 3-day free trial; 6 months free when paying yearly; Monthly/Yearly toggle. Three plans. Basic $59 per month (Solo founder outreach): up to 100 investors to CRM p [Screen: angelmatch.io]"
+  },
+  {
+   "id": "real_4_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-11_2254/real_4_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-11_2254/real_4_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: angelmatch.io",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the gold-outlined part — Phone capture of an angelmatch.io comparison page: 'HONEST COMPARISON · Verified November 6, 2026'. Headline: 'Angel Match vs PitchBook'. Text: PitchBook is a powerful research platform for VCs, PE firms and hedge funds, while Angel Match is built for startup founders raising capital, from $59 a mon [Screen: angelmatch.io]"
+  },
+  {
+   "id": "lib_camera_moving_down_server_corridor",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "credit": "",
+   "file": "camera_moving_down_server_corridor.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow forward push down a hazy, fog-filled data center aisle lined with server racks that glow with blue and amber status lights, giving a moody, futuristic feel. Good for: A script line about the infrastructure behind AI, such as cloud computing, model training, heavy compute, data storage, or 'what happens behind the scenes'."
+  },
+  {
+   "id": "lib_clock_ticking_and_person_typing",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "credit": "",
+   "file": "clock_ticking_and_person_typing.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A rack-focus shot moves from a close-up of a black twin-bell alarm clock with ticking hands to a bearded man in a light polo typing on a laptop in a dim room, giving a tense, time-pressured mood. Good for: lines about deadlines, time slipping away, long hours of manual work, or the pressure of slow, tedious tasks before an AI tool speeds things up"
+  },
+  {
+   "id": "lib_content_creator_sets_up_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "credit": "",
+   "file": "content_creator_sets_up_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt stands behind a ring light with a phone on a tripod, adjusting the setup while the camera slowly pushes in until his face fills the frame, with a calm, focused mood and moody blue ambient lighting in the background. Good for: setting up to create content, getting started as a creator, or preparing equipment before recording a tutorial"
+  },
+  {
+   "id": "lib_eye_reflecting_laptop_screen_glow",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "credit": "",
+   "file": "eye_reflecting_laptop_screen_glow.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow zoom into an extreme close-up of a brown eye with a bright blue screen reflected in the pupil, framed by a thick eyebrow and warm skin tones, fading into a cool blue gradient at the bottom, with a focused, intense and cinematic mood. Good for: lines about being glued to a screen, intense focus or attention, watching AI work, or 'seeing' a new opportunity or insight"
+  },
+  {
+   "id": "lib_fingers_typing_on_laptop_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "credit": "",
+   "file": "fingers_typing_on_laptop_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): Close-up over-the-shoulder shot of a person typing on a backlit laptop keyboard, with a blurred blue screen in the background and a warm, focused, productive mood. Good for: lines about getting started, writing prompts or code, doing focused work at the computer, or the hands-on steps of a tutorial"
+  },
+  {
+   "id": "lib_hand_dropping_papers_on_desk",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "credit": "",
+   "file": "hand_dropping_papers_on_desk.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a green shirt carries and then drops a thick stack of papers onto an already huge, messy pile of documents with sticky notes on a cluttered desk, while a laptop glows nearby, and the camera pushes in to a close-up of the towering stack, creating a mood of overwhelm and tedious paperwork. Good for: a script line about drowning in manual paperwork or document processing, setting up how AI can automate summarizing, sorting, or extracting information from piles of documents"
+  },
+  {
+   "id": "lib_hand_scrolling_smartphone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_scrolling_smartphone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_scrolling_smartphone.mp4",
+   "credit": "",
+   "file": "hand_scrolling_smartphone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a bearded young man in a white t-shirt looking intently at a smartphone in dim, warm lighting, with the camera slowly pushing in until his focused, slightly tense gaze moves from the screen to the lens. Good for: a script line about being glued to your phone, doubt or tension before a reveal, or the moment of realizing something while checking an app or notification"
+  },
+  {
+   "id": "lib_hands_holding_credit_card_near",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hands_holding_credit_card_near.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hands_holding_credit_card_near.mp4",
+   "credit": "",
+   "file": "hands_holding_credit_card_near.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): hands holding credit card near Good for: "
+  },
+  {
+   "id": "lib_man_comparing_phone_and_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "credit": "",
+   "file": "man_comparing_phone_and_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): man comparing phone and laptop Good for: "
+  },
+  {
+   "id": "lib_man_opens_laptop_in_room",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "credit": "",
+   "file": "man_opens_laptop_in_room.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt sits at a laptop in a dimly lit, warmly lit room, and his focused, tense expression builds as he leans toward the screen, which shows blurry blue diagram or flowchart-style blocks, with his fists clenched near his chin in the middle frame. Good for: intense concentration or deep work, such as debugging, building an AI workflow, or struggling with a complex problem"
+  },
+  {
+   "id": "lib_man_pointing_at_camera",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_pointing_at_camera.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_pointing_at_camera.mp4",
+   "credit": "",
+   "file": "man_pointing_at_camera.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a dark henley sits in a car seat working on a laptop with a focused look, then looks up with a warm smile and points playfully at the camera in a confident, friendly mood. Good for: a line that moves from focused work or problem-solving to a direct call to action, such as 'here's the trick you need to try' or 'now it's your turn'"
+  },
+  {
+   "id": "lib_man_smiling_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "credit": "",
+   "file": "man_smiling_at_phone.mp4",
+   "frames": 135,
+   "desc": "B-roll (4.5s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a blue smartphone, his expression shifting from neutral to a furrowed-brow frown of confusion and frustration. Good for: a line about frustration with confusing apps or slow tools, or the moment someone hits a problem and doesn't know what to do next"
+  },
+  {
+   "id": "lib_man_studying_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "credit": "",
+   "file": "man_studying_with_laptop.mp4",
+   "frames": 132,
+   "desc": "B-roll (4.4s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits at a desk behind a laptop with a furrowed brow and a frustrated, concentrated look, first staring at the screen, then looking down at an open notebook and writing with a pen, with a warm blurred lamp glowing in the background. Good for: a script line about struggling to understand something complex, frustration with slow or manual work, or the pain of learning a new tool the hard way"
+  },
+  {
+   "id": "lib_man_watching_laptop_waiting",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "credit": "",
+   "file": "man_watching_laptop_waiting.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits at a laptop in a dimly lit room with warm lamp light, resting his chin on his fist with a focused, pensive look, and the camera pushes in closer across the three frames. Good for: a script line about deep thinking, researching or problem-solving, or weighing a decision before trying an AI tool"
+  },
+  {
+   "id": "lib_person_drinking_coffee_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "credit": "",
+   "file": "person_drinking_coffee_with_laptop.mp4",
+   "frames": 93,
+   "desc": "B-roll (3.1s, VERTICAL 9:16 — best as full: true): A bearded man in a green polo sits at a laptop in a modern industrial-style open office, lifting a white cup to his mouth and sipping a hot drink while looking down at the screen, in a calm, focused mood. Good for: a line about taking a breather while the AI does the work, a morning work routine, waiting for a process to finish, or the calm of an automated workflow"
+  },
+  {
+   "id": "lib_person_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "person_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a laptop, his expression moving from concern to a deep frown with glowing blue tear-like effects on his cheeks, then to eyes shut in stress or exhaustion; the mood is frustrated and overwhelmed. Good for: A script line about frustration or overwhelm with a tough task, such as struggling with confusing tools, wasting hours on manual work, or being stuck before finding an AI solution."
+  },
+  {
+   "id": "lib_person_taking_selfie_with_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "credit": "",
+   "file": "person_taking_selfie_with_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt sits in a car holding a blue smartphone up close to his face, and across the clip he leans toward the screen with a furrowed brow, looking skeptical and intensely focused. Good for: a script line about doubting or double-checking AI output, being confused or frustrated by an app or tool, or looking closely at a result on your phone, e.g. 'wait, is this actually right?'"
+  },
+  {
+   "id": "lib_professional_working_on_laptop_late",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "credit": "",
+   "file": "professional_working_on_laptop_late.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A tired bearded young man in a maroon t-shirt sits at a laptop in a dim apartment at night, resting his head on his hand, rubbing his eyes, then glumly lifting a white coffee mug, with blurred city lights glowing behind him through the window. Good for: A script line about burnout, late-night grinding, or frustration with slow manual work that AI tools can speed up, e.g. 'still stuck doing this by hand at midnight?'"
+  },
+  {
+   "id": "lib_robotic_hand_typing_on_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "credit": "",
+   "file": "robotic_hand_typing_on_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a black robotic hand with segmented, mechanical fingers lowering onto a backlit laptop keyboard and starting to type, shot at shallow depth of field in a warm, softly lit, modern workspace. Good for: A script line about AI doing the work for you, automating repetitive tasks, or AI taking over typing and writing, such as 'let AI handle the busywork' or 'AI writes it for you'."
+  },
+  {
+   "id": "s1_image",
+   "kind": "image",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-11_2254/s1_image.png",
+   "credit": "Image: angelmatch.io",
+   "desc": "official image from Angel Match (announcement page)"
+  }
+ ],
+ "style": "hisaab",
+ "topic": "Business breakdown: Angel Match — Angel Match is a database of 124,000 angels and VCs to raise your seed round.",
+ "pick": {
+  "topic": "Business breakdown: Angel Match — Angel Match is a database of 124,000 angels and VCs to raise your seed round.",
+  "tool": "Angel Match",
+  "format": "business",
+  "angle": "A simple database of 124,000 angels and VCs is making about $25K/month, selling to founders who are raising money"
+ },
+ "inspired_by": {
+  "url": "https://trustmrr.com/startup/angel-match",
+  "owner": "trustmrr",
+  "plays": 0,
+  "likes": 0,
+  "comments": 0
+ },
+ "research": {
+  "verdict": "ok",
+  "tool": "Angel Match",
+  "what_it_does": "A searchable database of 125,000+ angel investors and VCs, with contact details plus built-in email outreach, an investor CRM, and pitch deck hosting, for founders raising a round.",
+  "who_pays": "Startup founders raising capital (B2B subscribers). TrustMRR shows 320 active subscriptions.",
+  "pricing": "Per third-party reviews of the pricing page (October 2026): Basic $59/mo, Growth $99/mo, Premium $349/mo at the default 2,000-investor tier. Every plan has a 3-day free trial, there is no free plan, and there are monthly and yearly options. Angel Match's own PitchBook comparison page confirms plans start at $59/month with a 3-day free trial. I could not load the pricing page itself, so check the live prices before filming. Older third-party listings show outdated prices ($99/$169/$299, or $59/$99/$199).",
+  "growth": [
+   "SEO is the main channel. In his Indie Hackers/Starter Story write-up, Rashid says most users come from organic traffic and calls SEO the winner by far (source: starterstory.com/businesses/angel-match/growth-channels).",
+   "The same write-up says Angel Match sat at about $5k MRR for a long time, until they brought in an SEO expert (starterstory.com growth-channels; nocodeexits.substack.com). A Chinese-language summary of the Indie Hackers interview says the cause was that old pages kept getting deleted when the app was updated, so search authority never built up. That is a secondary source.",
+   "Programmatic SEO is the standout tactic. Starter Story's growth page quotes clicks by content type: Blogs 1.42K, Free tools 1.65K, Programmatic SEO resources 6.34K. Rashid posted on X that he doubts they'd have reached $20K MRR without pSEO, because it drives high-intent buyers (x.com/Rashidkhasanov, post dated Aug 5, year not shown).",
+   "A Startup Finder write-up says the SEO-first approach took Angel Match from $3,000 MRR to $20,000 MRR, and that Meta ads were layered on later (startupfinder.co).",
+   "Free tools and Product Hunt launches added to this. Angel Match 2.0 launched on Product Hunt on August 4th, 2021, with 241 upvotes, finishing #9 (hunted by Rashid, via hunted.space). Product Hunt lists Angel Match 4.0 as launched on May 28th, 2026. Indie Hackers shows a Jan 11, 2026 post: \"We are trending #4 on Product Hunt today.\"",
+   "Free tools include a funding goal calculator at angelmatch.io/resources/funding-goal-calculator and an Investor Matcher launched May 15, 2026 (Indie Hackers).",
+   "Rashid posted on X that a paying user told him they had switched from a competitor. That gave him the idea for \"angelmatch vs competitor\" pages, because people searching for alternatives are high-intent buyers. He said the pages were created 2 days earlier and were already bringing in traffic (the post is cut off, and the year is not shown).",
+   "Facebook/Meta ads came later: Starter Story quotes the team saying most growth came from SEO and that Facebook ads were in early stages."
+  ],
+  "founder_story": [
+   "Rashid Khasanov's first startup, a fintech app, failed. Indie Hackers says he drained his savings and maxed out his credit cards. While raising money for it, he found that finding investors was manual, painful work, and Angel Match grew out of that.",
+   "He began with 600 to 700 investor entries collected by hand. Over years this grew into a curated database of 110,000+ records (nocodeexits.substack.com), and Angel Match 4.0 (May 28, 2026) lists 125,000.",
+   "Not solo: Crunchbase lists Daria Ree as co-founder with Rashid, and Tracxn shows an employee count of 5 as of Jul 31, 2026. Product Hunt lists several makers. Tracxn also describes the company as unfunded, though another Tracxn FAQ line refers to a funding round, so that is inconsistent.",
+   "Rashid runs a portfolio: Angel Match, Investor Hunt, Journalist Hunt, Pur Social/autoposts. His X bio reads 'Building a portfolio of SaaS' (Indie Hackers, X).",
+   "Indie Hackers lists Angel Match as Bootstrapped & Active. TrustMRR gives the founding date as January 2019, matching Product Hunt ('Launched in 2019'). Tracxn says 2018."
+  ],
+  "lessons": [
+   "Build for a pain you've lived. Rashid built Angel Match after struggling to find investors for his failed startup.",
+   "Data is a moat. A hand-built investor database is hard to copy quickly, and the founder frames it as something AI can't just generate.",
+   "Make SEO the core channel for a database product. Programmatic SEO pages drove 6.34K clicks, far more than blogs (1.42K) or free tools (1.65K) in the figures Starter Story quotes.",
+   "Check your own site for self-inflicted SEO damage. The reported stall at ~$5K MRR was linked to deleted pages, and an SEO expert spotted it.",
+   "Build 'vs competitor' and 'alternative' pages for high-intent searchers. Rashid got the idea from a customer who had switched, and angelmatch.io/alternatives/pitchbook is a live example.",
+   "Talk to paying users. Rashid posted that a user of 2+ years gave feedback he'd never thought of, and that they would now build what users want."
+  ],
+  "criticism": [
+   "Revenue isn't profit. TrustMRR shows revenue only, and I found no verified profit or cost figures.",
+   "MRR is well below the peak Rashid himself reported. He posted about $43K/month and said they were now at $25K (X, Aug 4–5, year not shown), and Indie Hackers had $37K MRR about a year ago. TrustMRR now shows $24,804. Angel Match's own growth also looks volatile. A 10-day-old TrustMRR snapshot showed MRR of $27,098, higher than today's figure. That conflicts with the +15% MoM in the data given.",
+   "Competition: Round Funded, Angels Partners and PitchBook are listed as alternatives. Round Funded and Angels Partners position themselves against Angel Match, so treat their claims as competitor content.",
+   "Review sites say the database size is self-reported and not independently verified, there are zero reviews on Trustpilot, G2 or Capterra, there is no free plan, and email sends are capped by tier (from 100/month on Basic). These come from a competitor's review page (angelspartners.com), so treat them as partly biased.",
+   "Heavy reliance on organic search. A Google algorithm change could hurt it. This is my inference, not a sourced claim."
+  ],
+  "facts": [
+   "TrustMRR (Stripe-verified): MRR $24,804, revenue last 30 days $23,799, all-time revenue $993,534, 320 active subscriptions, ranked #128.",
+   "Angel Match 4.0 (May 28, 2026) grew the database from 110,000 to 125,000 angels and VCs, and verified emails from 70,000 to 99,000+. It added email open/click/reply tracking and an inbox, and follow-up email flows (Indie Hackers).",
+   "Pitch Deck Hosting tool launched inside Angel Match on July 9, 2026 (Indie Hackers).",
+   "Per the Startup Finder write-up, trial conversion rate is 33.3% and the site pulls 800–1,000 clicks a day. This is founder-reported, and the page's date is unknown.",
+   "Angel Match's PitchBook comparison page says that PitchBook doesn't publish prices and that buyers report a median of $30,000/year. This is Angel Match's own marketing claim.",
+   "The founder's X audience is small (1,825 followers per TrustMRR), so the growth wasn't driven by a big social following."
+  ],
+  "do_not_claim": [
+   "Profit or margins",
+   "Exact team size (Tracxn says 5 as of Jul 31, 2026; other sources vary)",
+   "That the investor data is independently verified or 'accurate'",
+   "Funding: it appears bootstrapped, but there's no authoritative confirmation",
+   "Which year exactly the $43K-to-$25K decline happened",
+   "Exact customer counts beyond TrustMRR's 320 subscriptions",
+   "That the founder is 'non-technical' or hired a remote dev (only a Chinese secondary source says so)",
+   "Any claim that angel investor outreach through it actually leads to funding"
+  ],
+  "real_pages": [
+   {
+    "url": "https://trustmrr.com/startup/angel-match",
+    "show": "$24,804",
+    "kind": "site"
+   },
+   {
+    "url": "https://angelmatch.io",
+    "show": "",
+    "kind": "site"
+   },
+   {
+    "url": "https://angelmatch.io/pricing",
+    "show": "$59",
+    "kind": "site"
+   },
+   {
+    "url": "https://angelmatch.io/alternatives/pitchbook",
+    "show": "Angel Match vs PitchBook",
+    "kind": "site"
+   }
+  ],
+  "sources": [
+   "https://www.indiehackers.com/product/angel-match",
+   "https://www.indiehackers.com/post/tech/after-burning-through-his-savings-and-going-into-debt-this-founder-built-a-42k-mrr-portfolio-FGEm1BtZPZV9lqW4QptN",
+   "https://www.starterstory.com/businesses/angel-match/growth-channels",
+   "https://nocodeexits.substack.com/p/ai-wrappers-die-his-boring-database",
+   "https://x.com/rashidkhasanov",
+   "https://angelmatch.io/alternatives/pitchbook",
+   "https://www.roundfunded.com/en/alternatives/angelmatch",
+   "https://angelspartners.com/reviews/angelmatch/",
+   "https://www.producthunt.com/products/angel-match",
+   "https://hunted.space/dashboard/307051",
+   "https://www.crunchbase.com/organization/angel-match",
+   "https://tracxn.com/d/companies/angel-match/__CYWDhyw9BgpHaoeUDLP3SFox5KjUeieiMZ3dM0xgx48",
+   "https://www.startupfinder.co/posts/how-rashid-built-32kmonth-from-3-simple-database-sites-5g9w"
+  ],
+  "notes": "Pricing page URL: I'm confident angelmatch.io has a pricing page (its own pages link to it), but I did not load it, so the exact URL and whether '$59' is displayed are unconfirmed. The pitchbook and investor-match URLs appeared in search results, while the exact text to highlight on those pages is my best guess, so check each on screen before recording. The '$59' text IS confirmed on the PitchBook comparison page ('Plans start at $59 a month'), so use that page for a guaranteed highlight. Hook idea: a founder whose first startup failed, then built a spreadsheet of investors by hand into a ~$25K MRR business. The stuck-at-$5K-MRR SEO story is the best 'lesson' beat. Use the Indie Hackers MRR figures ($37K-$42K) only as the founder's earlier peak, not as current. Say 'about $25K MRR' using TrustMRR.",
+  "_searched": 5,
+  "trustmrr": {
+   "name": "Angel Match",
+   "one_liner": "Angel Match is a database of 124,000 angels and VCs to raise your seed round.",
+   "website": "https://angelmatch.io",
+   "founder": "Rashid Khasanov",
+   "founder_x": "",
+   "founded": "January 2019",
+   "location": "United States",
+   "category": "SaaS, Fintech, Sales, Recruiting, Productivity",
+   "audience": "Startup founders and business owners (B2B, ~125,000 users)",
+   "pricing": "Free trial available; subscription required",
+   "revenue_last_30_days": "$23,799",
+   "revenue_all_time": "$993,534",
+   "mrr": "$24,804",
+   "growth_mom": "15%",
+   "active_subscriptions": "320",
+   "rank": "#128",
+   "for_sale": "",
+   "verified_by": "Stripe API key",
+   "last_updated": "Nov 11, 2026, 04:19 PM",
+   "other": [
+    "Founder has 1,825 followers on 𝕏",
+    "Value proposition: Angel Match connects you with 125,000+ angel investors and venture capitalists in one platform, helping founders find investors, secure startup funding, and raise capital faster.",
+    "Problem solved: Angel Match helps you expand your network, save time searching for funding, and find the perfect investor for your startup.",
+    "Domain Rating: 41/100 (angelmatch.io)",
+    "Tech stack (Backend): Node.js, DigitalOcean, Stripe",
+    "Revenue growth shown as 15% vs. prev period"
+   ],
+   "trustmrr_url": "https://trustmrr.com/startup/angel-match"
+  },
+  "say_numbers_as": [
+   "$23,799 (can be said as: $20K, $23K, $24K)",
+   "$993,534 (can be said as: $990K, $993K, $994K)",
+   "$24,804 (can be said as: $20K, $24K, $25K)"
+  ]
+ },
+ "kind": "business",
+ "episode": 25,
+ "_ident": {
+  "at": 4.7,
+  "dur": 1.5,
+  "title": "AI HACKS",
+  "type": 0.42,
+  "sub": "EP 25 · BUSINESS BREAKDOWN"
+ },
+ "timeline": {
+  "words": [
+   [
+    "This",
+    0.08
+   ],
+   [
+    "boring",
+    0.48
+   ],
+   [
+    "database",
+    0.88
+   ],
+   [
+    "of",
+    1.36
+   ],
+   [
+    "investors",
+    1.44
+   ],
+   [
+    "makes",
+    2.16
+   ],
+   [
+    "about",
+    2.4
+   ],
+   [
+    "$25K",
+    2.72
+   ],
+   [
+    "a",
+    3.36
+   ],
+   [
+    "month.",
+    3.76
+   ],
+   [
+    "And",
+    6.3
+   ],
+   [
+    "the",
+    6.46
+   ],
+   [
+    "fix",
+    6.62
+   ],
+   [
+    "that",
+    6.94
+   ],
+   [
+    "got",
+    7.1
+   ],
+   [
+    "it",
+    7.26
+   ],
+   [
+    "unstuck",
+    7.5
+   ],
+   [
+    "is",
+    8.14
+   ],
+   [
+    "something",
+    8.38
+   ],
+   [
+    "you",
+    8.58
+   ],
+   [
+    "can",
+    8.7
+   ],
+   [
+    "check",
+    8.94
+   ],
+   [
+    "on",
+    9.1
+   ],
+   [
+    "your",
+    9.3
+   ],
+   [
+    "own",
+    9.5
+   ],
+   [
+    "site",
+    9.74
+   ],
+   [
+    "today.",
+    9.98
+   ],
+   [
+    "It's",
+    10.673
+   ],
+   [
+    "called",
+    10.98
+   ],
+   [
+    "Angel",
+    11.26
+   ],
+   [
+    "Match.",
+    11.58
+   ],
+   [
+    "A",
+    12.26
+   ],
+   [
+    "database",
+    12.54
+   ],
+   [
+    "of",
+    12.86
+   ],
+   [
+    "125,000+",
+    13.18
+   ],
+   [
+    "angels",
+    13.66
+   ],
+   [
+    "and",
+    15.34
+   ],
+   [
+    "VCs,",
+    15.5
+   ],
+   [
+    "with",
+    16.26
+   ],
+   [
+    "emails,",
+    16.46
+   ],
+   [
+    "outreach",
+    17.22
+   ],
+   [
+    "and",
+    17.74
+   ],
+   [
+    "pitch",
+    17.98
+   ],
+   [
+    "deck",
+    18.22
+   ],
+   [
+    "hosting.",
+    18.54
+   ],
+   [
+    "Founders",
+    19.22
+   ],
+   [
+    "raising",
+    19.66
+   ],
+   [
+    "money",
+    19.98
+   ],
+   [
+    "pay",
+    20.22
+   ],
+   [
+    "for",
+    20.38
+   ],
+   [
+    "it.",
+    20.54
+   ],
+   [
+    "Plans",
+    21.127
+   ],
+   [
+    "start",
+    21.42
+   ],
+   [
+    "at",
+    21.66
+   ],
+   [
+    "$59",
+    21.82
+   ],
+   [
+    "a",
+    22.3
+   ],
+   [
+    "month.",
+    22.62
+   ],
+   [
+    "These",
+    23.546
+   ],
+   [
+    "numbers",
+    23.78
+   ],
+   [
+    "are",
+    24.06
+   ],
+   [
+    "verified",
+    24.46
+   ],
+   [
+    "on",
+    24.78
+   ],
+   [
+    "TrustMRR:",
+    25.1
+   ],
+   [
+    "about",
+    26.02
+   ],
+   [
+    "$25K",
+    26.22
+   ],
+   [
+    "MRR,",
+    26.7
+   ],
+   [
+    "$23K",
+    28.38
+   ],
+   [
+    "in",
+    28.78
+   ],
+   [
+    "the",
+    29.62
+   ],
+   [
+    "last",
+    29.74
+   ],
+   [
+    "30",
+    30.02
+   ],
+   [
+    "days,",
+    30.3
+   ],
+   [
+    "320",
+    31.02
+   ],
+   [
+    "active",
+    31.18
+   ],
+   [
+    "subscriptions,",
+    32.14
+   ],
+   [
+    "and",
+    33.047
+   ],
+   [
+    "almost",
+    33.34
+   ],
+   [
+    "$993K",
+    33.66
+   ],
+   [
+    "all-time.",
+    34.26
+   ],
+   [
+    "Revenue,",
+    36.54
+   ],
+   [
+    "not",
+    37.26
+   ],
+   [
+    "profit,",
+    37.66
+   ],
+   [
+    "and",
+    38.033
+   ],
+   [
+    "it's",
+    38.14
+   ],
+   [
+    "below",
+    38.5
+   ],
+   [
+    "the",
+    38.74
+   ],
+   [
+    "peak",
+    38.86
+   ],
+   [
+    "the",
+    39.1
+   ],
+   [
+    "founder",
+    39.3
+   ],
+   [
+    "once",
+    39.58
+   ],
+   [
+    "posted.",
+    39.82
+   ],
+   [
+    "The",
+    40.593
+   ],
+   [
+    "founder,",
+    40.7
+   ],
+   [
+    "Rashid",
+    41.313
+   ],
+   [
+    "Khasanov,",
+    41.74
+   ],
+   [
+    "built",
+    42.46
+   ],
+   [
+    "it",
+    42.7
+   ],
+   [
+    "after",
+    42.94
+   ],
+   [
+    "his",
+    43.22
+   ],
+   [
+    "first",
+    43.42
+   ],
+   [
+    "startup",
+    43.86
+   ],
+   [
+    "failed.",
+    44.14
+   ],
+   [
+    "He'd",
+    44.753
+   ],
+   [
+    "struggled",
+    45.02
+   ],
+   [
+    "to",
+    45.38
+   ],
+   [
+    "find",
+    45.5
+   ],
+   [
+    "investors,",
+    45.86
+   ],
+   [
+    "so",
+    46.54
+   ],
+   [
+    "he",
+    46.7
+   ],
+   [
+    "started",
+    46.86
+   ],
+   [
+    "by",
+    47.22
+   ],
+   [
+    "collecting",
+    47.34
+   ],
+   [
+    "600",
+    47.9
+   ],
+   [
+    "to",
+    48.14
+   ],
+   [
+    "700",
+    48.74
+   ],
+   [
+    "of",
+    48.94
+   ],
+   [
+    "them",
+    49.46
+   ],
+   [
+    "by",
+    49.7
+   ],
+   [
+    "hand.",
+    50.14
+   ],
+   [
+    "Growth",
+    50.54
+   ],
+   [
+    "was",
+    50.94
+   ],
+   [
+    "mostly",
+    51.26
+   ],
+   [
+    "SEO.",
+    51.74
+   ],
+   [
+    "Programmatic",
+    52.513
+   ],
+   [
+    "SEO",
+    53.02
+   ],
+   [
+    "pages",
+    53.46
+   ],
+   [
+    "got",
+    53.78
+   ],
+   [
+    "6.34K",
+    53.98
+   ],
+   [
+    "clicks,",
+    55.1
+   ],
+   [
+    "blogs",
+    55.927
+   ],
+   [
+    "got",
+    56.14
+   ],
+   [
+    "1.42K.",
+    56.46
+   ],
+   [
+    "He",
+    57.767
+   ],
+   [
+    "also",
+    57.9
+   ],
+   [
+    "made",
+    58.3
+   ],
+   [
+    "Angel",
+    58.5
+   ],
+   [
+    "Match",
+    58.86
+   ],
+   [
+    "versus",
+    59.18
+   ],
+   [
+    "competitor",
+    59.58
+   ],
+   [
+    "pages,",
+    60.14
+   ],
+   [
+    "because",
+    60.78
+   ],
+   [
+    "people",
+    61.18
+   ],
+   [
+    "searching",
+    61.42
+   ],
+   [
+    "for",
+    61.74
+   ],
+   [
+    "alternatives",
+    62.06
+   ],
+   [
+    "are",
+    62.7
+   ],
+   [
+    "ready",
+    62.94
+   ],
+   [
+    "to",
+    63.18
+   ],
+   [
+    "buy.",
+    63.34
+   ],
+   [
+    "So,",
+    64.46
+   ],
+   [
+    "the",
+    64.62
+   ],
+   [
+    "fix.",
+    65.26
+   ],
+   [
+    "It",
+    65.847
+   ],
+   [
+    "sat",
+    65.98
+   ],
+   [
+    "at",
+    66.22
+   ],
+   [
+    "about",
+    66.3
+   ],
+   [
+    "$5K",
+    66.7
+   ],
+   [
+    "for",
+    66.94
+   ],
+   [
+    "a",
+    67.98
+   ],
+   [
+    "long",
+    68.193
+   ],
+   [
+    "time,",
+    68.54
+   ],
+   [
+    "until",
+    69.047
+   ],
+   [
+    "an",
+    69.26
+   ],
+   [
+    "SEO",
+    69.58
+   ],
+   [
+    "expert",
+    69.9
+   ],
+   [
+    "came",
+    70.38
+   ],
+   [
+    "in.",
+    70.54
+   ],
+   [
+    "One",
+    71.02
+   ],
+   [
+    "summary",
+    71.38
+   ],
+   [
+    "says",
+    71.82
+   ],
+   [
+    "old",
+    72.14
+   ],
+   [
+    "pages",
+    72.5
+   ],
+   [
+    "kept",
+    72.78
+   ],
+   [
+    "getting",
+    73.14
+   ],
+   [
+    "deleted",
+    73.54
+   ],
+   [
+    "whenever",
+    73.9
+   ],
+   [
+    "the",
+    74.3
+   ],
+   [
+    "app",
+    74.46
+   ],
+   [
+    "updated,",
+    74.62
+   ],
+   [
+    "so",
+    75.367
+   ],
+   [
+    "search",
+    75.5
+   ],
+   [
+    "authority",
+    75.74
+   ],
+   [
+    "never",
+    76.38
+   ],
+   [
+    "built",
+    76.62
+   ],
+   [
+    "up.",
+    76.86
+   ],
+   [
+    "Would",
+    77.42
+   ],
+   [
+    "you",
+    77.66
+   ],
+   [
+    "build",
+    77.9
+   ],
+   [
+    "a",
+    78.06
+   ],
+   [
+    "database",
+    78.14
+   ],
+   [
+    "business",
+    78.7
+   ],
+   [
+    "like",
+    78.94
+   ],
+   [
+    "this?",
+    79.22
+   ],
+   [
+    "Send",
+    79.74
+   ],
+   [
+    "this",
+    79.9
+   ],
+   [
+    "to",
+    80.06
+   ],
+   [
+    "the",
+    80.18
+   ],
+   [
+    "friend",
+    80.3
+   ],
+   [
+    "who's",
+    80.54
+   ],
+   [
+    "raising",
+    80.78
+   ],
+   [
+    "a",
+    81.06
+   ],
+   [
+    "seed",
+    81.18
+   ],
+   [
+    "round.",
+    81.42
+   ],
+   [
+    "Hack",
+    82.1
+   ],
+   [
+    "saved?",
+    82.3
+   ]
+  ],
+  "duration": 82.96,
+  "ident": {
+   "at": 4.7,
+   "dur": 1.5,
+   "title": "AI HACKS",
+   "type": 0.42,
+   "sub": "EP 25 · BUSINESS BREAKDOWN"
+  },
+  "scenes": [
+   {
+    "t": 0.0,
+    "shows": [
+     "footage:lib_camera_moving_down_server_corridor",
+     "title_slam:$25K/MO"
+    ]
+   },
+   {
+    "t": 6.3,
+    "shows": [
+     "label:THE FIX · STAY TILL THE END",
+     "object3d:",
+     "pill:CHECK YOUR OWN SITE"
+    ]
+   },
+   {
+    "t": 10.67,
+    "shows": [
+     "footage:real_2_phone",
+     "pill:125,000+ INVESTORS"
+    ]
+   },
+   {
+    "t": 16.26,
+    "shows": [
+     "app:Angel Match",
+     "strike_list:",
+     "pill:FOUNDERS PAY"
+    ]
+   },
+   {
+    "t": 21.13,
+    "shows": [
+     "footage:real_3_web",
+     "pill:FROM $59/MO"
+    ]
+   },
+   {
+    "t": 23.55,
+    "shows": [
+     "label:VERIFIED ON TRUSTMRR",
+     "footage:real_1_web",
+     "pill:$25K MRR"
+    ]
+   },
+   {
+    "t": 28.38,
+    "shows": [
+     "stat_row:"
+    ]
+   },
+   {
+    "t": 33.05,
+    "shows": [
+     "object3d:",
+     "big_number:",
+     "pill:BELOW ITS PEAK"
+    ]
+   },
+   {
+    "t": 39.1,
+    "shows": [
+     "footage:lib_person_reacting_to_laptop_screen",
+     "headline:RASHID KHASANOV"
+    ]
+   },
+   {
+    "t": 44.75,
+    "shows": [
+     "label:HOW IT STARTED",
+     "pile:",
+     "pill:COLLECTED BY HAND"
+    ]
+   },
+   {
+    "t": 50.54,
+    "shows": [
+     "title_slam:SEO",
+     "split_bar:"
+    ]
+   },
+   {
+    "t": 57.77,
+    "shows": [
+     "footage:real_4_phone",
+     "pill:\"VS\" PAGES"
+    ]
+   },
+   {
+    "t": 60.78,
+    "shows": [
+     "screen:"
+    ]
+   },
+   {
+    "t": 64.46,
+    "shows": [
+     "label:THE FIX",
+     "headline:STUCK AT $5K",
+     "pill:ENTER: SEO EXPERT"
+    ]
+   },
+   {
+    "t": 71.02,
+    "shows": [
+     "pile:",
+     "object3d:"
+    ]
+   },
+   {
+    "t": 77.42,
+    "shows": [
+     "footage:lib_man_pointing_at_camera",
+     "headline:WOULD YOU BUILD THIS?"
+    ]
+   }
+  ],
+  "beats": [
+   12.16,
+   34.94,
+   46.47,
+   54.22,
+   66.47
+  ]
+ }
+}
