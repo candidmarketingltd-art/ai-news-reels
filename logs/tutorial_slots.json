@@ -171,5 +171,12 @@
   "at": "2026-11-11 13:14",
   "post": "6af41ce927e91ec769bacdb2",
   "topic": "Check which third-party apps and AI tools have access to your Google account or Gmail, and remove the ones you don't use. Open your Google Account's 'Third-party apps & services' page, review each one's access level, revoke the old ones, and run a Security Checkup. Founders connect a lot of tools to Gmail and forget about them."
+ },
+ "2026-11-11-1700": {
+  "status": "posted",
+  "at": "2026-11-11 17:02",
+  "post": "6af4525faedd7b5946245b90",
+  "topic": "meme: notion this week: please rotate any api keys you pasted into the chat / me, who ",
+  "manual": true
  }
 }

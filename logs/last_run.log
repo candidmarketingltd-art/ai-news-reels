@@ -4,37 +4,12 @@
   BUFFER_API_KEY: set
   BUFFER_CHANNEL_ID: set
       voice: Rohan 0ynj1kxK93EAXGRqL9Rm (found by name in this workspace)
-window 2026-11-11-1300 | posting times 13:00, 17:00, 20:00 IST | dry_run=False
-      reel type: marketing
-      b-roll library: 25 clips
-      recording request #1: still waiting for the video
-      recording request #2: still waiting for the video
-[1/6] top AI & tech reels
-      hashtag scrape failed: apify apify/instagram-hashtag-scraper: 403 {
-  "error": {
-    "type": "platform-feature-disabled",
-    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and o
-      using the last saved reel pool
-      reel pool: 76 reels
-[2/6] picking the topic
-      → Check which third-party apps and AI tools have access to your Google account or Gmail, and remove the ones you don't use. Open your Google Account's 'Third-party apps & services' page, review each one's access level, revoke the old ones, and run a Security Checkup. Founders connect a lot of tools to Gmail and forget about them.  (warning, from @krish.exploits, 43,755 views) — 43k views with 1,337 comments is about 3% comments-to-views, a very strong demand signal. It's a checkable, true claim with a real Google page to show on screen
-      transcript failed: apify apify/instagram-reel-scraper: 403 {
-  "error": {
-    "type": "platform-feature-disabled",
-    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe
-[3/6] research (0 transcript words)
-      verdict adjust · 5 web searches · 7 steps · 13 sources
-[4/6] script + edit
-      real screens: 8 usable of 8 captured from 4 official pages
-      (media: pexels 'typing on laptop' failed: 403 Client Error: Forbidden for url: https://api.apify.com/v2/acts/memo23~pexels)
-      (media: pexels 'email inbox laptop' failed: 403 Client Error: Forbidden for url: https://api.apify.com/v2/acts/memo23~pexels)
-      media: s1_logo
-[5/6] voice + render
-      [eleven] subscription: 200 {"tier":"creator","character_count":27564,"character_limit":131000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796464027,"voice_slots_used":1,"professional_voice_slots
-      [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
-      voice check: every word heard as written
-      167 words, 60.6s, voice eleven_v4
-      remotion: Reel /tmp/tmpfw5unhko/video_only.mp4
-[6/6] publish
-      [buffer] created post 6af41ce927e91ec769bacdb2 (customScheduled)
-POSTED 6af41ce927e91ec769bacdb2 https://github.com/candidmarketingltd-art/ai-news-reels/releases/download/reel-2026-11-11_1301/2026-11-11_1301.mp4
+window 2026-11-11-1700 | posting times 13:00, 17:00, 20:00 IST | dry_run=False
+      reel type: meme
+[1/3] trending audio + Claude news this week
+      14 trending songs, 11 news items
+[2/3] meme line
+      “notion this week: please rotate any api keys you pasted into the chat / me, who pasted the same key into 11 different chats since march:” on lib_camera_moving_down_server_corridor,lib_man_smiling_at_phone · song: November Rain — Guns N' Roses
+[3/3] render
+      [buffer] reminder post 6af4525faedd7b5946245b90 (customScheduled)
+REMINDER SENT 6af4525faedd7b5946245b90
