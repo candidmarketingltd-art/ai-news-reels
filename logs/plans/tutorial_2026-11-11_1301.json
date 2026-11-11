@@ -1,0 +1,1813 @@
+{
+ "voiceover": "[conversational] That old tool you connected to Gmail might still have access to your inbox.\n\nAnd stay till the end, because there's one thing removing access does not do.\n\nFounders connect tool after tool, then forget them. Some may be able to read, send or manage your email, and that access stays until you remove it.\n\nOpen myaccount.google.com/connections.\n\nLook under \"Access to your Google Account\". Click an app, then \"See details\". Don't use it? [confident] Hit \"Remove access\". Signed in with Google? \"Stop using Sign in with Google\", then \"Confirm\".\n\n[serious] Catch: removing a tool you still use can break it, and you could get locked out if Google's its only login.\n\nThen run Security Checkup. Google's 3 steps: devices, old app access, recovery info.\n\nHere's what removal doesn't do. Removal only stops future access, and the app may keep what you already gave it.\n\nHow many forgotten apps did you find? Tell me below.\n\nSend this to the friend who clicks Sign in with Google on everything.\n\nHack saved?",
+ "open_loop": {
+  "setup": "And stay till the end, because there's one thing removing access does not do.",
+  "payoff": "Removal only stops future access, and the app may keep what you already gave it."
+ },
+ "title": "CHECK YOUR GMAIL ACCESS",
+ "ig_caption": "That old tool you connected to Gmail might still have access to your inbox. 👀\n✅ Open myaccount.google.com/connections\n✅ Check \"Access to your Google Account\" > \"See details\"\n✅ \"Remove access\" on what you don't use\n✅ Run Security Checkup\nHow many forgotten apps did you find?\nSave this for later.\nFollow @ihackgrowth for daily business & growth hacks",
+ "media_hints": {
+  "domain": "google.com",
+  "broll": [
+   "typing on laptop",
+   "email inbox laptop",
+   "person worried desk"
+  ]
+ },
+ "hashtags": [
+  "#Gmail",
+  "#GoogleAccount",
+  "#SecurityCheckup",
+  "#cybersecurity",
+  "#AIhacks",
+  "#startups",
+  "#founders",
+  "#productivity"
+ ],
+ "tag": "GMAIL SECURITY",
+ "keywords": [
+  "Gmail",
+  "inbox",
+  "Founders",
+  "forget",
+  "read",
+  "send",
+  "manage",
+  "connections",
+  "Remove",
+  "Confirm",
+  "Catch",
+  "locked",
+  "Security",
+  "Checkup",
+  "devices",
+  "recovery",
+  "removal",
+  "future",
+  "forgotten"
+ ],
+ "music": "suspense",
+ "hud": {
+  "label": "INBOX ACCESS",
+  "items": [
+   {
+    "value": "OPEN",
+    "color": "red"
+   },
+   {
+    "at": "Some may",
+    "value": "READ+SEND",
+    "color": "red"
+   },
+   {
+    "at": "Hit",
+    "value": "REVOKED",
+    "color": "green"
+   },
+   {
+    "at": "then Confirm.",
+    "value": "CLEAN",
+    "color": "green"
+   },
+   {
+    "at": "Then run",
+    "value": "CHECKUP",
+    "color": "gold"
+   },
+   {
+    "at": "Here's what",
+    "value": "DATA KEPT?",
+    "color": "red"
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "at": "That old",
+   "tint": "red",
+   "react": [
+    {
+     "at": "your inbox.",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "footage",
+     "at": "That old",
+     "media": "lib_man_reacting_to_laptop_screen",
+     "full": true
+    },
+    {
+     "type": "title_slam",
+     "at": "That old",
+     "text": "STILL CONNECTED",
+     "color": "red"
+    },
+    {
+     "type": "pill",
+     "at": "to Gmail",
+     "text": "OLD TOOL → YOUR GMAIL",
+     "color": "red",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "And stay",
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "And stay",
+     "kind": "padlock",
+     "size": "l",
+     "caption": "STAY FOR THE CATCH",
+     "caption_at": "one thing"
+    },
+    {
+     "type": "pill",
+     "at": "does not",
+     "text": "ONE THING IT WON'T DO",
+     "color": "gold",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "Founders connect",
+   "tint": "red",
+   "react": [
+    {
+     "at": "forget them.",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "Founders connect",
+     "text": "CONNECTED TO GMAIL"
+    },
+    {
+     "type": "illustration",
+     "at": "Founders connect",
+     "name": "puzzle_piece",
+     "size": "l",
+     "caption": "TOOL AFTER TOOL",
+     "act": "pulse",
+     "act_at": "tool after"
+    },
+    {
+     "type": "pill",
+     "at": "forget them.",
+     "text": "FORGOTTEN",
+     "color": "red",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "Some may",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "Some may",
+     "kind": "envelope",
+     "act": "open",
+     "act_at": "read,",
+     "caption": "YOUR INBOX"
+    },
+    {
+     "type": "stat_row",
+     "cards": [
+      {
+       "label": "CAN IT",
+       "value": "READ",
+       "color": "red",
+       "at": "read,"
+      },
+      {
+       "label": "CAN IT",
+       "value": "SEND",
+       "color": "red",
+       "at": "send or"
+      },
+      {
+       "label": "CAN IT",
+       "value": "MANAGE",
+       "color": "red",
+       "at": "manage your"
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "at": "access stays",
+     "text": "STAYS TILL REMOVED",
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "at": "Open myaccount.google.com/connections.",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Open myaccount.google.com/connections.",
+     "media": "real_2_phone",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "Open myaccount.google.com/connections.",
+     "text": "VIEW YOUR LINKED APPS",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "Look under",
+   "react": [
+    {
+     "at": "Look under",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Look under",
+     "device": "web",
+     "url": "myaccount.google.com/connections",
+     "app": "Google Account",
+     "step": "Step 1 · Remove access",
+     "steps": [
+      {
+       "at": "Look under",
+       "view": {
+        "kind": "page",
+        "site": "Google Account",
+        "nav": [
+         "Sign in with Google",
+         "Access to your Google Account",
+         "Linked account"
+        ],
+        "heading": "Your connections to third-party apps & services",
+        "cards": [
+         {
+          "title": "Old AI Notetaker",
+          "text": "Access to Gmail"
+         },
+         {
+          "title": "Calendar Scheduler",
+          "text": "Access to Google Calendar"
+         },
+         {
+          "title": "PDF Converter",
+          "text": "Access to Google Drive"
+         }
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "Access to your Google Account",
+        "at": "your Google"
+       }
+      },
+      {
+       "at": "Click an",
+       "view": {
+        "kind": "page",
+        "site": "Google Account",
+        "nav": [
+         "Sign in with Google",
+         "Access to your Google Account",
+         "Linked account"
+        ],
+        "heading": "Access to your Google Account",
+        "cards": [
+         {
+          "title": "Old AI Notetaker",
+          "text": "Access to Gmail"
+         },
+         {
+          "title": "Calendar Scheduler",
+          "text": "Access to Google Calendar"
+         },
+         {
+          "title": "PDF Converter",
+          "text": "Access to Google Drive"
+         }
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "Old AI Notetaker",
+        "at": "Click an"
+       }
+      },
+      {
+       "at": "app, then",
+       "view": {
+        "kind": "page",
+        "site": "Google Account",
+        "heading": "Old AI Notetaker",
+        "sub": "Has some access to your Google Account",
+        "buttons": [
+         "See details"
+        ],
+        "cards": [
+         {
+          "title": "Gmail",
+          "text": "Read, compose and send email"
+         }
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "See details",
+        "at": "See details"
+       }
+      },
+      {
+       "at": "Don't use",
+       "view": {
+        "kind": "page",
+        "site": "Google Account",
+        "heading": "Old AI Notetaker",
+        "sub": "Read, compose, send and manage your email",
+        "buttons": [
+         "Remove access"
+        ],
+        "cards": [
+         {
+          "title": "Gmail",
+          "text": "Read, compose and send email",
+          "status": "Has access"
+         }
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "Remove access",
+        "at": "Hit"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Signed in",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Signed in",
+     "device": "web",
+     "url": "myaccount.google.com/connections",
+     "app": "Google Account",
+     "step": "Step 2 · Sign in with Google",
+     "steps": [
+      {
+       "at": "Signed in",
+       "view": {
+        "kind": "page",
+        "site": "Google Account",
+        "nav": [
+         "Sign in with Google",
+         "Access to your Google Account",
+         "Linked account"
+        ],
+        "heading": "Design Tool",
+        "sub": "You use Sign in with Google",
+        "buttons": [
+         "Stop using Sign in with Google"
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "Stop using Sign in with Google",
+        "at": "Stop using"
+       }
+      },
+      {
+       "at": "then Confirm.",
+       "view": {
+        "kind": "page",
+        "site": "Google Account",
+        "heading": "Stop using Sign in with Google?",
+        "sub": "Design Tool will lose this connection",
+        "buttons": [
+         "Cancel",
+         "Confirm"
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "Confirm",
+        "at": "then Confirm."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Catch: removing",
+   "tint": "red",
+   "react": [
+    {
+     "at": "locked out",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "Catch: removing",
+     "text": "THE CATCH"
+    },
+    {
+     "type": "illustration",
+     "at": "Catch: removing",
+     "name": "broken_chain",
+     "size": "m",
+     "act": "shake",
+     "act_at": "break it,"
+    },
+    {
+     "type": "stat_row",
+     "cards": [
+      {
+       "label": "STILL USE IT",
+       "value": "BREAKS",
+       "color": "red",
+       "at": "can break"
+      },
+      {
+       "label": "GOOGLE-ONLY LOGIN",
+       "value": "LOCKED",
+       "color": "red",
+       "at": "locked out"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Then run",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Then run",
+     "media": "real_3_phone",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "Google's 3",
+     "text": "3 QUICK STEPS",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "devices, old",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "devices, old",
+     "device": "web",
+     "url": "myaccount.google.com/security-checkup",
+     "app": "Security Checkup",
+     "step": "Step 3 · Security Checkup",
+     "steps": [
+      {
+       "at": "devices, old",
+       "view": {
+        "kind": "checklist",
+        "window": "Security Checkup",
+        "title": "Security Checkup",
+        "items": [
+         {
+          "label": "Your devices",
+          "sub": "Review signed-in devices",
+          "checked": false
+         },
+         {
+          "label": "Third-party access",
+          "sub": "Remove access you don't need",
+          "checked": false
+         },
+         {
+          "label": "Sign-in & recovery",
+          "sub": "Check recovery phone & email",
+          "checked": false
+         }
+        ]
+       },
+       "action": {
+        "kind": "toggle",
+        "target": "Your devices",
+        "at": "devices, old"
+       }
+      },
+      {
+       "at": "app access,",
+       "view": {
+        "kind": "checklist",
+        "window": "Security Checkup",
+        "title": "Security Checkup",
+        "items": [
+         {
+          "label": "Your devices",
+          "sub": "Review signed-in devices",
+          "checked": true
+         },
+         {
+          "label": "Third-party access",
+          "sub": "Remove access you don't need",
+          "checked": false
+         },
+         {
+          "label": "Sign-in & recovery",
+          "sub": "Check recovery phone & email",
+          "checked": false
+         }
+        ]
+       },
+       "action": {
+        "kind": "toggle",
+        "target": "Third-party access",
+        "at": "app access,"
+       }
+      },
+      {
+       "at": "recovery info.",
+       "view": {
+        "kind": "checklist",
+        "window": "Security Checkup",
+        "title": "Security Checkup",
+        "items": [
+         {
+          "label": "Your devices",
+          "sub": "Review signed-in devices",
+          "checked": true
+         },
+         {
+          "label": "Third-party access",
+          "sub": "Remove access you don't need",
+          "checked": true
+         },
+         {
+          "label": "Sign-in & recovery",
+          "sub": "Check recovery phone & email",
+          "checked": false
+         }
+        ]
+       },
+       "action": {
+        "kind": "toggle",
+        "target": "Sign-in & recovery",
+        "at": "recovery info."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Here's what",
+   "tint": "red",
+   "react": [
+    {
+     "at": "may keep",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "Here's what",
+     "kind": "padlock",
+     "act": "open",
+     "act_at": "doesn't do.",
+     "caption": "THE CATCH"
+    },
+    {
+     "type": "stat_row",
+     "cards": [
+      {
+       "label": "FUTURE ACCESS",
+       "value": "STOPPED",
+       "color": "green",
+       "at": "future access,"
+      },
+      {
+       "label": "DATA ALREADY GIVEN",
+       "value": "KEPT?",
+       "color": "red",
+       "glow": true,
+       "at": "may keep"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "How many",
+   "elements": [
+    {
+     "type": "headline",
+     "at": "How many",
+     "text": "HOW MANY DID YOU FIND?",
+     "size": "l",
+     "ill": "detective",
+     "sub": "COMMENT BELOW",
+     "sub_at": "Tell me"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "Send this",
+  "line1": "Send this to",
+  "line1_at": "Send this",
+  "line2": "the Sign in with Google fan",
+  "line2_at": "on everything."
+ },
+ "endcard": {
+  "title": "Hack saved?",
+  "terminal": "> old.apps.revoked · inbox locked"
+ },
+ "media": [
+  {
+   "id": "real_1_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-11_1301/real_1_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-11_1301/real_1_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: support.google.com",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the page (no highlight) — Phone capture of support.google.com Google Account Help. Headline: 'Manage links between your Google Account & apps from other developers'. Blue 'Sign in' button at top. Tabs: Help Center, Community, Improve your Google Account. Body: 'When you choose to share data between your Google Account and ap [Screen: support.google.com]"
+  },
+  {
+   "id": "real_1_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-11_1301/real_1_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-11_1301/real_1_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: support.google.com",
+   "desc": "REAL desktop screen recording, pushes in on the page (no highlight) — Desktop-width capture of the same Google Account Help page, 'Manage links between your Google Account & apps from other developers'. Blue 'Sign in' button, 'Google Account' link at top right. Blue 'View your linked apps' button, Tip about Google Password Manager, embedded YouTube video 'Third-party  [Screen: support.google.com]"
+  },
+  {
+   "id": "real_2_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-11_1301/real_2_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-11_1301/real_2_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: support.google.com",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the gold-outlined part — Phone capture of Google Account Help article 'Share some access to your Google Account data with apps from other developers'. A tap highlight (yellow circle) sits on the blue 'View your linked apps' button, and the page is dimmed. Also visible: blue 'Report an app' button, links 'Learn more about wh [Screen: support.google.com]"
+  },
+  {
+   "id": "real_2_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-11_1301/real_2_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-11_1301/real_2_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: support.google.com",
+   "desc": "REAL desktop screen recording, pushes in on the gold-outlined part — Desktop-width capture of the same article 'Share some access to your Google Account data with apps from other developers'. The page is dimmed with a tap highlight on the blue 'View your linked apps' button. Also visible: blue 'Report an app' button, text on how to review or remove linked apps, link  [Screen: support.google.com]"
+  },
+  {
+   "id": "real_3_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-11_1301/real_3_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-11_1301/real_3_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: blog.google",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the page (no highlight) — Phone capture of blog.google (News from Google) post 'See who has access to your Gmail inbox in 2 minutes.' dated Oct 30, 2026. Breadcrumb: Home > Innovation & AI > Technology > Safety & Security. Text: 'Run a quick Google Security Checkup and protect your email with three quick and easy steps:' 1.  [Screen: blog.google]"
+  },
+  {
+   "id": "real_3_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-11_1301/real_3_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-11_1301/real_3_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: blog.google",
+   "desc": "REAL desktop screen recording, pushes in on the page (no highlight) — Desktop-width capture of blog.google post 'See who has access to your Gmail inbox in 2 minutes.' dated Oct 30, 2026. Nav: Innovation & AI, Products & platforms, Company news, Feed; blue 'Newsletter' button. Breadcrumb Home > Innovation & AI > Technology > Safety & Security. Body: 'Run a quick Google [Screen: blog.google]"
+  },
+  {
+   "id": "real_4_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-11_1301/real_4_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-11_1301/real_4_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: support.google.com",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the page (no highlight) — Phone capture of Google Account Help article 'Learn how Cross-Account Protection can help keep your account safe'. Intro on sharing suspicious activity with apps linked to the Google Account. Section 'How Cross-Account Protection works' > 'What apps get security messages from Google': an app must pa [Screen: support.google.com]"
+  },
+  {
+   "id": "real_4_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-11_1301/real_4_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-11_1301/real_4_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: support.google.com",
+   "desc": "REAL desktop screen recording, pushes in on the page (no highlight) — Desktop-width capture of Google Account Help article 'Learn how Cross-Account Protection can help keep your account safe'. Search box 'Describe your issue', blue 'Sign in' button, breadcrumb 'Simplify your life with Google'. Content: 'How Cross-Account Protection works' > 'What apps get security mes [Screen: support.google.com]"
+  },
+  {
+   "id": "lib_camera_moving_down_server_corridor",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "credit": "",
+   "file": "camera_moving_down_server_corridor.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow forward push down a hazy, fog-filled data center aisle lined with server racks that glow with blue and amber status lights, giving a moody, futuristic feel. Good for: A script line about the infrastructure behind AI, such as cloud computing, model training, heavy compute, data storage, or 'what happens behind the scenes'."
+  },
+  {
+   "id": "lib_clock_ticking_and_person_typing",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "credit": "",
+   "file": "clock_ticking_and_person_typing.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A rack-focus shot moves from a close-up of a black twin-bell alarm clock with ticking hands to a bearded man in a light polo typing on a laptop in a dim room, giving a tense, time-pressured mood. Good for: lines about deadlines, time slipping away, long hours of manual work, or the pressure of slow, tedious tasks before an AI tool speeds things up"
+  },
+  {
+   "id": "lib_content_creator_sets_up_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "credit": "",
+   "file": "content_creator_sets_up_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt stands behind a ring light with a phone on a tripod, adjusting the setup while the camera slowly pushes in until his face fills the frame, with a calm, focused mood and moody blue ambient lighting in the background. Good for: setting up to create content, getting started as a creator, or preparing equipment before recording a tutorial"
+  },
+  {
+   "id": "lib_eye_reflecting_laptop_screen_glow",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "credit": "",
+   "file": "eye_reflecting_laptop_screen_glow.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow zoom into an extreme close-up of a brown eye with a bright blue screen reflected in the pupil, framed by a thick eyebrow and warm skin tones, fading into a cool blue gradient at the bottom, with a focused, intense and cinematic mood. Good for: lines about being glued to a screen, intense focus or attention, watching AI work, or 'seeing' a new opportunity or insight"
+  },
+  {
+   "id": "lib_fingers_typing_on_laptop_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "credit": "",
+   "file": "fingers_typing_on_laptop_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): Close-up over-the-shoulder shot of a person typing on a backlit laptop keyboard, with a blurred blue screen in the background and a warm, focused, productive mood. Good for: lines about getting started, writing prompts or code, doing focused work at the computer, or the hands-on steps of a tutorial"
+  },
+  {
+   "id": "lib_hand_dropping_papers_on_desk",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "credit": "",
+   "file": "hand_dropping_papers_on_desk.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a green shirt carries and then drops a thick stack of papers onto an already huge, messy pile of documents with sticky notes on a cluttered desk, while a laptop glows nearby, and the camera pushes in to a close-up of the towering stack, creating a mood of overwhelm and tedious paperwork. Good for: a script line about drowning in manual paperwork or document processing, setting up how AI can automate summarizing, sorting, or extracting information from piles of documents"
+  },
+  {
+   "id": "lib_hands_holding_credit_card_near",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hands_holding_credit_card_near.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hands_holding_credit_card_near.mp4",
+   "credit": "",
+   "file": "hands_holding_credit_card_near.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): hands holding credit card near Good for: "
+  },
+  {
+   "id": "lib_man_opens_laptop_in_room",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "credit": "",
+   "file": "man_opens_laptop_in_room.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt sits at a laptop in a dimly lit, warmly lit room, and his focused, tense expression builds as he leans toward the screen, which shows blurry blue diagram or flowchart-style blocks, with his fists clenched near his chin in the middle frame. Good for: intense concentration or deep work, such as debugging, building an AI workflow, or struggling with a complex problem"
+  },
+  {
+   "id": "lib_man_pointing_at_camera",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_pointing_at_camera.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_pointing_at_camera.mp4",
+   "credit": "",
+   "file": "man_pointing_at_camera.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a dark henley sits in a car seat working on a laptop with a focused look, then looks up with a warm smile and points playfully at the camera in a confident, friendly mood. Good for: a line that moves from focused work or problem-solving to a direct call to action, such as 'here's the trick you need to try' or 'now it's your turn'"
+  },
+  {
+   "id": "lib_man_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "man_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt stares intently at a laptop screen with blurry blue UI elements floating in front of the camera, then grimaces in frustration and mouths a reaction, and finally tilts his head back in exhausted resignation in a dim, warmly lit room. Good for: frustration with slow, tedious, or failing work, such as waiting on a slow tool, hitting an error, or being exhausted by manual tasks before introducing an AI solution"
+  },
+  {
+   "id": "lib_man_smiling_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "credit": "",
+   "file": "man_smiling_at_phone.mp4",
+   "frames": 135,
+   "desc": "B-roll (4.5s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a blue smartphone, his expression shifting from neutral to a furrowed-brow frown of confusion and frustration. Good for: a line about frustration with confusing apps or slow tools, or the moment someone hits a problem and doesn't know what to do next"
+  },
+  {
+   "id": "lib_man_studying_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "credit": "",
+   "file": "man_studying_with_laptop.mp4",
+   "frames": 132,
+   "desc": "B-roll (4.4s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits at a desk behind a laptop with a furrowed brow and a frustrated, concentrated look, first staring at the screen, then looking down at an open notebook and writing with a pen, with a warm blurred lamp glowing in the background. Good for: a script line about struggling to understand something complex, frustration with slow or manual work, or the pain of learning a new tool the hard way"
+  },
+  {
+   "id": "lib_man_watching_laptop_waiting",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "credit": "",
+   "file": "man_watching_laptop_waiting.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits at a laptop in a dimly lit room with warm lamp light, resting his chin on his fist with a focused, pensive look, and the camera pushes in closer across the three frames. Good for: a script line about deep thinking, researching or problem-solving, or weighing a decision before trying an AI tool"
+  },
+  {
+   "id": "lib_person_drinking_coffee_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "credit": "",
+   "file": "person_drinking_coffee_with_laptop.mp4",
+   "frames": 93,
+   "desc": "B-roll (3.1s, VERTICAL 9:16 — best as full: true): A bearded man in a green polo sits at a laptop in a modern industrial-style open office, lifting a white cup to his mouth and sipping a hot drink while looking down at the screen, in a calm, focused mood. Good for: a line about taking a breather while the AI does the work, a morning work routine, waiting for a process to finish, or the calm of an automated workflow"
+  },
+  {
+   "id": "lib_person_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "person_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a laptop, his expression moving from concern to a deep frown with glowing blue tear-like effects on his cheeks, then to eyes shut in stress or exhaustion; the mood is frustrated and overwhelmed. Good for: A script line about frustration or overwhelm with a tough task, such as struggling with confusing tools, wasting hours on manual work, or being stuck before finding an AI solution."
+  },
+  {
+   "id": "lib_person_taking_selfie_with_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "credit": "",
+   "file": "person_taking_selfie_with_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt sits in a car holding a blue smartphone up close to his face, and across the clip he leans toward the screen with a furrowed brow, looking skeptical and intensely focused. Good for: a script line about doubting or double-checking AI output, being confused or frustrated by an app or tool, or looking closely at a result on your phone, e.g. 'wait, is this actually right?'"
+  },
+  {
+   "id": "lib_professional_working_on_laptop_late",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "credit": "",
+   "file": "professional_working_on_laptop_late.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A tired bearded young man in a maroon t-shirt sits at a laptop in a dim apartment at night, resting his head on his hand, rubbing his eyes, then glumly lifting a white coffee mug, with blurred city lights glowing behind him through the window. Good for: A script line about burnout, late-night grinding, or frustration with slow manual work that AI tools can speed up, e.g. 'still stuck doing this by hand at midnight?'"
+  },
+  {
+   "id": "lib_robotic_hand_typing_on_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "credit": "",
+   "file": "robotic_hand_typing_on_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a black robotic hand with segmented, mechanical fingers lowering onto a backlit laptop keyboard and starting to type, shot at shallow depth of field in a warm, softly lit, modern workspace. Good for: A script line about AI doing the work for you, automating repetitive tasks, or AI taking over typing and writing, such as 'let AI handle the busywork' or 'AI writes it for you'."
+  }
+ ],
+ "style": "hisaab",
+ "topic": "Check which third-party apps and AI tools have access to your Google account or Gmail, and remove the ones you don't use. Open your Google Account's 'Third-party apps & services' page, review each one's access level, revoke the old ones, and run a Security Checkup. Founders connect a lot of tools to Gmail and forget about them.",
+ "pick": {
+  "index": 36,
+  "topic": "Check which third-party apps and AI tools have access to your Google account or Gmail, and remove the ones you don't use. Open your Google Account's 'Third-party apps & services' page, review each one's access level, revoke the old ones, and run a Security Checkup. Founders connect a lot of tools to Gmail and forget about them.",
+  "tool": "Google Account > Security > Third-party apps & services",
+  "format": "warning",
+  "angle": "Every tool you ever clicked 'Sign in with Google' on may still be able to read your business inbox. Check it in 60 seconds.",
+  "why": "43k views with 1,337 comments is about 3% comments-to-views, a very strong demand signal. It's a checkable, true claim with a real Google page to show on screen. The Gmail storage reel is covered, but this is a different angle. It also fits the recent 'connect ChatGPT to Gmail' content as a security follow-up."
+ },
+ "inspired_by": {
+  "url": "https://www.instagram.com/p/De_-CQfJr6r/",
+  "owner": "krish.exploits",
+  "plays": 43755,
+  "likes": 666,
+  "comments": 1337
+ },
+ "research": {
+  "verdict": "adjust",
+  "tool": "Google Account > Security > \"Your connections to third-party apps & services\" (the \"Third-party apps & services\" / connections page), plus Google Security Checkup",
+  "availability": "Free for every Google Account. It works on web (myaccount.google.com) and in the Google app on iOS and Android. It is not region-limited or beta. Workspace admins can also control third-party app access for their domain.",
+  "steps": [
+   "Open myaccount.google.com and sign in to the Google account your business uses. Or open Gmail, click your profile picture at the top right, and choose \"Manage your Google Account\".",
+   "Click the \"Security\" tab. On phone: Android Settings > Google > Manage your Google Account, or iPhone Google app > profile icon > Manage your Google Account, then Security.",
+   "Scroll down to \"Your connections to third-party apps & services\" and click \"See all connections\". Shortcut: myaccount.google.com/connections. Older links such as /permissions and /linkedapps also redirect to it.",
+   "The list is grouped by connection type: \"Sign in with Google\", \"Linked account\" and \"Access to your Google Account\". The last one is the group that can include Gmail, Drive, Calendar or Contacts access.",
+   "Click an app, then \"See details\" to see what it can access.",
+   "Remove it with the button that matches the connection type. Sign in with Google: \"Stop using Sign in with Google\", then \"Confirm\". Access to your Google Account: \"Remove access\". Linked account: \"Delete link\" (some screens say \"Delete all connections you have with [app]\").",
+   "Run the Security Checkup at myaccount.google.com/security-checkup, or search \"Security Checkup\" while signed in. Google's three-step flow is: review signed-in devices, remove old third-party app access, confirm recovery information."
+  ],
+  "facts": [
+   "Google's own post, \"See who has access to your Gmail inbox in 2 minutes\", recommends three steps: review signed-in devices, remove old third-party app access, and confirm recovery information. It was published about 11 days before today; coverage dates it to October 30.",
+   "Google published the blog post on October 30 urging Gmail users to run Security Checkup.",
+   "<cite index=\"2-11,2-12\">Linked apps can only access the data and services you authorize. Access levels range from basic account information to viewing or modifying account data.</cite>",
+   "<cite index=\"39-2,39-4\">Google's help page says Sign in with Google is for signing in to apps from other developers. To remove the link, select \"Stop using Sign in with Google\" and then \"Confirm\".</cite>",
+   "<cite index=\"38-7\">If you remove account access, the third-party app may keep info you gave it when you signed in or when you granted extra access.</cite>",
+   "<cite index=\"23-6,23-7,23-8\">The connections page has three types: Sign in with Google (apps you signed into), Access to (apps with access to Google services like Drive and Gmail), and Linked account.</cite>",
+   "<cite index=\"42-6,42-7,42-8\">Removal options by type: \"Stop using Sign in with Google\" (after See details), \"Remove access\" (data access), \"Delete link\" (linked account).</cite>",
+   "<cite index=\"42-10,42-11\">Removing Sign in with Google doesn't delete your account on the third-party service. It only removes Google as the login method.</cite>",
+   "<cite index=\"19-10\">You can skip several clicks by going directly to myaccount.google.com/connections.</cite>",
+   "<cite index=\"39-6,39-8\">Google's linked-apps help page now also covers AI agents. For example, Gemini can use Sign in with Google to sign into a travel app. Agent permissions appear under \"Agents that interact with [app name]\" and can be stopped with \"Stop using [app name]\".</cite>",
+   "<cite index=\"36-6\">Reporting on the same Google push says Gmail delegation gives another person direct access to an inbox. It doesn't expire when you change your password and isn't affected by two-factor authentication.</cite> Delegation is a separate setting inside Gmail, not part of the third-party apps page."
+  ],
+  "do_not_claim": [
+   "Do NOT say every tool you clicked \"Sign in with Google\" on can read your inbox. Plain Sign in with Google normally shares basic profile info only. An app can read Gmail only if it was granted a Gmail permission, and it then appears under \"Access to your Google Account\". Safe wording: \"some of them may be able to read, send or manage your email, so check which ones.\"",
+   "Don't say access lasts \"forever\" or \"indefinitely\" as a fact. A Facebook-hosted post makes that claim, but it is not a Google source. Say instead that the access stays until you remove it.",
+   "Don't promise that revoking deletes your data from the app. Google says the app may keep info you already gave it.",
+   "Don't say \"Manage third-party access\" is the button label. Only some blogs use it (mobileos.it, an unverified blog). Most sources and Google's help use \"See all connections\". Check the live page before quoting any label.",
+   "Don't say the page lists every app. A mobileos.it article says the \"Third-party apps & services\" page shows only apps that requested specific data permissions, and that you should look for sign-in-only apps separately. Other guides show a Sign in with Google tab on the same page, so this is conflicting. Check the live page.",
+   "Don't rely on the caption's \"more than you think\" as a statistic. There is no transcript or data behind it. Don't invent a count of connected apps. One 2021 arXiv study found 1,010 services using Google SSO and 455 apps using Google APIs across its participants, which is a research sample and not typical.",
+   "Don't claim the Security Checkup shows a risk score or malware scan. It is a review of devices, apps and recovery info, and it doesn't detect phishing or deepfake scams (Startup Fortune).",
+   "Avoid the smartpartyprep.com claim that the Security Checkup flow is deprecated. Google is actively promoting it as of October 2026."
+  ],
+  "criticism": [
+   "Removing access stops future access only. It doesn't delete data the app already copied (Google's help page, scanmyshadow.com).",
+   "If you remove Sign in with Google from a tool you still use and it has no password set, you can get locked out of that tool (Neowin). Set another login method first.",
+   "Revoking can break integrations such as CRMs, schedulers and email tools that your business relies on, so check what each app does first. This is general advice and not stated by Google.",
+   "The Security Checkup doesn't catch AI phishing or deepfake scams, which is the criticism Startup Fortune raised about Google's Oct 30 push.",
+   "Some apps will ask for access again the next time you click \"Sign in with Google\" (a claim from smartpartyprep.com, a low-quality source). Use it as a tip only, not as a fact."
+  ],
+  "ui": {
+   "platforms": "Web (myaccount.google.com), iOS (Google app) and Android (Settings > Google). The page is responsive, so the desktop and mobile web layouts match.",
+   "apps": [
+    "Google Account (myaccount.google.com)",
+    "Gmail web (only as an alternative entry point via profile picture > Manage your Google Account)",
+    "Google Security Checkup (myaccount.google.com/security-checkup)"
+   ],
+   "screens": [
+    "Gmail or Google Account home: your profile picture (initial or photo) is at the top right. Click it, then the button \"Manage your Google Account\".",
+    "Google Account home: a left sidebar lists Home, Personal info, Data & privacy, Security, People & sharing, Payments & subscriptions. Click \"Security\". (Names and order may vary slightly, so check the live page.)",
+    "Security page: cards run down the page, including \"Recent security activity\", \"How you sign in to Google\", \"Your devices\" and \"Your connections to third-party apps & services\". The last card shows the first few connected apps with their logos and a \"See all connections\" link at the bottom. On phone, scroll to the same card.",
+    "Connections page: filter chips or tabs read \"Sign in with Google\", \"Access to your Google Account\" and \"Linked account\". Each row shows the app name and logo, and the Gmail, Drive or Contacts permission. Tap a row to open it. Default theme follows the device (light by default; a Neowin screenshot shows dark mode).",
+    "App detail page: sections show what the app can access and the connection type. There is a \"See details\" button, and then one of the buttons \"Stop using Sign in with Google\", \"Remove access\", \"Delete link\" or \"Delete all connections you have with [app]\".",
+    "Confirmation dialog: a \"Confirm\" button (or OK on older flows) finishes the removal. The app then disappears from the list.",
+    "Security Checkup page: a list of items such as Your devices, Recent security activity, Sign-in & recovery, Third-party access and Your saved passwords. Each row can be expanded with a down arrow, and Third-party access has an \"i\" info icon and \"Remove access\". A green shield shows when everything is fine."
+   ]
+  },
+  "visuals": "Only a real screen recording of the signed-in Google Account page can show the user's actual connected-app list, and it will contain personal data to blur. For generic visuals, use the public help article (it has product screenshots) and the Google blog post. Show the Security tab, the \"Your connections to third-party apps & services\" card, the Sign in with Google / Access to your Google Account groups, and the \"Remove access\" or \"Stop using Sign in with Google\" button. The end result is the app disappearing from the list.",
+  "real_pages": [
+   {
+    "url": "https://support.google.com/accounts/answer/13533235?hl=en",
+    "show": "Stop using Sign in with Google",
+    "kind": "help"
+   },
+   {
+    "url": "https://support.google.com/accounts/answer/14012355?hl=en",
+    "show": "View your linked apps",
+    "kind": "help"
+   },
+   {
+    "url": "https://blog.google/innovation-and-ai/technology/safety-security/google-security-checkup/",
+    "show": "Remove old third-party app access",
+    "kind": "site"
+   },
+   {
+    "url": "https://support.google.com/accounts/answer/112802?hl=en",
+    "show": "Stop using Sign in with Google",
+    "kind": "help"
+   }
+  ],
+  "sources": [
+   "https://blog.google/innovation-and-ai/technology/safety-security/google-security-checkup/",
+   "https://support.google.com/accounts/answer/13533235?hl=en",
+   "https://support.google.com/accounts/answer/14012355?hl=en",
+   "https://support.google.com/accounts/answer/112802?hl=en",
+   "https://support.google.com/accounts/answer/12849458?hl=en-uk",
+   "https://www.neowin.net/guides/how-to-find-and-remove-apps-connected-to-your-google-account/",
+   "https://www.online-tech-tips.com/check-google-facebook-connected-apps/",
+   "https://techpp.com/2023/08/13/remove-third-party-access-to-your-google-account-guide/",
+   "https://gcn.com/security-checkup-google-urges-gmail-users/22914/",
+   "https://startupfortune.com/google-tells-gmail-users-two-minutes-of-clicking-is-their-job-now/",
+   "https://wisevoter.com/world/us/2026/11/01/google-urges-gmail-users-security-checkup",
+   "https://aiemaily.com/blog/revoke-app-access-to-google-account",
+   "https://mobileos.it/2026/08/how-to-check-which-apps-have-access-to-your-google-account/"
+  ],
+  "notes": "Verdict is \"adjust\" because the trick works and Google is promoting it right now, but the angle overclaims. Rewrite it as \"Some tools you connected may still be able to read or send your email\" and not \"every Sign in with Google tool can read your inbox\". Timeliness hook: Google's official post \"See who has access to your Gmail inbox in 2 minutes\" ran on October 30, 2026. Naming: Google's UI says \"Your connections to third-party apps & services\" on the Security page, and its help articles say \"third-party connections\" and \"linked apps\". The Yahoo/How-To Geek path (Data & privacy > Third-party apps & services) is also reported, so both entry paths probably exist. The 60-second claim is roughly right; Google says 2 minutes for the full three-step checkup, so say \"a minute or two\". The popular reel has no transcript, so there are no transcript claims to check. Its caption (\"more than you think\") is vague and unverifiable. I couldn't open myaccount.google.com or the Google help pages directly, so exact on-screen labels come from Google's help snippets and third-party walkthroughs. Do a quick live check of label wording and position before recording.",
+  "_searched": 5
+ },
+ "models": {
+  "pick": "claude-sonnet-5-5",
+  "research": "claude-sonnet-5-5",
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 24,
+ "_ident": {
+  "at": 4.62,
+  "dur": 1.5,
+  "title": "AI HACKS",
+  "type": 0.42,
+  "sub": "EP 24 · GMAIL SECURITY"
+ },
+ "timeline": {
+  "words": [
+   [
+    "That",
+    0.16
+   ],
+   [
+    "old",
+    0.48
+   ],
+   [
+    "tool",
+    0.72
+   ],
+   [
+    "you",
+    0.96
+   ],
+   [
+    "connected",
+    1.24
+   ],
+   [
+    "to",
+    1.52
+   ],
+   [
+    "Gmail",
+    1.68
+   ],
+   [
+    "might",
+    2.32
+   ],
+   [
+    "still",
+    2.72
+   ],
+   [
+    "have",
+    2.96
+   ],
+   [
+    "access",
+    3.28
+   ],
+   [
+    "to",
+    3.48
+   ],
+   [
+    "your",
+    3.6
+   ],
+   [
+    "inbox.",
+    3.96
+   ],
+   [
+    "And",
+    6.14
+   ],
+   [
+    "stay",
+    6.3
+   ],
+   [
+    "till",
+    6.5
+   ],
+   [
+    "the",
+    6.7
+   ],
+   [
+    "end,",
+    6.86
+   ],
+   [
+    "because",
+    7.38
+   ],
+   [
+    "there's",
+    7.58
+   ],
+   [
+    "one",
+    7.98
+   ],
+   [
+    "thing",
+    8.22
+   ],
+   [
+    "removing",
+    8.46
+   ],
+   [
+    "access",
+    8.94
+   ],
+   [
+    "does",
+    9.5
+   ],
+   [
+    "not",
+    9.82
+   ],
+   [
+    "do.",
+    10.06
+   ],
+   [
+    "Founders",
+    10.74
+   ],
+   [
+    "connect",
+    11.1
+   ],
+   [
+    "tool",
+    11.5
+   ],
+   [
+    "after",
+    11.86
+   ],
+   [
+    "tool,",
+    12.14
+   ],
+   [
+    "then",
+    12.74
+   ],
+   [
+    "forget",
+    13.02
+   ],
+   [
+    "them.",
+    13.3
+   ],
+   [
+    "Some",
+    13.86
+   ],
+   [
+    "may",
+    14.06
+   ],
+   [
+    "be",
+    14.18
+   ],
+   [
+    "able",
+    14.3
+   ],
+   [
+    "to",
+    14.54
+   ],
+   [
+    "read,",
+    14.7
+   ],
+   [
+    "send",
+    15.26
+   ],
+   [
+    "or",
+    15.66
+   ],
+   [
+    "manage",
+    16.06
+   ],
+   [
+    "your",
+    16.3
+   ],
+   [
+    "email,",
+    16.46
+   ],
+   [
+    "and",
+    17.1
+   ],
+   [
+    "that",
+    17.26
+   ],
+   [
+    "access",
+    17.42
+   ],
+   [
+    "stays",
+    17.9
+   ],
+   [
+    "until",
+    18.54
+   ],
+   [
+    "you",
+    18.74
+   ],
+   [
+    "remove",
+    18.86
+   ],
+   [
+    "it.",
+    19.26
+   ],
+   [
+    "Open",
+    19.82
+   ],
+   [
+    "myaccount.google.com/connections.",
+    20.26
+   ],
+   [
+    "Look",
+    23.34
+   ],
+   [
+    "under",
+    23.5
+   ],
+   [
+    "Access",
+    23.9
+   ],
+   [
+    "to",
+    24.46
+   ],
+   [
+    "your",
+    24.54
+   ],
+   [
+    "Google",
+    24.7
+   ],
+   [
+    "Account.",
+    25.02
+   ],
+   [
+    "Click",
+    25.74
+   ],
+   [
+    "an",
+    25.9
+   ],
+   [
+    "app,",
+    26.1
+   ],
+   [
+    "then",
+    26.54
+   ],
+   [
+    "See",
+    26.94
+   ],
+   [
+    "details.",
+    27.18
+   ],
+   [
+    "Don't",
+    28.1
+   ],
+   [
+    "use",
+    28.3
+   ],
+   [
+    "it?",
+    28.54
+   ],
+   [
+    "Hit",
+    29.02
+   ],
+   [
+    "Remove",
+    29.34
+   ],
+   [
+    "access.",
+    29.82
+   ],
+   [
+    "Signed",
+    30.74
+   ],
+   [
+    "in",
+    30.94
+   ],
+   [
+    "with",
+    31.1
+   ],
+   [
+    "Google?",
+    31.34
+   ],
+   [
+    "Stop",
+    31.82
+   ],
+   [
+    "using",
+    32.22
+   ],
+   [
+    "Sign",
+    32.62
+   ],
+   [
+    "in",
+    32.86
+   ],
+   [
+    "with",
+    33.02
+   ],
+   [
+    "Google,",
+    33.18
+   ],
+   [
+    "then",
+    33.82
+   ],
+   [
+    "Confirm.",
+    33.98
+   ],
+   [
+    "Catch:",
+    35.113
+   ],
+   [
+    "removing",
+    35.58
+   ],
+   [
+    "a",
+    35.98
+   ],
+   [
+    "tool",
+    36.06
+   ],
+   [
+    "you",
+    36.42
+   ],
+   [
+    "still",
+    36.62
+   ],
+   [
+    "use",
+    36.94
+   ],
+   [
+    "can",
+    37.26
+   ],
+   [
+    "break",
+    37.62
+   ],
+   [
+    "it,",
+    37.82
+   ],
+   [
+    "and",
+    38.247
+   ],
+   [
+    "you",
+    38.38
+   ],
+   [
+    "could",
+    38.54
+   ],
+   [
+    "get",
+    38.7
+   ],
+   [
+    "locked",
+    38.98
+   ],
+   [
+    "out",
+    39.18
+   ],
+   [
+    "if",
+    39.5
+   ],
+   [
+    "Google's",
+    39.78
+   ],
+   [
+    "its",
+    40.06
+   ],
+   [
+    "only",
+    40.38
+   ],
+   [
+    "login.",
+    40.7
+   ],
+   [
+    "Then",
+    41.42
+   ],
+   [
+    "run",
+    41.66
+   ],
+   [
+    "Security",
+    42.14
+   ],
+   [
+    "Checkup.",
+    42.46
+   ],
+   [
+    "Google's",
+    43.3
+   ],
+   [
+    "3",
+    43.74
+   ],
+   [
+    "steps:",
+    43.9
+   ],
+   [
+    "devices,",
+    44.94
+   ],
+   [
+    "old",
+    45.62
+   ],
+   [
+    "app",
+    45.82
+   ],
+   [
+    "access,",
+    46.22
+   ],
+   [
+    "recovery",
+    46.7
+   ],
+   [
+    "info.",
+    47.3
+   ],
+   [
+    "Here's",
+    47.82
+   ],
+   [
+    "what",
+    48.06
+   ],
+   [
+    "removal",
+    48.3
+   ],
+   [
+    "doesn't",
+    48.78
+   ],
+   [
+    "do.",
+    49.18
+   ],
+   [
+    "Removal",
+    49.74
+   ],
+   [
+    "only",
+    50.22
+   ],
+   [
+    "stops",
+    50.62
+   ],
+   [
+    "future",
+    51.02
+   ],
+   [
+    "access,",
+    51.66
+   ],
+   [
+    "and",
+    52.14
+   ],
+   [
+    "the",
+    52.3
+   ],
+   [
+    "app",
+    52.5
+   ],
+   [
+    "may",
+    52.74
+   ],
+   [
+    "keep",
+    52.94
+   ],
+   [
+    "what",
+    53.26
+   ],
+   [
+    "you",
+    53.42
+   ],
+   [
+    "already",
+    53.58
+   ],
+   [
+    "gave",
+    54.06
+   ],
+   [
+    "it.",
+    54.42
+   ],
+   [
+    "How",
+    54.727
+   ],
+   [
+    "many",
+    54.9
+   ],
+   [
+    "forgotten",
+    55.1
+   ],
+   [
+    "apps",
+    55.54
+   ],
+   [
+    "did",
+    55.74
+   ],
+   [
+    "you",
+    55.9
+   ],
+   [
+    "find?",
+    56.06
+   ],
+   [
+    "Tell",
+    56.647
+   ],
+   [
+    "me",
+    56.78
+   ],
+   [
+    "below.",
+    57.14
+   ],
+   [
+    "Send",
+    57.5
+   ],
+   [
+    "this",
+    57.74
+   ],
+   [
+    "to",
+    57.86
+   ],
+   [
+    "the",
+    57.98
+   ],
+   [
+    "friend",
+    58.14
+   ],
+   [
+    "who",
+    58.46
+   ],
+   [
+    "clicks",
+    58.66
+   ],
+   [
+    "Sign",
+    58.94
+   ],
+   [
+    "in",
+    59.18
+   ],
+   [
+    "with",
+    59.34
+   ],
+   [
+    "Google",
+    59.5
+   ],
+   [
+    "on",
+    59.9
+   ],
+   [
+    "everything.",
+    60.66
+   ],
+   [
+    "Hack",
+    61.26
+   ],
+   [
+    "saved?",
+    61.42
+   ]
+  ],
+  "duration": 62.08,
+  "ident": {
+   "at": 4.62,
+   "dur": 1.5,
+   "title": "AI HACKS",
+   "type": 0.42,
+   "sub": "EP 24 · GMAIL SECURITY"
+  },
+  "scenes": [
+   {
+    "t": 0.0,
+    "shows": [
+     "footage:lib_man_reacting_to_laptop_screen",
+     "title_slam:STILL CONNECTED",
+     "pill:OLD TOOL → YOUR GMAIL"
+    ]
+   },
+   {
+    "t": 6.14,
+    "shows": [
+     "object3d:",
+     "pill:ONE THING IT WON'T DO"
+    ]
+   },
+   {
+    "t": 10.74,
+    "shows": [
+     "label:CONNECTED TO GMAIL",
+     "illustration:puzzle_piece",
+     "pill:FORGOTTEN"
+    ]
+   },
+   {
+    "t": 13.86,
+    "shows": [
+     "object3d:",
+     "stat_row:",
+     "pill:STAYS TILL REMOVED"
+    ]
+   },
+   {
+    "t": 19.82,
+    "shows": [
+     "footage:real_2_phone",
+     "pill:VIEW YOUR LINKED APPS"
+    ]
+   },
+   {
+    "t": 23.34,
+    "shows": [
+     "screen:Step 1 · Remove access"
+    ]
+   },
+   {
+    "t": 30.74,
+    "shows": [
+     "screen:Step 2 · Sign in with Google"
+    ]
+   },
+   {
+    "t": 35.11,
+    "shows": [
+     "label:THE CATCH",
+     "illustration:broken_chain",
+     "stat_row:"
+    ]
+   },
+   {
+    "t": 41.42,
+    "shows": [
+     "footage:real_3_phone",
+     "pill:3 QUICK STEPS"
+    ]
+   },
+   {
+    "t": 44.94,
+    "shows": [
+     "screen:Step 3 · Security Checkup"
+    ]
+   },
+   {
+    "t": 47.82,
+    "shows": [
+     "object3d:",
+     "stat_row:"
+    ]
+   },
+   {
+    "t": 54.73,
+    "shows": [
+     "headline:HOW MANY DID YOU FIND?"
+    ]
+   }
+  ],
+  "beats": [
+   21.58
+  ]
+ }
+}
