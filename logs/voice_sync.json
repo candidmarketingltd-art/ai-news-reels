@@ -1,9 +1,9 @@
 {
- "at": "2026-11-11T17:24:51+00:00",
+ "at": "2026-11-12T07:32:11+00:00",
  "name_wanted": "Rohan",
  "subscription": {
   "tier": "creator",
-  "character_count": 28553,
+  "character_count": 30721,
   "character_limit": 131000,
   "next_character_count_reset_unix": 1796464027,
   "status": "active"

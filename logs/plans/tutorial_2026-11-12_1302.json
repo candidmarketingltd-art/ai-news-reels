@@ -1,0 +1,1821 @@
+{
+ "voiceover": "[conversational] This free tool turns one topic into a finished video, but there's a catch.\n\nStay till the end, because one catch can stop you on step one.\n\nIt's called MoneyPrinterTurbo. Look at the GitHub page: over 100k stars. Type a topic, and it writes the script, adds voice-over, subtitles and music, and pulls stock footage.\n\nThe code's free. But it's not zero cost. You need an LLM, and a local Ollama model works, plus a stock-footage key. And it runs on your computer, not your phone.\n\n[serious] The honest catch: the footage is generic stock, so it can look like every other faceless video. No avatars, no real editor.\n\nWorth it for tinkerers making high-volume faceless clips. Skip it for brand-building.\n\n[whispers] Here's the catch I promised: Pexels has paused new API keys, and old tutorials still tell you to get one. Use Pixabay or Coverr, or your own clips.\n\n[curious] Would you put stock footage on your brand? Send this to the friend who pays monthly for video tools. Hack saved?",
+ "open_loop": {
+  "setup": "Stay till the end, because one catch can stop you on step one.",
+  "payoff": "Here's the catch I promised: Pexels has paused new API keys, and old tutorials still tell you to get one."
+ },
+ "title": "FREE AI VIDEO MAKER",
+ "ig_caption": "This free tool turns one topic into a finished video, but there's a catch.\n✅ The code is free and open-source, but you run it on your own computer\n✅ You need an LLM (a local Ollama model works) and a stock-footage key\n✅ Pexels paused new API keys, so use Pixabay or Coverr, or your own clips\n✅ Great for high-volume faceless clips, weak for brand-building\nWould you put generic stock footage on your brand? Tell me below 👇\nSave this for later\nFollow @ihackgrowth for daily business & growth hacks",
+ "media_hints": {
+  "domain": "github.com",
+  "broll": [
+   "typing on laptop",
+   "video editing timeline",
+   "person frustrated at desk"
+  ]
+ },
+ "hashtags": [
+  "#AItools",
+  "#AIhacks",
+  "#MoneyPrinterTurbo",
+  "#OpenSource",
+  "#VideoMarketing",
+  "#ContentCreation",
+  "#GitHub",
+  "#productivity"
+ ],
+ "tag": "AI VIDEO",
+ "keywords": [
+  "MoneyPrinterTurbo",
+  "GitHub",
+  "stars",
+  "script",
+  "voice-over",
+  "subtitles",
+  "music",
+  "footage",
+  "LLM",
+  "Ollama",
+  "computer",
+  "generic",
+  "faceless",
+  "avatars",
+  "tinkerers",
+  "Pexels",
+  "Pixabay",
+  "Coverr",
+  "brand"
+ ],
+ "music": "upbeat",
+ "hud": {
+  "label": "THE CATCH",
+  "items": [
+   {
+    "value": "HIDDEN",
+    "color": "gold"
+   },
+   {
+    "at": "The code's free.",
+    "value": "FREE CODE",
+    "color": "green"
+   },
+   {
+    "at": "zero cost.",
+    "value": "NOT $0",
+    "color": "red"
+   },
+   {
+    "at": "The honest catch:",
+    "value": "GENERIC",
+    "color": "red"
+   },
+   {
+    "at": "I promised:",
+    "value": "REVEALED",
+    "color": "gold"
+   },
+   {
+    "at": "Use Pixabay",
+    "value": "FIXED",
+    "color": "green"
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "at": "This free tool",
+   "tint": "warm",
+   "react": [
+    {
+     "at": "there's a catch.",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "footage",
+     "at": "This free tool",
+     "media": "lib_robotic_hand_typing_on_keyboard",
+     "full": true
+    },
+    {
+     "type": "title_slam",
+     "at": "This free",
+     "text": "FREE",
+     "color": "gold"
+    },
+    {
+     "type": "pill",
+     "at": "one topic",
+     "text": "1 TOPIC → 1 VIDEO",
+     "color": "gold",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "Stay till",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Stay till",
+     "text": "STAY TILL THE END",
+     "color": "gold"
+    },
+    {
+     "type": "object3d",
+     "at": "one catch",
+     "kind": "padlock",
+     "size": "l",
+     "caption": "BLOCKS STEP ONE",
+     "caption_at": "step one."
+    }
+   ]
+  },
+  {
+   "at": "It's called",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "It's called",
+     "media": "real_1_phone",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "MoneyPrinterTurbo.",
+     "text": "MONEYPRINTERTURBO",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "Look at",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Look at",
+     "media": "real_2_web",
+     "tall": true,
+     "caption": "THE GITHUB README"
+    },
+    {
+     "type": "big_number",
+     "at": "100k stars.",
+     "value": "100K+",
+     "color": "gold",
+     "ill": "glowing_star",
+     "note": "GITHUB STARS"
+    }
+   ]
+  },
+  {
+   "at": "Type a topic,",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Type a topic,",
+     "device": "web",
+     "url": "127.0.0.1:8501",
+     "app": "MoneyPrinterTurbo",
+     "step": "Step 1 · Type a topic",
+     "steps": [
+      {
+       "at": "Type a topic,",
+       "view": {
+        "kind": "page",
+        "site": "MoneyPrinterTurbo",
+        "heading": "Video Subject",
+        "sub": "Video Script Settings",
+        "input": "",
+        "buttons": [
+         "Generate Video Script and Keywords",
+         "Generate Video"
+        ]
+       },
+       "action": {
+        "kind": "type",
+        "target": "input",
+        "text": "5 morning habits of successful founders",
+        "at": "Type a topic,"
+       }
+      },
+      {
+       "at": "it writes",
+       "view": {
+        "kind": "page",
+        "site": "MoneyPrinterTurbo",
+        "heading": "Video Subject",
+        "sub": "5 morning habits of successful founders",
+        "buttons": [
+         "Generate Video"
+        ],
+        "cards": [
+         {
+          "title": "Video Script",
+          "text": "Habit one: wake up before...",
+          "status": "DONE"
+         }
+        ]
+       },
+       "action": {
+        "kind": "point",
+        "target": "Video Script",
+        "at": "the script,"
+       }
+      },
+      {
+       "at": "adds voice-over,",
+       "view": {
+        "kind": "page",
+        "site": "MoneyPrinterTurbo",
+        "heading": "Video Subject",
+        "sub": "5 morning habits of successful founders",
+        "buttons": [
+         "Generate Video"
+        ],
+        "cards": [
+         {
+          "title": "Video Script",
+          "text": "Habit one: wake up before...",
+          "status": "DONE"
+         },
+         {
+          "title": "Voice-over",
+          "text": "English voice · 1.0x",
+          "status": "DONE"
+         }
+        ]
+       },
+       "action": {
+        "kind": "point",
+        "target": "Voice-over",
+        "at": "adds voice-over,"
+       }
+      },
+      {
+       "at": "subtitles and",
+       "view": {
+        "kind": "page",
+        "site": "MoneyPrinterTurbo",
+        "heading": "Video Subject",
+        "sub": "5 morning habits of successful founders",
+        "buttons": [
+         "Generate Video"
+        ],
+        "cards": [
+         {
+          "title": "Voice-over",
+          "text": "English voice · 1.0x",
+          "status": "DONE"
+         },
+         {
+          "title": "Subtitles",
+          "text": "Bottom · white",
+          "status": "ON"
+         },
+         {
+          "title": "Music",
+          "text": "Random track",
+          "status": "ON"
+         }
+        ]
+       },
+       "action": {
+        "kind": "point",
+        "target": "Music",
+        "at": "and music,"
+       }
+      },
+      {
+       "at": "and pulls",
+       "view": {
+        "kind": "page",
+        "site": "MoneyPrinterTurbo",
+        "heading": "Video Subject",
+        "sub": "5 morning habits of successful founders",
+        "buttons": [
+         "Generate Video"
+        ],
+        "cards": [
+         {
+          "title": "Subtitles",
+          "text": "Bottom · white",
+          "status": "ON"
+         },
+         {
+          "title": "Music",
+          "text": "Random track",
+          "status": "ON"
+         },
+         {
+          "title": "Stock footage",
+          "text": "Matching clips by keyword",
+          "status": "READY"
+         }
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "Generate Video",
+        "at": "stock footage."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "The code's free.",
+   "elements": [
+    {
+     "type": "label",
+     "at": "The code's free.",
+     "text": "THE REAL PRICE"
+    },
+    {
+     "type": "stat_row",
+     "cards": [
+      {
+       "label": "CODE",
+       "value": "FREE",
+       "color": "green",
+       "ill": "check_mark_button",
+       "at": "The code's free."
+      },
+      {
+       "label": "TOTAL COST",
+       "value": "NOT $0",
+       "color": "red",
+       "ill": "money_bag",
+       "glow": true,
+       "at": "zero cost."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "You need",
+   "react": [
+    {
+     "at": "Ollama model",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "screen",
+     "at": "You need",
+     "device": "desktop",
+     "step": "Step 0 · What you need",
+     "steps": [
+      {
+       "at": "You need",
+       "view": {
+        "kind": "checklist",
+        "window": "Setup",
+        "title": "Before you start",
+        "items": [
+         {
+          "label": "LLM",
+          "sub": "API key or local Ollama",
+          "checked": false
+         },
+         {
+          "label": "Stock-footage key",
+          "sub": "for the video clips",
+          "checked": false
+         }
+        ]
+       },
+       "action": {
+        "kind": "toggle",
+        "target": "LLM",
+        "at": "an LLM,"
+       }
+      },
+      {
+       "at": "plus a",
+       "view": {
+        "kind": "checklist",
+        "window": "Setup",
+        "title": "Before you start",
+        "items": [
+         {
+          "label": "LLM",
+          "sub": "API key or local Ollama",
+          "checked": true
+         },
+         {
+          "label": "Stock-footage key",
+          "sub": "for the video clips",
+          "checked": false
+         }
+        ]
+       },
+       "action": {
+        "kind": "toggle",
+        "target": "Stock-footage key",
+        "at": "stock-footage key."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "And it runs",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "And it runs",
+     "media": "real_1_web",
+     "tall": true,
+     "caption": "INSTALL · PYTHON 3.11",
+     "caption_at": "your computer,"
+    },
+    {
+     "type": "pill",
+     "at": "not your phone.",
+     "text": "NO PHONE APP",
+     "color": "red",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "The honest catch:",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "The honest catch:",
+     "media": "lib_hand_scrolling_smartphone",
+     "full": true
+    },
+    {
+     "type": "headline",
+     "at": "generic stock,",
+     "text": "GENERIC STOCK",
+     "size": "l",
+     "color": "red",
+     "sub": "LIKE EVERY FACELESS VIDEO",
+     "sub_at": "every other"
+    }
+   ]
+  },
+  {
+   "at": "No avatars,",
+   "tint": "red",
+   "react": [
+    {
+     "at": "no real",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "No avatars,",
+     "text": "WHAT YOU DON'T GET"
+    },
+    {
+     "type": "strike_list",
+     "at": "No avatars,",
+     "items": [
+      {
+       "text": "AI AVATARS",
+       "at": "No avatars,",
+       "strike": true
+      },
+      {
+       "text": "A REAL EDITOR",
+       "at": "no real",
+       "strike": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Worth it",
+   "tint": "green",
+   "react": [
+    {
+     "at": "Skip it",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "Worth it",
+     "text": "THE VERDICT"
+    },
+    {
+     "type": "stat_row",
+     "cards": [
+      {
+       "label": "TINKERERS",
+       "value": "YES",
+       "color": "green",
+       "ill": "hammer_and_wrench",
+       "glow": true,
+       "at": "for tinkerers"
+      },
+      {
+       "label": "BRANDS",
+       "value": "SKIP",
+       "color": "red",
+       "ill": "cross_mark",
+       "at": "Skip it"
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "at": "high-volume faceless",
+     "text": "HIGH-VOLUME FACELESS",
+     "color": "gold",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "Here's the catch",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "has paused",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "Here's the catch",
+     "text": "THE STEP-ONE CATCH",
+     "color": "gold"
+    },
+    {
+     "type": "object3d",
+     "at": "I promised:",
+     "kind": "padlock",
+     "size": "l",
+     "act": "open",
+     "act_at": "I promised:",
+     "caption": "PEXELS: NEW KEYS PAUSED",
+     "caption_at": "has paused"
+    },
+    {
+     "type": "pill",
+     "at": "old tutorials",
+     "text": "OLD TUTORIALS = OUTDATED",
+     "color": "red",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "Use Pixabay",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Use Pixabay",
+     "text": "USE THESE INSTEAD"
+    },
+    {
+     "type": "strike_list",
+     "at": "Use Pixabay",
+     "items": [
+      {
+       "text": "PIXABAY",
+       "at": "Use Pixabay",
+       "strike": false
+      },
+      {
+       "text": "COVERR",
+       "at": "or Coverr,",
+       "strike": false
+      },
+      {
+       "text": "YOUR OWN CLIPS",
+       "at": "your own",
+       "strike": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Would you",
+   "react": [
+    {
+     "at": "your brand?",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "headline",
+     "at": "Would you",
+     "text": "STOCK ON YOUR BRAND?",
+     "size": "l",
+     "ill": "thinking_face"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "Send this",
+  "line1": "Send this to",
+  "line1_at": "Send this",
+  "line2": "the monthly payer",
+  "line2_at": "pays monthly"
+ },
+ "endcard": {
+  "title": "Hack saved?",
+  "terminal": "> video.generated · code free"
+ },
+ "media": [
+  {
+   "id": "real_1_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-12_1302/real_1_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-12_1302/real_1_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: github.com",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the gold-outlined part — Phone view of the GitHub repo page harry0703/MoneyPrinterTurbo (Public). Tabs: Code, Issues 14, More. Buttons: Notifications, Fork 22.8k, star icon. About section: '利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.' Topic tags: ai-vide [Screen: github.com]"
+  },
+  {
+   "id": "real_1_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-12_1302/real_1_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-12_1302/real_1_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: github.com",
+   "desc": "REAL desktop screen recording, pushes in on the gold-outlined part — Web view of the README (Chinese) with a highlighted line and cursor: '官方 PyPI 包名为 mpt，由 harry0703 维护。PyPI 上名为 MoneyPrinterTurbo 的包由第三方维护。' Visible sections: '安装部署', '通过 pip 安装官方包', '无需克隆仓库，需要 Python 3.11 或更高版本，推荐使用 Python 3.11'. Code blocks: python3 -m venv .venv / source .venv/bin/activate; Windows [Screen: github.com]"
+  },
+  {
+   "id": "real_2_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-12_1302/real_2_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-12_1302/real_2_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: github.com",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the page (no highlight) — Phone view of README-en.md on GitHub (main branch), harry0703 committed 4 hours ago, 693 lines (519 loc) · 46.7 KB. Preview heading: 'MoneyPrinterTurbo 💸', subheading 'An All-in-One AI Short Video Generator', text 'Provide a video topic or keyword, and MoneyPrinterTurbo will generate the script, mat [Screen: github.com]"
+  },
+  {
+   "id": "real_2_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-12_1302/real_2_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-12_1302/real_2_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: github.com",
+   "desc": "REAL desktop screen recording, pushes in on the page (no highlight) — Desktop web view of README-en.md on GitHub (harry0703/MoneyPrinterTurbo). Commit 'docs(readme): refresh supported features' 356dd25, 4 hours ago. Tabs: Code, Issues 14, Pull requests 65, Actions, Projects, Security and quality, Insights. Title 'MoneyPrinterTurbo 💸', 'An All-in-One AI Short Video Gen [Screen: github.com]"
+  },
+  {
+   "id": "lib_clock_ticking_and_person_typing",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "credit": "",
+   "file": "clock_ticking_and_person_typing.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A rack-focus shot moves from a close-up of a black twin-bell alarm clock with ticking hands to a bearded man in a light polo typing on a laptop in a dim room, giving a tense, time-pressured mood. Good for: lines about deadlines, time slipping away, long hours of manual work, or the pressure of slow, tedious tasks before an AI tool speeds things up"
+  },
+  {
+   "id": "lib_colleagues_collaborating_around",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "credit": "",
+   "file": "colleagues_collaborating_around.mp4",
+   "frames": 126,
+   "desc": "B-roll (4.2s, VERTICAL 9:16 — best as full: true): colleagues collaborating around Good for: "
+  },
+  {
+   "id": "lib_content_creator_sets_up_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "credit": "",
+   "file": "content_creator_sets_up_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt stands behind a ring light with a phone on a tripod, adjusting the setup while the camera slowly pushes in until his face fills the frame, with a calm, focused mood and moody blue ambient lighting in the background. Good for: setting up to create content, getting started as a creator, or preparing equipment before recording a tutorial"
+  },
+  {
+   "id": "lib_eye_reflecting_laptop_screen_glow",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "credit": "",
+   "file": "eye_reflecting_laptop_screen_glow.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow zoom into an extreme close-up of a brown eye with a bright blue screen reflected in the pupil, framed by a thick eyebrow and warm skin tones, fading into a cool blue gradient at the bottom, with a focused, intense and cinematic mood. Good for: lines about being glued to a screen, intense focus or attention, watching AI work, or 'seeing' a new opportunity or insight"
+  },
+  {
+   "id": "lib_fingers_typing_on_laptop_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "credit": "",
+   "file": "fingers_typing_on_laptop_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): Close-up over-the-shoulder shot of a person typing on a backlit laptop keyboard, with a blurred blue screen in the background and a warm, focused, productive mood. Good for: lines about getting started, writing prompts or code, doing focused work at the computer, or the hands-on steps of a tutorial"
+  },
+  {
+   "id": "lib_hand_dropping_papers_on_desk",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "credit": "",
+   "file": "hand_dropping_papers_on_desk.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a green shirt carries and then drops a thick stack of papers onto an already huge, messy pile of documents with sticky notes on a cluttered desk, while a laptop glows nearby, and the camera pushes in to a close-up of the towering stack, creating a mood of overwhelm and tedious paperwork. Good for: a script line about drowning in manual paperwork or document processing, setting up how AI can automate summarizing, sorting, or extracting information from piles of documents"
+  },
+  {
+   "id": "lib_hand_scrolling_smartphone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_scrolling_smartphone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_scrolling_smartphone.mp4",
+   "credit": "",
+   "file": "hand_scrolling_smartphone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a bearded young man in a white t-shirt looking intently at a smartphone in dim, warm lighting, with the camera slowly pushing in until his focused, slightly tense gaze moves from the screen to the lens. Good for: a script line about being glued to your phone, doubt or tension before a reveal, or the moment of realizing something while checking an app or notification"
+  },
+  {
+   "id": "lib_hands_holding_credit_card_near",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hands_holding_credit_card_near.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hands_holding_credit_card_near.mp4",
+   "credit": "",
+   "file": "hands_holding_credit_card_near.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): hands holding credit card near Good for: "
+  },
+  {
+   "id": "lib_man_comparing_phone_and_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "credit": "",
+   "file": "man_comparing_phone_and_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): man comparing phone and laptop Good for: "
+  },
+  {
+   "id": "lib_man_opens_laptop_in_room",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "credit": "",
+   "file": "man_opens_laptop_in_room.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt sits at a laptop in a dimly lit, warmly lit room, and his focused, tense expression builds as he leans toward the screen, which shows blurry blue diagram or flowchart-style blocks, with his fists clenched near his chin in the middle frame. Good for: intense concentration or deep work, such as debugging, building an AI workflow, or struggling with a complex problem"
+  },
+  {
+   "id": "lib_man_shaking_head_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "credit": "",
+   "file": "man_shaking_head_at_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits in a dark chair looking down at his phone, and his expression shifts from neutral to scrunched-up frustration or confusion, then to a displeased, worried look as he lowers the phone. Good for: frustration or disappointment with a tool or app that isn't working, slow or confusing results, or a bad surprise while checking your phone"
+  },
+  {
+   "id": "lib_man_smiling_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "credit": "",
+   "file": "man_smiling_at_phone.mp4",
+   "frames": 135,
+   "desc": "B-roll (4.5s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a blue smartphone, his expression shifting from neutral to a furrowed-brow frown of confusion and frustration. Good for: a line about frustration with confusing apps or slow tools, or the moment someone hits a problem and doesn't know what to do next"
+  },
+  {
+   "id": "lib_man_studying_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "credit": "",
+   "file": "man_studying_with_laptop.mp4",
+   "frames": 132,
+   "desc": "B-roll (4.4s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits at a desk behind a laptop with a furrowed brow and a frustrated, concentrated look, first staring at the screen, then looking down at an open notebook and writing with a pen, with a warm blurred lamp glowing in the background. Good for: a script line about struggling to understand something complex, frustration with slow or manual work, or the pain of learning a new tool the hard way"
+  },
+  {
+   "id": "lib_man_watching_laptop_waiting",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "credit": "",
+   "file": "man_watching_laptop_waiting.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits at a laptop in a dimly lit room with warm lamp light, resting his chin on his fist with a focused, pensive look, and the camera pushes in closer across the three frames. Good for: a script line about deep thinking, researching or problem-solving, or weighing a decision before trying an AI tool"
+  },
+  {
+   "id": "lib_person_drinking_coffee_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "credit": "",
+   "file": "person_drinking_coffee_with_laptop.mp4",
+   "frames": 93,
+   "desc": "B-roll (3.1s, VERTICAL 9:16 — best as full: true): A bearded man in a green polo sits at a laptop in a modern industrial-style open office, lifting a white cup to his mouth and sipping a hot drink while looking down at the screen, in a calm, focused mood. Good for: a line about taking a breather while the AI does the work, a morning work routine, waiting for a process to finish, or the calm of an automated workflow"
+  },
+  {
+   "id": "lib_person_speaking_into_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "credit": "",
+   "file": "person_speaking_into_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt takes a phone call in a modern industrial office with exposed concrete ceilings, moving from a serious, concerned look to a worried talking expression and ending with a relieved, confident smile at the camera. Good for: a script line about getting a surprising call or news, a problem being solved, or the moment of relief after a stressful issue"
+  },
+  {
+   "id": "lib_person_taking_selfie_with_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "credit": "",
+   "file": "person_taking_selfie_with_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt sits in a car holding a blue smartphone up close to his face, and across the clip he leans toward the screen with a furrowed brow, looking skeptical and intensely focused. Good for: a script line about doubting or double-checking AI output, being confused or frustrated by an app or tool, or looking closely at a result on your phone, e.g. 'wait, is this actually right?'"
+  },
+  {
+   "id": "lib_professional_working_on_laptop_late",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "credit": "",
+   "file": "professional_working_on_laptop_late.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A tired bearded young man in a maroon t-shirt sits at a laptop in a dim apartment at night, resting his head on his hand, rubbing his eyes, then glumly lifting a white coffee mug, with blurred city lights glowing behind him through the window. Good for: A script line about burnout, late-night grinding, or frustration with slow manual work that AI tools can speed up, e.g. 'still stuck doing this by hand at midnight?'"
+  },
+  {
+   "id": "lib_robotic_hand_typing_on_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "credit": "",
+   "file": "robotic_hand_typing_on_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a black robotic hand with segmented, mechanical fingers lowering onto a backlit laptop keyboard and starting to type, shot at shallow depth of field in a warm, softly lit, modern workspace. Good for: A script line about AI doing the work for you, automating repetitive tasks, or AI taking over typing and writing, such as 'let AI handle the busywork' or 'AI writes it for you'."
+  },
+  {
+   "id": "s1_image",
+   "kind": "image",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-12_1302/s1_image.png",
+   "credit": "Image: github.com",
+   "desc": "official image from MoneyPrinterTurbo (open-source, MIT-licensed, github.com/harry0703/MoneyPrinterTurbo) (announcement page)"
+  }
+ ],
+ "style": "hisaab",
+ "topic": "Review of MoneyPrinterTurbo, a free open-source tool that turns one topic into a finished video (script, voice-over, stock footage, subtitles, music), and whether it's worth using for business content",
+ "pick": {
+  "index": 31,
+  "topic": "Review of MoneyPrinterTurbo, a free open-source tool that turns one topic into a finished video (script, voice-over, stock footage, subtitles, music), and whether it's worth using for business content",
+  "tool": "MoneyPrinterTurbo (open-source, GitHub)",
+  "format": "review",
+  "angle": "Stop paying monthly for AI video tools: this free one makes a full video from one topic. Here's the catch before you build your brand on it.",
+  "why": "63k views and 3,756 likes on an 84s reel, a strong like rate. It's a free alternative to paid AI video tools, which fits our review slot and builds on the Higgsfield 'free alternative' angle without repeating it. The GitHub page and demo can be shown live. The honest catch is setup effort, API keys, generic stock footage and platforms demoting mass-produced content."
+ },
+ "inspired_by": {
+  "url": "https://www.instagram.com/p/DfJusG8TUPh/",
+  "owner": "ngurahmayun_code",
+  "plays": 63107,
+  "likes": 3756,
+  "comments": 31
+ },
+ "research": {
+  "verdict": "adjust",
+  "tool": "MoneyPrinterTurbo (open-source, MIT-licensed, github.com/harry0703/MoneyPrinterTurbo)",
+  "availability": "The code is free (MIT) and self-hosted on Windows, macOS or Linux. It is not a phone app or a hosted service. You still need an LLM (a free local Ollama model or a paid API key) and a stock-footage key. Pexels has paused NEW API keys, so use Pixabay or Coverr for new setups.",
+  "steps": [
+   "Pick an install path. Windows one-click: download the .7z from the latest GitHub release. Docker: clone the repo, then run `docker compose -f docker-compose.release.yml up -d`. Python: `python -m pip install mpt` (the official PyPI package is 'mpt'; the PyPI package named 'MoneyPrinterTurbo' is third-party).",
+   "Source install needs Python 3.11 or later: `git clone https://github.com/harry0703/MoneyPrinterTurbo.git`, `cd MoneyPrinterTurbo`, `uv python install 3.11`, `uv sync --frozen`. Start the WebUI with `sh webui.sh` (macOS/Linux) or `.\\webui.bat` (Windows).",
+   "Open the WebUI at http://127.0.0.1:8501 (Docker or local).",
+   "Expand 'Basic Settings' and enter at least one LLM provider key and one video-source key (Pixabay or Coverr; Pexels only if you already hold a key). A local Ollama model can replace a paid LLM key.",
+   "Under 'Video Script Settings', type the Video Subject (the topic) and choose Script Language. Optionally click 'Generate Video Script and Keywords' to have the LLM write the script.",
+   "Under Video Settings choose Video Source and aspect ratio (9:16 for Reels). Under Audio Settings choose the voice and Background Music. Under Subtitle Settings choose font and position.",
+   "Click 'Generate Video', wait for processing, preview the result, then click 'Download Video'."
+  ],
+  "facts": [
+   "The project's GitHub description: provide a topic or keyword, and it generates the script, matches footage, creates subtitles and background music, and renders an HD short video. (github.com/harry0703/MoneyPrinterTurbo README-en)",
+   "It runs through the WebUI, API, CLI or an AI agent workflow (README-en).",
+   "The repo is hugely popular. The config.example.toml page shows Star 126k and Fork 19.5k (GitHub, fetched snapshot).",
+   "Verdent describes it as an MIT-licensed Python project that chains an LLM, stock-media APIs like Pexels, text-to-speech and video tooling (MoviePy, FFmpeg) into one pipeline driven by a Streamlit web UI or REST API.",
+   "The default pipeline only costs LLM tokens. Edge TTS and Pexels are free; AI-video sources bill per second of footage (terminalskills.io skill page).",
+   "A fully free path exists: Ollama for the script, Edge TTS for voice-over (no key), and a free Pexels or Pixabay key for footage (localaimaster.com).",
+   "The repo's v1.3.0 release added Coverr as a stock-video provider and Groq as an LLM provider. video_source accepts pexels, pixabay, coverr or local (your own clips).",
+   "Requirements: Python 3.11 (3.11 recommended), FFmpeg, at least 4 GB RAM (8 GB recommended) and at least one LLM provider key (riffkit.ai guide).",
+   "Subtitles: the subtitle provider can be 'edge' (fast) or 'whisper' (higher quality, GPU-accelerated). Default font is MicrosoftYaHeiBold.ttc and default position is bottom (pyshine.com, deepwiki).",
+   "Newer releases added word-by-word subtitles with a pop-up spring animation, reusable settings presets with import/export, and a redesigned WebUI with a settings dialog and improved dark mode (GitHub Releases page).",
+   "Output files per task include the final video, audio.mp3 and a subtitle .srt (deepwiki quick start).",
+   "Pexels API: 'New API key issuance is currently paused and cannot be requested.' (pexels.com/api, since about 30 Sept 2026). Rate-limit increases are also paused. Keys already issued keep the default 200 requests/hour and 20,000/month (help.pexels.com).",
+   "Pexels content is free to use commercially under the Pexels License. The API guidelines ask for a prominent link to Pexels and photographer credit where possible (pexels.com/api/documentation, agentgid summary).",
+   "Pixabay API still issues keys instantly; one comparison lists its limit as 100 requests/minute (pexafy.com comparison, checked 14 Oct 2026).",
+   "The official repo offers a free 'Open in Colab' notebook and a prebuilt Docker image: ghcr.io/harry0703/moneyprinterturbo:latest."
+  ],
+  "do_not_claim": [
+   "Do NOT say it needs zero accounts, zero keys or zero setup. It needs an LLM and a stock-footage key (or local footage), plus a Python/Docker install.",
+   "Do NOT say 'just get a free Pexels key'. Pexels is not issuing new keys, so a new viewer can't follow that step.",
+   "Do NOT say it works on a phone or in a browser tab. You run it on your own computer (a third-party hosted site, moneyprinterturbo.app, exists but is not the official project).",
+   "Do NOT say it is 'completely free forever'. The code is free, but LLM APIs, AI-video sources and paid TTS can cost money.",
+   "Do NOT claim it makes you money or that the output is 'ready to go viral'. 'Money' is only in the name. No source supports earnings claims.",
+   "Do NOT call the stock clips exclusive or original. They are generic stock footage that other users can pull from the same libraries.",
+   "Do NOT tell people to pip install 'MoneyPrinterTurbo'. That PyPI package is third-party; the official one is 'mpt'.",
+   "The reel's caption has no verifiable claims beyond the repo's own description. The transcript was unavailable, so nothing else was checked.",
+   "Do NOT say it is a plug-and-play replacement for CapCut, HeyGen or similar paid tools. It does not make avatars or talking-head video and has no real video editor in the WebUI. The local video project workflow is CLI-only (GitHub Releases)."
+  ],
+  "criticism": [
+   "Setup is technical: Python 3.11, FFmpeg, Docker or a Windows package, plus API keys. Non-technical business owners may get stuck (riffkit.ai, codersera guides).",
+   "The stock-footage key bottleneck is real. Pexels has paused new API keys, and a missing or wrong footage key is the usual cause when generation hangs at 'Searching materials' (pexels.com/api, codersera).",
+   "Stock-footage matching is keyword-based, so clips can feel generic or off-topic. For a brand this makes videos look like every other faceless stock video. This is a judgement; the sources only describe the keyword matching.",
+   "Free is not entirely free: the script needs an LLM key (or local Ollama on your own hardware), and AI-video sources bill per second of footage (terminalskills.io, agentpedia).",
+   "Licence and rule checking is on you: Pexels asks for credit/links under its API terms, and one guide says to check Pexels, Pixabay, music, likeness and trademark rules (agentpedia.codes).",
+   "Security default: config.example.toml sets listen_host to 0.0.0.0 and the API has no authentication unless an API key is set. On a shared network, set listen_host to 127.0.0.1 or set an API key (mrtechking.com scan, terminalskills.io).",
+   "The README is crowded with sponsor and referral blocks for model-API resellers (mrtechking.com scan).",
+   "Open-source dependency: the project is maintained by one main developer, and menus and providers change between releases (v1.3.x added new providers and a WebUI redesign). Re-check the steps before filming."
+  ],
+  "ui": {
+   "platforms": "Web UI in a desktop browser (Streamlit app on localhost:8501), run on Windows, macOS or Linux. No iOS or Android app.",
+   "apps": [
+    "Browser (Chrome/Edge) at http://127.0.0.1:8501 (MoneyPrinterTurbo WebUI)",
+    "Terminal / Command Prompt or Docker Desktop (install)",
+    "GitHub repository page (github.com/harry0703/MoneyPrinterTurbo)",
+    "Pixabay or Pexels API page (get the footage key)"
+   ],
+   "screens": [
+    "GitHub repo page: title 'MoneyPrinterTurbo 💸', the Chinese/English tagline about generating HD short videos from a topic or keyword, and the star count near the top right (about 126k at the last snapshot).",
+    "README-en: the 'Installation & Deployment 📥' section, with the 'Download the latest Windows one-click package' link and the Docker command `docker compose -f docker-compose.release.yml up -d`.",
+    "Terminal: the commands above running. After start-up the browser opens at localhost:8501.",
+    "WebUI page: the browser tab title is 'MoneyPrinterTurbo'. A collapsible 'Basic Settings' area sits near the top for LLM provider, API keys and video-source keys. The newer release has a dedicated settings dialog. Streamlit headers are hidden by custom CSS.",
+    "Main form in three columns, per the older layout, so check the current version: LEFT 'Video Script Settings' (Video Subject text box, Script Language, button 'Generate Video Script and Keywords', script and keyword boxes). MIDDLE 'Video Settings' (Video Source, Video Concat Mode, aspect ratio, clip duration, Number of Videos) and 'Audio Settings' (voice, Speech Volume, Background Music, music volume). RIGHT 'Subtitle Settings' (Enable Subtitles, Font, Position, colour, size).",
+    "Bottom of the form: the 'Generate Video' button. A log or progress area follows while it renders.",
+    "Result: a video player preview showing the finished vertical video with burned-in subtitles at the bottom, plus a 'Download Video' button. The default theme follows Streamlit (typically light); the newer release adds improved dark-mode support. Check which theme you get on your machine."
+   ]
+  },
+  "visuals": "Show the GitHub repo page (stars, tagline), then a real screen recording of the WebUI: type a topic, click 'Generate Video', and play the finished vertical video with subtitles. Only a real screen recording can prove the output quality, so use it to show the generic stock-clip look honestly. Then show the Pexels API page with the 'paused' notice as the catch.",
+  "real_pages": [
+   {
+    "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+    "show": "MoneyPrinterTurbo",
+    "kind": "site"
+   },
+   {
+    "url": "https://github.com/harry0703/MoneyPrinterTurbo/blob/main/README-en.md",
+    "show": "An All-in-One AI Short Video Generator",
+    "kind": "site"
+   },
+   {
+    "url": "https://www.pexels.com/api/",
+    "show": "New API key issuance is currently paused",
+    "kind": "site"
+   },
+   {
+    "url": "https://help.pexels.com/hc/en-us/articles/900005852323-How-do-I-get-unlimited-requests",
+    "show": "200/hour and 20,000/month",
+    "kind": "help"
+   },
+   {
+    "url": "https://github.com/harry0703/MoneyPrinterTurbo/releases",
+    "show": "Releases",
+    "kind": "site"
+   }
+  ],
+  "sources": [
+   "https://github.com/harry0703/MoneyPrinterTurbo",
+   "https://github.com/harry0703/MoneyPrinterTurbo/blob/main/README-en.md",
+   "https://github.com/harry0703/MoneyPrinterTurbo/releases",
+   "https://github.com/harry0703/MoneyPrinterTurbo/blob/main/config.example.toml",
+   "https://www.pexels.com/api/",
+   "https://www.pexels.com/api/documentation/",
+   "https://help.pexels.com/hc/en-us/articles/900005852323-How-do-I-get-unlimited-requests",
+   "https://terminalskills.io/skills/moneyprinterturbo",
+   "https://localaimaster.com/blog/moneyprinterturbo-local-setup",
+   "https://www.mrtechking.com/moneyprinterturbo-github/",
+   "https://riffkit.ai/blog/how-to-use-moneyprinterturbo",
+   "https://deepwiki.com/harry0703/MoneyPrinterTurbo/2.3-quick-start-guide",
+   "https://pexafy.com/blog/free-stock-photo-api-comparison/",
+   "https://agentpedia.codes/blog/moneyprinterturbo-ai-short-video-generator-guide"
+  ],
+  "notes": "Angle is OK with a fix: lead with 'free software, but not zero-cost or zero-effort'. The most current catch is that Pexels paused new API keys around 30 Sept 2026, and many older tutorials and the popular reel's ecosystem still say 'get a free Pexels key'. Tell viewers to use Pixabay or Coverr, or their own local clips. This is a self-hosted tool, so the honest verdict is: great for tinkerers and for high-volume faceless clips, weak for brand-building because of generic stock footage and technical setup. The WebUI was redesigned in a recent release (settings dialog, dark mode), so the three-column layout and labels from older guides may differ; screen-record the live version before recreating it. GitHub star and fork counts vary by snapshot (102k, 119k, 126k seen), so say 'over 100k stars' or check live. The reel's caption (Indonesian) matches the project description and is not wrong, just incomplete: it omits the keys and setup requirements.",
+  "_searched": 5
+ },
+ "models": {
+  "pick": "claude-sonnet-5-5",
+  "research": "claude-sonnet-5-5",
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 26,
+ "_ident": {
+  "at": 5.02,
+  "dur": 1.5,
+  "title": "AI HACKS",
+  "type": 0.42,
+  "sub": "EP 26 · AI VIDEO"
+ },
+ "timeline": {
+  "words": [
+   [
+    "This",
+    0.08
+   ],
+   [
+    "free",
+    0.32
+   ],
+   [
+    "tool",
+    0.56
+   ],
+   [
+    "turns",
+    1.0
+   ],
+   [
+    "one",
+    1.36
+   ],
+   [
+    "topic",
+    1.52
+   ],
+   [
+    "into",
+    2.0
+   ],
+   [
+    "a",
+    2.32
+   ],
+   [
+    "finished",
+    2.4
+   ],
+   [
+    "video,",
+    2.8
+   ],
+   [
+    "but",
+    3.52
+   ],
+   [
+    "there's",
+    3.92
+   ],
+   [
+    "a",
+    4.12
+   ],
+   [
+    "catch.",
+    4.24
+   ],
+   [
+    "Stay",
+    6.58
+   ],
+   [
+    "till",
+    6.78
+   ],
+   [
+    "the",
+    6.94
+   ],
+   [
+    "end,",
+    7.1
+   ],
+   [
+    "because",
+    7.58
+   ],
+   [
+    "one",
+    7.82
+   ],
+   [
+    "catch",
+    8.06
+   ],
+   [
+    "can",
+    8.46
+   ],
+   [
+    "stop",
+    8.7
+   ],
+   [
+    "you",
+    9.02
+   ],
+   [
+    "on",
+    9.18
+   ],
+   [
+    "step",
+    9.34
+   ],
+   [
+    "one.",
+    9.74
+   ],
+   [
+    "It's",
+    10.34
+   ],
+   [
+    "called",
+    10.7
+   ],
+   [
+    "MoneyPrinterTurbo.",
+    11.1
+   ],
+   [
+    "Look",
+    12.46
+   ],
+   [
+    "at",
+    12.62
+   ],
+   [
+    "the",
+    12.74
+   ],
+   [
+    "GitHub",
+    12.98
+   ],
+   [
+    "page:",
+    13.34
+   ],
+   [
+    "over",
+    13.94
+   ],
+   [
+    "100k",
+    14.22
+   ],
+   [
+    "stars.",
+    15.02
+   ],
+   [
+    "Type",
+    16.3
+   ],
+   [
+    "a",
+    16.46
+   ],
+   [
+    "topic,",
+    16.74
+   ],
+   [
+    "and",
+    17.14
+   ],
+   [
+    "it",
+    17.26
+   ],
+   [
+    "writes",
+    17.5
+   ],
+   [
+    "the",
+    17.7
+   ],
+   [
+    "script,",
+    17.82
+   ],
+   [
+    "adds",
+    18.5
+   ],
+   [
+    "voice-over,",
+    18.7
+   ],
+   [
+    "subtitles",
+    19.62
+   ],
+   [
+    "and",
+    20.3
+   ],
+   [
+    "music,",
+    20.54
+   ],
+   [
+    "and",
+    21.34
+   ],
+   [
+    "pulls",
+    21.58
+   ],
+   [
+    "stock",
+    21.98
+   ],
+   [
+    "footage.",
+    22.22
+   ],
+   [
+    "The",
+    22.9
+   ],
+   [
+    "code's",
+    23.02
+   ],
+   [
+    "free.",
+    23.34
+   ],
+   [
+    "But",
+    24.1
+   ],
+   [
+    "it's",
+    24.38
+   ],
+   [
+    "not",
+    24.7
+   ],
+   [
+    "zero",
+    25.02
+   ],
+   [
+    "cost.",
+    25.34
+   ],
+   [
+    "You",
+    25.98
+   ],
+   [
+    "need",
+    26.14
+   ],
+   [
+    "an",
+    26.3
+   ],
+   [
+    "LLM,",
+    26.46
+   ],
+   [
+    "and",
+    27.14
+   ],
+   [
+    "a",
+    27.26
+   ],
+   [
+    "local",
+    27.42
+   ],
+   [
+    "Ollama",
+    27.82
+   ],
+   [
+    "model",
+    28.34
+   ],
+   [
+    "works,",
+    28.54
+   ],
+   [
+    "plus",
+    29.26
+   ],
+   [
+    "a",
+    29.5
+   ],
+   [
+    "stock-footage",
+    29.66
+   ],
+   [
+    "key.",
+    30.3
+   ],
+   [
+    "And",
+    30.74
+   ],
+   [
+    "it",
+    30.86
+   ],
+   [
+    "runs",
+    31.06
+   ],
+   [
+    "on",
+    31.26
+   ],
+   [
+    "your",
+    31.42
+   ],
+   [
+    "computer,",
+    31.82
+   ],
+   [
+    "not",
+    32.38
+   ],
+   [
+    "your",
+    32.62
+   ],
+   [
+    "phone.",
+    32.78
+   ],
+   [
+    "The",
+    33.484
+   ],
+   [
+    "honest",
+    33.58
+   ],
+   [
+    "catch:",
+    33.9
+   ],
+   [
+    "the",
+    34.7
+   ],
+   [
+    "footage",
+    34.86
+   ],
+   [
+    "is",
+    35.34
+   ],
+   [
+    "generic",
+    35.74
+   ],
+   [
+    "stock,",
+    36.06
+   ],
+   [
+    "so",
+    36.66
+   ],
+   [
+    "it",
+    36.78
+   ],
+   [
+    "can",
+    36.94
+   ],
+   [
+    "look",
+    37.1
+   ],
+   [
+    "like",
+    37.34
+   ],
+   [
+    "every",
+    37.58
+   ],
+   [
+    "other",
+    37.9
+   ],
+   [
+    "faceless",
+    38.14
+   ],
+   [
+    "video.",
+    38.86
+   ],
+   [
+    "No",
+    39.26
+   ],
+   [
+    "avatars,",
+    39.5
+   ],
+   [
+    "no",
+    40.3
+   ],
+   [
+    "real",
+    40.58
+   ],
+   [
+    "editor.",
+    41.02
+   ],
+   [
+    "Worth",
+    41.42
+   ],
+   [
+    "it",
+    41.66
+   ],
+   [
+    "for",
+    41.82
+   ],
+   [
+    "tinkerers",
+    42.007
+   ],
+   [
+    "making",
+    42.46
+   ],
+   [
+    "high-volume",
+    42.86
+   ],
+   [
+    "faceless",
+    43.5
+   ],
+   [
+    "clips.",
+    43.98
+   ],
+   [
+    "Skip",
+    44.62
+   ],
+   [
+    "it",
+    44.94
+   ],
+   [
+    "for",
+    45.18
+   ],
+   [
+    "brand-building.",
+    45.38
+   ],
+   [
+    "Here's",
+    46.3
+   ],
+   [
+    "the",
+    46.58
+   ],
+   [
+    "catch",
+    46.7
+   ],
+   [
+    "I",
+    47.1
+   ],
+   [
+    "promised:",
+    47.26
+   ],
+   [
+    "Pexels",
+    48.02
+   ],
+   [
+    "has",
+    48.46
+   ],
+   [
+    "paused",
+    48.9
+   ],
+   [
+    "new",
+    49.18
+   ],
+   [
+    "API",
+    49.3
+   ],
+   [
+    "keys,",
+    49.74
+   ],
+   [
+    "and",
+    50.3
+   ],
+   [
+    "old",
+    50.46
+   ],
+   [
+    "tutorials",
+    50.62
+   ],
+   [
+    "still",
+    51.26
+   ],
+   [
+    "tell",
+    51.58
+   ],
+   [
+    "you",
+    51.74
+   ],
+   [
+    "to",
+    51.86
+   ],
+   [
+    "get",
+    51.98
+   ],
+   [
+    "one.",
+    52.22
+   ],
+   [
+    "Use",
+    52.7
+   ],
+   [
+    "Pixabay",
+    52.94
+   ],
+   [
+    "or",
+    53.66
+   ],
+   [
+    "Coverr,",
+    53.9
+   ],
+   [
+    "or",
+    54.38
+   ],
+   [
+    "your",
+    54.54
+   ],
+   [
+    "own",
+    54.7
+   ],
+   [
+    "clips.",
+    54.86
+   ],
+   [
+    "Would",
+    55.633
+   ],
+   [
+    "you",
+    55.74
+   ],
+   [
+    "put",
+    55.9
+   ],
+   [
+    "stock",
+    56.06
+   ],
+   [
+    "footage",
+    56.38
+   ],
+   [
+    "on",
+    56.7
+   ],
+   [
+    "your",
+    56.86
+   ],
+   [
+    "brand?",
+    57.02
+   ],
+   [
+    "Send",
+    57.74
+   ],
+   [
+    "this",
+    57.9
+   ],
+   [
+    "to",
+    58.02
+   ],
+   [
+    "the",
+    58.14
+   ],
+   [
+    "friend",
+    58.22
+   ],
+   [
+    "who",
+    58.54
+   ],
+   [
+    "pays",
+    58.7
+   ],
+   [
+    "monthly",
+    59.02
+   ],
+   [
+    "for",
+    59.46
+   ],
+   [
+    "video",
+    59.58
+   ],
+   [
+    "tools.",
+    59.9
+   ],
+   [
+    "Hack",
+    60.66
+   ],
+   [
+    "saved?",
+    60.86
+   ]
+  ],
+  "duration": 61.6,
+  "ident": {
+   "at": 5.02,
+   "dur": 1.5,
+   "title": "AI HACKS",
+   "type": 0.42,
+   "sub": "EP 26 · AI VIDEO"
+  },
+  "scenes": [
+   {
+    "t": 0.0,
+    "shows": [
+     "footage:lib_robotic_hand_typing_on_keyboard",
+     "title_slam:FREE",
+     "pill:1 TOPIC → 1 VIDEO"
+    ]
+   },
+   {
+    "t": 6.58,
+    "shows": [
+     "label:STAY TILL THE END",
+     "object3d:"
+    ]
+   },
+   {
+    "t": 10.34,
+    "shows": [
+     "footage:real_1_phone",
+     "pill:MONEYPRINTERTURBO"
+    ]
+   },
+   {
+    "t": 12.46,
+    "shows": [
+     "footage:real_2_web",
+     "big_number:"
+    ]
+   },
+   {
+    "t": 16.3,
+    "shows": [
+     "screen:Step 1 · Type a topic"
+    ]
+   },
+   {
+    "t": 22.9,
+    "shows": [
+     "label:THE REAL PRICE",
+     "stat_row:"
+    ]
+   },
+   {
+    "t": 25.98,
+    "shows": [
+     "screen:Step 0 · What you need"
+    ]
+   },
+   {
+    "t": 30.74,
+    "shows": [
+     "footage:real_1_web",
+     "pill:NO PHONE APP"
+    ]
+   },
+   {
+    "t": 33.48,
+    "shows": [
+     "footage:lib_hand_scrolling_smartphone",
+     "headline:GENERIC STOCK"
+    ]
+   },
+   {
+    "t": 39.26,
+    "shows": [
+     "label:WHAT YOU DON'T GET",
+     "strike_list:"
+    ]
+   },
+   {
+    "t": 41.42,
+    "shows": [
+     "label:THE VERDICT",
+     "stat_row:",
+     "pill:HIGH-VOLUME FACELESS"
+    ]
+   },
+   {
+    "t": 46.3,
+    "shows": [
+     "label:THE STEP-ONE CATCH",
+     "object3d:",
+     "pill:OLD TUTORIALS = OUTDATED"
+    ]
+   },
+   {
+    "t": 52.7,
+    "shows": [
+     "label:USE THESE INSTEAD",
+     "strike_list:"
+    ]
+   },
+   {
+    "t": 55.63,
+    "shows": [
+     "headline:STOCK ON YOUR BRAND?"
+    ]
+   }
+  ],
+  "beats": []
+ }
+}
