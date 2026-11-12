@@ -1,0 +1,1843 @@
+{
+ "voiceover": "[conversational] One guy's IELTS essay checker makes about $5K a month, and he's selling it.\n\n[curious] Stay till the end, because one pricing change is why it took off.\n\nIt's called Writing9. You submit an essay, and you get an estimated band score plus sentence-level corrections. Students pay $7.99 a week, $14.99 a month, or $29.99 a year.\n\nThese numbers are verified on TrustMRR: about $5K MRR, 587 active subscriptions, and about $100K all-time revenue. [serious] But it's down from its peak of around $12K a month, and he's selling it for $200K. Profit's hidden, so revenue isn't profit.\n\nFounder Serhii Baraniuk failed his IELTS writing score several times, so he built the tool himself. No ads, just long-tail SEO. He shared the link with friends, and 3 days later someone bought a yearly plan.\n\nSteal this: pick a narrow niche, win it with search, and build for a problem you've lived.\n\n[whispers] Here's the move. He started at $5 a year with a 3-day trial. Then he switched to $10 a month, no trial. He says that's when sales took off.\n\n[playful] Would you build this, or buy it for $200K?\n\nSend this to the friend who's stuck on IELTS writing. Hack saved?",
+ "open_loop": {
+  "setup": "Stay till the end, because one pricing change is why it took off.",
+  "payoff": "He started at $5 a year with a 3-day trial. Then he switched to $10 a month, no trial. He says that's when sales took off."
+ },
+ "title": "IELTS CHECKER, $5K/MONTH",
+ "ig_caption": "One guy's IELTS essay checker makes about $5K a month, and he's selling it.\n✅ Narrow niche: IELTS writing\n✅ Long-tail SEO, no ads\n✅ Built for a problem he lived\n✅ Pricing change made sales take off\nWould you build this or buy it for $200K?\nSave this for later\nFollow @ihackgrowth for daily business & growth hacks",
+ "media_hints": {
+  "domain": "writing9.com",
+  "broll": [
+   "student writing essay",
+   "typing on laptop",
+   "studying at desk"
+  ]
+ },
+ "hashtags": [
+  "#Writing9",
+  "#IELTS",
+  "#SaaS",
+  "#SoloFounder",
+  "#IndieHacker",
+  "#SEO",
+  "#BusinessIdeas",
+  "#AIhacks",
+  "#growth"
+ ],
+ "tag": "BUSINESS BREAKDOWN",
+ "keywords": [
+  "IELTS",
+  "essay",
+  "Writing9",
+  "band",
+  "corrections",
+  "TrustMRR",
+  "subscriptions",
+  "revenue",
+  "profit",
+  "SEO",
+  "niche",
+  "search",
+  "trial",
+  "sales",
+  "selling",
+  "yearly"
+ ],
+ "music": "groove",
+ "scenes": [
+  {
+   "at": "One guy's",
+   "tint": "warm",
+   "react": [
+    {
+     "at": "he's selling",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "footage",
+     "at": "One guy's",
+     "media": "lib_man_studying_with_laptop",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "One guy's",
+     "text": "IELTS ESSAY CHECKER",
+     "color": "gold"
+    },
+    {
+     "type": "title_slam",
+     "at": "about $5K",
+     "text": "$5K/MONTH",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "Stay till",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Stay till",
+     "text": "STAY TILL THE END",
+     "color": "blue"
+    },
+    {
+     "type": "object3d",
+     "at": "one pricing",
+     "kind": "padlock",
+     "size": "l",
+     "caption": "1 PRICING CHANGE",
+     "caption_at": "took off."
+    }
+   ]
+  },
+  {
+   "at": "It's called",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "It's called",
+     "media": "real_2_phone",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "It's called",
+     "text": "WRITING9",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "You submit",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "You submit",
+     "device": "web",
+     "url": "writing9.com",
+     "app": "Writing9",
+     "steps": [
+      {
+       "at": "You submit",
+       "view": {
+        "kind": "page",
+        "site": "Writing9",
+        "nav": [
+         "Pricing",
+         "Check essay",
+         "Latest Topics"
+        ],
+        "heading": "Check your IELTS essay",
+        "sub": "Paste your Task 2 essay below",
+        "input": "",
+        "buttons": [
+         "Check essay"
+        ],
+        "accent": "#7c4dff"
+       },
+       "action": {
+        "kind": "type",
+        "target": "input",
+        "text": "Some people believe that technology makes us less social...",
+        "at": "You submit"
+       }
+      },
+      {
+       "at": "an essay,",
+       "view": {
+        "kind": "page",
+        "site": "Writing9",
+        "nav": [
+         "Pricing",
+         "Check essay",
+         "Latest Topics"
+        ],
+        "heading": "Check your IELTS essay",
+        "sub": "Paste your Task 2 essay below",
+        "input": "Some people believe that technology makes us less social...",
+        "buttons": [
+         "Check essay"
+        ],
+        "accent": "#7c4dff"
+       },
+       "action": {
+        "kind": "click",
+        "target": "Check essay",
+        "at": "an essay,"
+       }
+      },
+      {
+       "at": "and you get",
+       "view": {
+        "kind": "page",
+        "site": "Writing9",
+        "nav": [
+         "Pricing",
+         "Check essay",
+         "Latest Topics"
+        ],
+        "heading": "Your essay report",
+        "accent": "#7c4dff",
+        "cards": [
+         {
+          "title": "Estimated band score",
+          "text": "Overall estimate for your essay"
+         },
+         {
+          "title": "Sentence-level corrections",
+          "text": "Grammar and vocabulary fixes, line by line"
+         }
+        ]
+       },
+       "action": {
+        "kind": "point",
+        "target": "Sentence-level corrections",
+        "at": "sentence-level corrections."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Students pay",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Students pay",
+     "text": "THE PRICING"
+    },
+    {
+     "type": "stat_row",
+     "at": "$7.99 a week,",
+     "cards": [
+      {
+       "label": "WEEK",
+       "value": "$7.99",
+       "at": "$7.99 a week,",
+       "color": "white"
+      },
+      {
+       "label": "MONTH",
+       "value": "$14.99",
+       "at": "$14.99 a month,",
+       "color": "gold"
+      },
+      {
+       "label": "YEAR",
+       "value": "$29.99",
+       "at": "$29.99 a year.",
+       "color": "blue"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "These numbers",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "label",
+     "at": "These numbers",
+     "text": "VERIFIED ON TRUSTMRR",
+     "color": "green"
+    },
+    {
+     "type": "object3d",
+     "at": "$5K MRR,",
+     "kind": "coins",
+     "act": "fill",
+     "act_at": "$5K MRR,",
+     "count": 14,
+     "caption": "$5K MRR"
+    },
+    {
+     "type": "stat_row",
+     "at": "587 active",
+     "cards": [
+      {
+       "label": "ACTIVE SUBS",
+       "value": "587",
+       "at": "587 active",
+       "color": "gold"
+      },
+      {
+       "label": "ALL-TIME",
+       "value": "$100K",
+       "at": "$100K all-time",
+       "color": "green",
+       "glow": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "But it's down",
+   "tint": "red",
+   "react": [
+    {
+     "at": "revenue isn't profit.",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "arrow_pair",
+     "at": "its peak",
+     "left": {
+      "label": "PEAK",
+      "value": "$12K",
+      "color": "gold"
+     },
+     "right": {
+      "label": "NOW",
+      "value": "$5K",
+      "color": "red",
+      "at": "around $12K"
+     }
+    },
+    {
+     "type": "big_number",
+     "at": "selling it for",
+     "value": "$200K",
+     "color": "gold",
+     "note": "ASKING PRICE",
+     "note_at": "selling it for"
+    },
+    {
+     "type": "pill",
+     "at": "Profit's hidden,",
+     "text": "REVENUE ≠ PROFIT",
+     "color": "red",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "Founder Serhii",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Founder Serhii",
+     "media": "lib_man_looking_at_laptop",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "failed his",
+     "text": "FAILED IELTS WRITING",
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "at": "so he built",
+   "elements": [
+    {
+     "type": "headline",
+     "at": "so he built",
+     "text": "BUILT IT HIMSELF",
+     "size": "l",
+     "ill": "hammer_and_wrench"
+    },
+    {
+     "type": "strike_list",
+     "at": "No ads,",
+     "items": [
+      {
+       "text": "PAID ADS",
+       "at": "No ads,",
+       "strike": true
+      },
+      {
+       "text": "LONG-TAIL SEO",
+       "at": "long-tail SEO.",
+       "strike": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "He shared",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "stat_row",
+     "at": "He shared",
+     "cards": [
+      {
+       "label": "SHARED WITH",
+       "value": "FRIENDS",
+       "at": "He shared",
+       "color": "white"
+      },
+      {
+       "label": "FIRST SALE",
+       "value": "3 DAYS",
+       "at": "3 days later",
+       "color": "green",
+       "glow": true
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "at": "a yearly plan.",
+     "text": "YEARLY PLAN SOLD",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "Steal this:",
+   "react": [
+    {
+     "at": "Steal this:",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "Steal this:",
+     "text": "STEAL THIS PLAYBOOK"
+    },
+    {
+     "type": "steps",
+     "at": "pick a narrow",
+     "items": [
+      {
+       "text": "PICK A NARROW NICHE",
+       "at": "pick a narrow",
+       "ill": "bullseye"
+      },
+      {
+       "text": "WIN IT WITH SEARCH",
+       "at": "win it",
+       "ill": "magnifying_glass_tilted_right"
+      },
+      {
+       "text": "BUILD FOR YOUR OWN PAIN",
+       "at": "and build for",
+       "ill": "light_bulb"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Here's the move.",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "3-day trial.",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "Here's the move.",
+     "kind": "padlock",
+     "act": "open",
+     "act_at": "Here's the move.",
+     "caption": "THE PRICING CHANGE"
+    },
+    {
+     "type": "arrow_pair",
+     "at": "He started",
+     "left": {
+      "label": "BEFORE",
+      "value": "$5/YR",
+      "sub": "3-DAY TRIAL",
+      "color": "muted"
+     },
+     "right": {
+      "label": "AFTER",
+      "value": "$10/MO",
+      "sub": "NO TRIAL",
+      "color": "green",
+      "at": "switched to"
+     }
+    }
+   ]
+  },
+  {
+   "at": "He says",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "He says",
+     "media": "real_2_web",
+     "tall": true
+    },
+    {
+     "type": "pill",
+     "at": "sales took off.",
+     "text": "SALES TOOK OFF",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "Would you",
+   "react": [
+    {
+     "at": "buy it",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "vs",
+     "at": "Would you",
+     "left": {
+      "label": "BUILD",
+      "value": "DIY"
+     },
+     "right": {
+      "label": "BUY",
+      "value": "$200K",
+      "color": "gold",
+      "ill": "money_bag",
+      "at": "buy it"
+     }
+    },
+    {
+     "type": "pill",
+     "at": "buy it",
+     "text": "COMMENT BELOW",
+     "outline": true
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "Send this",
+  "line1": "Send this to",
+  "line1_at": "Send this",
+  "line2": "your IELTS friend",
+  "line2_at": "stuck on IELTS"
+ },
+ "hud": {
+  "label": "THE DEAL",
+  "items": [
+   {
+    "value": "$5K/MO",
+    "color": "gold"
+   },
+   {
+    "at": "its peak",
+    "value": "$12K PEAK",
+    "color": "red"
+   },
+   {
+    "at": "selling it for",
+    "value": "$200K ASK",
+    "color": "gold"
+   },
+   {
+    "at": "switched to",
+    "value": "$10/MO",
+    "color": "green"
+   }
+  ]
+ },
+ "endcard": {
+  "title": "Hack saved?",
+  "terminal": "> niche.found · $10/mo, no trial"
+ },
+ "media": [
+  {
+   "id": "real_2_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-12_2001/real_2_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-12_2001/real_2_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: writing9.com",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the page (no highlight) — WRITING9 phone landing page on a purple background. Nav items partly visible: Pricing, Check essay, Latest Topics. Headline: 'Get ready for IELTS writing section in 7 days'. Subtext: 'Writing9 checks your writings and shows what you did well and what you can improve. It helps you write better and re [Screen: writing9.com]"
+  },
+  {
+   "id": "real_2_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-12_2001/real_2_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-12_2001/real_2_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: writing9.com",
+   "desc": "REAL desktop screen recording, pushes in on the page (no highlight) — WRITING9 desktop landing page on a purple background. Headline: 'Get ready for IELTS writing section in 7 days'. Subtext: 'Writing9 checks your writings and shows what you did well and what you can improve. It helps you write better and reach Band 7 or higher.' Checklist: Know your band score in sec [Screen: writing9.com]"
+  },
+  {
+   "id": "lib_clock_ticking_and_person_typing",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "credit": "",
+   "file": "clock_ticking_and_person_typing.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A rack-focus shot moves from a close-up of a black twin-bell alarm clock with ticking hands to a bearded man in a light polo typing on a laptop in a dim room, giving a tense, time-pressured mood. Good for: lines about deadlines, time slipping away, long hours of manual work, or the pressure of slow, tedious tasks before an AI tool speeds things up"
+  },
+  {
+   "id": "lib_colleagues_collaborating_around",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "credit": "",
+   "file": "colleagues_collaborating_around.mp4",
+   "frames": 126,
+   "desc": "B-roll (4.2s, VERTICAL 9:16 — best as full: true): colleagues collaborating around Good for: "
+  },
+  {
+   "id": "lib_content_creator_sets_up_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "credit": "",
+   "file": "content_creator_sets_up_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt stands behind a ring light with a phone on a tripod, adjusting the setup while the camera slowly pushes in until his face fills the frame, with a calm, focused mood and moody blue ambient lighting in the background. Good for: setting up to create content, getting started as a creator, or preparing equipment before recording a tutorial"
+  },
+  {
+   "id": "lib_eye_reflecting_laptop_screen_glow",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "credit": "",
+   "file": "eye_reflecting_laptop_screen_glow.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow zoom into an extreme close-up of a brown eye with a bright blue screen reflected in the pupil, framed by a thick eyebrow and warm skin tones, fading into a cool blue gradient at the bottom, with a focused, intense and cinematic mood. Good for: lines about being glued to a screen, intense focus or attention, watching AI work, or 'seeing' a new opportunity or insight"
+  },
+  {
+   "id": "lib_fingers_typing_on_laptop_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "credit": "",
+   "file": "fingers_typing_on_laptop_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): Close-up over-the-shoulder shot of a person typing on a backlit laptop keyboard, with a blurred blue screen in the background and a warm, focused, productive mood. Good for: lines about getting started, writing prompts or code, doing focused work at the computer, or the hands-on steps of a tutorial"
+  },
+  {
+   "id": "lib_hand_dropping_papers_on_desk",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "credit": "",
+   "file": "hand_dropping_papers_on_desk.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a green shirt carries and then drops a thick stack of papers onto an already huge, messy pile of documents with sticky notes on a cluttered desk, while a laptop glows nearby, and the camera pushes in to a close-up of the towering stack, creating a mood of overwhelm and tedious paperwork. Good for: a script line about drowning in manual paperwork or document processing, setting up how AI can automate summarizing, sorting, or extracting information from piles of documents"
+  },
+  {
+   "id": "lib_hands_holding_credit_card_near",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hands_holding_credit_card_near.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hands_holding_credit_card_near.mp4",
+   "credit": "",
+   "file": "hands_holding_credit_card_near.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): hands holding credit card near Good for: "
+  },
+  {
+   "id": "lib_man_comparing_phone_and_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "credit": "",
+   "file": "man_comparing_phone_and_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): man comparing phone and laptop Good for: "
+  },
+  {
+   "id": "lib_man_looking_at_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "credit": "",
+   "file": "man_looking_at_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt scowls with intense focus at a laptop in a dim, warmly lit room, then closes his eyes and rubs his hand near his chin in tired frustration. Good for: frustration with slow or difficult work, such as struggling with a tedious task, debugging, or burning out late at night before finding a better way"
+  },
+  {
+   "id": "lib_man_opens_laptop_in_room",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "credit": "",
+   "file": "man_opens_laptop_in_room.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt sits at a laptop in a dimly lit, warmly lit room, and his focused, tense expression builds as he leans toward the screen, which shows blurry blue diagram or flowchart-style blocks, with his fists clenched near his chin in the middle frame. Good for: intense concentration or deep work, such as debugging, building an AI workflow, or struggling with a complex problem"
+  },
+  {
+   "id": "lib_man_shaking_head_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "credit": "",
+   "file": "man_shaking_head_at_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits in a dark chair looking down at his phone, and his expression shifts from neutral to scrunched-up frustration or confusion, then to a displeased, worried look as he lowers the phone. Good for: frustration or disappointment with a tool or app that isn't working, slow or confusing results, or a bad surprise while checking your phone"
+  },
+  {
+   "id": "lib_man_smiling_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "credit": "",
+   "file": "man_smiling_at_phone.mp4",
+   "frames": 135,
+   "desc": "B-roll (4.5s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a blue smartphone, his expression shifting from neutral to a furrowed-brow frown of confusion and frustration. Good for: a line about frustration with confusing apps or slow tools, or the moment someone hits a problem and doesn't know what to do next"
+  },
+  {
+   "id": "lib_man_staring_at_phone_in",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_staring_at_phone_in.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_staring_at_phone_in.mp4",
+   "credit": "",
+   "file": "man_staring_at_phone_in.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt stares at his smartphone, his expression moving from a focused frown to wide-eyed shock and then to a worried look straight into the camera, in a warm, dimly lit home setting. Good for: a line about a shocking discovery, an unexpected result, or a worrying realization, such as 'you won't believe what this AI tool just did' or 'when you see how much time you've been wasting'"
+  },
+  {
+   "id": "lib_man_studying_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "credit": "",
+   "file": "man_studying_with_laptop.mp4",
+   "frames": 132,
+   "desc": "B-roll (4.4s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits at a desk behind a laptop with a furrowed brow and a frustrated, concentrated look, first staring at the screen, then looking down at an open notebook and writing with a pen, with a warm blurred lamp glowing in the background. Good for: a script line about struggling to understand something complex, frustration with slow or manual work, or the pain of learning a new tool the hard way"
+  },
+  {
+   "id": "lib_man_watching_laptop_waiting",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "credit": "",
+   "file": "man_watching_laptop_waiting.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits at a laptop in a dimly lit room with warm lamp light, resting his chin on his fist with a focused, pensive look, and the camera pushes in closer across the three frames. Good for: a script line about deep thinking, researching or problem-solving, or weighing a decision before trying an AI tool"
+  },
+  {
+   "id": "lib_person_drinking_coffee_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "credit": "",
+   "file": "person_drinking_coffee_with_laptop.mp4",
+   "frames": 93,
+   "desc": "B-roll (3.1s, VERTICAL 9:16 — best as full: true): A bearded man in a green polo sits at a laptop in a modern industrial-style open office, lifting a white cup to his mouth and sipping a hot drink while looking down at the screen, in a calm, focused mood. Good for: a line about taking a breather while the AI does the work, a morning work routine, waiting for a process to finish, or the calm of an automated workflow"
+  },
+  {
+   "id": "lib_person_speaking_into_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "credit": "",
+   "file": "person_speaking_into_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt takes a phone call in a modern industrial office with exposed concrete ceilings, moving from a serious, concerned look to a worried talking expression and ending with a relieved, confident smile at the camera. Good for: a script line about getting a surprising call or news, a problem being solved, or the moment of relief after a stressful issue"
+  },
+  {
+   "id": "lib_person_taking_selfie_with_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "credit": "",
+   "file": "person_taking_selfie_with_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt sits in a car holding a blue smartphone up close to his face, and across the clip he leans toward the screen with a furrowed brow, looking skeptical and intensely focused. Good for: a script line about doubting or double-checking AI output, being confused or frustrated by an app or tool, or looking closely at a result on your phone, e.g. 'wait, is this actually right?'"
+  },
+  {
+   "id": "lib_professional_working_on_laptop_late",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "credit": "",
+   "file": "professional_working_on_laptop_late.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A tired bearded young man in a maroon t-shirt sits at a laptop in a dim apartment at night, resting his head on his hand, rubbing his eyes, then glumly lifting a white coffee mug, with blurred city lights glowing behind him through the window. Good for: A script line about burnout, late-night grinding, or frustration with slow manual work that AI tools can speed up, e.g. 'still stuck doing this by hand at midnight?'"
+  },
+  {
+   "id": "s1_image",
+   "kind": "image",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-12_2001/s1_image.png",
+   "credit": "Image: writing9.com",
+   "desc": "official image from WRITING9 (homepage)"
+  }
+ ],
+ "style": "hisaab",
+ "topic": "Business breakdown: WRITING9 — Check your IELTS essay in a couple of minutes. Get a clear and detailed report about your ",
+ "pick": {
+  "topic": "Business breakdown: WRITING9 — Check your IELTS essay in a couple of minutes. Get a clear and detailed report about your ",
+  "tool": "WRITING9",
+  "format": "business",
+  "angle": "A simple IELTS essay checker makes about $5K a month by fixing one painful problem for test-takers"
+ },
+ "inspired_by": {
+  "url": "https://trustmrr.com/startup/writing9",
+  "owner": "trustmrr",
+  "plays": 0,
+  "likes": 0,
+  "comments": 0
+ },
+ "research": {
+  "verdict": "ok",
+  "tool": "WRITING9",
+  "what_it_does": "An AI IELTS writing checker. You submit an essay, letter or chart description and get an estimated band score plus sentence-level corrections.",
+  "who_pays": "IELTS test-takers (B2C students) who pay for a subscription for unlimited essay checks.",
+  "pricing": "Homepage (writing9.com) lists Weekly $7.99/week, Monthly $14.99/month, Yearly $29.99/year. The yearly plan was shown as $37.49 crossed out with '20% off until the end of the week'. It also states a 100% money-back guarantee if you don't reach your target IELTS score. Premium includes unlimited submissions. An IELTSbiz review (Sept 2026) confirms the same three prices and says there is only a demo, no real free tier.",
+  "growth": [
+   "Organic SEO. In his Starter Story interview the founder says he spent no money on ads. He focused on ranking for long-tail keywords, and that is how Writing9 grew (starterstory.com).",
+   "Launch was tiny. He shared the site link in a chat with friends who were also preparing for IELTS. Three days later the first person bought a yearly subscription, and the founder says it was still active five years on (Starter Story).",
+   "Pricing change drove sales. The first version cost $5 per year with a 3-day trial. He then switched to $10 per month with no trial. He says that change made sales take off and made the business profitable (Starter Story).",
+   "Homepage says 'Join 48,149 students who successfully passed IELTS' (writing9.com). This is a self-reported marketing claim, not independently verified."
+  ],
+  "founder_story": [
+   "Serhii Baraniuk is a solo founder. Starter Story lists 1 founder and 0 employees. His X bio says 'solo founder' and lists several other products, plus '+11 failed'.",
+   "The idea came from his own struggle. He was preparing for IELTS and failed to get the required writing score several times (Starter Story).",
+   "He first built Writing9 on the side while working full-time as a programmer (Starter Story). It started in July 2018.",
+   "Starter Story says he is from Ukraine, and his X profile location says Barcelona."
+  ],
+  "lessons": [
+   "Pick a narrow, high-intent niche (IELTS writing) and win it with long-tail SEO instead of paid ads. The founder credits this directly.",
+   "Don't underprice a high-stakes purchase. Moving from $5 per year with a trial to $10 per month with no trial is what he says made sales take off.",
+   "Build the tool for a problem you personally had. The founder lived the IELTS writing struggle."
+  ],
+  "criticism": [
+   "Revenue is well below its peak. Starter Story and Venture Radar (about 455 days old) quoted about $12K–13K per month. TrustMRR now shows $4,778 MRR and $4,824 over the last 30 days, so it is much lower than when it was profiled.",
+   "The founder is selling the business for $200,000 (3.3x revenue). Profit is hidden on TrustMRR ('XX%'), so revenue is not profit.",
+   "Competitors say Writing9 scores less accurately than rivals. One rival's own benchmark (aat.ee, a competitor's self-published test) reported an average error of 1.62 band points for Writing9 against 0.49 for its own tool. A SmallTalk2Me comparison says scores can drift between submissions of the same essay. Treat both as competitor claims.",
+   "It covers Writing only, with no Speaking, Reading or Listening, and most features sit behind a paywall. Many AI IELTS checkers and free ChatGPT are alternatives.",
+   "Domain Rating is only 34/100 and the business depends heavily on Google search traffic."
+  ],
+  "facts": [
+   "TrustMRR (Stripe-verified): MRR $4,778, 587 active subscriptions, $99,578 all-time revenue, 14% MoM growth, ~47,911 users, listed for $200,000.",
+   "Tech stack per TrustMRR: React, Express, MongoDB, Stripe.",
+   "Starter Story estimates the business makes about $156K per year at the time of the interview. This is a self-reported figure and is now outdated versus TrustMRR.",
+   "Homepage says the service can check Task 1 General letters, Task 1 Academic charts and Task 2 essays. It also says the final real exam score may differ slightly from the estimate."
+  ],
+  "do_not_claim": [
+   "Profit or profit margin (hidden on TrustMRR).",
+   "Current team size beyond 'solo' as of the Starter Story interview.",
+   "That 48,149 students 'passed' IELTS because of it (marketing claim).",
+   "Any Product Hunt, Indie Hackers, X or viral launch. No source was found.",
+   "That the app is accurate to real examiner scores. Only competitor benchmarks exist, and they are negative.",
+   "Where the founder lives. Sources conflict: Barcelona, Odessa and United States.",
+   "Current pricing beyond the homepage snapshot. The yearly promo price may change."
+  ],
+  "real_pages": [
+   {
+    "url": "https://trustmrr.com/startup/writing9",
+    "show": "$4,778",
+    "kind": "site"
+   },
+   {
+    "url": "https://writing9.com",
+    "show": "",
+    "kind": "site"
+   },
+   {
+    "url": "https://writing9.com/",
+    "show": "$7.99/week",
+    "kind": "site"
+   },
+   {
+    "url": "https://writing9.com/",
+    "show": "$29.99/year",
+    "kind": "site"
+   }
+  ],
+  "sources": [
+   "https://writing9.com/",
+   "https://www.starterstory.com/stories/check-your-ielts-essay-online-correction-and-evaluation-service",
+   "https://trustmrr.com/startup/writing9",
+   "https://twitter.com/serhiibaraniuk?lang=en",
+   "https://ieltsbiz.com/blog/best-ielts-writing-checker-tools",
+   "https://smalltalk2.me/blog/tpost/ki8ben5e31-best-ai-ielts-writing-checkers-in-2026-a",
+   "https://www.aat.ee/projects/ielts-writing-checker",
+   "https://ventureradar.substack.com/p/one-person-email-directory-making",
+   "https://www.linkedin.com/company/writing9?trk=ppro_cprof"
+  ],
+  "notes": "The homepage snippet I saw was cached (marked about 637 days old), so confirm the live pricing and the 'Join 48,149 students' counter when recording. The highlight phrases are copied from that cached text. Check the highlight text against the live page, especially '$29.99/year', since the promo styling may differ. I could not find individual feature, gallery or sample-essay pages, so only the homepage is listed. The strongest story angle is solo founder, SEO-only growth, a price change that unlocked sales, and now a drop from about $12K per month to about $4.8K MRR with the business for sale at $200K. Starter Story's headline is $12K per month, and TrustMRR's revenue is lower now. Describe it as 'down from its peak', not as growing, even though TrustMRR shows 14% MoM.",
+  "_searched": 4,
+  "trustmrr": {
+   "name": "WRITING9",
+   "one_liner": "Check your IELTS essay in a couple of minutes. Get a clear and detailed report about your IELTS Essay you need to discover your weak areas and fix them.",
+   "website": "https://writing9.com",
+   "founder": "Serhii Baraniuk",
+   "founder_x": "",
+   "founded": "July 2018",
+   "location": "United States",
+   "category": "Education, Content Creation, Saas",
+   "audience": "IELTS students (B2C), ~47,911 users",
+   "pricing": "Weekly: $7.99/week, Monthly: $14.99/month, Yearly: $29.99/year",
+   "revenue_last_30_days": "$4,824",
+   "revenue_all_time": "$99,578",
+   "mrr": "$4,778",
+   "growth_mom": "14%",
+   "active_subscriptions": "587",
+   "rank": "#649",
+   "for_sale": "$200,000",
+   "verified_by": "Stripe API key",
+   "last_updated": "Nov 12, 2026, 09:39 AM",
+   "other": [
+    "3.3x revenue multiple",
+    "2,944 people saw this",
+    "12 buyers interested",
+    "82 followers on 𝕏",
+    "Profit margin: XX%",
+    "Domain Rating: 34/100 (writing9.com)",
+    "Value proposition: Writing9 checks your writings and shows what you did well and what you can improve. It helps you write better and reach Band 7 or higher.",
+    "Problem solved: Without practice, each mistake can lower your score. Writing9 helps you find and fix mistakes to improve your IELTS writing score.",
+    "Tech stack: React (Frontend); Express, MongoDB, Stripe (Backend)",
+    "100% money-back guarantee",
+    "Affiliate: Know a buyer for WRITING9? You could earn $3,000."
+   ],
+   "trustmrr_url": "https://trustmrr.com/startup/writing9"
+  },
+  "say_numbers_as": [
+   "$4,824 (can be said as: $0K, $4K, $5K)",
+   "$99,578 (can be said as: $100K, $99K)",
+   "$4,778 (can be said as: $0K, $4K, $5K)",
+   "$200,000 (can be said as: $200K)",
+   "$3,000 (can be said as: $0K, $3K)"
+  ]
+ },
+ "kind": "business",
+ "episode": 27,
+ "_ident": {
+  "at": 5.433,
+  "dur": 1.5,
+  "title": "AI HACKS",
+  "type": 0.42,
+  "sub": "EP 27 · BUSINESS BREAKDOWN"
+ },
+ "timeline": {
+  "words": [
+   [
+    "One",
+    0.16
+   ],
+   [
+    "guy's",
+    0.4
+   ],
+   [
+    "IELTS",
+    0.84
+   ],
+   [
+    "essay",
+    1.12
+   ],
+   [
+    "checker",
+    1.44
+   ],
+   [
+    "makes",
+    1.96
+   ],
+   [
+    "about",
+    2.28
+   ],
+   [
+    "$5K",
+    2.6
+   ],
+   [
+    "a",
+    2.8
+   ],
+   [
+    "month,",
+    3.2
+   ],
+   [
+    "and",
+    4.24
+   ],
+   [
+    "he's",
+    4.36
+   ],
+   [
+    "selling",
+    4.72
+   ],
+   [
+    "it.",
+    4.96
+   ],
+   [
+    "Stay",
+    6.94
+   ],
+   [
+    "till",
+    7.233
+   ],
+   [
+    "the",
+    7.42
+   ],
+   [
+    "end,",
+    7.58
+   ],
+   [
+    "because",
+    8.167
+   ],
+   [
+    "one",
+    8.38
+   ],
+   [
+    "pricing",
+    8.62
+   ],
+   [
+    "change",
+    9.22
+   ],
+   [
+    "is",
+    9.54
+   ],
+   [
+    "why",
+    9.74
+   ],
+   [
+    "it",
+    9.9
+   ],
+   [
+    "took",
+    10.06
+   ],
+   [
+    "off.",
+    10.22
+   ],
+   [
+    "It's",
+    10.82
+   ],
+   [
+    "called",
+    11.22
+   ],
+   [
+    "Writing9.",
+    11.66
+   ],
+   [
+    "You",
+    12.62
+   ],
+   [
+    "submit",
+    12.86
+   ],
+   [
+    "an",
+    13.1
+   ],
+   [
+    "essay,",
+    13.42
+   ],
+   [
+    "and",
+    13.767
+   ],
+   [
+    "you",
+    13.86
+   ],
+   [
+    "get",
+    13.98
+   ],
+   [
+    "an",
+    14.14
+   ],
+   [
+    "estimated",
+    14.3
+   ],
+   [
+    "band",
+    14.86
+   ],
+   [
+    "score",
+    15.3
+   ],
+   [
+    "plus",
+    15.66
+   ],
+   [
+    "sentence-level",
+    16.02
+   ],
+   [
+    "corrections.",
+    16.54
+   ],
+   [
+    "Students",
+    17.767
+   ],
+   [
+    "pay",
+    17.98
+   ],
+   [
+    "$7.99",
+    18.34
+   ],
+   [
+    "a",
+    18.54
+   ],
+   [
+    "week,",
+    18.86
+   ],
+   [
+    "$14.99",
+    20.46
+   ],
+   [
+    "a",
+    20.86
+   ],
+   [
+    "month,",
+    21.18
+   ],
+   [
+    "or",
+    22.807
+   ],
+   [
+    "$29.99",
+    22.94
+   ],
+   [
+    "a",
+    23.5
+   ],
+   [
+    "year.",
+    23.9
+   ],
+   [
+    "These",
+    25.66
+   ],
+   [
+    "numbers",
+    25.9
+   ],
+   [
+    "are",
+    26.3
+   ],
+   [
+    "verified",
+    26.62
+   ],
+   [
+    "on",
+    26.94
+   ],
+   [
+    "TrustMRR:",
+    27.26
+   ],
+   [
+    "about",
+    28.14
+   ],
+   [
+    "$5K",
+    28.54
+   ],
+   [
+    "MRR,",
+    28.7
+   ],
+   [
+    "587",
+    30.3
+   ],
+   [
+    "active",
+    30.46
+   ],
+   [
+    "subscriptions,",
+    31.82
+   ],
+   [
+    "and",
+    32.7
+   ],
+   [
+    "about",
+    32.94
+   ],
+   [
+    "$100K",
+    33.18
+   ],
+   [
+    "all-time",
+    33.74
+   ],
+   [
+    "revenue.",
+    35.02
+   ],
+   [
+    "But",
+    35.74
+   ],
+   [
+    "it's",
+    35.86
+   ],
+   [
+    "down",
+    36.3
+   ],
+   [
+    "from",
+    36.54
+   ],
+   [
+    "its",
+    36.74
+   ],
+   [
+    "peak",
+    36.98
+   ],
+   [
+    "of",
+    37.14
+   ],
+   [
+    "around",
+    37.26
+   ],
+   [
+    "$12K",
+    37.66
+   ],
+   [
+    "a",
+    37.98
+   ],
+   [
+    "month,",
+    38.38
+   ],
+   [
+    "and",
+    39.233
+   ],
+   [
+    "he's",
+    39.34
+   ],
+   [
+    "selling",
+    39.66
+   ],
+   [
+    "it",
+    39.9
+   ],
+   [
+    "for",
+    40.1
+   ],
+   [
+    "$200K.",
+    40.3
+   ],
+   [
+    "Profit's",
+    42.113
+   ],
+   [
+    "hidden,",
+    42.38
+   ],
+   [
+    "so",
+    42.94
+   ],
+   [
+    "revenue",
+    43.26
+   ],
+   [
+    "isn't",
+    43.82
+   ],
+   [
+    "profit.",
+    44.42
+   ],
+   [
+    "Founder",
+    44.86
+   ],
+   [
+    "Serhii",
+    45.38
+   ],
+   [
+    "Baraniuk",
+    45.74
+   ],
+   [
+    "failed",
+    46.38
+   ],
+   [
+    "his",
+    46.7
+   ],
+   [
+    "IELTS",
+    46.86
+   ],
+   [
+    "writing",
+    47.18
+   ],
+   [
+    "score",
+    47.5
+   ],
+   [
+    "several",
+    47.98
+   ],
+   [
+    "times,",
+    48.58
+   ],
+   [
+    "so",
+    48.913
+   ],
+   [
+    "he",
+    49.02
+   ],
+   [
+    "built",
+    49.26
+   ],
+   [
+    "the",
+    49.42
+   ],
+   [
+    "tool",
+    49.62
+   ],
+   [
+    "himself.",
+    49.86
+   ],
+   [
+    "No",
+    50.7
+   ],
+   [
+    "ads,",
+    50.94
+   ],
+   [
+    "just",
+    51.42
+   ],
+   [
+    "long-tail",
+    51.74
+   ],
+   [
+    "SEO.",
+    52.38
+   ],
+   [
+    "He",
+    53.047
+   ],
+   [
+    "shared",
+    53.22
+   ],
+   [
+    "the",
+    53.38
+   ],
+   [
+    "link",
+    53.5
+   ],
+   [
+    "with",
+    53.66
+   ],
+   [
+    "friends,",
+    54.06
+   ],
+   [
+    "and",
+    54.46
+   ],
+   [
+    "3",
+    54.62
+   ],
+   [
+    "days",
+    54.9
+   ],
+   [
+    "later",
+    55.1
+   ],
+   [
+    "someone",
+    55.5
+   ],
+   [
+    "bought",
+    55.86
+   ],
+   [
+    "a",
+    56.14
+   ],
+   [
+    "yearly",
+    56.3
+   ],
+   [
+    "plan.",
+    56.62
+   ],
+   [
+    "Steal",
+    57.34
+   ],
+   [
+    "this:",
+    57.66
+   ],
+   [
+    "pick",
+    58.247
+   ],
+   [
+    "a",
+    58.34
+   ],
+   [
+    "narrow",
+    58.46
+   ],
+   [
+    "niche,",
+    58.78
+   ],
+   [
+    "win",
+    59.42
+   ],
+   [
+    "it",
+    59.58
+   ],
+   [
+    "with",
+    59.74
+   ],
+   [
+    "search,",
+    60.14
+   ],
+   [
+    "and",
+    60.54
+   ],
+   [
+    "build",
+    60.74
+   ],
+   [
+    "for",
+    60.94
+   ],
+   [
+    "a",
+    61.1
+   ],
+   [
+    "problem",
+    61.42
+   ],
+   [
+    "you've",
+    61.62
+   ],
+   [
+    "lived.",
+    61.9
+   ],
+   [
+    "Here's",
+    62.75
+   ],
+   [
+    "the",
+    62.86
+   ],
+   [
+    "move.",
+    63.3
+   ],
+   [
+    "He",
+    63.767
+   ],
+   [
+    "started",
+    63.9
+   ],
+   [
+    "at",
+    64.34
+   ],
+   [
+    "$5",
+    64.54
+   ],
+   [
+    "a",
+    64.78
+   ],
+   [
+    "year",
+    65.1
+   ],
+   [
+    "with",
+    65.46
+   ],
+   [
+    "a",
+    65.74
+   ],
+   [
+    "3-day",
+    65.9
+   ],
+   [
+    "trial.",
+    66.22
+   ],
+   [
+    "Then",
+    66.86
+   ],
+   [
+    "he",
+    67.18
+   ],
+   [
+    "switched",
+    67.34
+   ],
+   [
+    "to",
+    67.58
+   ],
+   [
+    "$10",
+    67.82
+   ],
+   [
+    "a",
+    68.06
+   ],
+   [
+    "month,",
+    68.3
+   ],
+   [
+    "no",
+    68.86
+   ],
+   [
+    "trial.",
+    69.1
+   ],
+   [
+    "He",
+    69.66
+   ],
+   [
+    "says",
+    69.82
+   ],
+   [
+    "that's",
+    70.22
+   ],
+   [
+    "when",
+    70.58
+   ],
+   [
+    "sales",
+    70.86
+   ],
+   [
+    "took",
+    71.1
+   ],
+   [
+    "off.",
+    71.26
+   ],
+   [
+    "Would",
+    71.82
+   ],
+   [
+    "you",
+    72.06
+   ],
+   [
+    "build",
+    72.22
+   ],
+   [
+    "this,",
+    72.46
+   ],
+   [
+    "or",
+    72.94
+   ],
+   [
+    "buy",
+    73.26
+   ],
+   [
+    "it",
+    73.42
+   ],
+   [
+    "for",
+    73.58
+   ],
+   [
+    "$200K?",
+    73.74
+   ],
+   [
+    "Send",
+    75.18
+   ],
+   [
+    "this",
+    75.42
+   ],
+   [
+    "to",
+    75.54
+   ],
+   [
+    "the",
+    75.66
+   ],
+   [
+    "friend",
+    75.82
+   ],
+   [
+    "who's",
+    76.1
+   ],
+   [
+    "stuck",
+    76.38
+   ],
+   [
+    "on",
+    76.62
+   ],
+   [
+    "IELTS",
+    76.78
+   ],
+   [
+    "writing.",
+    77.02
+   ],
+   [
+    "Hack",
+    77.74
+   ],
+   [
+    "saved?",
+    78.18
+   ]
+  ],
+  "duration": 78.72,
+  "ident": {
+   "at": 5.433,
+   "dur": 1.5,
+   "title": "AI HACKS",
+   "type": 0.42,
+   "sub": "EP 27 · BUSINESS BREAKDOWN"
+  },
+  "scenes": [
+   {
+    "t": 0.0,
+    "shows": [
+     "footage:lib_man_studying_with_laptop",
+     "pill:IELTS ESSAY CHECKER",
+     "title_slam:$5K/MONTH"
+    ]
+   },
+   {
+    "t": 6.94,
+    "shows": [
+     "label:STAY TILL THE END",
+     "object3d:"
+    ]
+   },
+   {
+    "t": 10.82,
+    "shows": [
+     "footage:real_2_phone",
+     "pill:WRITING9"
+    ]
+   },
+   {
+    "t": 12.62,
+    "shows": [
+     "screen:"
+    ]
+   },
+   {
+    "t": 17.77,
+    "shows": [
+     "label:THE PRICING",
+     "stat_row:"
+    ]
+   },
+   {
+    "t": 25.66,
+    "shows": [
+     "label:VERIFIED ON TRUSTMRR",
+     "object3d:",
+     "stat_row:"
+    ]
+   },
+   {
+    "t": 35.74,
+    "shows": [
+     "arrow_pair:",
+     "big_number:",
+     "pill:REVENUE ≠ PROFIT"
+    ]
+   },
+   {
+    "t": 44.86,
+    "shows": [
+     "footage:lib_man_looking_at_laptop",
+     "pill:FAILED IELTS WRITING"
+    ]
+   },
+   {
+    "t": 48.91,
+    "shows": [
+     "headline:BUILT IT HIMSELF",
+     "strike_list:"
+    ]
+   },
+   {
+    "t": 53.05,
+    "shows": [
+     "stat_row:",
+     "pill:YEARLY PLAN SOLD"
+    ]
+   },
+   {
+    "t": 57.34,
+    "shows": [
+     "label:STEAL THIS PLAYBOOK",
+     "steps:"
+    ]
+   },
+   {
+    "t": 62.75,
+    "shows": [
+     "object3d:",
+     "arrow_pair:"
+    ]
+   },
+   {
+    "t": 69.66,
+    "shows": [
+     "footage:real_2_web",
+     "pill:SALES TOOK OFF"
+    ]
+   },
+   {
+    "t": 71.82,
+    "shows": [
+     "vs:",
+     "pill:COMMENT BELOW"
+    ]
+   }
+  ],
+  "beats": [
+   8.65,
+   31.74
+  ]
+ }
+}
