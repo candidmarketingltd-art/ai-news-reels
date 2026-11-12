@@ -4,41 +4,12 @@
   BUFFER_API_KEY: set
   BUFFER_CHANNEL_ID: set
       voice: Rohan 0ynj1kxK93EAXGRqL9Rm (found by name in this workspace)
-window 2026-11-12-1300 | posting times 13:00, 17:00, 20:00 IST | dry_run=False
-      reel type: marketing
-      b-roll library: 25 clips
-      recording request #1: still waiting for the video
-      recording request #2: still waiting for the video
-[1/6] top AI & tech reels
-      hashtag scrape failed: apify apify/instagram-hashtag-scraper: 403 {
-  "error": {
-    "type": "platform-feature-disabled",
-    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and o
-      using the last saved reel pool
-      reel pool: 76 reels
-[2/6] picking the topic
-      → Review of MoneyPrinterTurbo, a free open-source tool that turns one topic into a finished video (script, voice-over, stock footage, subtitles, music), and whether it's worth using for business content  (review, from @ngurahmayun_code, 63,107 views) — 63k views and 3,756 likes on an 84s reel, a strong like rate. It's a free alternative to paid AI video tools, which fits our review slot and builds on the Higgs
-      transcript failed: apify apify/instagram-reel-scraper: 403 {
-  "error": {
-    "type": "platform-feature-disabled",
-    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and othe
-[3/6] research (0 transcript words)
-      verdict adjust · 5 web searches · 7 steps · 14 sources
-[4/6] script + edit
-      real screens: 4 usable of 8 captured from 4 official pages
-      (media: pexels 'typing on laptop' failed: 403 Client Error: Forbidden for url: https://api.apify.com/v2/acts/memo23~pexels)
-      (media: pexels 'video editing timeline' failed: 403 Client Error: Forbidden for url: https://api.apify.com/v2/acts/memo23~pexels)
-      media: s1_image
-[5/6] voice + render
-      [eleven] subscription: 200 {"tier":"creator","character_count":30721,"character_limit":131000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796464027,"voice_slots_used":1,"professional_voice_slots
-      [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
-      voice check: 1 word(s) misheard [('avatars', 'avtas')] -> recording another take
-      [eleven] subscription: 200 {"tier":"creator","character_count":30721,"character_limit":131000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796464027,"voice_slots_used":1,"professional_voice_slots
-      [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
-      take 2: 1 misheard [('ollama', 'olama model works plus a stock footage key and the code is not a good idea you need an llm and a local olama')]
-      169 words, 60.1s, voice eleven_v4
-      warning: 1 cue(s) not found in the voice timing, used defaults: ['zero cost.']
-      remotion: Reel /tmp/tmpxxpgd62v/video_only.mp4
-[6/6] publish
-      [buffer] created post 6af56e1fdf70eccdaabdd90d (customScheduled)
-POSTED 6af56e1fdf70eccdaabdd90d https://github.com/candidmarketingltd-art/ai-news-reels/releases/download/reel-2026-11-12_1302/2026-11-12_1302.mp4
+window 2026-11-12-1700 | posting times 13:00, 17:00, 20:00 IST | dry_run=False
+      reel type: meme
+[1/3] trending audio + Claude news this week
+      14 trending songs, 10 news items
+[2/3] meme line
+      “how it started: one small button. how it's going: 3am, 47 tabs, nobody touch anything” on lib_clock_ticking_and_person_typing · song: Everlong — Foo Fighters
+[3/3] render
+      [buffer] reminder post 6af5a4128dea3df8ddba2c0b (customScheduled)
+REMINDER SENT 6af5a4128dea3df8ddba2c0b

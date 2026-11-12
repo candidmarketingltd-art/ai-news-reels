@@ -1,0 +1,31 @@
+{
+ "shots": [
+  {
+   "clip": "lib_clock_ticking_and_person_typing",
+   "text": "how it started: one small button. how it's going: 3am, 47 tabs, nobody touch anything",
+   "seconds": 7
+  }
+ ],
+ "style": "meme",
+ "song": {
+  "title": "Everlong",
+  "artist": "Foo Fighters",
+  "mood": "dramatic",
+  "trend": "'How it started vs. how it's going' reels, a catalog-recycling sound that is climbing on Reels.",
+  "source": "https://creatordb.app/free-tools/trending-instagram-audio/",
+  "list_date": "2026-11-11 (CreatorDB); also #10 on SocialPilot's Oct 31–Nov 10 list",
+  "snippet": "Use the most-used 'how it started vs how it's going' snippet. Start the text as the clock fades into the guy typing.",
+  "why": "It's the how-it-started vs how-it's-going audio, and the clock-to-typing rack focus is the 'how it's going' reveal."
+ },
+ "backup_song": {
+  "title": "Hold On, We're Going Home",
+  "artist": "Drake, Majid Jordan"
+ },
+ "caption": "every vibe-coded project ends with a button that's holding the whole app together 🙃 be honest: what's the one file you're scared to touch?\n\n#vibecoding #claudeai #aimemes #founderlife #buildinpublic #devhumor",
+ "cover_word": "3am it works",
+ "text": "how it started: one small button. how it's going: 3am, 47 tabs, nobody touch anything",
+ "clip": "lib_clock_ticking_and_person_typing",
+ "clip_paths": {
+  "lib_clock_ticking_and_person_typing": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4"
+ }
+}
