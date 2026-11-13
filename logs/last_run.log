@@ -4,44 +4,12 @@
   BUFFER_API_KEY: set
   BUFFER_CHANNEL_ID: set
       voice: Rohan 0ynj1kxK93EAXGRqL9Rm (found by name in this workspace)
-window 2026-11-13-1300 | posting times 13:00, 17:00, 20:00 IST | dry_run=False
-      reel type: marketing
-      b-roll library: 25 clips
-      recording request #1: still waiting for the video
-      recording request #2: still waiting for the video
-[1/6] top AI & tech reels
-      hashtag scrape failed: apify apify/instagram-hashtag-scraper: 401 {
-  "error": {
-    "type": "user-or-token-not-found",
-    "message": "User was not found or authentication token is not valid"
-  }
-}
-      using the last saved reel pool
-      reel pool: 76 reels
-[2/6] picking the topic
-      → Audit an AI-built app or website before real customers use it. Paste a security and quality audit prompt into Claude Code or your AI coding tool to catch exposed API keys, missing login checks, leaky customer data and broken payment flows, then fix the issues in 3 steps.  (warning, from @lincolndevine, 102,800 views) — 102,800 views and 569 comments on a 41s reel, with 'AUDIT' as the comment trigger. Founders who vibe-code their own tools care about this, and it is a checkable
-      transcript failed: apify apify/instagram-reel-scraper: 401 {
-  "error": {
-    "type": "user-or-token-not-found",
-    "message": "User was not found or authentication token is not valid"
-  }
-}
-[3/6] research (0 transcript words)
-      verdict adjust · 6 web searches · 4 steps · 15 sources
-[4/6] script + edit
-      real screens: 8 usable of 8 captured from 4 official pages
-      (media: pexels 'typing on laptop' failed: 401 Client Error: Unauthorized for url: https://api.apify.com/v2/acts/memo23~pex)
-      (media: pexels 'code on screen' failed: 401 Client Error: Unauthorized for url: https://api.apify.com/v2/acts/memo23~pex)
-      media: s1_image, s1_logo
-[5/6] voice + render
-      [eleven] subscription: 200 {"tier":"creator","character_count":32629,"character_limit":131000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796464027,"voice_slots_used":1,"professional_voice_slots
-      [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
-      voice check: 2 word(s) misheard [('', 'systemd'), ('', 'this thing')] -> recording another take
-      [eleven] subscription: 200 {"tier":"creator","character_count":32629,"character_limit":131000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796464027,"voice_slots_used":1,"professional_voice_slots
-      [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
-      take 2: 2 misheard [('', 'sicily'), ("who's", 'who is')]
-      167 words, 65.8s, voice eleven_v4
-      remotion: Reel /tmp/tmp1dqg571k/video_only.mp4
-[6/6] publish
-      [buffer] created post 6af6bfa9da25c4db3ea206d9 (customScheduled)
-POSTED 6af6bfa9da25c4db3ea206d9 https://github.com/candidmarketingltd-art/ai-news-reels/releases/download/reel-2026-11-13_1302/2026-11-13_1302.mp4
+window 2026-11-13-1700 | posting times 13:00, 17:00, 20:00 IST | dry_run=False
+      reel type: meme
+[1/3] trending audio + Claude news this week
+      13 trending songs, 6 news items
+[2/3] meme line
+      “microsoft 365 is down. outlook, teams, all of it. / my entire job is email. me: war is over” on lib_man_watching_laptop_waiting,lib_man_pointing_at_camera · song: Happy Xmas (War Is Over) — John Lennon & Yoko Ono
+[3/3] render
+      [buffer] reminder post 6af6f57466ff9797d87bde64 (customScheduled)
+REMINDER SENT 6af6f57466ff9797d87bde64

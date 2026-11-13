@@ -1,0 +1,37 @@
+{
+ "shots": [
+  {
+   "clip": "lib_man_watching_laptop_waiting",
+   "text": "microsoft 365 is down. outlook, teams, all of it.",
+   "seconds": 2.7
+  },
+  {
+   "clip": "lib_man_pointing_at_camera",
+   "text": "my entire job is email. me: war is over",
+   "seconds": 4.3
+  }
+ ],
+ "style": "meme",
+ "song": {
+  "title": "Happy Xmas (War Is Over)",
+  "artist": "John Lennon & Yoko Ono",
+  "mood": "wholesome",
+  "trend": "'War is over.' appears on screen, then the creator reveals a tiny win they finally got. It could be 'the bug is fixed'. Licensed track, creator accounts only. Business accounts need to verify in-app.",
+  "source": "https://newengen.com/insights/instagram-trends/",
+  "list_date": "November 2026 weekly update (~2026-11-07)",
+  "snippet": "use the most-used snippet: 'war is over' text on the first beat, then the reveal on the cut",
+  "why": "the outage is the 'war is over' moment: nobody can email, so the workday is officially done"
+ },
+ "backup_song": {
+  "title": "Hold On, We're Going Home",
+  "artist": "Drake, Majid Jordan"
+ },
+ "caption": "when the email goes down, it's not a crisis, it's a surprise holiday 😌 be honest: did you secretly enjoy the outage? tag the coworker who 'couldn't reply' for 8 hours.\n\n#outlook #microsoft365 #workfromhome #founderlife #aimemes #marketingmemes",
+ "cover_word": "outage war over",
+ "text": "microsoft 365 is down. outlook, teams, all of it. / my entire job is email. me: war is over",
+ "clip": "lib_man_watching_laptop_waiting,lib_man_pointing_at_camera",
+ "clip_paths": {
+  "lib_man_pointing_at_camera": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_pointing_at_camera.mp4",
+  "lib_man_watching_laptop_waiting": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4"
+ }
+}

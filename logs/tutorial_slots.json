@@ -209,5 +209,12 @@
   "at": "2026-11-13 13:13",
   "post": "6af6bfa9da25c4db3ea206d9",
   "topic": "Audit an AI-built app or website before real customers use it. Paste a security and quality audit prompt into Claude Code or your AI coding tool to catch exposed API keys, missing login checks, leaky customer data and broken payment flows, then fix the issues in 3 steps."
+ },
+ "2026-11-13-1700": {
+  "status": "posted",
+  "at": "2026-11-13 17:03",
+  "post": "6af6f57466ff9797d87bde64",
+  "topic": "meme: microsoft 365 is down. outlook, teams, all of it. / my entire job is email. me: ",
+  "manual": true
  }
 }
