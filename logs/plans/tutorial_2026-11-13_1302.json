@@ -1,0 +1,1705 @@
+{
+ "voiceover": "[conversational] An AI-built app leaked about 1.5 million API tokens in early 2026.\n\nYours might be next, and there's one step most people skip.\n\n[serious] One scan of 1,430 AI-built apps found 73% had at least one critical flaw.\n\nOpen a terminal in your project folder and type claude. You need a paid plan, Pro is $20 a month.\n\nStep 1: run /security-review. It only covers your current branch.\n\n[playful] Step 2: paste this. \"Audit this app: exposed keys, missing login checks, leaked customer data, payment flaws. Ranked report, no code changes yet.\"\n\nStep 3: have Claude fix the Critical and High findings one at a time, then re-run /security-review.\n\n[serious] The catch: it only reads source code, so it can miss things.\n\n[confident] Here's the skipped part: rotate any key that was ever exposed, because deleting it from the code doesn't make it safe. Then test payments in test mode.\n\nWhat's the scariest thing your AI tool ever shipped?\n\nSend this to the friend who's launching a vibe-coded app.\n\nHack saved?",
+ "open_loop": {
+  "setup": "Yours might be next, and there's one step most people skip.",
+  "payoff": "Here's the skipped part: rotate any key that was ever exposed, because deleting it from the code doesn't make it safe."
+ },
+ "title": "AUDIT BEFORE LAUNCH",
+ "ig_caption": "An AI-built app leaked about 1.5 million API tokens in early 2026. Audit yours before launch.\n✅ Run /security-review in Claude Code\n✅ Paste a whole-app audit prompt\n✅ Fix Critical and High issues, rotate exposed keys, re-run\nWhat's the scariest thing your AI tool ever shipped? Tell me below 👇\nSave this for later\nFollow @ihackgrowth for daily business & growth hacks",
+ "media_hints": {
+  "domain": "claude.com",
+  "broll": [
+   "typing on laptop",
+   "code on screen",
+   "worried at desk"
+  ]
+ },
+ "hashtags": [
+  "#AIhacks",
+  "#AItools",
+  "#ClaudeCode",
+  "#vibecoding",
+  "#cybersecurity",
+  "#appdevelopment",
+  "#startups",
+  "#productivity"
+ ],
+ "tag": "APP SECURITY",
+ "keywords": [
+  "AI-built",
+  "leaked",
+  "tokens",
+  "skip",
+  "critical",
+  "terminal",
+  "Claude",
+  "branch",
+  "paste",
+  "keys",
+  "login",
+  "customer",
+  "payment",
+  "fix",
+  "catch",
+  "rotate",
+  "exposed",
+  "safe",
+  "payments",
+  "vibe-coded"
+ ],
+ "music": "suspense",
+ "hud": {
+  "label": "APP STATUS",
+  "items": [
+   {
+    "value": "EXPOSED",
+    "color": "red"
+   },
+   {
+    "at": "Step 1:",
+    "value": "STEP 1/3",
+    "color": "gold"
+   },
+   {
+    "at": "Step 2:",
+    "value": "STEP 2/3",
+    "color": "gold"
+   },
+   {
+    "at": "Step 3:",
+    "value": "STEP 3/3",
+    "color": "gold"
+   },
+   {
+    "at": "rotate any key",
+    "value": "SAFE",
+    "color": "green"
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "at": "An AI-built",
+   "tint": "red",
+   "react": [
+    {
+     "at": "1.5 million",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "footage",
+     "at": "An AI-built",
+     "media": "lib_man_staring_at_phone_in",
+     "full": true
+    },
+    {
+     "type": "title_slam",
+     "at": "An AI-built",
+     "text": "LEAKED",
+     "sub": "1.5M API TOKENS",
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "at": "Yours might",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "Yours might",
+     "kind": "padlock",
+     "act": "open",
+     "act_at": "be next,",
+     "size": "l",
+     "caption": "YOUR APP",
+     "caption_at": "be next,"
+    },
+    {
+     "type": "pill",
+     "at": "one step",
+     "text": "STAY FOR THE LAST STEP",
+     "color": "gold",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "One scan",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "pile",
+     "at": "One scan",
+     "ill": "mobile_phone",
+     "count": 30,
+     "value": "1,430",
+     "value_at": "1,430 AI-built",
+     "label": "APPS SCANNED",
+     "color": "white"
+    },
+    {
+     "type": "big_number",
+     "at": "found 73%",
+     "value": "73%",
+     "color": "red",
+     "note": "CRITICAL FLAW",
+     "note_at": "critical flaw.",
+     "note_color": "red"
+    }
+   ]
+  },
+  {
+   "at": "Open a terminal",
+   "react": [
+    {
+     "at": "Open a terminal",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Open a terminal",
+     "device": "desktop",
+     "step": "Setup · Open Claude Code",
+     "app": "Terminal",
+     "steps": [
+      {
+       "at": "Open a terminal",
+       "view": {
+        "kind": "terminal",
+        "window": "Terminal",
+        "lines": [
+         "$ "
+        ]
+       },
+       "action": {
+        "kind": "type",
+        "target": "terminal",
+        "text": "cd my-app",
+        "at": "project folder"
+       }
+      },
+      {
+       "at": "and type",
+       "view": {
+        "kind": "terminal",
+        "window": "Terminal — my-app",
+        "lines": [
+         "$ cd my-app",
+         "~/my-app $ "
+        ]
+       },
+       "action": {
+        "kind": "type",
+        "target": "terminal",
+        "text": "claude",
+        "at": "type claude."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "You need",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "You need",
+     "media": "real_4_web",
+     "tall": true,
+     "caption": "NEEDS A CLAUDE PLAN",
+     "caption_at": "paid plan,"
+    },
+    {
+     "type": "stat_row",
+     "at": "Pro is",
+     "cards": [
+      {
+       "label": "PRO PLAN",
+       "value": "$20/MO",
+       "at": "$20 a month.",
+       "color": "gold",
+       "glow": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Step 1:",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Step 1:",
+     "device": "desktop",
+     "step": "Step 1 · Security review",
+     "app": "Claude Code",
+     "steps": [
+      {
+       "at": "Step 1:",
+       "view": {
+        "kind": "terminal",
+        "window": "claude — my-app",
+        "lines": [
+         "✻ Welcome to Claude Code",
+         "cwd: ~/my-app",
+         "> "
+        ]
+       },
+       "action": {
+        "kind": "type",
+        "target": "terminal",
+        "text": "/security-review",
+        "at": "run /security-review."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "It only",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "label",
+     "at": "It only",
+     "text": "OFFICIAL DOCS"
+    },
+    {
+     "type": "footage",
+     "at": "It only",
+     "media": "real_3_web",
+     "tall": true,
+     "caption": "CURRENT BRANCH ONLY",
+     "caption_at": "current branch."
+    }
+   ]
+  },
+  {
+   "at": "Step 2:",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Step 2:",
+     "text": "STEP 2 · COPY THIS PROMPT"
+    },
+    {
+     "type": "prompt",
+     "at": "Audit this",
+     "app": "CLAUDE CODE",
+     "text": "Audit this app: exposed keys, missing login checks, leaked data, payment flaws. Ranked report, no changes.",
+     "send_at": "Ranked report,"
+    }
+   ]
+  },
+  {
+   "at": "Step 3:",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Step 3:",
+     "device": "desktop",
+     "step": "Step 3 · Fix + re-run",
+     "app": "Claude Code",
+     "steps": [
+      {
+       "at": "Step 3:",
+       "view": {
+        "kind": "terminal",
+        "window": "claude — my-app",
+        "lines": [
+         "● Ranked report",
+         "CRITICAL  API key in frontend code",
+         "HIGH  No login check on /api/orders",
+         "HIGH  Payment webhook not verified",
+         "LOW  Verbose error messages",
+         "> "
+        ]
+       },
+       "action": {
+        "kind": "type",
+        "target": "terminal",
+        "text": "Fix the Critical finding first",
+        "at": "fix the Critical"
+       }
+      },
+      {
+       "at": "one at a time,",
+       "view": {
+        "kind": "terminal",
+        "window": "claude — my-app",
+        "lines": [
+         "● Moving key to server env",
+         "Edit src/config.ts?",
+         "1. Yes   2. No",
+         "> "
+        ]
+       },
+       "action": {
+        "kind": "type",
+        "target": "terminal",
+        "text": "1",
+        "at": "one at a time,"
+       }
+      },
+      {
+       "at": "then re-run",
+       "view": {
+        "kind": "terminal",
+        "window": "claude — my-app",
+        "lines": [
+         "✓ Critical fixed · ✓ High fixed",
+         "> "
+        ]
+       },
+       "action": {
+        "kind": "type",
+        "target": "terminal",
+        "text": "/security-review",
+        "at": "then re-run"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "The catch:",
+   "tint": "red",
+   "react": [
+    {
+     "at": "The catch:",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "title_slam",
+     "at": "The catch:",
+     "text": "THE CATCH",
+     "color": "red"
+    },
+    {
+     "type": "strike_list",
+     "at": "reads source code,",
+     "items": [
+      {
+       "text": "READS SOURCE CODE",
+       "at": "reads source code,",
+       "strike": false
+      },
+      {
+       "text": "CAN MISS THINGS",
+       "at": "miss things.",
+       "strike": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Here's the skipped",
+   "tint": "green",
+   "react": [
+    {
+     "at": "rotate any key",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "pill",
+     "at": "Here's the skipped",
+     "text": "THE SKIPPED STEP",
+     "color": "green"
+    },
+    {
+     "type": "object3d",
+     "at": "rotate any key",
+     "kind": "key",
+     "act": "spin",
+     "act_at": "ever exposed,",
+     "size": "l",
+     "caption": "ROTATE EXPOSED KEYS",
+     "caption_at": "ever exposed,"
+    }
+   ]
+  },
+  {
+   "at": "because deleting",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "vs",
+     "at": "because deleting",
+     "left": {
+      "label": "DELETED FROM CODE",
+      "value": "EXPOSED"
+     },
+     "right": {
+      "label": "ROTATED KEY",
+      "value": "SAFE",
+      "color": "green",
+      "ill": "locked_with_key",
+      "at": "make it safe."
+     },
+     "strike_at": "doesn't make"
+    }
+   ]
+  },
+  {
+   "at": "Then test payments",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Then test payments",
+     "media": "lib_hands_holding_credit_card_near",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "test mode.",
+     "text": "TEST MODE FIRST",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "What's the scariest",
+   "react": [
+    {
+     "at": "ever shipped?",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "headline",
+     "at": "What's the scariest",
+     "text": "SCARIEST AI BUG?",
+     "size": "l",
+     "ill": "face_screaming_in_fear",
+     "sub": "COMMENT BELOW",
+     "sub_at": "ever shipped?"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "Send this",
+  "line1": "Send this to",
+  "line1_at": "Send this",
+  "line2": "the vibe-coder",
+  "line2_at": "vibe-coded app."
+ },
+ "endcard": {
+  "title": "Hack saved?",
+  "terminal": "> audit.passed · keys rotated"
+ },
+ "media": [
+  {
+   "id": "real_1_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-13_1302/real_1_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-13_1302/real_1_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: support.claude.com",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the page (no highlight) — Phone view of support.claude.com help center. Breadcrumb 'All Collections > Claude Code'. Headline 'Automated security reviews in Claude Code', 'Updated over 2 weeks ago', 'Copy for LLM' button. The article body is empty or not rendered (blank gap between divider lines). Below it: 'Did this answer y [Screen: support.claude.com]"
+  },
+  {
+   "id": "real_1_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-13_1302/real_1_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-13_1302/real_1_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: support.claude.com",
+   "desc": "REAL desktop screen recording, pushes in on the gold-outlined part — Desktop view of support.claude.com, same article 'Automated security reviews in Claude Code' (Updated over 2 weeks ago, Copy for LLM). The body is empty. A yellow highlight is on the right-hand 'On this page' panel listing: Overview, Availability, Use the /security-review command, Set up GitHub Acti [Screen: support.claude.com]"
+  },
+  {
+   "id": "real_2_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-13_1302/real_2_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-13_1302/real_2_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: claude.com",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the gold-outlined part — Phone view of the claude.com Resources article. Headline 'Automate security reviews with Claude Code'. Metadata: Category 'Product updates', Product 'Claude Code', Date 'August 6, 2025' (partly cut off). Illustration of a house with a hand, on a tan tile. 'Claude Resources' dropdown at the top. Only [Screen: claude.com]"
+  },
+  {
+   "id": "real_2_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-13_1302/real_2_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-13_1302/real_2_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: claude.com",
+   "desc": "REAL desktop screen recording, pushes in on the gold-outlined part — Desktop view of the claude.com article, 'Getting started' section. Text: 'Both features are available now for all Claude Code users. To start using automated security reviews:'. Highlighted bullets: 'For the /security-review command: Simply update Claude Code to the latest version and run /security- [Screen: claude.com]"
+  },
+  {
+   "id": "real_3_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-13_1302/real_3_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-13_1302/real_3_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: code.claude.com",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the gold-outlined part — Phone view of Claude Code Docs (code.claude.com). Section 'SECURITY SCANS'. Headline 'Catch security issues as Claude writes code'. Subtitle: 'Install the security-guidance plugin to have Claude review its own code changes for vulnerabilities and fix them in the same session.' 'Copy page' button. Bo [Screen: code.claude.com]"
+  },
+  {
+   "id": "real_3_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-13_1302/real_3_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-13_1302/real_3_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: code.claude.com",
+   "desc": "REAL desktop screen recording, pushes in on the gold-outlined part — Desktop view of Claude Code Docs, the Security guidance plugin page, section 'How this fits with other security tools'. Table with columns Stage / Tool / What it covers. Highlighted row: 'On demand, single pass' | '/security-review' | 'One-time security pass on the current branch, run when you ask'. [Screen: code.claude.com]"
+  },
+  {
+   "id": "real_4_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-13_1302/real_4_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-13_1302/real_4_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: code.claude.com",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the gold-outlined part — Phone view of Claude Code Docs, Quickstart page. Breadcrumb 'Getting started > Quickstart' is highlighted. Headline 'Quickstart'. Subtitle: 'Install Claude Code in your terminal, sign in, and use the CLI to explore your codebase and make your first code change.' 'Copy page' button. Text: 'This quick [Screen: code.claude.com]"
+  },
+  {
+   "id": "real_4_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-13_1302/real_4_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-13_1302/real_4_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: code.claude.com",
+   "desc": "REAL desktop screen recording, pushes in on the gold-outlined part — Desktop view of Claude Code Docs, Quickstart page, with 'Quickstart' highlighted in the left sidebar. Heading 'Quickstart' with 'Copy page' button. Sections: 'Before you begin' (a terminal, a code project, a Claude subscription (Pro, Max, Ultra, Team, or Enterprise), Claude Console account, or suppo [Screen: code.claude.com]"
+  },
+  {
+   "id": "lib_clock_ticking_and_person_typing",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "credit": "",
+   "file": "clock_ticking_and_person_typing.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A rack-focus shot moves from a close-up of a black twin-bell alarm clock with ticking hands to a bearded man in a light polo typing on a laptop in a dim room, giving a tense, time-pressured mood. Good for: lines about deadlines, time slipping away, long hours of manual work, or the pressure of slow, tedious tasks before an AI tool speeds things up"
+  },
+  {
+   "id": "lib_colleagues_collaborating_around",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "credit": "",
+   "file": "colleagues_collaborating_around.mp4",
+   "frames": 126,
+   "desc": "B-roll (4.2s, VERTICAL 9:16 — best as full: true): colleagues collaborating around Good for: "
+  },
+  {
+   "id": "lib_content_creator_sets_up_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "credit": "",
+   "file": "content_creator_sets_up_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt stands behind a ring light with a phone on a tripod, adjusting the setup while the camera slowly pushes in until his face fills the frame, with a calm, focused mood and moody blue ambient lighting in the background. Good for: setting up to create content, getting started as a creator, or preparing equipment before recording a tutorial"
+  },
+  {
+   "id": "lib_eye_reflecting_laptop_screen_glow",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "credit": "",
+   "file": "eye_reflecting_laptop_screen_glow.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow zoom into an extreme close-up of a brown eye with a bright blue screen reflected in the pupil, framed by a thick eyebrow and warm skin tones, fading into a cool blue gradient at the bottom, with a focused, intense and cinematic mood. Good for: lines about being glued to a screen, intense focus or attention, watching AI work, or 'seeing' a new opportunity or insight"
+  },
+  {
+   "id": "lib_fingers_typing_on_laptop_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "credit": "",
+   "file": "fingers_typing_on_laptop_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): Close-up over-the-shoulder shot of a person typing on a backlit laptop keyboard, with a blurred blue screen in the background and a warm, focused, productive mood. Good for: lines about getting started, writing prompts or code, doing focused work at the computer, or the hands-on steps of a tutorial"
+  },
+  {
+   "id": "lib_hand_dropping_papers_on_desk",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "credit": "",
+   "file": "hand_dropping_papers_on_desk.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a green shirt carries and then drops a thick stack of papers onto an already huge, messy pile of documents with sticky notes on a cluttered desk, while a laptop glows nearby, and the camera pushes in to a close-up of the towering stack, creating a mood of overwhelm and tedious paperwork. Good for: a script line about drowning in manual paperwork or document processing, setting up how AI can automate summarizing, sorting, or extracting information from piles of documents"
+  },
+  {
+   "id": "lib_hands_holding_credit_card_near",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hands_holding_credit_card_near.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hands_holding_credit_card_near.mp4",
+   "credit": "",
+   "file": "hands_holding_credit_card_near.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): hands holding credit card near Good for: "
+  },
+  {
+   "id": "lib_man_comparing_phone_and_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "credit": "",
+   "file": "man_comparing_phone_and_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): man comparing phone and laptop Good for: "
+  },
+  {
+   "id": "lib_man_opens_laptop_in_room",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "credit": "",
+   "file": "man_opens_laptop_in_room.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt sits at a laptop in a dimly lit, warmly lit room, and his focused, tense expression builds as he leans toward the screen, which shows blurry blue diagram or flowchart-style blocks, with his fists clenched near his chin in the middle frame. Good for: intense concentration or deep work, such as debugging, building an AI workflow, or struggling with a complex problem"
+  },
+  {
+   "id": "lib_man_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "man_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt stares intently at a laptop screen with blurry blue UI elements floating in front of the camera, then grimaces in frustration and mouths a reaction, and finally tilts his head back in exhausted resignation in a dim, warmly lit room. Good for: frustration with slow, tedious, or failing work, such as waiting on a slow tool, hitting an error, or being exhausted by manual tasks before introducing an AI solution"
+  },
+  {
+   "id": "lib_man_shaking_head_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "credit": "",
+   "file": "man_shaking_head_at_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits in a dark chair looking down at his phone, and his expression shifts from neutral to scrunched-up frustration or confusion, then to a displeased, worried look as he lowers the phone. Good for: frustration or disappointment with a tool or app that isn't working, slow or confusing results, or a bad surprise while checking your phone"
+  },
+  {
+   "id": "lib_man_smiling_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "credit": "",
+   "file": "man_smiling_at_phone.mp4",
+   "frames": 135,
+   "desc": "B-roll (4.5s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a blue smartphone, his expression shifting from neutral to a furrowed-brow frown of confusion and frustration. Good for: a line about frustration with confusing apps or slow tools, or the moment someone hits a problem and doesn't know what to do next"
+  },
+  {
+   "id": "lib_man_staring_at_phone_in",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_staring_at_phone_in.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_staring_at_phone_in.mp4",
+   "credit": "",
+   "file": "man_staring_at_phone_in.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt stares at his smartphone, his expression moving from a focused frown to wide-eyed shock and then to a worried look straight into the camera, in a warm, dimly lit home setting. Good for: a line about a shocking discovery, an unexpected result, or a worrying realization, such as 'you won't believe what this AI tool just did' or 'when you see how much time you've been wasting'"
+  },
+  {
+   "id": "lib_man_watching_laptop_waiting",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "credit": "",
+   "file": "man_watching_laptop_waiting.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits at a laptop in a dimly lit room with warm lamp light, resting his chin on his fist with a focused, pensive look, and the camera pushes in closer across the three frames. Good for: a script line about deep thinking, researching or problem-solving, or weighing a decision before trying an AI tool"
+  },
+  {
+   "id": "lib_person_drinking_coffee_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "credit": "",
+   "file": "person_drinking_coffee_with_laptop.mp4",
+   "frames": 93,
+   "desc": "B-roll (3.1s, VERTICAL 9:16 — best as full: true): A bearded man in a green polo sits at a laptop in a modern industrial-style open office, lifting a white cup to his mouth and sipping a hot drink while looking down at the screen, in a calm, focused mood. Good for: a line about taking a breather while the AI does the work, a morning work routine, waiting for a process to finish, or the calm of an automated workflow"
+  },
+  {
+   "id": "lib_person_speaking_into_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "credit": "",
+   "file": "person_speaking_into_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt takes a phone call in a modern industrial office with exposed concrete ceilings, moving from a serious, concerned look to a worried talking expression and ending with a relieved, confident smile at the camera. Good for: a script line about getting a surprising call or news, a problem being solved, or the moment of relief after a stressful issue"
+  },
+  {
+   "id": "lib_person_taking_selfie_with_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "credit": "",
+   "file": "person_taking_selfie_with_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt sits in a car holding a blue smartphone up close to his face, and across the clip he leans toward the screen with a furrowed brow, looking skeptical and intensely focused. Good for: a script line about doubting or double-checking AI output, being confused or frustrated by an app or tool, or looking closely at a result on your phone, e.g. 'wait, is this actually right?'"
+  },
+  {
+   "id": "lib_professional_working_on_laptop_late",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "credit": "",
+   "file": "professional_working_on_laptop_late.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A tired bearded young man in a maroon t-shirt sits at a laptop in a dim apartment at night, resting his head on his hand, rubbing his eyes, then glumly lifting a white coffee mug, with blurred city lights glowing behind him through the window. Good for: A script line about burnout, late-night grinding, or frustration with slow manual work that AI tools can speed up, e.g. 'still stuck doing this by hand at midnight?'"
+  },
+  {
+   "id": "s1_image",
+   "kind": "image",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-13_1302/s1_image.png",
+   "credit": "Image: claude.com",
+   "desc": "official image from Claude Code: built-in /security-review command, plus a custom audit prompt and the optional Claude Security plugin (beta) (announcement page)"
+  }
+ ],
+ "style": "hisaab",
+ "topic": "Audit an AI-built app or website before real customers use it. Paste a security and quality audit prompt into Claude Code or your AI coding tool to catch exposed API keys, missing login checks, leaky customer data and broken payment flows, then fix the issues in 3 steps.",
+ "pick": {
+  "index": 40,
+  "topic": "Audit an AI-built app or website before real customers use it. Paste a security and quality audit prompt into Claude Code or your AI coding tool to catch exposed API keys, missing login checks, leaky customer data and broken payment flows, then fix the issues in 3 steps.",
+  "tool": "Claude Code (audit prompt)",
+  "format": "warning",
+  "angle": "Your AI-built app is probably leaking customer data. Run this 5-minute audit before you launch.",
+  "why": "102,800 views and 569 comments on a 41s reel, with 'AUDIT' as the comment trigger. Founders who vibe-code their own tools care about this, and it is a checkable, practical topic we haven't covered. It fits the 'AI workflows for work' mix, and the negative hook should drive comments."
+ },
+ "inspired_by": {
+  "url": "https://www.instagram.com/p/DeJxR3-hR5b/",
+  "owner": "lincolndevine",
+  "plays": 102800,
+  "likes": 970,
+  "comments": 569
+ },
+ "research": {
+  "verdict": "adjust",
+  "tool": "Claude Code: built-in /security-review command, plus a custom audit prompt and the optional Claude Security plugin (beta)",
+  "availability": "Claude Code needs a paid plan (Pro $20/mo, Max $100/mo, Ultra $200/mo) or pay-per-token API billing, and the Free plan doesn't include it. It runs in a terminal, in the VS Code extension, or in the Code tab of Claude Desktop. /security-review is built in. The security-guidance plugin is available on all plans. The Claude Security plugin is in beta and needs a paid plan.",
+  "steps": [
+   "Open a terminal in your app's project folder. Install first if needed: macOS/Linux/WSL `curl -fsSL https://claude.ai/install.sh | bash`, Windows PowerShell `irm https://claude.ai/install.ps1 | iex`. <cite index=\"29-5,32-5\">Then type `claude`.</cite> <cite index=\"30-6\">Claude Code prompts you to log in on first use.</cite>",
+   "STEP 1 (Scan the pending changes): <cite index=\"5-7\">run /security-review</cite>. <cite index=\"2-1\">/security-review covers only the changes on your current branch.</cite> It does not scan the whole app.",
+   "STEP 2 (Audit the whole app with a custom prompt): paste your own audit prompt into the session. Ask for a ranked report with file names and no code changes yet, covering: exposed or hard-coded API keys and secrets (including a public .env and keys shipped to the browser), missing login and authorization checks (can user A open user B's data?), database rules (Supabase RLS or Firebase rules), customer data returned by API endpoints, and payment flow (webhook signature checks, price set server-side, Stripe secret key never in frontend code). <cite index=\"2-1\">Docs recommend asking Claude in a session to review a specific file or directory</cite>, so run it per folder for big apps. Optional deeper scan: `/plugin install claude-security@claude-plugins-official`, then `/claude-security` (paid plan, beta).",
+   "STEP 3 (Fix and re-check): tell Claude to fix the Critical and High findings one at a time and explain each change. Rotate any key that was ever exposed, because deleting it from the code doesn't make a leaked key safe again (general best practice, not from the docs). Then run /security-review again and test login, data access and payments by hand in test mode."
+  ],
+  "facts": [
+   "<cite index=\"3-4,3-5\">Anthropic introduced automated security reviews: a /security-review command plus a GitHub Actions integration, so Claude can identify security concerns and then fix them.</cite>",
+   "<cite index=\"5-6,5-7\">Official help steps: open a Claude Code session in your project (the Code tab of Claude Desktop, or run `claude` in the terminal), then run /security-review.</cite>",
+   "<cite index=\"2-1\">/security-review covers only the changes on your current branch.</cite> For existing code, Anthropic says to ask Claude to review a specific file or directory, or to use the Claude Security plugin for a deeper multi-agent scan of the whole repository.",
+   "<cite index=\"50-2\">The review reads the source code in your checkout, not a running site or deployed service.</cite> It cannot test live payment flows or a deployed site.",
+   "<cite index=\"9-1\">/security-review was introduced in August 2025</cite>, and <cite index=\"9-2,9-3\">the prompt behind it is open source in the claude-code-security-review GitHub repo at .claude/commands/security-review.md.</cite>",
+   "<cite index=\"1-3,1-4\">You can copy security-review.md into your project's .claude/commands/ folder and edit it to customize the analysis.</cite> That is the official way to make a custom audit command.",
+   "<cite index=\"5-13\">Claude Code keeps itself up to date, and you can run `claude update` to update manually.</cite>",
+   "Claude Security plugin: <cite index=\"52-2\">released in beta on July 22, 2026</cite>. <cite index=\"53-4\">Install with /plugin install claude-security@claude-plugins-official, then choose the scan scope from /claude-security.</cite> <cite index=\"4-2\">It runs locally in your session, uses the models you have access to, and each scan counts toward your usage.</cite>",
+   "Hosted Claude Security app: <cite index=\"49-1\">available in beta for Enterprise plans</cite>. Don't present it as something a solo founder can use.",
+   "Pricing (third-party roundups, 2026-11): <cite index=\"44-3\">Pro costs $20 a month ($17 billed annually), Max $100 a month for 5x Pro usage, Ultra $200 a month.</cite> <cite index=\"12-8\">Claude Free does not include Claude Code.</cite> Note: <cite index=\"17-3\">Ultra was called Max 20x until October 30, 2026</cite>, and some sites still use the old name.",
+   "Stat (Veracode 2025 GenAI Code Security Report, via newly.app): <cite index=\"28-12\">45% of AI-generated code samples contained security vulnerabilities across more than 100 LLMs.</cite>",
+   "Stat (SupaExplorer, Jan 2026, via newly.app): <cite index=\"28-7\">about 11% of 20,000+ indie vibe-coded launch URLs exposed Supabase credentials directly in their frontend code.</cite> Caveat: <cite index=\"19-8\">for Supabase, public API keys in client code are normal and expected</cite>. The real problem is missing Row Level Security.",
+   "Stat (VibeEval, Feb 2026): <cite index=\"25-2,25-3\">1,430 AI-built apps scanned, 73% had at least one critical flaw, and 67% exposed API endpoints or secrets in client-side code.</cite> This is a vendor study, so say 'one scan found'.",
+   "Case (Moltbook): <cite index=\"28-8\">In February 2026, Wiz found Moltbook, a vibe-coded AI social network, exposed roughly 1.5 million API tokens through a Supabase database missing Row-Level Security.</cite> Sources disagree on the month (OX says January 2026), so say 'early 2026'.",
+   "Wiz Research found the same four misconfigurations recurring: <cite index=\"24-1\">browser-only auth logic, API keys in client-side JavaScript, Supabase tables left open by permissive or disabled Row-Level Security, and internal apps deployed without authentication.</cite>"
+  ],
+  "do_not_claim": [
+   "Don't say 'one prompt makes your app safe' or 'finds every vulnerability'. It is an AI review that reads source code only, and false positives and misses are possible.",
+   "Don't say /security-review scans your whole app. Anthropic says it covers only the current branch's changes. It also cannot test a live site or real payments.",
+   "Don't say Claude Code is free. The Free plan has no Claude Code, and a paid plan or API credits are needed.",
+   "Don't say 'your AI-built app IS leaking data' as a fact about the viewer's app. Say 'probably' or 'often', and cite a study by name.",
+   "The popular reel (@lincolndevine) has no transcript, only a 'Comment AUDIT' lead-gen caption. Its prompts and 'full setup guide' are unverified, so don't copy or reference them.",
+   "Don't use the 5,600 or 1,400 figure for the Escape.tech study without caveats. Sources conflict: OX Security says 5,600 apps, another roundup says 1,400. If used, say 'over 2,000 vulnerabilities and 400+ exposed secrets' and attribute it.",
+   "Don't quote one exact '% of AI code is vulnerable'. Figures range from about 25% to 62% depending on the study and method.",
+   "Don't say the Claude Security plugin is stable or free. It is in beta, and scans use plan usage. One secondary source warns a large full-repo scan at high effort can cost hundreds of dollars in tokens.",
+   "Don't claim a '5-minute' audit is guaranteed. Scan time depends on repo size, so say 'about 5 minutes for a small app' only as your own estimate.",
+   "Don't flag a Supabase anon/public key in the frontend as a leak. Only service-role keys, Stripe secret keys, OpenAI and AWS keys, and similar secrets are a problem."
+  ],
+  "criticism": [
+   "<cite index=\"2-1\">/security-review only looks at the current branch's changes</cite>, so older code in a vibe-coded app can go unchecked.",
+   "<cite index=\"50-2\">Reviews read source in your checkout, not a running site</cite>, so live misconfigurations (open database rules in the cloud dashboard, a deployed .env, payment webhooks) need separate checks.",
+   "<cite index=\"4-4\">Anthropic positions these as one layer next to your existing static analysis and dependency scanners in CI.</cite> It is not a replacement for a professional pentest.",
+   "<cite index=\"4-2\">Scans count toward your Claude Code usage</cite>, and Pro has 5-hour and weekly limits. <cite index=\"44-1\">Anthropic publishes the multiples, not a token or dollar cap.</cite>",
+   "Behavioral and business-logic flaws (like broken payment logic or BOLA) are hard for static tools to catch. <cite index=\"19-7,19-8\">One example: static analysis sees a Supabase client with a public key, which is normal.</cite> A human should still test the flows manually.",
+   "Privacy: the audit sends your code to Anthropic's models. Check the data and retention settings for your plan before pasting proprietary or customer data (not verified in this check)."
+  ],
+  "ui": {
+   "platforms": "Terminal on macOS/Linux/Windows (also the VS Code extension and the Code tab of Claude Desktop). Phone is not suitable for this. It's a desktop terminal workflow.",
+   "apps": [
+    "Terminal (macOS Terminal / Windows PowerShell / VS Code integrated terminal)",
+    "Claude Code CLI",
+    "Your project folder in a code editor (optional)",
+    "support.claude.com help article (for the on-screen proof)"
+   ],
+   "screens": [
+    "Terminal window opened in the project folder (`cd your-project`). Type `claude` and press Enter. First run: pick a text style (dark is the usual choice), log in via the browser, and accept the security notes (Claude can make mistakes, prompt injection is a risk). Exact welcome-screen layout varies by version, so the recreation should be generic and unverified in detail.",
+    "Claude Code session: a text input box at the bottom of the terminal where you type or paste. Typing `/` opens a slash-command autocomplete list. Type `/security-review` and press Enter. A native entry and, if installed, a plugin-prefixed entry can both show in autocomplete, so pick the one with no prefix.",
+    "While it runs: Claude streams text about the files it is reading and the checks it is making. Results come back as a written list of findings with explanations for each issue, usually with severity, file/location and a suggested fix (exact format varies by version).",
+    "Paste-your-own-audit-prompt screen: a long prompt in the input box, listing the audit categories (secrets, auth checks, data exposure, payments).",
+    "Fix step: Claude proposes edits to files and asks permission before editing. Approve per change or batch. Then re-run /security-review and show the findings list shrinking."
+   ]
+  },
+  "visuals": "A real screen recording is best: terminal running `claude`, typing /security-review, and the findings list (for example 'API key in frontend code' or 'missing auth check on /api/orders/:id'), then the fix and a clean re-run. For proof overlays, use the official help-article page and the Claude Security product page. Don't show real customer data or real keys on screen.",
+  "real_pages": [
+   {
+    "url": "https://support.claude.com/en/articles/11932705-automated-security-reviews-in-claude-code",
+    "show": "/security-review",
+    "kind": "help"
+   },
+   {
+    "url": "https://claude.com/blog/automate-security-reviews-with-claude-code",
+    "show": "/security-review",
+    "kind": "site"
+   },
+   {
+    "url": "https://code.claude.com/docs/en/security-guidance",
+    "show": "/security-review",
+    "kind": "site"
+   },
+   {
+    "url": "https://code.claude.com/docs/en/quickstart",
+    "show": "Quickstart",
+    "kind": "site"
+   },
+   {
+    "url": "https://claude.com/product/claude-security",
+    "show": "Claude Security",
+    "kind": "site"
+   },
+   {
+    "url": "https://claude.com/pricing",
+    "show": "Pro",
+    "kind": "site"
+   }
+  ],
+  "sources": [
+   "https://support.claude.com/en/articles/11932705-automated-security-reviews-in-claude-code",
+   "https://claude.com/blog/automate-security-reviews-with-claude-code",
+   "https://code.claude.com/docs/en/security-guidance",
+   "https://code.claude.com/docs/en/claude-security",
+   "https://github.com/anthropics/claude-code-security-review/blob/main/README.md",
+   "https://code.claude.com/docs/en/quickstart",
+   "https://claude.com/product/claude-security",
+   "https://support.claude.com/en/articles/14661296-use-claude-security",
+   "https://benchlm.ai/claude/pricing-plans",
+   "https://www.nocode.mba/articles/claude-code-pricing",
+   "https://newly.app/guides/vibe-coding-security",
+   "https://vibegraveyard.ai/story/vibeeval-ai-app-vulnerability-scan-study/",
+   "https://www.ox.security/blog/vibe-coding-security/",
+   "https://www.paperclipped.de/en/blog/ai-generated-code-security-vulnerabilities/",
+   "https://smartscope.blog/en/blog/claude-security-plugin-multi-agent-scan/"
+  ],
+  "notes": "The topic is real, but it needs adjusting. Anthropic's built-in /security-review only checks the current branch's changes and only reads source code. So the honest framing is: 'run /security-review, then paste a custom audit prompt for the whole app', not 'one command audits everything'. The viewer needs a paid Claude plan (Pro from $20/mo), so mention that to avoid comment-section backlash. The plan names changed recently: Max 20x is now called Ultra (since Oct 30, 2026, per one source), and some sites show old names. The pricing page text was not read directly, so check that the 'Pro' label shows up when it is screen-recorded. The Claude Security plugin is beta and its commands may change (/plugin install claude-security@claude-plugins-official, then /claude-security). Safer angle wording: 'AI-built apps often ship with exposed keys and open databases', not 'yours is leaking'. Use named studies (VibeEval 73% critical flaws, Veracode 45%) and say they come from vendors' own scans. Lead with the Moltbook example (about 1.5M API tokens exposed in early 2026) as the hook. Remind viewers to rotate any exposed keys and to test payments in the provider's test mode. The 3 fix steps in the topic map to: 1) /security-review, 2) custom whole-app audit prompt, 3) fix by severity, rotate keys, re-run.",
+  "_searched": 6
+ },
+ "models": {
+  "pick": "claude-sonnet-5-5",
+  "research": "claude-sonnet-5-5",
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 28,
+ "_ident": {
+  "at": 6.1,
+  "dur": 1.5,
+  "title": "AI HACKS",
+  "type": 0.42,
+  "sub": "EP 28 · APP SECURITY"
+ },
+ "timeline": {
+  "words": [
+   [
+    "An",
+    0.08
+   ],
+   [
+    "AI-built",
+    0.32
+   ],
+   [
+    "app",
+    0.96
+   ],
+   [
+    "leaked",
+    1.2
+   ],
+   [
+    "about",
+    1.52
+   ],
+   [
+    "1.5",
+    1.92
+   ],
+   [
+    "million",
+    2.08
+   ],
+   [
+    "API",
+    3.36
+   ],
+   [
+    "tokens",
+    3.76
+   ],
+   [
+    "in",
+    4.28
+   ],
+   [
+    "early",
+    4.48
+   ],
+   [
+    "2026.",
+    4.84
+   ],
+   [
+    "Yours",
+    6.08
+   ],
+   [
+    "might",
+    7.98
+   ],
+   [
+    "be",
+    8.14
+   ],
+   [
+    "next,",
+    8.3
+   ],
+   [
+    "and",
+    8.913
+   ],
+   [
+    "there's",
+    9.02
+   ],
+   [
+    "one",
+    9.42
+   ],
+   [
+    "step",
+    9.66
+   ],
+   [
+    "most",
+    10.06
+   ],
+   [
+    "people",
+    10.46
+   ],
+   [
+    "skip.",
+    10.7
+   ],
+   [
+    "One",
+    11.42
+   ],
+   [
+    "scan",
+    11.66
+   ],
+   [
+    "of",
+    12.18
+   ],
+   [
+    "1,430",
+    12.38
+   ],
+   [
+    "AI-built",
+    13.1
+   ],
+   [
+    "apps",
+    14.7
+   ],
+   [
+    "found",
+    15.1
+   ],
+   [
+    "73%",
+    15.5
+   ],
+   [
+    "had",
+    16.46
+   ],
+   [
+    "at",
+    16.9
+   ],
+   [
+    "least",
+    17.02
+   ],
+   [
+    "one",
+    17.42
+   ],
+   [
+    "critical",
+    17.86
+   ],
+   [
+    "flaw.",
+    18.14
+   ],
+   [
+    "Open",
+    18.94
+   ],
+   [
+    "a",
+    19.18
+   ],
+   [
+    "terminal",
+    19.46
+   ],
+   [
+    "in",
+    19.74
+   ],
+   [
+    "your",
+    19.9
+   ],
+   [
+    "project",
+    20.14
+   ],
+   [
+    "folder",
+    20.38
+   ],
+   [
+    "and",
+    20.86
+   ],
+   [
+    "type",
+    21.14
+   ],
+   [
+    "claude.",
+    21.42
+   ],
+   [
+    "You",
+    22.167
+   ],
+   [
+    "need",
+    22.26
+   ],
+   [
+    "a",
+    22.38
+   ],
+   [
+    "paid",
+    22.66
+   ],
+   [
+    "plan,",
+    23.06
+   ],
+   [
+    "Pro",
+    23.553
+   ],
+   [
+    "is",
+    23.74
+   ],
+   [
+    "$20",
+    24.1
+   ],
+   [
+    "a",
+    24.3
+   ],
+   [
+    "month.",
+    24.66
+   ],
+   [
+    "Step",
+    25.42
+   ],
+   [
+    "1:",
+    25.74
+   ],
+   [
+    "run",
+    26.3
+   ],
+   [
+    "/security-review.",
+    26.82
+   ],
+   [
+    "It",
+    28.807
+   ],
+   [
+    "only",
+    28.94
+   ],
+   [
+    "covers",
+    29.34
+   ],
+   [
+    "your",
+    29.58
+   ],
+   [
+    "current",
+    29.74
+   ],
+   [
+    "branch.",
+    30.06
+   ],
+   [
+    "Step",
+    30.98
+   ],
+   [
+    "2:",
+    31.1
+   ],
+   [
+    "paste",
+    31.74
+   ],
+   [
+    "this.",
+    31.9
+   ],
+   [
+    "Audit",
+    32.593
+   ],
+   [
+    "this",
+    32.98
+   ],
+   [
+    "app:",
+    33.18
+   ],
+   [
+    "exposed",
+    33.74
+   ],
+   [
+    "keys,",
+    34.22
+   ],
+   [
+    "missing",
+    34.94
+   ],
+   [
+    "login",
+    35.18
+   ],
+   [
+    "checks,",
+    35.5
+   ],
+   [
+    "leaked",
+    36.1
+   ],
+   [
+    "customer",
+    36.58
+   ],
+   [
+    "data,",
+    36.94
+   ],
+   [
+    "payment",
+    37.5
+   ],
+   [
+    "flaws.",
+    37.7
+   ],
+   [
+    "Ranked",
+    38.38
+   ],
+   [
+    "report,",
+    38.94
+   ],
+   [
+    "no",
+    39.34
+   ],
+   [
+    "code",
+    39.62
+   ],
+   [
+    "changes",
+    39.94
+   ],
+   [
+    "yet.",
+    40.26
+   ],
+   [
+    "Step",
+    40.9
+   ],
+   [
+    "3:",
+    41.1
+   ],
+   [
+    "have",
+    41.74
+   ],
+   [
+    "Claude",
+    41.98
+   ],
+   [
+    "fix",
+    42.42
+   ],
+   [
+    "the",
+    42.62
+   ],
+   [
+    "Critical",
+    42.9
+   ],
+   [
+    "and",
+    43.18
+   ],
+   [
+    "High",
+    43.46
+   ],
+   [
+    "findings",
+    43.66
+   ],
+   [
+    "one",
+    44.22
+   ],
+   [
+    "at",
+    44.38
+   ],
+   [
+    "a",
+    44.5
+   ],
+   [
+    "time,",
+    44.62
+   ],
+   [
+    "then",
+    45.1
+   ],
+   [
+    "re-run",
+    45.42
+   ],
+   [
+    "/security-review.",
+    46.06
+   ],
+   [
+    "The",
+    47.877
+   ],
+   [
+    "catch:",
+    48.22
+   ],
+   [
+    "it",
+    48.647
+   ],
+   [
+    "only",
+    48.78
+   ],
+   [
+    "reads",
+    49.26
+   ],
+   [
+    "source",
+    49.58
+   ],
+   [
+    "code,",
+    49.98
+   ],
+   [
+    "so",
+    50.433
+   ],
+   [
+    "it",
+    50.62
+   ],
+   [
+    "can",
+    50.82
+   ],
+   [
+    "miss",
+    51.02
+   ],
+   [
+    "things.",
+    51.26
+   ],
+   [
+    "Here's",
+    52.037
+   ],
+   [
+    "the",
+    52.22
+   ],
+   [
+    "skipped",
+    52.38
+   ],
+   [
+    "part:",
+    52.7
+   ],
+   [
+    "rotate",
+    53.5
+   ],
+   [
+    "any",
+    53.82
+   ],
+   [
+    "key",
+    54.18
+   ],
+   [
+    "that",
+    54.38
+   ],
+   [
+    "was",
+    54.58
+   ],
+   [
+    "ever",
+    54.78
+   ],
+   [
+    "exposed,",
+    55.06
+   ],
+   [
+    "because",
+    55.74
+   ],
+   [
+    "deleting",
+    56.06
+   ],
+   [
+    "it",
+    56.46
+   ],
+   [
+    "from",
+    56.62
+   ],
+   [
+    "the",
+    56.74
+   ],
+   [
+    "code",
+    56.86
+   ],
+   [
+    "doesn't",
+    57.26
+   ],
+   [
+    "make",
+    57.58
+   ],
+   [
+    "it",
+    57.74
+   ],
+   [
+    "safe.",
+    58.1
+   ],
+   [
+    "Then",
+    58.62
+   ],
+   [
+    "test",
+    58.86
+   ],
+   [
+    "payments",
+    59.34
+   ],
+   [
+    "in",
+    59.66
+   ],
+   [
+    "test",
+    59.82
+   ],
+   [
+    "mode.",
+    60.14
+   ],
+   [
+    "What's",
+    60.727
+   ],
+   [
+    "the",
+    60.94
+   ],
+   [
+    "scariest",
+    61.18
+   ],
+   [
+    "thing",
+    61.66
+   ],
+   [
+    "your",
+    61.9
+   ],
+   [
+    "AI",
+    62.06
+   ],
+   [
+    "tool",
+    62.42
+   ],
+   [
+    "ever",
+    62.62
+   ],
+   [
+    "shipped?",
+    62.94
+   ],
+   [
+    "Send",
+    63.58
+   ],
+   [
+    "this",
+    63.82
+   ],
+   [
+    "to",
+    63.94
+   ],
+   [
+    "the",
+    64.06
+   ],
+   [
+    "friend",
+    64.22
+   ],
+   [
+    "who's",
+    64.46
+   ],
+   [
+    "launching",
+    64.7
+   ],
+   [
+    "a",
+    65.1
+   ],
+   [
+    "vibe-coded",
+    65.22
+   ],
+   [
+    "app.",
+    65.82
+   ],
+   [
+    "Hack",
+    66.38
+   ],
+   [
+    "saved?",
+    66.78
+   ]
+  ],
+  "duration": 67.28,
+  "ident": {
+   "at": 6.1,
+   "dur": 1.5,
+   "title": "AI HACKS",
+   "type": 0.42,
+   "sub": "EP 28 · APP SECURITY"
+  },
+  "scenes": [
+   {
+    "t": 0.0,
+    "shows": [
+     "footage:lib_man_staring_at_phone_in",
+     "title_slam:LEAKED"
+    ]
+   },
+   {
+    "t": 6.08,
+    "shows": [
+     "object3d:",
+     "pill:STAY FOR THE LAST STEP"
+    ]
+   },
+   {
+    "t": 11.42,
+    "shows": [
+     "pile:",
+     "big_number:"
+    ]
+   },
+   {
+    "t": 18.94,
+    "shows": [
+     "screen:Setup · Open Claude Code"
+    ]
+   },
+   {
+    "t": 22.17,
+    "shows": [
+     "footage:real_4_web",
+     "stat_row:"
+    ]
+   },
+   {
+    "t": 25.42,
+    "shows": [
+     "screen:Step 1 · Security review"
+    ]
+   },
+   {
+    "t": 28.81,
+    "shows": [
+     "label:OFFICIAL DOCS",
+     "footage:real_3_web"
+    ]
+   },
+   {
+    "t": 30.98,
+    "shows": [
+     "label:STEP 2 · COPY THIS PROMPT",
+     "prompt:Audit this app: exposed keys, missing lo"
+    ]
+   },
+   {
+    "t": 40.9,
+    "shows": [
+     "screen:Step 3 · Fix + re-run"
+    ]
+   },
+   {
+    "t": 47.88,
+    "shows": [
+     "title_slam:THE CATCH",
+     "strike_list:"
+    ]
+   },
+   {
+    "t": 52.04,
+    "shows": [
+     "pill:THE SKIPPED STEP",
+     "object3d:"
+    ]
+   },
+   {
+    "t": 55.74,
+    "shows": [
+     "vs:"
+    ]
+   },
+   {
+    "t": 58.62,
+    "shows": [
+     "footage:lib_hands_holding_credit_card_near",
+     "pill:TEST MODE FIRST"
+    ]
+   },
+   {
+    "t": 60.73,
+    "shows": [
+     "headline:SCARIEST AI BUG?"
+    ]
+   }
+  ],
+  "beats": [
+   4.0,
+   33.66,
+   35.9
+  ]
+ }
+}
