@@ -1,0 +1,1983 @@
+{
+ "voiceover": "[conversational] A link-in-bio tool is making $3.5M a month, and it takes no cut.\n\n[curious] Stay till the end, because one pricing move changed everything for them.\n\nIt's called Stan. Creators and coaches use it to sell courses, coaching calls, memberships and digital products from one mobile page.\n\n[confident] These numbers are verified on TrustMRR. As of April 2026, that's $3.5M MRR, 101,590 active subscriptions, and $76.6M in all-time revenue.\n\nHow'd it grow? Co-founder John Hu posted career-advice TikToks, then built Stan in public. He said building an audience online was the entirety of his early success. And they've said they never spent a single dollar on paid ads.\n\nSo, what can you steal? One, build your audience where your customers already hang out. Two, turn your customers into your sales force.\n\n[serious] Honest catch: there's no free plan. Creator is $29 a month, and TrustMRR shows revenue, not profit.\n\n[whispers] Now, the pricing move. Around $1M in revenue, they removed transaction fees and went flat monthly. Co-founder Vitalii Dodonov says revenue grew 8.5x the next year.\n\n[playful] Would you pay $29 a month for a page like this? Send this to the friend who keeps saying they'll monetize their audience. Hack saved?",
+ "open_loop": {
+  "setup": "Stay till the end, because one pricing move changed everything for them.",
+  "payoff": "Around $1M in revenue, they removed transaction fees and went flat monthly."
+ },
+ "title": "THE $3.5M LINK IN BIO",
+ "ig_caption": "A link-in-bio tool is making $3.5M a month, and it takes no cut. 💰\n✅ Build your audience where your customers already are\n✅ Turn customers into your sales force\n✅ Drop per-sale fees for a flat monthly price\nWould you pay $29 a month for a page like this?\nSave this for later\nFollow @ihackgrowth for daily business & growth hacks",
+ "media_hints": {
+  "domain": "stan.store",
+  "broll": [
+   "creator filming phone",
+   "typing on laptop",
+   "phone notifications"
+  ]
+ },
+ "hashtags": [
+  "#Stan",
+  "#StanStore",
+  "#creatoreconomy",
+  "#businessbreakdown",
+  "#TrustMRR",
+  "#linkinbio",
+  "#onlinebusiness",
+  "#sidehustle",
+  "#growthhacks"
+ ],
+ "tag": "BUSINESS BREAKDOWN",
+ "keywords": [
+  "Stan",
+  "link-in-bio",
+  "cut",
+  "TrustMRR",
+  "creators",
+  "coaches",
+  "courses",
+  "memberships",
+  "subscriptions",
+  "TikToks",
+  "audience",
+  "ads",
+  "steal",
+  "customers",
+  "free",
+  "profit",
+  "pricing",
+  "transaction",
+  "flat"
+ ],
+ "music": "groove",
+ "hud": {
+  "label": "STAN FILE",
+  "items": [
+   {
+    "value": "$3.5M/MO",
+    "color": "gold"
+   },
+   {
+    "at": "verified on TrustMRR.",
+    "value": "VERIFIED",
+    "color": "green"
+   },
+   {
+    "at": "paid ads.",
+    "value": "$0 ADS",
+    "color": "green"
+   },
+   {
+    "at": "no free plan.",
+    "value": "NO FREE",
+    "color": "red"
+   },
+   {
+    "at": "grew 8.5x",
+    "value": "8.5x",
+    "color": "green"
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "at": "A link-in-bio",
+   "react": [
+    {
+     "at": "takes no",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "footage",
+     "at": "A link-in-bio",
+     "media": "lib_eye_reflecting_laptop_screen_glow",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "A link-in-bio",
+     "text": "LINK-IN-BIO TOOL",
+     "color": "gold"
+    },
+    {
+     "type": "title_slam",
+     "at": "making $3.5M",
+     "text": "$3.5M / MONTH",
+     "color": "gold"
+    },
+    {
+     "type": "pill",
+     "at": "no cut.",
+     "text": "0% CUT",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "Stay till",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Stay till",
+     "text": "STAY TILL THE END"
+    },
+    {
+     "type": "object3d",
+     "at": "one pricing",
+     "kind": "padlock",
+     "size": "l",
+     "caption": "THE PRICING MOVE"
+    },
+    {
+     "type": "pill",
+     "at": "changed everything",
+     "text": "UNLOCKS AT THE END",
+     "color": "gold",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "It's called",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "It's called",
+     "media": "real_2_phone",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "called Stan.",
+     "text": "ALL-IN-ONE CREATOR STORE",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "Creators and coaches",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Creators and coaches",
+     "text": "ONE MOBILE PAGE"
+    },
+    {
+     "type": "screen",
+     "at": "Creators and coaches",
+     "device": "phone",
+     "app": "Stan",
+     "steps": [
+      {
+       "at": "Creators and coaches",
+       "view": {
+        "kind": "page",
+        "site": "stan.store",
+        "heading": "Creator Store",
+        "sub": "@yourname",
+        "accent": "#6355FF",
+        "cards": [
+         {
+          "title": "Courses",
+          "text": "Self-paced course"
+         },
+         {
+          "title": "Coaching call",
+          "text": "1:1 video session"
+         },
+         {
+          "title": "Membership",
+          "text": "Monthly community"
+         },
+         {
+          "title": "Digital products",
+          "text": "Templates & guides"
+         }
+        ]
+       },
+       "action": {
+        "kind": "point",
+        "target": "Courses",
+        "at": "to sell courses,"
+       }
+      },
+      {
+       "at": "coaching calls,",
+       "view": {
+        "kind": "page",
+        "site": "stan.store",
+        "heading": "Creator Store",
+        "sub": "@yourname",
+        "accent": "#6355FF",
+        "cards": [
+         {
+          "title": "Courses",
+          "text": "Self-paced course"
+         },
+         {
+          "title": "Coaching call",
+          "text": "1:1 video session"
+         },
+         {
+          "title": "Membership",
+          "text": "Monthly community"
+         },
+         {
+          "title": "Digital products",
+          "text": "Templates & guides"
+         }
+        ]
+       },
+       "action": {
+        "kind": "point",
+        "target": "Coaching call",
+        "at": "coaching calls,"
+       }
+      },
+      {
+       "at": "memberships and",
+       "view": {
+        "kind": "page",
+        "site": "stan.store",
+        "heading": "Creator Store",
+        "sub": "@yourname",
+        "accent": "#6355FF",
+        "cards": [
+         {
+          "title": "Courses",
+          "text": "Self-paced course"
+         },
+         {
+          "title": "Coaching call",
+          "text": "1:1 video session"
+         },
+         {
+          "title": "Membership",
+          "text": "Monthly community"
+         },
+         {
+          "title": "Digital products",
+          "text": "Templates & guides"
+         }
+        ]
+       },
+       "action": {
+        "kind": "point",
+        "target": "Membership",
+        "at": "memberships and"
+       }
+      },
+      {
+       "at": "digital products",
+       "view": {
+        "kind": "page",
+        "site": "stan.store",
+        "heading": "Creator Store",
+        "sub": "@yourname",
+        "accent": "#6355FF",
+        "cards": [
+         {
+          "title": "Courses",
+          "text": "Self-paced course"
+         },
+         {
+          "title": "Coaching call",
+          "text": "1:1 video session"
+         },
+         {
+          "title": "Membership",
+          "text": "Monthly community"
+         },
+         {
+          "title": "Digital products",
+          "text": "Templates & guides"
+         }
+        ]
+       },
+       "action": {
+        "kind": "point",
+        "target": "Digital products",
+        "at": "digital products"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "These numbers",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "These numbers",
+     "media": "real_1_phone",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "verified on TrustMRR.",
+     "text": "VERIFIED · TRUSTMRR",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "As of April",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "label",
+     "at": "As of April",
+     "text": "APRIL 2026 · TRUSTMRR"
+    },
+    {
+     "type": "object3d",
+     "at": "$3.5M MRR,",
+     "kind": "coins",
+     "count": 30,
+     "act": "fill",
+     "act_at": "all-time revenue."
+    },
+    {
+     "type": "stat_row",
+     "at": "$3.5M MRR,",
+     "cards": [
+      {
+       "label": "MRR",
+       "value": "$3.5M",
+       "at": "$3.5M MRR,",
+       "color": "gold"
+      },
+      {
+       "label": "ACTIVE SUBS",
+       "value": "101,590",
+       "at": "101,590 active",
+       "color": "white"
+      },
+      {
+       "label": "ALL-TIME",
+       "value": "$76.6M",
+       "at": "$76.6M in",
+       "color": "green",
+       "glow": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "How'd it grow?",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "headline",
+     "at": "How'd it grow?",
+     "text": "HOW'D IT GROW?",
+     "size": "l",
+     "ill": "chart_increasing"
+    },
+    {
+     "type": "app",
+     "at": "Co-founder John Hu",
+     "name": "TikTok",
+     "label": "JOHN HU · CO-FOUNDER",
+     "ill": "mobile_phone",
+     "sub": "CAREER ADVICE",
+     "sub_at": "career-advice TikToks,"
+    },
+    {
+     "type": "pill",
+     "at": "in public.",
+     "text": "BUILT IN PUBLIC",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "He said",
+   "react": [
+    {
+     "at": "early success.",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "footage",
+     "at": "He said",
+     "media": "lib_content_creator_sets_up_phone",
+     "full": true
+    },
+    {
+     "type": "headline",
+     "at": "the entirety",
+     "text": "AUDIENCE = EVERYTHING",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "And they've said",
+   "tint": "green",
+   "react": [
+    {
+     "at": "single dollar",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "big_number",
+     "at": "And they've said",
+     "value": "$0",
+     "color": "green",
+     "ill": "money_bag",
+     "note": "ON PAID ADS",
+     "note_at": "paid ads.",
+     "note_color": "green"
+    }
+   ]
+  },
+  {
+   "at": "So, what",
+   "react": [
+    {
+     "at": "One, build",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "So, what",
+     "text": "WHAT YOU CAN STEAL"
+    },
+    {
+     "type": "steps",
+     "at": "One, build",
+     "items": [
+      {
+       "text": "BUILD WHERE BUYERS HANG OUT",
+       "at": "One, build",
+       "ill": "bullseye"
+      },
+      {
+       "text": "CUSTOMERS = SALES FORCE",
+       "at": "Two, turn",
+       "ill": "megaphone"
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "at": "customers already",
+     "text": "GO WHERE THEY SCROLL",
+     "color": "gold",
+     "outline": true
+    },
+    {
+     "type": "pill",
+     "at": "sales force.",
+     "text": "FREE SALES FORCE",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "Honest catch:",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Honest catch:",
+     "text": "HONEST CATCH"
+    },
+    {
+     "type": "title_slam",
+     "at": "no free plan.",
+     "text": "NO FREE PLAN",
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "at": "Creator is",
+   "tint": "red",
+   "react": [
+    {
+     "at": "not profit.",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Creator is",
+     "media": "real_3_web",
+     "tall": true
+    },
+    {
+     "type": "pill",
+     "at": "$29 a month,",
+     "text": "CREATOR · $29/MO",
+     "color": "gold"
+    },
+    {
+     "type": "pill",
+     "at": "not profit.",
+     "text": "REVENUE ≠ PROFIT",
+     "color": "red",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "Now, the pricing",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "Now, the pricing",
+     "kind": "padlock",
+     "size": "m",
+     "act": "open",
+     "act_at": "removed transaction",
+     "caption": "THE PRICING MOVE"
+    },
+    {
+     "type": "pill",
+     "at": "Around $1M",
+     "text": "AT ~$1M REVENUE",
+     "color": "gold"
+    },
+    {
+     "type": "vs",
+     "at": "removed transaction",
+     "left": {
+      "label": "BEFORE",
+      "value": "FEES"
+     },
+     "right": {
+      "label": "AFTER",
+      "value": "FLAT",
+      "sub": "MONTHLY",
+      "color": "green",
+      "at": "went flat"
+     },
+     "strike_at": "went flat"
+    }
+   ]
+  },
+  {
+   "at": "Co-founder Vitalii",
+   "tint": "green",
+   "react": [
+    {
+     "at": "grew 8.5x",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Co-founder Vitalii",
+     "media": "real_4_web",
+     "tall": true
+    },
+    {
+     "type": "big_number",
+     "at": "grew 8.5x",
+     "value": "8.5x",
+     "color": "green",
+     "ill": "chart_increasing",
+     "note": "THE NEXT YEAR",
+     "note_at": "next year.",
+     "note_color": "green"
+    }
+   ]
+  },
+  {
+   "at": "Would you pay",
+   "elements": [
+    {
+     "type": "headline",
+     "at": "Would you pay",
+     "text": "$29/MO FOR THIS?",
+     "size": "l",
+     "ill": "thinking_face",
+     "sub": "YES OR NO?",
+     "sub_at": "a page"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "Send this",
+  "line1": "Send this to",
+  "line1_at": "Send this",
+  "line2": "the future creator",
+  "line2_at": "monetize their audience."
+ },
+ "endcard": {
+  "title": "Hack saved?",
+  "terminal": "> breakdown.saved · 8.5x growth"
+ },
+ "media": [
+  {
+   "id": "real_1_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-13_2002/real_1_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-13_2002/real_1_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: trustmrr.com",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the gold-outlined part — TrustMRR phone listing for Stan (breadcrumb TrustMRR > Startup > Stan). Tagline: 'Stan enables people to make living and work for themselves.' Buttons: Share, Visit. All-time revenue $76,627,685, 'Ranked #3 on TrustMRR'. MRR $3,569,654 with '101590 active subscriptions'. Founder Vitalii Dodonov, 15. [Screen: trustmrr.com]"
+  },
+  {
+   "id": "real_1_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-13_2002/real_1_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-13_2002/real_1_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: trustmrr.com",
+   "desc": "REAL desktop screen recording, pushes in on the gold-outlined part — TrustMRR desktop page for Stan, partly covered by a dim overlay and a newsletter popup ('Spot the Next Big Thing', 'Send me the data'). Visible parts: Domain Rating 90/100 (stan.store), Market: Content Creation, Tech stack: Backend, Stripe. A 'Claim this startup' button and a 'Discover more startups [Screen: trustmrr.com]"
+  },
+  {
+   "id": "real_2_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-13_2002/real_2_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-13_2002/real_2_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: stan.store",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the page (no highlight) — Stan homepage on phone with purple background. Headline: 'Meet Your All·in·One Creator Store'. Subtext: 'Stan is the easiest way to make money online. All of your courses, digital products, and bookings are now hosted within your link-in-bio.' Green 'Continue →' button. Phone mockup shows a creator  [Screen: stan.store]"
+  },
+  {
+   "id": "real_2_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-13_2002/real_2_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-13_2002/real_2_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: stan.store",
+   "desc": "REAL desktop screen recording, pushes in on the page (no highlight) — Stan homepage on desktop. Nav: Stan logo, Home, Our Mission, Blog, Log in, Sign Up. Headline 'Meet Your All·in·One Creator Store'. Subtext: 'Stan is the easiest way to make money online. All of your courses, digital products, and bookings are now hosted within your link-in-bio.' Green 'Continue' but [Screen: stan.store]"
+  },
+  {
+   "id": "real_3_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-13_2002/real_3_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-13_2002/real_3_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: stan.store",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the gold-outlined part — Stan blog post on phone, shown with a dim overlay. Breadcrumb: Blog > Getting Started. Title: 'Stan Store Pricing: Plans, Costs, and What You Get'. By Jordyn Kerr, 'Updated: Jul 22, 2026'. 'Summarize with:' buttons: ChatGPT, Perplexity, Claude, Gemini, Grok. Hero image of piggy banks with the label  [Screen: stan.store]"
+  },
+  {
+   "id": "real_3_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-13_2002/real_3_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-13_2002/real_3_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: stan.store",
+   "desc": "REAL desktop screen recording, pushes in on the gold-outlined part — Stan blog post 'Stan Store Pricing' on desktop, dimmed, with the table of contents highlighted: TL;DR, Stan Store Pricing Plans (2026), Stan Store's Creator Plan $29/month, Creator Pro Plan $99/month, Stan Store Pricing vs. Alternatives, Why Creators Choose Stan, Affordable Pricing, Zero Transaction [Screen: stan.store]"
+  },
+  {
+   "id": "real_4_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-13_2002/real_4_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-13_2002/real_4_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: stan.store",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the gold-outlined part — Stan blog post on phone, dimmed. Breadcrumb: Blog > Insights. Title: '2024 in Review: The Creator Economy's Evolution and the Road Ahead'. By Richard Lazazzera, 'Updated: Jul 21, 2026'. 'Summarize with:' buttons: ChatGPT, Perplexity, Claude, Gemini, Grok. Hero graphic reads 'State of the Creator Eco [Screen: stan.store]"
+  },
+  {
+   "id": "real_4_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-13_2002/real_4_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-13_2002/real_4_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: stan.store",
+   "desc": "REAL desktop screen recording, pushes in on the gold-outlined part — Stan blog '2024 in Review' on desktop, dimmed, with a highlighted bullet list under 'The Numbers That Tell the Story'. '$33M in Revenue: In just two years, Stan's revenue surged from $1.7M in 2022 to $14.7M in 2023, doubling again to over $33M in 2024.' '$200M Earned by Creators: The first $100M too [Screen: stan.store]"
+  },
+  {
+   "id": "lib_camera_moving_down_server_corridor",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "credit": "",
+   "file": "camera_moving_down_server_corridor.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow forward push down a hazy, fog-filled data center aisle lined with server racks that glow with blue and amber status lights, giving a moody, futuristic feel. Good for: A script line about the infrastructure behind AI, such as cloud computing, model training, heavy compute, data storage, or 'what happens behind the scenes'."
+  },
+  {
+   "id": "lib_clock_ticking_and_person_typing",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "credit": "",
+   "file": "clock_ticking_and_person_typing.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A rack-focus shot moves from a close-up of a black twin-bell alarm clock with ticking hands to a bearded man in a light polo typing on a laptop in a dim room, giving a tense, time-pressured mood. Good for: lines about deadlines, time slipping away, long hours of manual work, or the pressure of slow, tedious tasks before an AI tool speeds things up"
+  },
+  {
+   "id": "lib_colleagues_collaborating_around",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "credit": "",
+   "file": "colleagues_collaborating_around.mp4",
+   "frames": 126,
+   "desc": "B-roll (4.2s, VERTICAL 9:16 — best as full: true): colleagues collaborating around Good for: "
+  },
+  {
+   "id": "lib_content_creator_sets_up_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "credit": "",
+   "file": "content_creator_sets_up_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt stands behind a ring light with a phone on a tripod, adjusting the setup while the camera slowly pushes in until his face fills the frame, with a calm, focused mood and moody blue ambient lighting in the background. Good for: setting up to create content, getting started as a creator, or preparing equipment before recording a tutorial"
+  },
+  {
+   "id": "lib_eye_reflecting_laptop_screen_glow",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "credit": "",
+   "file": "eye_reflecting_laptop_screen_glow.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow zoom into an extreme close-up of a brown eye with a bright blue screen reflected in the pupil, framed by a thick eyebrow and warm skin tones, fading into a cool blue gradient at the bottom, with a focused, intense and cinematic mood. Good for: lines about being glued to a screen, intense focus or attention, watching AI work, or 'seeing' a new opportunity or insight"
+  },
+  {
+   "id": "lib_fingers_typing_on_laptop_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "credit": "",
+   "file": "fingers_typing_on_laptop_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): Close-up over-the-shoulder shot of a person typing on a backlit laptop keyboard, with a blurred blue screen in the background and a warm, focused, productive mood. Good for: lines about getting started, writing prompts or code, doing focused work at the computer, or the hands-on steps of a tutorial"
+  },
+  {
+   "id": "lib_hand_dropping_papers_on_desk",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "credit": "",
+   "file": "hand_dropping_papers_on_desk.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a green shirt carries and then drops a thick stack of papers onto an already huge, messy pile of documents with sticky notes on a cluttered desk, while a laptop glows nearby, and the camera pushes in to a close-up of the towering stack, creating a mood of overwhelm and tedious paperwork. Good for: a script line about drowning in manual paperwork or document processing, setting up how AI can automate summarizing, sorting, or extracting information from piles of documents"
+  },
+  {
+   "id": "lib_man_comparing_phone_and_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "credit": "",
+   "file": "man_comparing_phone_and_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): man comparing phone and laptop Good for: "
+  },
+  {
+   "id": "lib_man_opens_laptop_in_room",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "credit": "",
+   "file": "man_opens_laptop_in_room.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt sits at a laptop in a dimly lit, warmly lit room, and his focused, tense expression builds as he leans toward the screen, which shows blurry blue diagram or flowchart-style blocks, with his fists clenched near his chin in the middle frame. Good for: intense concentration or deep work, such as debugging, building an AI workflow, or struggling with a complex problem"
+  },
+  {
+   "id": "lib_man_pointing_at_camera",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_pointing_at_camera.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_pointing_at_camera.mp4",
+   "credit": "",
+   "file": "man_pointing_at_camera.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a dark henley sits in a car seat working on a laptop with a focused look, then looks up with a warm smile and points playfully at the camera in a confident, friendly mood. Good for: a line that moves from focused work or problem-solving to a direct call to action, such as 'here's the trick you need to try' or 'now it's your turn'"
+  },
+  {
+   "id": "lib_man_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "man_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt stares intently at a laptop screen with blurry blue UI elements floating in front of the camera, then grimaces in frustration and mouths a reaction, and finally tilts his head back in exhausted resignation in a dim, warmly lit room. Good for: frustration with slow, tedious, or failing work, such as waiting on a slow tool, hitting an error, or being exhausted by manual tasks before introducing an AI solution"
+  },
+  {
+   "id": "lib_man_shaking_head_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "credit": "",
+   "file": "man_shaking_head_at_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits in a dark chair looking down at his phone, and his expression shifts from neutral to scrunched-up frustration or confusion, then to a displeased, worried look as he lowers the phone. Good for: frustration or disappointment with a tool or app that isn't working, slow or confusing results, or a bad surprise while checking your phone"
+  },
+  {
+   "id": "lib_man_smiling_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "credit": "",
+   "file": "man_smiling_at_phone.mp4",
+   "frames": 135,
+   "desc": "B-roll (4.5s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a blue smartphone, his expression shifting from neutral to a furrowed-brow frown of confusion and frustration. Good for: a line about frustration with confusing apps or slow tools, or the moment someone hits a problem and doesn't know what to do next"
+  },
+  {
+   "id": "lib_man_watching_laptop_waiting",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "credit": "",
+   "file": "man_watching_laptop_waiting.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits at a laptop in a dimly lit room with warm lamp light, resting his chin on his fist with a focused, pensive look, and the camera pushes in closer across the three frames. Good for: a script line about deep thinking, researching or problem-solving, or weighing a decision before trying an AI tool"
+  },
+  {
+   "id": "lib_person_drinking_coffee_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "credit": "",
+   "file": "person_drinking_coffee_with_laptop.mp4",
+   "frames": 93,
+   "desc": "B-roll (3.1s, VERTICAL 9:16 — best as full: true): A bearded man in a green polo sits at a laptop in a modern industrial-style open office, lifting a white cup to his mouth and sipping a hot drink while looking down at the screen, in a calm, focused mood. Good for: a line about taking a breather while the AI does the work, a morning work routine, waiting for a process to finish, or the calm of an automated workflow"
+  },
+  {
+   "id": "lib_person_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "person_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a laptop, his expression moving from concern to a deep frown with glowing blue tear-like effects on his cheeks, then to eyes shut in stress or exhaustion; the mood is frustrated and overwhelmed. Good for: A script line about frustration or overwhelm with a tough task, such as struggling with confusing tools, wasting hours on manual work, or being stuck before finding an AI solution."
+  },
+  {
+   "id": "lib_person_speaking_into_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "credit": "",
+   "file": "person_speaking_into_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt takes a phone call in a modern industrial office with exposed concrete ceilings, moving from a serious, concerned look to a worried talking expression and ending with a relieved, confident smile at the camera. Good for: a script line about getting a surprising call or news, a problem being solved, or the moment of relief after a stressful issue"
+  },
+  {
+   "id": "lib_person_taking_selfie_with_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "credit": "",
+   "file": "person_taking_selfie_with_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt sits in a car holding a blue smartphone up close to his face, and across the clip he leans toward the screen with a furrowed brow, looking skeptical and intensely focused. Good for: a script line about doubting or double-checking AI output, being confused or frustrated by an app or tool, or looking closely at a result on your phone, e.g. 'wait, is this actually right?'"
+  },
+  {
+   "id": "lib_professional_working_on_laptop_late",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "credit": "",
+   "file": "professional_working_on_laptop_late.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A tired bearded young man in a maroon t-shirt sits at a laptop in a dim apartment at night, resting his head on his hand, rubbing his eyes, then glumly lifting a white coffee mug, with blurred city lights glowing behind him through the window. Good for: A script line about burnout, late-night grinding, or frustration with slow manual work that AI tools can speed up, e.g. 'still stuck doing this by hand at midnight?'"
+  },
+  {
+   "id": "s1_image",
+   "kind": "image",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-13_2002/s1_image.png",
+   "credit": "Image: stan.store",
+   "desc": "official image from Stan (announcement page)"
+  }
+ ],
+ "style": "hisaab",
+ "topic": "Business breakdown: Stan — Stan enables people to make living and work for themselves.",
+ "pick": {
+  "topic": "Business breakdown: Stan — Stan enables people to make living and work for themselves.",
+  "tool": "Stan",
+  "format": "business",
+  "angle": "A creator-economy platform that has made $3.5M, helping people turn their audience into a business"
+ },
+ "inspired_by": {
+  "url": "https://trustmrr.com/startup/stan",
+  "owner": "trustmrr",
+  "plays": 0,
+  "likes": 0,
+  "comments": 0
+ },
+ "research": {
+  "verdict": "ok",
+  "tool": "Stan",
+  "what_it_does": "A link-in-bio storefront where creators sell digital products, courses, coaching calls, memberships and bookings from one mobile-first page, with no separate website.",
+  "who_pays": "Creators, coaches and solo entrepreneurs (mostly social-first) pay a flat monthly subscription. Stan takes no cut of their sales.",
+  "pricing": "No free plan, but a 14-day free trial on both plans. Creator is $29/mo or $300/yr. Creator Pro is $99/mo or $948/yr. Stan charges 0% transaction fees. Stripe/PayPal processing still applies (about 2.9% + $0.30 per US card payment). Source: Stan's help center and pricing article, as cited by third-party reviews checked Oct–Nov 2026 (checkoutpage.com, lilachbullock.com). I could not open the official pricing page directly.",
+  "growth": [
+   "Founder-led content on TikTok and YouTube. Co-founder/CEO John Hu (@jayhoovy) posted career-advice TikToks while a Stanford GSB student, then built Stan in public. In the Creator Spotlight podcast (Dec 2024) he said that early on 'the entirety of my success was due to building an audience online'. He also estimated about 60% of his mental energy went into content for the first one or two years. (creatorspotlight.com, marketingcrafted.com)",
+   "Customers as salespeople. Hu told Forerunner Ventures that Stan aligns incentives with a profit share so customers act as affiliates, and that Stan hasn't spent a single dollar on paid ads. (forerunnerventures.com)",
+   "Sacra reports a 20% lifetime revenue-share affiliate program, plus word of mouth on TikTok and Instagram. This is a third-party report, not Stan's own statement. (sacra.com)",
+   "Pricing change: in late 2022, at roughly $1M annual revenue, the founders removed transaction fees and moved to a flat monthly subscription. Per the Mike Wystrach podcast page, revenue grew 8.5x over the following year. (mikewystrach.com)",
+   "Stan launched in May 2021 and by the end of 2022 was doing over $1M ARR. (thezerotoone.co)",
+   "Stan's own 2024 review says revenue went from $1.7M in 2022 to $14.7M in 2023 to over $33M in 2024. (stan.store/blog/creator-economy-2024)",
+   "Partnership: on Sep 15, 2025 Stan announced Gary Vaynerchuk as a partner and investor, tied to a creator challenge. The release described 80,000+ creators and $300M in sales. (PR Newswire)",
+   "Launched an AI content tool, Stanley, built in 14 days. Dodonov says it hit $50,000 MRR within six weeks. (AOL/Business Insider-style first-person article)"
+  ],
+  "founder_story": [
+   "Stan has two co-founders: John Hu (CEO, the creator/face of the brand) and Vitalii Dodonov (CTO, the engineer). TrustMRR lists only Dodonov. Dodonov describes meeting Hu through a shared customer. In his own X post he says he met his co-founder on Zoom in 2021 during COVID. (mikewystrach.com, X)",
+   "Dodonov started at Deloitte, then eBay. He quit eBay to work on Stan full-time in June 2021. (AOL article)",
+   "Dodonov moved to Canada at 18 without speaking English. He grew up in a small town in Russia, where his dad was a 10-time skydiving world champion. (Dodonov's X post, Feb 25, 2026)",
+   "Hu previously worked at Goldman Sachs and went to Stanford GSB. He built Stan to monetize his own TikTok following. (marketingcrafted.com, forerunnerventures.com)",
+   "Dodonov says Stan hit about $30M ARR in three years. He also says it did so with a small team: 'less than 30 people' and about 10 engineers (his own X posts, Jan 2026).",
+   "Hu and Dodonov raised $5M in seed funding from Forerunner in 2022. Dodonov's X thread says they returned an IKEA table 'with $5M in the bank'. (thezerotoone.co, X)"
+  ],
+  "lessons": [
+   "Build an audience where your customers already are. Hu documented the company on TikTok and YouTube to reach creators, and said that was the entirety of his early success.",
+   "Make your customers your sales force. Stan pays affiliates a share, has said it spends nothing on paid ads, and its customers' own 'Try 14 Days Free' banner works as a built-in referral.",
+   "Pick a simple, flat pricing model that works as the pitch. Stan dropped transaction fees at about $1M revenue. Advisors told them they were leaving millions on the table. Dodonov says revenue grew 8.5x in the next year.",
+   "Delete work rather than add it. Dodonov says Stan automated and simplified, 'deleting features' and building self-serve tools, to run lean.",
+   "Borrow credibility from bigger names. The Gary Vaynerchuk investment and partnership gave Stan an audience and a creator challenge to point at."
+  ],
+  "criticism": [
+   "Revenue is not profit. TrustMRR shows MRR and revenue only, not margins. Dodonov has called Stan a 'profitable company', and Sacra claims about 40% EBITDA, but neither is verified.",
+   "TrustMRR's Stripe key has expired, so the figures stop at Apr 20, 2026 and may be stale. Stan's founders post different MRR figures at different times: $2.5M in Feb 2026 and $2.8M in Jan 2026.",
+   "Stan has a paid-only model with no free plan, which is costly for creators with no audience yet. Reviewers note it only pays off once sales clear roughly $290–$300/month. (creatorstackclub.com, elev8or.io)",
+   "Stan lacks a custom domain on the Creator plan, and removing the Stan branding needs Creator Pro. Stripe/PayPal fees and cash-out fees still apply, so 'zero fees' only means Stan's own fees. (cartmango.com, checkoutpage.com)",
+   "Competition is heavy. It is a link-in-bio and course-store market with Linktree, Beacons, Whop, Kajabi and others. Stan is also not a fit for megastar creators, and Hu says it is not designed for them. (entrepreneur.com)",
+   "Stan is VC-backed. It has Forerunner seed money, Steven Bartlett reported as a co-owner since May 2025, and Gary Vaynerchuk as an investor since Sep 2025. It is not purely bootstrapped."
+  ],
+  "facts": [
+   "TrustMRR: MRR $3,569,654, all-time revenue $76,627,685, 101,590 active subscriptions, rank #3. The data was last updated Apr 20, 2026.",
+   "Stan says it serves 80,000+ creators making $200M+ per year on the platform. (Dodonov's X post)",
+   "Stan's own blog says it has helped creators earn over $400 million. A Mike Wystrach page for Dodonov says over $600M. (stan.store blog, mikewystrach.com)",
+   "11,000+ creators have earned their first $1,000 using Stan. (Stan 2024 review)",
+   "On Mar 17, 2026, Stan launched Stanley, an AI head of content for LinkedIn. (PR Newswire, via Tracxn)",
+   "Dodonov grew his LinkedIn from 1,724 followers to over 8,600 in 1.5 years by posting consistently. (stan.store/blog/by-creators-for-creators)"
+  ],
+  "do_not_claim": [
+   "Profit or margins. 'Profitable' is a founder claim, and 'about 40% EBITDA' comes from Sacra, with no verified financials.",
+   "Exact team size. Dodonov says under 30 people, while Latka lists 171, which looks unreliable.",
+   "That Dodonov is the sole founder, or that Stan was founded in April 2023. TrustMRR says April 2023, but sources say 2020 (founded) and May 2021 (launch).",
+   "Any funding or valuation figures from Tracxn, CB Insights, Clay, TechCrunch or Caplight. They mix up Stan Store with STAN, an unrelated Indian gaming app that raised from Google, Square Enix and others.",
+   "Exact valuation. The $25M valuation figure on the $5M seed round is only from thezerotoone.co.",
+   "Exact ARR or MRR on a given date. Sources quoted $27M, $30M, $33M and $2.5M–$2.8M MRR at different times.",
+   "Affiliate payout terms as an official fact. The 20% lifetime share comes from Sacra, not Stan."
+  ],
+  "real_pages": [
+   {
+    "url": "https://trustmrr.com/startup/stan",
+    "show": "$3,569,654",
+    "kind": "site"
+   },
+   {
+    "url": "https://stan.store",
+    "show": "",
+    "kind": "site"
+   },
+   {
+    "url": "https://stan.store/blog/stan-store-pricing",
+    "show": "$29",
+    "kind": "site"
+   },
+   {
+    "url": "https://stan.store/blog/creator-economy-2024/",
+    "show": "$33M in Revenue",
+    "kind": "site"
+   }
+  ],
+  "sources": [
+   "https://trustmrr.com/startup/stan",
+   "https://x.com/vitaliidodonov/status/2010284331479249364",
+   "https://x.com/vitaliidodonov/status/2026605696272285946",
+   "https://x.com/vitaliidodonov/status/2050893200705884461",
+   "https://www.forerunnerventures.com/perspectives/how-stan-scaled-to-33m-in-arr-within-two-years-while-building-in-public",
+   "https://www.creatorspotlight.com/p/john-hu-stan",
+   "https://mikewystrach.com/podcast/vitalii-dodonov",
+   "https://www.aol.com/articles/built-ai-content-tool-creators-090501000.html",
+   "https://stan.store/blog/creator-economy-2024/",
+   "https://stan.store/blog/by-creators-for-creators/",
+   "https://www.prnewswire.com/news-releases/gary-vaynerchuk-joins-stan-store-backing-the-platform-redefining-the-250-bn-creator-economy-302555877.html",
+   "https://www.thezerotoone.co/p/stan-creators-make-money-online",
+   "https://marketingcrafted.com/case-studies/stan",
+   "https://sacra.com/c/stan/",
+   "https://checkoutpage.com/blog/stan-store-pricing",
+   "https://www.entrepreneur.com/starting-a-business/why-this-garyvees-challenge-could-be-the-fastest-way-for/497373"
+  ],
+  "notes": "1) Founder mismatch: TrustMRR lists Vitalii Dodonov (co-founder and CTO). The CEO and public face is John Hu (@jayhoovy). Credit both. 2) Pricing is cross-checked from many review sites that cite Stan's help center, and none showed the official pricing page text. Before recording, open stan.store and the pricing page yourself and confirm that '$29' and 'Creator Pro' appear. The pricing URL comes from a Heartbeat citation of Stan's own blog, and I haven't seen it live. 3) Beware name collision: most funding search results are for the Indian gaming app 'STAN' and not Stan Store. 4) TrustMRR data is stale (Apr 2026), so 'current MRR' should be phrased 'as of April 2026'. 5) The sources conflict on how much the 14-day trial matters. Stan's help center says the first month is charged when the trial ends, and the trial auto-converts unless cancelled before day 14.",
+  "_searched": 6,
+  "trustmrr": {
+   "name": "Stan",
+   "one_liner": "Stan enables people to make living and work for themselves.",
+   "website": "https://stan.store",
+   "founder": "Vitalii Dodonov",
+   "founder_x": "",
+   "founded": "April 2023",
+   "location": "United States",
+   "category": "Content Creation",
+   "audience": "",
+   "pricing": "",
+   "revenue_last_30_days": "",
+   "revenue_all_time": "$76,627,685",
+   "mrr": "$3,569,654",
+   "growth_mom": "",
+   "active_subscriptions": "101590",
+   "rank": "#3",
+   "for_sale": "",
+   "verified_by": "Stripe API key",
+   "last_updated": "Apr 20, 2026",
+   "other": [
+    "Founder has 15.6k followers on 𝕏",
+    "Stripe API key expired. Data last updated Apr 20, 2026. Update your API key to sync latest revenue.",
+    "Ahrefs Domain Rating: 90/100 (stan.store)",
+    "Market: Content Creation",
+    "Tech stack (Backend): Stripe",
+    "Page shows 'Claim this startup'"
+   ],
+   "trustmrr_url": "https://trustmrr.com/startup/stan"
+  },
+  "say_numbers_as": [
+   "$76,627,685 (can be said as: $76.6M, $76627K, $76628K, $76630K, $77M)",
+   "$3,569,654 (can be said as: $3.5M, $3.6M, $3569K, $3570K, $4M)"
+  ]
+ },
+ "kind": "business",
+ "episode": 29,
+ "_ident": {
+  "at": 5.54,
+  "dur": 1.5,
+  "title": "AI HACKS",
+  "type": 0.42,
+  "sub": "EP 29 · BUSINESS BREAKDOWN"
+ },
+ "timeline": {
+  "words": [
+   [
+    "A",
+    0.07
+   ],
+   [
+    "link-in-bio",
+    0.16
+   ],
+   [
+    "tool",
+    0.88
+   ],
+   [
+    "is",
+    1.2
+   ],
+   [
+    "making",
+    1.36
+   ],
+   [
+    "$3.5M",
+    1.76
+   ],
+   [
+    "a",
+    2.0
+   ],
+   [
+    "month,",
+    3.52
+   ],
+   [
+    "and",
+    4.16
+   ],
+   [
+    "it",
+    4.32
+   ],
+   [
+    "takes",
+    4.52
+   ],
+   [
+    "no",
+    4.8
+   ],
+   [
+    "cut.",
+    5.04
+   ],
+   [
+    "Stay",
+    7.26
+   ],
+   [
+    "till",
+    7.46
+   ],
+   [
+    "the",
+    7.66
+   ],
+   [
+    "end,",
+    7.82
+   ],
+   [
+    "because",
+    8.3
+   ],
+   [
+    "one",
+    8.62
+   ],
+   [
+    "pricing",
+    8.86
+   ],
+   [
+    "move",
+    9.34
+   ],
+   [
+    "changed",
+    9.66
+   ],
+   [
+    "everything",
+    10.22
+   ],
+   [
+    "for",
+    10.7
+   ],
+   [
+    "them.",
+    10.9
+   ],
+   [
+    "It's",
+    11.38
+   ],
+   [
+    "called",
+    11.58
+   ],
+   [
+    "Stan.",
+    11.9
+   ],
+   [
+    "Creators",
+    12.86
+   ],
+   [
+    "and",
+    13.18
+   ],
+   [
+    "coaches",
+    13.3
+   ],
+   [
+    "use",
+    13.74
+   ],
+   [
+    "it",
+    13.94
+   ],
+   [
+    "to",
+    14.06
+   ],
+   [
+    "sell",
+    14.26
+   ],
+   [
+    "courses,",
+    14.66
+   ],
+   [
+    "coaching",
+    15.06
+   ],
+   [
+    "calls,",
+    15.42
+   ],
+   [
+    "memberships",
+    16.06
+   ],
+   [
+    "and",
+    16.62
+   ],
+   [
+    "digital",
+    16.94
+   ],
+   [
+    "products",
+    17.18
+   ],
+   [
+    "from",
+    17.66
+   ],
+   [
+    "one",
+    17.98
+   ],
+   [
+    "mobile",
+    18.34
+   ],
+   [
+    "page.",
+    18.7
+   ],
+   [
+    "These",
+    19.26
+   ],
+   [
+    "numbers",
+    19.5
+   ],
+   [
+    "are",
+    19.98
+   ],
+   [
+    "verified",
+    20.38
+   ],
+   [
+    "on",
+    20.7
+   ],
+   [
+    "TrustMRR.",
+    20.94
+   ],
+   [
+    "As",
+    21.98
+   ],
+   [
+    "of",
+    22.14
+   ],
+   [
+    "April",
+    22.3
+   ],
+   [
+    "2026,",
+    22.62
+   ],
+   [
+    "that's",
+    23.74
+   ],
+   [
+    "$3.5M",
+    24.06
+   ],
+   [
+    "MRR,",
+    24.3
+   ],
+   [
+    "101,590",
+    26.7
+   ],
+   [
+    "active",
+    27.26
+   ],
+   [
+    "subscriptions,",
+    29.26
+   ],
+   [
+    "and",
+    30.18
+   ],
+   [
+    "$76.6M",
+    30.38
+   ],
+   [
+    "in",
+    31.1
+   ],
+   [
+    "all-time",
+    31.42
+   ],
+   [
+    "revenue.",
+    33.42
+   ],
+   [
+    "How'd",
+    34.22
+   ],
+   [
+    "it",
+    34.42
+   ],
+   [
+    "grow?",
+    34.54
+   ],
+   [
+    "Co-founder",
+    35.14
+   ],
+   [
+    "John",
+    35.66
+   ],
+   [
+    "Hu",
+    35.98
+   ],
+   [
+    "posted",
+    36.3
+   ],
+   [
+    "career-advice",
+    36.86
+   ],
+   [
+    "TikToks,",
+    37.5
+   ],
+   [
+    "then",
+    38.26
+   ],
+   [
+    "built",
+    38.5
+   ],
+   [
+    "Stan",
+    38.82
+   ],
+   [
+    "in",
+    39.1
+   ],
+   [
+    "public.",
+    39.26
+   ],
+   [
+    "He",
+    39.94
+   ],
+   [
+    "said",
+    40.06
+   ],
+   [
+    "building",
+    40.3
+   ],
+   [
+    "an",
+    40.62
+   ],
+   [
+    "audience",
+    40.78
+   ],
+   [
+    "online",
+    41.18
+   ],
+   [
+    "was",
+    41.66
+   ],
+   [
+    "the",
+    41.82
+   ],
+   [
+    "entirety",
+    41.98
+   ],
+   [
+    "of",
+    42.66
+   ],
+   [
+    "his",
+    42.78
+   ],
+   [
+    "early",
+    42.94
+   ],
+   [
+    "success.",
+    43.18
+   ],
+   [
+    "And",
+    43.94
+   ],
+   [
+    "they've",
+    44.06
+   ],
+   [
+    "said",
+    44.3
+   ],
+   [
+    "they",
+    44.54
+   ],
+   [
+    "never",
+    44.9
+   ],
+   [
+    "spent",
+    45.1
+   ],
+   [
+    "a",
+    45.42
+   ],
+   [
+    "single",
+    45.66
+   ],
+   [
+    "dollar",
+    46.14
+   ],
+   [
+    "on",
+    46.46
+   ],
+   [
+    "paid",
+    46.7
+   ],
+   [
+    "ads.",
+    46.94
+   ],
+   [
+    "So,",
+    47.7
+   ],
+   [
+    "what",
+    48.14
+   ],
+   [
+    "can",
+    48.3
+   ],
+   [
+    "you",
+    48.46
+   ],
+   [
+    "steal?",
+    48.62
+   ],
+   [
+    "One,",
+    49.38
+   ],
+   [
+    "build",
+    49.9
+   ],
+   [
+    "your",
+    50.14
+   ],
+   [
+    "audience",
+    50.34
+   ],
+   [
+    "where",
+    50.7
+   ],
+   [
+    "your",
+    50.86
+   ],
+   [
+    "customers",
+    51.02
+   ],
+   [
+    "already",
+    51.58
+   ],
+   [
+    "hang",
+    52.06
+   ],
+   [
+    "out.",
+    52.3
+   ],
+   [
+    "Two,",
+    52.9
+   ],
+   [
+    "turn",
+    53.34
+   ],
+   [
+    "your",
+    53.5
+   ],
+   [
+    "customers",
+    53.94
+   ],
+   [
+    "into",
+    54.3
+   ],
+   [
+    "your",
+    54.58
+   ],
+   [
+    "sales",
+    54.78
+   ],
+   [
+    "force.",
+    55.3
+   ],
+   [
+    "Honest",
+    55.884
+   ],
+   [
+    "catch:",
+    56.34
+   ],
+   [
+    "there's",
+    56.86
+   ],
+   [
+    "no",
+    57.18
+   ],
+   [
+    "free",
+    57.42
+   ],
+   [
+    "plan.",
+    57.66
+   ],
+   [
+    "Creator",
+    58.42
+   ],
+   [
+    "is",
+    58.7
+   ],
+   [
+    "$29",
+    58.94
+   ],
+   [
+    "a",
+    59.42
+   ],
+   [
+    "month,",
+    59.74
+   ],
+   [
+    "and",
+    60.3
+   ],
+   [
+    "TrustMRR",
+    60.46
+   ],
+   [
+    "shows",
+    61.34
+   ],
+   [
+    "revenue,",
+    61.58
+   ],
+   [
+    "not",
+    62.3
+   ],
+   [
+    "profit.",
+    62.46
+   ],
+   [
+    "Now,",
+    63.26
+   ],
+   [
+    "the",
+    63.82
+   ],
+   [
+    "pricing",
+    63.98
+   ],
+   [
+    "move.",
+    64.38
+   ],
+   [
+    "Around",
+    65.3
+   ],
+   [
+    "$1M",
+    65.58
+   ],
+   [
+    "in",
+    65.74
+   ],
+   [
+    "revenue,",
+    66.06
+   ],
+   [
+    "they",
+    67.14
+   ],
+   [
+    "removed",
+    67.26
+   ],
+   [
+    "transaction",
+    67.94
+   ],
+   [
+    "fees",
+    68.3
+   ],
+   [
+    "and",
+    68.7
+   ],
+   [
+    "went",
+    68.9
+   ],
+   [
+    "flat",
+    69.18
+   ],
+   [
+    "monthly.",
+    69.5
+   ],
+   [
+    "Co-founder",
+    70.18
+   ],
+   [
+    "Vitalii",
+    70.7
+   ],
+   [
+    "Dodonov",
+    71.18
+   ],
+   [
+    "says",
+    71.82
+   ],
+   [
+    "revenue",
+    72.06
+   ],
+   [
+    "grew",
+    72.54
+   ],
+   [
+    "8.5x",
+    72.86
+   ],
+   [
+    "the",
+    73.1
+   ],
+   [
+    "next",
+    74.22
+   ],
+   [
+    "year.",
+    74.46
+   ],
+   [
+    "Would",
+    75.02
+   ],
+   [
+    "you",
+    75.26
+   ],
+   [
+    "pay",
+    75.5
+   ],
+   [
+    "$29",
+    75.7
+   ],
+   [
+    "a",
+    76.38
+   ],
+   [
+    "month",
+    76.46
+   ],
+   [
+    "for",
+    76.7
+   ],
+   [
+    "a",
+    76.82
+   ],
+   [
+    "page",
+    76.98
+   ],
+   [
+    "like",
+    77.18
+   ],
+   [
+    "this?",
+    77.46
+   ],
+   [
+    "Send",
+    78.06
+   ],
+   [
+    "this",
+    78.22
+   ],
+   [
+    "to",
+    78.38
+   ],
+   [
+    "the",
+    78.5
+   ],
+   [
+    "friend",
+    78.62
+   ],
+   [
+    "who",
+    78.86
+   ],
+   [
+    "keeps",
+    79.18
+   ],
+   [
+    "saying",
+    79.5
+   ],
+   [
+    "they'll",
+    79.7
+   ],
+   [
+    "monetize",
+    79.98
+   ],
+   [
+    "their",
+    80.38
+   ],
+   [
+    "audience.",
+    80.54
+   ],
+   [
+    "Hack",
+    81.38
+   ],
+   [
+    "saved?",
+    81.58
+   ]
+  ],
+  "duration": 82.24,
+  "ident": {
+   "at": 5.54,
+   "dur": 1.5,
+   "title": "AI HACKS",
+   "type": 0.42,
+   "sub": "EP 29 · BUSINESS BREAKDOWN"
+  },
+  "scenes": [
+   {
+    "t": 0.0,
+    "shows": [
+     "footage:lib_eye_reflecting_laptop_screen_glow",
+     "pill:LINK-IN-BIO TOOL",
+     "title_slam:$3.5M / MONTH",
+     "pill:0% CUT"
+    ]
+   },
+   {
+    "t": 7.26,
+    "shows": [
+     "label:STAY TILL THE END",
+     "object3d:",
+     "pill:UNLOCKS AT THE END"
+    ]
+   },
+   {
+    "t": 11.38,
+    "shows": [
+     "footage:real_2_phone",
+     "pill:ALL-IN-ONE CREATOR STORE"
+    ]
+   },
+   {
+    "t": 12.86,
+    "shows": [
+     "label:ONE MOBILE PAGE",
+     "screen:"
+    ]
+   },
+   {
+    "t": 19.26,
+    "shows": [
+     "footage:real_1_phone",
+     "pill:VERIFIED · TRUSTMRR"
+    ]
+   },
+   {
+    "t": 21.98,
+    "shows": [
+     "label:APRIL 2026 · TRUSTMRR",
+     "object3d:",
+     "stat_row:"
+    ]
+   },
+   {
+    "t": 34.22,
+    "shows": [
+     "headline:HOW'D IT GROW?",
+     "app:TikTok",
+     "pill:BUILT IN PUBLIC"
+    ]
+   },
+   {
+    "t": 39.94,
+    "shows": [
+     "footage:lib_content_creator_sets_up_phone",
+     "headline:AUDIENCE = EVERYTHING"
+    ]
+   },
+   {
+    "t": 43.94,
+    "shows": [
+     "big_number:"
+    ]
+   },
+   {
+    "t": 47.7,
+    "shows": [
+     "label:WHAT YOU CAN STEAL",
+     "steps:",
+     "pill:GO WHERE THEY SCROLL",
+     "pill:FREE SALES FORCE"
+    ]
+   },
+   {
+    "t": 55.88,
+    "shows": [
+     "label:HONEST CATCH",
+     "title_slam:NO FREE PLAN"
+    ]
+   },
+   {
+    "t": 58.42,
+    "shows": [
+     "footage:real_3_web",
+     "pill:CREATOR · $29/MO",
+     "pill:REVENUE ≠ PROFIT"
+    ]
+   },
+   {
+    "t": 63.26,
+    "shows": [
+     "object3d:",
+     "pill:AT ~$1M REVENUE",
+     "vs:"
+    ]
+   },
+   {
+    "t": 70.18,
+    "shows": [
+     "footage:real_4_web",
+     "big_number:"
+    ]
+   },
+   {
+    "t": 75.02,
+    "shows": [
+     "headline:$29/MO FOR THIS?"
+    ]
+   }
+  ],
+  "beats": [
+   2.94,
+   28.54,
+   60.62
+  ]
+ }
+}
