@@ -4,40 +4,12 @@
   BUFFER_API_KEY: set
   BUFFER_CHANNEL_ID: set
       voice: Rohan 0ynj1kxK93EAXGRqL9Rm (found by name in this workspace)
-window 2026-11-14-1300 | posting times 13:00, 17:00, 20:00 IST | dry_run=False
-      reel type: marketing
-      b-roll library: 25 clips
-      recording request #2: still waiting for the video
-[1/6] top AI & tech reels
-      hashtag scrape failed: apify apify/instagram-hashtag-scraper: 401 {
-  "error": {
-    "type": "user-or-token-not-found",
-    "message": "User was not found or authentication token is not valid"
-  }
-}
-      using the last saved reel pool
-      reel pool: 76 reels
-[2/6] picking the topic
-      → Connect ElevenLabs to Claude to turn a business story or product pitch into a script, a realistic voice-over and a finished animated explainer video, in 3 steps  (tutorial, from @socialcanvasbyrahul, 27,184 views) — 27k views and 546 comments in 3 days, a high comment-to-view ratio driven by a 'comment CLAUDE for the guide' CTA. It's a specific, teachable workflow, and Elev
-      transcript failed: apify apify/instagram-reel-scraper: 401 {
-  "error": {
-    "type": "user-or-token-not-found",
-    "message": "User was not found or authentication token is not valid"
-  }
-}
-[3/6] research (0 transcript words)
-      verdict adjust · 6 web searches · 6 steps · 13 sources
-[4/6] script + edit
-      real screens: 4 usable of 8 captured from 4 official pages
-      (media: pexels 'recording voiceover microphone' failed: 401 Client Error: Unauthorized for url: https://api.apify.com/v2/acts/memo23~pex)
-      (media: pexels 'typing on laptop' failed: 401 Client Error: Unauthorized for url: https://api.apify.com/v2/acts/memo23~pex)
-      media: s1_image, s1_logo
-[5/6] voice + render
-      [eleven] subscription: 200 {"tier":"creator","character_count":34623,"character_limit":131000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796464027,"voice_slots_used":1,"professional_voice_slots
-      [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
-      voice check: every word heard as written
-      167 words, 60.9s, voice eleven_v4
-      remotion: Reel /tmp/tmp5jb3lry4/video_only.mp4
-[6/6] publish
-      [buffer] created post 6af810e581e1228421efabe1 (customScheduled)
-POSTED 6af810e581e1228421efabe1 https://github.com/candidmarketingltd-art/ai-news-reels/releases/download/reel-2026-11-14_1301/2026-11-14_1301.mp4
+window 2026-11-14-1700 | posting times 13:00, 17:00, 20:00 IST | dry_run=False
+      reel type: meme
+[1/3] trending audio + Claude news this week
+      14 trending songs, 9 news items
+[2/3] meme line
+      “me: that's literally the bug i told you about 3 prompts ago / claude: you're absolutely right! (breaks something else)” on lib_man_looking_at_laptop,lib_person_reacting_to_laptop_screen · song: The Blue Danube Waltz — Royal Symphony Orchestra
+[3/3] render
+      [buffer] reminder post 6af846f9d8bd2962e4272148 (customScheduled)
+REMINDER SENT 6af846f9d8bd2962e4272148

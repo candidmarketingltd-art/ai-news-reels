@@ -1,0 +1,37 @@
+{
+ "shots": [
+  {
+   "clip": "lib_man_looking_at_laptop",
+   "text": "me: that's literally the bug i told you about 3 prompts ago",
+   "seconds": 2.5
+  },
+  {
+   "clip": "lib_person_reacting_to_laptop_screen",
+   "text": "claude: you're absolutely right! (breaks something else)",
+   "seconds": 4.0
+  }
+ ],
+ "style": "meme",
+ "song": {
+  "title": "The Blue Danube Waltz",
+  "artist": "Royal Symphony Orchestra",
+  "mood": "funny",
+  "trend": "The \"every girl for absolutely no reason\" Reels trend. The classical waltz is paired with unserious, over-the-top moments.",
+  "source": "https://later.com/blog/instagram-reels-trends/",
+  "list_date": "2026-11-06",
+  "snippet": "use the most-used snippet, where the waltz kicks in on the cut to shot 2",
+  "why": "A grand, over-the-top waltz over a tiny coding disaster. The unserious-vs-serious contrast is the whole trend."
+ },
+ "backup_song": {
+  "title": "Good Girls Go Bad",
+  "artist": "Cobra Starship"
+ },
+ "caption": "the confidence of that \"you're absolutely right!\" is unmatched. the fix is not.\nbe honest, how many times has this happened to you this week?\n\n#claudeai #aimemes #vibecoding #founderlife #techhumor #buildinpublic",
+ "cover_word": "absolutely right",
+ "text": "me: that's literally the bug i told you about 3 prompts ago / claude: you're absolutely right! (breaks something else)",
+ "clip": "lib_man_looking_at_laptop,lib_person_reacting_to_laptop_screen",
+ "clip_paths": {
+  "lib_man_looking_at_laptop": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+  "lib_person_reacting_to_laptop_screen": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4"
+ }
+}
