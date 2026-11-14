@@ -1,0 +1,1870 @@
+{
+ "voiceover": "[conversational] Claude can't speak, but one connector gives it a realistic voice.\n\nAnd stay till the end, because the real catch isn't the price. It's the license.\n\nPaste your business story, and get a script plus a voice-over in one chat.\n\nStep 1. Open Claude, go to Settings, or Customize, then Connectors.\n\nStep 2. Search ElevenLabs, hit Connect, and sign in. No API key needed.\n\nStep 3. In a new chat, open the plus menu, Connectors, and switch ElevenLabs on. Then paste your pitch and say:\n\n\"Turn this pitch into a short script, then a voice-over with an ElevenLabs voice.\"\n\n[serious] Honest catch: the animation part isn't documented, so test it, and expect to edit the final cut. Free Claude has tight limits, so Pro at $20 a month is realistic.\n\n[whispers] Now the license. ElevenLabs Free has no commercial license. For client or ad work, you need Starter, $6 a month.\n\nWhich video would you make first?\n\nSend this to the friend who keeps paying for voice-overs.\n\nHack saved?",
+ "open_loop": {
+  "setup": "And stay till the end, because the real catch isn't the price. It's the license.",
+  "payoff": "ElevenLabs Free has no commercial license. For client or ad work, you need Starter, $6 a month."
+ },
+ "title": "GIVE CLAUDE A VOICE",
+ "ig_caption": "Claude can't speak, but one connector gives it a realistic voice 🎙️\n✅ Claude > Settings (or Customize) > Connectors\n✅ Search ElevenLabs > Connect > sign in\n✅ New chat > + menu > Connectors > switch ElevenLabs on, paste your pitch\nCatch: free ElevenLabs has no commercial license. Starter is $6/month.\nWhich video would you make first? Tell me below 👇\nSave this for later\nFollow @ihackgrowth for daily business & growth hacks",
+ "media_hints": {
+  "domain": "elevenlabs.io",
+  "broll": [
+   "recording voiceover microphone",
+   "typing on laptop",
+   "person presenting pitch"
+  ]
+ },
+ "hashtags": [
+  "#AItools",
+  "#AIhacks",
+  "#ElevenLabs",
+  "#Claude",
+  "#ClaudeAI",
+  "#voiceover",
+  "#explainervideo",
+  "#productivity"
+ ],
+ "tag": "CLAUDE HACK",
+ "keywords": [
+  "Claude",
+  "connector",
+  "voice",
+  "catch",
+  "license",
+  "script",
+  "voice-over",
+  "Settings",
+  "Customize",
+  "Connectors",
+  "ElevenLabs",
+  "Connect",
+  "API",
+  "plus",
+  "pitch",
+  "animation",
+  "Pro",
+  "Starter",
+  "commercial"
+ ],
+ "music": "upbeat",
+ "hud": {
+  "label": "SETUP",
+  "items": [
+   {
+    "value": "OFF",
+    "color": "red"
+   },
+   {
+    "at": "Step 1.",
+    "value": "1/3",
+    "color": "gold"
+   },
+   {
+    "at": "Step 2.",
+    "value": "2/3",
+    "color": "gold"
+   },
+   {
+    "at": "Step 3.",
+    "value": "3/3",
+    "color": "green"
+   },
+   {
+    "at": "Now the license.",
+    "value": "LICENSE?",
+    "color": "gold"
+   },
+   {
+    "at": "need Starter,",
+    "value": "$6/MO",
+    "color": "green"
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "at": "Claude can't",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Claude can't",
+     "media": "lib_man_reacting_to_laptop_screen",
+     "full": true
+    },
+    {
+     "type": "title_slam",
+     "at": "Claude can't",
+     "text": "CAN'T SPEAK",
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "at": "but one connector",
+   "react": [
+    {
+     "at": "realistic voice.",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "footage",
+     "at": "but one connector",
+     "media": "real_2_phone",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "one connector",
+     "text": "NOW IN CLAUDE",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "And stay",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "label",
+     "at": "And stay",
+     "text": "STAY TILL THE END"
+    },
+    {
+     "type": "object3d",
+     "at": "And stay",
+     "kind": "padlock",
+     "size": "l",
+     "caption": "THE REAL CATCH?",
+     "caption_at": "real catch"
+    },
+    {
+     "type": "pill",
+     "at": "the license.",
+     "text": "NOT PRICE: LICENSE",
+     "color": "red",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "Paste your",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Paste your",
+     "media": "real_1_web",
+     "tall": true,
+     "caption": "ELEVENLABS MCP",
+     "caption_at": "a script"
+    },
+    {
+     "type": "pill",
+     "at": "a voice-over",
+     "text": "SCRIPT + VOICE-OVER",
+     "color": "gold"
+    },
+    {
+     "type": "pill",
+     "at": "one chat.",
+     "text": "ONE CHAT",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "Step 1.",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Step 1.",
+     "device": "web",
+     "theme": "dark",
+     "brand": "claude",
+     "url": "claude.ai",
+     "app": "Claude",
+     "step": "Step 1 · Open Connectors",
+     "steps": [
+      {
+       "at": "Step 1.",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Chats",
+         "Projects",
+         "Artifacts"
+        ],
+        "profile": "Rohan",
+        "input": "How can I help you today?"
+       },
+       "action": {
+        "kind": "click",
+        "target": "Rohan",
+        "at": "Open Claude,"
+       }
+      },
+      {
+       "at": "go to Settings,",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Chats",
+         "Projects",
+         "Artifacts"
+        ],
+        "profile": "Rohan",
+        "input": "How can I help you today?",
+        "menu": {
+         "items": [
+          "Settings",
+          "Customize",
+          "Get help",
+          "Upgrade plan",
+          "Log out"
+         ],
+         "anchor": "profile"
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Settings",
+        "at": "go to Settings,"
+       }
+      },
+      {
+       "at": "or Customize,",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Chats",
+         "Projects",
+         "Artifacts"
+        ],
+        "profile": "Rohan",
+        "panel": {
+         "title": "Settings",
+         "nav": [
+          "General",
+          "Account",
+          "Privacy",
+          "Billing",
+          "Connectors"
+         ],
+         "active": "General",
+         "rows": [
+          {
+           "label": "Full name",
+           "kind": "value",
+           "value": "Rohan"
+          },
+          {
+           "label": "Appearance",
+           "kind": "value",
+           "value": "Dark"
+          },
+          {
+           "label": "Language",
+           "kind": "value",
+           "value": "English"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Connectors",
+        "at": "then Connectors."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Step 2.",
+   "react": [
+    {
+     "at": "No API key",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Step 2.",
+     "device": "web",
+     "url": "claude.ai",
+     "app": "Claude",
+     "step": "Step 2 · Connect ElevenLabs",
+     "steps": [
+      {
+       "at": "Step 2.",
+       "view": {
+        "kind": "page",
+        "site": "claude.ai",
+        "dark": true,
+        "nav": [
+         "General",
+         "Account",
+         "Connectors"
+        ],
+        "heading": "Connectors",
+        "sub": "Browse connectors",
+        "input": ""
+       },
+       "action": {
+        "kind": "type",
+        "target": "input",
+        "text": "ElevenLabs",
+        "at": "Search ElevenLabs,"
+       }
+      },
+      {
+       "at": "hit Connect,",
+       "view": {
+        "kind": "page",
+        "site": "claude.ai",
+        "dark": true,
+        "nav": [
+         "General",
+         "Account",
+         "Connectors"
+        ],
+        "heading": "Connectors",
+        "sub": "Results for ElevenLabs",
+        "cards": [
+         {
+          "title": "ElevenLabs",
+          "text": "Voices, audio and sound",
+          "buttons": [
+           "Connect"
+          ]
+         }
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "Connect",
+        "at": "hit Connect,"
+       }
+      },
+      {
+       "at": "and sign in.",
+       "view": {
+        "kind": "page",
+        "site": "elevenlabs.io",
+        "url": "elevenlabs.io",
+        "heading": "Authorize Claude",
+        "sub": "Allow access to your workspace",
+        "buttons": [
+         "Authorize",
+         "Cancel"
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "Authorize",
+        "at": "sign in."
+       }
+      },
+      {
+       "at": "No API key",
+       "view": {
+        "kind": "page",
+        "site": "claude.ai",
+        "dark": true,
+        "nav": [
+         "General",
+         "Account",
+         "Connectors"
+        ],
+        "heading": "Connectors",
+        "sub": "Your connectors",
+        "cards": [
+         {
+          "title": "ElevenLabs",
+          "text": "Voices, audio and sound",
+          "status": "Connected"
+         }
+        ]
+       },
+       "action": {
+        "kind": "point",
+        "target": "ElevenLabs",
+        "at": "key needed."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Step 3.",
+   "react": [
+    {
+     "at": "Step 3.",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Step 3.",
+     "device": "web",
+     "theme": "dark",
+     "brand": "claude",
+     "url": "claude.ai",
+     "app": "Claude",
+     "step": "Step 3 · Switch it on",
+     "steps": [
+      {
+       "at": "Step 3.",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Chats",
+         "Projects",
+         "Artifacts"
+        ],
+        "profile": "Rohan",
+        "input_buttons": [
+         "+",
+         "Tools"
+        ],
+        "input": "How can I help you today?"
+       },
+       "action": {
+        "kind": "click",
+        "target": "+",
+        "at": "the plus menu,"
+       }
+      },
+      {
+       "at": "Connectors, and",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Chats",
+         "Projects",
+         "Artifacts"
+        ],
+        "profile": "Rohan",
+        "input_buttons": [
+         "+",
+         "Tools"
+        ],
+        "input": "",
+        "menu": {
+         "items": [
+          "Add files",
+          "Connectors",
+          "Research",
+          "Web search"
+         ]
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Connectors",
+        "at": "Connectors, and"
+       }
+      },
+      {
+       "at": "switch ElevenLabs",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Chats",
+         "Projects",
+         "Artifacts"
+        ],
+        "profile": "Rohan",
+        "panel": {
+         "title": "Connectors",
+         "rows": [
+          {
+           "label": "Web search",
+           "kind": "toggle",
+           "on": true
+          },
+          {
+           "label": "ElevenLabs",
+           "kind": "toggle",
+           "on": false
+          },
+          {
+           "label": "Manage connectors",
+           "kind": "arrow"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "toggle",
+        "target": "ElevenLabs",
+        "at": "ElevenLabs on."
+       }
+      },
+      {
+       "at": "Then paste",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Chats",
+         "Projects",
+         "Artifacts"
+        ],
+        "profile": "Rohan",
+        "input_buttons": [
+         "+",
+         "Tools"
+        ],
+        "input": ""
+       },
+       "action": {
+        "kind": "type",
+        "target": "input",
+        "text": "Our story: we started baking in a tiny garage…",
+        "at": "your pitch"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Turn this pitch",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Turn this pitch",
+     "text": "COPY THIS PROMPT"
+    },
+    {
+     "type": "prompt",
+     "at": "Turn this pitch",
+     "app": "CLAUDE",
+     "text": "Turn this pitch into a short script, then a voice-over with an ElevenLabs voice.",
+     "send_at": "ElevenLabs voice."
+    }
+   ]
+  },
+  {
+   "at": "Honest catch:",
+   "tint": "red",
+   "react": [
+    {
+     "at": "Honest catch:",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "Honest catch:",
+     "text": "HONEST CATCH"
+    },
+    {
+     "type": "strike_list",
+     "at": "the animation",
+     "items": [
+      {
+       "text": "ANIMATION: UNDOCUMENTED",
+       "at": "isn't documented,",
+       "strike": true
+      },
+      {
+       "text": "TEST IT FIRST",
+       "at": "so test",
+       "strike": false
+      },
+      {
+       "text": "EXPECT TO EDIT THE CUT",
+       "at": "expect to edit",
+       "strike": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Free Claude",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Free Claude",
+     "text": "WHAT IT REALLY COSTS"
+    },
+    {
+     "type": "vs",
+     "at": "Free Claude",
+     "left": {
+      "label": "FREE CLAUDE",
+      "value": "LIMITS",
+      "sub": "TIGHT"
+     },
+     "right": {
+      "label": "CLAUDE PRO",
+      "value": "$20/MO",
+      "ill": "money_bag",
+      "color": "gold",
+      "at": "$20 a month"
+     },
+     "strike_at": "so Pro"
+    },
+    {
+     "type": "pill",
+     "at": "is realistic.",
+     "text": "REALISTIC PICK",
+     "color": "gold",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "Now the license.",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "no commercial license.",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "Now the license.",
+     "kind": "padlock",
+     "size": "m",
+     "act": "open",
+     "act_at": "need Starter,",
+     "caption": "THE LICENSE",
+     "caption_at": "Now the license."
+    },
+    {
+     "type": "vs",
+     "at": "ElevenLabs Free",
+     "left": {
+      "label": "ELEVENLABS FREE",
+      "value": "NO",
+      "sub": "COMMERCIAL LICENSE"
+     },
+     "right": {
+      "label": "STARTER",
+      "value": "$6/MO",
+      "sub": "CLIENT + AD WORK",
+      "color": "green",
+      "ill": "briefcase",
+      "at": "$6 a month."
+     },
+     "strike_at": "For client"
+    },
+    {
+     "type": "pill",
+     "at": "$6 a month.",
+     "text": "COMMERCIAL OK",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "Which video",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Which video",
+     "media": "lib_man_pointing_at_camera",
+     "full": true
+    },
+    {
+     "type": "headline",
+     "at": "Which video",
+     "text": "YOUR FIRST VIDEO?",
+     "size": "l",
+     "sub": "COMMENT BELOW",
+     "sub_at": "make first?"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "Send this",
+  "line1": "Send this to",
+  "line1_at": "Send this",
+  "line2": "the voice-over payer",
+  "line2_at": "for voice-overs."
+ },
+ "endcard": {
+  "title": "Hack saved?",
+  "terminal": "> elevenlabs.connected · claude has a voice"
+ },
+ "media": [
+  {
+   "id": "real_1_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-14_1301/real_1_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-14_1301/real_1_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: elevenlabs.io",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the gold-outlined part — elevenlabs.io phone view. Top banner reads 'V4 Introducing Eleven v4'. Header has the IIElevenLabs logo, a black 'Sign up' button and a hamburger menu. The highlighted hero section has the small label 'ElevenLabs MCP', the headline 'Bring ElevenLabs to your AI assistant' and the text 'Connect your E [Screen: elevenlabs.io]"
+  },
+  {
+   "id": "real_1_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-14_1301/real_1_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-14_1301/real_1_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: elevenlabs.io",
+   "desc": "REAL desktop screen recording, pushes in on the gold-outlined part — elevenlabs.io desktop view. Banner reads 'Meet Eleven v4, our most emotive model yet.' with a 'Discover' button. Nav shows Customers, Enterprise, Pricing, 'Log in' and 'Sign up'. The highlighted hero has the label 'ElevenLabs MCP', the headline 'Bring ElevenLabs to your AI assistant' and the text 'C [Screen: elevenlabs.io]"
+  },
+  {
+   "id": "real_2_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-14_1301/real_2_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-14_1301/real_2_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: elevenlabs.io",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the gold-outlined part — elevenlabs.io phone view of a blog post. Breadcrumb is 'Blog / Product'. Headline is 'Introducing the ElevenLabs MCP, now available in Claude'. Written by Boris Starkov, Eli Goodman. Published Aug 17, 2026, last updated Sep 6, 2026. It has a 'Listen 2:00' audio player and a black 'Install connector' [Screen: elevenlabs.io]"
+  },
+  {
+   "id": "real_2_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-14_1301/real_2_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-14_1301/real_2_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: elevenlabs.io",
+   "desc": "REAL desktop screen recording, pushes in on the gold-outlined part — elevenlabs.io desktop view of a blog post. Breadcrumb 'Blog / Product'. Headline 'Introducing the ElevenLabs MCP, now available in Claude'. Authors Boris Starkov, Eli Goodman. Published Aug 17, 2026, last updated Sep 6, 2026. The highlighted bar has 'Listen to this article 2:00', 'Talk to sales' and [Screen: elevenlabs.io]"
+  },
+  {
+   "id": "lib_camera_moving_down_server_corridor",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "credit": "",
+   "file": "camera_moving_down_server_corridor.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow forward push down a hazy, fog-filled data center aisle lined with server racks that glow with blue and amber status lights, giving a moody, futuristic feel. Good for: A script line about the infrastructure behind AI, such as cloud computing, model training, heavy compute, data storage, or 'what happens behind the scenes'."
+  },
+  {
+   "id": "lib_clock_ticking_and_person_typing",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "credit": "",
+   "file": "clock_ticking_and_person_typing.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A rack-focus shot moves from a close-up of a black twin-bell alarm clock with ticking hands to a bearded man in a light polo typing on a laptop in a dim room, giving a tense, time-pressured mood. Good for: lines about deadlines, time slipping away, long hours of manual work, or the pressure of slow, tedious tasks before an AI tool speeds things up"
+  },
+  {
+   "id": "lib_colleagues_collaborating_around",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "credit": "",
+   "file": "colleagues_collaborating_around.mp4",
+   "frames": 126,
+   "desc": "B-roll (4.2s, VERTICAL 9:16 — best as full: true): colleagues collaborating around Good for: "
+  },
+  {
+   "id": "lib_fingers_typing_on_laptop_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "credit": "",
+   "file": "fingers_typing_on_laptop_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): Close-up over-the-shoulder shot of a person typing on a backlit laptop keyboard, with a blurred blue screen in the background and a warm, focused, productive mood. Good for: lines about getting started, writing prompts or code, doing focused work at the computer, or the hands-on steps of a tutorial"
+  },
+  {
+   "id": "lib_hand_dropping_papers_on_desk",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "credit": "",
+   "file": "hand_dropping_papers_on_desk.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a green shirt carries and then drops a thick stack of papers onto an already huge, messy pile of documents with sticky notes on a cluttered desk, while a laptop glows nearby, and the camera pushes in to a close-up of the towering stack, creating a mood of overwhelm and tedious paperwork. Good for: a script line about drowning in manual paperwork or document processing, setting up how AI can automate summarizing, sorting, or extracting information from piles of documents"
+  },
+  {
+   "id": "lib_hand_scrolling_smartphone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_scrolling_smartphone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_scrolling_smartphone.mp4",
+   "credit": "",
+   "file": "hand_scrolling_smartphone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a bearded young man in a white t-shirt looking intently at a smartphone in dim, warm lighting, with the camera slowly pushing in until his focused, slightly tense gaze moves from the screen to the lens. Good for: a script line about being glued to your phone, doubt or tension before a reveal, or the moment of realizing something while checking an app or notification"
+  },
+  {
+   "id": "lib_man_comparing_phone_and_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "credit": "",
+   "file": "man_comparing_phone_and_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): man comparing phone and laptop Good for: "
+  },
+  {
+   "id": "lib_man_opens_laptop_in_room",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "credit": "",
+   "file": "man_opens_laptop_in_room.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt sits at a laptop in a dimly lit, warmly lit room, and his focused, tense expression builds as he leans toward the screen, which shows blurry blue diagram or flowchart-style blocks, with his fists clenched near his chin in the middle frame. Good for: intense concentration or deep work, such as debugging, building an AI workflow, or struggling with a complex problem"
+  },
+  {
+   "id": "lib_man_pointing_at_camera",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_pointing_at_camera.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_pointing_at_camera.mp4",
+   "credit": "",
+   "file": "man_pointing_at_camera.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a dark henley sits in a car seat working on a laptop with a focused look, then looks up with a warm smile and points playfully at the camera in a confident, friendly mood. Good for: a line that moves from focused work or problem-solving to a direct call to action, such as 'here's the trick you need to try' or 'now it's your turn'"
+  },
+  {
+   "id": "lib_man_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "man_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt stares intently at a laptop screen with blurry blue UI elements floating in front of the camera, then grimaces in frustration and mouths a reaction, and finally tilts his head back in exhausted resignation in a dim, warmly lit room. Good for: frustration with slow, tedious, or failing work, such as waiting on a slow tool, hitting an error, or being exhausted by manual tasks before introducing an AI solution"
+  },
+  {
+   "id": "lib_man_shaking_head_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "credit": "",
+   "file": "man_shaking_head_at_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits in a dark chair looking down at his phone, and his expression shifts from neutral to scrunched-up frustration or confusion, then to a displeased, worried look as he lowers the phone. Good for: frustration or disappointment with a tool or app that isn't working, slow or confusing results, or a bad surprise while checking your phone"
+  },
+  {
+   "id": "lib_man_smiling_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "credit": "",
+   "file": "man_smiling_at_phone.mp4",
+   "frames": 135,
+   "desc": "B-roll (4.5s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a blue smartphone, his expression shifting from neutral to a furrowed-brow frown of confusion and frustration. Good for: a line about frustration with confusing apps or slow tools, or the moment someone hits a problem and doesn't know what to do next"
+  },
+  {
+   "id": "lib_man_watching_laptop_waiting",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "credit": "",
+   "file": "man_watching_laptop_waiting.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits at a laptop in a dimly lit room with warm lamp light, resting his chin on his fist with a focused, pensive look, and the camera pushes in closer across the three frames. Good for: a script line about deep thinking, researching or problem-solving, or weighing a decision before trying an AI tool"
+  },
+  {
+   "id": "lib_person_drinking_coffee_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "credit": "",
+   "file": "person_drinking_coffee_with_laptop.mp4",
+   "frames": 93,
+   "desc": "B-roll (3.1s, VERTICAL 9:16 — best as full: true): A bearded man in a green polo sits at a laptop in a modern industrial-style open office, lifting a white cup to his mouth and sipping a hot drink while looking down at the screen, in a calm, focused mood. Good for: a line about taking a breather while the AI does the work, a morning work routine, waiting for a process to finish, or the calm of an automated workflow"
+  },
+  {
+   "id": "lib_person_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "person_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a laptop, his expression moving from concern to a deep frown with glowing blue tear-like effects on his cheeks, then to eyes shut in stress or exhaustion; the mood is frustrated and overwhelmed. Good for: A script line about frustration or overwhelm with a tough task, such as struggling with confusing tools, wasting hours on manual work, or being stuck before finding an AI solution."
+  },
+  {
+   "id": "lib_person_speaking_into_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "credit": "",
+   "file": "person_speaking_into_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt takes a phone call in a modern industrial office with exposed concrete ceilings, moving from a serious, concerned look to a worried talking expression and ending with a relieved, confident smile at the camera. Good for: a script line about getting a surprising call or news, a problem being solved, or the moment of relief after a stressful issue"
+  },
+  {
+   "id": "lib_person_taking_selfie_with_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "credit": "",
+   "file": "person_taking_selfie_with_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt sits in a car holding a blue smartphone up close to his face, and across the clip he leans toward the screen with a furrowed brow, looking skeptical and intensely focused. Good for: a script line about doubting or double-checking AI output, being confused or frustrated by an app or tool, or looking closely at a result on your phone, e.g. 'wait, is this actually right?'"
+  },
+  {
+   "id": "lib_professional_working_on_laptop_late",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "credit": "",
+   "file": "professional_working_on_laptop_late.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A tired bearded young man in a maroon t-shirt sits at a laptop in a dim apartment at night, resting his head on his hand, rubbing his eyes, then glumly lifting a white coffee mug, with blurred city lights glowing behind him through the window. Good for: A script line about burnout, late-night grinding, or frustration with slow manual work that AI tools can speed up, e.g. 'still stuck doing this by hand at midnight?'"
+  },
+  {
+   "id": "lib_robotic_hand_typing_on_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "credit": "",
+   "file": "robotic_hand_typing_on_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a black robotic hand with segmented, mechanical fingers lowering onto a backlit laptop keyboard and starting to type, shot at shallow depth of field in a warm, softly lit, modern workspace. Good for: A script line about AI doing the work for you, automating repetitive tasks, or AI taking over typing and writing, such as 'let AI handle the busywork' or 'AI writes it for you'."
+  },
+  {
+   "id": "s1_image",
+   "kind": "image",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-14_1301/s1_image.png",
+   "credit": "Image: elevenlabs.io",
+   "desc": "official image from ElevenLabs connector (hosted ElevenLabs MCP) in the Claude connectors directory (announcement page)"
+  }
+ ],
+ "style": "hisaab",
+ "topic": "Connect ElevenLabs to Claude to turn a business story or product pitch into a script, a realistic voice-over and a finished animated explainer video, in 3 steps",
+ "pick": {
+  "index": 28,
+  "topic": "Connect ElevenLabs to Claude to turn a business story or product pitch into a script, a realistic voice-over and a finished animated explainer video, in 3 steps",
+  "tool": "Claude + ElevenLabs connector",
+  "format": "tutorial",
+  "angle": "Stop paying a freelancer $300 for a explainer video voice-over: Claude plus ElevenLabs does the script and the voice in minutes (and the catch: it needs a paid Claude plan)",
+  "why": "27k views and 546 comments in 3 days, a high comment-to-view ratio driven by a 'comment CLAUDE for the guide' CTA. It's a specific, teachable workflow, and ElevenLabs' public pricing and voice pages show well on screen. It works for ads, product demos and onboarding videos, and we haven't covered it."
+ },
+ "inspired_by": {
+  "url": "https://www.instagram.com/p/DfQ-lTcE_pG/",
+  "owner": "socialcanvasbyrahul",
+  "plays": 27184,
+  "likes": 422,
+  "comments": 546
+ },
+ "research": {
+  "verdict": "adjust",
+  "tool": "ElevenLabs connector (hosted ElevenLabs MCP) in the Claude connectors directory",
+  "availability": "The connector is free to add on every Claude plan, including Free. Claude Free has tight usage limits. Video and long narration need an ElevenLabs account with credits. ElevenLabs Free has no commercial license, and commercial use starts on the $6 Starter plan. Works on claude.ai, Claude Desktop and Claude Code, with separate EU/India/Singapore data-residency URLs.",
+  "steps": [
+   "Open Claude (claude.ai or Claude Desktop) and go to Settings (ElevenLabs docs) or Customize (ElevenLabs MCP page and third-party guides) > Connectors. The label depends on the Claude app version.",
+   "Search for ElevenLabs in the directory and select Connect. You can also use the direct link https://claude.ai/directory/connectors/elevenlabs.",
+   "Sign in with your ElevenLabs account via OAuth. No API key is needed for the hosted connector.",
+   "In a new chat, make sure ElevenLabs is switched on for that chat (+ menu > Connectors).",
+   "Paste your business story or product pitch and ask Claude for a short script, a voice-over using an ElevenLabs voice, and an animated explainer. ElevenLabs says a single brief can produce a script, voiceover, music bed, sound design and video.",
+   "Claude returns the generated audio in the chat. Which animation or video tool it uses is not documented, so test it before filming."
+  ],
+  "facts": [
+   "The ElevenLabs docs say the connector is listed in the Claude connector directory. The path they give is Settings > Connectors, then search ElevenLabs, select Connect and complete the OAuth sign-in.",
+   "The ElevenLabs MCP page gives a different path: Customize → Connectors. It also has an 'Add to Claude' button that pre-fills a custom connector named ElevenLabs with the URL https://api.elevenlabs.io/v1/mcp.",
+   "The hosted MCP server is at https://api.elevenlabs.io/v1/mcp and signs in with OAuth, so no API keys are copied into the client.",
+   "ElevenLabs describes the connector as managing voice and chat agents plus generating voice, music, images and video. It says it gives access to over 50 models, available in Claude, ChatGPT and Cursor.",
+   "The hosted MCP launched in Claude about 68 days before today, per the ElevenLabs blog. On August 17, 2026 ElevenLabs marked the older local open-source MCP as superseded by the hosted one.",
+   "Directory connectors are available to every Claude user, Free included (secondary sources citing Anthropic's help center). Free accounts are limited to one custom connector.",
+   "Claude pricing (Nov 2026, third-party roundups): Free $0, Pro $20/month ($17/month billed annually), Max $100/month, Ultra $200/month.",
+   "ElevenLabs pricing (Oct–Nov 2026, third-party): Free $0 with 10,000 credits, Starter $6 with 30,000 credits, Creator $22 with 121,000 credits ($11 first month promo), Pro $99, Scale $299, Business $990.",
+   "A Starter first month of $1 was being advertised in early November 2026. Annual billing means paying for 10 months to get 12.",
+   "The ElevenLabs Free plan has no commercial license and requires crediting 'elevenlabs.io' or '11.ai' in the title if you publish. Commercial rights start on Starter ($6).",
+   "Roughly 1 character = 1 credit, so 10,000 credits is about 10 minutes of speech (third-party).",
+   "Claude has no built-in text-to-speech. The voice comes from the ElevenLabs connector."
+  ],
+  "do_not_claim": [
+   "Do not say the connector 'requires a paid Claude plan'. Directory connectors work on Claude Free. A paid plan is only practical because of usage limits. The reel's caption claim is not supported by Anthropic's documented connector rules.",
+   "Do not say Claude makes the finished animated video by itself. Claude writes the script, ElevenLabs makes the voice, and the animation depends on the 'master prompt' and tools. The reel's master prompt is not public, because it sits behind the 'comment CLAUDE' PDF. Verify it with a real test run before promising results.",
+   "Do not claim '3 steps' or 'ready in minutes' as a guarantee. Video generation and long narration can time out or burn credits.",
+   "Do not say the voice-over is free for business use. ElevenLabs Free has no commercial license.",
+   "Do not state '$300 freelancer' as a market fact. It is unverified, so present it as 'a typical quote' or leave it out.",
+   "Do not use the old setup (local server, API key, claude_desktop_config.json, uvx). That path is deprecated in favor of the hosted OAuth connector.",
+   "Do not say Claude needs ElevenLabs Starter or Creator just to connect. The connector itself works with an ElevenLabs Free account, within its credit limits.",
+   "Do not claim the connector is available in other assistants beyond what ElevenLabs lists. Its own FAQ says Claude and Claude Code today, 'more coming soon', while another ElevenLabs page also lists ChatGPT and Cursor."
+  ],
+  "criticism": [
+   "Free ElevenLabs output has no commercial license, so a client or ad voice-over needs at least Starter ($6/month). Free-plan credits don't roll over.",
+   "Long-form narration quickly consumes credits, and some users report timeouts on lengthy operations (third-party review).",
+   "Claude Free has tight usage limits, so a script-plus-voice-plus-animation workflow may hit them fast.",
+   "The animated video part is not documented in detail by ElevenLabs or Anthropic. Results depend on the prompt and on how well the video models handle it.",
+   "The Claude app menu label differs between sources (Settings vs Customize), so the UI may differ by app version.",
+   "Generated audio is delivered as a file or in the chat, not a finished edited video. Expect to assemble or edit the final cut."
+  ],
+  "ui": {
+   "platforms": "Web (claude.ai) and Claude Desktop are the main paths. Directory connectors also work in the iOS/Android apps. The ElevenLabs sign-in page opens in a browser.",
+   "apps": [
+    "Claude (claude.ai web / Claude Desktop)",
+    "ElevenLabs sign-in (OAuth page, elevenlabs.io)",
+    "ElevenLabs MCP page (elevenlabs.io/mcp)"
+   ],
+   "screens": [
+    "I could not verify the exact current layout of Claude's screens. Treat the details below as approximate and check them in the live app.",
+    "Claude connectors screen: Settings or Customize, then the Connectors section. It has a Discover/directory view with search. Search 'ElevenLabs'. The ElevenLabs card has a 'Connect' button (some sources say 'Connect to Claude').",
+    "OAuth screen: you are sent to ElevenLabs to sign in and authorize the workspace, then return to Claude.",
+    "New chat: the '+' button near the message box opens a menu with 'Connectors'. Toggle ElevenLabs on there.",
+    "Result: Claude's reply contains the script as text and the generated voice-over as playable audio. Any video or animation shows as a file or link, or as an HTML/artifact animation, depending on the prompt.",
+    "Default theme is not verified. Record it in whichever mode your Claude app uses."
+   ]
+  },
+  "visuals": "A real screen recording is the safest way to show it. Show the Connectors screen with ElevenLabs connected, the story pasted into the chat, the script on screen, the audio player with the voice-over, then the finished animation. The animation output itself must be recorded live, because its look and format are unverified.",
+  "real_pages": [
+   {
+    "url": "https://elevenlabs.io/mcp",
+    "show": "ElevenLabs MCP",
+    "kind": "site"
+   },
+   {
+    "url": "https://elevenlabs.io/mcp",
+    "show": "Add to Claude",
+    "kind": "site"
+   },
+   {
+    "url": "https://elevenlabs.io/blog/elevenlabs-mcp-in-claude",
+    "show": "Install connector",
+    "kind": "site"
+   },
+   {
+    "url": "https://elevenlabs.io/pricing",
+    "show": "Starter",
+    "kind": "site"
+   },
+   {
+    "url": "https://elevenlabs.io/pricing",
+    "show": "Creator",
+    "kind": "site"
+   },
+   {
+    "url": "https://claude.com/pricing",
+    "show": "Pro",
+    "kind": "site"
+   },
+   {
+    "url": "https://elevenlabs.io/docs/eleven-agents/operate/architect/external-assistants",
+    "show": "Settings > Connectors",
+    "kind": "help"
+   }
+  ],
+  "sources": [
+   "https://elevenlabs.io/mcp",
+   "https://elevenlabs.io/docs/eleven-agents/operate/architect/external-assistants",
+   "https://elevenlabs.io/blog/elevenlabs-mcp-in-claude",
+   "https://elevenlabs.io/blog/introducing-elevenlabs-mcp",
+   "https://beevaults.com/elevenlabs-mcp/",
+   "https://www.cloudzero.com/blog/elevenlabs-pricing/",
+   "https://www.nocode.mba/articles/elevenlabs-pricing",
+   "https://bigvu.tv/blog/elevenlabs-pricing-2026-plan-worth/",
+   "https://benchlm.ai/claude/pricing-plans",
+   "https://geotoolbox.ai/blog/claude-pricing",
+   "https://dirjournal.com/blogs/claude-connectors-list",
+   "https://eseospace.com/blog/what-are-claude-connectors/",
+   "https://www.stork.ai/en/elevenlabs-mcp-in-claude"
+  ],
+  "notes": [
+   "Angle check: the reel's 'Requires Claude paid plan' warning is partly wrong. The connector works on Free. The honest catch is Claude's usage limits and ElevenLabs credits plus its commercial-license rule. Suggested rewording: 'Free Claude can connect it, but a paid plan is realistic for the limits, and you need ElevenLabs Starter ($6) for commercial use'.",
+   "The cost comparison to a freelancer is legitimate: Claude Pro $20 plus ElevenLabs Starter $6 is roughly $26/month, against the $300 freelancer figure that the reel's topic assumes but nobody verified.",
+   "I could not open the transcript, the PDF or the reel's 'master prompt', so the animation method is unverified.",
+   "Real pages: elevenlabs.io/pricing and claude.com/pricing are known to exist, but I did not confirm their exact on-page text. The 'show' words for those two are best guesses, so check them live before recording. The text on elevenlabs.io/mcp and the blog page comes from search snippets, so also check it live.",
+   "The claude.ai directory link needs a login, so it is not suitable as a public page to record."
+  ],
+  "_searched": 6
+ },
+ "models": {
+  "pick": "claude-sonnet-5-5",
+  "research": "claude-sonnet-5-5",
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 30,
+ "_ident": {
+  "at": 4.433,
+  "dur": 1.5,
+  "title": "AI HACKS",
+  "type": 0.42,
+  "sub": "EP 30 · CLAUDE HACK"
+ },
+ "timeline": {
+  "words": [
+   [
+    "Claude",
+    0.08
+   ],
+   [
+    "can't",
+    0.4
+   ],
+   [
+    "speak,",
+    0.72
+   ],
+   [
+    "but",
+    1.52
+   ],
+   [
+    "one",
+    1.76
+   ],
+   [
+    "connector",
+    2.2
+   ],
+   [
+    "gives",
+    2.533
+   ],
+   [
+    "it",
+    2.72
+   ],
+   [
+    "a",
+    2.96
+   ],
+   [
+    "realistic",
+    3.12
+   ],
+   [
+    "voice.",
+    3.92
+   ],
+   [
+    "And",
+    4.427
+   ],
+   [
+    "stay",
+    6.06
+   ],
+   [
+    "till",
+    6.26
+   ],
+   [
+    "the",
+    6.46
+   ],
+   [
+    "end,",
+    6.62
+   ],
+   [
+    "because",
+    7.18
+   ],
+   [
+    "the",
+    7.34
+   ],
+   [
+    "real",
+    7.5
+   ],
+   [
+    "catch",
+    7.94
+   ],
+   [
+    "isn't",
+    8.22
+   ],
+   [
+    "the",
+    8.46
+   ],
+   [
+    "price.",
+    8.94
+   ],
+   [
+    "It's",
+    9.393
+   ],
+   [
+    "the",
+    9.66
+   ],
+   [
+    "license.",
+    10.26
+   ],
+   [
+    "Paste",
+    10.94
+   ],
+   [
+    "your",
+    11.1
+   ],
+   [
+    "business",
+    11.34
+   ],
+   [
+    "story,",
+    11.58
+   ],
+   [
+    "and",
+    12.06
+   ],
+   [
+    "get",
+    12.22
+   ],
+   [
+    "a",
+    12.38
+   ],
+   [
+    "script",
+    12.7
+   ],
+   [
+    "plus",
+    13.02
+   ],
+   [
+    "a",
+    13.26
+   ],
+   [
+    "voice-over",
+    13.46
+   ],
+   [
+    "in",
+    13.98
+   ],
+   [
+    "one",
+    14.3
+   ],
+   [
+    "chat.",
+    14.54
+   ],
+   [
+    "Step",
+    15.26
+   ],
+   [
+    "1.",
+    15.58
+   ],
+   [
+    "Open",
+    16.3
+   ],
+   [
+    "Claude,",
+    16.46
+   ],
+   [
+    "go",
+    17.1
+   ],
+   [
+    "to",
+    17.26
+   ],
+   [
+    "Settings,",
+    17.42
+   ],
+   [
+    "or",
+    18.007
+   ],
+   [
+    "Customize,",
+    18.26
+   ],
+   [
+    "then",
+    18.94
+   ],
+   [
+    "Connectors.",
+    19.26
+   ],
+   [
+    "Step",
+    20.38
+   ],
+   [
+    "2.",
+    20.62
+   ],
+   [
+    "Search",
+    21.18
+   ],
+   [
+    "ElevenLabs,",
+    21.5
+   ],
+   [
+    "hit",
+    22.46
+   ],
+   [
+    "Connect,",
+    22.7
+   ],
+   [
+    "and",
+    23.207
+   ],
+   [
+    "sign",
+    23.34
+   ],
+   [
+    "in.",
+    23.82
+   ],
+   [
+    "No",
+    24.22
+   ],
+   [
+    "API",
+    24.38
+   ],
+   [
+    "key",
+    24.86
+   ],
+   [
+    "needed.",
+    25.02
+   ],
+   [
+    "Step",
+    25.74
+   ],
+   [
+    "3.",
+    26.06
+   ],
+   [
+    "In",
+    26.66
+   ],
+   [
+    "a",
+    26.78
+   ],
+   [
+    "new",
+    26.86
+   ],
+   [
+    "chat,",
+    27.1
+   ],
+   [
+    "open",
+    27.7
+   ],
+   [
+    "the",
+    27.9
+   ],
+   [
+    "plus",
+    28.1
+   ],
+   [
+    "menu,",
+    28.3
+   ],
+   [
+    "Connectors,",
+    29.06
+   ],
+   [
+    "and",
+    29.66
+   ],
+   [
+    "switch",
+    29.82
+   ],
+   [
+    "ElevenLabs",
+    30.14
+   ],
+   [
+    "on.",
+    30.94
+   ],
+   [
+    "Then",
+    31.5
+   ],
+   [
+    "paste",
+    31.66
+   ],
+   [
+    "your",
+    31.98
+   ],
+   [
+    "pitch",
+    32.14
+   ],
+   [
+    "and",
+    32.46
+   ],
+   [
+    "say:",
+    32.62
+   ],
+   [
+    "Turn",
+    33.233
+   ],
+   [
+    "this",
+    33.46
+   ],
+   [
+    "pitch",
+    33.66
+   ],
+   [
+    "into",
+    33.98
+   ],
+   [
+    "a",
+    34.22
+   ],
+   [
+    "short",
+    34.42
+   ],
+   [
+    "script,",
+    34.62
+   ],
+   [
+    "then",
+    35.14
+   ],
+   [
+    "a",
+    35.26
+   ],
+   [
+    "voice-over",
+    35.5
+   ],
+   [
+    "with",
+    36.06
+   ],
+   [
+    "an",
+    36.22
+   ],
+   [
+    "ElevenLabs",
+    36.42
+   ],
+   [
+    "voice.",
+    37.02
+   ],
+   [
+    "Honest",
+    37.807
+   ],
+   [
+    "catch:",
+    38.26
+   ],
+   [
+    "the",
+    38.94
+   ],
+   [
+    "animation",
+    39.26
+   ],
+   [
+    "part",
+    39.58
+   ],
+   [
+    "isn't",
+    39.98
+   ],
+   [
+    "documented,",
+    40.46
+   ],
+   [
+    "so",
+    41.22
+   ],
+   [
+    "test",
+    41.46
+   ],
+   [
+    "it,",
+    41.66
+   ],
+   [
+    "and",
+    42.033
+   ],
+   [
+    "expect",
+    42.14
+   ],
+   [
+    "to",
+    42.62
+   ],
+   [
+    "edit",
+    42.82
+   ],
+   [
+    "the",
+    42.98
+   ],
+   [
+    "final",
+    43.1
+   ],
+   [
+    "cut.",
+    43.42
+   ],
+   [
+    "Free",
+    44.1
+   ],
+   [
+    "Claude",
+    44.3
+   ],
+   [
+    "has",
+    44.62
+   ],
+   [
+    "tight",
+    44.98
+   ],
+   [
+    "limits,",
+    45.18
+   ],
+   [
+    "so",
+    45.9
+   ],
+   [
+    "Pro",
+    46.14
+   ],
+   [
+    "at",
+    46.42
+   ],
+   [
+    "$20",
+    46.66
+   ],
+   [
+    "a",
+    46.86
+   ],
+   [
+    "month",
+    47.18
+   ],
+   [
+    "is",
+    47.66
+   ],
+   [
+    "realistic.",
+    47.82
+   ],
+   [
+    "Now",
+    48.86
+   ],
+   [
+    "the",
+    49.06
+   ],
+   [
+    "license.",
+    49.18
+   ],
+   [
+    "ElevenLabs",
+    50.3
+   ],
+   [
+    "Free",
+    50.98
+   ],
+   [
+    "has",
+    51.18
+   ],
+   [
+    "no",
+    51.58
+   ],
+   [
+    "commercial",
+    51.94
+   ],
+   [
+    "license.",
+    52.22
+   ],
+   [
+    "For",
+    53.127
+   ],
+   [
+    "client",
+    53.38
+   ],
+   [
+    "or",
+    53.66
+   ],
+   [
+    "ad",
+    53.82
+   ],
+   [
+    "work,",
+    54.1
+   ],
+   [
+    "you",
+    54.46
+   ],
+   [
+    "need",
+    54.54
+   ],
+   [
+    "Starter,",
+    54.86
+   ],
+   [
+    "$6",
+    55.5
+   ],
+   [
+    "a",
+    56.06
+   ],
+   [
+    "month.",
+    56.14
+   ],
+   [
+    "Which",
+    56.86
+   ],
+   [
+    "video",
+    57.02
+   ],
+   [
+    "would",
+    57.34
+   ],
+   [
+    "you",
+    57.5
+   ],
+   [
+    "make",
+    57.66
+   ],
+   [
+    "first?",
+    57.9
+   ],
+   [
+    "Send",
+    58.62
+   ],
+   [
+    "this",
+    58.86
+   ],
+   [
+    "to",
+    58.98
+   ],
+   [
+    "the",
+    59.1
+   ],
+   [
+    "friend",
+    59.3
+   ],
+   [
+    "who",
+    59.54
+   ],
+   [
+    "keeps",
+    59.7
+   ],
+   [
+    "paying",
+    60.06
+   ],
+   [
+    "for",
+    60.3
+   ],
+   [
+    "voice-overs.",
+    60.5
+   ],
+   [
+    "Hack",
+    61.42
+   ],
+   [
+    "saved?",
+    61.86
+   ]
+  ],
+  "duration": 62.4,
+  "ident": {
+   "at": 4.433,
+   "dur": 1.5,
+   "title": "AI HACKS",
+   "type": 0.42,
+   "sub": "EP 30 · CLAUDE HACK"
+  },
+  "scenes": [
+   {
+    "t": 0.0,
+    "shows": [
+     "footage:lib_man_reacting_to_laptop_screen",
+     "title_slam:CAN'T SPEAK"
+    ]
+   },
+   {
+    "t": 1.52,
+    "shows": [
+     "footage:real_2_phone",
+     "pill:NOW IN CLAUDE"
+    ]
+   },
+   {
+    "t": 4.43,
+    "shows": [
+     "label:STAY TILL THE END",
+     "object3d:",
+     "pill:NOT PRICE: LICENSE"
+    ]
+   },
+   {
+    "t": 10.94,
+    "shows": [
+     "footage:real_1_web",
+     "pill:SCRIPT + VOICE-OVER",
+     "pill:ONE CHAT"
+    ]
+   },
+   {
+    "t": 15.26,
+    "shows": [
+     "screen:Step 1 · Open Connectors"
+    ]
+   },
+   {
+    "t": 20.38,
+    "shows": [
+     "screen:Step 2 · Connect ElevenLabs"
+    ]
+   },
+   {
+    "t": 25.74,
+    "shows": [
+     "screen:Step 3 · Switch it on"
+    ]
+   },
+   {
+    "t": 33.23,
+    "shows": [
+     "label:COPY THIS PROMPT",
+     "prompt:Turn this pitch into a short script, the"
+    ]
+   },
+   {
+    "t": 37.81,
+    "shows": [
+     "label:HONEST CATCH",
+     "strike_list:"
+    ]
+   },
+   {
+    "t": 44.1,
+    "shows": [
+     "label:WHAT IT REALLY COSTS",
+     "vs:",
+     "pill:REALISTIC PICK"
+    ]
+   },
+   {
+    "t": 48.86,
+    "shows": [
+     "object3d:",
+     "vs:",
+     "pill:COMMERCIAL OK"
+    ]
+   },
+   {
+    "t": 56.86,
+    "shows": [
+     "footage:lib_man_pointing_at_camera",
+     "headline:YOUR FIRST VIDEO?"
+    ]
+   }
+  ],
+  "beats": [
+   34.83
+  ]
+ }
+}
