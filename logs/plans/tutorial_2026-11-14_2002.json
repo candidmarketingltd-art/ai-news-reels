@@ -1,0 +1,1897 @@
+{
+ "voiceover": "[conversational] One person runs this boring image API, and it makes $13K a month.\n\nAnd the real move behind it happened before the product even existed.\n\n[curious] It's called Orshot. You design a template once, then render images, PDFs and videos from it through an API. Agencies, brands and developers pay for it.\n\n[confident] These numbers are verified on TrustMRR, through Stripe. $13K in MRR, $12K in the last 30 days, 225 active subscriptions, and 22% growth. Look at their pricing page: free with 100 credits, then $39 a month.\n\nSo how did it grow? Founder Rishi Mohan talked to customers constantly. He emailed a new signup, built the feature he needed, and that guy became a customer. Add patient SEO and honest comparison pages.\n\n[serious] The honest catch? It's a crowded space, and Orshot's own blog admits it doesn't win on price per video. Also, revenue isn't profit.\n\n[whispers] So here's the move. He built an audience first. The same crowd that backed his earlier product, Pika, gave Orshot its first users.\n\n[playful] Steal that. Audience first, product second.\n\nWould you build this or buy it? Send this to the friend who keeps saying they'll launch someday.\n\nHack saved?",
+ "open_loop": {
+  "setup": "And the real move behind it happened before the product even existed.",
+  "payoff": "The same crowd that backed his earlier product, Pika, gave Orshot its first users."
+ },
+ "title": "ONE PERSON, $13K/MONTH",
+ "ig_caption": "One person runs this boring image API, and it makes $13K a month 👀\n✅ Design a template once\n✅ Render images, PDFs and videos via API\n✅ Talk to every early user\n✅ Build the audience before the product\nWould you build this or buy it?\nSave this for later\nFollow @ihackgrowth for daily business & growth hacks",
+ "media_hints": {
+  "domain": "orshot.com",
+  "broll": [
+   "typing on laptop",
+   "social media banners",
+   "solo founder working"
+  ]
+ },
+ "hashtags": [
+  "#AIhacks",
+  "#AItools",
+  "#Orshot",
+  "#SaaS",
+  "#buildinpublic",
+  "#indiehackers",
+  "#startup",
+  "#marketing",
+  "#growth"
+ ],
+ "tag": "BUSINESS BREAKDOWN",
+ "keywords": [
+  "Orshot",
+  "API",
+  "template",
+  "TrustMRR",
+  "Stripe",
+  "MRR",
+  "subscriptions",
+  "growth",
+  "pricing",
+  "credits",
+  "customers",
+  "SEO",
+  "catch",
+  "profit",
+  "audience",
+  "Pika",
+  "launch"
+ ],
+ "music": "groove",
+ "scenes": [
+  {
+   "at": "One person",
+   "react": [
+    {
+     "at": "makes $13K",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "footage",
+     "at": "One person",
+     "media": "lib_man_opens_laptop_in_room",
+     "full": true
+    },
+    {
+     "type": "headline",
+     "at": "One person",
+     "text": "ONE PERSON",
+     "size": "l",
+     "color": "white",
+     "sub": "$13K / MONTH",
+     "sub_at": "makes $13K",
+     "sub_color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "And the",
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "And the",
+     "kind": "padlock",
+     "size": "l",
+     "caption": "THE REAL MOVE",
+     "caption_at": "real move"
+    },
+    {
+     "type": "pill",
+     "at": "before the",
+     "text": "STAY FOR THE MOVE",
+     "color": "gold",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "It's called",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "It's called",
+     "media": "real_2_phone",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "It's called",
+     "text": "ORSHOT.COM",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "You design",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "label",
+     "at": "You design",
+     "text": "HOW IT WORKS"
+    },
+    {
+     "type": "steps",
+     "at": "You design",
+     "items": [
+      {
+       "text": "DESIGN A TEMPLATE ONCE",
+       "at": "You design",
+       "ill": "artist_palette"
+      },
+      {
+       "text": "IMAGES · PDFS · VIDEOS",
+       "at": "then render",
+       "ill": "framed_picture"
+      },
+      {
+       "text": "RENDERED VIA API",
+       "at": "through an",
+       "ill": "gear"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Agencies, brands",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Agencies, brands",
+     "text": "WHO PAYS"
+    },
+    {
+     "type": "strike_list",
+     "at": "Agencies, brands",
+     "items": [
+      {
+       "text": "AGENCIES",
+       "at": "Agencies, brands",
+       "strike": false
+      },
+      {
+       "text": "BRANDS",
+       "at": "brands and",
+       "strike": false
+      },
+      {
+       "text": "DEVELOPERS",
+       "at": "developers pay",
+       "strike": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "These numbers",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "These numbers",
+     "media": "real_1_web",
+     "tall": true
+    },
+    {
+     "type": "pill",
+     "at": "through Stripe.",
+     "text": "VERIFIED · STRIPE",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "$13K in",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "$13K in",
+     "kind": "coins",
+     "act": "fill",
+     "act_at": "$13K in",
+     "count": 13,
+     "caption": "$13K MRR"
+    },
+    {
+     "type": "stat_row",
+     "at": "$12K in",
+     "cards": [
+      {
+       "label": "LAST 30 DAYS",
+       "value": "$12K",
+       "at": "$12K in",
+       "color": "gold"
+      },
+      {
+       "label": "ACTIVE SUBS",
+       "value": "225",
+       "at": "225 active",
+       "color": "white"
+      },
+      {
+       "label": "GROWTH",
+       "value": "+22%",
+       "at": "22% growth.",
+       "color": "green",
+       "glow": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Look at",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Look at",
+     "media": "real_3_web",
+     "tall": true
+    },
+    {
+     "type": "stat_row",
+     "at": "free with",
+     "cards": [
+      {
+       "label": "FREE PLAN",
+       "value": "100 CR",
+       "at": "free with",
+       "color": "green"
+      },
+      {
+       "label": "THEN",
+       "value": "$39/MO",
+       "at": "then $39",
+       "color": "gold"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "So how",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "talked to customers",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "footage",
+     "at": "So how",
+     "media": "lib_person_speaking_into_phone",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "talked to customers",
+     "text": "TALK TO CUSTOMERS",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "He emailed",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "He emailed",
+     "device": "web",
+     "url": "mail.google.com",
+     "step": "Growth · Talk to signups",
+     "steps": [
+      {
+       "at": "He emailed",
+       "view": {
+        "kind": "mail",
+        "folder": "Inbox",
+        "toolbar": [
+         "Archive",
+         "Delete"
+        ],
+        "rows": [
+         {
+          "from": "Orshot",
+          "subject": "New signup: welcome aboard",
+          "meta": "9:14 AM",
+          "unread": true
+         },
+         {
+          "from": "Stripe",
+          "subject": "Your weekly summary",
+          "meta": "Mon"
+         },
+         {
+          "from": "Team",
+          "subject": "Template ideas",
+          "meta": "Sun"
+         }
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "Compose",
+        "at": "He emailed"
+       }
+      },
+      {
+       "at": "built the feature",
+       "view": {
+        "kind": "checklist",
+        "window": "Roadmap",
+        "title": "Requested features",
+        "items": [
+         {
+          "label": "Feature he asked for",
+          "sub": "from new signup",
+          "checked": false
+         },
+         {
+          "label": "New template editor",
+          "checked": true
+         },
+         {
+          "label": "Zapier integration",
+          "checked": true
+         }
+        ]
+       },
+       "action": {
+        "kind": "toggle",
+        "target": "Feature he asked for",
+        "at": "he needed,"
+       }
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "at": "became a customer.",
+     "text": "SIGNUP → CUSTOMER",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "Add patient",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Add patient",
+     "text": "THE SLOW GROWTH"
+    },
+    {
+     "type": "steps",
+     "at": "Add patient",
+     "items": [
+      {
+       "text": "PATIENT SEO",
+       "at": "patient SEO",
+       "ill": "magnifying_glass_tilted_right"
+      },
+      {
+       "text": "HONEST COMPARISON PAGES",
+       "at": "honest comparison",
+       "ill": "balance_scale"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "The honest catch?",
+   "tint": "red",
+   "react": [
+    {
+     "at": "blog admits",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "title_slam",
+     "at": "The honest catch?",
+     "text": "THE CATCH",
+     "color": "red"
+    },
+    {
+     "type": "strike_list",
+     "at": "crowded space,",
+     "items": [
+      {
+       "text": "CROWDED SPACE",
+       "at": "crowded space,"
+      },
+      {
+       "text": "NOT CHEAPEST PER VIDEO",
+       "at": "price per"
+      },
+      {
+       "text": "REVENUE ≠ PROFIT",
+       "at": "revenue isn't profit."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "So here's",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "He built",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "So here's",
+     "text": "THE REAL MOVE"
+    },
+    {
+     "type": "object3d",
+     "at": "So here's",
+     "kind": "padlock",
+     "act": "open",
+     "act_at": "audience first.",
+     "size": "l",
+     "caption": "AUDIENCE FIRST",
+     "caption_at": "He built"
+    }
+   ]
+  },
+  {
+   "at": "The same crowd",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "pile",
+     "at": "The same crowd",
+     "ill": "bust_in_silhouette",
+     "count": 24,
+     "label": "THE SAME CROWD",
+     "color": "gold"
+    },
+    {
+     "type": "arrow_pair",
+     "at": "earlier product,",
+     "left": {
+      "label": "EARLIER PRODUCT",
+      "value": "PIKA",
+      "color": "white"
+     },
+     "right": {
+      "label": "ORSHOT",
+      "value": "USERS",
+      "sub": "FIRST USERS",
+      "color": "green",
+      "at": "first users."
+     }
+    }
+   ]
+  },
+  {
+   "at": "Steal that.",
+   "tint": "green",
+   "react": [
+    {
+     "at": "Audience first,",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "title_slam",
+     "at": "Steal that.",
+     "text": "STEAL THAT",
+     "color": "gold"
+    },
+    {
+     "type": "steps",
+     "at": "Audience first,",
+     "items": [
+      {
+       "text": "AUDIENCE FIRST",
+       "at": "Audience first,",
+       "ill": "megaphone"
+      },
+      {
+       "text": "PRODUCT SECOND",
+       "at": "product second.",
+       "ill": "package"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Would you",
+   "elements": [
+    {
+     "type": "headline",
+     "at": "Would you",
+     "text": "BUILD OR BUY?",
+     "size": "l",
+     "ill": "thinking_face",
+     "sub": "COMMENT BELOW",
+     "sub_at": "buy it?"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "Send this",
+  "line1": "Send this to",
+  "line1_at": "Send this",
+  "line2": "the someday founder",
+  "line2_at": "launch someday."
+ },
+ "hud": {
+  "label": "MRR",
+  "items": [
+   {
+    "value": "$13K",
+    "color": "gold"
+   },
+   {
+    "at": "through Stripe.",
+    "value": "VERIFIED",
+    "color": "green"
+   },
+   {
+    "at": "22% growth.",
+    "value": "+22%",
+    "color": "green"
+   },
+   {
+    "at": "The honest catch?",
+    "value": "≠ PROFIT",
+    "color": "red"
+   },
+   {
+    "at": "audience first.",
+    "value": "AUDIENCE",
+    "color": "gold"
+   }
+  ]
+ },
+ "endcard": {
+  "title": "Hack saved?",
+  "terminal": "> audience.first · product.second"
+ },
+ "media": [
+  {
+   "id": "real_1_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-14_2002/real_1_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-14_2002/real_1_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: trustmrr.com",
+   "desc": "REAL desktop screen recording, pushes in on the gold-outlined part — Desktop trustmrr.com listing for Orshot.com ('Orshot is an API and Automation service for Creative Marketing'). Highlighted stats: All-time revenue $82,406 (Ranked #717 on TrustMRR); MRR $13,169 (225 active subscriptions); Founder rishi (7,544 followers on X); Founded March 2025, United Kingdom. Bel [Screen: trustmrr.com]"
+  },
+  {
+   "id": "real_2_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-14_2002/real_2_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-14_2002/real_2_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: orshot.com",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the page (no highlight) — Phone view of the orshot.com homepage hero. Badge 'NEW Introducing Approval Flows'. Headline 'Automate Image, PDF & Video Generation via API'. Subtext 'Design a template once. Render it from your API call, n8n, Make, Zapier or AI agent.' Buttons: 'Start automating for free →' and 'For AI Agents'. Be [Screen: orshot.com]"
+  },
+  {
+   "id": "real_2_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-14_2002/real_2_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-14_2002/real_2_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: orshot.com",
+   "desc": "REAL desktop screen recording, pushes in on the page (no highlight) — Desktop orshot.com homepage. Nav: Product, API, Agents, Integrations, Pricing, Resources, Login, 'Start free'. Badge 'NEW Introducing Approval Flows'. Headline 'Automate Image, PDF & Video Generation via API'. Subtext 'Design a template once. Render it from your API call, n8n, Make, Zapier or AI age [Screen: orshot.com]"
+  },
+  {
+   "id": "real_3_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-14_2002/real_3_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-14_2002/real_3_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: orshot.com",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the gold-outlined part — Phone view of the orshot.com pricing page top, with a highlight on the banner and headline. Banner 'Black Friday | 25% off for 12 months, until Dec 1', code 'BF2026'. Headline '100 free credits. Every month.' Subtext 'Test everything out, upgrade only when you scale. No credit-card needed, cancel an [Screen: orshot.com]"
+  },
+  {
+   "id": "real_3_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-14_2002/real_3_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-14_2002/real_3_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: orshot.com",
+   "desc": "REAL desktop screen recording, pushes in on the gold-outlined part — Desktop orshot.com pricing page. Banner 'Black Friday 25% off for 12 months, until Dec 1', code BF2026. Headline '100 free credits. Every month.' with subtext 'Test everything out, upgrade only when you scale. No credit-card needed, cancel anytime.' Monthly/Annual (2 months free) toggle; slider ~20, [Screen: orshot.com]"
+  },
+  {
+   "id": "lib_camera_moving_down_server_corridor",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "credit": "",
+   "file": "camera_moving_down_server_corridor.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow forward push down a hazy, fog-filled data center aisle lined with server racks that glow with blue and amber status lights, giving a moody, futuristic feel. Good for: A script line about the infrastructure behind AI, such as cloud computing, model training, heavy compute, data storage, or 'what happens behind the scenes'."
+  },
+  {
+   "id": "lib_clock_ticking_and_person_typing",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "credit": "",
+   "file": "clock_ticking_and_person_typing.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A rack-focus shot moves from a close-up of a black twin-bell alarm clock with ticking hands to a bearded man in a light polo typing on a laptop in a dim room, giving a tense, time-pressured mood. Good for: lines about deadlines, time slipping away, long hours of manual work, or the pressure of slow, tedious tasks before an AI tool speeds things up"
+  },
+  {
+   "id": "lib_colleagues_collaborating_around",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "credit": "",
+   "file": "colleagues_collaborating_around.mp4",
+   "frames": 126,
+   "desc": "B-roll (4.2s, VERTICAL 9:16 — best as full: true): colleagues collaborating around Good for: "
+  },
+  {
+   "id": "lib_fingers_typing_on_laptop_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "credit": "",
+   "file": "fingers_typing_on_laptop_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): Close-up over-the-shoulder shot of a person typing on a backlit laptop keyboard, with a blurred blue screen in the background and a warm, focused, productive mood. Good for: lines about getting started, writing prompts or code, doing focused work at the computer, or the hands-on steps of a tutorial"
+  },
+  {
+   "id": "lib_hand_dropping_papers_on_desk",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "credit": "",
+   "file": "hand_dropping_papers_on_desk.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a green shirt carries and then drops a thick stack of papers onto an already huge, messy pile of documents with sticky notes on a cluttered desk, while a laptop glows nearby, and the camera pushes in to a close-up of the towering stack, creating a mood of overwhelm and tedious paperwork. Good for: a script line about drowning in manual paperwork or document processing, setting up how AI can automate summarizing, sorting, or extracting information from piles of documents"
+  },
+  {
+   "id": "lib_hand_scrolling_smartphone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_scrolling_smartphone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_scrolling_smartphone.mp4",
+   "credit": "",
+   "file": "hand_scrolling_smartphone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a bearded young man in a white t-shirt looking intently at a smartphone in dim, warm lighting, with the camera slowly pushing in until his focused, slightly tense gaze moves from the screen to the lens. Good for: a script line about being glued to your phone, doubt or tension before a reveal, or the moment of realizing something while checking an app or notification"
+  },
+  {
+   "id": "lib_man_comparing_phone_and_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "credit": "",
+   "file": "man_comparing_phone_and_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): man comparing phone and laptop Good for: "
+  },
+  {
+   "id": "lib_man_looking_at_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "credit": "",
+   "file": "man_looking_at_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt scowls with intense focus at a laptop in a dim, warmly lit room, then closes his eyes and rubs his hand near his chin in tired frustration. Good for: frustration with slow or difficult work, such as struggling with a tedious task, debugging, or burning out late at night before finding a better way"
+  },
+  {
+   "id": "lib_man_opens_laptop_in_room",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_opens_laptop_in_room.mp4",
+   "credit": "",
+   "file": "man_opens_laptop_in_room.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt sits at a laptop in a dimly lit, warmly lit room, and his focused, tense expression builds as he leans toward the screen, which shows blurry blue diagram or flowchart-style blocks, with his fists clenched near his chin in the middle frame. Good for: intense concentration or deep work, such as debugging, building an AI workflow, or struggling with a complex problem"
+  },
+  {
+   "id": "lib_man_shaking_head_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "credit": "",
+   "file": "man_shaking_head_at_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits in a dark chair looking down at his phone, and his expression shifts from neutral to scrunched-up frustration or confusion, then to a displeased, worried look as he lowers the phone. Good for: frustration or disappointment with a tool or app that isn't working, slow or confusing results, or a bad surprise while checking your phone"
+  },
+  {
+   "id": "lib_man_smiling_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "credit": "",
+   "file": "man_smiling_at_phone.mp4",
+   "frames": 135,
+   "desc": "B-roll (4.5s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a blue smartphone, his expression shifting from neutral to a furrowed-brow frown of confusion and frustration. Good for: a line about frustration with confusing apps or slow tools, or the moment someone hits a problem and doesn't know what to do next"
+  },
+  {
+   "id": "lib_man_studying_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "credit": "",
+   "file": "man_studying_with_laptop.mp4",
+   "frames": 132,
+   "desc": "B-roll (4.4s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits at a desk behind a laptop with a furrowed brow and a frustrated, concentrated look, first staring at the screen, then looking down at an open notebook and writing with a pen, with a warm blurred lamp glowing in the background. Good for: a script line about struggling to understand something complex, frustration with slow or manual work, or the pain of learning a new tool the hard way"
+  },
+  {
+   "id": "lib_man_watching_laptop_waiting",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "credit": "",
+   "file": "man_watching_laptop_waiting.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits at a laptop in a dimly lit room with warm lamp light, resting his chin on his fist with a focused, pensive look, and the camera pushes in closer across the three frames. Good for: a script line about deep thinking, researching or problem-solving, or weighing a decision before trying an AI tool"
+  },
+  {
+   "id": "lib_person_drinking_coffee_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "credit": "",
+   "file": "person_drinking_coffee_with_laptop.mp4",
+   "frames": 93,
+   "desc": "B-roll (3.1s, VERTICAL 9:16 — best as full: true): A bearded man in a green polo sits at a laptop in a modern industrial-style open office, lifting a white cup to his mouth and sipping a hot drink while looking down at the screen, in a calm, focused mood. Good for: a line about taking a breather while the AI does the work, a morning work routine, waiting for a process to finish, or the calm of an automated workflow"
+  },
+  {
+   "id": "lib_person_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "person_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a laptop, his expression moving from concern to a deep frown with glowing blue tear-like effects on his cheeks, then to eyes shut in stress or exhaustion; the mood is frustrated and overwhelmed. Good for: A script line about frustration or overwhelm with a tough task, such as struggling with confusing tools, wasting hours on manual work, or being stuck before finding an AI solution."
+  },
+  {
+   "id": "lib_person_speaking_into_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_speaking_into_phone.mp4",
+   "credit": "",
+   "file": "person_speaking_into_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt takes a phone call in a modern industrial office with exposed concrete ceilings, moving from a serious, concerned look to a worried talking expression and ending with a relieved, confident smile at the camera. Good for: a script line about getting a surprising call or news, a problem being solved, or the moment of relief after a stressful issue"
+  },
+  {
+   "id": "lib_person_taking_selfie_with_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "credit": "",
+   "file": "person_taking_selfie_with_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt sits in a car holding a blue smartphone up close to his face, and across the clip he leans toward the screen with a furrowed brow, looking skeptical and intensely focused. Good for: a script line about doubting or double-checking AI output, being confused or frustrated by an app or tool, or looking closely at a result on your phone, e.g. 'wait, is this actually right?'"
+  },
+  {
+   "id": "lib_professional_working_on_laptop_late",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "credit": "",
+   "file": "professional_working_on_laptop_late.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A tired bearded young man in a maroon t-shirt sits at a laptop in a dim apartment at night, resting his head on his hand, rubbing his eyes, then glumly lifting a white coffee mug, with blurred city lights glowing behind him through the window. Good for: A script line about burnout, late-night grinding, or frustration with slow manual work that AI tools can speed up, e.g. 'still stuck doing this by hand at midnight?'"
+  },
+  {
+   "id": "lib_robotic_hand_typing_on_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "credit": "",
+   "file": "robotic_hand_typing_on_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a black robotic hand with segmented, mechanical fingers lowering onto a backlit laptop keyboard and starting to type, shot at shallow depth of field in a warm, softly lit, modern workspace. Good for: A script line about AI doing the work for you, automating repetitive tasks, or AI taking over typing and writing, such as 'let AI handle the busywork' or 'AI writes it for you'."
+  },
+  {
+   "id": "s1_image",
+   "kind": "image",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-14_2002/s1_image.png",
+   "credit": "Image: orshot.com",
+   "desc": "official image from Orshot.com (announcement page)"
+  }
+ ],
+ "style": "hisaab",
+ "topic": "Business breakdown: Orshot.com — Orshot is an API and Automation service for Creative Marketing",
+ "pick": {
+  "topic": "Business breakdown: Orshot.com — Orshot is an API and Automation service for Creative Marketing",
+  "tool": "Orshot.com",
+  "format": "business",
+  "angle": "A tiny team makes $13K/month selling an API that auto-generates social media images and banners"
+ },
+ "inspired_by": {
+  "url": "https://trustmrr.com/startup/orshot-com",
+  "owner": "trustmrr",
+  "plays": 0,
+  "likes": 0,
+  "comments": 0
+ },
+ "research": {
+  "verdict": "ok",
+  "tool": "Orshot.com",
+  "what_it_does": "An API and no-code automation platform. You design a template once in a browser editor, then render images, PDFs and videos from it via REST API, n8n, Make, Zapier or AI agents.",
+  "who_pays": "Developers, agencies, brands and marketing teams that need to produce marketing visuals at scale. One example is CreatorCore, which runs influencer campaigns for agencies and music labels.",
+  "pricing": "Official pricing page (orshot.com/pricing): Free with 100 credits/month (no card), Launch from $39/mo (1,500 credits), Grow from $160/mo (20,000 credits), Scale from $349/mo (75,000 credits). 1 credit = 1 image, 1 PDF page or 1 second of video. Enterprise is custom. TrustMRR also lists Social Publishing at $12/mo per social account (not checked on the pricing page).",
+  "growth": [
+   "Building in public on X. Rishi says the same audience that gave his earlier product Pika its first users later gave Orshot its first users. He says many early users were developers and indie makers who followed him. Source: Fakemayo interview (~mid-2026).",
+   "Rishi says 'a good chunk' of Orshot's initial customers came from the Pika crowd. He adds that the rest came slowly, 'the boring way'. Source: Fakemayo interview.",
+   "SEO: Rishi credits 'patient, unglamorous SEO' plus building in public and reputation. His Pika product had crossed $100k in earnings 'just from SEO, building in public and word of mouth' before Orshot. Source: Fakemayo interview.",
+   "Orshot's own blog publishes many comparison pages, for example vs Bannerbear, Placid, APITemplate.io, Shotstack and Remotion. These carry pricing 'checked' dates in Aug–Oct 2026.",
+   "Direct customer outreach: Rishi emailed a new signup, asked about his use case, then built a tool for him (carousels auto-generated from Twitter threads). That user became a customer. Source: Rishi's LinkedIn post.",
+   "Rishi's 1-year post says he focused mainly on talking to customers about their use cases and learning from them. Source: orshot.com/blog/1-year-orshot.",
+   "When the Pika API was retired in favor of Orshot, Rishi reached out directly to some Pika API customers and helped them migrate. CreatorCore was one of them. Source: Orshot blog, Aug 24, 2026.",
+   "Product Hunt: Orshot's page lists 5 launches, including May 7, 2025, June 12, 2025 and March 16, 2026. Source: Product Hunt page. No upvote or ranking figures were found."
+  ],
+  "founder_story": [
+   "Rishi Mohan is a solo founder. Orshot is run through his company DaSkrad, and in his own 1-year post he says he has been 'solo building' it. A mid-2026 interview said it was 'still just me'.",
+   "Before Orshot he built Pika (pika.style, screenshots and mockups), which started in January 2022 as a side project. His LinkedIn says he has 8+ years in design and frontend engineering. His site lists previous roles at Borg, BigBinary and Instahyre.",
+   "In the Fakemayo interview Rishi says he started building Orshot in February 2025, registered DaSkrad and launched it the same month. TrustMRR lists the founding date as March 2025.",
+   "He says it took roughly a year to get past 100 customers. He names Incubeta and Brendi as customers, saying Brendi handles marketing for over 5,000 restaurants.",
+   "He publishes numbers on orshot.com/open (not opened or checked)."
+  ],
+  "lessons": [
+   "Build your audience before the product. Rishi's years of building in public gave Pika its first users and then Orshot's. His X following is 7,544 per TrustMRR.",
+   "Talk to your first users. Rishi emailed a signup, learned the need, built the feature for him and turned him into a customer.",
+   "Reuse an existing product's customers. When Rishi retired the Pika API, he reached out to its customers directly and helped them move to Orshot.",
+   "Use SEO comparison pages ('X alternative') that include honest pricing tables. Orshot's own pages concede where competitors are cheaper, for example Placid and Imejis."
+  ],
+  "criticism": [
+   "Crowded category with established rivals: Bannerbear, Placid, APITemplate.io, Shotstack, Creatomate and Remotion. Orshot's own blog admits it 'doesn't win on price per video'.",
+   "The entry plan is not the cheapest. Imejis.io's comparison puts Launch at $0.026 per image, versus Imejis.io's $0.015. Orshot's own Placid page says Placid is cheaper on raw credits from Pro up.",
+   "Credits reset monthly and do not roll over, per Orshot's own Placid comparison. Overage is pricey (video overage is 8 credits per second per the docs; imejis.io cites $36 per 1,000 extra renders on Launch).",
+   "Revenue is not profit. No cost or profit data was found. A solo founder also means key-person risk.",
+   "Pricing has changed. A third-party review (imejis.io) says Orshot restructured pricing in 2026, and Software Advice still shows old plans ($30/$160/$480). Use only the current pricing page.",
+   "Third-party review presence is thin (G2 and Capterra), per checkthat.ai. That page's claim of no Product Hunt listing is wrong, since a PH page exists."
+  ],
+  "facts": [
+   "Orshot's 1-year post (published about 230 days before today) says '350k+ Renders and 100+ Customers'.",
+   "Fakemayo interview (about 122 days old): around 5,000 users, about $6.2K MRR and 760k+ renders so far.",
+   "TrustMRR (Stripe-verified): MRR is now $13,169 with 225 active subscriptions. That is roughly double the $6.2K MRR figure from the interview, which is a different date, so only compare them with care.",
+   "Free plan: 100 credits/month. Videos are capped at 30 seconds on Free, 3 minutes on Launch, 5 on Grow and 10 on Scale, per the Orshot blog.",
+   "Outputs: PNG, JPG, WebP, PDF, MP4, WebM and GIF from one template, drawing on one credit pool (Orshot blog).",
+   "Orshot features posting to 15 social platforms from the render call (Orshot blog) and an embeddable Studio editor (Rishi's X post).",
+   "Pricing comparison, from the Bannerbear and imejis.io comparisons: Grow works out to about $0.008 per image and Scale to about $0.0047, which imejis.io calls the cheapest bulk rates in its comparison."
+  ],
+  "do_not_claim": [
+   "Profit or margins",
+   "Team size beyond 'solo', which is sourced from the founder as of mid-2026",
+   "Any specific Product Hunt ranking or upvote count for Orshot",
+   "That Orshot got a 'viral moment'. None was found.",
+   "How many customers came from SEO versus X versus Pika. The founder gives no split.",
+   "Founder location: TrustMRR says United Kingdom, but the founder's own sources say Berlin, Germany. Avoid stating it.",
+   "Founding month: TrustMRR says March 2025, but the founder says he started building in February 2025. Use 'early 2025'.",
+   "Exact count of the founder's prior Pika revenue beyond 'crossed $100k in earnings', which is the founder's own claim.",
+   "Funding: no funding round was found."
+  ],
+  "real_pages": [
+   {
+    "url": "https://trustmrr.com/startup/orshot-com",
+    "show": "$13,169",
+    "kind": "site"
+   },
+   {
+    "url": "https://orshot.com",
+    "show": "",
+    "kind": "site"
+   },
+   {
+    "url": "https://orshot.com/pricing",
+    "show": "100 free credits",
+    "kind": "site"
+   },
+   {
+    "url": "https://orshot.com/pricing",
+    "show": "$39",
+    "kind": "site"
+   }
+  ],
+  "sources": [
+   "https://orshot.com/pricing",
+   "https://orshot.com/",
+   "https://orshot.com/blog/1-year-orshot",
+   "https://www.fakemayo.com/p/from-side-hustles-to-6-2k-mrr-how-rishi-mohan-built-orshot",
+   "https://www.linkedin.com/in/qaplen/",
+   "https://orshot.com/blog/influencer-marketing-automation-creatorcore",
+   "https://www.producthunt.com/products/orshot",
+   "https://rishimohan.me/",
+   "https://github.com/rishimohan",
+   "https://www.bannerbear.com/blog/bannerbear-vs-orshot/",
+   "https://www.imejis.io/blogs/comparisons/image-generation-api-pricing-comparison",
+   "https://orshot.com/blog/placid-api-alternative",
+   "https://orshot.com/blog/remotion-alternatives",
+   "https://orshot.com/docs/definitions/credits-usage",
+   "https://www.starterstory.com/stories/pika"
+  ],
+  "notes": "The pricing page snippets show Launch at $39 and Grow at $160 in the same layout. Check the live page for the exact on-screen text before recording. The 'show' strings are taken from search snippets and blog titles, not from a live page view. Verify 'Automate Image, PDF & Video Generation via API' on the homepage. It matches the TrustMRR value proposition and appeared as the homepage H1 in search results. Orshot's blog pricing claims are written by the company itself, so treat competitor comparisons as marketing. The $6.2K MRR figure (Fakemayo, about 4 months old) conflicts in time with today's $13,169 MRR from TrustMRR. Do not describe it as the current figure. For the video hook, the strongest sourced angle is that a solo founder used build-in-public, SEO and direct customer conversations, starting from an audience built with a previous product (Pika).",
+  "_searched": 5,
+  "trustmrr": {
+   "name": "Orshot.com",
+   "one_liner": "Orshot is an API and Automation service for Creative Marketing",
+   "website": "https://orshot.com",
+   "founder": "rishi 🌔",
+   "founder_x": "",
+   "founded": "March 2025",
+   "location": "United Kingdom",
+   "category": "Marketing, Saas, Content Creation, Productivity, No Code",
+   "audience": "Agencies, Brands, Startups, Developers, Marketing Teams",
+   "pricing": "Free: $0/mo, Launch: $39/mo, Grow: $160/mo, Scale: $349/mo, Social Publishing: $12/mo per social account, Enterprise: Contact Us",
+   "revenue_last_30_days": "$12,011",
+   "revenue_all_time": "$82,406",
+   "mrr": "$13,169",
+   "growth_mom": "22%",
+   "active_subscriptions": "225",
+   "rank": "#717",
+   "for_sale": "",
+   "verified_by": "Stripe API key",
+   "last_updated": "Nov 14, 2026, 02:01 PM",
+   "other": [
+    "Founder has 7,544 followers on 𝕏",
+    "Revenue growth of 22% vs. prev period",
+    "Value proposition: Automate Image, PDF & Video Generation via API",
+    "Problem solved: The difficulty of automating the generation and delivery of images, PDFs, and videos from templates.",
+    "Business type: B2B",
+    "~140 users",
+    "Domain Rating: 59/100",
+    "Tech stack: Backend, Stripe"
+   ],
+   "trustmrr_url": "https://trustmrr.com/startup/orshot-com"
+  },
+  "say_numbers_as": [
+   "$12,011 (can be said as: $10K, $12K)",
+   "$82,406 (can be said as: $80K, $82K)",
+   "$13,169 (can be said as: $10K, $13K)"
+  ]
+ },
+ "kind": "business",
+ "episode": 31,
+ "_ident": {
+  "at": 5.58,
+  "dur": 1.5,
+  "title": "AI HACKS",
+  "type": 0.42,
+  "sub": "EP 31 · BUSINESS BREAKDOWN"
+ },
+ "timeline": {
+  "words": [
+   [
+    "One",
+    0.08
+   ],
+   [
+    "person",
+    0.32
+   ],
+   [
+    "runs",
+    0.72
+   ],
+   [
+    "this",
+    1.12
+   ],
+   [
+    "boring",
+    1.36
+   ],
+   [
+    "image",
+    1.84
+   ],
+   [
+    "API,",
+    2.16
+   ],
+   [
+    "and",
+    2.853
+   ],
+   [
+    "it",
+    2.96
+   ],
+   [
+    "makes",
+    3.12
+   ],
+   [
+    "$13K",
+    3.44
+   ],
+   [
+    "a",
+    4.08
+   ],
+   [
+    "month.",
+    4.56
+   ],
+   [
+    "And",
+    5.56
+   ],
+   [
+    "the",
+    7.18
+   ],
+   [
+    "real",
+    7.34
+   ],
+   [
+    "move",
+    7.66
+   ],
+   [
+    "behind",
+    7.98
+   ],
+   [
+    "it",
+    8.3
+   ],
+   [
+    "happened",
+    8.54
+   ],
+   [
+    "before",
+    9.06
+   ],
+   [
+    "the",
+    9.3
+   ],
+   [
+    "product",
+    9.54
+   ],
+   [
+    "even",
+    9.82
+   ],
+   [
+    "existed.",
+    9.98
+   ],
+   [
+    "It's",
+    10.927
+   ],
+   [
+    "called",
+    11.1
+   ],
+   [
+    "Orshot.",
+    11.5
+   ],
+   [
+    "You",
+    12.42
+   ],
+   [
+    "design",
+    12.54
+   ],
+   [
+    "a",
+    12.86
+   ],
+   [
+    "template",
+    13.14
+   ],
+   [
+    "once,",
+    13.42
+   ],
+   [
+    "then",
+    14.06
+   ],
+   [
+    "render",
+    14.38
+   ],
+   [
+    "images,",
+    14.62
+   ],
+   [
+    "PDFs",
+    15.34
+   ],
+   [
+    "and",
+    15.98
+   ],
+   [
+    "videos",
+    16.22
+   ],
+   [
+    "from",
+    16.7
+   ],
+   [
+    "it",
+    16.86
+   ],
+   [
+    "through",
+    17.02
+   ],
+   [
+    "an",
+    17.18
+   ],
+   [
+    "API.",
+    17.3
+   ],
+   [
+    "Agencies,",
+    18.14
+   ],
+   [
+    "brands",
+    18.86
+   ],
+   [
+    "and",
+    19.42
+   ],
+   [
+    "developers",
+    19.58
+   ],
+   [
+    "pay",
+    20.3
+   ],
+   [
+    "for",
+    20.54
+   ],
+   [
+    "it.",
+    20.7
+   ],
+   [
+    "These",
+    21.18
+   ],
+   [
+    "numbers",
+    21.42
+   ],
+   [
+    "are",
+    21.82
+   ],
+   [
+    "verified",
+    22.06
+   ],
+   [
+    "on",
+    22.62
+   ],
+   [
+    "TrustMRR,",
+    22.98
+   ],
+   [
+    "through",
+    23.86
+   ],
+   [
+    "Stripe.",
+    24.18
+   ],
+   [
+    "$13K",
+    24.74
+   ],
+   [
+    "in",
+    25.26
+   ],
+   [
+    "MRR,",
+    26.22
+   ],
+   [
+    "$12K",
+    26.9
+   ],
+   [
+    "in",
+    27.26
+   ],
+   [
+    "the",
+    28.02
+   ],
+   [
+    "last",
+    28.14
+   ],
+   [
+    "30",
+    28.46
+   ],
+   [
+    "days,",
+    28.78
+   ],
+   [
+    "225",
+    29.3
+   ],
+   [
+    "active",
+    29.42
+   ],
+   [
+    "subscriptions,",
+    31.1
+   ],
+   [
+    "and",
+    32.02
+   ],
+   [
+    "22%",
+    32.34
+   ],
+   [
+    "growth.",
+    32.86
+   ],
+   [
+    "Look",
+    33.94
+   ],
+   [
+    "at",
+    34.06
+   ],
+   [
+    "their",
+    34.22
+   ],
+   [
+    "pricing",
+    34.5
+   ],
+   [
+    "page:",
+    34.78
+   ],
+   [
+    "free",
+    35.42
+   ],
+   [
+    "with",
+    35.74
+   ],
+   [
+    "100",
+    35.98
+   ],
+   [
+    "credits,",
+    36.22
+   ],
+   [
+    "then",
+    37.18
+   ],
+   [
+    "$39",
+    37.42
+   ],
+   [
+    "a",
+    38.06
+   ],
+   [
+    "month.",
+    38.42
+   ],
+   [
+    "So",
+    39.34
+   ],
+   [
+    "how",
+    39.74
+   ],
+   [
+    "did",
+    39.98
+   ],
+   [
+    "it",
+    40.14
+   ],
+   [
+    "grow?",
+    40.3
+   ],
+   [
+    "Founder",
+    40.94
+   ],
+   [
+    "Rishi",
+    41.34
+   ],
+   [
+    "Mohan",
+    41.66
+   ],
+   [
+    "talked",
+    42.14
+   ],
+   [
+    "to",
+    42.34
+   ],
+   [
+    "customers",
+    42.46
+   ],
+   [
+    "constantly.",
+    43.1
+   ],
+   [
+    "He",
+    44.06
+   ],
+   [
+    "emailed",
+    44.22
+   ],
+   [
+    "a",
+    44.58
+   ],
+   [
+    "new",
+    44.7
+   ],
+   [
+    "signup,",
+    44.86
+   ],
+   [
+    "built",
+    45.7
+   ],
+   [
+    "the",
+    45.86
+   ],
+   [
+    "feature",
+    45.98
+   ],
+   [
+    "he",
+    46.3
+   ],
+   [
+    "needed,",
+    46.66
+   ],
+   [
+    "and",
+    47.14
+   ],
+   [
+    "that",
+    47.34
+   ],
+   [
+    "guy",
+    47.5
+   ],
+   [
+    "became",
+    47.74
+   ],
+   [
+    "a",
+    48.02
+   ],
+   [
+    "customer.",
+    48.14
+   ],
+   [
+    "Add",
+    48.9
+   ],
+   [
+    "patient",
+    49.18
+   ],
+   [
+    "SEO",
+    49.66
+   ],
+   [
+    "and",
+    50.34
+   ],
+   [
+    "honest",
+    50.54
+   ],
+   [
+    "comparison",
+    51.14
+   ],
+   [
+    "pages.",
+    51.5
+   ],
+   [
+    "The",
+    52.284
+   ],
+   [
+    "honest",
+    52.38
+   ],
+   [
+    "catch?",
+    52.7
+   ],
+   [
+    "It's",
+    53.34
+   ],
+   [
+    "a",
+    53.5
+   ],
+   [
+    "crowded",
+    53.58
+   ],
+   [
+    "space,",
+    54.22
+   ],
+   [
+    "and",
+    54.7
+   ],
+   [
+    "Orshot's",
+    54.9
+   ],
+   [
+    "own",
+    55.5
+   ],
+   [
+    "blog",
+    55.66
+   ],
+   [
+    "admits",
+    55.98
+   ],
+   [
+    "it",
+    56.38
+   ],
+   [
+    "doesn't",
+    56.74
+   ],
+   [
+    "win",
+    57.02
+   ],
+   [
+    "on",
+    57.26
+   ],
+   [
+    "price",
+    57.46
+   ],
+   [
+    "per",
+    57.66
+   ],
+   [
+    "video.",
+    57.98
+   ],
+   [
+    "Also,",
+    58.66
+   ],
+   [
+    "revenue",
+    59.18
+   ],
+   [
+    "isn't",
+    59.82
+   ],
+   [
+    "profit.",
+    60.3
+   ],
+   [
+    "So",
+    60.94
+   ],
+   [
+    "here's",
+    61.1
+   ],
+   [
+    "the",
+    61.46
+   ],
+   [
+    "move.",
+    61.58
+   ],
+   [
+    "He",
+    62.38
+   ],
+   [
+    "built",
+    62.54
+   ],
+   [
+    "an",
+    62.78
+   ],
+   [
+    "audience",
+    63.02
+   ],
+   [
+    "first.",
+    63.5
+   ],
+   [
+    "The",
+    64.14
+   ],
+   [
+    "same",
+    64.3
+   ],
+   [
+    "crowd",
+    64.66
+   ],
+   [
+    "that",
+    64.94
+   ],
+   [
+    "backed",
+    65.1
+   ],
+   [
+    "his",
+    65.34
+   ],
+   [
+    "earlier",
+    65.66
+   ],
+   [
+    "product,",
+    66.06
+   ],
+   [
+    "Pika,",
+    66.34
+   ],
+   [
+    "gave",
+    66.9
+   ],
+   [
+    "Orshot",
+    67.18
+   ],
+   [
+    "its",
+    67.66
+   ],
+   [
+    "first",
+    68.06
+   ],
+   [
+    "users.",
+    68.3
+   ],
+   [
+    "Steal",
+    69.1
+   ],
+   [
+    "that.",
+    69.5
+   ],
+   [
+    "Audience",
+    70.06
+   ],
+   [
+    "first,",
+    70.38
+   ],
+   [
+    "product",
+    71.06
+   ],
+   [
+    "second.",
+    71.46
+   ],
+   [
+    "Would",
+    72.06
+   ],
+   [
+    "you",
+    72.22
+   ],
+   [
+    "build",
+    72.38
+   ],
+   [
+    "this",
+    72.7
+   ],
+   [
+    "or",
+    72.94
+   ],
+   [
+    "buy",
+    73.1
+   ],
+   [
+    "it?",
+    73.34
+   ],
+   [
+    "Send",
+    73.86
+   ],
+   [
+    "this",
+    74.06
+   ],
+   [
+    "to",
+    74.18
+   ],
+   [
+    "the",
+    74.3
+   ],
+   [
+    "friend",
+    74.5
+   ],
+   [
+    "who",
+    74.74
+   ],
+   [
+    "keeps",
+    74.9
+   ],
+   [
+    "saying",
+    75.26
+   ],
+   [
+    "they'll",
+    75.46
+   ],
+   [
+    "launch",
+    75.78
+   ],
+   [
+    "someday.",
+    75.94
+   ],
+   [
+    "Hack",
+    76.74
+   ],
+   [
+    "saved?",
+    76.94
+   ]
+  ],
+  "duration": 77.6,
+  "ident": {
+   "at": 5.58,
+   "dur": 1.5,
+   "title": "AI HACKS",
+   "type": 0.42,
+   "sub": "EP 31 · BUSINESS BREAKDOWN"
+  },
+  "scenes": [
+   {
+    "t": 0.0,
+    "shows": [
+     "footage:lib_man_opens_laptop_in_room",
+     "headline:ONE PERSON"
+    ]
+   },
+   {
+    "t": 5.56,
+    "shows": [
+     "object3d:",
+     "pill:STAY FOR THE MOVE"
+    ]
+   },
+   {
+    "t": 10.93,
+    "shows": [
+     "footage:real_2_phone",
+     "pill:ORSHOT.COM"
+    ]
+   },
+   {
+    "t": 12.42,
+    "shows": [
+     "label:HOW IT WORKS",
+     "steps:"
+    ]
+   },
+   {
+    "t": 18.14,
+    "shows": [
+     "label:WHO PAYS",
+     "strike_list:"
+    ]
+   },
+   {
+    "t": 21.18,
+    "shows": [
+     "footage:real_1_web",
+     "pill:VERIFIED · STRIPE"
+    ]
+   },
+   {
+    "t": 24.74,
+    "shows": [
+     "object3d:",
+     "stat_row:"
+    ]
+   },
+   {
+    "t": 33.94,
+    "shows": [
+     "footage:real_3_web",
+     "stat_row:"
+    ]
+   },
+   {
+    "t": 39.34,
+    "shows": [
+     "footage:lib_person_speaking_into_phone",
+     "pill:TALK TO CUSTOMERS"
+    ]
+   },
+   {
+    "t": 44.06,
+    "shows": [
+     "screen:Growth · Talk to signups",
+     "pill:SIGNUP → CUSTOMER"
+    ]
+   },
+   {
+    "t": 48.9,
+    "shows": [
+     "label:THE SLOW GROWTH",
+     "steps:"
+    ]
+   },
+   {
+    "t": 52.28,
+    "shows": [
+     "title_slam:THE CATCH",
+     "strike_list:"
+    ]
+   },
+   {
+    "t": 60.94,
+    "shows": [
+     "label:THE REAL MOVE",
+     "object3d:"
+    ]
+   },
+   {
+    "t": 64.14,
+    "shows": [
+     "pile:",
+     "arrow_pair:"
+    ]
+   },
+   {
+    "t": 69.1,
+    "shows": [
+     "title_slam:STEAL THAT",
+     "steps:"
+    ]
+   },
+   {
+    "t": 72.06,
+    "shows": [
+     "headline:BUILD OR BUY?"
+    ]
+   }
+  ],
+  "beats": [
+   1.6,
+   15.54,
+   30.82
+  ]
+ }
+}
