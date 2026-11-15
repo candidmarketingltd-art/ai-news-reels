@@ -1,0 +1,1723 @@
+{
+ "voiceover": "[conversational] Stop paying a photographer for every single product shot.\n\nStay till the end, because skipping 3 checks can get your listing suppressed.\n\nOne phone photo can become a studio shot, mannequin display and sale poster.\n\nOpen ChatGPT, tap plus, Add photos & files, and pick your photo. Then paste a saved prompt from your Notes app. [playful] Call them /studio, /mannequin and /flashsale. They're just your labels, not real commands.\n\nInclude this line: [confident] \"Keep the product exactly as in my photo. Change only background, lighting and styling.\"\n\n[serious] Honest catch: AI can change your logo or colour, so proofread poster text.\n\nHere are the 3 checks. One, match the real item: colour, shape, logo. Two, keep one real, unedited photo, because Etsy requires it. Three, disclose AI edits on Etsy, and tag Amazon if a realistic AI person appears. Rules vary by marketplace and region, so check yours.\n\nWhich marketplace do you sell on?\n\nSend this to the friend who books a photographer for every product.\n\nHack saved?",
+ "open_loop": {
+  "setup": "Stay till the end, because skipping 3 checks can get your listing suppressed.",
+  "payoff": "Three, disclose AI edits on Etsy, and tag Amazon if a realistic AI person appears."
+ },
+ "title": "STOP PAYING PHOTOGRAPHERS",
+ "ig_caption": "Stop paying a photographer for every single product shot.\n✅ Add your phone photo in ChatGPT (+ > Add photos & files)\n✅ Paste your own saved prompt: /studio, /mannequin or /flashsale\n✅ Add: keep the product exactly the same, change only background, lighting and styling\n✅ Run the 3 checks: match the real item, keep one real photo, disclose AI edits\nWhich marketplace do you sell on? 👇\nSave this for later 📌\nFollow @ihackgrowth for daily business & growth hacks",
+ "media_hints": {
+  "domain": "chatgpt.com",
+  "broll": [
+   "product photography studio",
+   "typing on laptop",
+   "online store packaging"
+  ]
+ },
+ "hashtags": [
+  "#AItools",
+  "#AIhacks",
+  "#ChatGPT",
+  "#ProductPhotography",
+  "#Ecommerce",
+  "#Etsy",
+  "#Amazon",
+  "#SmallBusiness",
+  "#productivity"
+ ],
+ "tag": "PRODUCT PHOTOS",
+ "keywords": [
+  "photographer",
+  "product",
+  "studio",
+  "mannequin",
+  "poster",
+  "ChatGPT",
+  "Notes",
+  "labels",
+  "exactly",
+  "logo",
+  "colour",
+  "proofread",
+  "checks",
+  "Etsy",
+  "Amazon",
+  "disclose",
+  "unedited",
+  "marketplace"
+ ],
+ "music": "upbeat",
+ "hud": {
+  "label": "CHECKS",
+  "items": [
+   {
+    "value": "LOCKED",
+    "color": "red"
+   },
+   {
+    "at": "One, match",
+    "value": "1/3",
+    "color": "gold"
+   },
+   {
+    "at": "Two, keep",
+    "value": "2/3",
+    "color": "gold"
+   },
+   {
+    "at": "Three, disclose",
+    "value": "3/3",
+    "color": "green"
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "at": "Stop paying",
+   "tint": "red",
+   "react": [
+    {
+     "at": "product shot.",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Stop paying",
+     "media": "lib_hands_holding_credit_card_near",
+     "full": true,
+     "caption": "EVERY. SINGLE. SHOT.",
+     "caption_at": "every single"
+    },
+    {
+     "type": "title_slam",
+     "at": "Stop paying",
+     "text": "STOP",
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "at": "Stay till",
+   "tint": "red",
+   "react": [
+    {
+     "at": "listing suppressed.",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "pill",
+     "at": "Stay till",
+     "text": "STAY FOR THE 3 CHECKS",
+     "color": "gold",
+     "outline": true
+    },
+    {
+     "type": "object3d",
+     "at": "the end,",
+     "kind": "padlock",
+     "size": "l",
+     "caption": "3 CHECKS",
+     "caption_at": "3 checks"
+    },
+    {
+     "type": "pill",
+     "at": "listing suppressed.",
+     "text": "LISTING SUPPRESSED",
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "at": "One phone photo",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "One phone photo",
+     "media": "real_1_phone",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "can become",
+     "text": "IMAGES IN CHATGPT",
+     "color": "gold",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "studio shot,",
+   "tint": "warm",
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "studio shot,",
+     "kind": "phone",
+     "act": "buzz",
+     "act_at": "studio shot,",
+     "caption": "1 PHOTO"
+    },
+    {
+     "type": "stat_row",
+     "at": "studio shot,",
+     "cards": [
+      {
+       "label": "STUDIO",
+       "value": "SHOT",
+       "ill": "camera_with_flash",
+       "at": "studio shot,"
+      },
+      {
+       "label": "MANNEQUIN",
+       "value": "DISPLAY",
+       "ill": "womans_clothes",
+       "at": "mannequin display"
+      },
+      {
+       "label": "SALE",
+       "value": "POSTER",
+       "ill": "label",
+       "color": "red",
+       "glow": true,
+       "at": "sale poster."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Open ChatGPT,",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Open ChatGPT,",
+     "device": "phone",
+     "app": "ChatGPT",
+     "brand": "chatgpt",
+     "theme": "dark",
+     "step": "Step 1 · Upload your photo",
+     "steps": [
+      {
+       "at": "Open ChatGPT,",
+       "view": {
+        "kind": "home",
+        "apps": [
+         "Photos",
+         "Camera",
+         "Notes",
+         "ChatGPT",
+         "Etsy",
+         "Settings"
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "ChatGPT",
+        "at": "Open ChatGPT,"
+       }
+      },
+      {
+       "at": "tap plus,",
+       "view": {
+        "input_buttons": [
+         "+"
+        ],
+        "chat": [],
+        "input": ""
+       },
+       "action": {
+        "kind": "click",
+        "target": "+",
+        "at": "tap plus,"
+       }
+      },
+      {
+       "at": "Add photos",
+       "view": {
+        "input_buttons": [
+         "+"
+        ],
+        "chat": [],
+        "input": "",
+        "menu": {
+         "items": [
+          "Camera",
+          "Add photos & files",
+          "Create image",
+          "Deep research"
+         ]
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Add photos & files",
+        "at": "Add photos"
+       }
+      },
+      {
+       "at": "and pick",
+       "view": {
+        "input_buttons": [
+         "+"
+        ],
+        "chat": [
+         {
+          "from": "user",
+          "text": "[photo] product.jpg"
+         }
+        ],
+        "input": ""
+       },
+       "action": {
+        "kind": "point",
+        "target": "input",
+        "at": "your photo."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Then paste",
+   "react": [
+    {
+     "at": "not real commands.",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Then paste",
+     "device": "phone",
+     "app": "Notes",
+     "step": "Step 2 · Save your prompts",
+     "steps": [
+      {
+       "at": "Then paste",
+       "view": {
+        "kind": "doc",
+        "title": "Saved prompts",
+        "lines": [
+         "/studio: clean white studio shot"
+        ]
+       },
+       "action": {
+        "kind": "type",
+        "target": "doc",
+        "text": "/mannequin: boutique mannequin display",
+        "at": "Call them"
+       }
+      },
+      {
+       "at": "/flashsale.",
+       "view": {
+        "kind": "doc",
+        "title": "Saved prompts",
+        "lines": [
+         "/studio: clean white studio shot",
+         "/mannequin: boutique mannequin display"
+        ]
+       },
+       "action": {
+        "kind": "type",
+        "target": "doc",
+        "text": "/flashsale: bold flash-sale poster",
+        "at": "/flashsale."
+       }
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "at": "just your labels,",
+     "text": "LABELS, NOT COMMANDS",
+     "color": "gold",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "Include this line:",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "Keep the product",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "Include this line:",
+     "text": "COPY THIS LINE"
+    },
+    {
+     "type": "screen",
+     "at": "Include this line:",
+     "device": "phone",
+     "app": "ChatGPT",
+     "brand": "chatgpt",
+     "theme": "dark",
+     "step": "Step 3 · Lock the product",
+     "steps": [
+      {
+       "at": "Include this line:",
+       "view": {
+        "input_buttons": [
+         "+"
+        ],
+        "chat": [
+         {
+          "from": "user",
+          "text": "[photo] product.jpg"
+         }
+        ],
+        "input": ""
+       },
+       "action": {
+        "kind": "type",
+        "target": "input",
+        "text": "Keep the product exactly as in my photo. Change only background, lighting and styling.",
+        "at": "Keep the product"
+       }
+      },
+      {
+       "at": "and styling.",
+       "view": {
+        "input_buttons": [
+         "+"
+        ],
+        "chat": [
+         {
+          "from": "user",
+          "text": "[photo] /studio + keep the product exactly"
+         },
+         {
+          "from": "ai",
+          "text": "Here's your studio shot."
+         }
+        ],
+        "input": ""
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Honest catch:",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Honest catch:",
+     "media": "lib_person_taking_selfie_with_phone",
+     "full": true,
+     "caption": "PROOFREAD POSTER TEXT",
+     "caption_at": "proofread poster"
+    },
+    {
+     "type": "pill",
+     "at": "your logo",
+     "text": "LOGO OR COLOUR CHANGED?",
+     "color": "red",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "Here are",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Here are",
+     "text": "THE PAYOFF"
+    },
+    {
+     "type": "object3d",
+     "at": "Here are",
+     "kind": "padlock",
+     "act": "open",
+     "act_at": "3 checks.",
+     "size": "l",
+     "caption": "3 CHECKS UNLOCKED",
+     "caption_at": "3 checks."
+    }
+   ]
+  },
+  {
+   "at": "One, match",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "label",
+     "at": "One, match",
+     "text": "CHECK 1 · MATCH THE ITEM"
+    },
+    {
+     "type": "arrow_pair",
+     "at": "One, match",
+     "left": {
+      "label": "PHONE PHOTO",
+      "value": "REAL"
+     },
+     "right": {
+      "label": "AI SHOT",
+      "value": "MATCH?",
+      "color": "gold",
+      "at": "real item:"
+     }
+    },
+    {
+     "type": "strike_list",
+     "at": "colour,",
+     "items": [
+      {
+       "text": "COLOUR",
+       "at": "colour,",
+       "strike": false
+      },
+      {
+       "text": "SHAPE",
+       "at": "shape,",
+       "strike": false
+      },
+      {
+       "text": "LOGO",
+       "at": "logo.",
+       "strike": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Two, keep",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Two, keep",
+     "text": "CHECK 2 · KEEP THE ORIGINAL"
+    },
+    {
+     "type": "stat_row",
+     "at": "one real,",
+     "cards": [
+      {
+       "label": "UNEDITED PHOTO",
+       "value": "1 REAL",
+       "ill": "camera",
+       "at": "one real,"
+      },
+      {
+       "label": "ETSY",
+       "value": "MUST",
+       "color": "gold",
+       "glow": true,
+       "at": "Etsy requires"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Three, disclose",
+   "tint": "green",
+   "react": [
+    {
+     "at": "Rules vary",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "Three, disclose",
+     "text": "CHECK 3 · DISCLOSE"
+    },
+    {
+     "type": "strike_list",
+     "at": "disclose AI",
+     "items": [
+      {
+       "text": "DISCLOSE AI EDITS · ETSY",
+       "at": "disclose AI",
+       "strike": false
+      },
+      {
+       "text": "TAG AI PERSON · AMAZON",
+       "at": "tag Amazon",
+       "strike": false
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "at": "Rules vary",
+     "text": "CHECK YOUR MARKETPLACE",
+     "color": "gold",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "Which marketplace",
+   "elements": [
+    {
+     "type": "headline",
+     "at": "Which marketplace",
+     "text": "WHERE DO YOU SELL?",
+     "size": "l",
+     "ill": "shopping_bags",
+     "sub": "COMMENT BELOW",
+     "sub_at": "sell on?"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "Send this",
+  "line1": "Send this to",
+  "line1_at": "Send this",
+  "line2": "the photographer booker",
+  "line2_at": "books a photographer"
+ },
+ "endcard": {
+  "title": "Hack saved?",
+  "terminal": "> product.shots · 3 checks passed"
+ },
+ "media": [
+  {
+   "id": "real_1_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-15_1301/real_1_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-15_1301/real_1_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: help.openai.com",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the gold-outlined part — Mobile help.openai.com article page 'Images in ChatGPT'. Header: OpenAI logo, 'English' language button, 'Login' link, search bar 'Search for articles...'. Breadcrumb highlighted in yellow: 'All Collections > ChatGPT > Images in ChatGPT'. Headline 'Images in ChatGPT', subtitle 'Learn how to create,  [Screen: help.openai.com]"
+  },
+  {
+   "id": "lib_camera_moving_down_server_corridor",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "credit": "",
+   "file": "camera_moving_down_server_corridor.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow forward push down a hazy, fog-filled data center aisle lined with server racks that glow with blue and amber status lights, giving a moody, futuristic feel. Good for: A script line about the infrastructure behind AI, such as cloud computing, model training, heavy compute, data storage, or 'what happens behind the scenes'."
+  },
+  {
+   "id": "lib_clock_ticking_and_person_typing",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "credit": "",
+   "file": "clock_ticking_and_person_typing.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A rack-focus shot moves from a close-up of a black twin-bell alarm clock with ticking hands to a bearded man in a light polo typing on a laptop in a dim room, giving a tense, time-pressured mood. Good for: lines about deadlines, time slipping away, long hours of manual work, or the pressure of slow, tedious tasks before an AI tool speeds things up"
+  },
+  {
+   "id": "lib_colleagues_collaborating_around",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "credit": "",
+   "file": "colleagues_collaborating_around.mp4",
+   "frames": 126,
+   "desc": "B-roll (4.2s, VERTICAL 9:16 — best as full: true): colleagues collaborating around Good for: "
+  },
+  {
+   "id": "lib_fingers_typing_on_laptop_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "credit": "",
+   "file": "fingers_typing_on_laptop_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): Close-up over-the-shoulder shot of a person typing on a backlit laptop keyboard, with a blurred blue screen in the background and a warm, focused, productive mood. Good for: lines about getting started, writing prompts or code, doing focused work at the computer, or the hands-on steps of a tutorial"
+  },
+  {
+   "id": "lib_hand_dropping_papers_on_desk",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "credit": "",
+   "file": "hand_dropping_papers_on_desk.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a green shirt carries and then drops a thick stack of papers onto an already huge, messy pile of documents with sticky notes on a cluttered desk, while a laptop glows nearby, and the camera pushes in to a close-up of the towering stack, creating a mood of overwhelm and tedious paperwork. Good for: a script line about drowning in manual paperwork or document processing, setting up how AI can automate summarizing, sorting, or extracting information from piles of documents"
+  },
+  {
+   "id": "lib_hand_scrolling_smartphone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_scrolling_smartphone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_scrolling_smartphone.mp4",
+   "credit": "",
+   "file": "hand_scrolling_smartphone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a bearded young man in a white t-shirt looking intently at a smartphone in dim, warm lighting, with the camera slowly pushing in until his focused, slightly tense gaze moves from the screen to the lens. Good for: a script line about being glued to your phone, doubt or tension before a reveal, or the moment of realizing something while checking an app or notification"
+  },
+  {
+   "id": "lib_hands_holding_credit_card_near",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hands_holding_credit_card_near.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hands_holding_credit_card_near.mp4",
+   "credit": "",
+   "file": "hands_holding_credit_card_near.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): hands holding credit card near Good for: "
+  },
+  {
+   "id": "lib_man_comparing_phone_and_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "credit": "",
+   "file": "man_comparing_phone_and_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): man comparing phone and laptop Good for: "
+  },
+  {
+   "id": "lib_man_looking_at_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "credit": "",
+   "file": "man_looking_at_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt scowls with intense focus at a laptop in a dim, warmly lit room, then closes his eyes and rubs his hand near his chin in tired frustration. Good for: frustration with slow or difficult work, such as struggling with a tedious task, debugging, or burning out late at night before finding a better way"
+  },
+  {
+   "id": "lib_man_shaking_head_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "credit": "",
+   "file": "man_shaking_head_at_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits in a dark chair looking down at his phone, and his expression shifts from neutral to scrunched-up frustration or confusion, then to a displeased, worried look as he lowers the phone. Good for: frustration or disappointment with a tool or app that isn't working, slow or confusing results, or a bad surprise while checking your phone"
+  },
+  {
+   "id": "lib_man_smiling_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "credit": "",
+   "file": "man_smiling_at_phone.mp4",
+   "frames": 135,
+   "desc": "B-roll (4.5s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a blue smartphone, his expression shifting from neutral to a furrowed-brow frown of confusion and frustration. Good for: a line about frustration with confusing apps or slow tools, or the moment someone hits a problem and doesn't know what to do next"
+  },
+  {
+   "id": "lib_man_staring_at_phone_in",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_staring_at_phone_in.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_staring_at_phone_in.mp4",
+   "credit": "",
+   "file": "man_staring_at_phone_in.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt stares at his smartphone, his expression moving from a focused frown to wide-eyed shock and then to a worried look straight into the camera, in a warm, dimly lit home setting. Good for: a line about a shocking discovery, an unexpected result, or a worrying realization, such as 'you won't believe what this AI tool just did' or 'when you see how much time you've been wasting'"
+  },
+  {
+   "id": "lib_man_studying_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "credit": "",
+   "file": "man_studying_with_laptop.mp4",
+   "frames": 132,
+   "desc": "B-roll (4.4s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits at a desk behind a laptop with a furrowed brow and a frustrated, concentrated look, first staring at the screen, then looking down at an open notebook and writing with a pen, with a warm blurred lamp glowing in the background. Good for: a script line about struggling to understand something complex, frustration with slow or manual work, or the pain of learning a new tool the hard way"
+  },
+  {
+   "id": "lib_man_watching_laptop_waiting",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "credit": "",
+   "file": "man_watching_laptop_waiting.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits at a laptop in a dimly lit room with warm lamp light, resting his chin on his fist with a focused, pensive look, and the camera pushes in closer across the three frames. Good for: a script line about deep thinking, researching or problem-solving, or weighing a decision before trying an AI tool"
+  },
+  {
+   "id": "lib_person_drinking_coffee_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "credit": "",
+   "file": "person_drinking_coffee_with_laptop.mp4",
+   "frames": 93,
+   "desc": "B-roll (3.1s, VERTICAL 9:16 — best as full: true): A bearded man in a green polo sits at a laptop in a modern industrial-style open office, lifting a white cup to his mouth and sipping a hot drink while looking down at the screen, in a calm, focused mood. Good for: a line about taking a breather while the AI does the work, a morning work routine, waiting for a process to finish, or the calm of an automated workflow"
+  },
+  {
+   "id": "lib_person_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "person_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a laptop, his expression moving from concern to a deep frown with glowing blue tear-like effects on his cheeks, then to eyes shut in stress or exhaustion; the mood is frustrated and overwhelmed. Good for: A script line about frustration or overwhelm with a tough task, such as struggling with confusing tools, wasting hours on manual work, or being stuck before finding an AI solution."
+  },
+  {
+   "id": "lib_person_taking_selfie_with_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_taking_selfie_with_phone.mp4",
+   "credit": "",
+   "file": "person_taking_selfie_with_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt sits in a car holding a blue smartphone up close to his face, and across the clip he leans toward the screen with a furrowed brow, looking skeptical and intensely focused. Good for: a script line about doubting or double-checking AI output, being confused or frustrated by an app or tool, or looking closely at a result on your phone, e.g. 'wait, is this actually right?'"
+  },
+  {
+   "id": "lib_professional_working_on_laptop_late",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "credit": "",
+   "file": "professional_working_on_laptop_late.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A tired bearded young man in a maroon t-shirt sits at a laptop in a dim apartment at night, resting his head on his hand, rubbing his eyes, then glumly lifting a white coffee mug, with blurred city lights glowing behind him through the window. Good for: A script line about burnout, late-night grinding, or frustration with slow manual work that AI tools can speed up, e.g. 'still stuck doing this by hand at midnight?'"
+  },
+  {
+   "id": "lib_robotic_hand_typing_on_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "credit": "",
+   "file": "robotic_hand_typing_on_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a black robotic hand with segmented, mechanical fingers lowering onto a backlit laptop keyboard and starting to type, shot at shallow depth of field in a warm, softly lit, modern workspace. Good for: A script line about AI doing the work for you, automating repetitive tasks, or AI taking over typing and writing, such as 'let AI handle the busywork' or 'AI writes it for you'."
+  },
+  {
+   "id": "s1_image",
+   "kind": "image",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-15_1301/s1_image.png",
+   "credit": "Image: chatgpt.com",
+   "desc": "official image from ChatGPT Images (ChatGPT image generation and editing, current model: ChatGPT Images 2.6) (announcement page)"
+  }
+ ],
+ "style": "hisaab",
+ "topic": "Turn a plain phone photo of your product into studio-quality e-commerce images, a mannequin display and a flash-sale poster using short saved ChatGPT prompts, with a checklist for keeping the product accurate",
+ "pick": {
+  "index": 6,
+  "topic": "Turn a plain phone photo of your product into studio-quality e-commerce images, a mannequin display and a flash-sale poster using short saved ChatGPT prompts, with a checklist for keeping the product accurate",
+  "tool": "ChatGPT image generation",
+  "format": "tutorial",
+  "angle": "Stop paying a photographer for every product shot, but check these 3 things before you upload AI photos to your store, because marketplaces and customers punish images that misrepresent the product",
+  "why": "2.16M views and 37,967 comments, by far the highest comment count in the list. It is a direct small-business use case (product photos and sale posters) and is easy to show in 3 steps. The 'codes' format was only covered as a study set, so product photography is a new topic for us."
+ },
+ "inspired_by": {
+  "url": "https://www.instagram.com/p/DeHUb8Wsjau/",
+  "owner": "as.digital.deals",
+  "plays": 2156517,
+  "likes": 36330,
+  "comments": 37967
+ },
+ "research": {
+  "verdict": "adjust",
+  "tool": "ChatGPT Images (ChatGPT image generation and editing, current model: ChatGPT Images 2.6)",
+  "availability": "<cite index=\"1-4\">Create new images and edit existing ones in ChatGPT.</cite> <cite index=\"6-4\">OpenAI's Images help page says ChatGPT Images is on all tiers.</cite> <cite index=\"14-15\">Free has limited image creation, Go more, Plus more complex image creation, Pro unlimited subject to abuse guardrails.</cite> It runs on web, iOS and Android. OpenAI publishes no fixed daily image count.",
+  "steps": [
+   "Open ChatGPT (web, iOS or Android app) and start a new chat.",
+   "Add your phone photo: <cite index=\"9-6\">select +, then Add photos & files, or drag the image into the message box or paste it.</cite> On phone, <cite index=\"2-3\">you first need to grant ChatGPT access to your camera roll.</cite>",
+   "Paste your saved prompt, for example a studio e-commerce prompt, a mannequin display prompt or a flash-sale poster prompt. Keep the prompts in a Notes app, a ChatGPT Project or Custom Instructions. Include one line like 'Keep the product exactly as in my photo: same shape, colour, logo, text and proportions. Change only background, lighting and styling.' Send.",
+   "Review the result against your original photo. To fix one thing, <cite index=\"9-1\">describe the change in the chat or highlight an area with Select.</cite> Give one change at a time and say what must stay unchanged.",
+   "Find or download the finished image: <cite index=\"1-15\">all images you create are automatically saved under Images.</cite> You can also open More, then Images, to start from there.",
+   "Before uploading to a store, run the 3-point accuracy check in the notes. Your real photo must still match the AI image."
+  ],
+  "facts": [
+   "<cite index=\"1-10\">To edit an image, select an image generated by ChatGPT Images or upload an existing image, then describe the change you want.</cite>",
+   "<cite index=\"1-5\">OpenAI says ChatGPT Images 2.6 generates images faster and keeps details more consistent from one edit to the next.</cite> Wikipedia gives its release date as <cite index=\"12-6\">November 4, 2026.</cite>",
+   "US plan prices (third-party roundups, not checked on chatgpt.com/pricing): <cite index=\"44-1\">Free at $0, Go at $8, Plus at $20, and three Pro tiers at $100, $200 and $500.</cite>",
+   "<cite index=\"15-4\">OpenAI does not publish how many images ChatGPT can generate for free.</cite> Third parties report about 2-3 per rolling 24 hours, and individual reports range from 1 to 8. Say 'a few a day on Free, limits vary'.",
+   "Third-party reports put Plus at about 40-50 images per 3-hour window. OpenAI has not published this number, so avoid stating it as fact.",
+   "<cite index=\"9-18\">On Free, each photo counts toward a limit of 3 file uploads per day.</cite> This comes from a third-party guide, so treat it as approximate.",
+   "Slash commands are not built into ChatGPT. <cite index=\"34-8\">Slash shortcuts for image prompts are not official universal ChatGPT slash commands.</cite> <cite index=\"34-4\">They are reusable shorthand your team defines, saves and expands into a full prompt.</cite>",
+   "Custom Instructions limits: <cite index=\"32-1,32-2\">Free and Go users can save up to 1,500 characters; Plus, Pro, Business, Enterprise and Education users up to 5,000.</cite>",
+   "Amazon: <cite index=\"29-4,29-5\">The product image guide does not ban images made or edited with AI. It requires every image to accurately represent the product and match the title. The main image must be realistic and professional-quality, showing the product's real scale, quantity and colour.</cite>",
+   "Amazon main image spec: <cite index=\"26-14\">pure white RGB 255,255,255 background, product at 85% of the frame, no text or props, accurate scale and colour.</cite>",
+   "Amazon AI-people tag: <cite index=\"29-6\">if an image or video contains photorealistic people entirely generated by AI, you must tag the file before uploading it.</cite> This matters for a mannequin or model display if ChatGPT adds a realistic person. A plain mannequin is not a person.",
+   "Etsy (update dated October 22, 2026): <cite index=\"50-2,50-3\">The listing must include at least one unedited photo of the actual item against a real background, and all photos must accurately represent the item a buyer will receive.</cite>",
+   "Etsy also says: <cite index=\"50-5\">If you use AI to edit any of your listing photos, note whether images were edited in your listing description.</cite>",
+   "Etsy refund risk: if a listing breaks the image rules and a buyer opens a case because the item is materially different, <cite index=\"56-8\">you may be responsible for refunding the buyer.</cite> Etsy's 'Report this item' options now include 'It uses misleading AI-generated images'."
+  ],
+  "do_not_claim": [
+   "Do not say /mannequindisplay, /flashsale or /productphotography are real ChatGPT commands. Typing them does nothing on its own. They only work as your own labels for prompts you have saved, or if ChatGPT is told what they mean.",
+   "Do not say 'in 1 second'. Generation takes time, and Free accounts have image limits.",
+   "Do not say 'studio quality every time' or 'ready to upload'. AI edits can change shape, colour, logo, text, stitching or proportions, so every output needs checking against the real product.",
+   "Do not say the '50+ ready-made prompts' exist as a verified product. It is the other creator's lead magnet, collected through a DM giveaway. Say 'save your own 3 prompts'.",
+   "Do not claim unlimited free images or a specific free daily number as official.",
+   "Do not say Amazon or Etsy ban AI images. Amazon has no blanket ban. Etsy allows AI-edited secondary photos but now requires an unedited real photo plus accurate representation.",
+   "Do not say a fully AI-generated product is fine for the Amazon main image. It must show the real product accurately on pure white, so use AI mainly for secondary or lifestyle images, or edit a real photo.",
+   "Do not say the poster text will be perfect. Check every price, percentage and date on a flash-sale poster by hand. Text rendering errors are the usual risk, and Amazon main images cannot carry text anyway."
+  ],
+  "criticism": [
+   "Accuracy drift: <cite index=\"9-14\">the edit comes back as a new image, so check faces, text and edges before you use it.</cite>",
+   "Marketplace risk: <cite index=\"24-12\">listings get suppressed when an image misrepresents the product, with a wrong colour, invented features or distorted size.</cite>",
+   "Etsy forbids <cite index=\"52-10\">using AI to alter photos so an item looks better, higher quality or materially different than what the buyer will receive.</cite>",
+   "Limits: image generation is capped on Free and OpenAI publishes no number, so batch work for a whole catalogue may need a paid plan.",
+   "<cite index=\"49-6\">Free and Go carry ads; Plus and above do not.</cite> This is minor, but the creator's 'free' framing is incomplete."
+  ],
+  "ui": {
+   "platforms": "web (chatgpt.com), iOS, Android. The steps are the same on each, with small layout differences.",
+   "apps": [
+    "ChatGPT web (chatgpt.com)",
+    "ChatGPT iOS/Android app",
+    "Phone Photos/Camera roll",
+    "Notes app (for saved prompts)",
+    "Etsy Seller Handbook (public page)",
+    "Amazon product image guide (public)"
+   ],
+   "screens": [
+    "Screen 1, ChatGPT home: left sidebar on web with a new chat option, an 'Images' entry, and chat history. In the centre is the message box (composer) with a '+' button at the bottom-left of the box. Following the sidebar order: 'Images' sits in the sidebar, and the same page can be reached via More > Images. Default theme follows the device setting (light or dark), so it is unverified which one appears.",
+    "Screen 2, tap '+' in the composer. The menu shows 'Add photos & files', plus camera and other options. Pick the product photo from Photos or Files. A thumbnail of the photo appears above the text box.",
+    "Screen 3, type or paste the saved prompt next to the thumbnail and press the send arrow (up-arrow button at the right of the composer).",
+    "Screen 4, ChatGPT replies in the chat with the generated image. Tapping the image opens it full-screen, where there is a 'Select' tool to highlight an area, and download or share options. On mobile, tap the image to open full-screen.",
+    "Screen 5, 'Images' page: all generated images are saved here, with a 'Create Image' button to start a new one. Templates for posters and similar designs are on this page.",
+    "Screen 6, comparison view for the checklist: put the original phone photo and the AI image side by side and check colour, logo and text, shape and proportions, and details such as seams, buttons and ports. You can build this as a simple split screen."
+   ]
+  },
+  "visuals": "Show the real phone photo next to the AI-generated studio shot, mannequin display and flash-sale poster. Then show a split-screen comparison with 3 checkmarks. The generated images can be real outputs, or the ChatGPT screens can be recreated. Only a real screen recording can show the exact live UI and the output quality, because results vary by product. Use your own product photos and do not imply a result is guaranteed.",
+  "real_pages": [
+   {
+    "url": "https://help.openai.com/en/articles/11084440-images-in-chatgpt",
+    "show": "Images in ChatGPT",
+    "kind": "help"
+   },
+   {
+    "url": "https://chatgpt.com/pricing",
+    "show": "Plus",
+    "kind": "site"
+   },
+   {
+    "url": "https://www.etsy.com/seller-handbook/article/1522733284810",
+    "show": "accurately represent",
+    "kind": "site"
+   },
+   {
+    "url": "https://www.etsy.com/seller-handbook/article/1275449912004",
+    "show": "Using AI in listing images",
+    "kind": "site"
+   }
+  ],
+  "sources": [
+   "https://help.openai.com/en/articles/11084440-images-in-chatgpt",
+   "https://www.etsy.com/seller-handbook/article/1522733284810",
+   "https://www.etsy.com/seller-handbook/article/1275449912004",
+   "https://www.etsy.com/help/article/4507",
+   "https://en.wikipedia.org/wiki/GPT_Image",
+   "https://www.engadget.com/ai/how-to-generate-ai-images-using-chatgpt-120000560.html",
+   "https://www.growthcab.com/how-to-edit-images-in-chatgpt",
+   "https://www.techrounder.com/ai/chatgpt-slash-commands-shortcuts/",
+   "https://www.vanitech.com.au/blog/chatgpt-image-commands-effects/",
+   "https://clearadsagency.com/amazon-ai-generated-product-images/",
+   "https://camclo3d.com/blog/amazon-product-photography",
+   "https://pikes.ai/blog/are-ai-generated-product-images-allowed",
+   "https://yingtu.ai/en/blog/chatgpt-free-image-generation-limit-complete-guide",
+   "https://geotoolbox.ai/blog/chatgpt-pricing",
+   "https://www.inkfluenceai.com/blog/etsy-ai-rules-update-october-2026"
+  ],
+  "notes": "The trick works (upload a photo, then prompt an edit), but the popular reel misleads about slash commands. Frame it as 'save your own 3 prompts' under names like /studio, /mannequin and /flashsale. THE 3 CHECKS, based on verified policy: (1) Product accuracy: colour, shape, size, logo, text, included parts and flaws must match the real item, and the Etsy rule against making the item look better applies. (2) Keep a real unedited photo of the actual item on a real background. Etsy now requires at least one (Oct 22, 2026 update, some exceptions by category). For Amazon, keep the main image compliant (pure white, 85% fill, no text or props), and use AI mainly for secondary images. (3) Disclose and tag: note AI edits in the Etsy listing description, and add Amazon's contains-synthetic-performer tag if a photorealistic AI person appears. Also proofread all poster text and prices. Policies change often, so say 'as of Nov 2026, check your marketplace's current rules'. Some figures (image caps, exact prices on chatgpt.com/pricing, exact UI labels and default theme) come from third-party sources or were not verified live. Confirm on the live pages before recording. The chatgpt.com/pricing 'Plus' text is unverified on the live page. I did not find the Amazon Seller Central primary page in search, so the Amazon points rely on secondary summaries of Amazon's Product image guide. Shopify, Meesho, Flipkart and Google Merchant Center rules were not checked, so do not state them. The reel's audience is Tamil-speaking, so mention that rules vary by marketplace and region.",
+  "_searched": 6
+ },
+ "models": {
+  "pick": "claude-sonnet-5-5",
+  "research": "claude-sonnet-5-5",
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 32,
+ "_ident": {
+  "at": 3.74,
+  "dur": 1.5,
+  "title": "AI HACKS",
+  "type": 0.42,
+  "sub": "EP 32 · PRODUCT PHOTOS"
+ },
+ "timeline": {
+  "words": [
+   [
+    "Stop",
+    0.16
+   ],
+   [
+    "paying",
+    0.48
+   ],
+   [
+    "a",
+    0.72
+   ],
+   [
+    "photographer",
+    0.8
+   ],
+   [
+    "for",
+    1.6
+   ],
+   [
+    "every",
+    1.92
+   ],
+   [
+    "single",
+    2.32
+   ],
+   [
+    "product",
+    2.64
+   ],
+   [
+    "shot.",
+    3.04
+   ],
+   [
+    "Stay",
+    5.3
+   ],
+   [
+    "till",
+    5.46
+   ],
+   [
+    "the",
+    5.66
+   ],
+   [
+    "end,",
+    5.82
+   ],
+   [
+    "because",
+    6.34
+   ],
+   [
+    "skipping",
+    6.54
+   ],
+   [
+    "3",
+    7.02
+   ],
+   [
+    "checks",
+    7.34
+   ],
+   [
+    "can",
+    7.82
+   ],
+   [
+    "get",
+    7.98
+   ],
+   [
+    "your",
+    8.14
+   ],
+   [
+    "listing",
+    8.38
+   ],
+   [
+    "suppressed.",
+    8.62
+   ],
+   [
+    "One",
+    9.78
+   ],
+   [
+    "phone",
+    9.98
+   ],
+   [
+    "photo",
+    10.3
+   ],
+   [
+    "can",
+    10.7
+   ],
+   [
+    "become",
+    10.86
+   ],
+   [
+    "a",
+    11.1
+   ],
+   [
+    "studio",
+    11.26
+   ],
+   [
+    "shot,",
+    11.74
+   ],
+   [
+    "mannequin",
+    12.3
+   ],
+   [
+    "display",
+    12.7
+   ],
+   [
+    "and",
+    13.26
+   ],
+   [
+    "sale",
+    13.66
+   ],
+   [
+    "poster.",
+    13.98
+   ],
+   [
+    "Open",
+    14.86
+   ],
+   [
+    "ChatGPT,",
+    15.1
+   ],
+   [
+    "tap",
+    16.22
+   ],
+   [
+    "plus,",
+    16.58
+   ],
+   [
+    "Add",
+    17.14
+   ],
+   [
+    "photos",
+    17.34
+   ],
+   [
+    "&",
+    17.66
+   ],
+   [
+    "files,",
+    17.9
+   ],
+   [
+    "and",
+    18.46
+   ],
+   [
+    "pick",
+    18.62
+   ],
+   [
+    "your",
+    18.86
+   ],
+   [
+    "photo.",
+    19.1
+   ],
+   [
+    "Then",
+    19.66
+   ],
+   [
+    "paste",
+    19.82
+   ],
+   [
+    "a",
+    20.14
+   ],
+   [
+    "saved",
+    20.3
+   ],
+   [
+    "prompt",
+    20.62
+   ],
+   [
+    "from",
+    21.02
+   ],
+   [
+    "your",
+    21.22
+   ],
+   [
+    "Notes",
+    21.34
+   ],
+   [
+    "app.",
+    21.66
+   ],
+   [
+    "Call",
+    22.277
+   ],
+   [
+    "them",
+    22.38
+   ],
+   [
+    "/studio,",
+    22.78
+   ],
+   [
+    "/mannequin",
+    23.94
+   ],
+   [
+    "and",
+    24.86
+   ],
+   [
+    "/flashsale.",
+    25.18
+   ],
+   [
+    "They're",
+    26.42
+   ],
+   [
+    "just",
+    26.62
+   ],
+   [
+    "your",
+    26.78
+   ],
+   [
+    "labels,",
+    26.94
+   ],
+   [
+    "not",
+    27.62
+   ],
+   [
+    "real",
+    27.86
+   ],
+   [
+    "commands.",
+    28.22
+   ],
+   [
+    "Include",
+    28.9
+   ],
+   [
+    "this",
+    29.18
+   ],
+   [
+    "line:",
+    29.42
+   ],
+   [
+    "Keep",
+    30.1
+   ],
+   [
+    "the",
+    30.18
+   ],
+   [
+    "product",
+    30.3
+   ],
+   [
+    "exactly",
+    30.78
+   ],
+   [
+    "as",
+    31.5
+   ],
+   [
+    "in",
+    31.66
+   ],
+   [
+    "my",
+    31.82
+   ],
+   [
+    "photo.",
+    31.98
+   ],
+   [
+    "Change",
+    32.66
+   ],
+   [
+    "only",
+    32.86
+   ],
+   [
+    "background,",
+    33.18
+   ],
+   [
+    "lighting",
+    34.06
+   ],
+   [
+    "and",
+    34.46
+   ],
+   [
+    "styling.",
+    34.62
+   ],
+   [
+    "Honest",
+    35.487
+   ],
+   [
+    "catch:",
+    35.82
+   ],
+   [
+    "AI",
+    36.5
+   ],
+   [
+    "can",
+    36.78
+   ],
+   [
+    "change",
+    37.06
+   ],
+   [
+    "your",
+    37.26
+   ],
+   [
+    "logo",
+    37.42
+   ],
+   [
+    "or",
+    37.82
+   ],
+   [
+    "colour,",
+    37.98
+   ],
+   [
+    "so",
+    38.62
+   ],
+   [
+    "proofread",
+    38.78
+   ],
+   [
+    "poster",
+    39.34
+   ],
+   [
+    "text.",
+    39.74
+   ],
+   [
+    "Here",
+    40.46
+   ],
+   [
+    "are",
+    40.62
+   ],
+   [
+    "the",
+    40.78
+   ],
+   [
+    "3",
+    40.94
+   ],
+   [
+    "checks.",
+    41.18
+   ],
+   [
+    "One,",
+    42.1
+   ],
+   [
+    "match",
+    42.62
+   ],
+   [
+    "the",
+    42.94
+   ],
+   [
+    "real",
+    43.1
+   ],
+   [
+    "item:",
+    43.42
+   ],
+   [
+    "colour,",
+    44.14
+   ],
+   [
+    "shape,",
+    44.7
+   ],
+   [
+    "logo.",
+    45.22
+   ],
+   [
+    "Two,",
+    45.86
+   ],
+   [
+    "keep",
+    46.42
+   ],
+   [
+    "one",
+    46.7
+   ],
+   [
+    "real,",
+    47.02
+   ],
+   [
+    "unedited",
+    47.66
+   ],
+   [
+    "photo,",
+    48.26
+   ],
+   [
+    "because",
+    48.66
+   ],
+   [
+    "Etsy",
+    48.86
+   ],
+   [
+    "requires",
+    49.46
+   ],
+   [
+    "it.",
+    49.82
+   ],
+   [
+    "Three,",
+    50.38
+   ],
+   [
+    "disclose",
+    50.94
+   ],
+   [
+    "AI",
+    51.42
+   ],
+   [
+    "edits",
+    51.82
+   ],
+   [
+    "on",
+    52.14
+   ],
+   [
+    "Etsy,",
+    52.3
+   ],
+   [
+    "and",
+    52.86
+   ],
+   [
+    "tag",
+    53.02
+   ],
+   [
+    "Amazon",
+    53.34
+   ],
+   [
+    "if",
+    53.82
+   ],
+   [
+    "a",
+    53.98
+   ],
+   [
+    "realistic",
+    54.06
+   ],
+   [
+    "AI",
+    54.7
+   ],
+   [
+    "person",
+    55.02
+   ],
+   [
+    "appears.",
+    55.34
+   ],
+   [
+    "Rules",
+    56.3
+   ],
+   [
+    "vary",
+    56.54
+   ],
+   [
+    "by",
+    56.86
+   ],
+   [
+    "marketplace",
+    57.02
+   ],
+   [
+    "and",
+    57.66
+   ],
+   [
+    "region,",
+    57.94
+   ],
+   [
+    "so",
+    58.38
+   ],
+   [
+    "check",
+    58.54
+   ],
+   [
+    "yours.",
+    58.78
+   ],
+   [
+    "Which",
+    59.5
+   ],
+   [
+    "marketplace",
+    59.66
+   ],
+   [
+    "do",
+    60.14
+   ],
+   [
+    "you",
+    60.3
+   ],
+   [
+    "sell",
+    60.46
+   ],
+   [
+    "on?",
+    60.7
+   ],
+   [
+    "Send",
+    61.3
+   ],
+   [
+    "this",
+    61.5
+   ],
+   [
+    "to",
+    61.62
+   ],
+   [
+    "the",
+    61.74
+   ],
+   [
+    "friend",
+    61.9
+   ],
+   [
+    "who",
+    62.22
+   ],
+   [
+    "books",
+    62.38
+   ],
+   [
+    "a",
+    62.54
+   ],
+   [
+    "photographer",
+    62.62
+   ],
+   [
+    "for",
+    63.26
+   ],
+   [
+    "every",
+    63.66
+   ],
+   [
+    "product.",
+    64.06
+   ],
+   [
+    "Hack",
+    64.98
+   ],
+   [
+    "saved?",
+    65.3
+   ]
+  ],
+  "duration": 65.76,
+  "ident": {
+   "at": 3.74,
+   "dur": 1.5,
+   "title": "AI HACKS",
+   "type": 0.42,
+   "sub": "EP 32 · PRODUCT PHOTOS"
+  },
+  "scenes": [
+   {
+    "t": 0.0,
+    "shows": [
+     "footage:lib_hands_holding_credit_card_near",
+     "title_slam:STOP"
+    ]
+   },
+   {
+    "t": 5.3,
+    "shows": [
+     "pill:STAY FOR THE 3 CHECKS",
+     "object3d:",
+     "pill:LISTING SUPPRESSED"
+    ]
+   },
+   {
+    "t": 9.78,
+    "shows": [
+     "footage:real_1_phone",
+     "pill:IMAGES IN CHATGPT"
+    ]
+   },
+   {
+    "t": 11.26,
+    "shows": [
+     "object3d:",
+     "stat_row:"
+    ]
+   },
+   {
+    "t": 14.86,
+    "shows": [
+     "screen:Step 1 · Upload your photo"
+    ]
+   },
+   {
+    "t": 19.66,
+    "shows": [
+     "screen:Step 2 · Save your prompts",
+     "pill:LABELS, NOT COMMANDS"
+    ]
+   },
+   {
+    "t": 28.9,
+    "shows": [
+     "label:COPY THIS LINE",
+     "screen:Step 3 · Lock the product"
+    ]
+   },
+   {
+    "t": 35.49,
+    "shows": [
+     "footage:lib_person_taking_selfie_with_phone",
+     "pill:LOGO OR COLOUR CHANGED?"
+    ]
+   },
+   {
+    "t": 40.46,
+    "shows": [
+     "label:THE PAYOFF",
+     "object3d:"
+    ]
+   },
+   {
+    "t": 42.1,
+    "shows": [
+     "label:CHECK 1 · MATCH THE ITEM",
+     "arrow_pair:",
+     "strike_list:"
+    ]
+   },
+   {
+    "t": 45.86,
+    "shows": [
+     "label:CHECK 2 · KEEP THE ORIGINAL",
+     "stat_row:"
+    ]
+   },
+   {
+    "t": 50.38,
+    "shows": [
+     "label:CHECK 3 · DISCLOSE",
+     "strike_list:",
+     "pill:CHECK YOUR MARKETPLACE"
+    ]
+   },
+   {
+    "t": 59.5,
+    "shows": [
+     "headline:WHERE DO YOU SELL?"
+    ]
+   }
+  ],
+  "beats": [
+   23.73,
+   32.28,
+   54.66,
+   57.9
+  ]
+ }
+}
