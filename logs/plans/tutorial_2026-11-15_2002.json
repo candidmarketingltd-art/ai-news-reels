@@ -1,0 +1,1858 @@
+{
+ "voiceover": "[curious] An open-source Google Analytics replacement now makes about $10K a month.\n\nAnd the move behind it sounds like it should lose money. Stay for it.\n\nIt's called Rybbit. Cookieless analytics, so no cookie banner, with session replay and funnels. Self-hosting is free, and teams pay for the hosted cloud.\n\n[confident] These numbers are verified on TrustMRR: about $10K in MRR, $9K in the last 30 days, 342 subscriptions, and 25% growth.\n\nIt's built by indie developer Bill Yang.\n\nHow'd it grow? The code is public on GitHub, and one review says it hit 5,000 stars in nine days. The homepage also has a live demo, so you can try it without signing up.\n\nSteal two things. Put a live demo on your landing page. And name who you're replacing, right in your tagline.\n\n[serious] Honest catch: revenue isn't profit, and Google Analytics is free. Cloud starts at $13 a month billed annually, after a 7-day trial.\n\n[whispers] So the move? He gave the product away. The free, open code earned trust, and that trust turned into paying cloud customers.\n\nWould you build this, or just self-host it? Send this to the friend who keeps saying they'll start a SaaS.\n\nHack saved?",
+ "open_loop": {
+  "setup": "And the move behind it sounds like it should lose money. Stay for it.",
+  "payoff": "So the move? He gave the product away. The free, open code earned trust, and that trust turned into paying cloud customers."
+ },
+ "title": "FREE CODE, $10K/MONTH",
+ "ig_caption": "An open-source Google Analytics replacement now makes about $10K a month 👀\n✅ Open the code on GitHub, free to self-host\n✅ Put a live demo on your landing page\n✅ Name who you're replacing in your tagline\nWould you build this, or just self-host it?\nSave this for later\nFollow @ihackgrowth for daily business & growth hacks",
+ "media_hints": {
+  "domain": "rybbit.com",
+  "broll": [
+   "analytics dashboard",
+   "developer coding laptop",
+   "website traffic graph"
+  ]
+ },
+ "hashtags": [
+  "#Rybbit",
+  "#opensource",
+  "#GoogleAnalytics",
+  "#SaaS",
+  "#indiehacker",
+  "#startups",
+  "#businessgrowth",
+  "#privacy",
+  "#AIhacks"
+ ],
+ "tag": "BUSINESS BREAKDOWN",
+ "keywords": [
+  "open-source",
+  "Rybbit",
+  "Cookieless",
+  "banner",
+  "replay",
+  "funnels",
+  "Self-hosting",
+  "cloud",
+  "TrustMRR",
+  "subscriptions",
+  "GitHub",
+  "stars",
+  "demo",
+  "tagline",
+  "profit",
+  "trust",
+  "customers",
+  "SaaS"
+ ],
+ "music": "groove",
+ "hud": {
+  "label": "RYBBIT",
+  "items": [
+   {
+    "value": "$10K/MO",
+    "color": "gold"
+   },
+   {
+    "at": "Self-hosting is",
+    "value": "FREE CODE",
+    "color": "gold"
+   },
+   {
+    "at": "$10K in",
+    "value": "VERIFIED",
+    "color": "green"
+   },
+   {
+    "at": "5,000 stars",
+    "value": "5K STARS",
+    "color": "gold"
+   },
+   {
+    "at": "Honest catch:",
+    "value": "THE CATCH",
+    "color": "red"
+   },
+   {
+    "at": "turned into",
+    "value": "PAYING",
+    "color": "green"
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "at": "An open-source",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "An open-source",
+     "media": "lib_man_staring_at_phone_in",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "An open-source",
+     "text": "OPEN-SOURCE",
+     "color": "gold"
+    },
+    {
+     "type": "headline",
+     "at": "$10K a month.",
+     "text": "$10K / MONTH",
+     "size": "l",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "And the move",
+   "tint": "red",
+   "react": [
+    {
+     "at": "lose money.",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "And the move",
+     "text": "THE MOVE"
+    },
+    {
+     "type": "object3d",
+     "at": "And the move",
+     "kind": "padlock",
+     "size": "l",
+     "caption": "SHOULD LOSE MONEY",
+     "caption_at": "lose money."
+    },
+    {
+     "type": "pill",
+     "at": "Stay for it.",
+     "text": "STAY FOR THE MOVE",
+     "color": "gold",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "It's called Rybbit.",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "It's called Rybbit.",
+     "media": "real_2_phone",
+     "full": true
+    },
+    {
+     "type": "pill",
+     "at": "no cookie banner,",
+     "text": "COOKIELESS · NO BANNER",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "with session replay",
+   "elements": [
+    {
+     "type": "label",
+     "at": "with session replay",
+     "text": "WHAT YOU GET"
+    },
+    {
+     "type": "stat_row",
+     "at": "with session replay",
+     "cards": [
+      {
+       "label": "SESSION",
+       "value": "REPLAY",
+       "at": "with session replay",
+       "ill": "video_camera"
+      },
+      {
+       "label": "USER",
+       "value": "FUNNELS",
+       "at": "and funnels.",
+       "ill": "bar_chart"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Self-hosting is free,",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Self-hosting is free,",
+     "text": "THE BUSINESS MODEL"
+    },
+    {
+     "type": "stat_row",
+     "at": "Self-hosting is free,",
+     "cards": [
+      {
+       "label": "SELF-HOST",
+       "value": "FREE",
+       "at": "Self-hosting is free,",
+       "color": "green",
+       "ill": "computer_disk"
+      },
+      {
+       "label": "HOSTED CLOUD",
+       "value": "PAID",
+       "at": "teams pay",
+       "color": "gold",
+       "glow": true,
+       "ill": "cloud"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "These numbers",
+   "tint": "green",
+   "react": [
+    {
+     "at": "25% growth.",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "These numbers",
+     "text": "VERIFIED · TRUSTMRR"
+    },
+    {
+     "type": "object3d",
+     "at": "These numbers",
+     "kind": "coins",
+     "act": "fill",
+     "act_at": "$10K in",
+     "count": 30,
+     "caption": "$10K MRR",
+     "caption_at": "$10K in"
+    },
+    {
+     "type": "stat_row",
+     "at": "$9K in",
+     "cards": [
+      {
+       "label": "LAST 30 DAYS",
+       "value": "$9K",
+       "at": "$9K in",
+       "color": "gold"
+      },
+      {
+       "label": "SUBS",
+       "value": "342",
+       "at": "342 subscriptions,"
+      },
+      {
+       "label": "GROWTH",
+       "value": "+25%",
+       "at": "25% growth.",
+       "color": "green",
+       "glow": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "It's built by",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "It's built by",
+     "media": "lib_fingers_typing_on_laptop_keyboard",
+     "full": true
+    },
+    {
+     "type": "headline",
+     "at": "It's built by",
+     "text": "INDIE DEV",
+     "size": "l",
+     "ill": "laptop",
+     "sub": "BILL YANG",
+     "sub_at": "Bill Yang.",
+     "sub_color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "How'd it grow?",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "label",
+     "at": "How'd it grow?",
+     "text": "GROWTH ENGINE #1"
+    },
+    {
+     "type": "app",
+     "at": "is public",
+     "name": "GitHub",
+     "label": "CODE IS PUBLIC",
+     "ill": "open_file_folder",
+     "sub": "OPEN SOURCE",
+     "sub_at": "on GitHub,"
+    },
+    {
+     "type": "big_number",
+     "at": "5,000 stars",
+     "value": "5,000",
+     "color": "gold",
+     "ill": "star",
+     "note": "STARS IN 9 DAYS",
+     "note_at": "nine days."
+    }
+   ]
+  },
+  {
+   "at": "The homepage",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "label",
+     "at": "The homepage",
+     "text": "GROWTH ENGINE #2"
+    },
+    {
+     "type": "footage",
+     "at": "The homepage",
+     "media": "real_2_web",
+     "tall": true,
+     "caption": "RYBBIT.COM"
+    },
+    {
+     "type": "pill",
+     "at": "live demo,",
+     "text": "LIVE DEMO",
+     "color": "gold",
+     "outline": true
+    },
+    {
+     "type": "pill",
+     "at": "without signing up.",
+     "text": "NO SIGN-UP NEEDED",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "Steal two things.",
+   "react": [
+    {
+     "at": "Steal two things.",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "Steal two things.",
+     "text": "STEAL THESE 2"
+    },
+    {
+     "type": "steps",
+     "at": "Put a live",
+     "items": [
+      {
+       "text": "LIVE DEMO ON LANDING PAGE",
+       "at": "Put a live",
+       "ill": "bullseye"
+      },
+      {
+       "text": "NAME WHO YOU REPLACE",
+       "at": "And name who",
+       "ill": "megaphone"
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "at": "your tagline.",
+     "text": "MODERN GA REPLACEMENT",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "Honest catch:",
+   "tint": "red",
+   "react": [
+    {
+     "at": "Honest catch:",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "Honest catch:",
+     "text": "HONEST CATCH"
+    },
+    {
+     "type": "vs",
+     "at": "Honest catch:",
+     "left": {
+      "label": "REVENUE",
+      "value": "MRR"
+     },
+     "right": {
+      "label": "PROFIT",
+      "value": "?",
+      "at": "isn't profit,",
+      "color": "red",
+      "ill": "red_question_mark"
+     }
+    },
+    {
+     "type": "stat_row",
+     "at": "is free.",
+     "cards": [
+      {
+       "label": "GOOGLE ANALYTICS",
+       "value": "FREE",
+       "at": "is free.",
+       "color": "red"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Cloud starts",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Cloud starts",
+     "media": "real_3_web",
+     "tall": true,
+     "caption": "RYBBIT PRICING"
+    },
+    {
+     "type": "pill",
+     "at": "$13 a month",
+     "text": "FROM $13/MO",
+     "color": "gold"
+    },
+    {
+     "type": "label",
+     "at": "7-day trial.",
+     "text": "7-DAY TRIAL FIRST",
+     "color": "muted"
+    }
+   ]
+  },
+  {
+   "at": "So the move?",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "earned trust,",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "So the move?",
+     "text": "THE MOVE, UNLOCKED"
+    },
+    {
+     "type": "object3d",
+     "at": "So the move?",
+     "kind": "padlock",
+     "act": "open",
+     "act_at": "the product away.",
+     "size": "l",
+     "caption": "HE GAVE IT AWAY",
+     "caption_at": "the product away."
+    }
+   ]
+  },
+  {
+   "at": "The free, open",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "arrow_pair",
+     "at": "The free, open",
+     "left": {
+      "label": "FREE OPEN CODE",
+      "value": "TRUST",
+      "color": "gold"
+     },
+     "right": {
+      "label": "HOSTED CLOUD",
+      "value": "PAID",
+      "color": "green",
+      "at": "paying cloud"
+     }
+    },
+    {
+     "type": "pill",
+     "at": "paying cloud",
+     "text": "TRUST → REVENUE",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "Would you build",
+   "elements": [
+    {
+     "type": "headline",
+     "at": "Would you build",
+     "text": "BUILD OR SELF-HOST?",
+     "size": "l",
+     "ill": "thinking_face",
+     "sub": "COMMENT BELOW",
+     "sub_at": "just self-host"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "Send this",
+  "line1": "Send this to",
+  "line1_at": "Send this",
+  "line2": "the future SaaS founder",
+  "line2_at": "start a SaaS."
+ },
+ "endcard": {
+  "title": "Hack saved?",
+  "terminal": "> free.code → paid.cloud · $10k mrr"
+ },
+ "media": [
+  {
+   "id": "real_2_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-15_2002/real_2_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-15_2002/real_2_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: rybbit.com",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the page (no highlight) — rybbit.com phone homepage. The logo reads 'Rybbit' with a hamburger menu, and a GitHub badge shows 13,317 stars. The headline is 'The Modern Google Analytics Replacement'. The subtext reads 'Rybbit is open-source, cookieless analytics. No consent banner needed.' Below that are an 'EU-hosted cloud' l [Screen: rybbit.com]"
+  },
+  {
+   "id": "real_2_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-15_2002/real_2_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-15_2002/real_2_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: rybbit.com",
+   "desc": "REAL desktop screen recording, pushes in on the page (no highlight) — rybbit.com desktop homepage. The nav reads Features, Solutions, Resources, Pricing, Docs, with a theme toggle and Login. A GitHub badge shows 13,317 stars. The headline is 'The Modern Google Analytics Replacement'. The text reads 'Rybbit is open-source, cookieless analytics. No consent banner needed [Screen: rybbit.com]"
+  },
+  {
+   "id": "real_3_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-15_2002/real_3_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-15_2002/real_3_phone.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: rybbit.com",
+   "desc": "REAL phone screen recording (vertical, fills the reel with full:true), scrolls down to the gold-outlined part — rybbit.com phone pricing page. The heading is 'Set your traffic. See your price.' with 'Start your 7-day free trial. No credit card charges until the trial ends.' A slider for monthly pageviews sits at 100,000 (range 100K to 50M+), with a Monthly/Annual toggle and a '4 months free' badge. The Pro pl [Screen: rybbit.com]"
+  },
+  {
+   "id": "real_3_web",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-15_2002/real_3_web.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-15_2002/real_3_web.mp4",
+   "frames": 180,
+   "fit": "cover",
+   "credit": "Screen: rybbit.com",
+   "desc": "REAL desktop screen recording, pushes in on the gold-outlined part — rybbit.com desktop pricing page, 'Compare Plans' section under 'Plan details'. The Standard plan is From $13 /month with a 'Start free trial for $0' button. The Pro plan is From $26 /month with a green 'Start free trial for $0' button. The Enterprise plan is Custom with a 'Contact us' button. Usage  [Screen: rybbit.com]"
+  },
+  {
+   "id": "lib_camera_moving_down_server_corridor",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "credit": "",
+   "file": "camera_moving_down_server_corridor.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow forward push down a hazy, fog-filled data center aisle lined with server racks that glow with blue and amber status lights, giving a moody, futuristic feel. Good for: A script line about the infrastructure behind AI, such as cloud computing, model training, heavy compute, data storage, or 'what happens behind the scenes'."
+  },
+  {
+   "id": "lib_clock_ticking_and_person_typing",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "credit": "",
+   "file": "clock_ticking_and_person_typing.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A rack-focus shot moves from a close-up of a black twin-bell alarm clock with ticking hands to a bearded man in a light polo typing on a laptop in a dim room, giving a tense, time-pressured mood. Good for: lines about deadlines, time slipping away, long hours of manual work, or the pressure of slow, tedious tasks before an AI tool speeds things up"
+  },
+  {
+   "id": "lib_colleagues_collaborating_around",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "credit": "",
+   "file": "colleagues_collaborating_around.mp4",
+   "frames": 126,
+   "desc": "B-roll (4.2s, VERTICAL 9:16 — best as full: true): colleagues collaborating around Good for: "
+  },
+  {
+   "id": "lib_content_creator_sets_up_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "credit": "",
+   "file": "content_creator_sets_up_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt stands behind a ring light with a phone on a tripod, adjusting the setup while the camera slowly pushes in until his face fills the frame, with a calm, focused mood and moody blue ambient lighting in the background. Good for: setting up to create content, getting started as a creator, or preparing equipment before recording a tutorial"
+  },
+  {
+   "id": "lib_eye_reflecting_laptop_screen_glow",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "credit": "",
+   "file": "eye_reflecting_laptop_screen_glow.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow zoom into an extreme close-up of a brown eye with a bright blue screen reflected in the pupil, framed by a thick eyebrow and warm skin tones, fading into a cool blue gradient at the bottom, with a focused, intense and cinematic mood. Good for: lines about being glued to a screen, intense focus or attention, watching AI work, or 'seeing' a new opportunity or insight"
+  },
+  {
+   "id": "lib_fingers_typing_on_laptop_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/fingers_typing_on_laptop_keyboard.mp4",
+   "credit": "",
+   "file": "fingers_typing_on_laptop_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): Close-up over-the-shoulder shot of a person typing on a backlit laptop keyboard, with a blurred blue screen in the background and a warm, focused, productive mood. Good for: lines about getting started, writing prompts or code, doing focused work at the computer, or the hands-on steps of a tutorial"
+  },
+  {
+   "id": "lib_hand_dropping_papers_on_desk",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "credit": "",
+   "file": "hand_dropping_papers_on_desk.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a green shirt carries and then drops a thick stack of papers onto an already huge, messy pile of documents with sticky notes on a cluttered desk, while a laptop glows nearby, and the camera pushes in to a close-up of the towering stack, creating a mood of overwhelm and tedious paperwork. Good for: a script line about drowning in manual paperwork or document processing, setting up how AI can automate summarizing, sorting, or extracting information from piles of documents"
+  },
+  {
+   "id": "lib_hand_scrolling_smartphone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_scrolling_smartphone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_scrolling_smartphone.mp4",
+   "credit": "",
+   "file": "hand_scrolling_smartphone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a bearded young man in a white t-shirt looking intently at a smartphone in dim, warm lighting, with the camera slowly pushing in until his focused, slightly tense gaze moves from the screen to the lens. Good for: a script line about being glued to your phone, doubt or tension before a reveal, or the moment of realizing something while checking an app or notification"
+  },
+  {
+   "id": "lib_man_comparing_phone_and_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "credit": "",
+   "file": "man_comparing_phone_and_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): man comparing phone and laptop Good for: "
+  },
+  {
+   "id": "lib_man_looking_at_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "credit": "",
+   "file": "man_looking_at_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt scowls with intense focus at a laptop in a dim, warmly lit room, then closes his eyes and rubs his hand near his chin in tired frustration. Good for: frustration with slow or difficult work, such as struggling with a tedious task, debugging, or burning out late at night before finding a better way"
+  },
+  {
+   "id": "lib_man_shaking_head_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "credit": "",
+   "file": "man_shaking_head_at_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits in a dark chair looking down at his phone, and his expression shifts from neutral to scrunched-up frustration or confusion, then to a displeased, worried look as he lowers the phone. Good for: frustration or disappointment with a tool or app that isn't working, slow or confusing results, or a bad surprise while checking your phone"
+  },
+  {
+   "id": "lib_man_smiling_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "credit": "",
+   "file": "man_smiling_at_phone.mp4",
+   "frames": 135,
+   "desc": "B-roll (4.5s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a blue smartphone, his expression shifting from neutral to a furrowed-brow frown of confusion and frustration. Good for: a line about frustration with confusing apps or slow tools, or the moment someone hits a problem and doesn't know what to do next"
+  },
+  {
+   "id": "lib_man_staring_at_phone_in",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_staring_at_phone_in.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_staring_at_phone_in.mp4",
+   "credit": "",
+   "file": "man_staring_at_phone_in.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt stares at his smartphone, his expression moving from a focused frown to wide-eyed shock and then to a worried look straight into the camera, in a warm, dimly lit home setting. Good for: a line about a shocking discovery, an unexpected result, or a worrying realization, such as 'you won't believe what this AI tool just did' or 'when you see how much time you've been wasting'"
+  },
+  {
+   "id": "lib_man_studying_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "credit": "",
+   "file": "man_studying_with_laptop.mp4",
+   "frames": 132,
+   "desc": "B-roll (4.4s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits at a desk behind a laptop with a furrowed brow and a frustrated, concentrated look, first staring at the screen, then looking down at an open notebook and writing with a pen, with a warm blurred lamp glowing in the background. Good for: a script line about struggling to understand something complex, frustration with slow or manual work, or the pain of learning a new tool the hard way"
+  },
+  {
+   "id": "lib_man_watching_laptop_waiting",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "credit": "",
+   "file": "man_watching_laptop_waiting.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits at a laptop in a dimly lit room with warm lamp light, resting his chin on his fist with a focused, pensive look, and the camera pushes in closer across the three frames. Good for: a script line about deep thinking, researching or problem-solving, or weighing a decision before trying an AI tool"
+  },
+  {
+   "id": "lib_person_drinking_coffee_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "credit": "",
+   "file": "person_drinking_coffee_with_laptop.mp4",
+   "frames": 93,
+   "desc": "B-roll (3.1s, VERTICAL 9:16 — best as full: true): A bearded man in a green polo sits at a laptop in a modern industrial-style open office, lifting a white cup to his mouth and sipping a hot drink while looking down at the screen, in a calm, focused mood. Good for: a line about taking a breather while the AI does the work, a morning work routine, waiting for a process to finish, or the calm of an automated workflow"
+  },
+  {
+   "id": "lib_person_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "person_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a laptop, his expression moving from concern to a deep frown with glowing blue tear-like effects on his cheeks, then to eyes shut in stress or exhaustion; the mood is frustrated and overwhelmed. Good for: A script line about frustration or overwhelm with a tough task, such as struggling with confusing tools, wasting hours on manual work, or being stuck before finding an AI solution."
+  },
+  {
+   "id": "lib_professional_working_on_laptop_late",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "credit": "",
+   "file": "professional_working_on_laptop_late.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A tired bearded young man in a maroon t-shirt sits at a laptop in a dim apartment at night, resting his head on his hand, rubbing his eyes, then glumly lifting a white coffee mug, with blurred city lights glowing behind him through the window. Good for: A script line about burnout, late-night grinding, or frustration with slow manual work that AI tools can speed up, e.g. 'still stuck doing this by hand at midnight?'"
+  },
+  {
+   "id": "lib_robotic_hand_typing_on_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "credit": "",
+   "file": "robotic_hand_typing_on_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a black robotic hand with segmented, mechanical fingers lowering onto a backlit laptop keyboard and starting to type, shot at shallow depth of field in a warm, softly lit, modern workspace. Good for: A script line about AI doing the work for you, automating repetitive tasks, or AI taking over typing and writing, such as 'let AI handle the busywork' or 'AI writes it for you'."
+  },
+  {
+   "id": "s1_image",
+   "kind": "image",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-15_2002/s1_image.png",
+   "credit": "Image: rybbit.com",
+   "desc": "official image from Rybbit (announcement page)"
+  }
+ ],
+ "style": "hisaab",
+ "topic": "Business breakdown: Rybbit — Open source Google Analytics replacement",
+ "pick": {
+  "topic": "Business breakdown: Rybbit — Open source Google Analytics replacement",
+  "tool": "Rybbit",
+  "format": "business",
+  "angle": "An open-source Google Analytics replacement went from zero to about $10K/month, and anyone can read the code"
+ },
+ "inspired_by": {
+  "url": "https://trustmrr.com/startup/rybbit-analytics",
+  "owner": "trustmrr",
+  "plays": 0,
+  "likes": 0,
+  "comments": 0
+ },
+ "research": {
+  "verdict": "ok",
+  "tool": "Rybbit",
+  "what_it_does": "Open-source, cookieless web and product analytics that replaces Google Analytics. It includes session replay, funnels, web vitals and error tracking, and you can self-host it.",
+  "who_pays": "Small teams, professional teams and enterprises that want privacy-friendly analytics with no cookie banner. They pay for the hosted cloud version, which is paid-only after a 7-day trial. Self-hosting is free.",
+  "pricing": "Per rybbit.com/pricing, with a pageview slider starting at 100,000 monthly pageviews. Standard is $13/month billed annually, with up to 5 websites and 3 team members. Pro is $26/month billed annually, with unlimited websites and team members, session replays, 5 year data retention, 5x higher API rate limit and priority support. Enterprise is custom. There is a 7-day free trial, and no credit card is charged until the trial ends. Third-party reviews put month-to-month pricing at $19 for Standard and $39 for Pro, and the pricing page says annual billing gets 4 months free.",
+  "growth": [
+   "The founder posted on X (@yang_frog) on Jul 1, 2025 that he launched Rybbit on Product Hunt that day. He cited 7k GitHub stars in under 2 months.",
+   "Product Hunt tracker hunted.space lists a launch on October 19th, 2025 with 586 upvotes and #1 Product of the Day. The tagline then read '9k Github Stars'. A third-party review (doolpa.com) says an earlier Product Hunt launch took #2 of the day. The sources conflict, and the Jul 1, 2025 launch rank is unverified.",
+   "Hacker News: a Show HN-style post (item 43918620) where Bill Yang says he worked on it for 4 months and only publicly launched a few days earlier. He says he is 'happy to collect stars for the time being'. A commenter there accuses Rybbit of fingerprinting users.",
+   "The open-source repo drove distribution. A third-party review says it hit 5,000 GitHub stars within nine days of launch, per doolpa.com, and a second review says it crossed 10,000 stars in under a year. GitHub now shows about 13.3k stars, and Trendshift shows 13.2k with 53 contributors.",
+   "Podcast Trial to Paid (episode 1) says Bill 'engineered a viral launch with zero ad spend'. It says he hit $1.6K in revenue 35 days after launch, and credits smart moves like embedding a live demo directly in the landing page. The homepage still has a 'Live demo' linking to demo.rybbit.com.",
+   "Bill's own X metrics on Jul 4, 2025, two months after public launch: $638 MRR, $2,360 revenue (higher because of annual plans), 34 paying customers, 1,481 sites added, 7,262 GitHub stars.",
+   "He also listed the product on AppSumo, where his message says it started as an open-source project and grew faster than expected.",
+   "Feature-led content and SEO: many third-party comparison and review sites (travis.media, analytics-alternatives.com, doolpa) compare Rybbit with Plausible and GA4. Each feature has its own page, such as session replay and error tracking. These pages are on the site, and no source says SEO was a deliberate strategy."
+  ],
+  "founder_story": [
+   "Bill Yang is a solo indie developer based in California. His own site says he has a computer science degree and 4 years of experience in software engineering. It says he is an 'independent builder at its core'.",
+   "His site says he was unhappy with Google Analytics and other analytics tools, so he built his own and open sourced it.",
+   "Before Rybbit he built the gaming stats site Tomato.gg, which he describes as 1.5M sessions/month (Trial to Paid podcast summary). The same summary says he once thought he was 'too dumb to code' in high school.",
+   "He worked on Rybbit for about 4 months before the public launch (his own Hacker News comment). A third-party review says it went public on April 15, 2025 after roughly 110 days of development.",
+   "His LinkedIn work history and the AppSumo profile say Rybbit started in January 2025, and the AppSumo profile says 'Bootstrapped'. The AppSumo page also signs off 'Bill & the Rybbit team', so team size is unclear."
+  ],
+  "lessons": [
+   "Open source works as a distribution channel. A free self-hostable repo built GitHub stars (5k in nine days, 13k+ now), and those stars turned into trust and paying cloud customers.",
+   "Put a live demo on the landing page. Rybbit's homepage and feature pages link to demo.rybbit.com so visitors can try it without signing up.",
+   "Position against a known incumbent in the product tagline ('Open source Google Analytics replacement'). Add the feature that rivals like Plausible lack, which is session replay on Pro, and be transparent about your price.",
+   "Build in public with real numbers. Bill posted MRR, customers and star counts on X, even with a small following (765 followers), which gave the project credibility and press.",
+   "Relaunch on Product Hunt when you have major updates. Bill used a repeat launch and the star count, such as '9k Github Stars' and 'Help us get to 10k stars', as a call to action."
+  ],
+  "criticism": [
+   "Competition is heavy: Plausible, Fathom, Umami, Matomo, PostHog, Mixpanel and Google Analytics itself, which is free. GA4 shows 'Free*' at 100K pageviews in one review's comparison table.",
+   "Because the code is open under AGPL-3.0, anyone can self-host it for free. Bill himself flagged AGPL as less permissive than MIT in a Hacker News post. He also reported a copycat on X on Jul 24, 2025 that copied the landing page feature cards.",
+   "Critics on Hacker News raised a claim that it fingerprints users, and others complained about AGPL licensing and event-based cloud billing (doolpa.com summary). One G2 reviewer says event-based tracking can feel constraining because pageviews pile up. These are user opinions, not verified findings.",
+   "Revenue is not profit. The $9,014 in 30-day revenue says nothing about profit, hosting costs (Hetzner, ClickHouse) or the cost of Bill's time.",
+   "Revenue ≠ product-market fit forever: star growth appears to be slowing, with Trendshift showing about +290 stars in 61 days (Aug 29 – Oct 28, 2026), compared with 5,000 in the first nine days. That is the writer's inference from the figures."
+  ],
+  "facts": [
+   "GitHub repo rybbit-io/rybbit is TypeScript and licensed AGPL-3.0, with about 13.3k stars and 783 forks (the page snapshot may be dated).",
+   "Third-party review claims: over 10,000 organizations use it and over 12,000 GitHub stars (travis.media). Another review (doolpa) cites more than 4,000 organisations according to the company. These counts conflict and are not verified.",
+   "Cloud hosting is EU-hosted (Germany). It uses a ~6KB tracker (analytics-alternatives.com).",
+   "The product has added features since launch, including error tracking, an MCP server for AI agents, and uptime monitoring, which Bill teased on X on Jul 25, 2025.",
+   "Rybbit's Pro tier includes session replay, and Plausible, Fathom and Umami don't offer replay at any price (analytics-alternatives.com, May 2026)."
+  ],
+  "do_not_claim": [
+   "Profit, margins or costs",
+   "Team size (Bill calls himself the creator, but signs 'Bill & the Rybbit team' on AppSumo)",
+   "Exact number of customers or organizations using it (sources conflict: 4,000 vs 10,000+)",
+   "That it took #1 or #2 on Product Hunt on the July 2025 launch (sources conflict; only the Oct 19, 2025 #1 is documented by hunted.space)",
+   "That SEO or Reddit drove growth (no founder source)",
+   "The founding date: TrustMRR says January 2024, but Bill's own site and AppSumo say January 2025, so say 2025 or avoid the year",
+   "That the cloud has a free tier (some third-party sites claim one, but the official pricing page shows only a 7-day trial)",
+   "Exact current GitHub star count; it moves, so say 'over 13k' only if rechecked"
+  ],
+  "real_pages": [
+   {
+    "url": "https://trustmrr.com/startup/rybbit-analytics",
+    "show": "$9,607",
+    "kind": "site"
+   },
+   {
+    "url": "https://rybbit.com",
+    "show": "",
+    "kind": "site"
+   },
+   {
+    "url": "https://rybbit.com/pricing",
+    "show": "$13/month",
+    "kind": "site"
+   },
+   {
+    "url": "https://rybbit.com/pricing",
+    "show": "Set your traffic",
+    "kind": "site"
+   }
+  ],
+  "sources": [
+   "https://rybbit.com/pricing",
+   "https://rybbit.com/",
+   "https://rybbit.com/features/session-replay",
+   "https://rybbit.com/features/error-tracking",
+   "https://twitter.com/yang_frog",
+   "https://www.billyang.io/",
+   "https://trialtopaid.io/episodes/bill-yang-rybbit-from-too-dumb-to-code-to-1-6k-in-35-days",
+   "https://news.ycombinator.com/item?id=43918620",
+   "https://hunted.space/dashboard/rybbit/launches/rybbit-2",
+   "https://appsumo.com/products/rybbit/",
+   "https://github.com/rybbit-io/rybbit",
+   "https://trendshift.io/repositories/15219",
+   "https://analytics-alternatives.com/tools/rybbit/",
+   "https://travis.media/blog/rybbit-best-google-analytics-alternative/",
+   "https://doolpa.com/article/rybbit"
+  ],
+  "notes": "Hook idea: a solo dev built an open-source Google Analytics replacement, and it now does about $9.6K MRR with 342 subscriptions (TrustMRR data). Most growth details come from the founder's own X posts and a podcast summary, not independent press. TrustMRR says founded January 2024, but the founder's site and AppSumo say January 2025, so avoid stating the year or say 'launched publicly in 2025'. The founder's X handle is @yang_frog (TrustMRR left it blank), and his X profile snippet was cached, so the follower count comes from TrustMRR. Pricing pages show annual-billed prices ($13 and $26) as the headline, and monthly billing is $19 and $39 per third-party sites, so say 'from $13/mo billed annually'. The homepage also lists 'Start for $0', which is the free trial, not a free plan. Some third-party sites show a different free tier, which is outdated or wrong. The rybbit.io domain still appears in the app's API host and in older podcast notes.",
+  "_searched": 4,
+  "trustmrr": {
+   "name": "Rybbit",
+   "one_liner": "Open source Google Analytics replacement",
+   "website": "https://rybbit.com",
+   "founder": "Bill Yang",
+   "founder_x": "",
+   "founded": "January 2024",
+   "location": "United States",
+   "category": "Analytics, Saas, Dev Tools",
+   "audience": "Small businesses, professional teams, and enterprise teams looking for privacy-focused analytics solutions.",
+   "pricing": "Standard: $13/month, Pro: $26/month, Enterprise: Custom",
+   "revenue_last_30_days": "$9,014",
+   "revenue_all_time": "$112,237",
+   "mrr": "$9,607",
+   "growth_mom": "25%",
+   "active_subscriptions": "342",
+   "rank": "#607",
+   "for_sale": "",
+   "verified_by": "Stripe API key",
+   "last_updated": "Nov 15, 2026, 02:03 PM",
+   "other": [
+    "Founder has 765 followers on 𝕏",
+    "B2B",
+    "Value proposition: Rybbit is open-source, cookieless analytics. No consent banner needed.",
+    "Problem solved: Replacement for Google Analytics with a focus on privacy and ease of use, without the need for cookies or consent banners.",
+    "Domain Rating: 72/100 (rybbit.com)",
+    "Tech stack: Backend - Stripe",
+    "Additional info: Open source, GDPR & CCPA compliant, self-hostable",
+    "Growth of 25% is shown as 'vs. prev period'"
+   ],
+   "trustmrr_url": "https://trustmrr.com/startup/rybbit-analytics"
+  },
+  "say_numbers_as": [
+   "$9,014 (can be said as: $10K, $9K)",
+   "$112,237 (can be said as: $110K, $112K)",
+   "$9,607 (can be said as: $10K, $9K)"
+  ]
+ },
+ "kind": "business",
+ "episode": 33,
+ "_ident": {
+  "at": 5.34,
+  "dur": 1.5,
+  "title": "AI HACKS",
+  "type": 0.42,
+  "sub": "EP 33 · BUSINESS BREAKDOWN"
+ },
+ "timeline": {
+  "words": [
+   [
+    "An",
+    0.133
+   ],
+   [
+    "open-source",
+    0.24
+   ],
+   [
+    "Google",
+    0.96
+   ],
+   [
+    "Analytics",
+    1.28
+   ],
+   [
+    "replacement",
+    1.76
+   ],
+   [
+    "now",
+    2.64
+   ],
+   [
+    "makes",
+    2.88
+   ],
+   [
+    "about",
+    3.12
+   ],
+   [
+    "$10K",
+    3.52
+   ],
+   [
+    "a",
+    4.16
+   ],
+   [
+    "month.",
+    4.48
+   ],
+   [
+    "And",
+    5.32
+   ],
+   [
+    "the",
+    6.94
+   ],
+   [
+    "move",
+    7.1
+   ],
+   [
+    "behind",
+    7.42
+   ],
+   [
+    "it",
+    7.74
+   ],
+   [
+    "sounds",
+    7.98
+   ],
+   [
+    "like",
+    8.3
+   ],
+   [
+    "it",
+    8.46
+   ],
+   [
+    "should",
+    8.66
+   ],
+   [
+    "lose",
+    8.86
+   ],
+   [
+    "money.",
+    9.18
+   ],
+   [
+    "Stay",
+    9.94
+   ],
+   [
+    "for",
+    10.14
+   ],
+   [
+    "it.",
+    10.3
+   ],
+   [
+    "It's",
+    10.74
+   ],
+   [
+    "called",
+    10.94
+   ],
+   [
+    "Rybbit.",
+    11.42
+   ],
+   [
+    "Cookieless",
+    12.26
+   ],
+   [
+    "analytics,",
+    12.62
+   ],
+   [
+    "so",
+    13.62
+   ],
+   [
+    "no",
+    13.9
+   ],
+   [
+    "cookie",
+    14.06
+   ],
+   [
+    "banner,",
+    14.3
+   ],
+   [
+    "with",
+    14.94
+   ],
+   [
+    "session",
+    15.1
+   ],
+   [
+    "replay",
+    15.5
+   ],
+   [
+    "and",
+    16.1
+   ],
+   [
+    "funnels.",
+    16.3
+   ],
+   [
+    "Self-hosting",
+    17.14
+   ],
+   [
+    "is",
+    17.66
+   ],
+   [
+    "free,",
+    17.94
+   ],
+   [
+    "and",
+    18.42
+   ],
+   [
+    "teams",
+    18.74
+   ],
+   [
+    "pay",
+    19.02
+   ],
+   [
+    "for",
+    19.18
+   ],
+   [
+    "the",
+    19.3
+   ],
+   [
+    "hosted",
+    19.46
+   ],
+   [
+    "cloud.",
+    19.9
+   ],
+   [
+    "These",
+    20.46
+   ],
+   [
+    "numbers",
+    20.7
+   ],
+   [
+    "are",
+    21.1
+   ],
+   [
+    "verified",
+    21.5
+   ],
+   [
+    "on",
+    21.82
+   ],
+   [
+    "TrustMRR:",
+    22.14
+   ],
+   [
+    "about",
+    23.02
+   ],
+   [
+    "$10K",
+    23.38
+   ],
+   [
+    "in",
+    23.98
+   ],
+   [
+    "MRR,",
+    24.46
+   ],
+   [
+    "$9K",
+    25.26
+   ],
+   [
+    "in",
+    25.5
+   ],
+   [
+    "the",
+    26.26
+   ],
+   [
+    "last",
+    26.38
+   ],
+   [
+    "30",
+    26.66
+   ],
+   [
+    "days,",
+    26.94
+   ],
+   [
+    "342",
+    27.58
+   ],
+   [
+    "subscriptions,",
+    27.74
+   ],
+   [
+    "and",
+    29.7
+   ],
+   [
+    "25%",
+    29.98
+   ],
+   [
+    "growth.",
+    30.62
+   ],
+   [
+    "It's",
+    31.7
+   ],
+   [
+    "built",
+    31.94
+   ],
+   [
+    "by",
+    32.14
+   ],
+   [
+    "indie",
+    32.38
+   ],
+   [
+    "developer",
+    32.86
+   ],
+   [
+    "Bill",
+    33.26
+   ],
+   [
+    "Yang.",
+    33.5
+   ],
+   [
+    "How'd",
+    34.22
+   ],
+   [
+    "it",
+    34.42
+   ],
+   [
+    "grow?",
+    34.54
+   ],
+   [
+    "The",
+    35.14
+   ],
+   [
+    "code",
+    35.26
+   ],
+   [
+    "is",
+    35.5
+   ],
+   [
+    "public",
+    35.66
+   ],
+   [
+    "on",
+    36.02
+   ],
+   [
+    "GitHub,",
+    36.14
+   ],
+   [
+    "and",
+    36.78
+   ],
+   [
+    "one",
+    36.94
+   ],
+   [
+    "review",
+    37.18
+   ],
+   [
+    "says",
+    37.5
+   ],
+   [
+    "it",
+    37.9
+   ],
+   [
+    "hit",
+    38.06
+   ],
+   [
+    "5,000",
+    38.38
+   ],
+   [
+    "stars",
+    39.1
+   ],
+   [
+    "in",
+    39.5
+   ],
+   [
+    "nine",
+    39.82
+   ],
+   [
+    "days.",
+    40.14
+   ],
+   [
+    "The",
+    40.82
+   ],
+   [
+    "homepage",
+    40.94
+   ],
+   [
+    "also",
+    41.42
+   ],
+   [
+    "has",
+    41.74
+   ],
+   [
+    "a",
+    41.9
+   ],
+   [
+    "live",
+    41.98
+   ],
+   [
+    "demo,",
+    42.3
+   ],
+   [
+    "so",
+    42.74
+   ],
+   [
+    "you",
+    42.86
+   ],
+   [
+    "can",
+    43.02
+   ],
+   [
+    "try",
+    43.18
+   ],
+   [
+    "it",
+    43.34
+   ],
+   [
+    "without",
+    43.58
+   ],
+   [
+    "signing",
+    43.82
+   ],
+   [
+    "up.",
+    44.14
+   ],
+   [
+    "Steal",
+    44.7
+   ],
+   [
+    "two",
+    45.1
+   ],
+   [
+    "things.",
+    45.26
+   ],
+   [
+    "Put",
+    45.94
+   ],
+   [
+    "a",
+    46.06
+   ],
+   [
+    "live",
+    46.22
+   ],
+   [
+    "demo",
+    46.54
+   ],
+   [
+    "on",
+    46.86
+   ],
+   [
+    "your",
+    47.02
+   ],
+   [
+    "landing",
+    47.26
+   ],
+   [
+    "page.",
+    47.5
+   ],
+   [
+    "And",
+    48.14
+   ],
+   [
+    "name",
+    48.3
+   ],
+   [
+    "who",
+    48.7
+   ],
+   [
+    "you're",
+    48.9
+   ],
+   [
+    "replacing,",
+    49.1
+   ],
+   [
+    "right",
+    49.94
+   ],
+   [
+    "in",
+    50.14
+   ],
+   [
+    "your",
+    50.22
+   ],
+   [
+    "tagline.",
+    50.38
+   ],
+   [
+    "Honest",
+    51.244
+   ],
+   [
+    "catch:",
+    51.7
+   ],
+   [
+    "revenue",
+    52.3
+   ],
+   [
+    "isn't",
+    52.86
+   ],
+   [
+    "profit,",
+    53.18
+   ],
+   [
+    "and",
+    53.9
+   ],
+   [
+    "Google",
+    54.06
+   ],
+   [
+    "Analytics",
+    54.58
+   ],
+   [
+    "is",
+    54.94
+   ],
+   [
+    "free.",
+    55.18
+   ],
+   [
+    "Cloud",
+    55.9
+   ],
+   [
+    "starts",
+    56.22
+   ],
+   [
+    "at",
+    56.46
+   ],
+   [
+    "$13",
+    56.7
+   ],
+   [
+    "a",
+    57.1
+   ],
+   [
+    "month",
+    57.34
+   ],
+   [
+    "billed",
+    57.82
+   ],
+   [
+    "annually,",
+    58.14
+   ],
+   [
+    "after",
+    58.78
+   ],
+   [
+    "a",
+    59.1
+   ],
+   [
+    "7-day",
+    59.3
+   ],
+   [
+    "trial.",
+    59.66
+   ],
+   [
+    "So",
+    60.517
+   ],
+   [
+    "the",
+    60.62
+   ],
+   [
+    "move?",
+    60.78
+   ],
+   [
+    "He",
+    61.58
+   ],
+   [
+    "gave",
+    61.82
+   ],
+   [
+    "the",
+    62.14
+   ],
+   [
+    "product",
+    62.22
+   ],
+   [
+    "away.",
+    62.62
+   ],
+   [
+    "The",
+    63.38
+   ],
+   [
+    "free,",
+    63.58
+   ],
+   [
+    "open",
+    64.14
+   ],
+   [
+    "code",
+    64.38
+   ],
+   [
+    "earned",
+    64.78
+   ],
+   [
+    "trust,",
+    65.1
+   ],
+   [
+    "and",
+    65.82
+   ],
+   [
+    "that",
+    65.98
+   ],
+   [
+    "trust",
+    66.22
+   ],
+   [
+    "turned",
+    66.7
+   ],
+   [
+    "into",
+    66.94
+   ],
+   [
+    "paying",
+    67.26
+   ],
+   [
+    "cloud",
+    67.58
+   ],
+   [
+    "customers.",
+    67.9
+   ],
+   [
+    "Would",
+    68.86
+   ],
+   [
+    "you",
+    69.02
+   ],
+   [
+    "build",
+    69.18
+   ],
+   [
+    "this,",
+    69.34
+   ],
+   [
+    "or",
+    69.86
+   ],
+   [
+    "just",
+    69.98
+   ],
+   [
+    "self-host",
+    70.26
+   ],
+   [
+    "it?",
+    70.7
+   ],
+   [
+    "Send",
+    71.3
+   ],
+   [
+    "this",
+    71.5
+   ],
+   [
+    "to",
+    71.62
+   ],
+   [
+    "the",
+    71.74
+   ],
+   [
+    "friend",
+    71.94
+   ],
+   [
+    "who",
+    72.14
+   ],
+   [
+    "keeps",
+    72.38
+   ],
+   [
+    "saying",
+    72.66
+   ],
+   [
+    "they'll",
+    72.94
+   ],
+   [
+    "start",
+    73.18
+   ],
+   [
+    "a",
+    73.42
+   ],
+   [
+    "SaaS.",
+    73.54
+   ],
+   [
+    "Hack",
+    74.34
+   ],
+   [
+    "saved?",
+    74.54
+   ]
+  ],
+  "duration": 75.2,
+  "ident": {
+   "at": 5.34,
+   "dur": 1.5,
+   "title": "AI HACKS",
+   "type": 0.42,
+   "sub": "EP 33 · BUSINESS BREAKDOWN"
+  },
+  "scenes": [
+   {
+    "t": 0.0,
+    "shows": [
+     "footage:lib_man_staring_at_phone_in",
+     "pill:OPEN-SOURCE",
+     "headline:$10K / MONTH"
+    ]
+   },
+   {
+    "t": 5.32,
+    "shows": [
+     "label:THE MOVE",
+     "object3d:",
+     "pill:STAY FOR THE MOVE"
+    ]
+   },
+   {
+    "t": 10.74,
+    "shows": [
+     "footage:real_2_phone",
+     "pill:COOKIELESS · NO BANNER"
+    ]
+   },
+   {
+    "t": 14.94,
+    "shows": [
+     "label:WHAT YOU GET",
+     "stat_row:"
+    ]
+   },
+   {
+    "t": 17.14,
+    "shows": [
+     "label:THE BUSINESS MODEL",
+     "stat_row:"
+    ]
+   },
+   {
+    "t": 20.46,
+    "shows": [
+     "label:VERIFIED · TRUSTMRR",
+     "object3d:",
+     "stat_row:"
+    ]
+   },
+   {
+    "t": 31.7,
+    "shows": [
+     "footage:lib_fingers_typing_on_laptop_keyboard",
+     "headline:INDIE DEV"
+    ]
+   },
+   {
+    "t": 34.22,
+    "shows": [
+     "label:GROWTH ENGINE #1",
+     "app:GitHub",
+     "big_number:"
+    ]
+   },
+   {
+    "t": 40.82,
+    "shows": [
+     "label:GROWTH ENGINE #2",
+     "footage:real_2_web",
+     "pill:LIVE DEMO",
+     "pill:NO SIGN-UP NEEDED"
+    ]
+   },
+   {
+    "t": 44.7,
+    "shows": [
+     "label:STEAL THESE 2",
+     "steps:",
+     "pill:MODERN GA REPLACEMENT"
+    ]
+   },
+   {
+    "t": 51.24,
+    "shows": [
+     "label:HONEST CATCH",
+     "vs:",
+     "stat_row:"
+    ]
+   },
+   {
+    "t": 55.9,
+    "shows": [
+     "footage:real_3_web",
+     "pill:FROM $13/MO",
+     "label:7-DAY TRIAL FIRST"
+    ]
+   },
+   {
+    "t": 60.52,
+    "shows": [
+     "label:THE MOVE, UNLOCKED",
+     "object3d:"
+    ]
+   },
+   {
+    "t": 63.38,
+    "shows": [
+     "arrow_pair:",
+     "pill:TRUST → REVENUE"
+    ]
+   },
+   {
+    "t": 68.86,
+    "shows": [
+     "headline:BUILD OR SELF-HOST?"
+    ]
+   }
+  ],
+  "beats": [
+   1.83,
+   12.32,
+   21.92
+  ]
+ }
+}
