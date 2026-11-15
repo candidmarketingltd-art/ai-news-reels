@@ -4,42 +4,12 @@
   BUFFER_API_KEY: set
   BUFFER_CHANNEL_ID: set
       voice: Rohan 0ynj1kxK93EAXGRqL9Rm (found by name in this workspace)
-window 2026-11-15-1300 | posting times 13:00, 17:00, 20:00 IST | dry_run=False
-      reel type: marketing
-      b-roll library: 25 clips
-[1/6] top AI & tech reels
-      hashtag scrape failed: apify apify/instagram-hashtag-scraper: 401 {
-  "error": {
-    "type": "user-or-token-not-found",
-    "message": "User was not found or authentication token is not valid"
-  }
-}
-      using the last saved reel pool
-      reel pool: 76 reels
-[2/6] picking the topic
-      → Turn a plain phone photo of your product into studio-quality e-commerce images, a mannequin display and a flash-sale poster using short saved ChatGPT prompts, with a checklist for keeping the product accurate  (tutorial, from @as.digital.deals, 2,156,517 views) — 2.16M views and 37,967 comments, by far the highest comment count in the list. It is a direct small-business use case (product photos and sale posters) and is e
-      transcript failed: apify apify/instagram-reel-scraper: 401 {
-  "error": {
-    "type": "user-or-token-not-found",
-    "message": "User was not found or authentication token is not valid"
-  }
-}
-[3/6] research (0 transcript words)
-      verdict adjust · 6 web searches · 6 steps · 15 sources
-[4/6] script + edit
-      real screens: 1 usable of 8 captured from 4 official pages
-      (media: pexels 'product photography studio' failed: 401 Client Error: Unauthorized for url: https://api.apify.com/v2/acts/memo23~pex)
-      (media: pexels 'typing on laptop' failed: 401 Client Error: Unauthorized for url: https://api.apify.com/v2/acts/memo23~pex)
-      media: s1_image, s1_logo
-[5/6] voice + render
-      [eleven] subscription: 200 {"tier":"creator","character_count":35580,"character_limit":131000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796464027,"voice_slots_used":1,"professional_voice_slots
-      [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
-      voice check: 4 word(s) misheard [('', 'existing'), ('colour', 'color'), ('proofread', 'proof free'), ('colour', 'color')] -> recording another take
-      [eleven] subscription: 200 {"tier":"creator","character_count":35580,"character_limit":131000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796464027,"voice_slots_used":1,"professional_voice_slots
-      [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
-      take 2: 3 misheard [('colour', 'color'), ('proofread', 'proof free'), ('colour', 'color')]
-      165 words, 64.3s, voice eleven_v4
-      remotion: Reel /tmp/tmpcrmj4u43/video_only.mp4
-[6/6] publish
-      [buffer] created post 6af96210c5b364e0623f9b70 (customScheduled)
-POSTED 6af96210c5b364e0623f9b70 https://github.com/candidmarketingltd-art/ai-news-reels/releases/download/reel-2026-11-15_1301/2026-11-15_1301.mp4
+window 2026-11-15-1700 | posting times 13:00, 17:00, 20:00 IST | dry_run=False
+      reel type: meme
+[1/3] trending audio + Claude news this week
+      14 trending songs, 12 news items
+[2/3] meme line
+      “me posting at exactly 6:47pm because a blog said it's the best time / the algorithm: 9 views. 6 are my other account.” on lib_man_comparing_phone_and_laptop,lib_man_staring_at_phone_in · song: Hold On, We're Going Home — Drake, Majid Jordan
+[3/3] render
+      [buffer] reminder post 6af9984cb9a106584ca4aaf1 (customScheduled)
+REMINDER SENT 6af9984cb9a106584ca4aaf1

@@ -1,0 +1,37 @@
+{
+ "shots": [
+  {
+   "clip": "lib_man_comparing_phone_and_laptop",
+   "text": "me posting at exactly 6:47pm because a blog said it's the best time",
+   "seconds": 2.5
+  },
+  {
+   "clip": "lib_man_staring_at_phone_in",
+   "text": "the algorithm: 9 views. 6 are my other account.",
+   "seconds": 4.5
+  }
+ ],
+ "style": "meme",
+ "song": {
+  "title": "Hold On, We're Going Home",
+  "artist": "Drake, Majid Jordan",
+  "mood": "chill",
+  "trend": "Smooth Monday-start vibe and relatable skits.",
+  "source": "https://creatordb.app/free-tools/trending-instagram-audio/",
+  "list_date": "2026-11-11",
+  "snippet": "use the most-used snippet (the smooth intro), with the cut to the reaction on the first beat",
+  "why": "Chill audio for a relatable skit, and the calm vibe makes the sad view count funnier."
+ },
+ "backup_song": {
+  "title": "Dame Hombro",
+  "artist": "Bulin 47, Kevin Wai, Breyco En Producidera"
+ },
+ "caption": "the 'best time to post' is whenever nobody's online, apparently 😭 be honest, how many of your views are you?\n\n#marketingmemes #contentcreator #socialmediamarketing #algorithm #founderlife #ihackgrowth",
+ "cover_word": "best time to post",
+ "text": "me posting at exactly 6:47pm because a blog said it's the best time / the algorithm: 9 views. 6 are my other account.",
+ "clip": "lib_man_comparing_phone_and_laptop,lib_man_staring_at_phone_in",
+ "clip_paths": {
+  "lib_man_comparing_phone_and_laptop": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+  "lib_man_staring_at_phone_in": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_staring_at_phone_in.mp4"
+ }
+}
