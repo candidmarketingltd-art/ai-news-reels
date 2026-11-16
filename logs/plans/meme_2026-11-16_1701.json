@@ -1,0 +1,31 @@
+{
+ "shots": [
+  {
+   "clip": "lib_man_shaking_head_at_phone",
+   "text": "client said yes to my rate in 4 seconds. i undercharged.",
+   "seconds": 7.0
+  }
+ ],
+ "style": "meme",
+ "song": {
+  "title": "Ramalama",
+  "artist": "Róisín Murphy",
+  "mood": "funny",
+  "trend": "A coordinated costume and transformation trend built on timing, teamwork and serving looks. It can be reused for a team \"role reveal\" meme.",
+  "source": "https://metricool.com/trending-instagram-songs/",
+  "list_date": "2026-11-02",
+  "snippet": "use the most-used snippet",
+  "why": "Funny, upbeat audio over a quiet \"I just realized\" moment. The bouncy track against his scrunched-up face is the joke."
+ },
+ "backup_song": {
+  "title": "Pump It",
+  "artist": "The Black Eyed Peas"
+ },
+ "caption": "the \"sounds good!\" reply is the most expensive text a freelancer can get 💀 be honest, how long before you raised your rates?\n\n#freelancerlife #freelancememes #founderlife #marketingmemes #sidehustle #ihackgrowth",
+ "cover_word": "undercharged again",
+ "text": "client said yes to my rate in 4 seconds. i undercharged.",
+ "clip": "lib_man_shaking_head_at_phone",
+ "clip_paths": {
+  "lib_man_shaking_head_at_phone": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4"
+ }
+}
