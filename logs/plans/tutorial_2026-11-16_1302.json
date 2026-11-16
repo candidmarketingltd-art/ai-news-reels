@@ -1,0 +1,1869 @@
+{
+ "voiceover": "[conversational] Stop re-explaining your business to Claude every single time.\n\n[curious] And there's one box almost everyone fills in that Claude never reads.\n\nIt works on Free. In claude.ai, click Projects, then \"+ New Project\", and name it \"Brand Content Engine\". Click \"Set project instructions\", paste your brand voice, audience and calendar format, then \"Save instructions\". Finally, in project knowledge, click the plus and upload your offers, customer questions and favourite posts.\n\nNow open a chat inside the project and type: \"Create a 30-day content plan for next month: 3 Instagram posts a week, captions, and a posting schedule table.\"\n\n[serious] Catch: Claude writes the plan, but you still post it yourself. On Free, a month may take 2 to 4 messages.\n\n[whispers] The box is the project name and description. Claude can't see either one, so put what matters in the instructions or knowledge.\n\n[playful] What do you keep re-explaining to AI?\n\nSend this to the friend who pastes the same brand brief into every chat. Hack saved?",
+ "open_loop": {
+  "setup": "And there's one box almost everyone fills in that Claude never reads.",
+  "payoff": "The box is the project name and description. Claude can't see either one, so put what matters in the instructions or knowledge."
+ },
+ "title": "TEACH CLAUDE ONCE",
+ "ig_caption": "Stop re-explaining your business to Claude every single time.\n✅ Projects > \"+ New Project\" > name it\n✅ \"Set project instructions\" > paste brand voice > \"Save instructions\"\n✅ Upload offers, customer questions and example posts to project knowledge\n✅ One prompt = 30-day plan + posting table (you still post it yourself)\nWhat do you keep re-explaining to AI? Tell me below 👇\nSave this for later 📌\nFollow @ihackgrowth for daily business & growth hacks",
+ "media_hints": {
+  "domain": "claude.ai",
+  "broll": [
+   "typing on laptop",
+   "content calendar planning",
+   "person frustrated at desk"
+  ]
+ },
+ "hashtags": [
+  "#AItools",
+  "#AIhacks",
+  "#Claude",
+  "#ClaudeAI",
+  "#ContentMarketing",
+  "#ContentPlanning",
+  "#SmallBusiness",
+  "#productivity"
+ ],
+ "tag": "CLAUDE PROJECTS",
+ "keywords": [
+  "Claude",
+  "Projects",
+  "brand",
+  "voice",
+  "instructions",
+  "knowledge",
+  "offers",
+  "customer",
+  "questions",
+  "Free",
+  "calendar",
+  "schedule",
+  "Catch",
+  "box",
+  "description",
+  "re-explaining"
+ ],
+ "music": "upbeat",
+ "hud": {
+  "label": "SETUP",
+  "items": [
+   {
+    "value": "0/3",
+    "color": "red"
+   },
+   {
+    "at": "click Projects,",
+    "value": "1/3",
+    "color": "gold"
+   },
+   {
+    "at": "Save instructions",
+    "value": "2/3",
+    "color": "gold"
+   },
+   {
+    "at": "favourite posts.",
+    "value": "3/3",
+    "color": "green"
+   },
+   {
+    "at": "posting schedule",
+    "value": "30 DAYS",
+    "color": "green"
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "at": "Stop re-explaining",
+   "tint": "red",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "Stop re-explaining",
+     "media": "lib_man_reacting_to_laptop_screen",
+     "full": true
+    },
+    {
+     "type": "title_slam",
+     "at": "Stop re-explaining",
+     "text": "STOP",
+     "sub": "RE-EXPLAINING YOUR BUSINESS",
+     "color": "red"
+    },
+    {
+     "type": "pill",
+     "at": "every single time.",
+     "text": "EVERY. SINGLE. TIME.",
+     "color": "red",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "And there's",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "never reads.",
+     "mood": "shocked"
+    }
+   ],
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "And there's",
+     "kind": "padlock",
+     "size": "l",
+     "caption": "THE BOX CLAUDE NEVER READS",
+     "caption_at": "Claude never reads."
+    },
+    {
+     "type": "pill",
+     "at": "almost everyone",
+     "text": "REVEAL AT THE END",
+     "color": "gold",
+     "outline": true
+    }
+   ]
+  },
+  {
+   "at": "It works",
+   "tint": "green",
+   "elements": [
+    {
+     "type": "app",
+     "at": "It works",
+     "name": "Claude",
+     "label": "THE TOOL",
+     "ill": "laptop",
+     "sub": "FREE PLAN · PROJECTS",
+     "sub_at": "on Free.",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "at": "In claude.ai,",
+   "react": [
+    {
+     "at": "In claude.ai,",
+     "mood": "neutral",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "screen",
+     "at": "In claude.ai,",
+     "device": "web",
+     "theme": "dark",
+     "brand": "claude",
+     "app": "Claude",
+     "url": "claude.ai",
+     "step": "Step 1 · Create the project",
+     "steps": [
+      {
+       "at": "In claude.ai,",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Projects",
+         "Chats",
+         "Artifacts",
+         "Customize"
+        ],
+        "profile": "Rohan",
+        "title": "How can I help you today?",
+        "input": ""
+       },
+       "action": {
+        "kind": "click",
+        "target": "Projects",
+        "at": "click Projects,"
+       }
+      },
+      {
+       "at": "Projects, then",
+       "view": {
+        "kind": "page",
+        "site": "claude.ai/projects",
+        "url": "claude.ai/projects",
+        "heading": "Projects",
+        "buttons": [
+         "+ New Project"
+        ],
+        "dark": true,
+        "cards": [
+         {
+          "title": "Client emails",
+          "text": "Updated 2 days ago"
+         },
+         {
+          "title": "Side project ideas",
+          "text": "Updated last week"
+         }
+        ]
+       },
+       "action": {
+        "kind": "click",
+        "target": "+ New Project",
+        "at": "New Project"
+       }
+      },
+      {
+       "at": "and name",
+       "view": {
+        "kind": "page",
+        "site": "claude.ai/projects",
+        "url": "claude.ai/projects/new",
+        "heading": "Create a project",
+        "sub": "What are you working on?",
+        "input": "",
+        "buttons": [
+         "Create project"
+        ],
+        "dark": true
+       },
+       "action": {
+        "kind": "type",
+        "target": "input",
+        "text": "Brand Content Engine",
+        "at": "name it"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Set project",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Set project",
+     "device": "web",
+     "theme": "dark",
+     "brand": "claude",
+     "app": "Claude",
+     "url": "claude.ai/project",
+     "step": "Step 2 · Teach it your brand",
+     "steps": [
+      {
+       "at": "Set project",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Projects",
+         "Chats",
+         "Artifacts",
+         "Customize"
+        ],
+        "profile": "Rohan",
+        "panel": {
+         "title": "Brand Content Engine",
+         "rows": [
+          {
+           "label": "Set project instructions",
+           "kind": "button"
+          },
+          {
+           "label": "Files",
+           "kind": "value",
+           "value": "Empty"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Set project instructions",
+        "at": "Set project"
+       }
+      },
+      {
+       "at": "paste your brand",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Projects",
+         "Chats",
+         "Artifacts",
+         "Customize"
+        ],
+        "profile": "Rohan",
+        "panel": {
+         "title": "Set project instructions",
+         "rows": [
+          {
+           "label": "Instructions",
+           "kind": "field",
+           "value": ""
+          },
+          {
+           "label": "Save instructions",
+           "kind": "button"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "type",
+        "target": "Instructions",
+        "text": "Voice: warm, direct. Audience: small-business owners. Calendar: date | platform | hook | CTA",
+        "at": "paste your brand"
+       }
+      },
+      {
+       "at": "format, then",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Projects",
+         "Chats",
+         "Artifacts",
+         "Customize"
+        ],
+        "profile": "Rohan",
+        "panel": {
+         "title": "Set project instructions",
+         "rows": [
+          {
+           "label": "Instructions",
+           "kind": "field",
+           "value": "Voice: warm, direct. Audience: small-business owners. Calendar: date | platform | hook | CTA"
+          },
+          {
+           "label": "Save instructions",
+           "kind": "button"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "Save instructions",
+        "at": "Save instructions"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Finally, in project",
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Finally, in project",
+     "device": "web",
+     "theme": "dark",
+     "brand": "claude",
+     "app": "Claude",
+     "url": "claude.ai/project",
+     "step": "Step 3 · Add knowledge",
+     "steps": [
+      {
+       "at": "Finally, in project",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Projects",
+         "Chats",
+         "Artifacts",
+         "Customize"
+        ],
+        "profile": "Rohan",
+        "panel": {
+         "title": "Project knowledge",
+         "rows": [
+          {
+           "label": "Instructions",
+           "kind": "value",
+           "value": "Saved"
+          },
+          {
+           "label": "+",
+           "kind": "button"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "click",
+        "target": "+",
+        "at": "click the plus"
+       }
+      },
+      {
+       "at": "upload your offers,",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Projects",
+         "Chats",
+         "Artifacts",
+         "Customize"
+        ],
+        "profile": "Rohan",
+        "panel": {
+         "title": "Project knowledge",
+         "rows": [
+          {
+           "label": "Instructions",
+           "kind": "value",
+           "value": "Saved"
+          },
+          {
+           "label": "offers-and-pricing.pdf",
+           "kind": "value",
+           "value": "PDF"
+          },
+          {
+           "label": "+",
+           "kind": "button"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "point",
+        "target": "offers-and-pricing.pdf",
+        "at": "upload your offers,"
+       }
+      },
+      {
+       "at": "customer questions",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Projects",
+         "Chats",
+         "Artifacts",
+         "Customize"
+        ],
+        "profile": "Rohan",
+        "panel": {
+         "title": "Project knowledge",
+         "rows": [
+          {
+           "label": "Instructions",
+           "kind": "value",
+           "value": "Saved"
+          },
+          {
+           "label": "offers-and-pricing.pdf",
+           "kind": "value",
+           "value": "PDF"
+          },
+          {
+           "label": "customer-questions.txt",
+           "kind": "value",
+           "value": "TXT"
+          },
+          {
+           "label": "+",
+           "kind": "button"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "point",
+        "target": "customer-questions.txt",
+        "at": "customer questions"
+       }
+      },
+      {
+       "at": "favourite posts.",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Projects",
+         "Chats",
+         "Artifacts",
+         "Customize"
+        ],
+        "profile": "Rohan",
+        "panel": {
+         "title": "Project knowledge",
+         "rows": [
+          {
+           "label": "Instructions",
+           "kind": "value",
+           "value": "Saved"
+          },
+          {
+           "label": "offers-and-pricing.pdf",
+           "kind": "value",
+           "value": "PDF"
+          },
+          {
+           "label": "customer-questions.txt",
+           "kind": "value",
+           "value": "TXT"
+          },
+          {
+           "label": "favourite-posts.docx",
+           "kind": "value",
+           "value": "DOC"
+          }
+         ]
+        }
+       },
+       "action": {
+        "kind": "point",
+        "target": "favourite-posts.docx",
+        "at": "favourite posts."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Now open",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "label",
+     "at": "Now open",
+     "text": "REAL CLAUDE MENU"
+    },
+    {
+     "type": "footage",
+     "at": "Now open",
+     "media": "real_1_shot1",
+     "tall": true,
+     "caption": "ADD TO PROJECT",
+     "caption_at": "a chat"
+    }
+   ]
+  },
+  {
+   "at": "inside the project",
+   "tint": "cold",
+   "elements": [
+    {
+     "type": "footage",
+     "at": "inside the project",
+     "media": "real_1_shot2",
+     "tall": true,
+     "caption": "MOVE CHAT INTO PROJECT",
+     "caption_at": "inside the project"
+    },
+    {
+     "type": "pill",
+     "at": "and type:",
+     "text": "CHAT INSIDE THE PROJECT",
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "at": "Create a",
+   "tint": "green",
+   "react": [
+    {
+     "at": "posting schedule",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "screen",
+     "at": "Create a",
+     "device": "web",
+     "theme": "dark",
+     "brand": "claude",
+     "app": "Claude",
+     "url": "claude.ai/project",
+     "step": "Step 4 · One prompt",
+     "steps": [
+      {
+       "at": "Create a",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Projects",
+         "Chats",
+         "Artifacts",
+         "Customize"
+        ],
+        "profile": "Rohan",
+        "title": "Brand Content Engine",
+        "input": ""
+       },
+       "action": {
+        "kind": "type",
+        "target": "input",
+        "text": "Create a 30-day content plan for next month: 3 Instagram posts a week, captions, and a posting schedule table.",
+        "at": "Create a"
+       }
+      },
+      {
+       "at": "schedule table.",
+       "view": {
+        "sidebar": [
+         "New chat",
+         "Projects",
+         "Chats",
+         "Artifacts",
+         "Customize"
+        ],
+        "profile": "Rohan",
+        "title": "Brand Content Engine",
+        "chat": [
+         {
+          "from": "user",
+          "text": "Create a 30-day content plan for next month..."
+         },
+         {
+          "from": "ai",
+          "text": "Your 30-day plan: Date | Post | Hook | Caption | CTA — schedule table ready."
+         }
+        ],
+        "input": ""
+       },
+       "action": {
+        "kind": "point",
+        "target": "input",
+        "at": "schedule table."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "Catch: Claude",
+   "tint": "red",
+   "react": [
+    {
+     "at": "post it yourself.",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "label",
+     "at": "Catch: Claude",
+     "text": "THE CATCH"
+    },
+    {
+     "type": "stat_row",
+     "at": "writes the plan,",
+     "cards": [
+      {
+       "label": "PLAN",
+       "value": "DONE",
+       "at": "writes the plan,",
+       "color": "green"
+      },
+      {
+       "label": "POSTING",
+       "value": "YOU",
+       "at": "you still post",
+       "color": "red"
+      },
+      {
+       "label": "MESSAGES",
+       "value": "2–4",
+       "at": "2 to 4",
+       "color": "gold",
+       "sub": "ON FREE"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": "The box is",
+   "tint": "cold",
+   "react": [
+    {
+     "at": "put what matters",
+     "mood": "serious",
+     "point": true
+    }
+   ],
+   "elements": [
+    {
+     "type": "object3d",
+     "at": "The box is",
+     "kind": "padlock",
+     "act": "open",
+     "act_at": "The box is",
+     "caption": "NAME + DESCRIPTION",
+     "caption_at": "and description."
+    },
+    {
+     "type": "vs",
+     "at": "can't see",
+     "left": {
+      "label": "NAME + DESCRIPTION",
+      "value": "UNSEEN"
+     },
+     "right": {
+      "label": "INSTRUCTIONS + KNOWLEDGE",
+      "value": "READ",
+      "color": "green",
+      "ill": "check_mark_button",
+      "at": "in the instructions"
+     },
+     "strike_at": "either one,"
+    }
+   ]
+  },
+  {
+   "at": "What do",
+   "react": [
+    {
+     "at": "re-explaining to AI?",
+     "mood": "smirk"
+    }
+   ],
+   "elements": [
+    {
+     "type": "headline",
+     "at": "What do",
+     "text": "WHAT DO YOU RE-EXPLAIN?",
+     "size": "l",
+     "ill": "speech_balloon",
+     "sub": "COMMENT BELOW",
+     "sub_at": "to AI?"
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "at": "Send this",
+  "line1": "Send this to",
+  "line1_at": "Send this",
+  "line2": "the brand-brief paster",
+  "line2_at": "same brand brief"
+ },
+ "endcard": {
+  "title": "Hack saved?",
+  "terminal": "> project.saved · brand never re-explained"
+ },
+ "media": [
+  {
+   "id": "real_1_shot1",
+   "kind": "image",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-16_1302/real_1_shot1.png",
+   "fit": "contain",
+   "credit": "Screenshot: support.claude.com",
+   "desc": "REAL product screenshot from the official site: the gold-outlined part — Cropped screenshot of the claude.ai conversation menu for a chat titled 'Test conversation'. The dropdown lists Star, Rename, Add to project (highlighted, with a green arrow pointing at it) and Delete (red). Shows how to move a chat into a Project. [Screenshot: support.claude.com]"
+  },
+  {
+   "id": "real_1_shot2",
+   "kind": "image",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-16_1302/real_1_shot2.png",
+   "fit": "contain",
+   "credit": "Screenshot: support.claude.com",
+   "desc": "REAL product screenshot from the official site: the gold-outlined part — 'Move chat' modal with the text 'Select a project to move this chat into.' and a search field 'Search or create a project'. Listed projects: 'testing' (Shared badge, highlighted), 'Public / organization-wide project' (Shared badge) and 'Private/individually shared project'. Close X at top right. [Screenshot: support.claude.com]"
+  },
+  {
+   "id": "real_1_shot3",
+   "kind": "image",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/out/media/2026-11-16_1302/real_1_shot3.png",
+   "fit": "contain",
+   "credit": "Screenshot: support.claude.com",
+   "desc": "REAL product screenshot from the official site: the gold-outlined part — Breadcrumb reads 'Private/individually shared project / Test conversation'. The open dropdown lists Star, Rename, Change project (highlighted), Remove from project and Delete (red). A green box and arrow highlight 'Change project' and 'Remove from project'. [Screenshot: support.claude.com]"
+  },
+  {
+   "id": "lib_camera_moving_down_server_corridor",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/camera_moving_down_server_corridor.mp4",
+   "credit": "",
+   "file": "camera_moving_down_server_corridor.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow forward push down a hazy, fog-filled data center aisle lined with server racks that glow with blue and amber status lights, giving a moody, futuristic feel. Good for: A script line about the infrastructure behind AI, such as cloud computing, model training, heavy compute, data storage, or 'what happens behind the scenes'."
+  },
+  {
+   "id": "lib_clock_ticking_and_person_typing",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/clock_ticking_and_person_typing.mp4",
+   "credit": "",
+   "file": "clock_ticking_and_person_typing.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A rack-focus shot moves from a close-up of a black twin-bell alarm clock with ticking hands to a bearded man in a light polo typing on a laptop in a dim room, giving a tense, time-pressured mood. Good for: lines about deadlines, time slipping away, long hours of manual work, or the pressure of slow, tedious tasks before an AI tool speeds things up"
+  },
+  {
+   "id": "lib_colleagues_collaborating_around",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/colleagues_collaborating_around.mp4",
+   "credit": "",
+   "file": "colleagues_collaborating_around.mp4",
+   "frames": 126,
+   "desc": "B-roll (4.2s, VERTICAL 9:16 — best as full: true): colleagues collaborating around Good for: "
+  },
+  {
+   "id": "lib_content_creator_sets_up_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/content_creator_sets_up_phone.mp4",
+   "credit": "",
+   "file": "content_creator_sets_up_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a white t-shirt stands behind a ring light with a phone on a tripod, adjusting the setup while the camera slowly pushes in until his face fills the frame, with a calm, focused mood and moody blue ambient lighting in the background. Good for: setting up to create content, getting started as a creator, or preparing equipment before recording a tutorial"
+  },
+  {
+   "id": "lib_eye_reflecting_laptop_screen_glow",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/eye_reflecting_laptop_screen_glow.mp4",
+   "credit": "",
+   "file": "eye_reflecting_laptop_screen_glow.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A slow zoom into an extreme close-up of a brown eye with a bright blue screen reflected in the pupil, framed by a thick eyebrow and warm skin tones, fading into a cool blue gradient at the bottom, with a focused, intense and cinematic mood. Good for: lines about being glued to a screen, intense focus or attention, watching AI work, or 'seeing' a new opportunity or insight"
+  },
+  {
+   "id": "lib_hand_dropping_papers_on_desk",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_dropping_papers_on_desk.mp4",
+   "credit": "",
+   "file": "hand_dropping_papers_on_desk.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a green shirt carries and then drops a thick stack of papers onto an already huge, messy pile of documents with sticky notes on a cluttered desk, while a laptop glows nearby, and the camera pushes in to a close-up of the towering stack, creating a mood of overwhelm and tedious paperwork. Good for: a script line about drowning in manual paperwork or document processing, setting up how AI can automate summarizing, sorting, or extracting information from piles of documents"
+  },
+  {
+   "id": "lib_hand_scrolling_smartphone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_scrolling_smartphone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/hand_scrolling_smartphone.mp4",
+   "credit": "",
+   "file": "hand_scrolling_smartphone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a bearded young man in a white t-shirt looking intently at a smartphone in dim, warm lighting, with the camera slowly pushing in until his focused, slightly tense gaze moves from the screen to the lens. Good for: a script line about being glued to your phone, doubt or tension before a reveal, or the moment of realizing something while checking an app or notification"
+  },
+  {
+   "id": "lib_man_comparing_phone_and_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_comparing_phone_and_laptop.mp4",
+   "credit": "",
+   "file": "man_comparing_phone_and_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): man comparing phone and laptop Good for: "
+  },
+  {
+   "id": "lib_man_looking_at_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_looking_at_laptop.mp4",
+   "credit": "",
+   "file": "man_looking_at_laptop.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt scowls with intense focus at a laptop in a dim, warmly lit room, then closes his eyes and rubs his hand near his chin in tired frustration. Good for: frustration with slow or difficult work, such as struggling with a tedious task, debugging, or burning out late at night before finding a better way"
+  },
+  {
+   "id": "lib_man_pointing_at_camera",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_pointing_at_camera.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_pointing_at_camera.mp4",
+   "credit": "",
+   "file": "man_pointing_at_camera.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a dark henley sits in a car seat working on a laptop with a focused look, then looks up with a warm smile and points playfully at the camera in a confident, friendly mood. Good for: a line that moves from focused work or problem-solving to a direct call to action, such as 'here's the trick you need to try' or 'now it's your turn'"
+  },
+  {
+   "id": "lib_man_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "man_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a black t-shirt stares intently at a laptop screen with blurry blue UI elements floating in front of the camera, then grimaces in frustration and mouths a reaction, and finally tilts his head back in exhausted resignation in a dim, warmly lit room. Good for: frustration with slow, tedious, or failing work, such as waiting on a slow tool, hitting an error, or being exhausted by manual tasks before introducing an AI solution"
+  },
+  {
+   "id": "lib_man_shaking_head_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_shaking_head_at_phone.mp4",
+   "credit": "",
+   "file": "man_shaking_head_at_phone.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits in a dark chair looking down at his phone, and his expression shifts from neutral to scrunched-up frustration or confusion, then to a displeased, worried look as he lowers the phone. Good for: frustration or disappointment with a tool or app that isn't working, slow or confusing results, or a bad surprise while checking your phone"
+  },
+  {
+   "id": "lib_man_smiling_at_phone",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_smiling_at_phone.mp4",
+   "credit": "",
+   "file": "man_smiling_at_phone.mp4",
+   "frames": 135,
+   "desc": "B-roll (4.5s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a blue smartphone, his expression shifting from neutral to a furrowed-brow frown of confusion and frustration. Good for: a line about frustration with confusing apps or slow tools, or the moment someone hits a problem and doesn't know what to do next"
+  },
+  {
+   "id": "lib_man_studying_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_studying_with_laptop.mp4",
+   "credit": "",
+   "file": "man_studying_with_laptop.mp4",
+   "frames": 132,
+   "desc": "B-roll (4.4s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits at a desk behind a laptop with a furrowed brow and a frustrated, concentrated look, first staring at the screen, then looking down at an open notebook and writing with a pen, with a warm blurred lamp glowing in the background. Good for: a script line about struggling to understand something complex, frustration with slow or manual work, or the pain of learning a new tool the hard way"
+  },
+  {
+   "id": "lib_man_watching_laptop_waiting",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/man_watching_laptop_waiting.mp4",
+   "credit": "",
+   "file": "man_watching_laptop_waiting.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded young man in a maroon t-shirt sits at a laptop in a dimly lit room with warm lamp light, resting his chin on his fist with a focused, pensive look, and the camera pushes in closer across the three frames. Good for: a script line about deep thinking, researching or problem-solving, or weighing a decision before trying an AI tool"
+  },
+  {
+   "id": "lib_person_drinking_coffee_with_laptop",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_drinking_coffee_with_laptop.mp4",
+   "credit": "",
+   "file": "person_drinking_coffee_with_laptop.mp4",
+   "frames": 93,
+   "desc": "B-roll (3.1s, VERTICAL 9:16 — best as full: true): A bearded man in a green polo sits at a laptop in a modern industrial-style open office, lifting a white cup to his mouth and sipping a hot drink while looking down at the screen, in a calm, focused mood. Good for: a line about taking a breather while the AI does the work, a morning work routine, waiting for a process to finish, or the calm of an automated workflow"
+  },
+  {
+   "id": "lib_person_reacting_to_laptop_screen",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/person_reacting_to_laptop_screen.mp4",
+   "credit": "",
+   "file": "person_reacting_to_laptop_screen.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A bearded man in a maroon t-shirt sits in a car and looks down at a laptop, his expression moving from concern to a deep frown with glowing blue tear-like effects on his cheeks, then to eyes shut in stress or exhaustion; the mood is frustrated and overwhelmed. Good for: A script line about frustration or overwhelm with a tough task, such as struggling with confusing tools, wasting hours on manual work, or being stuck before finding an AI solution."
+  },
+  {
+   "id": "lib_professional_working_on_laptop_late",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/professional_working_on_laptop_late.mp4",
+   "credit": "",
+   "file": "professional_working_on_laptop_late.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A tired bearded young man in a maroon t-shirt sits at a laptop in a dim apartment at night, resting his head on his hand, rubbing his eyes, then glumly lifting a white coffee mug, with blurred city lights glowing behind him through the window. Good for: A script line about burnout, late-night grinding, or frustration with slow manual work that AI tools can speed up, e.g. 'still stuck doing this by hand at midnight?'"
+  },
+  {
+   "id": "lib_robotic_hand_typing_on_keyboard",
+   "kind": "video",
+   "path": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "mp4": "/home/runner/work/ai-news-reels/ai-news-reels/media/broll/robotic_hand_typing_on_keyboard.mp4",
+   "credit": "",
+   "file": "robotic_hand_typing_on_keyboard.mp4",
+   "frames": 234,
+   "desc": "B-roll (7.8s, VERTICAL 9:16 — best as full: true): A close-up of a black robotic hand with segmented, mechanical fingers lowering onto a backlit laptop keyboard and starting to type, shot at shallow depth of field in a warm, softly lit, modern workspace. Good for: A script line about AI doing the work for you, automating repetitive tasks, or AI taking over typing and writing, such as 'let AI handle the busywork' or 'AI writes it for you'."
+  }
+ ],
+ "style": "hisaab",
+ "topic": "Build a reusable Claude 'content skill' or Project that holds your brand voice, offers and customer questions, so one prompt gives you a month of on-brand content plus a posting schedule, without re-explaining your business each time",
+ "pick": {
+  "index": 18,
+  "topic": "Build a reusable Claude 'content skill' or Project that holds your brand voice, offers and customer questions, so one prompt gives you a month of on-brand content plus a posting schedule, without re-explaining your business each time",
+  "tool": "Claude (Projects and Skills)",
+  "format": "tutorial",
+  "angle": "Stop re-explaining your business to AI every time: 3 steps to teach Claude your process once and get a month of content in one chat",
+  "why": "81k views and 434 comments on a business-owner angle ('content needs to bring in customers without taking over my week'). It is a different workflow from our earlier Claude Instagram post (bio, week plan, DMs): a reusable system for monthly batching. Claude's site shows Projects, Skills and pricing on screen."
+ },
+ "inspired_by": {
+  "url": "https://www.instagram.com/p/DfQ3jGNxalZ/",
+  "owner": "imanoubou",
+  "plays": 81022,
+  "likes": 2009,
+  "comments": 434
+ },
+ "research": {
+  "verdict": "adjust",
+  "tool": "Claude (claude.ai) – Projects (project instructions + project knowledge) and Skills (Customize > Skills)",
+  "availability": "Classic Projects: all plans including Free (Free is capped at 5 projects). Skills: Free, Pro, Max, Ultra, Team and Enterprise, but code execution and file creation must be turned on. A redesigned 'new Projects' (beta) is rolling out in stages to Pro, Max and Ultra, and is Claude Code-first. Claude Max/Ultra plans cost more; Pro is $20/month ($17/month billed annually). Web, desktop and mobile apps. Skills are created and uploaded on web/desktop.",
+  "steps": [
+   "Use the classic Projects flow (works on Free and paid): in claude.ai click Projects in the left sidebar (or go to claude.ai/projects) and click '+ New Project' (upper right). Give it a name and description, e.g. 'Brand Content Engine'. Claude does not see the name or description, so put anything important in the instructions or knowledge.",
+   "Open the project and click 'Set project instructions'. Paste a short, stable brief: your role for Claude, brand voice rules, audience, platforms, content pillars, output format ('30-day calendar table: date, platform, format, hook, caption, CTA'), then click 'Save instructions'.",
+   "In the project knowledge panel (right side) click '+' and upload the reference files: brand voice guide with example posts you like, offers/pricing, top customer questions/objections, testimonials. Anthropic says to put stable behaviour in instructions and canonical facts in knowledge.",
+   "Start a new chat inside the project and use one prompt, e.g. 'Create a 30-day content plan for [month]: 3 posts/week on Instagram plus 1 email/week, with scripts and captions in my voice, and a posting schedule table with day, time and CTA.' Every chat in the project uses the instructions and knowledge.",
+   "(Optional Skill step) Enable skills: Settings > Capabilities > turn on 'Code execution and file creation'. Then go to Customize > Skills. Either start a new chat and ask Claude to build a 'monthly content planner' skill from your process and click 'Save skill' on the file it produces, or click '+' > 'Create skill' > 'Upload a skill' and upload a ZIP of a folder containing SKILL.md.",
+   "Test the skill or project with a couple of different prompts, then ask Claude to edit it to fix what is off. Claude updates the skill files for you.",
+   "If you have the new beta Projects (Pro/Max/Ultra only): Projects appears in the sidebar (directly or under 'More'). It works as one conversation with threads, a 'Library' button beside 'Threads', and 'Scheduled tasks'. The labels and steps differ from classic Projects."
+  ],
+  "facts": [
+   "Projects are available to all users, including those with free Claude accounts. Free users can create a maximum of five projects.",
+   "Classic project path: 'Hover over the left side of your account and click Projects' or go to claude.ai/projects. Click '+ New Project' in the upper right corner, then 'Set project instructions', then 'Save instructions'. The project knowledge base is on the right side of the project's main page.",
+   "Project instructions are used for all chats within the project. Context is not shared across chats in a project unless the information is added to the project knowledge base.",
+   "On paid plans, when project knowledge nears the context window limit, Claude automatically enables RAG mode to expand the project's capacity.",
+   "Anthropic says Claude does not receive the project's name or description as context, so repeat anything important in the instructions or knowledge base.",
+   "Skills are folders of instructions, scripts and resources that Claude loads dynamically for specialized tasks. A custom skill is a folder with a SKILL.md file, and Claude loads it when a task matches the skill's description.",
+   "Skills are available on Free, Pro, Max, Ultra, Team and Enterprise plans and require code execution to be enabled (Settings > Capabilities > 'Code execution and file creation').",
+   "All skills are listed in Customize > Skills. To add one, click '+' then 'Create skill'. Claude's own Academy course says the easiest way to create a custom skill is by chatting with Claude, with no code needed, and then using 'Save skill'.",
+   "Claude automatically invokes relevant skills based on the task, with no manual selection needed (Anthropic announcement).",
+   "Skill format follows the open Agent Skills standard (agentskills.io), so skills are not locked to Claude.",
+   "Anthropic recommends separate, focused skills for different workflows rather than one giant skill.",
+   "Prices (Claude pricing, via third-party trackers reading claude.com/pricing in Nov 2026): Free $0; Pro $20/month or $17/month billed annually ($200 up front); Max $100/month (5x Pro usage); Ultra $200/month; Team Standard $25/seat monthly ($20 annual).",
+   "New Projects (beta): one project is one conversation, and Claude splits the work into parallel threads that run in the cloud. Every thread starts with the project's files, repositories, instructions and memory, and the project's Library collects the files you add and the files Claude produces.",
+   "New Projects beta is on Pro, Max and Ultra plans, rolling out gradually. Anthropic has started moving existing projects for some Pro, Max and Ultra users to the new version. Instructions, files, full chat history and scheduled tasks come with them.",
+   "In the new Projects, scheduled work you ask for creates a cloud scheduled task that shows in the project's 'Scheduled tasks' view (Claude Code docs)."
+  ],
+  "do_not_claim": [
+   "Do NOT say Claude posts to Instagram or schedules posts by itself. Nothing found confirms a native Instagram publishing feature. Claude produces the calendar and copy, and you still post manually or with a scheduler. The 'connected everything' claim in the popular reel is unverified.",
+   "Do NOT say that Claude 'produces' videos or finished reels. It writes plans, scripts and captions.",
+   "Do NOT say a Skill or Project guarantees on-brand output with no editing. No source supports this.",
+   "Do NOT say Skills need Pro. Skills are available on Free as well, if code execution is on. (Some older articles and Yahoo's 2025 launch coverage said Pro/Max/Team/Enterprise only, which is outdated.)",
+   "Do NOT say Projects 'remember' across chats on their own. Per the help page, context is not shared across chats in a project unless it is added to project knowledge.",
+   "Do NOT say the 'Record a skill' feature is for this. It is only in Cowork in Claude for Mac on Pro, Max, Ultra and Team, not in chat, on Windows, or on Free/Enterprise.",
+   "Do NOT promise that the free guide in the popular reel's caption, or its exact setup, is verified. There was no transcript, and its 'plan, script, produce and schedule' workflow could not be checked.",
+   "Do NOT quote one-month-of-content as a guaranteed single-response outcome. Output length and usage limits apply, and a 30-day plan may need to be split across 2–4 messages on Free.",
+   "Do NOT use the old label 'Settings > Skills' or say Skills are toggled only in Settings (older Yahoo-era wording). Today's path is Customize > Skills."
+  ],
+  "criticism": [
+   "Usage limits: Free has limited usage every 5 hours and every week, and a long 30-day generation with big knowledge files will use it up quickly. Pro gives at least 5x Free's per-session usage.",
+   "Skills depend on code execution being enabled. If Skills are missing or greyed out, check Settings > Capabilities.",
+   "Free users are limited to five projects.",
+   "The new Projects (beta) is not available to everyone and runs threads on Opus at high effort by default, which draws on plan usage fastest (Claude Code docs, via third-party summary). Beta labels and layout may differ from what the viewer sees.",
+   "Anthropic says instructions consume context alongside the conversation, so keep project instructions concise. Large knowledge bases on Free don't get the automatic RAG expansion, which is a paid-plan feature."
+  ],
+  "ui": {
+   "platforms": "Web (claude.ai) and desktop app are best for setup; iOS/Android apps can chat inside existing projects. Skills uploads and creation are done on web/desktop.",
+   "apps": [
+    "claude.ai (web)",
+    "Claude desktop app (optional)",
+    "Claude Settings > Capabilities",
+    "Claude Customize > Skills"
+   ],
+   "screens": [
+    "Screen 1 – Claude home at claude.ai: left sidebar with 'New chat', then 'Projects' (also 'Chats', 'Artifacts' in some layouts), and the 'Customize' entry. Profile/account menu sits at the bottom-left of the sidebar. The centre has the 'How can I help you today?' prompt box. Layout varies slightly by account and rollout; new Projects beta users may see Projects under 'More'. Exact default theme not verified, so show it in whatever mode the recording is in.",
+    "Screen 2 – Projects page (claude.ai/projects): list of projects with a '+ New Project' button in the top-right. Click it to get the create-project modal with name and description fields ('What are you working on', 'What are you trying to achieve' in one recent walkthrough), then 'Create project'.",
+    "Screen 3 – Inside the project: chat input at the centre with the project's chat list below. A right-hand panel has two sections: the instructions area with 'Set project instructions' (pencil/edit icon), and the project knowledge/Files area with a '+' button to add files. Instruction editor has a 'Save instructions' button.",
+    "Screen 4 – Knowledge panel: after clicking '+', choose to upload files or add text content. Uploaded files appear as cards with file names. Suggested files: 'brand-voice.pdf', 'offers-and-pricing', 'customer-questions'. Exact upload menu labels not verified; keep the recreation generic.",
+    "Screen 5 – Project chat: type the one big prompt; Claude replies with a month-long plan, usually a table (date, platform, format, hook, CTA) plus scripts/captions. This is the payoff screen.",
+    "Screen 6 (optional Skills) – Settings > Capabilities: toggle 'Code execution and file creation'. Then Customize > Skills: a list showing Anthropic's built-in skills (toggles) and personal skills; '+' menu offers 'Create skill', 'Upload a skill', and 'Browse skills'. In the 'Create skill' flow the user can ask Claude in chat to create the skill and then click 'Save skill' on the generated file.",
+    "Screen 7 (new beta Projects, if shown) – Sidebar 'Projects' > 'New project' or 'Get started'. Project header has 'Threads' and a 'Library' button, plus a 'Scheduled tasks' view; Claude posts 'Setup recommendations'. Located at claude.ai/code on web in the first rollout phase."
+   ]
+  },
+  "visuals": "Best shown as a real screen recording: (1) Projects page with '+ New Project', (2) the 'Set project instructions' box filled with a brand-voice brief, (3) the knowledge panel with 3 uploaded files, (4) one prompt typed in a project chat and the resulting 30-day content calendar table. The final calendar/table is the key visual. The generated output can be mocked up, but the UI labels should come from the real app. Use the public help page for the on-screen proof.",
+  "real_pages": [
+   {
+    "url": "https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects",
+    "show": "Set project instructions",
+    "kind": "help"
+   },
+   {
+    "url": "https://support.claude.com/en/articles/12512180-use-skills-in-claude",
+    "show": "Customize > Skills",
+    "kind": "help"
+   },
+   {
+    "url": "https://support.claude.com/en/articles/12512176-what-are-skills",
+    "show": "What are skills?",
+    "kind": "help"
+   },
+   {
+    "url": "https://support.claude.com/en/articles/9517075-what-are-projects",
+    "show": "What are projects?",
+    "kind": "help"
+   },
+   {
+    "url": "https://claude.com/pricing",
+    "show": "Pro",
+    "kind": "site"
+   },
+   {
+    "url": "https://www.anthropic.com/news/skills",
+    "show": "Introducing Claude Skills",
+    "kind": "site"
+   }
+  ],
+  "sources": [
+   "https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects",
+   "https://support.claude.com/en/articles/9517075-what-are-projects",
+   "https://support.claude.com/en/articles/12512180-use-skills-in-claude",
+   "https://support.claude.com/en/articles/12512176-what-are-skills",
+   "https://support.claude.com/en/articles/12512198-how-to-create-custom-skills",
+   "https://academy.claude.com/courses/claude-101/working-with-skills",
+   "https://claude.com/docs/skills/how-to",
+   "https://www.anthropic.com/news/skills",
+   "https://code.claude.com/docs/en/claude-projects",
+   "https://claude.com/resources/articles/projects-redesigned",
+   "https://benchlm.ai/claude/pricing-plans",
+   "https://strategized.ai/learn/claude-pricing-explained/",
+   "https://justinmckelvey.com/blog/claude-ai-pricing"
+  ],
+  "notes": "1) The reel's core idea is valid: a Project (instructions + knowledge) is the simplest way to stop re-explaining your business, and it works on the Free plan. A Skill is the more advanced option, and it needs code execution turned on. Recommend framing the 3 steps as: (1) create the Project and paste your brand voice in 'Set project instructions'; (2) upload offers, customer questions and example posts to project knowledge; (3) run one prompt for a 30-day plan plus a posting schedule table. Mention a Skill as an optional upgrade, built by chatting with Claude and clicking 'Save skill' under Customize > Skills. 2) Projects are mid-transition: a redesigned beta (threads, Library, Scheduled tasks) is rolling out to Pro/Max/Ultra, and some existing projects are being migrated. Menus on the viewer's screen may differ. Say 'Projects' generically and avoid steps that depend on the beta. 3) I could not open claude.com/pricing directly. Prices come from several trackers that read it in Oct–Nov 2026 and agree ($0 / $20 / $17 annual / $100 / $200). Re-check on the live page before filming. 4) Anthropic's pricing page is a live site and the text 'Pro' should be visible; confirm the exact price label ($17 or $20) on screen when recording. 5) Honest angle: 'AI schedule' means a calendar you still have to post yourself; Claude does not publish to Instagram by itself in anything verified here. 6) The popular reel gave no transcript, so none of its steps could be checked. The caption's 'comment SKILL for a free guide' is a lead-gen funnel, not proof of the workflow.",
+  "_searched": 6
+ },
+ "models": {
+  "pick": "claude-sonnet-5-5",
+  "research": "claude-sonnet-5-5",
+  "script": "claude-sonnet-5-5",
+  "edit": "claude-opus-5-5"
+ },
+ "episode": 34,
+ "_ident": {
+  "at": 3.98,
+  "dur": 1.5,
+  "title": "AI HACKS",
+  "type": 0.42,
+  "sub": "EP 34 · CLAUDE PROJECTS"
+ },
+ "timeline": {
+  "words": [
+   [
+    "Stop",
+    0.16
+   ],
+   [
+    "re-explaining",
+    0.56
+   ],
+   [
+    "your",
+    1.36
+   ],
+   [
+    "business",
+    1.64
+   ],
+   [
+    "to",
+    1.92
+   ],
+   [
+    "Claude",
+    2.08
+   ],
+   [
+    "every",
+    2.64
+   ],
+   [
+    "single",
+    3.12
+   ],
+   [
+    "time.",
+    3.44
+   ],
+   [
+    "And",
+    5.687
+   ],
+   [
+    "there's",
+    5.82
+   ],
+   [
+    "one",
+    6.22
+   ],
+   [
+    "box",
+    6.46
+   ],
+   [
+    "almost",
+    6.86
+   ],
+   [
+    "everyone",
+    7.42
+   ],
+   [
+    "fills",
+    7.9
+   ],
+   [
+    "in",
+    8.22
+   ],
+   [
+    "that",
+    8.38
+   ],
+   [
+    "Claude",
+    8.62
+   ],
+   [
+    "never",
+    9.1
+   ],
+   [
+    "reads.",
+    9.42
+   ],
+   [
+    "It",
+    10.14
+   ],
+   [
+    "works",
+    10.3
+   ],
+   [
+    "on",
+    10.62
+   ],
+   [
+    "Free.",
+    10.78
+   ],
+   [
+    "In",
+    11.5
+   ],
+   [
+    "claude.ai,",
+    11.66
+   ],
+   [
+    "click",
+    13.02
+   ],
+   [
+    "Projects,",
+    13.18
+   ],
+   [
+    "then",
+    13.98
+   ],
+   [
+    "+",
+    14.3
+   ],
+   [
+    "New",
+    14.7
+   ],
+   [
+    "Project,",
+    14.94
+   ],
+   [
+    "and",
+    15.66
+   ],
+   [
+    "name",
+    15.86
+   ],
+   [
+    "it",
+    16.14
+   ],
+   [
+    "Brand",
+    16.34
+   ],
+   [
+    "Content",
+    16.78
+   ],
+   [
+    "Engine.",
+    17.26
+   ],
+   [
+    "Click",
+    18.02
+   ],
+   [
+    "Set",
+    18.22
+   ],
+   [
+    "project",
+    18.54
+   ],
+   [
+    "instructions,",
+    19.3
+   ],
+   [
+    "paste",
+    20.02
+   ],
+   [
+    "your",
+    20.22
+   ],
+   [
+    "brand",
+    20.38
+   ],
+   [
+    "voice,",
+    20.7
+   ],
+   [
+    "audience",
+    21.3
+   ],
+   [
+    "and",
+    21.74
+   ],
+   [
+    "calendar",
+    22.06
+   ],
+   [
+    "format,",
+    22.46
+   ],
+   [
+    "then",
+    23.26
+   ],
+   [
+    "Save",
+    23.46
+   ],
+   [
+    "instructions.",
+    23.74
+   ],
+   [
+    "Finally,",
+    24.94
+   ],
+   [
+    "in",
+    25.42
+   ],
+   [
+    "project",
+    25.58
+   ],
+   [
+    "knowledge,",
+    26.18
+   ],
+   [
+    "click",
+    26.66
+   ],
+   [
+    "the",
+    26.86
+   ],
+   [
+    "plus",
+    27.14
+   ],
+   [
+    "and",
+    27.42
+   ],
+   [
+    "upload",
+    27.74
+   ],
+   [
+    "your",
+    27.98
+   ],
+   [
+    "offers,",
+    28.38
+   ],
+   [
+    "customer",
+    28.98
+   ],
+   [
+    "questions",
+    29.26
+   ],
+   [
+    "and",
+    29.9
+   ],
+   [
+    "favourite",
+    30.14
+   ],
+   [
+    "posts.",
+    30.54
+   ],
+   [
+    "Now",
+    31.38
+   ],
+   [
+    "open",
+    31.62
+   ],
+   [
+    "a",
+    31.82
+   ],
+   [
+    "chat",
+    32.06
+   ],
+   [
+    "inside",
+    32.3
+   ],
+   [
+    "the",
+    32.7
+   ],
+   [
+    "project",
+    33.02
+   ],
+   [
+    "and",
+    33.34
+   ],
+   [
+    "type:",
+    33.62
+   ],
+   [
+    "Create",
+    34.167
+   ],
+   [
+    "a",
+    34.46
+   ],
+   [
+    "30-day",
+    34.58
+   ],
+   [
+    "content",
+    35.3
+   ],
+   [
+    "plan",
+    35.62
+   ],
+   [
+    "for",
+    35.82
+   ],
+   [
+    "next",
+    36.1
+   ],
+   [
+    "month:",
+    36.3
+   ],
+   [
+    "3",
+    36.86
+   ],
+   [
+    "Instagram",
+    37.26
+   ],
+   [
+    "posts",
+    37.58
+   ],
+   [
+    "a",
+    37.86
+   ],
+   [
+    "week,",
+    37.98
+   ],
+   [
+    "captions,",
+    38.62
+   ],
+   [
+    "and",
+    39.26
+   ],
+   [
+    "a",
+    39.5
+   ],
+   [
+    "posting",
+    39.66
+   ],
+   [
+    "schedule",
+    40.06
+   ],
+   [
+    "table.",
+    40.46
+   ],
+   [
+    "Catch:",
+    41.353
+   ],
+   [
+    "Claude",
+    41.9
+   ],
+   [
+    "writes",
+    42.22
+   ],
+   [
+    "the",
+    42.62
+   ],
+   [
+    "plan,",
+    42.7
+   ],
+   [
+    "but",
+    43.34
+   ],
+   [
+    "you",
+    43.5
+   ],
+   [
+    "still",
+    43.9
+   ],
+   [
+    "post",
+    44.22
+   ],
+   [
+    "it",
+    44.54
+   ],
+   [
+    "yourself.",
+    44.7
+   ],
+   [
+    "On",
+    45.5
+   ],
+   [
+    "Free,",
+    45.74
+   ],
+   [
+    "a",
+    46.26
+   ],
+   [
+    "month",
+    46.38
+   ],
+   [
+    "may",
+    46.7
+   ],
+   [
+    "take",
+    46.86
+   ],
+   [
+    "2",
+    47.18
+   ],
+   [
+    "to",
+    47.34
+   ],
+   [
+    "4",
+    47.58
+   ],
+   [
+    "messages.",
+    48.02
+   ],
+   [
+    "The",
+    48.757
+   ],
+   [
+    "box",
+    48.98
+   ],
+   [
+    "is",
+    49.26
+   ],
+   [
+    "the",
+    49.42
+   ],
+   [
+    "project",
+    49.7
+   ],
+   [
+    "name",
+    49.98
+   ],
+   [
+    "and",
+    50.3
+   ],
+   [
+    "description.",
+    50.7
+   ],
+   [
+    "Claude",
+    51.42
+   ],
+   [
+    "can't",
+    51.74
+   ],
+   [
+    "see",
+    51.98
+   ],
+   [
+    "either",
+    52.22
+   ],
+   [
+    "one,",
+    52.54
+   ],
+   [
+    "so",
+    53.02
+   ],
+   [
+    "put",
+    53.18
+   ],
+   [
+    "what",
+    53.46
+   ],
+   [
+    "matters",
+    53.62
+   ],
+   [
+    "in",
+    53.98
+   ],
+   [
+    "the",
+    54.1
+   ],
+   [
+    "instructions",
+    54.22
+   ],
+   [
+    "or",
+    54.98
+   ],
+   [
+    "knowledge.",
+    55.1
+   ],
+   [
+    "What",
+    55.98
+   ],
+   [
+    "do",
+    56.22
+   ],
+   [
+    "you",
+    56.38
+   ],
+   [
+    "keep",
+    56.62
+   ],
+   [
+    "re-explaining",
+    56.78
+   ],
+   [
+    "to",
+    57.42
+   ],
+   [
+    "AI?",
+    57.58
+   ],
+   [
+    "Send",
+    58.34
+   ],
+   [
+    "this",
+    58.54
+   ],
+   [
+    "to",
+    58.66
+   ],
+   [
+    "the",
+    58.78
+   ],
+   [
+    "friend",
+    58.98
+   ],
+   [
+    "who",
+    59.18
+   ],
+   [
+    "pastes",
+    59.42
+   ],
+   [
+    "the",
+    59.66
+   ],
+   [
+    "same",
+    60.06
+   ],
+   [
+    "brand",
+    60.34
+   ],
+   [
+    "brief",
+    60.54
+   ],
+   [
+    "into",
+    60.86
+   ],
+   [
+    "every",
+    61.34
+   ],
+   [
+    "chat.",
+    61.66
+   ],
+   [
+    "Hack",
+    62.3
+   ],
+   [
+    "saved?",
+    62.54
+   ]
+  ],
+  "duration": 63.2,
+  "ident": {
+   "at": 3.98,
+   "dur": 1.5,
+   "title": "AI HACKS",
+   "type": 0.42,
+   "sub": "EP 34 · CLAUDE PROJECTS"
+  },
+  "scenes": [
+   {
+    "t": 0.0,
+    "shows": [
+     "footage:lib_man_reacting_to_laptop_screen",
+     "title_slam:STOP",
+     "pill:EVERY. SINGLE. TIME."
+    ]
+   },
+   {
+    "t": 5.69,
+    "shows": [
+     "object3d:",
+     "pill:REVEAL AT THE END"
+    ]
+   },
+   {
+    "t": 10.14,
+    "shows": [
+     "app:Claude"
+    ]
+   },
+   {
+    "t": 11.5,
+    "shows": [
+     "screen:Step 1 · Create the project"
+    ]
+   },
+   {
+    "t": 18.22,
+    "shows": [
+     "screen:Step 2 · Teach it your brand"
+    ]
+   },
+   {
+    "t": 24.94,
+    "shows": [
+     "screen:Step 3 · Add knowledge"
+    ]
+   },
+   {
+    "t": 31.38,
+    "shows": [
+     "label:REAL CLAUDE MENU",
+     "footage:real_1_shot1"
+    ]
+   },
+   {
+    "t": 32.3,
+    "shows": [
+     "footage:real_1_shot2",
+     "pill:CHAT INSIDE THE PROJECT"
+    ]
+   },
+   {
+    "t": 34.17,
+    "shows": [
+     "screen:Step 4 · One prompt"
+    ]
+   },
+   {
+    "t": 41.35,
+    "shows": [
+     "label:THE CATCH",
+     "stat_row:"
+    ]
+   },
+   {
+    "t": 48.76,
+    "shows": [
+     "object3d:",
+     "vs:"
+    ]
+   },
+   {
+    "t": 55.98,
+    "shows": [
+     "headline:WHAT DO YOU RE-EXPLAIN?"
+    ]
+   }
+  ],
+  "beats": [
+   36.41,
+   38.03,
+   45.7
+  ]
+ }
+}

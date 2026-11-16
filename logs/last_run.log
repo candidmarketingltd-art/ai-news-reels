@@ -4,28 +4,46 @@
   BUFFER_API_KEY: set
   BUFFER_CHANNEL_ID: set
       voice: Rohan 0ynj1kxK93EAXGRqL9Rm (found by name in this workspace)
-window 2026-11-15-2000 | posting times 13:00, 17:00, 20:00 IST | dry_run=False
-      reel type: business
+window 2026-11-16-1300 | posting times 13:00, 17:00, 20:00 IST | dry_run=False
+      reel type: marketing
       b-roll library: 25 clips
-[1/6] businesses making money (TrustMRR)
-      trustmrr: 223 startups from 11 lists
-[2/6] picking the business
-      → rybbit-analytics: An open-source Google Analytics replacement went from zero to about $10K/month, and anyone can read the code — Open-source growth is a tactic viewers can copy. It's a clear niche with a public site and GitHub to look at, and the recurring revenue is v
-[3/6] research: Rybbit · MRR $9,607 · 30d $9,014
+[1/6] top AI & tech reels
+      hashtag scrape failed: apify apify/instagram-hashtag-scraper: 401 {
+  "error": {
+    "type": "user-or-token-not-found",
+    "message": "User was not found or authentication token is not valid"
+  }
+}
+      using the last saved reel pool
+      reel pool: 76 reels
+[2/6] picking the topic
+      → Build a reusable Claude 'content skill' or Project that holds your brand voice, offers and customer questions, so one prompt gives you a month of on-brand content plus a posting schedule, without re-explaining your business each time  (tutorial, from @imanoubou, 81,022 views) — 81k views and 434 comments on a business-owner angle ('content needs to bring in customers without taking over my week'). It is a different workflow from our ea
+      transcript failed: apify apify/instagram-reel-scraper: 401 {
+  "error": {
+    "type": "user-or-token-not-found",
+    "message": "User was not found or authentication token is not valid"
+  }
+}
+[3/6] research (0 transcript words)
+      verdict adjust · 6 web searches · 7 steps · 13 sources
 [4/6] script + edit
-      real screens: 4 usable of 6 captured from 3 official pages
-      (media: pexels 'analytics dashboard' failed: 401 Client Error: Unauthorized for url: https://api.apify.com/v2/acts/memo23~pex)
-      (media: pexels 'developer coding laptop' failed: 401 Client Error: Unauthorized for url: https://api.apify.com/v2/acts/memo23~pex)
-      media: s1_image, s1_logo
+      real screens: 3 usable of 9 captured from 4 official pages
+      (media: https://claude.ai/projects -> 403 Client Error: Forbidden for url: https://claude.ai/projects)
+      (media: https://claude.ai/code -> 403 Client Error: Forbidden for url: https://claude.ai/code)
+      (media: https://claude.ai/admin-settings/skills -> 403 Client Error: Forbidden for url: https://claude.ai/admin-settings/skills)
+      (media: https://claude.ai/ -> 403 Client Error: Forbidden for url: https://claude.ai/)
+      (media: pexels 'typing on laptop' failed: 401 Client Error: Unauthorized for url: https://api.apify.com/v2/acts/memo23~pex)
+      (media: pexels 'content calendar planning' failed: 401 Client Error: Unauthorized for url: https://api.apify.com/v2/acts/memo23~pex)
+      media: s1_logo
 [5/6] voice + render
-      [eleven] subscription: 200 {"tier":"creator","character_count":36494,"character_limit":131000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796464027,"voice_slots_used":1,"professional_voice_slots
+      [eleven] subscription: 200 {"tier":"creator","character_count":37520,"character_limit":131000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796464027,"voice_slots_used":1,"professional_voice_slots
       [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
-      voice check: 1 word(s) misheard [('billed', 'built')] -> recording another take
-      [eleven] subscription: 200 {"tier":"creator","character_count":36494,"character_limit":131000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796464027,"voice_slots_used":1,"professional_voice_slots
+      voice check: 6 word(s) misheard [('set', 'sec'), ('plus', ''), ('favourite', 'favorite'), ('post it', 'posted'), ('pastes', 'pays')] -> recording another take
+      [eleven] subscription: 200 {"tier":"creator","character_count":37520,"character_limit":131000,"max_character_limit_extension":0,"max_credit_limit_extension":0,"can_extend_character_limit":false,"allowed_to_extend_character_limit":false,"next_character_count_reset_unix":1796464027,"voice_slots_used":1,"professional_voice_slots
       [eleven] models: 200 ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3', 'eleven_v3_conversational', 'eleven_multilingual_v2', 'eleven_flash_v2_5', 'eleven_turbo_v2_5', 'eleven_turbo_v2', 'eleven_flash_v2', 'eleven_english_sts_v2', 'eleven_multilingual_sts_v2']
-      take 2: 1 misheard [('billed', 'build')]
-      198 words, 73.7s, voice eleven_v4
-      remotion: Reel /tmp/tmp_ib3ur7x/video_only.mp4
+      take 2: 5 misheard [('plus', ''), ('favourite posts now', 'favorite postsnow'), ('post it yourself on', 'posted yourselfon'), ('pastes', 'pays'), ('every chat hack saved', 'everything reach out')]
+      163 words, 61.7s, voice eleven_v4
+      remotion: Reel /tmp/tmprr6k19tk/video_only.mp4
 [6/6] publish
-      [buffer] created post 6af9c56ab9a106584cb4b4a5 (customScheduled)
-POSTED 6af9c56ab9a106584cb4b4a5 https://github.com/candidmarketingltd-art/ai-news-reels/releases/download/reel-2026-11-15_2002/2026-11-15_2002.mp4
+      [buffer] created post 6afab44660a910801c7926c8 (customScheduled)
+POSTED 6afab44660a910801c7926c8 https://github.com/candidmarketingltd-art/ai-news-reels/releases/download/reel-2026-11-16_1302/2026-11-16_1302.mp4
